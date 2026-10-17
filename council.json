@@ -6,7 +6,26 @@
   "place": "Place 1",
   "role": "Mayor Pro Tem",
   "photo": "jana-shelton",
-  "summary": "Jana Shelton holds Place 1 on the Hanceville City Council and serves as Mayor Pro Tem."
+  "term": "Elected August 2025. Term began November 2025.",
+  "summary": "Jana Shelton holds Place 1 on the City Council and serves as Mayor Pro Tem, so she steps in for the Mayor when he is absent. Voters elected her in August 2025, and the council picked her as Mayor Pro Tem in February 2026 after Nolan Bradford moved up to Mayor. At an April 2026 meeting she asked residents to volunteer with the Cullman County Commission on Aging and its Meals on Wheels program.",
+  "sources": [
+   [
+    "City of Hanceville, City Council page",
+    "https://www.cityofhanceville.net/o/coh/page/city-council"
+   ],
+   [
+    "The Cullman Times, Aug. 27, 2025",
+    "https://cullmantimes.com/2025/08/27/hanceville-city-council-campbell-wins-mayors-race-shelton-rowe-join-incumbent-brown-on-council/"
+   ],
+   [
+    "The Cullman Times, Feb. 16, 2026",
+    "https://cullmantimes.com/2026/02/16/nolan-bradford-sworn-in-as-hanceville-mayor/"
+   ],
+   [
+    "The Cullman Tribune, Apr. 11, 2026",
+    "https://www.cullmantribune.com/2026/04/11/hanceville-council-talks-online-youth-sports-registration/"
+   ]
+  ]
  },
  {
   "group": "Council Members",
@@ -15,7 +34,30 @@
   "place": "Place 2",
   "role": "Councilor",
   "photo": "robert-powell",
-  "summary": "Robert Powell holds Place 2 on the Hanceville City Council."
+  "term": "Elected unopposed in 2025. Term began November 2025.",
+  "summary": "Robert Powell holds Place 2. He ran unopposed in 2025, and before joining the council he served on the city Planning Commission and taught government and economics at a Hanceville school. He has said he wants to modernize city records and put the ordinances online. In 2026 he brought forward proposals on zoning for payday lenders and pawn shops and on the use of city vehicles.",
+  "sources": [
+   [
+    "City of Hanceville, City Council page",
+    "https://www.cityofhanceville.net/o/coh/page/city-council"
+   ],
+   [
+    "The Cullman Times, July 16, 2025",
+    "https://cullmantimes.com/2025/07/16/hanceville-approves-unopposed-incoming-council-members-robert-powell-and-nolan-bradford-will-join-council-in-november/"
+   ],
+   [
+    "ABC 33/40, Aug. 27, 2025",
+    "https://abc3340.com/news/local/new-leadership-in-hanceville-signifies-city-ready-to-move-forward-election-day-campbell-mayor-new-council"
+   ],
+   [
+    "The Cullman Times, Mar. 17, 2026",
+    "https://cullmantimes.com/2026/03/17/carla-whittaker-cain-joins-hanceville-city-council/"
+   ],
+   [
+    "The Cullman Tribune, Oct. 15, 2026",
+    "https://www.cullmantribune.com/2026/10/15/hanceville-council-addresses-roads-vehicle-policy-leadership-changes-fire-chief/"
+   ]
+  ]
  },
  {
   "group": "Council Members",
@@ -24,7 +66,26 @@
   "place": "Place 3",
   "role": "Councilor",
   "photo": "kim-brown",
-  "summary": "Kim Brown holds Place 3 on the Hanceville City Council."
+  "term": "Reelected August 2025 to her fifth term.",
+  "summary": "Kim Brown holds Place 3 and is serving her fifth term on the council. She was the only sitting member who ran again in 2025, and she said she wanted to help win back public trust after several city police officers were indicted. In February 2026 she cast the only vote against dissolving the city police department and municipal court.",
+  "sources": [
+   [
+    "City of Hanceville, City Council page",
+    "https://www.cityofhanceville.net/o/coh/page/city-council"
+   ],
+   [
+    "ABC 33/40, Aug. 27, 2025",
+    "https://abc3340.com/news/local/new-leadership-in-hanceville-signifies-city-ready-to-move-forward-election-day-campbell-mayor-new-council"
+   ],
+   [
+    "The Cullman Times, Aug. 27, 2025",
+    "https://cullmantimes.com/2025/08/27/hanceville-city-council-campbell-wins-mayors-race-shelton-rowe-join-incumbent-brown-on-council/"
+   ],
+   [
+    "ABC 33/40, Feb. 12, 2026",
+    "https://abc3340.com/news/local/hanceville-appoints-mayor-dissolves-police-department-and-municipal-court-system-cullman-indictments-law-enforcement"
+   ]
+  ]
  },
  {
   "group": "Council Members",
@@ -33,7 +94,26 @@
   "place": "Place 4",
   "role": "Councilor",
   "photo": "cameron-rowe",
-  "summary": "Cameron Rowe holds Place 4 on the Hanceville City Council and also sits on the Planning Commission."
+  "term": "Elected August 2025. Term began November 2025.",
+  "summary": "Cameron Rowe holds Place 4. He won the seat in August 2025 and said his goals were to rebuild trust in the council and make the town more inviting. On Oct. 8, 2026, the council appointed him to the Planning Commission.",
+  "sources": [
+   [
+    "City of Hanceville, City Council page",
+    "https://www.cityofhanceville.net/o/coh/page/city-council"
+   ],
+   [
+    "ABC 33/40, Aug. 27, 2025",
+    "https://abc3340.com/news/local/new-leadership-in-hanceville-signifies-city-ready-to-move-forward-election-day-campbell-mayor-new-council"
+   ],
+   [
+    "The Cullman Tribune, Oct. 15, 2026",
+    "https://www.cullmantribune.com/2026/10/15/hanceville-council-addresses-roads-vehicle-policy-leadership-changes-fire-chief/"
+   ],
+   [
+    "City of Hanceville, Planning Commission page",
+    "https://www.cityofhanceville.net/o/coh/page/planning-commission"
+   ]
+  ]
  },
  {
   "group": "Council Members",
@@ -42,7 +122,18 @@
   "place": "Place 5",
   "role": "Councilor",
   "photo": "carla-cain",
-  "summary": "Carla Cain holds Place 5 on the Hanceville City Council."
+  "term": "Appointed March 12, 2026, to finish the current term.",
+  "summary": "Carla Whittaker Cain holds Place 5. The council appointed her on March 12, 2026, to fill the seat that opened when Nolan Bradford became Mayor, and she was sworn in that same night.",
+  "sources": [
+   [
+    "City of Hanceville, City Council page",
+    "https://www.cityofhanceville.net/o/coh/page/city-council"
+   ],
+   [
+    "The Cullman Times, Mar. 17, 2026",
+    "https://cullmantimes.com/2026/03/17/carla-whittaker-cain-joins-hanceville-city-council/"
+   ]
+  ]
  },
  {
   "group": "Council Members",
@@ -50,7 +141,25 @@
   "type": "Mayor",
   "place": "Mayor",
   "role": "Mayor",
-  "summary": "Mayor Nolan Bradford leads city government and, in Hanceville, also votes as a member of the City Council.",
-  "link": "council.html#council_members"
+  "link": "council.html#council_members",
+  "phone": "(256) 352-9811",
+  "email": "mayor@cityofhanceville.net",
+  "address": "112 Main Street SE, Hanceville, AL 35077",
+  "term": "Appointed Mayor Feb. 12, 2026.",
+  "summary": "Nolan Bradford has been Mayor since February 2026, when the council appointed him after Mayor Paul Campbell resigned. He was elected to the council in 2025 and was serving as Mayor Pro Tem at the time. Before that he spent about ten years in local roles, including chairing the Planning Commission and the Industrial Development Board and serving as vice chairman of the water board. In Hanceville the Mayor also votes as a member of the council.",
+  "sources": [
+   [
+    "City of Hanceville, City Departments page",
+    "https://www.cityofhanceville.net/o/coh/page/city-departments"
+   ],
+   [
+    "The Cullman Times, Feb. 16, 2026",
+    "https://cullmantimes.com/2026/02/16/nolan-bradford-sworn-in-as-hanceville-mayor/"
+   ],
+   [
+    "The Cullman Times, July 16, 2025",
+    "https://cullmantimes.com/2025/07/16/hanceville-approves-unopposed-incoming-council-members-robert-powell-and-nolan-bradford-will-join-council-in-november/"
+   ]
+  ]
  }
 ]

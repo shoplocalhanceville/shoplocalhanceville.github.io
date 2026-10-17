@@ -66,14 +66,6 @@
   "source": "https://www.cityofhanceville.net/o/coh/page/city-council"
  },
  {
-  "group": "City Hall & Government",
-  "name": "Hanceville Municipal Court",
-  "summary": "The Municipal Court handles city citations, and you can look up and pay tickets online through its payment portal.",
-  "address": "112 Main Street SE, Hanceville",
-  "phone": "(256) 352-1208",
-  "website": "https://www.ncourt.com/X-Press/X-Onlinepayments.aspx?Juris=84CD03A4-8209-44C6-BFA0-51A06101BFA8"
- },
- {
   "group": "Public Safety",
   "name": "Emergency: Call 911",
   "summary": "For any emergency in Hanceville, dial 911 and Cullman County E911 will send help right away.",
