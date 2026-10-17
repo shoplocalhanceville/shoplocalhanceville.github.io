@@ -1,0 +1,166 @@
+[
+  {
+    "group": "Crisis & Emergency",
+    "name": "Emergency: Call 911",
+    "summary": "For any emergency where someone is hurt or in danger, call 911 right away.",
+    "phone": "911"
+  },
+  {
+    "group": "Crisis & Emergency",
+    "name": "988 Suicide and Crisis Lifeline",
+    "summary": "Call or text 988 any time, day or night, to talk with someone who cares. It is free and private.",
+    "phone": "988",
+    "website": "https://mh.alabama.gov/emergency-numbers-for-mental-illness/"
+  },
+  {
+    "group": "Crisis & Emergency",
+    "name": "Alabama Domestic Violence Hotline",
+    "summary": "If you are being hurt at home, call this free hotline any time to find safety and the nearest shelter.",
+    "phone": "1-800-650-6522",
+    "website": "https://acadv.org/get-help/"
+  },
+  {
+    "group": "Crisis & Emergency",
+    "name": "Poison Control",
+    "summary": "Call right away if someone may have swallowed or touched something harmful.",
+    "phone": "1-800-222-1222",
+    "website": "https://cullman911.org/emergency/"
+  },
+  {
+    "group": "Everyone",
+    "name": "Cullman County Health Department",
+    "summary": "The local health department offers clinic services like shots and health care by appointment on weekdays.",
+    "phone": "(256) 734-1030",
+    "address": "601 Logan Avenue SW, Cullman",
+    "website": "https://www.alabamapublichealth.gov/cullman/"
+  },
+  {
+    "group": "Everyone",
+    "name": "Cullman County DHR",
+    "summary": "The Department of Human Resources helps with food assistance (SNAP), family assistance, child support and adult services.",
+    "phone": "(256) 737-5300",
+    "address": "1220 St. Joseph Street NW, Cullman",
+    "website": "https://dhr.alabama.gov/county-office-contact/"
+  },
+  {
+    "group": "Everyone",
+    "name": "Alabama Department of Rehabilitation Services",
+    "summary": "Helps people with disabilities get training and find work. The Decatur office serves Cullman County.",
+    "phone": "(256) 353-2754",
+    "address": "4104 Highway 31 S, Building 2, Decatur",
+    "website": "https://rehab.alabama.gov/"
+  },
+  {
+    "group": "Everyone",
+    "name": "United Way 211",
+    "summary": "Dial 211 to be connected with local help for food, housing, bills, child care and much more.",
+    "phone": "211",
+    "website": "https://www.uwaycc.org/2-1-1"
+  },
+  {
+    "group": "Everyone",
+    "name": "Cullman Housing Authority",
+    "summary": "Provides affordable public housing for families and individuals who qualify.",
+    "phone": "(256) 734-6171",
+    "website": "https://cullmanha.com/contact-us/"
+  },
+  {
+    "group": "Everyone",
+    "name": "Cullman County Extension Office (ACES)",
+    "summary": "Offers free classes and advice on gardening, farming, food safety, family life and 4H for kids.",
+    "phone": "(256) 737-9386",
+    "website": "https://www.aces.edu/counties/cullman/"
+  },
+  {
+    "group": "Women",
+    "name": "WIC and Family Planning",
+    "summary": "The Cullman County Health Department offers WIC nutrition help for moms, babies and young kids, plus family planning services.",
+    "phone": "(256) 734-1030",
+    "address": "601 Logan Avenue SW, Cullman",
+    "website": "https://www.alabamapublichealth.gov/cullman/services.html"
+  },
+  {
+    "group": "Women",
+    "name": "The Willow Path",
+    "summary": "Formerly Victim Services of Cullman, this group offers a 24 hour crisis line and emergency shelter for people facing abuse.",
+    "phone": "(256) 734-6100",
+    "address": "310 3rd Avenue NE, Cullman",
+    "website": "https://thewillowpath.org/"
+  },
+  {
+    "group": "Men",
+    "name": "Alabama Career Center, Cullman",
+    "summary": "Free help finding a job, building a resume and getting job training.",
+    "phone": "(256) 734-5580",
+    "address": "1201 Katherine Street NW, Cullman",
+    "website": "https://alabamaworks.com/north/"
+  },
+  {
+    "group": "Men",
+    "name": "WellStone Cullman",
+    "summary": "Formerly Mental Healthcare of Cullman, WellStone offers mental health and substance use care for adults and youth.",
+    "phone": "(256) 734-4688",
+    "address": "1909 Commerce Avenue NW, Cullman",
+    "website": "https://wellstone.com/service-locations/wellstone-cullman-campus/"
+  },
+  {
+    "group": "Children & Families",
+    "name": "ALL Kids and Medicaid for Children",
+    "summary": "Low cost or free health coverage for kids. Call to apply or to get an application mailed to you.",
+    "phone": "1-888-373-5437",
+    "website": "https://www.alabamapublichealth.gov/allkids/how-to-apply.html"
+  },
+  {
+    "group": "Children & Families",
+    "name": "Brooks' Place Child Advocacy Center",
+    "summary": "Supports children who may have been abused, and their families, with caring help.",
+    "phone": "(256) 739-2243",
+    "address": "1003 4th Avenue NE, Cullman",
+    "website": "https://www.cullmancac.com/"
+  },
+  {
+    "group": "Children & Families",
+    "name": "Cullman Caring for Kids",
+    "summary": "A local nonprofit food pantry that helps families in need.",
+    "phone": "(256) 739-1111",
+    "address": "402 Arnold Street NE, Cullman",
+    "website": "https://cullmancaringforkids.com"
+  },
+  {
+    "group": "Children & Families",
+    "name": "DHR Family and Child Services",
+    "summary": "Cullman County DHR handles child protection, foster care and support for families.",
+    "phone": "(256) 737-5300",
+    "address": "1220 St. Joseph Street NW, Cullman",
+    "website": "https://dhr.alabama.gov/county-office-contact/"
+  },
+  {
+    "group": "Seniors",
+    "name": "NARCOG Area Agency on Aging",
+    "summary": "Helps seniors and caregivers in Cullman County with in home help, meals, Medicare questions and more.",
+    "phone": "(256) 355-4515",
+    "website": "https://www.narcog.org/serving-people/area-agency-on-aging"
+  },
+  {
+    "group": "Seniors",
+    "name": "Hanceville Senior Center",
+    "summary": "Meals, crafts, music and friendly company for seniors on weekday mornings.",
+    "phone": "(256) 352-4733",
+    "address": "209 Michelle Street NW, Hanceville"
+  },
+  {
+    "group": "Veterans",
+    "name": "Cullman County Veterans Service Office",
+    "summary": "Free help for veterans and families applying for VA benefits. Located in the Cullman County Courthouse.",
+    "phone": "(256) 775-4662",
+    "address": "500 2nd Avenue SW, Room 109, Cullman",
+    "website": "https://va.alabama.gov/"
+  },
+  {
+    "group": "Veterans",
+    "name": "Veterans Crisis Line",
+    "summary": "Veterans in crisis can call or text 988 any time and ask for veteran support.",
+    "phone": "988",
+    "website": "https://www.wallacestate.edu/student-resources/mentalhealth.html"
+  }
+]

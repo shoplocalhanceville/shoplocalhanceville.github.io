@@ -17,3 +17,6 @@ Entries live in `directory.json`. Fields: `group` (one of: Schools, City Hall & 
 
 ## Updating the Business Directory
 Entries live in `businesses.json`. Fields: `category` (Restaurants & Food, Shopping & Retail, Services, Manufacturing & Industry, Other), `name`, `type`, `address`, `summary` (required), plus optional `phone`, `website`, `facebook`. The list sorts alphabetically, and the search box and category chips work automatically. Sources are tracked in `/workspace/hanceville/landing/business-sources.md`.
+
+## Updating Wallace State Services and Community Resources
+`wallace.json` and `resources.json` use the same fields: `group`, `name`, `summary`, `phone` (required), plus optional `email`, `address`, `website`. Group names must match the list in the page script (Wallace: Getting Started, Paying for College, Help in the Classroom, Careers and Training, Health, Safety and Support, Campus Life. Resources: Crisis & Emergency, Everyone, Women, Men, Children & Families, Seniors, Veterans). Sources: `wallace-sources.md` and `resources-sources.md` in `/workspace/hanceville/landing/`.
