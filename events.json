@@ -243,12 +243,12 @@
  {
   "name": "Hanceville City Council Meeting",
   "start": "2026-10-22",
-  "time": "6:00 PM",
+  "time": "6:00 PM work session, regular meeting right after",
   "venue": "Hanceville City Hall, 112 Main St SE",
   "town": "Hanceville",
   "host": "City of Hanceville",
   "cost": "Free and open to the public",
-  "summary": "Regular council meetings are free and open to the public. Sitting in is the easiest way to see how decisions about Hanceville get made.",
+  "summary": "The City Council holds a work session at 6:00 PM, followed right away by its regular meeting. Residents are welcome to attend and speak during public comments. The agenda is posted on the city's website ahead of time.",
   "url": "https://www.cityofhanceville.net/o/coh/page/city-council",
   "tags": [
    "city council",
@@ -596,8 +596,8 @@
  {
   "name": "16th Annual Mud Creek Arts and Crafts Festival",
   "start": "2026-11-07",
-  "time": "Starts 9:00 AM",
-  "venue": "Historic Downtown Hanceville, 106 Commercial St",
+  "time": "9:00 AM to 4:00 PM",
+  "venue": "Historic Downtown Hanceville, 110 Commercial St",
   "town": "Hanceville",
   "host": "Hanceville Friends of the Festival",
   "cost": "Free to attend",
@@ -885,5 +885,41 @@
    "bulldogs",
    "home game"
   ]
+ },
+ {
+  "name": "Hanceville Planning Commission Meeting",
+  "start": "2026-10-26",
+  "time": "6:00 PM",
+  "venue": "Hanceville Civic Center, 902 Commercial St",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The Planning Commission meets about zoning, land subdivision and development plans in the city. Anyone may attend.",
+  "url": "https://www.cityofhanceville.net/events",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Events and Community Development Committee Meeting",
+  "start": "2026-11-02",
+  "time": "6:00 PM",
+  "venue": "Shirley Burden Public Library, 201 Commercial St",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The city's events committee plans community events and works on tourism and local partnerships. Residents with ideas are welcome to come.",
+  "url": "https://www.cityofhanceville.net/page/events-community-development-committee",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville City Council Meeting",
+  "start": "2026-11-12",
+  "time": "6:00 PM work session, regular meeting right after",
+  "venue": "Hanceville City Hall, 112 Main St SE",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The City Council holds a work session at 6:00 PM, followed right away by its regular meeting. The city announced this date on its Oct. 8 agenda.",
+  "url": "https://www.cityofhanceville.net/o/coh/page/city-council",
+  "group": "Community and Fun"
  }
 ]

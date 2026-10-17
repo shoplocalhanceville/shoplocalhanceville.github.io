@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Council//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hanceville-city-council-20261126@hanceville-entertainment-shopping
+DTSTAMP:20261017T120000Z
+DTSTART;TZID=America/Chicago:20261126T180000
+DTEND;TZID=America/Chicago:20261126T193000
+SUMMARY:Hanceville City Council Meeting
+LOCATION:Hanceville City Hall\, 112 Main Street SE\, Hanceville\, AL 3507
+ 7
+DESCRIPTION:Work session at 6:00 PM\, followed by the regular Hanceville 
+ City Council meeting. Open to the public. This date falls on Thanksgiving
+  Day\, so check the city calendar for changes. https://www.cityofhancevil
+ le.net/o/coh/page/city-council
+URL:https://www.cityofhanceville.net/o/coh/page/city-council
+END:VEVENT
+END:VCALENDAR

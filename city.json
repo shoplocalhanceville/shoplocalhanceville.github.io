@@ -1,0 +1,269 @@
+[
+ {
+  "group": "City Offices",
+  "name": "Hanceville City Hall",
+  "type": "City government",
+  "summary": "City Hall is the main office for city business. Call here for the City Clerk, permits, business licenses, facility rentals and general questions.",
+  "address": "112 Main Street SE, Hanceville, AL 35077",
+  "phone": "(256) 352-9830",
+  "website": "https://www.cityofhanceville.net/",
+  "source": "https://www.cityofhanceville.net/o/coh/page/city-departments"
+ },
+ {
+  "group": "City Offices",
+  "name": "Mayor's Office",
+  "type": "City government",
+  "summary": "The Mayor leads city departments, works with the council on policies and budgets, and in Hanceville also votes as a member of the City Council.",
+  "address": "112 Main Street SE, Hanceville, AL 35077",
+  "phone": "(256) 352-9811",
+  "email": "mayor@cityofhanceville.net",
+  "website": "https://www.cityofhanceville.net/o/coh/page/mayors-office",
+  "source": "https://www.cityofhanceville.net/o/coh/page/city-departments"
+ },
+ {
+  "group": "City Offices",
+  "name": "City Council",
+  "type": "City government",
+  "summary": "Five council members and the Mayor set city policy, pass ordinances and approve the budget. Regular meetings are the second and fourth Thursday of each month at 6:00 PM at City Hall.",
+  "address": "112 Main Street SE, Hanceville, AL 35077",
+  "phone": "(256) 352-9830",
+  "website": "https://shoplocalhanceville.github.io/council.html",
+  "source": "https://www.cityofhanceville.net/o/coh/page/city-council"
+ },
+ {
+  "group": "City Offices",
+  "name": "Permits, Business Licenses and Rentals",
+  "type": "City Hall service",
+  "summary": "Building permits, new construction permits, business licenses and alcohol beverage license applications are handled at City Hall. You can download the forms from the city's documents page.",
+  "address": "112 Main Street SE, Hanceville, AL 35077",
+  "phone": "(256) 352-9830",
+  "website": "https://www.cityofhanceville.net/documents/permits/25555107",
+  "how": "Download the form, fill it out and bring it to City Hall, or call with questions.",
+  "source": "https://www.cityofhanceville.net/o/coh/page/quick-information-and-how-do-i"
+ },
+ {
+  "group": "City Offices",
+  "name": "Car Tags, Titles and Property Taxes (County Satellite Office)",
+  "type": "Cullman County service",
+  "summary": "A satellite office of the Cullman County courthouse inside City Hall handles vehicle tags, titles, mobile home renewals and property taxes, so you don't have to drive to Cullman.",
+  "address": "112 Main Street SE, Hanceville, AL 35077",
+  "phone": "(256) 352-6036",
+  "website": "https://cullmantagrenewals.countygovservices.com/Home/Requirements",
+  "how": "Renew a tag online with the website button, or stop by City Hall.",
+  "source": "https://www.cityofhanceville.net/o/coh/page/quick-information-and-how-do-i"
+ },
+ {
+  "group": "City Offices",
+  "name": "City Job Openings",
+  "type": "Employment",
+  "summary": "The city posts open jobs on its employment page and takes applications at City Hall. As of Oct. 17, 2026, the city lists no open positions. The City of Hanceville is an Equal Opportunity Employer.",
+  "address": "112 Main Street SE, Hanceville, AL 35077",
+  "phone": "(256) 352-9830",
+  "website": "https://www.cityofhanceville.net/o/coh/page/job-opportunities",
+  "source": "https://www.cityofhanceville.net/o/coh/page/job-opportunities"
+ },
+ {
+  "group": "City Offices",
+  "name": "City Alerts by Text, Call or Email",
+  "type": "Official city alerts",
+  "summary": "Sign up on the city's website to get official notices about road closures, utility work, storm shelters and community events by text, phone call or email.",
+  "website": "https://www.cityofhanceville.net/forms/signup-for-alerts",
+  "source": "https://www.cityofhanceville.net/forms/signup-for-alerts"
+ },
+ {
+  "group": "City Offices",
+  "name": "City of Hanceville on YouTube",
+  "type": "Council meeting videos",
+  "summary": "The city posts recordings of City Council meetings and public announcements on its official YouTube channel.",
+  "website": "https://www.youtube.com/@OfficialCityofHancevilleAL",
+  "source": "https://www.cityofhanceville.net/live-feed"
+ },
+ {
+  "group": "Public Safety",
+  "name": "Emergency: Call 911",
+  "type": "Emergency",
+  "summary": "Call 911 for any fire, medical emergency or crime in progress. It is free and answered 24 hours a day.",
+  "phone": "911",
+  "website": "https://cullman911.org/"
+ },
+ {
+  "group": "Public Safety",
+  "name": "Hanceville Fire and Rescue",
+  "type": "Fire department",
+  "summary": "Hanceville Fire and Rescue answers emergency calls around the clock. Call the non emergency line for burn permits, the smoke alarm installation program and general questions. For emergencies, call 911.",
+  "address": "119 Collins Avenue, Hanceville, AL 35077",
+  "phone": "(256) 352-5544",
+  "website": "https://www.cityofhanceville.net/o/coh/page/fire-department",
+  "source": "https://www.cityofhanceville.net/o/coh/page/fire-department"
+ },
+ {
+  "group": "Public Safety",
+  "name": "Storm Shelter: Behind the Library",
+  "type": "Public storm shelter",
+  "summary": "Holds up to 90 people. Public Works opens the city's storm shelters during a Tornado Watch.",
+  "address": "202 Bangor Avenue SE, Hanceville, AL 35077",
+  "website": "https://www.cityofhanceville.net/o/coh/page/storm-shelters",
+  "source": "https://www.cityofhanceville.net/o/coh/page/storm-shelters"
+ },
+ {
+  "group": "Public Safety",
+  "name": "Storm Shelter: C.W. Day Park",
+  "type": "Public storm shelter",
+  "summary": "Holds up to 90 people. Public Works opens the city's storm shelters during a Tornado Watch.",
+  "address": "203 Michelle Street NW, Hanceville, AL 35077",
+  "website": "https://www.cityofhanceville.net/o/coh/page/storm-shelters",
+  "source": "https://www.cityofhanceville.net/o/coh/page/storm-shelters"
+ },
+ {
+  "group": "Public Safety",
+  "name": "Storm Shelter: Steppville",
+  "type": "Public storm shelter",
+  "summary": "Holds up to 90 people and sits just past the railroad tracks. Public Works opens the city's storm shelters during a Tornado Watch.",
+  "address": "1407 Commercial Street SE, Hanceville, AL 35077",
+  "website": "https://www.cityofhanceville.net/o/coh/page/storm-shelters",
+  "source": "https://www.cityofhanceville.net/o/coh/page/storm-shelters"
+ },
+ {
+  "group": "Utilities and Public Works",
+  "name": "Hanceville Water and Sewer Board",
+  "type": "Water and sewer",
+  "summary": "The water board has served Hanceville since 1925. Call or stop by for new service, billing questions and leaks, or pay your bill online.",
+  "address": "203 Main Street, Hanceville, AL 35077",
+  "phone": "(256) 352-9229",
+  "website": "https://hancevillewwsb.epayub.com/",
+  "how": "Tap Website to pay your water bill online.",
+  "source": "https://www.cityofhanceville.net/o/coh/page/water-department"
+ },
+ {
+  "group": "Utilities and Public Works",
+  "name": "Public Works Department",
+  "type": "Streets and maintenance",
+  "summary": "Public Works repairs and maintains city streets, picks up brush and handles street light outages. Call City Hall to report a problem.",
+  "address": "201 Magnolia Avenue NE, Hanceville, AL 35077",
+  "phone": "(256) 352-9830",
+  "website": "https://www.cityofhanceville.net/o/coh/page/public-works",
+  "source": "https://www.cityofhanceville.net/o/coh/page/public-works"
+ },
+ {
+  "group": "Utilities and Public Works",
+  "name": "Cullman Electric Cooperative",
+  "type": "Electric service",
+  "summary": "Cullman Electric Cooperative provides power in the Hanceville area. You can pay your bill online or at the main office in Cullman.",
+  "address": "1749 Eva Road NE, Cullman, AL",
+  "website": "https://billing.cullmanec.com/mcp/",
+  "source": "https://www.cityofhanceville.net/o/coh/page/quick-information-and-how-do-i"
+ },
+ {
+  "group": "Utilities and Public Works",
+  "name": "Cullman Jefferson Gas",
+  "type": "Natural gas service",
+  "summary": "Cullman Jefferson Gas provides natural gas service in the area. Pay your bill online or visit the main office.",
+  "address": "1550 County Road 715, Cullman, AL",
+  "website": "https://www.cjgas.com/pay-bill",
+  "source": "https://www.cityofhanceville.net/o/coh/page/quick-information-and-how-do-i"
+ },
+ {
+  "group": "Parks, Library and Civic Center",
+  "name": "Parks and Recreation",
+  "type": "City parks",
+  "summary": "The city runs four parks along with youth sports and facility rentals. You can now reserve and pay for park facilities online through the city's Jarvis rental system.",
+  "phone": "(256) 352-9830",
+  "email": "parkdirector@cityofhanceville.net",
+  "website": "https://www.cityofhanceville.net/o/coh/page/parks-recreation",
+  "source": "https://www.cityofhanceville.net/o/coh/page/city-departments"
+ },
+ {
+  "group": "Parks, Library and Civic Center",
+  "name": "C.W. Day Park",
+  "type": "City park",
+  "summary": "The city's busiest park has ball fields, a youth football field, a walking trail, a playground and the community pool.",
+  "address": "100 Michelle Street NW, Hanceville, AL 35077",
+  "website": "https://www.cityofhanceville.net/o/coh/page/city-parks",
+  "source": "https://www.cityofhanceville.net/o/coh/page/city-parks"
+ },
+ {
+  "group": "Parks, Library and Civic Center",
+  "name": "Veterans Memorial Park",
+  "type": "City park",
+  "summary": "A quiet park with a walking trail, a fishing pond, shady benches and memorials that honor local veterans.",
+  "address": "503 Park Street, Hanceville, AL 35077",
+  "website": "https://www.cityofhanceville.net/o/coh/page/city-parks",
+  "source": "https://www.cityofhanceville.net/o/coh/page/city-parks"
+ },
+ {
+  "group": "Parks, Library and Civic Center",
+  "name": "Donald Hamby Memorial Park",
+  "type": "City park",
+  "summary": "A small green space along Highway 31 that's handy for a quick break, a picnic or a little play time.",
+  "address": "204 Main Street SE, Hanceville, AL 35077",
+  "website": "https://www.cityofhanceville.net/o/coh/page/city-parks",
+  "source": "https://www.cityofhanceville.net/o/coh/page/city-parks"
+ },
+ {
+  "group": "Parks, Library and Civic Center",
+  "name": "Tucker Park",
+  "type": "City park",
+  "summary": "Donated land near the fire station that the city is turning into a natural area with walking trails. More improvements are planned.",
+  "address": "119 Collins Avenue, Hanceville, AL 35077",
+  "website": "https://www.cityofhanceville.net/o/coh/page/city-parks",
+  "source": "https://www.cityofhanceville.net/o/coh/page/city-parks"
+ },
+ {
+  "group": "Parks, Library and Civic Center",
+  "name": "Shirley Burden Public Library",
+  "type": "Public library",
+  "summary": "The city library offers books, kids programs, computers and a used book shop that supports children's programs. Donations are welcome and tax deductible.",
+  "address": "201 Commercial Street, Hanceville, AL 35077",
+  "phone": "(256) 352-0685",
+  "email": "hancevillepubliclibrary@gmail.com",
+  "hours": "Tuesday to Friday 8 AM to 5 PM (closed noon to 1 PM), Saturday 9 AM to 1 PM, closed Monday",
+  "website": "https://sites.google.com/view/sbhpl/library",
+  "source": "https://www.cityofhanceville.net/o/coh/page/library"
+ },
+ {
+  "group": "Parks, Library and Civic Center",
+  "name": "Hanceville Civic Center",
+  "type": "Event venue",
+  "summary": "The city's civic center has meeting rooms, a serving kitchen and an auditorium for large events. The Planning Commission meets here. Call City Hall for rental rates and open dates.",
+  "address": "902 Commercial Street, Hanceville, AL 35077",
+  "phone": "(256) 352-9830",
+  "website": "https://www.cityofhanceville.net/o/coh/page/parks-recreation",
+  "source": "https://www.cityofhanceville.net/events"
+ },
+ {
+  "group": "Boards and Committees",
+  "name": "Planning Commission",
+  "type": "City board",
+  "summary": "The Planning Commission guides growth in Hanceville. It handles zoning, land subdivision and the city's master plan, and it reviews development plans. It meets the fourth Monday of each month at 6:00 PM at the Civic Center, and the public is welcome.",
+  "address": "902 Commercial Street, Hanceville, AL 35077",
+  "phone": "(256) 352-9830",
+  "website": "https://www.cityofhanceville.net/o/coh/page/planning-commission",
+  "how": "To get on the agenda, contact the Mayor's Office.",
+  "source": "https://www.cityofhanceville.net/o/coh/page/planning-commission"
+ },
+ {
+  "group": "Boards and Committees",
+  "name": "Events and Community Development Committee",
+  "type": "City committee",
+  "summary": "This committee advises the Mayor and council on community events, tourism and local partnerships. It meets the first Monday of each month at 6:00 PM at the Shirley Burden Public Library, and anyone may attend.",
+  "address": "201 Commercial Street, Hanceville, AL 35077",
+  "website": "https://www.cityofhanceville.net/page/events-community-development-committee",
+  "source": "https://www.cityofhanceville.net/page/events-community-development-committee"
+ },
+ {
+  "group": "Boards and Committees",
+  "name": "Zoning Map and Zoning Ordinance",
+  "type": "Planning",
+  "summary": "See how land in the city is zoned and read the zoning rules before you build, add on or open a business.",
+  "website": "https://www.cityofhanceville.net/o/coh/page/zoning-map",
+  "source": "https://www.cityofhanceville.net/o/coh/page/planning-commission"
+ },
+ {
+  "group": "Boards and Committees",
+  "name": "City Ordinances, Resolutions and Budget",
+  "type": "City documents",
+  "summary": "Read the city's ordinances, council resolutions, yearly budgets and transportation plan on the city's documents page. Large files may take a moment to open.",
+  "website": "https://www.cityofhanceville.net/documents",
+  "source": "https://www.cityofhanceville.net/documents"
+ }
+]

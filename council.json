@@ -1,0 +1,56 @@
+[
+ {
+  "group": "Council Members",
+  "name": "Jana Shelton",
+  "type": "Place 1, Mayor Pro Tem",
+  "place": "Place 1",
+  "role": "Mayor Pro Tem",
+  "photo": "jana-shelton",
+  "summary": "Jana Shelton holds Place 1 on the Hanceville City Council and serves as Mayor Pro Tem."
+ },
+ {
+  "group": "Council Members",
+  "name": "Robert Powell",
+  "type": "Place 2, Councilor",
+  "place": "Place 2",
+  "role": "Councilor",
+  "photo": "robert-powell",
+  "summary": "Robert Powell holds Place 2 on the Hanceville City Council."
+ },
+ {
+  "group": "Council Members",
+  "name": "Kim Brown",
+  "type": "Place 3, Councilor",
+  "place": "Place 3",
+  "role": "Councilor",
+  "photo": "kim-brown",
+  "summary": "Kim Brown holds Place 3 on the Hanceville City Council."
+ },
+ {
+  "group": "Council Members",
+  "name": "Cameron Rowe",
+  "type": "Place 4, Councilor",
+  "place": "Place 4",
+  "role": "Councilor",
+  "photo": "cameron-rowe",
+  "summary": "Cameron Rowe holds Place 4 on the Hanceville City Council and also sits on the Planning Commission."
+ },
+ {
+  "group": "Council Members",
+  "name": "Carla Cain",
+  "type": "Place 5, Councilor",
+  "place": "Place 5",
+  "role": "Councilor",
+  "photo": "carla-cain",
+  "summary": "Carla Cain holds Place 5 on the Hanceville City Council."
+ },
+ {
+  "group": "Council Members",
+  "name": "Nolan Bradford",
+  "type": "Mayor",
+  "place": "Mayor",
+  "role": "Mayor",
+  "summary": "Mayor Nolan Bradford leads city government and, in Hanceville, also votes as a member of the City Council.",
+  "link": "council.html#council_members"
+ }
+]

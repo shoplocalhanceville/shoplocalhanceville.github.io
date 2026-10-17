@@ -9,6 +9,8 @@ var PAGES=[
  {k:'nonprofits',f:'nonprofits.html',t:'Nonprofits',ic:'\ud83d\udc9c',j:'nonprofits.json',g:'group',o:['Feeding Neighbors','Community Builders','Support and Safety'],info:1},
  {k:'fun',f:'fun.html',t:'A Little Fun',ic:'\ud83d\ude03',j:'fun.json',g:'group',o:['Fun Facts','Local Landmarks','Sweet Tea Jokes'],info:1},
  {k:'businesses',f:'businesses.html',t:'Business Directory',ic:'\ud83c\udfea',j:'businesses.json',g:'category',o:['Restaurants','Drinks & Coffee','Barbers & Salons','Auto Sales','Auto Repair & Mechanics','Tires','Small Engine Repair','Towing','Home Services','Health & Pharmacy','Pets & Child Care','Finance & Insurance','Shopping & Retail','Manufacturing & Industry','Lodging','Other']},
+ {k:'council',f:'council.html',t:'City Council',ic:'\u2696\ufe0f',j:'council.json',g:'group',o:['Council Members','Meeting Schedule','Agendas and Minutes','What the Council Does','Contact City Hall'],info:1},
+ {k:'city',f:'city.html',t:'City Services',ic:'\ud83d\udccb',j:'city.json',g:'group',o:['City Offices','Public Safety','Utilities and Public Works','Parks, Library and Civic Center','Boards and Committees']},
  {k:'directory',f:'directory.html',t:'Community Directory',ic:'\ud83c\udfdb\ufe0f',j:'directory.json',g:'group',o:['Schools','City Hall & Government','Public Safety','Utilities & Public Works','Community Services']},
  {k:'resources',f:'resources.html',t:'Community Resources',ic:'\ud83e\udd1d',j:'resources.json',g:'group',o:['Crisis & Emergency','Seniors & Elderly','Food & SNAP','DHR Services','Child Care','Federal Programs','Everyone','Women','Children & Families','Veterans']},
  {k:'wallace',f:'wallace.html',t:'Wallace State Services',ic:'\ud83c\udf93',j:'wallace.json',g:'group',o:['Getting Started','Paying for College','Help in the Classroom','Careers and Training','Health, Safety and Support','Campus Life','Community Services']}
@@ -56,11 +58,11 @@ function jump(){if(location.hash){var t=document.getElementById(decodeURICompone
 // tabs
 var P=PAGES.filter(function(p){return p.k===cur;})[0];
 var nav=document.getElementById('tabs');
-if(nav){var GR=[['Explore',['events','eats','shops','businesses']],['Community',['news','nonprofits','resources','directory']],['More',['wallace','fun']]];
+if(nav){var GR=[['Explore',['events','eats','shops','businesses']],['City Hall',['council','city','directory']],['Community',['news','nonprofits','resources']],['More',['wallace','fun']]];
  var home=el('a',null,'\ud83c\udfe0 Home');home.href='index.html';if(cur==='home')home.setAttribute('aria-current','page');nav.appendChild(home);
  GR.forEach(function(g){nav.appendChild(el('h2',null,g[0]));g[1].forEach(function(k){var p=PAGES.filter(function(x){return x.k===k;})[0];var a=el('a',null,p.ic+' '+p.t);a.href=p.f;if(p.k===cur)a.setAttribute('aria-current','page');nav.appendChild(a);});});
  if(P&&P.o){nav.appendChild(el('h2',null,'On this page'));var s=el('div','sub');P.o.forEach(function(g){var a=el('a',null,g);a.href='#'+slug(g);s.appendChild(a);});nav.appendChild(s);}
- if(cur==='home'){nav.appendChild(el('h2',null,'On this page'));var s2=el('div','sub');[['main','Today\u2019s news'],['game-center','Game Center'],['looking','I\u2019m looking for'],['help','Get help'],['upcoming','Coming up soon'],['contact','Contact us']].forEach(function(x){var a=el('a',null,x[1]);a.href='#'+x[0];s2.appendChild(a);});nav.appendChild(s2);}
+ if(cur==='home'){nav.appendChild(el('h2',null,'On this page'));var s2=el('div','sub');[['main','Today\u2019s news'],['game-center','Game Center'],['city-hall','City Hall'],['looking','I\u2019m looking for'],['help','Get help'],['upcoming','Coming up soon'],['contact','Contact us']].forEach(function(x){var a=el('a',null,x[1]);a.href='#'+x[0];s2.appendChild(a);});nav.appendChild(s2);}
  var tg=document.getElementById('tab-toggle');
  var desk=matchMedia('(min-width:1200px)');
  function isOpen(){return desk.matches?!document.body.classList.contains('tabs-off'):nav.classList.contains('open');}

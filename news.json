@@ -564,5 +564,44 @@
    "donations"
   ],
   "updated": "2026-10-17"
+ },
+ {
+  "id": "council-section-oct-22-meeting",
+  "date": "2026-10-17",
+  "category": "City Hall",
+  "graphic": "🏛️",
+  "headline": "Meet your Hanceville City Council before the Oct. 22 meeting",
+  "summary": "Hanceville's five council members and the Mayor meet next on Thursday, Oct. 22, at City Hall. Here is who represents you and how to follow along.",
+  "body": [
+   "The Hanceville City Council meets next on Thursday, Oct. 22, at City Hall, 112 Main Street SE. A work session starts at 6:00 PM, and the regular meeting begins right after it. The meeting after that is set for Thursday, Nov. 12.",
+   "The council has five members. Jana Shelton holds Place 1 and serves as Mayor Pro Tem. Robert Powell holds Place 2, Kim Brown holds Place 3, Cameron Rowe holds Place 4 and Carla Cain holds Place 5. Mayor Nolan Bradford also votes on council business. Each seat is elected to a four year term.",
+   "The council passes ordinances and resolutions, approves the yearly budget and keeps an eye on how city money and property are used. It also makes some appointments to city boards.",
+   "Every regular meeting is open to the public, and there is time set aside for public comments. If you can't make it, the city posts meeting videos on its YouTube channel. Draft agendas and minutes go up on the city's documents page, and they can change until the council approves them.",
+   "You can see photos of each council member, the full meeting schedule and links to agendas and minutes on our new City Council page."
+  ],
+  "sources": [
+   {
+    "name": "City of Hanceville: City Council",
+    "url": "https://www.cityofhanceville.net/o/coh/page/city-council"
+   },
+   {
+    "name": "City of Hanceville: council agenda for Oct. 8, 2026",
+    "url": "https://www.cityofhanceville.net/documents/council---meeting-agendas/2026/25520828"
+   },
+   {
+    "name": "City of Hanceville: events calendar",
+    "url": "https://www.cityofhanceville.net/events"
+   },
+   {
+    "name": "City of Hanceville on YouTube",
+    "url": "https://www.youtube.com/@OfficialCityofHancevilleAL"
+   }
+  ],
+  "tags": [
+   "council",
+   "city",
+   "meeting",
+   "mayor"
+  ]
  }
 ]
