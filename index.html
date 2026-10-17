@@ -10,56 +10,56 @@
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Hanceville Entertainment and Shopping, Shop Local Alabama">
 <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#0b0710">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%AD%90%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="style.css?v=7">
+<link rel="stylesheet" href="style.css?v=8">
 </head>
 <body data-page="home">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head"><div class="wrap">
  <a class="logo" href="index.html"><svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#ffc83d"/><path d="M20 7l3.8 8 8.7 1-6.4 6 1.7 8.6L20 26.3 12.2 30.6l1.7-8.6-6.4-6 8.7-1z" fill="#4b1d6b"/></svg><span>Hanceville<small>ENTERTAINMENT &amp; SHOPPING</small></span></a>
  <nav class="mainnav" aria-label="Main"><ul><li><button type="button" aria-haspopup="true" aria-expanded="false">Explore &#9662;</button><ul class="dd"><li><a href="events.html">Upcoming Events</a></li><li><a href="eats.html">Local Eats</a></li><li><a href="shops.html">Hometown Shops</a></li><li><a href="businesses.html">Business Directory</a></li></ul></li><li><button type="button" aria-haspopup="true" aria-expanded="false">Community &#9662;</button><ul class="dd"><li><a href="news.html">Community News</a></li><li><a href="nonprofits.html">Nonprofits</a></li><li><a href="resources.html">Community Resources</a></li><li><a href="directory.html">Community Directory</a></li></ul></li><li><a href="wallace.html">Wallace State</a></li><li><a href="fun.html">Fun</a></li></ul></nav>
- <div class="head-tools"><button class="theme-btn" id="theme-btn" type="button" role="switch" aria-checked="false" aria-label="Dark mode"><span aria-hidden="true">&#9790;</span><span class="knob" aria-hidden="true"></span></button></div>
- 
+ <button class="tab-toggle" id="tab-toggle" type="button" aria-controls="tabs" aria-expanded="false"><span aria-hidden="true">&#9776;</span> Menu</button>
+ <div class="head-row2"><div class="mode" role="group" aria-label="Color mode"><button type="button" id="day-btn" aria-pressed="true"><span aria-hidden="true">&#9728;&#65039;</span> Day</button><button type="button" id="night-btn" aria-pressed="false"><span aria-hidden="true">&#9790;</span> Night</button></div></div>
 </div></header>
-<button class="tab-toggle" id="tab-toggle" type="button" aria-controls="tabs" aria-expanded="false">&#9776; Menu</button>
-<nav class="tabs" id="tabs" aria-label="Quick access"></nav>
+<nav class="tabs" id="tabs" aria-label="Full menu"></nav>
 <main id="main">
 <section class="hero"><div class="wrap">
  <span class="kicker">&#11088; Shop Local Alabama</span>
- <h1>Welcome to <span>Hanceville</span></h1>
- <p class="lead">Your friendly front porch for events, eats, shops and community news in Hanceville, Alabama. Find what you need, then go say hi to a neighbor.</p>
- <form class="gs" id="gs-form" role="search"><label for="gs-q" class="sr">Search the whole site</label><input id="gs-q" type="search" placeholder="Try haircut, pizza, storytime or food pantry" autocomplete="off" aria-controls="gs-res"><div class="gs-res" id="gs-res" aria-live="polite"></div></form>
- <div class="quick"><a href="businesses.html"><span aria-hidden="true">&#127978;</span>Find a Business</a><a href="events.html"><span aria-hidden="true">&#128197;</span>Upcoming Events</a><a href="#get-featured"><span aria-hidden="true">&#11088;</span>Get Featured</a><a href="resources.html"><span aria-hidden="true">&#129309;</span>Resources</a></div>
- <p style="margin-top:22px"><a class="btn" href="https://www.facebook.com/ShopLocalAlabama" target="_blank" rel="noopener noreferrer">Follow on Facebook</a></p>
+ <h1>Welcome to Hanceville</h1>
+ <p class="lead">Find things to do, places to eat, local businesses and help for your family, all in one place.</p>
+ <form class="gs big" id="gs-form" role="search"><label for="gs-q">Search the whole site</label><div class="gs-row"><input id="gs-q" type="search" placeholder="Try pizza, haircut, food pantry or Medicare" autocomplete="off" aria-controls="gs-res"><button type="submit" class="btn">Search</button></div><div class="gs-res" id="gs-res" aria-live="polite"></div></form>
 </div></section>
-<section id="featured"><div class="wrap"><div class="sec-head"><div><h2>Featured local businesses</h2><p>A few hometown favorites. Swipe for more.</p></div><a class="more" href="businesses.html">See all businesses &rarr;</a></div><div class="strip" id="feat-strip"></div></div></section>
-<section id="upcoming" class="alt-bg"><div class="wrap"><div class="sec-head"><div><h2>Upcoming events</h2><p>What is happening soon around town.</p></div><a class="more" href="events.html">See all events &rarr;</a></div><div class="grid" id="ev-prev"></div></div></section>
-<section id="latest"><div class="wrap"><div class="sec-head"><div><h2>Latest news</h2><p>Recent updates from around Hanceville.</p></div><a class="more" href="news.html">See all news &rarr;</a></div><div class="grid" id="news-prev"></div></div></section>
-<section id="why" class="alt-bg"><div class="wrap"><h2>Why Hanceville?</h2><p>A small town with a big story, a college campus, peaceful parks and a downtown full of hometown charm.</p>
- <div class="why">
-  <div><b>Since 1879</b>Hanceville was incorporated in May 1879, in an election held inside P. H. Kinney's general store. <a href="fun.html">More fun facts</a></div>
-  <div><b>Wallace State</b>One of the largest schools in the Alabama Community College System has called Hanceville home since 1966. <a href="wallace.html">Services</a></div>
-  <div><b>Four city parks</b>Ball fields, playgrounds, a community pool, walking trails and fishing at Veterans Memorial Park. <a href="directory.html#community_services">Parks info</a></div>
-  <div><b>Historic downtown</b>Home to a pharmacy and soda fountain serving the town since 1916, plus local eats and shops. <a href="eats.html">Local eats</a></div>
-  <div><b>Visitors welcome</b>The Shrine of the Most Blessed Sacrament draws visitors and pilgrims from around the world. <a href="fun.html#local_landmarks">Landmarks</a></div>
-  <div><b>Getting here</b>Hanceville sits on U.S. Highway 31 in southern Cullman County, Alabama. <a href="directory.html">City contacts</a></div>
- </div></div></section>
-<section class="alt-bg"><div class="wrap">
- <h2>What we post</h2>
- <p>Good news travels fast in a small town, and we like to help it along.</p>
- <div class="grid">
-  <a class="post-link" href="events.html"><div class="card"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="10" width="36" height="32" rx="5" fill="#6d2fa0"/><rect x="6" y="10" width="36" height="9" rx="4" fill="#ffc83d"/><circle cx="24" cy="31" r="5" fill="#fff"/></svg><h3>Local events</h3><p>Festivals, games, concerts, library storytimes and everything worth putting on the calendar.</p><span class="go">See local events &rarr;</span></div></a>
-  <a class="post-link" href="eats.html"><div class="card"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="26" r="16" fill="#ffc83d"/><circle cx="24" cy="26" r="10" fill="#fff"/><rect x="5" y="8" width="3" height="34" rx="1.5" fill="#6d2fa0"/><rect x="40" y="8" width="3" height="34" rx="1.5" fill="#6d2fa0"/></svg><h3>Local eats</h3><p>Hometown restaurants, daily specials and new spots. Please do not read this section hungry.</p><span class="go">See local eats &rarr;</span></div></a>
-  <a class="post-link" href="shops.html"><div class="card"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 18h32l-3 22H11z" fill="#6d2fa0"/><path d="M17 18a7 7 0 0114 0" stroke="#ffc83d" stroke-width="4" fill="none"/></svg><h3>Hometown shops</h3><p>Boutiques, makers, markets and the small businesses that make Hanceville feel like home.</p><span class="go">See hometown shops &rarr;</span></div></a>
-  <a class="post-link" href="news.html"><div class="card"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="14" width="32" height="26" rx="3" fill="#6d2fa0"/><rect x="13" y="20" width="22" height="3" fill="#fff"/><rect x="13" y="26" width="22" height="3" fill="#fff"/><rect x="13" y="32" width="14" height="3" fill="#fff"/><circle cx="38" cy="12" r="6" fill="#ffc83d"/></svg><h3>Community news</h3><p>City updates, road news and the announcements neighbors need to know, shared clearly and kindly.</p><span class="go">See community news &rarr;</span></div></a>
-  <a class="post-link" href="nonprofits.html"><div class="card"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 41S7 30 7 18a8.5 8.5 0 0117-3 8.5 8.5 0 0117 3c0 12-17 23-17 23z" fill="#6d2fa0"/><circle cx="34" cy="14" r="5" fill="#ffc83d"/></svg><h3>Nonprofits</h3><p>Fundraisers, food drives and volunteer chances from the folks who give so much to our community.</p><span class="go">See nonprofits &rarr;</span></div></a>
-  <a class="post-link" href="fun.html"><div class="card"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="17" fill="#ffc83d"/><circle cx="18" cy="21" r="2.5" fill="#4b1d6b"/><circle cx="30" cy="21" r="2.5" fill="#4b1d6b"/><path d="M16 28q8 8 16 0" stroke="#4b1d6b" stroke-width="3" fill="none" stroke-linecap="round"/></svg><h3>A little fun</h3><p>Smiles, local pride and the occasional joke. Life is better with a laugh and a sweet tea.</p><span class="go">See a little fun &rarr;</span></div></a>
+<section id="looking"><div class="wrap">
+ <h2>I&rsquo;m looking for&hellip;</h2>
+ <p class="big-p">Tap a box to get started.</p>
+ <div class="tiles">
+  <a class="tile" href="events.html"><span class="ti" aria-hidden="true">&#128197;</span><span><b>Events</b><small>Things to do around town</small></span></a>
+  <a class="tile" href="eats.html"><span class="ti" aria-hidden="true">&#127869;&#65039;</span><span><b>Places to Eat</b><small>Local restaurants and specials</small></span></a>
+  <a class="tile" href="businesses.html"><span class="ti" aria-hidden="true">&#127978;</span><span><b>Businesses</b><small>Barbers, mechanics, shops and more</small></span></a>
+  <a class="tile" href="resources.html"><span class="ti" aria-hidden="true">&#129309;</span><span><b>Help &amp; Resources</b><small>Food, seniors, child care and more</small></span></a>
+  <a class="tile" href="directory.html"><span class="ti" aria-hidden="true">&#127979;</span><span><b>Schools &amp; City</b><small>Schools, City Hall and safety</small></span></a>
+  <a class="tile" href="wallace.html"><span class="ti" aria-hidden="true">&#127891;</span><span><b>Wallace State</b><small>College services and help</small></span></a>
+  <a class="tile" href="events.html#sports"><span class="ti" aria-hidden="true">&#127944;</span><span><b>Sports</b><small>Local games and schedules</small></span></a>
  </div>
 </div></section>
-<section id="get-featured"><div class="wrap"><div class="feature">
- <h2>Join the fun: get your business featured!</h2>
- <p>We love shining a light on the people who make Hanceville great. Restaurants, shops, service businesses, churches, schools and nonprofits are all welcome, and it is free.</p>
- <ol><li>Visit our Facebook Page and tap Message, or email us at <a href="mailto:shoplocalhanceville@gmail.com">shoplocalhanceville@gmail.com</a>.</li><li>Tell us who you are, what you do and what is coming up.</li><li>Add a photo or two if you have them, and we will take it from there.</li></ol>
- <p class="acts"><a class="btn" href="https://www.facebook.com/ShopLocalAlabama" target="_blank" rel="noopener noreferrer">Message us on Facebook</a> <a class="btn" href="mailto:shoplocalhanceville@gmail.com?subject=Submit%20an%20event%20or%20business">Email us</a></p>
+<section id="help" class="alt-bg"><div class="wrap">
+ <h2>Get help</h2>
+ <p class="big-p">Free and low cost help for Hanceville and Cullman County. Every listing shows who it is for and how to reach them.</p>
+ <div class="helpgrid">
+  <a href="resources.html#seniors_and_elderly"><span aria-hidden="true">&#128116;</span>Seniors</a>
+  <a href="resources.html#food_and_snap"><span aria-hidden="true">&#129387;</span>Food &amp; SNAP</a>
+  <a href="resources.html#dhr_services"><span aria-hidden="true">&#127963;&#65039;</span>DHR Services</a>
+  <a href="resources.html#child_care"><span aria-hidden="true">&#129528;</span>Child Care</a>
+  <a href="resources.html#federal_programs"><span aria-hidden="true">&#127482;&#127480;</span>Federal Programs</a>
+  <a href="resources.html"><span aria-hidden="true">&#128203;</span>See all help</a>
+ </div>
+ <div class="crisis" role="region" aria-label="Emergency numbers"><h3>In an emergency</h3><p>Call 911 if someone is hurt or in danger. For a mental health crisis, call or text 988. Both are free and open 24 hours.</p><div class="acts"><a class="btn" href="tel:911">Call 911</a><a class="btn" href="tel:988">Call 988</a><a class="btn" href="sms:988">Text 988</a></div></div>
+</div></section>
+<section id="upcoming"><div class="wrap"><h2>Coming up soon</h2><p class="big-p">A few events happening soon around town.</p><div class="grid" id="ev-prev"></div><p style="margin-top:22px"><a class="btn" href="events.html">See all events</a></p></div></section>
+<section id="contact" class="alt-bg"><div class="wrap"><div class="feature">
+ <h2>Contact us</h2>
+ <p class="big-p">Have a question, an event to share, or a business that should be listed? We would love to hear from you, and listings are free.</p>
+ <div class="contact-acts"><a class="btn" href="mailto:shoplocalhanceville@gmail.com?subject=Hanceville%20website"><span aria-hidden="true">&#9993;&#65039;</span> Email shoplocalhanceville@gmail.com</a><a class="btn" href="https://www.facebook.com/ShopLocalAlabama" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">&#128077;</span> Message us on Facebook</a></div>
+ <p class="small-note">Hanceville Entertainment &amp; Shopping is an independent community page. It is not the official Chamber of Commerce and is not run by the City of Hanceville.</p>
 </div></div></section>
 </main>
 <footer><div class="wrap">
@@ -71,5 +71,5 @@
  </div>
  <p class="foot-note">&copy; 2026 Charles Adams. Hanceville Entertainment &amp; Shopping is an independent community page. It is not the official Chamber of Commerce and is not affiliated with the City of Hanceville.</p>
 </div></footer>
-<script src="app.js?v=7"></script>
+<script src="app.js?v=8"></script>
 </body></html>
