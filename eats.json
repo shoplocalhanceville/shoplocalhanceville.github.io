@@ -1,190 +1,190 @@
 [
-  {
-    "group": "Hometown Favorites",
-    "name": "Pop's Cafe Hanceville",
-    "summary": "A 1950s style diner with chrome counters and checkered floors. Regulars rave about the fluffy pancakes, meatloaf is on the menu every day, and fresh cakes are baked daily. German chocolate is the crowd favorite.",
-    "tags": [
-      "diner",
-      "breakfast",
-      "pancakes",
-      "meatloaf",
-      "cake",
-      "home cooking"
-    ],
-    "address": "814 Main St NE, Hanceville",
-    "phone": "(256) 887-1035",
-    "website": "https://www.facebook.com/popscafehanceville",
-    "source": "https://www.cullmantribune.com/2026/01/20/local-eats-pops-cafe/",
-    "date": "Featured Jan 20, 2026"
-  },
-  {
-    "group": "Hometown Favorites",
-    "name": "Country Wok",
-    "summary": "The owner trained at a culinary school in New York. Must try picks include the eggrolls, Korean fried wings and Grandma's Cantonese fried rice, and the open kitchen lets you watch it all come together.",
-    "tags": [
-      "chinese",
-      "wings",
-      "eggrolls",
-      "fried rice",
-      "takeout"
-    ],
-    "address": "107 Bangor Ave, Suite A, Hanceville",
-    "phone": "(256) 887-1360",
-    "website": "https://www.countrywok.com",
-    "source": "https://www.cullmantribune.com/2026/06/25/local-eats-country-wok-is-hancevilles-go-to-chinese-spot/",
-    "date": "Featured Jun 25, 2026"
-  },
-  {
-    "group": "Hometown Favorites",
-    "name": "Hanceville Drug Co Soda Fountain",
-    "summary": "Step back in time at the soda fountain inside a pharmacy serving Hanceville since 1916. Scoops, sundaes, floats, shakes and the famous cherry ice. Family friendly and oh so sweet.",
-    "tags": [
-      "ice cream",
-      "soda fountain",
-      "milkshake",
-      "cherry ice",
-      "dessert"
-    ],
-    "address": "101 Commercial St SE, Hanceville",
-    "phone": "(256) 352-4110",
-    "website": "https://www.hancevilledrug.com/sodafountain",
-    "source": "https://www.hancevilledrug.com/sodafountain",
-    "logo": "logos/hanceville-drug-co-soda-fountain.webp",
-    "logo_source": "https://images.squarespace-cdn.com/content/v1/62a79856b802aa5890ecadfc/5a5cad93-14ca-407b-a06f-51338b44ca76/HDCO+LOGO.jpg?format=1500w"
-  },
-  {
-    "group": "Hometown Favorites",
-    "name": "Dodge City Restaurant",
-    "summary": "Tucked inside the Dodge City Travel Center, this hidden gem is a favorite of locals and truck drivers, who swear by the fried cheeseburger.",
-    "tags": [
-      "burgers",
-      "fried cheeseburger",
-      "truck stop",
-      "dodge city"
-    ],
-    "source": "https://alabama.travel/places-to-go/hanceville-civic-center"
-  },
-  {
-    "group": "New Spots",
-    "name": "Coffee Hour Co.",
-    "summary": "A husband and wife coffee roastery downtown that opened its walk in tasting room in February 2025. Try a flight of coffees from around the world, like a wine tasting with more pep.",
-    "tags": [
-      "coffee",
-      "roastery",
-      "tasting",
-      "new",
-      "downtown"
-    ],
-    "address": "Commercial Street, beside Hanceville Drug Co.",
-    "source": "https://cullmantimes.com/2025/02/05/hanceville-coffee-roastery-cuts-the-ribbon-on-new-downtown-tasting-room/",
-    "date": "Opened Feb 2025"
-  },
-  {
-    "group": "Daily Specials",
-    "name": "Meatloaf Every Day at Pop's",
-    "summary": "Pop's Cafe serves meatloaf every day, with chicken and dumplings, dressing and vegetable soup rotating through the week. You can even call ahead to request a dish.",
-    "tags": [
-      "specials",
-      "meatloaf",
-      "chicken and dumplings",
-      "soup"
-    ],
-    "phone": "(256) 887-1035",
-    "source": "https://www.cullmantribune.com/2026/01/20/local-eats-pops-cafe/",
-    "date": "Reported Jan 20, 2026"
-  },
-  {
-    "group": "More Places to Eat",
-    "name": "Azul Tequila Mexican Cantina",
-    "summary": "A Mexican cantina on Main Street for tacos and good company. Stop by and tell them we sent you!",
-    "tags": [
-      "mexican",
-      "tacos"
-    ],
-    "address": "836 Main St NE, Hanceville",
-    "phone": "(256) 887-1016",
-    "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
-  },
-  {
-    "group": "More Places to Eat",
-    "name": "Cafe Tula Taqueria",
-    "summary": "A downtown taqueria on Commercial Street, steps from the shops. Stop by and tell them we sent you!",
-    "tags": [
-      "mexican",
-      "tacos"
-    ],
-    "address": "106 Commercial St, Hanceville",
-    "phone": "(256) 636-0323",
-    "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
-  },
-  {
-    "group": "More Places to Eat",
-    "name": "Reyes Pizza",
-    "summary": "Hometown pizza on Main Street for family nights and game day feasts. Stop by and tell them we sent you!",
-    "tags": [
-      "pizza"
-    ],
-    "address": "806 Main St NE, Hanceville",
-    "phone": "(256) 887-1307",
-    "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
-  },
-  {
-    "group": "More Places to Eat",
-    "name": "HanceVegas Coffee Shop",
-    "summary": "Downtown coffee with a fun name and a friendly vibe. Stop by and tell them we sent you!",
-    "tags": [
-      "coffee",
-      "smoothie"
-    ],
-    "address": "113 Commercial St, Hanceville",
-    "phone": "(256) 887-1234",
-    "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
-  },
-  {
-    "group": "More Places to Eat",
-    "name": "Jack's",
-    "summary": "Southern burgers and biscuits on Styles Street, great for an early breakfast.",
-    "tags": [
-      "burgers",
-      "biscuits"
-    ],
-    "address": "103 Styles St NE, Hanceville",
-    "phone": "(256) 392-6268",
-    "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
-  },
-  {
-    "group": "More Places to Eat",
-    "name": "McDonald's",
-    "summary": "Quick, family friendly meals on Main Street.",
-    "tags": [
-      "burgers",
-      "fast food"
-    ],
-    "address": "740 Main St NE, Hanceville",
-    "phone": "(256) 352-2120",
-    "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
-  },
-  {
-    "group": "More Places to Eat",
-    "name": "Subway",
-    "summary": "Made to order subs on Main Street for an easy lunch.",
-    "tags": [
-      "sandwiches"
-    ],
-    "address": "720 Main St NE, Hanceville",
-    "phone": "(256) 352-2444",
-    "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
-  },
-  {
-    "group": "More Places to Eat",
-    "name": "Taco Bell",
-    "summary": "Tacos, burritos and late night bites on Main Street.",
-    "tags": [
-      "tacos",
-      "fast food"
-    ],
-    "address": "702 Main St NE, Hanceville",
-    "phone": "(256) 787-2170",
-    "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
-  }
+ {
+  "group": "Hometown Favorites",
+  "name": "Pop's Cafe Hanceville",
+  "summary": "A 1950s style diner with chrome counters and checkered floors. Regulars love the fluffy pancakes, meatloaf is served every day, and cakes are baked fresh daily. German chocolate is the one people ask for most.",
+  "tags": [
+   "diner",
+   "breakfast",
+   "pancakes",
+   "meatloaf",
+   "cake",
+   "home cooking"
+  ],
+  "address": "814 Main St NE, Hanceville",
+  "phone": "(256) 887-1035",
+  "website": "https://www.facebook.com/popscafehanceville",
+  "source": "https://www.cullmantribune.com/2026/01/20/local-eats-pops-cafe/",
+  "date": "Featured Jan 20, 2026"
+ },
+ {
+  "group": "Hometown Favorites",
+  "name": "Country Wok",
+  "summary": "The owner trained at a culinary school in New York. Try the eggrolls, the Korean fried wings or Grandma's Cantonese fried rice, and watch it all get cooked in the open kitchen.",
+  "tags": [
+   "chinese",
+   "wings",
+   "eggrolls",
+   "fried rice",
+   "takeout"
+  ],
+  "address": "107 Bangor Ave, Suite A, Hanceville",
+  "phone": "(256) 887-1360",
+  "website": "https://www.countrywok.com",
+  "source": "https://www.cullmantribune.com/2026/06/25/local-eats-country-wok-is-hancevilles-go-to-chinese-spot/",
+  "date": "Featured Jun 25, 2026"
+ },
+ {
+  "group": "Hometown Favorites",
+  "name": "Hanceville Drug Co Soda Fountain",
+  "summary": "This soda fountain sits inside a pharmacy that has served Hanceville since 1916. Order a scoop, a sundae, a float, a shake or the famous cherry ice. Bring the kids.",
+  "tags": [
+   "ice cream",
+   "soda fountain",
+   "milkshake",
+   "cherry ice",
+   "dessert"
+  ],
+  "address": "101 Commercial St SE, Hanceville",
+  "phone": "(256) 352-4110",
+  "website": "https://www.hancevilledrug.com/sodafountain",
+  "source": "https://www.hancevilledrug.com/sodafountain",
+  "logo": "logos/hanceville-drug-co-soda-fountain.webp",
+  "logo_source": "https://images.squarespace-cdn.com/content/v1/62a79856b802aa5890ecadfc/5a5cad93-14ca-407b-a06f-51338b44ca76/HDCO+LOGO.jpg?format=1500w"
+ },
+ {
+  "group": "Hometown Favorites",
+  "name": "Dodge City Restaurant",
+  "summary": "You'll find it inside the Dodge City Travel Center. Locals and truck drivers both eat here, and the fried cheeseburger has a loyal following.",
+  "tags": [
+   "burgers",
+   "fried cheeseburger",
+   "truck stop",
+   "dodge city"
+  ],
+  "source": "https://alabama.travel/places-to-go/hanceville-civic-center"
+ },
+ {
+  "group": "New Spots",
+  "name": "Coffee Hour Co.",
+  "summary": "A downtown coffee roastery run by a husband and wife. Their walk in tasting room opened in February 2025, and you can order a flight of coffees from around the world.",
+  "tags": [
+   "coffee",
+   "roastery",
+   "tasting",
+   "new",
+   "downtown"
+  ],
+  "address": "Commercial Street, beside Hanceville Drug Co.",
+  "source": "https://cullmantimes.com/2025/02/05/hanceville-coffee-roastery-cuts-the-ribbon-on-new-downtown-tasting-room/",
+  "date": "Opened Feb 2025"
+ },
+ {
+  "group": "Daily Specials",
+  "name": "Meatloaf Every Day at Pop's",
+  "summary": "Pop's Cafe has meatloaf every day. Chicken and dumplings, dressing and vegetable soup rotate through the week, and you can call ahead to ask for a dish.",
+  "tags": [
+   "specials",
+   "meatloaf",
+   "chicken and dumplings",
+   "soup"
+  ],
+  "phone": "(256) 887-1035",
+  "source": "https://www.cullmantribune.com/2026/01/20/local-eats-pops-cafe/",
+  "date": "Reported Jan 20, 2026"
+ },
+ {
+  "group": "More Places to Eat",
+  "name": "Azul Tequila Mexican Cantina",
+  "summary": "A Mexican cantina on Main Street. Grab a table for tacos and good conversation.",
+  "tags": [
+   "mexican",
+   "tacos"
+  ],
+  "address": "836 Main St NE, Hanceville",
+  "phone": "(256) 887-1016",
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+ },
+ {
+  "group": "More Places to Eat",
+  "name": "Cafe Tula Taqueria",
+  "summary": "A taqueria on Commercial Street, just a few steps from the downtown shops.",
+  "tags": [
+   "mexican",
+   "tacos"
+  ],
+  "address": "106 Commercial St, Hanceville",
+  "phone": "(256) 636-0323",
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+ },
+ {
+  "group": "More Places to Eat",
+  "name": "Reyes Pizza",
+  "summary": "Hometown pizza on Main Street, easy to pick up on your way home.",
+  "tags": [
+   "pizza"
+  ],
+  "address": "806 Main St NE, Hanceville",
+  "phone": "(256) 887-1307",
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+ },
+ {
+  "group": "More Places to Eat",
+  "name": "HanceVegas Coffee Shop",
+  "summary": "Downtown coffee with a name that makes people smile.",
+  "tags": [
+   "coffee",
+   "smoothie"
+  ],
+  "address": "113 Commercial St, Hanceville",
+  "phone": "(256) 887-1234",
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+ },
+ {
+  "group": "More Places to Eat",
+  "name": "Jack's",
+  "summary": "Southern burgers and biscuits on Styles Street. A good early breakfast stop.",
+  "tags": [
+   "burgers",
+   "biscuits"
+  ],
+  "address": "103 Styles St NE, Hanceville",
+  "phone": "(256) 392-6268",
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+ },
+ {
+  "group": "More Places to Eat",
+  "name": "McDonald's",
+  "summary": "Quick meals on Main Street when the family is in a hurry.",
+  "tags": [
+   "burgers",
+   "fast food"
+  ],
+  "address": "740 Main St NE, Hanceville",
+  "phone": "(256) 352-2120",
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+ },
+ {
+  "group": "More Places to Eat",
+  "name": "Subway",
+  "summary": "Subs made to order on Main Street.",
+  "tags": [
+   "sandwiches"
+  ],
+  "address": "720 Main St NE, Hanceville",
+  "phone": "(256) 352-2444",
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+ },
+ {
+  "group": "More Places to Eat",
+  "name": "Taco Bell",
+  "summary": "Tacos and burritos on Main Street.",
+  "tags": [
+   "tacos",
+   "fast food"
+  ],
+  "address": "702 Main St NE, Hanceville",
+  "phone": "(256) 787-2170",
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+ }
 ]

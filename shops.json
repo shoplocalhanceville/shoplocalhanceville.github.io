@@ -1,107 +1,107 @@
 [
-  {
-    "group": "Downtown Shops",
-    "name": "Hanceville Drug Co",
-    "summary": "A locally owned pharmacy and soda fountain since 1916, right in the heart of downtown. Shop small and stay for a sundae.",
-    "tags": [
-      "pharmacy",
-      "gifts",
-      "soda fountain",
-      "downtown"
-    ],
-    "address": "101 Commercial St SE, Hanceville",
-    "phone": "(256) 352-4110",
-    "website": "https://www.hancevilledrug.com/",
-    "source": "https://www.hancevilledrug.com/contactus",
-    "logo": "logos/hanceville-drug-co.webp",
-    "logo_source": "https://images.squarespace-cdn.com/content/v1/62a79856b802aa5890ecadfc/5a5cad93-14ca-407b-a06f-51338b44ca76/HDCO+LOGO.jpg?format=1500w"
-  },
-  {
-    "group": "Downtown Shops",
-    "name": "Coffee Hour Co.",
-    "summary": "Take home fresh roasted coffee from a local roastery, in bags from 12 ounces up to 5 pounds. A perfect gift for coffee lovers.",
-    "tags": [
-      "coffee beans",
-      "roastery",
-      "gifts"
-    ],
-    "address": "Commercial Street, Hanceville",
-    "source": "https://cullmantimes.com/2025/02/05/hanceville-coffee-roastery-cuts-the-ribbon-on-new-downtown-tasting-room/"
-  },
-  {
-    "group": "Downtown Shops",
-    "name": "Sublime Vintage",
-    "summary": "A vintage clothing shop on Main Street for one of a kind finds. Thrifters, this one is for you.",
-    "tags": [
-      "vintage",
-      "clothing",
-      "boutique",
-      "thrift"
-    ],
-    "address": "Main Street SE, Hanceville",
-    "source": "https://thriftnearby.com/al/hanceville/sublime-vintage/"
-  },
-  {
-    "group": "Makers",
-    "name": "Hagar Guitars",
-    "summary": "A hidden gem for musicians: custom electric and bass guitars built right here in Hanceville, plus repairs and upgrades.",
-    "tags": [
-      "guitars",
-      "maker",
-      "handmade",
-      "music"
-    ],
-    "address": "317 County Road 263, Hanceville",
-    "phone": "(205) 522-8501",
-    "website": "https://hagarguitars.com",
-    "source": "https://business.cullmanchamber.org/list/member/hagar-guitars-llc-17058"
-  },
-  {
-    "group": "Makers",
-    "name": "Burns Florist",
-    "summary": "A locally owned florist making custom bouquets and arrangements, with same day delivery.",
-    "tags": [
-      "flowers",
-      "florist",
-      "gifts",
-      "delivery"
-    ],
-    "address": "308 Magnolia Ave NW, Hanceville",
-    "phone": "(256) 352-5233",
-    "website": "https://cullmanhancevilleflorist.com/",
-    "source": "https://cullmanhancevilleflorist.com/",
-    "logo": "logos/burns-florist.webp",
-    "logo_source": "https://cullmanhancevilleflorist.com/cdn/shop/files/Burns_Florist_is_the_best_flower_shop_in_Hanceville.jpg?v=1748352702&amp;width=600"
-  },
-  {
-    "group": "Markets",
-    "name": "Mud Creek Arts and Crafts Festival",
-    "summary": "Once a year, downtown fills with handmade woodwork, jewelry, seasonal decor and more. The 2026 festival is Saturday, Nov. 7. Mark your calendar!",
-    "tags": [
-      "market",
-      "arts and crafts",
-      "festival",
-      "handmade",
-      "vendors"
-    ],
-    "address": "106 Commercial St, Hanceville",
-    "website": "https://alabama.travel/events/2026-mud-creek-arts-and-crafts-festival/",
-    "source": "https://www.cullmantribune.com/2025/10/23/15th-annual-mud-creek-arts-crafts-festival-set-for-nov-8-in-downtown-hanceville/",
-    "date": "Nov 7, 2026"
-  },
-  {
-    "group": "Markets",
-    "name": "Hanceville Holly Market",
-    "summary": "A city run holiday market with 32 indoor booths of handmade goods, gifts and boutiques, held three Saturdays in December. Shop small for the holidays.",
-    "tags": [
-      "market",
-      "holiday",
-      "christmas",
-      "vendors",
-      "gifts"
-    ],
-    "address": "Hanceville Civic Center, 902 Commercial St",
-    "source": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
-    "date": "Dec 5, 12 and 19, 2026"
-  }
+ {
+  "group": "Downtown Shops",
+  "name": "Hanceville Drug Co",
+  "summary": "A locally owned downtown pharmacy with a soda fountain, open since 1916. Pick up what you need and stay for a sundae.",
+  "tags": [
+   "pharmacy",
+   "gifts",
+   "soda fountain",
+   "downtown"
+  ],
+  "address": "101 Commercial St SE, Hanceville",
+  "phone": "(256) 352-4110",
+  "website": "https://www.hancevilledrug.com/",
+  "source": "https://www.hancevilledrug.com/contactus",
+  "logo": "logos/hanceville-drug-co.webp",
+  "logo_source": "https://images.squarespace-cdn.com/content/v1/62a79856b802aa5890ecadfc/5a5cad93-14ca-407b-a06f-51338b44ca76/HDCO+LOGO.jpg?format=1500w"
+ },
+ {
+  "group": "Downtown Shops",
+  "name": "Coffee Hour Co.",
+  "summary": "Fresh roasted coffee from a local roastery, sold in bags from 12 ounces up to 5 pounds. It makes a nice gift for the coffee lover in your life.",
+  "tags": [
+   "coffee beans",
+   "roastery",
+   "gifts"
+  ],
+  "address": "Commercial Street, Hanceville",
+  "source": "https://cullmantimes.com/2025/02/05/hanceville-coffee-roastery-cuts-the-ribbon-on-new-downtown-tasting-room/"
+ },
+ {
+  "group": "Downtown Shops",
+  "name": "Sublime Vintage",
+  "summary": "A vintage clothing shop on Main Street. Thrifters will want to stop in, because you never know what you'll find.",
+  "tags": [
+   "vintage",
+   "clothing",
+   "boutique",
+   "thrift"
+  ],
+  "address": "Main Street SE, Hanceville",
+  "source": "https://thriftnearby.com/al/hanceville/sublime-vintage/"
+ },
+ {
+  "group": "Makers",
+  "name": "Hagar Guitars",
+  "summary": "Custom electric and bass guitars made right here in Hanceville, plus repairs and upgrades for the guitar you already own.",
+  "tags": [
+   "guitars",
+   "maker",
+   "handmade",
+   "music"
+  ],
+  "address": "317 County Road 263, Hanceville",
+  "phone": "(205) 522-8501",
+  "website": "https://hagarguitars.com",
+  "source": "https://business.cullmanchamber.org/list/member/hagar-guitars-llc-17058"
+ },
+ {
+  "group": "Makers",
+  "name": "Burns Florist",
+  "summary": "A locally owned florist for custom bouquets and arrangements, with same day delivery.",
+  "tags": [
+   "flowers",
+   "florist",
+   "gifts",
+   "delivery"
+  ],
+  "address": "308 Magnolia Ave NW, Hanceville",
+  "phone": "(256) 352-5233",
+  "website": "https://cullmanhancevilleflorist.com/",
+  "source": "https://cullmanhancevilleflorist.com/",
+  "logo": "logos/burns-florist.webp",
+  "logo_source": "https://cullmanhancevilleflorist.com/cdn/shop/files/Burns_Florist_is_the_best_flower_shop_in_Hanceville.jpg?v=1748352702&amp;width=600"
+ },
+ {
+  "group": "Markets",
+  "name": "Mud Creek Arts and Crafts Festival",
+  "summary": "Once a year, downtown fills up with handmade woodwork, jewelry, seasonal decor and more. This year's festival is Saturday, Nov. 7.",
+  "tags": [
+   "market",
+   "arts and crafts",
+   "festival",
+   "handmade",
+   "vendors"
+  ],
+  "address": "106 Commercial St, Hanceville",
+  "website": "https://alabama.travel/events/2026-mud-creek-arts-and-crafts-festival/",
+  "source": "https://www.cullmantribune.com/2025/10/23/15th-annual-mud-creek-arts-crafts-festival-set-for-nov-8-in-downtown-hanceville/",
+  "date": "Nov 7, 2026"
+ },
+ {
+  "group": "Markets",
+  "name": "Hanceville Holly Market",
+  "summary": "The city's holiday market has 32 indoor booths with handmade goods, gifts and boutiques. It runs three Saturdays in December, so you can shop local for Christmas.",
+  "tags": [
+   "market",
+   "holiday",
+   "christmas",
+   "vendors",
+   "gifts"
+  ],
+  "address": "Hanceville Civic Center, 902 Commercial St",
+  "source": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
+  "date": "Dec 5, 12 and 19, 2026"
+ }
 ]

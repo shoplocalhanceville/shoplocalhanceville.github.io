@@ -1,765 +1,765 @@
 [
-  {
-    "group": "Crisis & Emergency",
-    "name": "Emergency: Call 911",
-    "summary": "For any emergency where someone is hurt or in danger, call 911 right away.",
-    "phone": "911",
-    "level": "Local"
-  },
-  {
-    "group": "Crisis & Emergency",
-    "name": "988 Suicide and Crisis Lifeline",
-    "summary": "Call or text 988 any time, day or night, to talk with someone who cares. It is free and private.",
-    "phone": "988",
-    "website": "https://mh.alabama.gov/emergency-numbers-for-mental-illness/",
-    "level": "Federal"
-  },
-  {
-    "group": "Crisis & Emergency",
-    "name": "Alabama Domestic Violence Hotline",
-    "summary": "If you are being hurt at home, call this free hotline any time to find safety and the nearest shelter.",
-    "phone": "1-800-650-6522",
-    "website": "https://acadv.org/get-help/",
-    "level": "State"
-  },
-  {
-    "group": "Crisis & Emergency",
-    "name": "Poison Control",
-    "summary": "Call right away if someone may have swallowed or touched something harmful.",
-    "phone": "1-800-222-1222",
-    "website": "https://cullman911.org/emergency/",
-    "level": "Federal"
-  },
-  {
-    "group": "Everyone",
-    "name": "Cullman County Health Department",
-    "summary": "The local health department offers clinic services like shots and health care by appointment on weekdays.",
-    "phone": "(256) 734-1030",
-    "address": "601 Logan Avenue SW, Cullman",
-    "website": "https://www.alabamapublichealth.gov/cullman/",
-    "level": "Local"
-  },
-  {
-    "group": "Everyone",
-    "name": "Alabama Department of Rehabilitation Services",
-    "summary": "Helps people with disabilities get training and find work. The Decatur office serves Cullman County.",
-    "phone": "(256) 353-2754",
-    "address": "4104 Highway 31 S, Building 2, Decatur",
-    "website": "https://rehab.alabama.gov/",
-    "level": "State"
-  },
-  {
-    "group": "Everyone",
-    "name": "Cullman Housing Authority",
-    "summary": "Provides affordable public housing for families and individuals who qualify.",
-    "phone": "(256) 734-6171",
-    "website": "https://cullmanha.com/contact-us/",
-    "level": "Local"
-  },
-  {
-    "group": "Everyone",
-    "name": "Cullman County Extension Office (ACES)",
-    "summary": "Offers free classes and advice on gardening, farming, food safety, family life and 4H for kids.",
-    "phone": "(256) 737-9386",
-    "website": "https://www.aces.edu/counties/cullman/",
-    "level": "Local"
-  },
-  {
-    "group": "Women",
-    "name": "Women's Health and Family Planning",
-    "summary": "The Cullman County Health Department offers women's health visits, Pap tests and family planning, with fees based on income.",
-    "phone": "(256) 734-1030",
-    "address": "601 Logan Avenue SW, Cullman",
-    "website": "https://www.alabamapublichealth.gov/cullman/services.html",
-    "level": "Local"
-  },
-  {
-    "group": "Women",
-    "name": "The Willow Path",
-    "summary": "Formerly Victim Services of Cullman, this group offers a 24 hour crisis line and emergency shelter for people facing abuse.",
-    "phone": "(256) 734-6100",
-    "address": "310 3rd Avenue NE, Cullman",
-    "website": "https://thewillowpath.org/",
-    "level": "Local"
-  },
-  {
-    "group": "Everyone",
-    "name": "Alabama Career Center, Cullman",
-    "summary": "Free help finding a job, building a resume and getting job training.",
-    "phone": "(256) 734-5580",
-    "address": "1201 Katherine Street NW, Cullman",
-    "website": "https://alabamaworks.com/north/",
-    "level": "Local"
-  },
-  {
-    "group": "Everyone",
-    "name": "WellStone Cullman",
-    "summary": "Formerly Mental Healthcare of Cullman, WellStone offers mental health and substance use care for adults and youth.",
-    "phone": "(256) 734-4688",
-    "address": "1909 Commerce Avenue NW, Cullman",
-    "website": "https://wellstone.com/service-locations/wellstone-cullman-campus/",
-    "level": "Local"
-  },
-  {
-    "group": "Children & Families",
-    "name": "ALL Kids and Medicaid for Children",
-    "summary": "Low cost or free health coverage for kids. Call to apply or to get an application mailed to you.",
-    "phone": "1-888-373-5437",
-    "website": "https://www.alabamapublichealth.gov/allkids/how-to-apply.html",
-    "level": "State"
-  },
-  {
-    "group": "Children & Families",
-    "name": "Brooks' Place Child Advocacy Center",
-    "summary": "Supports children who may have been abused, and their families, with caring help.",
-    "phone": "(256) 739-2243",
-    "address": "1003 4th Avenue NE, Cullman",
-    "website": "https://www.cullmancac.com/",
-    "level": "Local"
-  },
-  {
-    "group": "Veterans",
-    "name": "Cullman County Veterans Service Office",
-    "summary": "Free help for veterans and families applying for VA benefits. Located in the Cullman County Courthouse.",
-    "phone": "(256) 775-4662",
-    "address": "500 2nd Avenue SW, Room 109, Cullman",
-    "website": "https://va.alabama.gov/",
-    "level": "Local"
-  },
-  {
-    "group": "Veterans",
-    "name": "Veterans Crisis Line",
-    "summary": "Veterans in crisis can call or text 988 any time and ask for veteran support.",
-    "phone": "988",
-    "website": "https://www.wallacestate.edu/student-resources/mentalhealth.html",
-    "level": "Federal"
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "Local",
-    "name": "NARCOG Area Agency on Aging",
-    "summary": "The regional agency on aging for Cullman County. One phone call connects you to Medicare counseling, senior meals, in-home help, caregiver support and free legal help for seniors.",
-    "who": "Adults 60 and older, adults of any age with disabilities, and their caregivers in Cullman, Lawrence and Morgan counties.",
-    "phone": "(256) 355-4515",
-    "hours": "Monday to Friday, 8:00 a.m. to 4:30 p.m.",
-    "address": "216 Jackson Street SE, Decatur",
-    "website": "https://www.narcog.org/serving-people/area-agency-on-aging",
-    "tags": [
-      "seniors",
-      "elderly",
-      "aging",
-      "adrc",
-      "one door alabama",
-      "legal",
-      "medicare"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "Local",
-    "name": "Cullman County Commission on Aging",
-    "summary": "The county office for senior services. It runs seven full time senior centers, helps with Medicare drug plan comparisons, helps seniors apply for free medicine, and arranges free legal visits.",
-    "who": "Cullman County residents 60 and older. Medicine help (SenioRx) starts at age 55. During Medicare Open Enrollment (October 15 to December 7) counseling is by appointment only.",
-    "phone": "(256) 734-1241",
-    "address": "1519 Sportsman Lake Road NW, Cullman",
-    "website": "https://www.co.cullman.al.us/coa/index.html",
-    "tags": [
-      "seniors",
-      "elderly",
-      "senior center",
-      "medicare",
-      "prescriptions",
-      "seniorx",
-      "legal"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "Local",
-    "name": "Hanceville Senior Center",
-    "summary": "Hanceville's own senior center, in the new building next to the park. Come for a free hot lunch on weekdays, activities, exercise and good company. Donations for meals are welcome.",
-    "who": "Adults 60 and older.",
-    "phone": "(256) 352-4733",
-    "hours": "Monday to Friday, 8:00 a.m. to 1:00 p.m.",
-    "address": "209 Michelle Street NW, Hanceville",
-    "website": "https://www.co.cullman.al.us/coa/services.html",
-    "tags": [
-      "seniors",
-      "elderly",
-      "lunch",
-      "meals",
-      "activities"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "Local",
-    "name": "Colony Senior Center",
-    "summary": "A full time Commission on Aging senior center near Hanceville with a free hot lunch on weekdays and activities.",
-    "who": "Adults 60 and older.",
-    "phone": "(256) 287-1491",
-    "hours": "Monday to Friday, 8:00 a.m. to 1:00 p.m.",
-    "address": "12980 Alabama Highway 91, Hanceville",
-    "website": "https://www.co.cullman.al.us/coa/services.html",
-    "tags": [
-      "seniors",
-      "elderly",
-      "lunch",
-      "meals",
-      "colony"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "Local",
-    "name": "Meals for Homebound Seniors",
-    "summary": "Hot meals delivered to the homes of seniors who cannot easily get out, Monday to Friday except holidays. This is Cullman County's home delivered meals program, much like Meals on Wheels.",
-    "who": "Homebound adults 60 and older who meet program guidelines and live in the area served by one of the seven full time senior centers, including Hanceville and Colony.",
-    "phone": "(256) 734-1241",
-    "website": "https://www.co.cullman.al.us/coa/services.html",
-    "tags": [
-      "meals on wheels",
-      "home delivered meals",
-      "homebound",
-      "seniors",
-      "food"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "State",
-    "name": "SHIP Medicare Counseling",
-    "summary": "Free, unbiased help understanding Medicare, choosing a drug plan, Medigap, Medicare Savings Programs, bills and appeals. Counselors do not sell insurance.",
-    "who": "Anyone with Medicare, people about to get Medicare, and their families.",
-    "phone": "1-800-243-5463",
-    "website": "https://alabamaageline.gov/ship/",
-    "how": "Locally, call NARCOG at (256) 355-4515, extension 244.",
-    "tags": [
-      "medicare",
-      "insurance",
-      "part d",
-      "medigap",
-      "seniors"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "State",
-    "name": "Alabama Department of Senior Services",
-    "summary": "The state agency for older Alabamians. Call 1-800-AGE-LINE for help with senior meals, prescription help, Medicare, caregiver support and more.",
-    "who": "Seniors, adults with disabilities and family caregivers anywhere in Alabama.",
-    "phone": "1-800-243-5463",
-    "website": "https://alabamaageline.gov/",
-    "tags": [
-      "ageline",
-      "seniors",
-      "elderly",
-      "state"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "State",
-    "name": "Medicaid Waiver Care at Home",
-    "summary": "The Elderly and Disabled Waiver helps people stay at home instead of moving to a nursing home. A case manager can set up personal care, homemaker help, respite, adult day health and home delivered frozen meals.",
-    "who": "People whose doctor says they need nursing home level care and who have full Medicaid or meet the income and asset limits. NARCOG handles applications for Cullman County.",
-    "phone": "(256) 355-4515",
-    "website": "https://www.narcog.org/serving-people/home-and-community-based-services",
-    "tags": [
-      "medicaid",
-      "waiver",
-      "in-home care",
-      "personal choices",
-      "nursing home",
-      "seniors",
-      "disability"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "State",
-    "name": "Alabama Cares Caregiver Support",
-    "summary": "Help for family caregivers, including information, support groups, short term case management, training, counseling and some respite so you can rest.",
-    "who": "Family caregivers of adults 60 and older, relatives 55 and older raising children, and caregivers of adults 19 to 59 with disabilities. Income does not keep you from getting help.",
-    "phone": "(256) 355-4515",
-    "website": "https://www.narcog.org/serving-people/caregiver-support",
-    "how": "Ask for the Alabama Cares coordinator (extension 222), or call 1-800-243-5463.",
-    "tags": [
-      "caregiver",
-      "respite",
-      "dementia",
-      "grandparents",
-      "seniors"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "State",
-    "name": "Report Elder Abuse: Adult Abuse Hotline",
-    "summary": "Call this Alabama DHR hotline if you think an older or disabled adult is being abused, neglected or taken advantage of with money.",
-    "who": "Anyone can call to report. If someone is in danger right now, call 911.",
-    "phone": "1-800-458-7214",
-    "website": "https://dhr.alabama.gov/adult-protective-services/",
-    "tags": [
-      "adult protective services",
-      "aps",
-      "elder abuse",
-      "exploitation",
-      "neglect"
-    ]
-  },
-  {
-    "group": "Seniors & Elderly",
-    "level": "Federal",
-    "name": "Social Security Office, Cullman",
-    "summary": "The nearest Social Security office to Hanceville. Get help with retirement, disability, SSI, Medicare sign up and Social Security cards.",
-    "who": "Anyone with Social Security business. Many tasks can also be done online or by calling 1-800-772-1213.",
-    "phone": "(877) 803-6323",
-    "address": "1908 Commerce Avenue NW, Cullman",
-    "website": "https://www.ssa.gov/locator/",
-    "tags": [
-      "social security",
-      "ssi",
-      "disability",
-      "retirement",
-      "medicare",
-      "federal"
-    ]
-  },
-  {
-    "group": "Food & SNAP",
-    "level": "Local",
-    "name": "SNAP Food Assistance at Cullman County DHR",
-    "summary": "Apply for SNAP (food stamps) in person, or drop off a paper application, at the Cullman County DHR office. Benefits come on an EBT card you use at the grocery store.",
-    "who": "Households with low income. The amount depends on income and household size.",
-    "phone": "(256) 737-5300",
-    "hours": "8:00 a.m. to 4:30 p.m.",
-    "address": "1220 St. Joseph Street NW, Cullman",
-    "website": "https://dhr.alabama.gov/food-assistance/",
-    "tags": [
-      "snap",
-      "food stamps",
-      "ebt",
-      "food",
-      "dhr"
-    ]
-  },
-  {
-    "group": "Food & SNAP",
-    "level": "State",
-    "name": "Apply for SNAP Online (MyDHR)",
-    "summary": "Apply for food assistance online, check your case, renew and report changes. You will create a free account first, and your application goes to your county DHR office.",
-    "who": "Alabama residents applying for or already getting SNAP.",
-    "phone": "1-800-382-0499",
-    "website": "https://mydhr.alabama.gov/",
-    "tags": [
-      "snap",
-      "food stamps",
-      "online application",
-      "mydhr",
-      "food"
-    ]
-  },
-  {
-    "group": "Food & SNAP",
-    "level": "State",
-    "name": "Alabama Food Assistance Information Line",
-    "summary": "The state SNAP information line for questions about food assistance.",
-    "who": "Anyone with questions about SNAP in Alabama.",
-    "phone": "1-800-382-0499",
-    "website": "https://dhr.alabama.gov/contact/",
-    "tags": [
-      "snap hotline",
-      "food stamps",
-      "food"
-    ]
-  },
-  {
-    "group": "Food & SNAP",
-    "level": "State",
-    "name": "Simple SNAP Application for Seniors (AESAP)",
-    "summary": "A shorter, easier SNAP application for older Alabamians.",
-    "who": "Households where everyone is 65 or older and no one has earned income from a job.",
-    "phone": "(256) 737-5300",
-    "website": "https://dhr.alabama.gov/food-assistance/",
-    "tags": [
-      "snap",
-      "seniors",
-      "elderly",
-      "food stamps",
-      "aesap"
-    ]
-  },
-  {
-    "group": "Food & SNAP",
-    "level": "Local",
-    "name": "WIC Nutrition Program",
-    "summary": "WIC helps with healthy foods, nutrition advice and breastfeeding support. Apply and get benefits at the Cullman County Health Department.",
-    "who": "Pregnant women, new and breastfeeding moms, babies and children under 5 who meet income guidelines.",
-    "phone": "(256) 734-1030",
-    "address": "601 Logan Avenue SW, Cullman",
-    "website": "https://www.alabamapublichealth.gov/cullman/services.html",
-    "tags": [
-      "wic",
-      "babies",
-      "pregnant",
-      "moms",
-      "formula",
-      "food"
-    ]
-  },
-  {
-    "group": "Food & SNAP",
-    "level": "State",
-    "name": "Senior Farmers Market Vouchers",
-    "summary": "Seniors can get $30 in vouchers to spend on fresh produce at local farmers markets in summer and fall. Supplies are limited and you must apply again each year.",
-    "who": "Adults 60 and older who qualify. NARCOG helps people apply from January into spring.",
-    "phone": "(256) 355-4515",
-    "website": "https://www.narcog.org/serving-people/nutrition",
-    "tags": [
-      "farmers market",
-      "sfmnp",
-      "seniors",
-      "vegetables",
-      "food"
-    ]
-  },
-  {
-    "group": "Food & SNAP",
-    "level": "Local",
-    "name": "Cullman Caring for Kids",
-    "summary": "One of Cullman County's biggest food pantries, serving about 900 to 1,000 families a month with boxes of food.",
-    "who": "Cullman County families in need.",
-    "phone": "(256) 739-1111",
-    "hours": "Monday to Thursday, 9:00 a.m. to noon and 1:00 to 3:00 p.m. Closed Friday to Sunday.",
-    "address": "402 Arnold Street NE, Cullman",
-    "website": "https://cullmancaringforkids.com",
-    "tags": [
-      "food pantry",
-      "food bank",
-      "families",
-      "kids",
-      "food"
-    ]
-  },
-  {
-    "group": "Food & SNAP",
-    "level": "Local",
-    "name": "Hanceville Hope Pantry",
-    "summary": "A free food pantry in Hanceville run by local volunteers.",
-    "who": "Neighbors in need. Call 211 or check with the pantry for current days and hours.",
-    "address": "902 Commercial Street, Hanceville",
-    "source": "https://cullmantimes.com/2025/08/27/hanceville-library-staff-law-enforcement-object-to-food-pantry-expanding-into-library-space/",
-    "tags": [
-      "food pantry",
-      "food",
-      "free food",
-      "hanceville"
-    ]
-  },
-  {
-    "group": "Food & SNAP",
-    "level": "Federal",
-    "name": "USDA National Hunger Hotline",
-    "summary": "Talk with someone who can find meal sites, food banks and other food help near you. You can also text a question to 914-342-7744.",
-    "who": "Anyone who needs food.",
-    "phone": "1-866-348-6479",
-    "hours": "Monday to Friday, 7:00 a.m. to 7:00 p.m. Central time.",
-    "website": "https://www.fna.usda.gov/national-hunger-hotline",
-    "tags": [
-      "hunger hotline",
-      "1-866-3-hungry",
-      "food",
-      "federal"
-    ]
-  },
-  {
-    "group": "DHR Services",
-    "level": "Local",
-    "name": "Cullman County DHR Office",
-    "summary": "Your local Department of Human Resources office for food assistance, family assistance, child support, adult services and family and child services. One main number reaches every department.",
-    "who": "Cullman County residents.",
-    "phone": "(256) 737-5300",
-    "hours": "8:00 a.m. to 4:30 p.m.",
-    "address": "1220 St. Joseph Street NW, Cullman",
-    "website": "https://dhr.alabama.gov/county-office-contact/",
-    "tags": [
-      "dhr",
-      "human resources",
-      "food stamps",
-      "tanf",
-      "child support"
-    ]
-  },
-  {
-    "group": "DHR Services",
-    "level": "Local",
-    "name": "Report Child Abuse or Neglect",
-    "summary": "Alabama DHR asks people to report suspected child abuse or neglect to the county DHR office or to local law enforcement. Do not report by email.",
-    "who": "Anyone who is worried about a child under 19. If a child is in danger right now, call 911.",
-    "phone": "(256) 737-5300",
-    "website": "https://dhr.alabama.gov/child-abuse-neglect-reporting/",
-    "tags": [
-      "child protective services",
-      "cps",
-      "child abuse",
-      "neglect",
-      "report"
-    ]
-  },
-  {
-    "group": "DHR Services",
-    "level": "Local",
-    "name": "Adult Protective Services, Cullman County",
-    "summary": "DHR looks into reports of abuse, neglect or money exploitation of elderly and disabled adults and can arrange services to keep them safe at home.",
-    "who": "Elderly or disabled adults who cannot protect themselves. Anyone can make a report, locally or through the statewide hotline at 1-800-458-7214.",
-    "phone": "(256) 737-5300",
-    "website": "https://dhr.alabama.gov/adult-protective-services/",
-    "tags": [
-      "adult protective services",
-      "aps",
-      "elder abuse",
-      "dhr"
-    ]
-  },
-  {
-    "group": "DHR Services",
-    "level": "State",
-    "name": "Family Assistance (TANF)",
-    "summary": "Temporary cash help for basic needs, paid on an EBT card, plus the JOBS program to help parents find and keep work.",
-    "who": "Low income families with children under 18, or 19 if the child is a full time high school or vocational student. Apply at the Cullman County DHR office.",
-    "phone": "(256) 737-5300",
-    "address": "1220 St. Joseph Street NW, Cullman",
-    "website": "https://dhr.alabama.gov/family-assistance/",
-    "tags": [
-      "tanf",
-      "cash assistance",
-      "family assistance",
-      "jobs program",
-      "dhr"
-    ]
-  },
-  {
-    "group": "DHR Services",
-    "level": "State",
-    "name": "Child Support Services",
-    "summary": "DHR can help find a parent, set up paternity, get a child support order and collect payments. The Cullman County office handles local cases.",
-    "who": "Parents or caregivers raising a child who need child support set up, changed or enforced.",
-    "phone": "(256) 737-5300",
-    "address": "1220 St. Joseph Street NW, Cullman",
-    "website": "https://dhr.alabama.gov/child-support-enforcement-division/",
-    "how": "For the state child support office, call (334) 242-9300.",
-    "tags": [
-      "child support",
-      "paternity",
-      "dhr"
-    ]
-  },
-  {
-    "group": "Child Care",
-    "level": "State",
-    "name": "Help Paying for Child Care (Child Care Subsidy)",
-    "summary": "DHR helps pay for child care so parents can work or go to school. For Cullman County, the Child Care Management Agency (CMA) of North Central Alabama decides eligibility and can refer you to child care providers.",
-    "who": "Alabama families who are working and/or in school or training and whose income is under the limit.",
-    "phone": "(334) 242-1425",
-    "email": "cma.nca@dhr.alabama.gov",
-    "website": "https://dhr.alabama.gov/subsidy-overview/",
-    "tags": [
-      "child care subsidy",
-      "day care",
-      "daycare",
-      "cma",
-      "resource and referral",
-      "dhr"
-    ]
-  },
-  {
-    "group": "Child Care",
-    "level": "State",
-    "name": "Find a Licensed Child Care Provider",
-    "summary": "Search Alabama DHR's list of licensed child care centers and homes by county or city.",
-    "who": "Any family looking for child care.",
-    "phone": "(334) 242-1425",
-    "website": "https://apps.dhr.alabama.gov/daycare/daycare_search",
-    "tags": [
-      "day care",
-      "daycare",
-      "child care",
-      "licensed",
-      "search"
-    ]
-  },
-  {
-    "group": "Child Care",
-    "level": "State",
-    "name": "First Class Pre-K",
-    "summary": "Alabama's nationally recognized pre-K program from the Alabama Department of Early Childhood Education, offered in local schools and centers.",
-    "who": "Children who are 4 years old. Check the website for registration dates for the next school year.",
-    "phone": "(334) 224-3171",
-    "website": "https://www.children.alabama.gov/adece/first-class-pre-k/",
-    "tags": [
-      "pre-k",
-      "prek",
-      "preschool",
-      "four year olds",
-      "adece"
-    ]
-  },
-  {
-    "group": "Child Care",
-    "level": "Local",
-    "name": "Head Start and Early Head Start (CAPNA)",
-    "summary": "Community Action Partnership of North Alabama runs Head Start classrooms in Cullman County with early learning plus vision, health and dental screenings at no cost to families.",
-    "who": "Children from birth to age 5 whose families meet program guidelines. Services vary by county, so ask what is offered near you.",
-    "phone": "(256) 355-7843",
-    "website": "https://capna.org/childrens-services/",
-    "tags": [
-      "head start",
-      "early head start",
-      "preschool",
-      "child care",
-      "capna"
-    ]
-  },
-  {
-    "group": "Child Care",
-    "level": "Local",
-    "name": "Cullman City Head Start",
-    "summary": "A Head Start program run by Cullman City Schools at Cullman City Primary School.",
-    "who": "Eligible children and families who live inside the Cullman city limits.",
-    "phone": "(256) 775-0234",
-    "address": "900 Hoehn Drive NE, Cullman",
-    "website": "https://prek.cullmancats.net/forms",
-    "tags": [
-      "head start",
-      "preschool",
-      "cullman city"
-    ]
-  },
-  {
-    "group": "Child Care",
-    "level": "State",
-    "name": "Help Me Grow Alabama",
-    "summary": "Free care coordination for families of young children. Share a worry about your child's growth, learning or behavior and a coordinator will help connect you to the right services.",
-    "who": "Families with young children anywhere in Alabama.",
-    "phone": "1-833-939-0336",
-    "website": "https://helpmegrowalabama.org/",
-    "tags": [
-      "help me grow",
-      "development",
-      "early intervention",
-      "toddlers",
-      "babies"
-    ]
-  },
-  {
-    "group": "Child Care",
-    "level": "State",
-    "name": "Alabama Partnership for Children",
-    "summary": "A statewide nonprofit focused on young children and families. It runs Help Me Grow Alabama and supports early learning programs.",
-    "who": "Families with young children and child care providers.",
-    "phone": "1-866-711-4025",
-    "website": "https://alabamapartnershipforchildren.org/",
-    "tags": [
-      "early childhood",
-      "families",
-      "help me grow"
-    ]
-  },
-  {
-    "group": "Child Care",
-    "level": "State",
-    "name": "Dolly Parton's Imagination Library",
-    "summary": "Free books mailed to your child every month from birth to age 5, promoted in Alabama by the Department of Early Childhood Education.",
-    "who": "Children from birth to age 5, no matter the family's income. Check whether your area is available on the website.",
-    "website": "https://imaginationlibrary.com/check-availability/",
-    "tags": [
-      "books",
-      "reading",
-      "babies",
-      "toddlers"
-    ]
-  },
-  {
-    "group": "Federal Programs",
-    "level": "Federal",
-    "name": "USA.gov Benefit Finder",
-    "summary": "Answer a few questions to see government benefits you may qualify for, like food, health care, housing and utilities, and how to apply. This replaced Benefits.gov.",
-    "who": "Anyone in the United States.",
-    "website": "https://www.usa.gov/benefit-finder",
-    "tags": [
-      "benefits.gov",
-      "benefit finder",
-      "government benefits",
-      "federal"
-    ]
-  },
-  {
-    "group": "Federal Programs",
-    "level": "Federal",
-    "name": "Social Security Administration",
-    "summary": "Retirement, disability, SSI, survivor benefits and Social Security cards. Many services are online. Wait times on the phone are usually shorter in the morning and later in the week.",
-    "who": "Workers, retirees, people with disabilities and families.",
-    "phone": "1-800-772-1213",
-    "hours": "Monday to Friday, 8:00 a.m. to 7:00 p.m. local time.",
-    "website": "https://www.ssa.gov/",
-    "tags": [
-      "social security",
-      "ssi",
-      "disability",
-      "retirement",
-      "federal"
-    ]
-  },
-  {
-    "group": "Federal Programs",
-    "level": "Federal",
-    "name": "Medicare",
-    "summary": "The official Medicare help line and website for questions about coverage, plans and claims.",
-    "who": "People 65 and older and some younger people with disabilities.",
-    "phone": "1-800-633-4227",
-    "website": "https://www.medicare.gov/",
-    "tags": [
-      "medicare",
-      "1-800-medicare",
-      "health insurance",
-      "seniors",
-      "federal"
-    ]
-  },
-  {
-    "group": "Federal Programs",
-    "level": "Local",
-    "name": "LIHEAP Energy Help (CAPNA)",
-    "summary": "The federal Low Income Home Energy Assistance Program helps pay heating and cooling bills. In Cullman County it is run by Community Action Partnership of North Alabama, by in person appointment only. Do not wait until your power is cut off.",
-    "who": "Income eligible households in Cullman County. Bring all required documents to your appointment.",
-    "phone": "(256) 734-5170",
-    "website": "https://capna.org/energy-assistance/",
-    "how": "Book an appointment online or call the automated appointment line at (256) 260-4050.",
-    "tags": [
-      "liheap",
-      "power bill",
-      "utility assistance",
-      "heating",
-      "cooling",
-      "energy",
-      "capna"
-    ]
-  },
-  {
-    "group": "Federal Programs",
-    "level": "State",
-    "name": "211 Connects Alabama",
-    "summary": "Dial 211 any time, day or night, to talk with a trained specialist who can find food, housing, utility help, health care, jobs and senior care near you. It is free and private.",
-    "who": "Everyone in Alabama.",
-    "phone": "211",
-    "website": "https://www.211connectsalabama.org/",
-    "how": "You can also text your ZIP code to 898-211.",
-    "tags": [
-      "211",
-      "united way",
-      "help line",
-      "referrals"
-    ]
-  }
+ {
+  "group": "Crisis & Emergency",
+  "name": "Emergency: Call 911",
+  "summary": "For any emergency where someone is hurt or in danger, call 911 right away.",
+  "phone": "911",
+  "level": "Local"
+ },
+ {
+  "group": "Crisis & Emergency",
+  "name": "988 Suicide and Crisis Lifeline",
+  "summary": "Call or text 988 any time, day or night, to talk with someone who cares. It is free and private.",
+  "phone": "988",
+  "website": "https://mh.alabama.gov/emergency-numbers-for-mental-illness/",
+  "level": "Federal"
+ },
+ {
+  "group": "Crisis & Emergency",
+  "name": "Alabama Domestic Violence Hotline",
+  "summary": "If you are being hurt at home, call this free hotline any time to find safety and the nearest shelter.",
+  "phone": "1-800-650-6522",
+  "website": "https://acadv.org/get-help/",
+  "level": "State"
+ },
+ {
+  "group": "Crisis & Emergency",
+  "name": "Poison Control",
+  "summary": "Call right away if someone may have swallowed or touched something harmful.",
+  "phone": "1-800-222-1222",
+  "website": "https://cullman911.org/emergency/",
+  "level": "Federal"
+ },
+ {
+  "group": "Everyone",
+  "name": "Cullman County Health Department",
+  "summary": "The local health department offers clinic services like shots and health care by appointment on weekdays.",
+  "phone": "(256) 734-1030",
+  "address": "601 Logan Avenue SW, Cullman",
+  "website": "https://www.alabamapublichealth.gov/cullman/",
+  "level": "Local"
+ },
+ {
+  "group": "Everyone",
+  "name": "Alabama Department of Rehabilitation Services",
+  "summary": "Helps people with disabilities get training and find work. The Decatur office serves Cullman County.",
+  "phone": "(256) 353-2754",
+  "address": "4104 Highway 31 S, Building 2, Decatur",
+  "website": "https://rehab.alabama.gov/",
+  "level": "State"
+ },
+ {
+  "group": "Everyone",
+  "name": "Cullman Housing Authority",
+  "summary": "Provides affordable public housing for families and individuals who qualify.",
+  "phone": "(256) 734-6171",
+  "website": "https://cullmanha.com/contact-us/",
+  "level": "Local"
+ },
+ {
+  "group": "Everyone",
+  "name": "Cullman County Extension Office (ACES)",
+  "summary": "Offers free classes and advice on gardening, farming, food safety, family life and 4H for kids.",
+  "phone": "(256) 737-9386",
+  "website": "https://www.aces.edu/counties/cullman/",
+  "level": "Local"
+ },
+ {
+  "group": "Women",
+  "name": "Women's Health and Family Planning",
+  "summary": "The Cullman County Health Department offers women's health visits, Pap tests and family planning, with fees based on income.",
+  "phone": "(256) 734-1030",
+  "address": "601 Logan Avenue SW, Cullman",
+  "website": "https://www.alabamapublichealth.gov/cullman/services.html",
+  "level": "Local"
+ },
+ {
+  "group": "Women",
+  "name": "The Willow Path",
+  "summary": "Formerly Victim Services of Cullman, this group offers a 24 hour crisis line and emergency shelter for people facing abuse.",
+  "phone": "(256) 734-6100",
+  "address": "310 3rd Avenue NE, Cullman",
+  "website": "https://thewillowpath.org/",
+  "level": "Local"
+ },
+ {
+  "group": "Everyone",
+  "name": "Alabama Career Center, Cullman",
+  "summary": "Free help finding a job, building a resume and getting job training.",
+  "phone": "(256) 734-5580",
+  "address": "1201 Katherine Street NW, Cullman",
+  "website": "https://alabamaworks.com/north/",
+  "level": "Local"
+ },
+ {
+  "group": "Everyone",
+  "name": "WellStone Cullman",
+  "summary": "Formerly Mental Healthcare of Cullman, WellStone offers mental health and substance use care for adults and youth.",
+  "phone": "(256) 734-4688",
+  "address": "1909 Commerce Avenue NW, Cullman",
+  "website": "https://wellstone.com/service-locations/wellstone-cullman-campus/",
+  "level": "Local"
+ },
+ {
+  "group": "Children & Families",
+  "name": "ALL Kids and Medicaid for Children",
+  "summary": "Low cost or free health coverage for kids. Call to apply or to get an application mailed to you.",
+  "phone": "1-888-373-5437",
+  "website": "https://www.alabamapublichealth.gov/allkids/how-to-apply.html",
+  "level": "State"
+ },
+ {
+  "group": "Children & Families",
+  "name": "Brooks' Place Child Advocacy Center",
+  "summary": "Supports children who may have been abused, and their families, with caring help.",
+  "phone": "(256) 739-2243",
+  "address": "1003 4th Avenue NE, Cullman",
+  "website": "https://www.cullmancac.com/",
+  "level": "Local"
+ },
+ {
+  "group": "Veterans",
+  "name": "Cullman County Veterans Service Office",
+  "summary": "Free help for veterans and families applying for VA benefits. Located in the Cullman County Courthouse.",
+  "phone": "(256) 775-4662",
+  "address": "500 2nd Avenue SW, Room 109, Cullman",
+  "website": "https://va.alabama.gov/",
+  "level": "Local"
+ },
+ {
+  "group": "Veterans",
+  "name": "Veterans Crisis Line",
+  "summary": "Veterans in crisis can call or text 988 any time and ask for veteran support.",
+  "phone": "988",
+  "website": "https://www.wallacestate.edu/student-resources/mentalhealth.html",
+  "level": "Federal"
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "Local",
+  "name": "NARCOG Area Agency on Aging",
+  "summary": "The regional agency on aging for Cullman County. One phone call connects you to Medicare counseling, senior meals, help at home, caregiver support and free legal help for seniors.",
+  "who": "Adults 60 and older, adults of any age with disabilities, and their caregivers in Cullman, Lawrence and Morgan counties.",
+  "phone": "(256) 355-4515",
+  "hours": "Monday to Friday, 8:00 a.m. to 4:30 p.m.",
+  "address": "216 Jackson Street SE, Decatur",
+  "website": "https://www.narcog.org/serving-people/area-agency-on-aging",
+  "tags": [
+   "seniors",
+   "elderly",
+   "aging",
+   "adrc",
+   "one door alabama",
+   "legal",
+   "medicare"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "Local",
+  "name": "Cullman County Commission on Aging",
+  "summary": "The county office for senior services. It runs seven full time senior centers, helps with Medicare drug plan comparisons, helps seniors apply for free medicine, and arranges free legal visits.",
+  "who": "Cullman County residents 60 and older. Medicine help (SenioRx) starts at age 55. During Medicare Open Enrollment (October 15 to December 7) counseling is by appointment only.",
+  "phone": "(256) 734-1241",
+  "address": "1519 Sportsman Lake Road NW, Cullman",
+  "website": "https://www.co.cullman.al.us/coa/index.html",
+  "tags": [
+   "seniors",
+   "elderly",
+   "senior center",
+   "medicare",
+   "prescriptions",
+   "seniorx",
+   "legal"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "Local",
+  "name": "Hanceville Senior Center",
+  "summary": "Hanceville's own senior center, in the new building next to the park. Come for a free hot lunch on weekdays, activities, exercise and good company. Donations for meals are welcome.",
+  "who": "Adults 60 and older.",
+  "phone": "(256) 352-4733",
+  "hours": "Monday to Friday, 8:00 a.m. to 1:00 p.m.",
+  "address": "209 Michelle Street NW, Hanceville",
+  "website": "https://www.co.cullman.al.us/coa/services.html",
+  "tags": [
+   "seniors",
+   "elderly",
+   "lunch",
+   "meals",
+   "activities"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "Local",
+  "name": "Colony Senior Center",
+  "summary": "A full time Commission on Aging senior center near Hanceville with a free hot lunch on weekdays and activities.",
+  "who": "Adults 60 and older.",
+  "phone": "(256) 287-1491",
+  "hours": "Monday to Friday, 8:00 a.m. to 1:00 p.m.",
+  "address": "12980 Alabama Highway 91, Hanceville",
+  "website": "https://www.co.cullman.al.us/coa/services.html",
+  "tags": [
+   "seniors",
+   "elderly",
+   "lunch",
+   "meals",
+   "colony"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "Local",
+  "name": "Meals for Homebound Seniors",
+  "summary": "Hot meals delivered to the homes of seniors who cannot easily get out, Monday to Friday except holidays. This is Cullman County's home delivered meals program, much like Meals on Wheels.",
+  "who": "Homebound adults 60 and older who meet program guidelines and live in the area served by one of the seven full time senior centers, including Hanceville and Colony.",
+  "phone": "(256) 734-1241",
+  "website": "https://www.co.cullman.al.us/coa/services.html",
+  "tags": [
+   "meals on wheels",
+   "home delivered meals",
+   "homebound",
+   "seniors",
+   "food"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "State",
+  "name": "SHIP Medicare Counseling",
+  "summary": "Free, unbiased help understanding Medicare, choosing a drug plan, Medigap, Medicare Savings Programs, bills and appeals. Counselors do not sell insurance.",
+  "who": "Anyone with Medicare, people about to get Medicare, and their families.",
+  "phone": "1-800-243-5463",
+  "website": "https://alabamaageline.gov/ship/",
+  "how": "Locally, call NARCOG at (256) 355-4515, extension 244.",
+  "tags": [
+   "medicare",
+   "insurance",
+   "part d",
+   "medigap",
+   "seniors"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "State",
+  "name": "Alabama Department of Senior Services",
+  "summary": "The state agency for older Alabamians. Call 1-800-AGE-LINE for help with senior meals, prescription help, Medicare, caregiver support and more.",
+  "who": "Seniors, adults with disabilities and family caregivers anywhere in Alabama.",
+  "phone": "1-800-243-5463",
+  "website": "https://alabamaageline.gov/",
+  "tags": [
+   "ageline",
+   "seniors",
+   "elderly",
+   "state"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "State",
+  "name": "Medicaid Waiver Care at Home",
+  "summary": "The Elderly and Disabled Waiver helps people stay at home instead of moving to a nursing home. A case manager can set up personal care, homemaker help, respite, adult day health and home delivered frozen meals.",
+  "who": "People whose doctor says they need nursing home level care and who have full Medicaid or meet the income and asset limits. NARCOG handles applications for Cullman County.",
+  "phone": "(256) 355-4515",
+  "website": "https://www.narcog.org/serving-people/home-and-community-based-services",
+  "tags": [
+   "medicaid",
+   "waiver",
+   "in-home care",
+   "personal choices",
+   "nursing home",
+   "seniors",
+   "disability"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "State",
+  "name": "Alabama Cares Caregiver Support",
+  "summary": "Help for family caregivers, including information, support groups, short term case management, training, counseling and some respite so you can rest.",
+  "who": "Family caregivers of adults 60 and older, relatives 55 and older raising children, and caregivers of adults 19 to 59 with disabilities. Income does not keep you from getting help.",
+  "phone": "(256) 355-4515",
+  "website": "https://www.narcog.org/serving-people/caregiver-support",
+  "how": "Ask for the Alabama Cares coordinator (extension 222), or call 1-800-243-5463.",
+  "tags": [
+   "caregiver",
+   "respite",
+   "dementia",
+   "grandparents",
+   "seniors"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "State",
+  "name": "Report Elder Abuse: Adult Abuse Hotline",
+  "summary": "Call this Alabama DHR hotline if you think an older or disabled adult is being abused, neglected or taken advantage of with money.",
+  "who": "Anyone can call to report. If someone is in danger right now, call 911.",
+  "phone": "1-800-458-7214",
+  "website": "https://dhr.alabama.gov/adult-protective-services/",
+  "tags": [
+   "adult protective services",
+   "aps",
+   "elder abuse",
+   "exploitation",
+   "neglect"
+  ]
+ },
+ {
+  "group": "Seniors & Elderly",
+  "level": "Federal",
+  "name": "Social Security Office, Cullman",
+  "summary": "The nearest Social Security office to Hanceville. Get help with retirement, disability, SSI, Medicare sign up and Social Security cards.",
+  "who": "Anyone with Social Security business. Many tasks can also be done online or by calling 1-800-772-1213.",
+  "phone": "(877) 803-6323",
+  "address": "1908 Commerce Avenue NW, Cullman",
+  "website": "https://www.ssa.gov/locator/",
+  "tags": [
+   "social security",
+   "ssi",
+   "disability",
+   "retirement",
+   "medicare",
+   "federal"
+  ]
+ },
+ {
+  "group": "Food & SNAP",
+  "level": "Local",
+  "name": "SNAP Food Assistance at Cullman County DHR",
+  "summary": "Apply for SNAP (food stamps) in person, or drop off a paper application, at the Cullman County DHR office. Benefits come on an EBT card you use at the grocery store.",
+  "who": "Households with low income. The amount depends on income and household size.",
+  "phone": "(256) 737-5300",
+  "hours": "8:00 a.m. to 4:30 p.m.",
+  "address": "1220 St. Joseph Street NW, Cullman",
+  "website": "https://dhr.alabama.gov/food-assistance/",
+  "tags": [
+   "snap",
+   "food stamps",
+   "ebt",
+   "food",
+   "dhr"
+  ]
+ },
+ {
+  "group": "Food & SNAP",
+  "level": "State",
+  "name": "Apply for SNAP Online (MyDHR)",
+  "summary": "Apply for food assistance online, check your case, renew and report changes. You will create a free account first, and your application goes to your county DHR office.",
+  "who": "Alabama residents applying for or already getting SNAP.",
+  "phone": "1-800-382-0499",
+  "website": "https://mydhr.alabama.gov/",
+  "tags": [
+   "snap",
+   "food stamps",
+   "online application",
+   "mydhr",
+   "food"
+  ]
+ },
+ {
+  "group": "Food & SNAP",
+  "level": "State",
+  "name": "Alabama Food Assistance Information Line",
+  "summary": "The state SNAP information line for questions about food assistance.",
+  "who": "Anyone with questions about SNAP in Alabama.",
+  "phone": "1-800-382-0499",
+  "website": "https://dhr.alabama.gov/contact/",
+  "tags": [
+   "snap hotline",
+   "food stamps",
+   "food"
+  ]
+ },
+ {
+  "group": "Food & SNAP",
+  "level": "State",
+  "name": "Simple SNAP Application for Seniors (AESAP)",
+  "summary": "A shorter, easier SNAP application for older Alabamians.",
+  "who": "Households where everyone is 65 or older and no one has earned income from a job.",
+  "phone": "(256) 737-5300",
+  "website": "https://dhr.alabama.gov/food-assistance/",
+  "tags": [
+   "snap",
+   "seniors",
+   "elderly",
+   "food stamps",
+   "aesap"
+  ]
+ },
+ {
+  "group": "Food & SNAP",
+  "level": "Local",
+  "name": "WIC Nutrition Program",
+  "summary": "WIC helps with healthy foods, nutrition advice and breastfeeding support. Apply and get benefits at the Cullman County Health Department.",
+  "who": "Pregnant women, new and breastfeeding moms, babies and children under 5 who meet income guidelines.",
+  "phone": "(256) 734-1030",
+  "address": "601 Logan Avenue SW, Cullman",
+  "website": "https://www.alabamapublichealth.gov/cullman/services.html",
+  "tags": [
+   "wic",
+   "babies",
+   "pregnant",
+   "moms",
+   "formula",
+   "food"
+  ]
+ },
+ {
+  "group": "Food & SNAP",
+  "level": "State",
+  "name": "Senior Farmers Market Vouchers",
+  "summary": "Seniors can get $30 in vouchers to spend on fresh produce at local farmers markets in summer and fall. Supplies are limited and you must apply again each year.",
+  "who": "Adults 60 and older who qualify. NARCOG helps people apply from January into spring.",
+  "phone": "(256) 355-4515",
+  "website": "https://www.narcog.org/serving-people/nutrition",
+  "tags": [
+   "farmers market",
+   "sfmnp",
+   "seniors",
+   "vegetables",
+   "food"
+  ]
+ },
+ {
+  "group": "Food & SNAP",
+  "level": "Local",
+  "name": "Cullman Caring for Kids",
+  "summary": "One of Cullman County's biggest food pantries, serving about 900 to 1,000 families a month with boxes of food.",
+  "who": "Cullman County families in need.",
+  "phone": "(256) 739-1111",
+  "hours": "Monday to Thursday, 9:00 a.m. to noon and 1:00 to 3:00 p.m. Closed Friday to Sunday.",
+  "address": "402 Arnold Street NE, Cullman",
+  "website": "https://cullmancaringforkids.com",
+  "tags": [
+   "food pantry",
+   "food bank",
+   "families",
+   "kids",
+   "food"
+  ]
+ },
+ {
+  "group": "Food & SNAP",
+  "level": "Local",
+  "name": "Hanceville Hope Pantry",
+  "summary": "A free food pantry in Hanceville run by local volunteers.",
+  "who": "Neighbors in need. Call 211 or check with the pantry for current days and hours.",
+  "address": "902 Commercial Street, Hanceville",
+  "source": "https://cullmantimes.com/2025/08/27/hanceville-library-staff-law-enforcement-object-to-food-pantry-expanding-into-library-space/",
+  "tags": [
+   "food pantry",
+   "food",
+   "free food",
+   "hanceville"
+  ]
+ },
+ {
+  "group": "Food & SNAP",
+  "level": "Federal",
+  "name": "USDA National Hunger Hotline",
+  "summary": "Talk with someone who can find meal sites, food banks and other food help near you. You can also text a question to 914-342-7744.",
+  "who": "Anyone who needs food.",
+  "phone": "1-866-348-6479",
+  "hours": "Monday to Friday, 7:00 a.m. to 7:00 p.m. Central time.",
+  "website": "https://www.fna.usda.gov/national-hunger-hotline",
+  "tags": [
+   "hunger hotline",
+   "1-866-3-hungry",
+   "food",
+   "federal"
+  ]
+ },
+ {
+  "group": "DHR Services",
+  "level": "Local",
+  "name": "Cullman County DHR Office",
+  "summary": "Your local Department of Human Resources office for food assistance, family assistance, child support, adult services and family and child services. One main number reaches every department.",
+  "who": "Cullman County residents.",
+  "phone": "(256) 737-5300",
+  "hours": "8:00 a.m. to 4:30 p.m.",
+  "address": "1220 St. Joseph Street NW, Cullman",
+  "website": "https://dhr.alabama.gov/county-office-contact/",
+  "tags": [
+   "dhr",
+   "human resources",
+   "food stamps",
+   "tanf",
+   "child support"
+  ]
+ },
+ {
+  "group": "DHR Services",
+  "level": "Local",
+  "name": "Report Child Abuse or Neglect",
+  "summary": "Alabama DHR asks people to report suspected child abuse or neglect to the county DHR office or to local law enforcement. Do not report by email.",
+  "who": "Anyone who is worried about a child under 19. If a child is in danger right now, call 911.",
+  "phone": "(256) 737-5300",
+  "website": "https://dhr.alabama.gov/child-abuse-neglect-reporting/",
+  "tags": [
+   "child protective services",
+   "cps",
+   "child abuse",
+   "neglect",
+   "report"
+  ]
+ },
+ {
+  "group": "DHR Services",
+  "level": "Local",
+  "name": "Adult Protective Services, Cullman County",
+  "summary": "DHR looks into reports of abuse, neglect or money exploitation of elderly and disabled adults and can arrange services to keep them safe at home.",
+  "who": "Elderly or disabled adults who cannot protect themselves. Anyone can make a report, locally or through the statewide hotline at 1-800-458-7214.",
+  "phone": "(256) 737-5300",
+  "website": "https://dhr.alabama.gov/adult-protective-services/",
+  "tags": [
+   "adult protective services",
+   "aps",
+   "elder abuse",
+   "dhr"
+  ]
+ },
+ {
+  "group": "DHR Services",
+  "level": "State",
+  "name": "Family Assistance (TANF)",
+  "summary": "Temporary cash help for basic needs, paid on an EBT card, plus the JOBS program to help parents find and keep work.",
+  "who": "Low income families with children under 18, or 19 if the child is a full time high school or vocational student. Apply at the Cullman County DHR office.",
+  "phone": "(256) 737-5300",
+  "address": "1220 St. Joseph Street NW, Cullman",
+  "website": "https://dhr.alabama.gov/family-assistance/",
+  "tags": [
+   "tanf",
+   "cash assistance",
+   "family assistance",
+   "jobs program",
+   "dhr"
+  ]
+ },
+ {
+  "group": "DHR Services",
+  "level": "State",
+  "name": "Child Support Services",
+  "summary": "DHR can help find a parent, set up paternity, get a child support order and collect payments. The Cullman County office handles local cases.",
+  "who": "Parents or caregivers raising a child who need child support set up, changed or enforced.",
+  "phone": "(256) 737-5300",
+  "address": "1220 St. Joseph Street NW, Cullman",
+  "website": "https://dhr.alabama.gov/child-support-enforcement-division/",
+  "how": "For the state child support office, call (334) 242-9300.",
+  "tags": [
+   "child support",
+   "paternity",
+   "dhr"
+  ]
+ },
+ {
+  "group": "Child Care",
+  "level": "State",
+  "name": "Help Paying for Child Care (Child Care Subsidy)",
+  "summary": "DHR helps pay for child care so parents can work or go to school. For Cullman County, the Child Care Management Agency (CMA) of North Central Alabama decides who qualifies and can refer you to child care providers.",
+  "who": "Alabama families who are working, in school or in training and whose income is under the limit.",
+  "phone": "(334) 242-1425",
+  "email": "cma.nca@dhr.alabama.gov",
+  "website": "https://dhr.alabama.gov/subsidy-overview/",
+  "tags": [
+   "child care subsidy",
+   "day care",
+   "daycare",
+   "cma",
+   "resource and referral",
+   "dhr"
+  ]
+ },
+ {
+  "group": "Child Care",
+  "level": "State",
+  "name": "Find a Licensed Child Care Provider",
+  "summary": "Search Alabama DHR's list of licensed child care centers and homes by county or city.",
+  "who": "Any family looking for child care.",
+  "phone": "(334) 242-1425",
+  "website": "https://apps.dhr.alabama.gov/daycare/daycare_search",
+  "tags": [
+   "day care",
+   "daycare",
+   "child care",
+   "licensed",
+   "search"
+  ]
+ },
+ {
+  "group": "Child Care",
+  "level": "State",
+  "name": "First Class Pre-K",
+  "summary": "Alabama's nationally recognized pre-K program from the Alabama Department of Early Childhood Education, offered in local schools and centers.",
+  "who": "Children who are 4 years old. Check the website for registration dates for the next school year.",
+  "phone": "(334) 224-3171",
+  "website": "https://www.children.alabama.gov/adece/first-class-pre-k/",
+  "tags": [
+   "pre-k",
+   "prek",
+   "preschool",
+   "four year olds",
+   "adece"
+  ]
+ },
+ {
+  "group": "Child Care",
+  "level": "Local",
+  "name": "Head Start and Early Head Start (CAPNA)",
+  "summary": "Community Action Partnership of North Alabama runs Head Start classrooms in Cullman County with early learning plus vision, health and dental screenings at no cost to families.",
+  "who": "Children from birth to age 5 whose families meet program guidelines. Services vary by county, so ask what is offered near you.",
+  "phone": "(256) 355-7843",
+  "website": "https://capna.org/childrens-services/",
+  "tags": [
+   "head start",
+   "early head start",
+   "preschool",
+   "child care",
+   "capna"
+  ]
+ },
+ {
+  "group": "Child Care",
+  "level": "Local",
+  "name": "Cullman City Head Start",
+  "summary": "A Head Start program run by Cullman City Schools at Cullman City Primary School.",
+  "who": "Eligible children and families who live inside the Cullman city limits.",
+  "phone": "(256) 775-0234",
+  "address": "900 Hoehn Drive NE, Cullman",
+  "website": "https://prek.cullmancats.net/forms",
+  "tags": [
+   "head start",
+   "preschool",
+   "cullman city"
+  ]
+ },
+ {
+  "group": "Child Care",
+  "level": "State",
+  "name": "Help Me Grow Alabama",
+  "summary": "Free care coordination for families of young children. Share a worry about your child's growth, learning or behavior and a coordinator will help connect you to the right services.",
+  "who": "Families with young children anywhere in Alabama.",
+  "phone": "1-833-939-0336",
+  "website": "https://helpmegrowalabama.org/",
+  "tags": [
+   "help me grow",
+   "development",
+   "early intervention",
+   "toddlers",
+   "babies"
+  ]
+ },
+ {
+  "group": "Child Care",
+  "level": "State",
+  "name": "Alabama Partnership for Children",
+  "summary": "A statewide nonprofit focused on young children and families. It runs Help Me Grow Alabama and supports early learning programs.",
+  "who": "Families with young children and child care providers.",
+  "phone": "1-866-711-4025",
+  "website": "https://alabamapartnershipforchildren.org/",
+  "tags": [
+   "early childhood",
+   "families",
+   "help me grow"
+  ]
+ },
+ {
+  "group": "Child Care",
+  "level": "State",
+  "name": "Dolly Parton's Imagination Library",
+  "summary": "Free books mailed to your child every month from birth to age 5, promoted in Alabama by the Department of Early Childhood Education.",
+  "who": "Children from birth to age 5, no matter the family's income. Check whether your area is available on the website.",
+  "website": "https://imaginationlibrary.com/check-availability/",
+  "tags": [
+   "books",
+   "reading",
+   "babies",
+   "toddlers"
+  ]
+ },
+ {
+  "group": "Federal Programs",
+  "level": "Federal",
+  "name": "USA.gov Benefit Finder",
+  "summary": "Answer a few questions to see government benefits you may qualify for, like food, health care, housing and utilities, and how to apply. This replaced Benefits.gov.",
+  "who": "Anyone in the United States.",
+  "website": "https://www.usa.gov/benefit-finder",
+  "tags": [
+   "benefits.gov",
+   "benefit finder",
+   "government benefits",
+   "federal"
+  ]
+ },
+ {
+  "group": "Federal Programs",
+  "level": "Federal",
+  "name": "Social Security Administration",
+  "summary": "Retirement, disability, SSI, survivor benefits and Social Security cards. Many services are online. Wait times on the phone are usually shorter in the morning and later in the week.",
+  "who": "Workers, retirees, people with disabilities and families.",
+  "phone": "1-800-772-1213",
+  "hours": "Monday to Friday, 8:00 a.m. to 7:00 p.m. local time.",
+  "website": "https://www.ssa.gov/",
+  "tags": [
+   "social security",
+   "ssi",
+   "disability",
+   "retirement",
+   "federal"
+  ]
+ },
+ {
+  "group": "Federal Programs",
+  "level": "Federal",
+  "name": "Medicare",
+  "summary": "The official Medicare help line and website for questions about coverage, plans and claims.",
+  "who": "People 65 and older and some younger people with disabilities.",
+  "phone": "1-800-633-4227",
+  "website": "https://www.medicare.gov/",
+  "tags": [
+   "medicare",
+   "1-800-medicare",
+   "health insurance",
+   "seniors",
+   "federal"
+  ]
+ },
+ {
+  "group": "Federal Programs",
+  "level": "Local",
+  "name": "LIHEAP Energy Help (CAPNA)",
+  "summary": "The federal Low Income Home Energy Assistance Program helps pay heating and cooling bills. In Cullman County it is run by Community Action Partnership of North Alabama, by in person appointment only. Do not wait until your power is cut off.",
+  "who": "Income eligible households in Cullman County. Bring all required documents to your appointment.",
+  "phone": "(256) 734-5170",
+  "website": "https://capna.org/energy-assistance/",
+  "how": "Book an appointment online or call the automated appointment line at (256) 260-4050.",
+  "tags": [
+   "liheap",
+   "power bill",
+   "utility assistance",
+   "heating",
+   "cooling",
+   "energy",
+   "capna"
+  ]
+ },
+ {
+  "group": "Federal Programs",
+  "level": "State",
+  "name": "211 Connects Alabama",
+  "summary": "Dial 211 any time, day or night, to talk with a trained specialist who can find food, housing, utility help, health care, jobs and senior care near you. It is free and private.",
+  "who": "Everyone in Alabama.",
+  "phone": "211",
+  "website": "https://www.211connectsalabama.org/",
+  "how": "You can also text your ZIP code to 898-211.",
+  "tags": [
+   "211",
+   "united way",
+   "help line",
+   "referrals"
+  ]
+ }
 ]

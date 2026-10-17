@@ -28,10 +28,9 @@ DTSTART;TZID=America/Chicago:20261116T180000
 DTEND;TZID=America/Chicago:20261116T200000
 SUMMARY:Wallace State Men's Basketball vs. East Mississippi
 LOCATION:Wallace State\, Hanceville\, AL
-DESCRIPTION:The Lions take on East Mississippi on the Wallace State sched
- ule. Check the official schedule for the final location and any time chan
- ges before you head out. Time: 6:00 PM. https://athletics.wallacestate.ed
- u/sports/mbkb/2026-27/schedule
+DESCRIPTION:The Lions play East Mississippi. Check the official schedule 
+ for the location and any time changes before you go. Time: 6:00 PM. https
+ ://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule
 URL:https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule
 END:VEVENT
 END:VCALENDAR

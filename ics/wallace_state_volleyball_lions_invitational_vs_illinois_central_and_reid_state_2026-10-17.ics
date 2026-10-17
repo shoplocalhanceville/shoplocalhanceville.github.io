@@ -21,18 +21,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:wallace_state_volleyball_lions_invitational_including_reid_state-2026
- 1017@hanceville-entertainment-shopping
+UID:wallace_state_volleyball_lions_invitational_vs_illinois_central_and_r
+ eid_state-20261017@hanceville-entertainment-shopping
 DTSTAMP:20261017T120000Z
 DTSTART;TZID=America/Chicago:20261017T110000
 DTEND;TZID=America/Chicago:20261017T130000
-SUMMARY:Wallace State Volleyball: Lions Invitational\, including Reid Sta
- te
+SUMMARY:Wallace State Volleyball: Lions Invitational vs. Illinois Central
+  and Reid State
 LOCATION:Tom Drake Coliseum\, Wallace State\, Hanceville\, AL
 DESCRIPTION:The Wallace State Lions volleyball team plays at home in Tom 
- Drake Coliseum. It is a fun\, fast game and a great way to support our co
- llege neighbors. Time: 11:00 AM and 3:00 PM. https://athletics.wallacesta
- te.edu/sports/wvball/2026-27/schedule
+ Drake Coliseum. Matches move fast and are a lot of fun to watch. Time: 11
+ :00 AM (Illinois Central) and 3:00 PM (Reid State). https://athletics.wal
+ lacestate.edu/sports/wvball/2026-27/schedule
 URL:https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule
 END:VEVENT
 END:VCALENDAR

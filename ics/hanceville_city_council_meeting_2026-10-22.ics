@@ -28,9 +28,9 @@ DTSTART;TZID=America/Chicago:20261022T180000
 DTEND;TZID=America/Chicago:20261022T200000
 SUMMARY:Hanceville City Council Meeting
 LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville\, AL
-DESCRIPTION:See your local government in action. Regular council meetings
-  are free and open to everyone\, and a great way to stay in the know. Tim
- e: 6:00 PM. https://www.cityofhanceville.net/o/coh/page/city-council
+DESCRIPTION:Regular council meetings are free and open to the public. Sit
+ ting in is the easiest way to see how decisions about Hanceville get made
+ . Time: 6:00 PM. https://www.cityofhanceville.net/o/coh/page/city-council
 URL:https://www.cityofhanceville.net/o/coh/page/city-council
 END:VEVENT
 END:VCALENDAR

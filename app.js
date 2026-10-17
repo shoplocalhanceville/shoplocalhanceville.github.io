@@ -90,7 +90,7 @@ if(q){try{var qs=new URLSearchParams(location.search).get('q');if(qs){q.value=qs
 function run(){var t=q.value.trim().toLowerCase();if(t.length<2){res.classList.remove('open');res.replaceChildren();return;}
  (IDX||(IDX=Promise.all(PAGES.map(function(p){return get(p).then(function(d){return d.map(function(e){return{p:p,e:e,h:[e.name,e.summary,e.type,e.service,(e.tags||[]).join(' '),e.category,e.group,e.address,e.venue,e.town,e.host,e.level,e.who].join(' ').toLowerCase()};});}).catch(function(){return[];});})).then(function(a){return [].concat.apply([],a);}))).then(function(all){
   var words=t.split(/\s+/),out=[];all.forEach(function(x){if(words.every(function(w){return x.h.indexOf(w)>=0;}))out.push(x);});
-  res.replaceChildren();if(!out.length){res.appendChild(el('p',null,'No matches yet. Try another word.'));}
+  res.replaceChildren();if(!out.length){res.appendChild(el('p',null,'We didn\u2019t find a match. Try a different word.'));}
   out.slice(0,30).forEach(function(x){var a=el('a');a.href=x.e.link||(x.p.f+'#'+slug(x.e.name));a.appendChild(el('small',null,x.p.t));a.appendChild(el('div',null,x.e.name));res.appendChild(a);});
   res.classList.add('open');});}
 // page bodies
@@ -98,7 +98,7 @@ var box=document.getElementById('list'),st=document.getElementById('status');
 if(P&&box){get(P).then(function(d){
  if(P.k==='businesses'){d.sort(function(a,b){return a.name.localeCompare(b.name);});var bq=document.getElementById('biz-q'),ch=document.getElementById('biz-chips'),c='All';
   ['All'].concat(P.o).forEach(function(x){var n=el('button','chip',x);n.type='button';n.setAttribute('aria-pressed',x==='All');n.onclick=function(){c=x;[].forEach.call(ch.children,function(y){y.setAttribute('aria-pressed',y===n);});go();};ch.appendChild(n);});
-  function go(){var t=bq.value.trim().toLowerCase();var f=d.filter(function(e){return(c==='All'||e.category===c)&&(!t||[e.name,e.service,(e.tags||[]).join(' '),e.category,e.summary,e.address].join(' ').toLowerCase().indexOf(t)>=0);});groups(box,f,P);st.textContent=f.length?f.length+' businesses shown':'No matches yet. Try another word or category.';}
+  function go(){var t=bq.value.trim().toLowerCase();var f=d.filter(function(e){return(c==='All'||e.category===c)&&(!t||[e.name,e.service,(e.tags||[]).join(' '),e.category,e.summary,e.address].join(' ').toLowerCase().indexOf(t)>=0);});groups(box,f,P);st.textContent=f.length?f.length+' businesses shown':'We didn\u2019t find a match. Try a different word or category.';}
   bq.addEventListener('input',go);go();}
  else if(document.getElementById('f-chips')){var fq=document.getElementById('f-q'),fc=document.getElementById('f-chips'),cur='All';
   function addD(t,n){var p=t.split('-').map(Number),x=new Date(Date.UTC(p[0],p[1]-1,p[2]+n));return x.toISOString().slice(0,10);}
@@ -108,10 +108,10 @@ if(P&&box){get(P).then(function(d){
   function ok(e){if(cur==='All')return true;if(P.k==='events'){if(cur==='week')return e.start<=addD(today,6);if(cur==='weekend')return e.start<=wkE&&(e.end||e.start)>=wkS;if(cur==='free')return /free/i.test(e.cost||'');return e.group===cur;}if(P.k==='resources')return e.level===cur;return e[P.g]===cur;}
   defs.forEach(function(x){var n=el('button','chip',x[1]);n.type='button';n.setAttribute('aria-pressed',x[0]==='All');n.onclick=function(){cur=x[0];[].forEach.call(fc.children,function(y){y.setAttribute('aria-pressed',y===n);});go();};fc.appendChild(n);});
   function go(){var t=fq.value.trim().toLowerCase();var f=d.filter(function(e){return ok(e)&&(!t||[e.name,e.summary,(e.tags||[]).join(' '),e.address,e.service,e.who,e.venue,e.host,e.town,e.group,e.level].join(' ').toLowerCase().indexOf(t)>=0);});groups(box,f,P);
-   st.textContent=(P.k==='events'&&!d.length)?'No upcoming events right now. Follow the Page and we will post new ones soon!':(cur==='All'&&!t)?'':(f.length?f.length+' shown. Tap Show all to see everything.':'No matches yet. Try another word or tap Show all.');}
+   st.textContent=(P.k==='events'&&!d.length)?'Nothing is on the calendar right now. Follow our Facebook Page and we\u2019ll post new events soon.':(cur==='All'&&!t)?'':(f.length?f.length+' shown. Tap Show all to see everything.':'We didn\u2019t find a match. Try a different word or tap Show all.');}
   resetFilter=function(){fq.value='';if(cur!=='All')fc.children[0].click();else go();};fq.addEventListener('input',go);go();}
  else{groups(box,d,P);st.textContent='';}
- jump();}).catch(function(){st.textContent='This list could not load right now. Please try again soon.';});}
+ jump();}).catch(function(){st.textContent='Sorry, this list didn\u2019t load. Please try again in a little while.';});}
 
 // theme toggle
 var tday=document.getElementById('day-btn'),tnight=document.getElementById('night-btn');
@@ -128,7 +128,7 @@ function pg(k){return PAGES.filter(function(x){return x.k===k;})[0];}
 var fs=document.getElementById('feat-strip');
 if(fs)get(pg('businesses')).then(function(d){var pick=d.filter(function(e){return e.website||e.facebook;});pick.sort(function(){return Math.random()-.5;});pick.slice(0,8).forEach(function(e){var c=card(e,'businesses');var lk=el('a','more','More in '+e.category+' \u2192');lk.href='businesses.html#'+slug(e.category);c.appendChild(lk);fs.appendChild(c);});});
 var ep=document.getElementById('ev-prev');
-if(ep)get(pg('events')).then(function(d){d.slice(0,3).forEach(function(e){ep.appendChild(card(e,'events'));});if(!d.length)ep.appendChild(el('p',null,'New events are on the way. Follow the Page to hear first!'));});
+if(ep)get(pg('events')).then(function(d){d.slice(0,3).forEach(function(e){ep.appendChild(card(e,'events'));});if(!d.length)ep.appendChild(el('p',null,'More events are on the way. Follow our Facebook Page to hear about them first.'));});
 // game center
 var gcBox=document.getElementById('gc'),gcUpd=document.getElementById('gc-upd'),gcLast=null,gcTimer=null;
 var TZ='America/Chicago';
@@ -138,7 +138,7 @@ function teamOf(d,k){var t=(d.teams||{})[k]||{name:String(k||'TBA'),initials:'?'
 function badge(t){var b=el('span','tb',String(t.initials||'?').slice(0,3));var c=t.colors||[];b.style.background=okColor(c[0]);b.style.borderBottomColor=okColor(c[1]||c[0]);b.style.color=okColor(t.text||'#ffffff');b.setAttribute('aria-hidden','true');return b;}
 function stat(g,now){var s=g.status;var st=Date.parse(g.start);if(s==='Upcoming'&&!isNaN(st)&&now>st+10*60000)return 'Game time';return s==='Live'||s==='Final'?s:'Upcoming';}
 function gameCard(d,g,now){var s=stat(g,now),A=teamOf(d,g.away),H=teamOf(d,g.home);var c=el('article','gcard gs-'+s.toLowerCase().replace(/\s+/g,''));c.setAttribute('data-status',s);
- var top=el('div','gc-top');top.appendChild(el('span','gpill',s==='Game time'?'Game time, score coming':s));var st=new Date(g.start);
+ var top=el('div','gc-top');top.appendChild(el('span','gpill',s==='Game time'?'Game time. Score coming soon':s));var st=new Date(g.start);
  top.appendChild(el('span','gwhen',isNaN(st)?'':ctTime(st,{weekday:'short',month:'short',day:'numeric'})+' \u00b7 '+ctTime(st,{hour:'numeric',minute:'2-digit'})+' CT'));c.appendChild(top);
  if(s==='Live'){var band=el('div','liveband');band.style.setProperty('--c1',okColor((H.colors||[])[0]));band.style.setProperty('--c2',okColor((A.colors||[])[0]));band.style.setProperty('--c3',okColor((H.colors||[])[1]||'#ffffff'));
   var bt=el('p','lb-text');bt.appendChild(el('span','lb-dot','LIVE'));bt.appendChild(document.createTextNode(' '+(A.initials||'')+' '+(g.score?g.score.away:0)+'  \u00b7  '+(H.initials||'')+' '+(g.score?g.score.home:0)+(g.now?'  \u00b7  '+g.now:'')));band.appendChild(bt);c.appendChild(band);}
@@ -156,9 +156,9 @@ function renderGC(d){var now=Date.now();gcBox.replaceChildren();var games=(d.gam
  schools.forEach(function(sk){var gs=games.filter(function(g){return g.school===sk;});var live=gs.filter(function(g){return g.status==='Live';});var fin=gs.filter(function(g){return g.status==='Final';}).sort(function(a,b){return Date.parse(b.start)-Date.parse(a.start);});var up=gs.filter(function(g){return g.status!=='Final'&&g.status!=='Live'&&Date.parse(g.start)>now-3*3600000;}).sort(function(a,b){return Date.parse(a.start)-Date.parse(b.start);});
   var pick=live.length?live.concat(fin.slice(0,0)):[];if(!live.length){if(up[0]&&Date.parse(up[0].start)<now)pick.push(up[0]);else{if(fin[0])pick.push(fin[0]);if(up[0])pick.push(up[0]);}}if(!pick.length)return;
   var blk=el('div','gc-school');blk.appendChild(el('h3',null,gs[0].label||teamOf(d,sk).name));var gr=el('div','gc-grid');pick.forEach(function(g){var w=el('div','gc-cell');w.appendChild(el('p','gc-tag',g.status==='Final'?'Last game':g.status==='Live'?'Now playing':'Next game'));w.appendChild(gameCard(d,g,now));gr.appendChild(w);});blk.appendChild(gr);gcBox.appendChild(blk);});
- if(!gcBox.childNodes.length)gcBox.appendChild(el('p',null,'No games on the schedule right now. Check back soon!'));
+ if(!gcBox.childNodes.length)gcBox.appendChild(el('p',null,'There are no games on the schedule right now. Check back soon.'));
  var u=new Date(d.updated);gcUpd.textContent='Scores last updated '+(isNaN(u)?'recently':ctTime(u,{month:'short',day:'numeric'})+', '+ctTime(u,{hour:'numeric',minute:'2-digit'})+' CT')+'. Checked '+ctTime(new Date(),{hour:'numeric',minute:'2-digit'})+' CT, and we check again every minute.';}
-function loadGC(){return fetch('scores.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){gcLast=d;renderGC(d);}).catch(function(){if(gcLast)renderGC(gcLast);gcUpd.textContent='We could not refresh scores just now, so these are the last saved scores. We will try again in a minute.';});}
+function loadGC(){return fetch('scores.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){gcLast=d;renderGC(d);}).catch(function(){if(gcLast)renderGC(gcLast);gcUpd.textContent='We couldn\u2019t refresh the scores just now, so these are the last saved scores. We\u2019ll try again in a minute.';});}
 if(gcBox){loadGC();gcTimer=setInterval(function(){if(!document.hidden)loadGC();},60000);document.addEventListener('visibilitychange',function(){if(!document.hidden)loadGC();});}
 var np=document.getElementById('news-prev');
 if(np)get(pg('news')).then(function(d){d.slice(0,3).forEach(function(e){np.appendChild(card(e,'news'));});});

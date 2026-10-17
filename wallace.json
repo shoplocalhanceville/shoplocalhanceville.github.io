@@ -2,7 +2,7 @@
  {
   "group": "Getting Started",
   "name": "Lion Central (Enrollment Services)",
-  "summary": "Your one stop desk for enrollment questions, records and getting registered for classes.",
+  "summary": "Start here with enrollment questions, records and signing up for classes.",
   "phone": "(256) 352-8238",
   "website": "https://www.wallacestate.edu/about-wscc/campus-directory/index.html",
   "email": "lioncentral@wallacestate.edu"
@@ -10,7 +10,7 @@
  {
   "group": "Getting Started",
   "name": "Admissions",
-  "summary": "Apply to Wallace State and send your new student documents here. Staff can help you take the first step.",
+  "summary": "Apply to Wallace State and send in your new student documents here. Staff can help you get started.",
   "phone": "(256) 352-8479",
   "website": "https://www.wallacestate.edu/register-now",
   "email": "newstudent@wallacestate.edu"
@@ -187,7 +187,7 @@
  {
   "group": "Community Services",
   "name": "Burrow Museum",
-  "summary": "The campus museum shares local history and is a fun stop for families and visitors.",
+  "summary": "The Evelyn Burrow Museum shows porcelain, pottery, glass and bronze from its collection of more than 5,000 pieces, plus visiting art exhibits. It's open Tuesday through Friday.",
   "phone": "(256) 352-8457",
   "website": "https://wallacestate.cleancatalog.net/wscc-telephone-directory"
  },

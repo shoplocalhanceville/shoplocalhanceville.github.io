@@ -28,10 +28,9 @@ DTSTART;TZID=America/Chicago:20261114T150000
 DTEND;TZID=America/Chicago:20261114T170000
 SUMMARY:Wallace State Men's Basketball vs. Albany Tech
 LOCATION:Wallace State\, Hanceville\, AL
-DESCRIPTION:The Lions take on Albany Tech on the Wallace State schedule. 
- Check the official schedule for the final location and any time changes b
- efore you head out. Time: 3:00 PM. https://athletics.wallacestate.edu/spo
- rts/mbkb/2026-27/schedule
+DESCRIPTION:The Lions play Albany Tech. Check the official schedule for t
+ he location and any time changes before you go. Time: 3:00 PM. https://at
+ hletics.wallacestate.edu/sports/mbkb/2026-27/schedule
 URL:https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule
 END:VEVENT
 END:VCALENDAR

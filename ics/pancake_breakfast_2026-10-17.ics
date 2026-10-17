@@ -27,10 +27,9 @@ DTSTART;TZID=America/Chicago:20261017T070000
 DTEND;TZID=America/Chicago:20261017T090000
 SUMMARY:Pancake Breakfast
 LOCATION:Hanceville\, AL
-DESCRIPTION:The Hanceville Civitan Club is flipping pancakes for the comm
- unity on Saturday morning. It is a delicious way to start the weekend and
-  support a local service club. Time: 7:00 AM. https://www.facebook.com/ev
- ents/2869260006764344/
+DESCRIPTION:The Hanceville Civitan Club is serving pancakes on Saturday m
+ orning. Come eat breakfast with your neighbors and support a local servic
+ e club. Time: 7:00 AM. https://www.facebook.com/events/2869260006764344/
 URL:https://www.facebook.com/events/2869260006764344/
 END:VEVENT
 END:VCALENDAR
