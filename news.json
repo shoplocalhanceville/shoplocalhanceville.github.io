@@ -1,8 +1,115 @@
 [
  {
-  "id": "council-roads-vehicles-fire-chief",
+  "id": "register-by-oct-19-nov-3-ballot",
   "date": "2026-10-17",
   "top": true,
+  "category": "Announcements",
+  "graphic": "🗳️",
+  "headline": "Register to vote by Monday, Oct. 19, and get to know the five amendments on the Nov. 3 ballot",
+  "summary": "Monday is the last day to register for the Nov. 3 general election. Cullman County voters will also decide four statewide amendments and one local question about freezing property values for qualifying seniors.",
+  "body": [
+   "If you want a say in the Nov. 3 general election, Monday, Oct. 19, is the day to circle. Alabama Secretary of State Wes Allen says that is the last day to register to vote. You can register online through the Secretary of State's website until 11:59 p.m. that night, mail a form postmarked by Monday, or turn one in to the Cullman County Board of Registrars before the office closes.",
+   "Other dates are close behind. The state voter guide lists Oct. 27 as the last day to apply for an absentee ballot by mail and Oct. 29 as the last day to apply in person. Absentee ballots returned by mail must arrive by noon on Election Day.",
+   "Below the races for office, every voter in Cullman County will see five yes or no questions. Statewide Amendment 1 combines three changes in one vote. It would let voters fill a lieutenant governor vacancy that happens early in a term, let the Legislature set pay for the lieutenant governor and legislative officers by joint resolution, and require a legislative officer to approve travel spending.",
+   "Statewide Amendment 2 would set up a process for neighboring county school systems to merge under one board, with a state impact study and a way for voters to protest. The Cullman Tribune notes it would not automatically combine Cullman City Schools and Cullman County Schools.",
+   "Statewide Amendment 3 would require local school boards to adopt policies for the Pledge of Allegiance at the start of each school day and to allow voluntary prayer that students start and lead. Statewide Amendment 4 would require public schools to play or perform the first verse of The Star Spangled Banner at least once a week.",
+   "The local question would let homeowners age 65 and older freeze the assessed value of their home for property taxes. The home must have been their main residence for at least five years, and there is no income limit. Claims could start Oct. 1, 2027, and a tax bill could still change if millage rates change.",
+   "You can read the official Fair Ballot Commission statement for each statewide amendment on the Secretary of State's website, and the Cullman County Probate Office posts a sample ballot before Election Day. Questions about the senior property freeze can go to the Revenue Commissioner's Office at 256-775-4776."
+  ],
+  "sources": [
+   {
+    "name": "Alabama Secretary of State: Register to vote ahead of the Nov. 3 General Election",
+    "url": "https://www.sos.alabama.gov/newsroom/secretary-state-wes-allen-reminds-alabamians-register-vote-ahead-november-3-general"
+   },
+   {
+    "name": "Alabama Secretary of State: 2026 Voter Guide with election deadlines",
+    "url": "https://www.sos.alabama.gov/sites/default/files/election-2026/2026-VoterGuide.pdf"
+   },
+   {
+    "name": "Alabama Secretary of State: Fair Ballot Commission statements for the 2026 statewide amendments",
+    "url": "https://www.sos.alabama.gov/alabama-votes/voter/ballot-measures/statewide"
+   },
+   {
+    "name": "The Cullman Tribune: What Cullman County voters should know about amendments on the Nov. 3 ballot (Oct. 15, 2026)",
+    "url": "https://www.cullmantribune.com/2026/10/15/what-cullman-county-voters-should-know-about-amendments-on-the-nov-3-ballot/"
+   }
+  ],
+  "tags": [
+   "election",
+   "vote",
+   "register to vote",
+   "amendments",
+   "property tax",
+   "seniors",
+   "cullman county"
+  ]
+ },
+ {
+  "id": "curts-closet-christmas-toy-drive",
+  "date": "2026-10-17",
+  "category": "Around the County",
+  "graphic": "🎁",
+  "headline": "Curt's Closet is collecting toys for up to 600 Cullman County kids this Christmas",
+  "summary": "The local nonprofit's annual Curt's Christmas toy drive runs through mid November. You can drop off new toys at three spots in Cullman and Vinemont or sign up as a sponsor.",
+  "body": [
+   "Christmas is about two months out, and Curt's Closet is already working to make it a good one for local children. The nonprofit's annual Curt's Christmas toy drive hopes to help provide Christmas for as many as 600 kids, according to The Cullman Tribune. Last year the group reported helping 200 families and more than 500 children.",
+   "Toys can be dropped off through mid November at three places. Rushforth Family Care is at 1935 Alabama Highway 157, Suite C, in Cullman and is open Monday through Thursday from 8 a.m. to 5 p.m. and Friday from 8 a.m. to 1 p.m. The main branch of Premier Bank of the South is at 101 First Ave. NW in Cullman and is open weekdays from 8 a.m. to 5 p.m. and Saturdays from 8 a.m. to noon. RE Garrison Trucking at 1103 County Road 1194 in Vinemont takes donations any time.",
+   "Dolls, games, balls and craft kits all help. Curt's Closet is also asking businesses, churches, civic groups and families to sign up as sponsors through the form linked in the Tribune's story.",
+   "The family application window closed Friday, Oct. 16. Families are picked by a random lottery, must live in Cullman County, and those selected will be contacted the week of Nov. 6. For more details, call 256-735-4557 or visit curtscloset.org."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Curt's Closet holding annual toy drive, looking for Christmas sponsors (Oct. 15, 2026)",
+    "url": "https://www.cullmantribune.com/2026/10/15/curts-closet-holding-annual-toy-drive-looking-for-christmas-sponsors/"
+   },
+   {
+    "name": "Curt's Closet",
+    "url": "https://curtscloset.org"
+   }
+  ],
+  "tags": [
+   "curts closet",
+   "toy drive",
+   "christmas",
+   "nonprofit",
+   "donate",
+   "cullman county"
+  ]
+ },
+ {
+  "id": "americas-thrift-cullman-november",
+  "date": "2026-10-17",
+  "category": "Around the County",
+  "graphic": "🛍️",
+  "headline": "America's Thrift Stores plans a November opening in Cullman and is hiring now",
+  "summary": "The secondhand store is moving into the former Bargain Hunt space at 1721 Second Ave. SW, and donations there support Make A Wish Alabama.",
+  "body": [
+   "Bargain shoppers have a new stop coming. America's Thrift Stores plans to open a Cullman location in November at 1721 Second Ave. SW, Suite 1, The Cullman Tribune reported. That is the same address where Bargain Hunt operated before the chain closed stores in 2025. No exact opening day has been announced.",
+   "The store will sell secondhand clothing and household goods, sorted by category and size, with new items added to the floor every day. The company names Make A Wish Alabama as its charity partner in the state, so donations dropped off there help grant wishes for Alabama children with critical illnesses.",
+   "The company is hiring for full time and part time retail jobs and for processing jobs, which involve sorting, cleaning and pricing donated items. Anyone interested can apply through the careers page on the America's Thrift website."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: America's Thrift Stores plans November opening in Cullman (Oct. 13, 2026)",
+    "url": "https://www.cullmantribune.com/2026/10/13/americas-thrift-stores-plans-november-opening-in-cullman/"
+   },
+   {
+    "name": "America's Thrift Stores: careers",
+    "url": "https://www.americasthrift.com/careers"
+   }
+  ],
+  "tags": [
+   "new business",
+   "thrift store",
+   "shopping",
+   "jobs",
+   "cullman",
+   "make a wish"
+  ]
+ },
+ {
+  "id": "council-roads-vehicles-fire-chief",
+  "date": "2026-10-17",
   "category": "City Hall",
   "graphic": "🏛️",
   "headline": "Hanceville council adds $25,000 for road patching, backs mayor on fire chief",
