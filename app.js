@@ -3,7 +3,7 @@
 var FB='https://www.facebook.com/ShopLocalAlabama';
 var PAGES=[
  {k:'events',f:'events.html',t:'Upcoming Events',ic:'\ud83d\udcc5',j:'events.json'},
- {k:'businesses',f:'businesses.html',t:'Business Directory',ic:'\ud83d\udecd\ufe0f',j:'businesses.json',g:'category',o:['Restaurants & Food','Shopping & Retail','Services','Manufacturing & Industry','Other']},
+ {k:'businesses',f:'businesses.html',t:'Business Directory',ic:'\ud83d\udecd\ufe0f',j:'businesses.json',g:'category',o:['Restaurants','Drinks & Coffee','Barbers & Salons','Auto Sales','Auto Repair & Mechanics','Tires','Small Engine Repair','Towing','Home Services','Health & Pharmacy','Pets & Child Care','Finance & Insurance','Shopping & Retail','Manufacturing & Industry','Lodging','Other']},
  {k:'directory',f:'directory.html',t:'Community Directory',ic:'\ud83c\udfdb\ufe0f',j:'directory.json',g:'group',o:['Schools','City Hall & Government','Public Safety','Utilities & Public Works','Community Services']},
  {k:'resources',f:'resources.html',t:'Community Resources',ic:'\ud83e\udd1d',j:'resources.json',g:'group',o:['Crisis & Emergency','Everyone','Women','Children & Families','Seniors','Veterans']},
  {k:'wallace',f:'wallace.html',t:'Wallace State Services',ic:'\ud83c\udf93',j:'wallace.json',g:'group',o:['Getting Started','Paying for College','Help in the Classroom','Careers and Training','Health, Safety and Support','Campus Life','Community Services']}
@@ -20,7 +20,7 @@ function dd(s){var p=s.split('-').map(Number),x=new Date(Date.UTC(p[0],p[1]-1,p[
 function fmt(e){var a=dd(e.start);if(!e.end||e.end===e.start)return a.w+', '+a.m+' '+a.d;var b=dd(e.end);return a.m+' '+a.d+' to '+(a.m===b.m?'':b.m+' ')+b.d;}
 function card(e,kind){var c=el('article','card '+(kind==='events'?'ev':'dc'));c.id=slug(e.name);c.appendChild(el('h3',null,e.name));
  if(kind==='events'){c.appendChild(el('p','when',fmt(e)+(e.time?' \u00b7 '+e.time:'')));c.appendChild(el('p','meta','\ud83d\udccd '+(e.venue?e.venue+', ':'')+e.town));c.appendChild(el('p','meta','Hosted by '+e.host));if(e.cost)c.appendChild(el('p','meta','\ud83c\udf9f\ufe0f '+e.cost));}
- else{if(e.type){var tp=el('p');tp.appendChild(el('span','tag',e.type));c.appendChild(tp);}if(e.address)c.appendChild(el('p','meta','\ud83d\udccd '+e.address));if(e.phone)c.appendChild(el('p','meta','\ud83d\udcde '+e.phone));if(e.email)c.appendChild(el('p','meta','\u2709\ufe0f '+e.email));}
+ else{if(e.type||e.service){var tp=el('p');tp.appendChild(el('span','tag',e.service||e.type));c.appendChild(tp);}if(e.address)c.appendChild(el('p','meta','\ud83d\udccd '+e.address));if(e.phone)c.appendChild(el('p','meta','\ud83d\udcde '+e.phone));if(e.email)c.appendChild(el('p','meta','\u2709\ufe0f '+e.email));}
  c.appendChild(el('p','sum',e.summary));var a=el('div','acts');
  if(kind==='events')a.appendChild(btn('View on Facebook',e.url,'',1,'View '+e.name+' on Facebook'));
  if(e.phone)a.appendChild(btn('Call','tel:'+e.phone.replace(/[^0-9]/g,''),'',0,'Call '+e.name));
@@ -47,7 +47,7 @@ if(q){var tmr;q.addEventListener('input',function(){clearTimeout(tmr);tmr=setTim
  document.getElementById('gs-form').addEventListener('submit',function(e){e.preventDefault();run();var f=res.querySelector('a');if(f)f.focus();});}
 function run(){var t=q.value.trim().toLowerCase();if(t.length<2){res.classList.remove('open');res.innerHTML='';return;}
  Promise.all(PAGES.map(function(p){return get(p).then(function(d){return d.map(function(e){return{p:p,e:e};});}).catch(function(){return[];});})).then(function(all){
-  var words=t.split(/\s+/),out=[];[].concat.apply([],all).forEach(function(x){var e=x.e,hay=[e.name,e.summary,e.type,e.category,e.group,e.address,e.venue,e.town,e.host].join(' ').toLowerCase();if(words.every(function(w){return hay.indexOf(w)>=0;}))out.push(x);});
+  var words=t.split(/\s+/),out=[];[].concat.apply([],all).forEach(function(x){var e=x.e,hay=[e.name,e.summary,e.type,e.service,(e.tags||[]).join(' '),e.category,e.group,e.address,e.venue,e.town,e.host].join(' ').toLowerCase();if(words.every(function(w){return hay.indexOf(w)>=0;}))out.push(x);});
   res.innerHTML='';if(!out.length){res.appendChild(el('p',null,'No matches yet. Try another word.'));}
   out.slice(0,30).forEach(function(x){var a=el('a');a.href=x.p.f+'#'+slug(x.e.name);a.appendChild(el('small',null,x.p.t));a.appendChild(el('div',null,x.e.name));res.appendChild(a);});
   res.classList.add('open');});}
@@ -57,7 +57,7 @@ if(P&&box){get(P).then(function(d){
  if(P.k==='events'){var g=el('div','grid');d.forEach(function(e){g.appendChild(card(e,'events'));});box.appendChild(g);st.textContent=d.length?'':'No upcoming events right now. Follow the Page and we will post new ones soon!';}
  else if(P.k==='businesses'){d.sort(function(a,b){return a.name.localeCompare(b.name);});var bq=document.getElementById('biz-q'),ch=document.getElementById('biz-chips'),c='All';
   ['All'].concat(P.o).forEach(function(x){var n=el('button','chip',x);n.type='button';n.setAttribute('aria-pressed',x==='All');n.onclick=function(){c=x;[].forEach.call(ch.children,function(y){y.setAttribute('aria-pressed',y===n);});go();};ch.appendChild(n);});
-  function go(){var t=bq.value.trim().toLowerCase();var f=d.filter(function(e){return(c==='All'||e.category===c)&&(!t||[e.name,e.type,e.category,e.summary,e.address].join(' ').toLowerCase().indexOf(t)>=0);});groups(box,f,P);st.textContent=f.length?f.length+' businesses shown':'No matches yet. Try another word or category.';}
+  function go(){var t=bq.value.trim().toLowerCase();var f=d.filter(function(e){return(c==='All'||e.category===c)&&(!t||[e.name,e.service,(e.tags||[]).join(' '),e.category,e.summary,e.address].join(' ').toLowerCase().indexOf(t)>=0);});groups(box,f,P);st.textContent=f.length?f.length+' businesses shown':'No matches yet. Try another word or category.';}
   bq.addEventListener('input',go);go();}
  else{groups(box,d,P);st.textContent='';}
  jump();}).catch(function(){st.textContent='This list could not load right now. Please try again soon.';});}
