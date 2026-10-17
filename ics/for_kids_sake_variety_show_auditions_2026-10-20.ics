@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:for_kids_sake_variety_show_auditions-20261020@hanceville-entertainmen
+ t-shopping
+DTSTAMP:20261017T120000Z
+DTSTART;TZID=America/Chicago:20261020T160000
+DTEND;TZID=America/Chicago:20261020T193000
+SUMMARY:For Kids' Sake Variety Show Auditions
+LOCATION:Christ Hall at St. John's Church\, 512 Second Ave SE\, Cullman\,
+  AL
+DESCRIPTION:Young singers\, dancers\, musicians and other performers can 
+ try out for the 2027 Bownes Memorial For Kids' Sake Variety Show\, which 
+ raises money for nursery and pediatric care at Cullman Regional. Can't ma
+ ke Tuesday? Thursday\, Oct. 22\, auditions are by appointment through the
+  Foundation at 256-737-2565. Time: 4:00 PM to 7:30 PM. https://www.cullma
+ ntribune.com/2026/10/17/auditions-oct-20-22-for-2027-bownes-memorial-for-
+ kids-sake-variety-show/
+URL:https://www.cullmantribune.com/2026/10/17/auditions-oct-20-22-for-202
+ 7-bownes-memorial-for-kids-sake-variety-show/
+END:VEVENT
+END:VCALENDAR

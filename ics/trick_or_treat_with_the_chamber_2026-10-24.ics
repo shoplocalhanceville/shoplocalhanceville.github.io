@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:trick_or_treat_with_the_chamber-20261024@hanceville-entertainment-sho
+ pping
+DTSTAMP:20261017T120000Z
+DTSTART;TZID=America/Chicago:20261024T100000
+DTEND;TZID=America/Chicago:20261024T160000
+SUMMARY:Trick or Treat with the Chamber
+LOCATION:Cullman Area Chamber of Commerce\, 301 Second Ave SW\, Cullman\,
+  AL
+DESCRIPTION:Pick up a free trick or treat bag and a list of stops at the 
+ Chamber on Friday\, Oct. 23\, from 8:00 AM to 5:00 PM. On Saturday\, take
+  the kids around to the participating Cullman businesses for treats. Bags
+  are first come\, first served. Time: 10:00 AM to 4:00 PM. https://busine
+ ss.cullmanchamber.org/events/details/trick-or-treat-with-the-chamber-2405
+ 2
+URL:https://business.cullmanchamber.org/events/details/trick-or-treat-wit
+ h-the-chamber-24052
+END:VEVENT
+END:VCALENDAR

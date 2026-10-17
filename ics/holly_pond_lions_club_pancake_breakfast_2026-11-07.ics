@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:holly_pond_lions_club_pancake_breakfast-20261107@hanceville-entertain
+ ment-shopping
+DTSTAMP:20261017T120000Z
+DTSTART;TZID=America/Chicago:20261107T060000
+DTEND;TZID=America/Chicago:20261107T090000
+SUMMARY:Holly Pond Lions Club Pancake Breakfast
+LOCATION:Holly Pond Lions Club Building\, Lyons Park Road\, Holly Pond\, 
+ AL
+DESCRIPTION:Pancakes\, bacon\, sausage and coffee or juice\, to eat in or
+  take out. Proceeds help the Lions Club project fund and the food pantry 
+ between Town Hall and the fire department. Time: 6:00 AM to 9:00 AM. http
+ s://cullmantimes.com/2026/10/14/calendar-of-events/
+URL:https://cullmantimes.com/2026/10/14/calendar-of-events/
+END:VEVENT
+END:VCALENDAR

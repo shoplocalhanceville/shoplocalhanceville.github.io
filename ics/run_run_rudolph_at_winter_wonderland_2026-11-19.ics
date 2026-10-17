@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:run_run_rudolph_at_winter_wonderland-20261119@hanceville-entertainmen
+ t-shopping
+DTSTAMP:20261017T120000Z
+DTSTART;TZID=America/Chicago:20261119T170000
+DTEND;TZID=America/Chicago:20261119T200000
+SUMMARY:Run Run Rudolph at Winter Wonderland
+LOCATION:Sportsman Lake Park\, 1544 Sportsman Lake Rd NW\, Cullman\, AL
+DESCRIPTION:Run or stroll through the Winter Wonderland Christmas lights 
+ on foot\, one night only. Registration opens at 4:00 PM\, runners start a
+ t 5:00 PM and walkers follow. There's an ugly sweater and Christmas costu
+ me contest\, dogs and strollers are welcome\, and kids 6 and under are fr
+ ee. Park at the fairgrounds. Time: 5:00 PM to 8:00 PM. https://www.eventb
+ rite.com/e/run-run-rudolph-tickets-2002938862054
+URL:https://www.eventbrite.com/e/run-run-rudolph-tickets-2002938862054
+END:VEVENT
+END:VCALENDAR

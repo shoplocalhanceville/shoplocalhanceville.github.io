@@ -52,17 +52,6 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Bats, Bats and More Bats!",
-  "start": "2026-10-17",
-  "time": "10:00 AM",
-  "venue": "Hanceville Public Library",
-  "town": "Hanceville",
-  "host": "Southern Ghost Girls Tours and Paranormal Investigations, Hanceville Public Library and Lesley Bearden Hyde",
-  "summary": "A local Boy Scout will talk about how bats help the environment. It's a good fit for curious kids during spooky season.",
-  "url": "https://www.facebook.com/events/1630276211762165/",
-  "group": "Community and Fun"
- },
- {
   "name": "Blakgraz Live at Ethos Craft Brewing",
   "start": "2026-10-17",
   "time": "7:00 PM to 10:00 PM",
@@ -91,16 +80,6 @@
    "community",
    "health"
   ],
-  "group": "Community and Fun"
- },
- {
-  "name": "Pancake Breakfast",
-  "start": "2026-10-17",
-  "time": "7:00 AM",
-  "town": "Hanceville",
-  "host": "Hanceville Civitan Club",
-  "summary": "The Hanceville Civitan Club is serving pancakes on Saturday morning. Come eat breakfast with your neighbors and support a local service club.",
-  "url": "https://www.facebook.com/events/2869260006764344/",
   "group": "Community and Fun"
  },
  {
@@ -185,6 +164,24 @@
   "summary": "Music bingo with ice cream and prizes. Listen for the song, mark your card and enjoy a scoop.",
   "url": "https://www.facebook.com/events/1130275609593594/",
   "group": "Community and Fun"
+ },
+ {
+  "name": "For Kids' Sake Variety Show Auditions",
+  "start": "2026-10-20",
+  "time": "4:00 PM to 7:30 PM",
+  "venue": "Christ Hall at St. John's Church, 512 Second Ave SE",
+  "town": "Cullman",
+  "host": "Cullman Regional Foundation",
+  "summary": "Young singers, dancers, musicians and other performers can try out for the 2027 Bownes Memorial For Kids' Sake Variety Show, which raises money for nursery and pediatric care at Cullman Regional. Can't make Tuesday? Thursday, Oct. 22, auditions are by appointment through the Foundation at 256-737-2565.",
+  "url": "https://www.cullmantribune.com/2026/10/17/auditions-oct-20-22-for-2027-bownes-memorial-for-kids-sake-variety-show/",
+  "group": "Community and Fun",
+  "tags": [
+   "auditions",
+   "talent show",
+   "kids",
+   "cullman regional",
+   "fundraiser"
+  ]
  },
  {
   "name": "Storytime: Paper Shapes",
@@ -402,6 +399,43 @@
   "group": "Community and Fun"
  },
  {
+  "name": "Spooktacular Storybook 5K and 1 Mile Fun Run",
+  "start": "2026-10-24",
+  "time": "8:00 AM",
+  "venue": "Cullman County Public Library, 200 Clark St NE",
+  "town": "Cullman",
+  "host": "Friends of the Public Libraries of Cullman County",
+  "summary": "Dress as your favorite book character and run or walk a new course that starts and ends at the library. There are awards for the fastest runners, age groups and best costume, and the race kicks off the library's capital campaign. Register at storybook5k.com.",
+  "url": "https://www.cullmantribune.com/2026/10/06/3rd-annual-spooktacular-storybook-5k-coming-oct-24/",
+  "group": "Sports",
+  "tags": [
+   "5k",
+   "fun run",
+   "halloween",
+   "library",
+   "costume"
+  ]
+ },
+ {
+  "name": "Trick or Treat with the Chamber",
+  "start": "2026-10-24",
+  "time": "10:00 AM to 4:00 PM",
+  "venue": "Cullman Area Chamber of Commerce, 301 Second Ave SW",
+  "town": "Cullman",
+  "host": "Cullman Area Chamber of Commerce",
+  "cost": "Free",
+  "summary": "Pick up a free trick or treat bag and a list of stops at the Chamber on Friday, Oct. 23, from 8:00 AM to 5:00 PM. On Saturday, take the kids around to the participating Cullman businesses for treats. Bags are first come, first served.",
+  "url": "https://business.cullmanchamber.org/events/details/trick-or-treat-with-the-chamber-24052",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "trick or treat",
+   "kids",
+   "free",
+   "shop local"
+  ]
+ },
+ {
   "name": "Murder at Jubilee Manor: Murder Mystery Dinner",
   "start": "2026-10-25",
   "time": "5:30 PM",
@@ -410,6 +444,18 @@
   "host": "Jubilee Kitchen and Bar",
   "summary": "Dinner and a mystery to solve. Ticket and menu details have not been posted yet, so check the event page for updates.",
   "url": "https://www.facebook.com/events/2203126510618743/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Planning Commission Meeting",
+  "start": "2026-10-26",
+  "time": "6:00 PM",
+  "venue": "Hanceville Civic Center, 902 Commercial St",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The Planning Commission meets about zoning, land subdivision and development plans in the city. Anyone may attend.",
+  "url": "https://www.cityofhanceville.net/events",
   "group": "Community and Fun"
  },
  {
@@ -505,6 +551,24 @@
   "group": "Community and Fun"
  },
  {
+  "name": "Southern Pie Class: Sweet Pie with a Lattice Top",
+  "start": "2026-10-29",
+  "time": "6:00 PM to 8:00 PM",
+  "venue": "North Alabama Agriplex, 1714 Tally Ho St SW",
+  "town": "Cullman",
+  "host": "North Alabama Agriplex Kitchen Series",
+  "cost": "$25 per person",
+  "summary": "Learn to make a tender, flaky pie crust from scratch, fill it with a classic Southern sweet filling and weave a full lattice top. Youth ages 12 to 15 need to register with a paid adult.",
+  "url": "https://business.cullmanchamber.org/events/details/kitchen-series-southern-pie-series-sweet-24047",
+  "group": "Community and Fun",
+  "tags": [
+   "cooking class",
+   "pie",
+   "baking",
+   "agriplex"
+  ]
+ },
+ {
   "name": "Hanceville Bulldogs Football at Elkmont",
   "start": "2026-10-30",
   "time": "7:00 PM",
@@ -573,6 +637,52 @@
   "host": "Hanceville Fire and Rescue",
   "summary": "For the sixth year, Hanceville firefighters and EMTs are handing out candy to kids who stay in the car. Costumes are encouraged, and seatbelts are required.",
   "url": "https://www.facebook.com/events/1665588358521659/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Nightmare on Woodland Street",
+  "start": "2026-10-31",
+  "time": "5:00 PM",
+  "venue": "Woodland Street NW",
+  "town": "Cullman",
+  "host": "Woodland Street NW neighbors",
+  "summary": "Families along Woodland Street NW team up every Halloween with interactive props, plenty of candy and a whole street full of spooky fun.",
+  "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "trick or treat",
+   "kids"
+  ]
+ },
+ {
+  "name": "Berlin Trunk or Treat",
+  "start": "2026-10-31",
+  "time": "6:00 PM to 8:00 PM",
+  "venue": "Berlin Farmers Market, 50 Mt. Carmel Drive",
+  "town": "Cullman",
+  "host": "Town of Berlin",
+  "cost": "Free",
+  "summary": "Full size candy bars from the Town of Berlin and free bounce houses for the kids. Businesses, churches and groups are welcome to set up a trunk, and candy donations can be dropped off at Berlin Town Hall.",
+  "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "trunk or treat",
+   "kids",
+   "free"
+  ]
+ },
+ {
+  "name": "Events and Community Development Committee Meeting",
+  "start": "2026-11-02",
+  "time": "6:00 PM",
+  "venue": "Shirley Burden Public Library, 201 Commercial St",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The city's events committee plans community events and works on tourism and local partnerships. Residents with ideas are welcome to come.",
+  "url": "https://www.cityofhanceville.net/page/events-community-development-committee",
   "group": "Community and Fun"
  },
  {
@@ -663,6 +773,54 @@
   "group": "Community and Fun"
  },
  {
+  "name": "Holly Pond Lions Club Pancake Breakfast",
+  "start": "2026-11-07",
+  "time": "6:00 AM to 9:00 AM",
+  "venue": "Holly Pond Lions Club Building, Lyons Park Road",
+  "town": "Holly Pond",
+  "host": "Holly Pond Lions Club",
+  "cost": "Donation",
+  "summary": "Pancakes, bacon, sausage and coffee or juice, to eat in or take out. Proceeds help the Lions Club project fund and the food pantry between Town Hall and the fire department.",
+  "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "breakfast",
+   "fundraiser",
+   "lions club",
+   "food pantry"
+  ]
+ },
+ {
+  "name": "Hanceville City Council Meeting",
+  "start": "2026-11-12",
+  "time": "6:00 PM work session, regular meeting right after",
+  "venue": "Hanceville City Hall, 112 Main St SE",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The City Council holds a work session at 6:00 PM, followed right away by its regular meeting. The city announced this date on its Oct. 8 agenda.",
+  "url": "https://www.cityofhanceville.net/o/coh/page/city-council",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "United Way Designer Bag Bingo",
+  "start": "2026-11-12",
+  "time": "6:00 PM to 10:00 PM",
+  "venue": "Cotton Creek, 417 Third Ave SW",
+  "town": "Cullman",
+  "host": "United Way of Cullman County",
+  "cost": "$50 per person or $500 per table",
+  "summary": "An evening of bingo with designer handbag prizes. Proceeds support local needs and programs through United Way of Cullman County.",
+  "url": "https://business.cullmanchamber.org/events/details/united-way-of-cullman-county-designer-bag-bingo-23309",
+  "group": "Community and Fun",
+  "tags": [
+   "bingo",
+   "fundraiser",
+   "united way",
+   "night out"
+  ]
+ },
+ {
   "name": "Cullman Christmas Open House",
   "start": "2026-11-13",
   "end": "2026-11-15",
@@ -725,6 +883,77 @@
    "high school",
    "bulldogs",
    "home game"
+  ]
+ },
+ {
+  "name": "Cullman Veterans Hall of Fame Dinner and Ceremony",
+  "start": "2026-11-17",
+  "time": "5:30 PM",
+  "venue": "Loft 212, 212 Fourth St SW",
+  "town": "Cullman",
+  "host": "Cullman Veterans Hall of Fame",
+  "summary": "This year's class of inductees will be honored at a dinner and ceremony. The event was moved to this new date, and ticket details are coming soon.",
+  "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "veterans",
+   "hall of fame",
+   "dinner",
+   "military"
+  ]
+ },
+ {
+  "name": "Run Run Rudolph at Winter Wonderland",
+  "start": "2026-11-19",
+  "time": "5:00 PM to 8:00 PM",
+  "venue": "Sportsman Lake Park, 1544 Sportsman Lake Rd NW",
+  "town": "Cullman",
+  "host": "Cullman County Parks and Recreation",
+  "summary": "Run or stroll through the Winter Wonderland Christmas lights on foot, one night only. Registration opens at 4:00 PM, runners start at 5:00 PM and walkers follow. There's an ugly sweater and Christmas costume contest, dogs and strollers are welcome, and kids 6 and under are free. Park at the fairgrounds.",
+  "url": "https://www.eventbrite.com/e/run-run-rudolph-tickets-2002938862054",
+  "group": "Sports",
+  "tags": [
+   "fun run",
+   "christmas lights",
+   "winter wonderland",
+   "family",
+   "holiday"
+  ]
+ },
+ {
+  "name": "Wallace State Women's Basketball: Wallace State Classic vs. Vincennes",
+  "start": "2026-11-20",
+  "time": "2:00 PM",
+  "venue": "Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Wallace State Lions women's basketball team hosts Vincennes in the Wallace State Classic.",
+  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "wallace state",
+   "lions",
+   "college"
+  ]
+ },
+ {
+  "name": "Wallace State Women's Basketball: Wallace State Classic vs. Chipola",
+  "start": "2026-11-21",
+  "time": "2:00 PM",
+  "venue": "Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Lions women's basketball team wraps up the Wallace State Classic at home against Chipola.",
+  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "wallace state",
+   "lions",
+   "college"
   ]
  },
  {
@@ -885,41 +1114,5 @@
    "bulldogs",
    "home game"
   ]
- },
- {
-  "name": "Hanceville Planning Commission Meeting",
-  "start": "2026-10-26",
-  "time": "6:00 PM",
-  "venue": "Hanceville Civic Center, 902 Commercial St",
-  "town": "Hanceville",
-  "host": "City of Hanceville",
-  "cost": "Free and open to the public",
-  "summary": "The Planning Commission meets about zoning, land subdivision and development plans in the city. Anyone may attend.",
-  "url": "https://www.cityofhanceville.net/events",
-  "group": "Community and Fun"
- },
- {
-  "name": "Events and Community Development Committee Meeting",
-  "start": "2026-11-02",
-  "time": "6:00 PM",
-  "venue": "Shirley Burden Public Library, 201 Commercial St",
-  "town": "Hanceville",
-  "host": "City of Hanceville",
-  "cost": "Free and open to the public",
-  "summary": "The city's events committee plans community events and works on tourism and local partnerships. Residents with ideas are welcome to come.",
-  "url": "https://www.cityofhanceville.net/page/events-community-development-committee",
-  "group": "Community and Fun"
- },
- {
-  "name": "Hanceville City Council Meeting",
-  "start": "2026-11-12",
-  "time": "6:00 PM work session, regular meeting right after",
-  "venue": "Hanceville City Hall, 112 Main St SE",
-  "town": "Hanceville",
-  "host": "City of Hanceville",
-  "cost": "Free and open to the public",
-  "summary": "The City Council holds a work session at 6:00 PM, followed right away by its regular meeting. The city announced this date on its Oct. 8 agenda.",
-  "url": "https://www.cityofhanceville.net/o/coh/page/city-council",
-  "group": "Community and Fun"
  }
 ]
