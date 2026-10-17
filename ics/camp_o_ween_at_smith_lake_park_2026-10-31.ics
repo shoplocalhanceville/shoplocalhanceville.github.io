@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:camp_o_ween_at_smith_lake_park-20261031@hanceville-entertainment-shop
+ ping
+DTSTAMP:20261017T120000Z
+DTSTART;TZID=America/Chicago:20261031T120000
+DTEND;TZID=America/Chicago:20261031T200000
+SUMMARY:Camp-O-Ween at Smith Lake Park
+LOCATION:Smith Lake Park\, 403 County Road 386\, Cullman\, AL
+DESCRIPTION:Food trucks\, games\, contests\, rides\, a DJ and campground 
+ trick or treating make Halloween at Smith Lake Park a full day outing. Ti
+ me: 12:00 PM to 8:00 PM. https://www.cullmantribune.com/2026/09/10/list-u
+ pcoming-fall-events/
+URL:https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/
+END:VEVENT
+END:VCALENDAR

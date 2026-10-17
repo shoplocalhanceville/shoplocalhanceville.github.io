@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:west_point_trunk_or_treat-20261029@hanceville-entertainment-shopping
+DTSTAMP:20261017T120000Z
+DTSTART;TZID=America/Chicago:20261029T180000
+DTEND;TZID=America/Chicago:20261029T200000
+SUMMARY:West Point Trunk or Treat
+LOCATION:3990 County Road 1141\, Vinemont\, AL
+DESCRIPTION:The Town of West Point hosts trunk or treat with candy\, game
+ s\, food trucks and costumes. A fun midweek Halloween stop for families. 
+ Time: 6:00 PM. https://www.cullmantribune.com/2026/09/10/list-upcoming-fa
+ ll-events/
+URL:https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/
+END:VEVENT
+END:VCALENDAR

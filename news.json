@@ -41,6 +41,37 @@
   ]
  },
  {
+  "id": "ms-walk-awareness-day",
+  "date": "2026-10-17",
+  "category": "Around the County",
+  "graphic": "💜",
+  "headline": "Cullman marks MS Awareness Day with a free walk at Heritage Park today",
+  "summary": "Mayor Woody Jacobs proclaimed Oct. 17 Multiple Sclerosis Awareness Day. The Move Over MS Walk runs 8 a.m. to noon at Heritage Park with music, free snacks and a kids costume contest.",
+  "body": [
+   "Saturday is Multiple Sclerosis Awareness Day in Cullman. Mayor Woody Jacobs signed the proclamation earlier this month so neighbors living with MS, and the people who love them, know the city is in their corner.",
+   "The Move Over MS Walk is today, Oct. 17, from 8 a.m. to noon on the Olive Street side of Heritage Park. North Central Neurology Associates, the Joanne P. LaGanke MS Center and MS Views and News are hosting. Registration is free online.",
+   "Organizers promise live music from The Overtones, free biscuits, fruit, coffee and doughnuts, plus giveaways from pharmaceutical partners. Kids can enter a Halloween costume contest, and a raffle supports the event. Raffle tickets are $5 each or five for $20.",
+   "Dr. Christopher LaGanke founded the Joanne P. LaGanke MS Center in memory of his mother. The center focuses on patient care, research and clinical trials. If you can make it, pack a jacket for the cool morning and come cheer folks on."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Cullman proclaims Multiple Sclerosis Awareness Day ahead of Oct. 17 walk (Oct. 10, 2026)",
+    "url": "https://www.cullmantribune.com/2026/10/10/cullman-proclaims-multiple-sclerosis-awareness-day-ahead-of-oct-17-walk/"
+   },
+   {
+    "name": "MS Views and News: 2026 Move Over MS Walk Cullman registration",
+    "url": "https://www.msviewsandnews.org/event/2026mswalk-cullman"
+   }
+  ],
+  "tags": [
+   "ms walk",
+   "cullman",
+   "heritage park",
+   "health",
+   "community"
+  ]
+ },
+ {
   "id": "wallace-volleyball-win-streak",
   "date": "2026-10-17",
   "category": "Sports",
@@ -83,6 +114,7 @@
   "body": [
    "Friday night football came a day early in Hanceville this week. With fall break starting Friday, the Bulldogs hosted Hokes Bluff on Thursday, Oct. 15, and the Eagles won 49 to 8 in the Class 3A, Region 6 game.",
    "According to The Cullman Times, Carson Moore scored Hanceville's touchdown on a run and Zavier Malcom ran in the 2 point conversion. WEIS Radio also listed the final in its Alabama Sports Writers Association scoreboard.",
+   "The reported result leaves Hanceville at 0 and 8 overall and 0 and 6 in the region, according to The Cullman Tribune. Hokes Bluff moved to 4 and 4 overall and 4 and 2 in region play.",
    "The Bulldogs are back home Friday, Oct. 23, at 7 p.m. against Oneonta at Ray Talley Stadium. They finish the regular season at Elkmont on Friday, Oct. 30, according to MaxPreps. Grab a seat in the stands and cheer them on."
   ],
   "sources": [
@@ -110,7 +142,8 @@
    "hokes bluff",
    "oneonta",
    "sports"
-  ]
+  ],
+  "updated": "2026-10-17"
  },
  {
   "id": "hhs-nhs-chapter-of-distinction",

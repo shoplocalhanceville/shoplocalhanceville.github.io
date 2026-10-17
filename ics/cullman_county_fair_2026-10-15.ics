@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cullman_county_fair-20261015@hanceville-entertainment-shopping
+DTSTAMP:20261017T120000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261025
+SUMMARY:Cullman County Fair
+LOCATION:Cullman County Fairgrounds\, 1501 Sportsman Lake Rd NW\, Cullman
+ \, AL
+DESCRIPTION:The county fair is open through Saturday\, Oct. 24\, with rid
+ es\, exhibits\, food and family fun at the fairgrounds. The midway is cas
+ hless\, so bring a card. Time: Weekdays from 5:00 PM\; Saturdays and Sund
+ ays from 2:00 PM\; Monday Oct. 19 Kids Day from 1:00 PM. https://www.cull
+ manfair.org/
+URL:https://www.cullmanfair.org/
+END:VEVENT
+END:VCALENDAR
