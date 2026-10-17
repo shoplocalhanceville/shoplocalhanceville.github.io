@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hanceville_holly_market-20261205@charliegamedevelop.github.io
+DTSTAMP:20261016T120000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Hanceville Holly Market
+LOCATION:Hanceville Civic Center\, 902 Commercial St\, Hanceville\, AL
+DESCRIPTION:A festive indoor holiday market with handmade gifts\, boutiqu
+ es\, crafts and holiday treats. Check off your gift list without leaving 
+ town! https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-c
+ oming-this-december-vendors-needed/
+URL:https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-com
+ ing-this-december-vendors-needed/
+END:VEVENT
+END:VCALENDAR

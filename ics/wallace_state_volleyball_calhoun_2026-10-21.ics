@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wallace_state_volleyball_calhoun-20261021@charliegamedevelop.github.i
+ o
+DTSTAMP:20261016T120000Z
+DTSTART;TZID=America/Chicago:20261021T170000
+DTEND;TZID=America/Chicago:20261021T190000
+SUMMARY:Wallace State Volleyball: Calhoun
+LOCATION:Tom Drake Coliseum\, Wallace State\, Hanceville\, AL
+DESCRIPTION:The Wallace State Lions volleyball team plays at home in Tom 
+ Drake Coliseum. It is a fun\, fast game and a great way to support our co
+ llege neighbors. Time: 5:00 PM. https://athletics.wallacestate.edu/sports
+ /wvball/2026-27/schedule
+URL:https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule
+END:VEVENT
+END:VCALENDAR

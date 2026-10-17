@@ -1,668 +1,695 @@
 [
- {
-  "category": "Restaurants",
-  "name": "Azul Tequila Mexican Cantina",
-  "address": "836 Main St NE, Hanceville, AL 35077",
-  "summary": "A Mexican cantina on Main Street for when the craving for tacos and good company hits.",
-  "phone": "(256) 887-1016",
-  "service": "Mexican restaurant",
-  "tags": [
-   "mexican",
-   "tacos",
-   "dinner",
-   "lunch"
-  ]
- },
- {
-  "category": "Restaurants",
-  "name": "Cafe Tula Taqueria",
-  "address": "106 Commercial St, Hanceville, AL 35077",
-  "summary": "A downtown taqueria that brings Mexican flavor to Commercial Street.",
-  "phone": "(256) 636-0323",
-  "service": "Taqueria",
-  "tags": [
-   "mexican",
-   "tacos",
-   "lunch"
-  ]
- },
- {
-  "category": "Restaurants",
-  "name": "Country Wok",
-  "address": "107 Bangor Ave NE, Hanceville, AL 35077",
-  "summary": "A local spot for Chinese food when you want something tasty without the fuss.",
-  "phone": "(256) 887-1360",
-  "service": "Chinese restaurant",
-  "tags": [
-   "chinese",
-   "takeout"
-  ]
- },
- {
-  "category": "Restaurants",
-  "name": "Jack's",
-  "address": "103 Styles St NE, Hanceville, AL 35077",
-  "summary": "The Southern burger and biscuit chain serves Hanceville from Styles Street.",
-  "phone": "(256) 392-6268",
-  "service": "Fast food",
-  "tags": [
-   "burgers",
-   "biscuits",
-   "breakfast",
-   "drive thru"
-  ]
- },
- {
-  "category": "Restaurants",
-  "name": "McDonald's",
-  "address": "740 Main St NE, Hanceville, AL 35077",
-  "summary": "The familiar golden arches on Main Street, ready for a quick meal on the go.",
-  "phone": "(256) 352-2120",
-  "service": "Fast food",
-  "tags": [
-   "burgers",
-   "breakfast",
-   "drive thru"
-  ]
- },
- {
-  "category": "Restaurants",
-  "name": "Pop's Cafe Hanceville",
-  "address": "814 Main St NE, Hanceville, AL 35077",
-  "summary": "A hometown cafe on Main Street serving up meals and friendly conversation.",
-  "phone": "(256) 887-1035",
-  "service": "Cafe",
-  "tags": [
-   "breakfast",
-   "lunch",
-   "home cooking"
-  ]
- },
- {
-  "category": "Restaurants",
-  "name": "Subway",
-  "address": "720 Main St NE, Hanceville, AL 35077",
-  "summary": "Build your sandwich your way at this Main Street sub shop.",
-  "phone": "(256) 352-2444",
-  "service": "Sandwiches",
-  "tags": [
-   "subs",
-   "sandwiches",
-   "lunch"
-  ]
- },
- {
-  "category": "Restaurants",
-  "name": "Reyes Pizza",
-  "address": "806 Main St NE, Hanceville, AL 35077",
-  "summary": "A local pizza place on Main Street for family nights and game day feasts.",
-  "phone": "(256) 887-1307",
-  "service": "Pizza",
-  "tags": [
-   "pizza",
-   "delivery",
-   "dinner"
-  ]
- },
- {
-  "category": "Restaurants",
-  "name": "Taco Bell",
-  "address": "702 Main St NE, Hanceville, AL 35077",
-  "summary": "Tacos, burritos and late night cravings handled on Main Street.",
-  "phone": "(256) 787-2170",
-  "service": "Fast food",
-  "tags": [
-   "tacos",
-   "burritos",
-   "drive thru",
-   "late night"
-  ]
- },
- {
-  "category": "Drinks & Coffee",
-  "name": "HanceVegas Coffee Shop",
-  "address": "113 Commercial St, Hanceville, AL 35077",
-  "summary": "A downtown coffee shop with a name that is almost as fun as the caffeine.",
-  "phone": "(256) 887-1234",
-  "service": "Coffee shop",
-  "tags": [
-   "coffee",
-   "latte",
-   "espresso",
-   "smoothie"
-  ]
- },
- {
-  "category": "Drinks & Coffee",
-  "name": "Hanceville Nutrition",
-  "service": "Smoothie and shake shop",
-  "tags": [
-   "smoothie",
-   "shakes",
-   "protein",
-   "energy drinks",
-   "tea"
-  ],
-  "address": "918 Main St NE, Hanceville, AL 35077",
-  "summary": "A Main Street stop for smoothies and shakes when you need a cool pick me up."
- },
- {
-  "category": "Barbers & Salons",
-  "name": "Cut N Up Barber and Style",
-  "service": "Barbershop",
-  "tags": [
-   "haircut",
-   "barber",
-   "kids haircut",
-   "family haircuts",
-   "walk ins",
-   "fade"
-  ],
-  "address": "105 Commercial St SE, Hanceville, AL 35077",
-  "summary": "A family barbershop since 2008 offering haircuts for men, women and kids, right next door to Hanceville Drug Co. Walk ins are welcome for cuts, and color and perms are by appointment.",
-  "phone": "(256) 636-2018",
-  "facebook": "https://www.facebook.com/147243128973265"
- },
- {
-  "category": "Barbers & Salons",
-  "name": "The Warehouse Barber",
-  "service": "Barbershop",
-  "tags": [
-   "haircut",
-   "barber",
-   "beard trim",
-   "fade"
-  ],
-  "address": "Main Street, Hanceville, AL 35077",
-  "summary": "A downtown barbershop for fresh cuts and clean lines.",
-  "phone": "(256) 736-3286"
- },
- {
-  "category": "Barbers & Salons",
-  "name": "Hanceville Barber and Style Shop",
-  "service": "Barbershop",
-  "tags": [
-   "haircut",
-   "barber",
-   "style"
-  ],
-  "address": "112 Commercial St NE, Hanceville, AL 35077",
-  "summary": "A longtime downtown barber and style shop on Commercial Street.",
-  "phone": "(256) 352-7271"
- },
- {
-  "category": "Auto Sales",
-  "name": "Freedom Motors of Alabama",
-  "service": "Used car dealer",
-  "tags": [
-   "used cars",
-   "trucks",
-   "car lot",
-   "financing",
-   "auto sales"
-  ],
-  "address": "102 Main St NE, Hanceville, AL 35077",
-  "summary": "A used car dealership on Main Street with cars and trucks for sale.",
-  "phone": "(256) 775-8001"
- },
- {
-  "category": "Auto Sales",
-  "name": "Jerry's Used Cars",
-  "service": "Used car dealer",
-  "tags": [
-   "used cars",
-   "car lot",
-   "trade ins",
-   "auto sales"
-  ],
-  "address": "10474 US Highway 31, Hanceville, AL 35077",
-  "summary": "A used car lot on Highway 31 that also accepts trade ins.",
-  "phone": "(256) 775-2883"
- },
- {
-  "category": "Auto Sales",
-  "name": "Kretzschmar Motors",
-  "service": "Used car dealer",
-  "tags": [
-   "used cars",
-   "car lot",
-   "auto sales"
-  ],
-  "address": "24297 AL Highway 91, Hanceville, AL 35077",
-  "summary": "A used car dealer out on Highway 91.",
-  "phone": "(256) 352-5522"
- },
- {
-  "category": "Auto Sales",
-  "name": "S and N Auto Sales",
-  "service": "Used car dealer",
-  "tags": [
-   "used cars",
-   "car lot",
-   "auto sales"
-  ],
-  "address": "Main Street NE, Hanceville, AL 35077",
-  "summary": "A used car lot on Main Street in Hanceville."
- },
- {
-  "category": "Auto Sales",
-  "name": "Barbee Truck Sales",
-  "service": "Used truck dealer",
-  "tags": [
-   "used trucks",
-   "trucks",
-   "auto sales"
-  ],
-  "address": "7794 US Highway 31, Hanceville, AL 35077",
-  "summary": "A used truck dealer on Highway 31.",
-  "phone": "(256) 352-0701"
- },
- {
-  "category": "Auto Sales",
-  "name": "Whitaker Motors",
-  "service": "Used car dealer",
-  "tags": [
-   "used cars",
-   "car lot",
-   "auto sales"
-  ],
-  "address": "8125 US Highway 31, Hanceville, AL 35077",
-  "summary": "A used car dealer on Highway 31.",
-  "phone": "(256) 352-4442"
- },
- {
-  "category": "Auto Repair & Mechanics",
-  "name": "J and D Auto and Tire Service",
-  "service": "Auto repair and tire shop",
-  "tags": [
-   "mechanic",
-   "auto repair",
-   "oil change",
-   "tires",
-   "alignment",
-   "ac repair",
-   "towing"
-  ],
-  "address": "1395 AL Highway 69 S, Hanceville, AL 35077",
-  "summary": "A full service shop for oil changes, tires, alignments, AC repair and even towing.",
-  "phone": "(256) 887-1410"
- },
- {
-  "category": "Auto Repair & Mechanics",
-  "name": "Elliston Repair and Tire",
-  "service": "Auto repair and tire shop",
-  "tags": [
-   "mechanic",
-   "auto repair",
-   "oil change",
-   "brakes",
-   "diagnostics",
-   "transmission",
-   "tires",
-   "alignment"
-  ],
-  "address": "10231 US Highway 31, Hanceville, AL 35077",
-  "summary": "Handles engine diagnostics, brakes, alignments, oil changes, suspension, transmission work and tires.",
-  "phone": "(256) 747-5447",
-  "website": "https://ellistonrepairandtire.com/"
- },
- {
-  "category": "Auto Repair & Mechanics",
-  "name": "Verhine Service Center",
-  "service": "Auto repair shop",
-  "tags": [
-   "mechanic",
-   "auto repair",
-   "car service"
-  ],
-  "address": "401 Main St NW, Hanceville, AL 35077",
-  "summary": "A Main Street service center for everyday car repairs, open on weekdays.",
-  "phone": "(256) 338-2974"
- },
- {
-  "category": "Auto Repair & Mechanics",
-  "name": "Dave's Body Shop",
-  "service": "Auto body shop",
-  "tags": [
-   "body shop",
-   "collision repair",
-   "paint",
-   "dent repair"
-  ],
-  "address": "1414 Commercial St, Hanceville, AL 35077",
-  "summary": "A local body shop for collision repair and getting dings and dents fixed.",
-  "phone": "(256) 352-5998"
- },
- {
-  "category": "Tires",
-  "name": "College Tire",
-  "service": "Tire and auto service",
-  "tags": [
-   "tires",
-   "tire repair",
-   "oil change",
-   "alignment",
-   "mechanic"
-  ],
-  "address": "315 Main St NW, Hanceville, AL 35077",
-  "summary": "A Hanceville tire and auto service shop at the corner of Highway 31 and Highway 91.",
-  "phone": "(256) 352-2221",
-  "website": "https://collegetire.com/"
- },
- {
-  "category": "Tires",
-  "name": "Tire Barn Plus",
-  "service": "Tire shop",
-  "tags": [
-   "tires",
-   "used tires",
-   "wheels",
-   "brakes",
-   "detailing",
-   "lift kits"
-  ],
-  "address": "102 Main St NE, Hanceville, AL 35077",
-  "summary": "New and used tires, wheels, brakes, lift kits and detailing, all in one stop.",
-  "phone": "(256) 962-5540"
- },
- {
-  "category": "Small Engine Repair",
-  "name": "Dusty's Small Engines",
-  "service": "Small engine repair and sales",
-  "tags": [
-   "small engine",
-   "lawn mower repair",
-   "chainsaw repair",
-   "generator repair",
-   "trimmer",
-   "pickup and delivery"
-  ],
-  "address": "Hanceville, AL 35077",
-  "summary": "Fixes mowers, chainsaws, trimmers, blowers and generators of most brands, quotes before work begins and can pick up heavy equipment.",
-  "phone": "(205) 304-1120",
-  "website": "https://dustyssmallengines.com/"
- },
- {
-  "category": "Towing",
-  "name": "Hanceville Tire and Towing",
-  "service": "Wrecker and towing service",
-  "tags": [
-   "towing",
-   "wrecker",
-   "tow truck",
-   "tires",
-   "roadside"
-  ],
-  "address": "201 Magnolia Ave NW, Hanceville, AL 35077",
-  "summary": "A local wrecker service for when your car needs a ride of its own.",
-  "phone": "(256) 352-4813"
- },
- {
-  "category": "Home Services",
-  "name": "A, R and C Specialists",
-  "service": "HVAC and refrigeration",
-  "tags": [
-   "hvac",
-   "air conditioning",
-   "heating",
-   "refrigeration",
-   "commercial"
-  ],
-  "address": "850 County Road 636, Hanceville, AL 35077",
-  "summary": "Heating, air and commercial refrigeration service based in Hanceville.",
-  "phone": "(256) 708-8617",
-  "website": "https://www.arandcspecialists.com/"
- },
- {
-  "category": "Health & Pharmacy",
-  "name": "Hanceville Drug Co",
-  "address": "101 Commercial St SE, Hanceville, AL 35077",
-  "summary": "A locally owned pharmacy since 1916 with an old fashioned soda fountain serving ice cream, sundaes and shakes.",
-  "phone": "(256) 352-4110",
-  "website": "https://www.hancevilledrug.com/",
-  "facebook": "https://www.facebook.com/HancevilleDrug/",
-  "service": "Pharmacy and soda fountain",
-  "tags": [
-   "pharmacy",
-   "prescriptions",
-   "ice cream",
-   "soda fountain",
-   "milkshake"
-  ]
- },
- {
-  "category": "Pets & Child Care",
-  "name": "Animal Medical Hospital",
-  "service": "Veterinarian",
-  "tags": [
-   "vet",
-   "veterinarian",
-   "pets",
-   "vaccinations",
-   "spay",
-   "neuter",
-   "large animal"
-  ],
-  "address": "10161 US Highway 31, Hanceville, AL 35077",
-  "summary": "A veterinary clinic caring for small and large animals, from checkups and shots to surgery.",
-  "phone": "(256) 739-9318"
- },
- {
-  "category": "Pets & Child Care",
-  "name": "MaeMae's Paws",
-  "service": "Dog grooming, boarding and daycare",
-  "tags": [
-   "dog grooming",
-   "boarding",
-   "doggy daycare",
-   "pets"
-  ],
-  "address": "1399 AL Highway 69, Hanceville, AL 35077",
-  "summary": "Grooming, boarding and daycare to keep your pup clean and happy.",
-  "phone": "(256) 735-3926",
-  "website": "https://maemaespaws.com/"
- },
- {
-  "category": "Pets & Child Care",
-  "name": "Kids World",
-  "service": "Child care center",
-  "tags": [
-   "daycare",
-   "child care",
-   "preschool",
-   "after school"
-  ],
-  "address": "9360 US Highway 31 S, Hanceville, AL 35077",
-  "summary": "A licensed child care center serving infants through school age kids.",
-  "phone": "(256) 775-2502"
- },
- {
-  "category": "Finance & Insurance",
-  "name": "Peoples Bank of Alabama, Hanceville",
-  "service": "Bank",
-  "tags": [
-   "bank",
-   "checking",
-   "loans",
-   "atm"
-  ],
-  "address": "204 Main St NE, Hanceville, AL 35077",
-  "summary": "A community bank branch on Main Street.",
-  "phone": "(256) 352-4090",
-  "website": "https://peoplesbankal.com/region/central-region/hanceville"
- },
- {
-  "category": "Finance & Insurance",
-  "name": "Cullman Savings Bank, Hanceville",
-  "service": "Bank",
-  "tags": [
-   "bank",
-   "savings",
-   "loans",
-   "atm"
-  ],
-  "address": "101 Main St SW, Hanceville, AL 35077",
-  "summary": "A local bank branch with an ATM on site.",
-  "phone": "(256) 352-6411",
-  "website": "https://www.cullmansavingsbank.com/"
- },
- {
-  "category": "Finance & Insurance",
-  "name": "Traditions Bank, Dodge City",
-  "service": "Bank",
-  "tags": [
-   "bank",
-   "drive thru",
-   "atm",
-   "loans"
-  ],
-  "address": "639 AL Highway 69 S, Hanceville, AL 35077",
-  "summary": "A bank branch with lobby, drive thru and ATM service, open Saturday mornings too.",
-  "phone": "(256) 287-1400",
-  "website": "https://www.traditionsal.com/locations/"
- },
- {
-  "category": "Finance & Insurance",
-  "name": "Merchants Bank of Alabama, Hanceville",
-  "service": "Bank",
-  "tags": [
-   "bank",
-   "atm",
-   "loans"
-  ],
-  "address": "906 Main St NE, Hanceville, AL 35077",
-  "summary": "A hometown bank branch on Main Street.",
-  "website": "https://www.merchantsbankal.bank/branches/hanceville-office/"
- },
- {
-  "category": "Finance & Insurance",
-  "name": "Alfa Insurance, Hanceville Office",
-  "address": "908 Main Street NE, Hanceville, AL 35077",
-  "summary": "A local Alfa Insurance office on Main Street helping neighbors protect their homes, cars and more.",
-  "phone": "(256) 352-9871",
-  "website": "https://www.alfainsurance.com/agents/stefani-nelson",
-  "service": "Insurance agency",
-  "tags": [
-   "insurance",
-   "auto insurance",
-   "home insurance"
-  ]
- },
- {
-  "category": "Shopping & Retail",
-  "name": "Hagar Guitars LLC",
-  "address": "317 County Road 263, Hanceville, AL 35077",
-  "summary": "A Hanceville shop that handcrafts custom electric and bass guitars and also handles repairs and upgrades.",
-  "phone": "(205) 522-8501",
-  "website": "https://hagarguitars.com",
-  "service": "Custom guitars",
-  "tags": [
-   "guitars",
-   "music",
-   "guitar repair"
-  ]
- },
- {
-  "category": "Shopping & Retail",
-  "name": "Burns Florist",
-  "service": "Florist",
-  "tags": [
-   "flowers",
-   "florist",
-   "delivery",
-   "bouquets",
-   "funeral flowers"
-  ],
-  "address": "308 Magnolia Ave NW, Hanceville, AL 35077",
-  "summary": "A locally owned flower shop with custom bouquets and same day delivery.",
-  "phone": "(256) 352-5233",
-  "website": "https://cullmanhancevilleflorist.com/"
- },
- {
-  "category": "Manufacturing & Industry",
-  "name": "Louisiana Pacific Corporation",
-  "address": "902 Main Street SE, Hanceville, AL 35077",
-  "summary": "LP's Hanceville plant makes oriented strand board, a key building material for homes and construction.",
-  "phone": "(256) 352-1700",
-  "website": "https://www.lpcorp.com",
-  "service": "Building products manufacturing",
-  "tags": [
-   "manufacturing",
-   "osb",
-   "jobs",
-   "plant"
-  ]
- },
- {
-  "category": "Manufacturing & Industry",
-  "name": "Birmingham Fastener, Hanceville Distribution Center",
-  "address": "1100 Main Street SE, Hanceville, AL 35077",
-  "summary": "Birmingham Fastener runs a distribution center in Hanceville that supplies fasteners to industry.",
-  "phone": "(256) 352-1000",
-  "website": "https://bhamfast.com",
-  "service": "Fastener distribution",
-  "tags": [
-   "fasteners",
-   "distribution",
-   "jobs",
-   "warehouse"
-  ]
- },
- {
-  "category": "Manufacturing & Industry",
-  "name": "Design Technologies, LLC",
-  "address": "110 McSwain Dr, Hanceville, AL 35077",
-  "summary": "Design Technologies builds electrical wire harnesses and electronic control boxes, supporting manufacturers from design through production.",
-  "phone": "(256) 887-1214",
-  "service": "Contract manufacturing",
-  "tags": [
-   "wire harness",
-   "electronics",
-   "manufacturing",
-   "jobs"
-  ]
- },
- {
-  "category": "Lodging",
-  "name": "Quality Inn",
-  "address": "810 Main St NE, Hanceville, AL 35077",
-  "summary": "A hotel on Main Street for visitors who want to rest up close to everything in town.",
-  "phone": "(256) 787-2210",
-  "service": "Hotel",
-  "tags": [
-   "hotel",
-   "motel",
-   "lodging",
-   "stay"
-  ]
- },
- {
-  "category": "Other",
-  "name": "Thompson Cat Rentals",
-  "address": "6307 County Road 490, Hanceville, AL 35077",
-  "summary": "Thompson Cat Rentals of Hanceville rents equipment for a wide range of jobs, big and small.",
-  "phone": "(256) 736-0460",
-  "website": "https://thompsontractor.com/locations/hanceville/",
-  "service": "Equipment rentals",
-  "tags": [
-   "equipment rental",
-   "construction",
-   "rentals"
-  ]
- },
- {
-  "category": "Other",
-  "name": "Shrine of the Most Blessed Sacrament",
-  "address": "3224 County Road 548, Hanceville, AL 35077",
-  "summary": "One of the best known landmarks in the area, the Shrine welcomes visitors and pilgrims with peaceful grounds and a gift shop.",
-  "phone": "(256) 352-6267",
-  "website": "https://www.olamshrine.com",
-  "service": "Shrine and gift shop",
-  "tags": [
-   "shrine",
-   "attraction",
-   "gift shop",
-   "visitors"
-  ]
- }
+  {
+    "category": "Restaurants",
+    "name": "Azul Tequila Mexican Cantina",
+    "address": "836 Main St NE, Hanceville, AL 35077",
+    "summary": "Tacos, margarita vibes and good company on Main Street. A go to spot when the Mexican food craving hits.",
+    "phone": "(256) 887-1016",
+    "service": "Mexican restaurant",
+    "tags": [
+      "mexican",
+      "tacos",
+      "dinner",
+      "lunch"
+    ]
+  },
+  {
+    "category": "Restaurants",
+    "name": "Cafe Tula Taqueria",
+    "address": "106 Commercial St, Hanceville, AL 35077",
+    "summary": "A downtown taqueria bringing bold Mexican flavor to Commercial Street. Grab a plate after a stroll through the shops.",
+    "phone": "(256) 636-0323",
+    "service": "Taqueria",
+    "tags": [
+      "mexican",
+      "tacos",
+      "lunch"
+    ]
+  },
+  {
+    "category": "Restaurants",
+    "name": "Country Wok",
+    "address": "107 Bangor Ave NE, Hanceville, AL 35077",
+    "summary": "A local favorite for Chinese food. Watch the open kitchen at work, and do not skip the eggrolls or Grandma's Cantonese fried rice.",
+    "phone": "(256) 887-1360",
+    "service": "Chinese restaurant",
+    "tags": [
+      "chinese",
+      "takeout"
+    ],
+    "website": "https://www.countrywok.com"
+  },
+  {
+    "category": "Restaurants",
+    "name": "Jack's",
+    "address": "103 Styles St NE, Hanceville, AL 35077",
+    "summary": "The Southern burger and biscuit chain, serving Hanceville from Styles Street. Easy breakfast on the way to work.",
+    "phone": "(256) 392-6268",
+    "service": "Fast food",
+    "tags": [
+      "burgers",
+      "biscuits",
+      "breakfast",
+      "drive thru"
+    ]
+  },
+  {
+    "category": "Restaurants",
+    "name": "McDonald's",
+    "address": "740 Main St NE, Hanceville, AL 35077",
+    "summary": "The familiar golden arches on Main Street, handy for a quick, family friendly meal on the go.",
+    "phone": "(256) 352-2120",
+    "service": "Fast food",
+    "tags": [
+      "burgers",
+      "breakfast",
+      "drive thru"
+    ]
+  },
+  {
+    "category": "Restaurants",
+    "name": "Pop's Cafe Hanceville",
+    "address": "814 Main St NE, Hanceville, AL 35077",
+    "summary": "A hometown diner on Main Street with friendly faces, fluffy pancakes and meatloaf every day. A true local favorite.",
+    "phone": "(256) 887-1035",
+    "service": "Cafe",
+    "tags": [
+      "breakfast",
+      "lunch",
+      "home cooking"
+    ],
+    "facebook": "https://www.facebook.com/popscafehanceville"
+  },
+  {
+    "category": "Restaurants",
+    "name": "Subway",
+    "address": "720 Main St NE, Hanceville, AL 35077",
+    "summary": "Build your sandwich your way at this Main Street sub shop. A quick, easy lunch stop.",
+    "phone": "(256) 352-2444",
+    "service": "Sandwiches",
+    "tags": [
+      "subs",
+      "sandwiches",
+      "lunch"
+    ]
+  },
+  {
+    "category": "Restaurants",
+    "name": "Reyes Pizza",
+    "address": "806 Main St NE, Hanceville, AL 35077",
+    "summary": "A local pizza place on Main Street, made for family nights and game day feasts. Shop small and grab a pie.",
+    "phone": "(256) 887-1307",
+    "service": "Pizza",
+    "tags": [
+      "pizza",
+      "delivery",
+      "dinner"
+    ]
+  },
+  {
+    "category": "Restaurants",
+    "name": "Taco Bell",
+    "address": "702 Main St NE, Hanceville, AL 35077",
+    "summary": "Tacos, burritos and late night cravings handled right on Main Street.",
+    "phone": "(256) 787-2170",
+    "service": "Fast food",
+    "tags": [
+      "tacos",
+      "burritos",
+      "drive thru",
+      "late night"
+    ]
+  },
+  {
+    "category": "Drinks & Coffee",
+    "name": "HanceVegas Coffee Shop",
+    "address": "113 Commercial St, Hanceville, AL 35077",
+    "summary": "A downtown coffee shop with a name as fun as the caffeine. Stop in for your morning cup and say hi to the neighbors.",
+    "phone": "(256) 887-1234",
+    "service": "Coffee shop",
+    "tags": [
+      "coffee",
+      "latte",
+      "espresso",
+      "smoothie"
+    ]
+  },
+  {
+    "category": "Drinks & Coffee",
+    "name": "Hanceville Nutrition",
+    "service": "Smoothie and shake shop",
+    "tags": [
+      "smoothie",
+      "shakes",
+      "protein",
+      "energy drinks",
+      "tea"
+    ],
+    "address": "918 Main St NE, Hanceville, AL 35077",
+    "summary": "A Main Street stop for smoothies and shakes. A cool, quick pick me up any time of day."
+  },
+  {
+    "category": "Barbers & Salons",
+    "name": "Cut N Up Barber and Style",
+    "service": "Barbershop",
+    "tags": [
+      "haircut",
+      "barber",
+      "kids haircut",
+      "family haircuts",
+      "walk ins",
+      "fade"
+    ],
+    "address": "105 Commercial St SE, Hanceville, AL 35077",
+    "summary": "A family barbershop since 2008 with cuts for men, women and kids, right next door to Hanceville Drug Co. Walk ins are welcome for cuts, and color and perms are by appointment.",
+    "phone": "(256) 636-2018",
+    "facebook": "https://www.facebook.com/147243128973265",
+    "logo": "logos/cut-n-up-barber-and-style.webp",
+    "logo_source": "https://www.facebook.com/147243128973265"
+  },
+  {
+    "category": "Barbers & Salons",
+    "name": "The Warehouse Barber",
+    "service": "Barbershop",
+    "tags": [
+      "haircut",
+      "barber",
+      "beard trim",
+      "fade"
+    ],
+    "address": "Main Street, Hanceville, AL 35077",
+    "summary": "A downtown barbershop for fresh cuts and clean lines. Look sharp and shop small.",
+    "phone": "(256) 736-3286"
+  },
+  {
+    "category": "Barbers & Salons",
+    "name": "Hanceville Barber and Style Shop",
+    "service": "Barbershop",
+    "tags": [
+      "haircut",
+      "barber",
+      "style"
+    ],
+    "address": "112 Commercial St NE, Hanceville, AL 35077",
+    "summary": "A longtime barber and style shop on Commercial Street, keeping Hanceville looking sharp.",
+    "phone": "(256) 352-7271"
+  },
+  {
+    "category": "Auto Sales",
+    "name": "Freedom Motors of Alabama",
+    "service": "Used car dealer",
+    "tags": [
+      "used cars",
+      "trucks",
+      "car lot",
+      "financing",
+      "auto sales"
+    ],
+    "address": "102 Main St NE, Hanceville, AL 35077",
+    "summary": "A used car dealership on Main Street with cars and trucks for sale. Shop local for your next ride.",
+    "phone": "(256) 775-8001"
+  },
+  {
+    "category": "Auto Sales",
+    "name": "Jerry's Used Cars",
+    "service": "Used car dealer",
+    "tags": [
+      "used cars",
+      "car lot",
+      "trade ins",
+      "auto sales"
+    ],
+    "address": "10474 US Highway 31, Hanceville, AL 35077",
+    "summary": "A used car lot on Highway 31 that also takes trade ins. Worth a look before you buy.",
+    "phone": "(256) 775-2883"
+  },
+  {
+    "category": "Auto Sales",
+    "name": "Kretzschmar Motors",
+    "service": "Used car dealer",
+    "tags": [
+      "used cars",
+      "car lot",
+      "auto sales"
+    ],
+    "address": "24297 AL Highway 91, Hanceville, AL 35077",
+    "summary": "A used car dealer out on Highway 91, close to home for Hanceville drivers.",
+    "phone": "(256) 352-5522"
+  },
+  {
+    "category": "Auto Sales",
+    "name": "S and N Auto Sales",
+    "service": "Used car dealer",
+    "tags": [
+      "used cars",
+      "car lot",
+      "auto sales"
+    ],
+    "address": "Main Street NE, Hanceville, AL 35077",
+    "summary": "A used car lot on Main Street in Hanceville."
+  },
+  {
+    "category": "Auto Sales",
+    "name": "Barbee Truck Sales",
+    "service": "Used truck dealer",
+    "tags": [
+      "used trucks",
+      "trucks",
+      "auto sales"
+    ],
+    "address": "7794 US Highway 31, Hanceville, AL 35077",
+    "summary": "A used truck dealer on Highway 31 for folks who need a pickup that can work.",
+    "phone": "(256) 352-0701"
+  },
+  {
+    "category": "Auto Sales",
+    "name": "Whitaker Motors",
+    "service": "Used car dealer",
+    "tags": [
+      "used cars",
+      "car lot",
+      "auto sales"
+    ],
+    "address": "8125 US Highway 31, Hanceville, AL 35077",
+    "summary": "A used car dealer on Highway 31, right here in the Hanceville area.",
+    "phone": "(256) 352-4442"
+  },
+  {
+    "category": "Auto Repair & Mechanics",
+    "name": "J and D Auto and Tire Service",
+    "service": "Auto repair and tire shop",
+    "tags": [
+      "mechanic",
+      "auto repair",
+      "oil change",
+      "tires",
+      "alignment",
+      "ac repair",
+      "towing"
+    ],
+    "address": "1395 AL Highway 69 S, Hanceville, AL 35077",
+    "summary": "A full service shop for oil changes, tires, alignments and AC repair, plus towing when you need it. One stop, done.",
+    "phone": "(256) 887-1410"
+  },
+  {
+    "category": "Auto Repair & Mechanics",
+    "name": "Elliston Repair and Tire",
+    "service": "Auto repair and tire shop",
+    "tags": [
+      "mechanic",
+      "auto repair",
+      "oil change",
+      "brakes",
+      "diagnostics",
+      "transmission",
+      "tires",
+      "alignment"
+    ],
+    "address": "10231 US Highway 31, Hanceville, AL 35077",
+    "summary": "Engine diagnostics, brakes, alignments, oil changes, suspension, transmission work and tires, all under one roof on Highway 31.",
+    "phone": "(256) 747-5447",
+    "website": "https://ellistonrepairandtire.com/"
+  },
+  {
+    "category": "Auto Repair & Mechanics",
+    "name": "Verhine Service Center",
+    "service": "Auto repair shop",
+    "tags": [
+      "mechanic",
+      "auto repair",
+      "car service"
+    ],
+    "address": "401 Main St NW, Hanceville, AL 35077",
+    "summary": "A Main Street service center for everyday car repairs, open on weekdays.",
+    "phone": "(256) 338-2974"
+  },
+  {
+    "category": "Auto Repair & Mechanics",
+    "name": "Dave's Body Shop",
+    "service": "Auto body shop",
+    "tags": [
+      "body shop",
+      "collision repair",
+      "paint",
+      "dent repair"
+    ],
+    "address": "1414 Commercial St, Hanceville, AL 35077",
+    "summary": "A local body shop for collision repair. Get those dings and dents fixed close to home.",
+    "phone": "(256) 352-5998"
+  },
+  {
+    "category": "Tires",
+    "name": "College Tire",
+    "service": "Tire and auto service",
+    "tags": [
+      "tires",
+      "tire repair",
+      "oil change",
+      "alignment",
+      "mechanic"
+    ],
+    "address": "315 Main St NW, Hanceville, AL 35077",
+    "summary": "A hometown tire and auto service shop at the corner of Highway 31 and Highway 91.",
+    "phone": "(256) 352-2221",
+    "website": "https://collegetire.com/"
+  },
+  {
+    "category": "Tires",
+    "name": "Tire Barn Plus",
+    "service": "Tire shop",
+    "tags": [
+      "tires",
+      "used tires",
+      "wheels",
+      "brakes",
+      "detailing",
+      "lift kits"
+    ],
+    "address": "102 Main St NE, Hanceville, AL 35077",
+    "summary": "New and used tires, wheels, brakes, lift kits and detailing, all in one handy stop.",
+    "phone": "(256) 962-5540"
+  },
+  {
+    "category": "Small Engine Repair",
+    "name": "Dusty's Small Engines",
+    "service": "Small engine repair and sales",
+    "tags": [
+      "small engine",
+      "lawn mower repair",
+      "chainsaw repair",
+      "generator repair",
+      "trimmer",
+      "pickup and delivery"
+    ],
+    "address": "Hanceville, AL 35077",
+    "summary": "Repairs mowers, chainsaws, trimmers, blowers and generators of most brands. You get a quote before work starts, and they can pick up heavy equipment.",
+    "phone": "(205) 304-1120",
+    "website": "https://dustyssmallengines.com/",
+    "logo": "logos/dusty-s-small-engines.webp",
+    "logo_source": "https://dustyssmallengines.com/static/img/logo.png"
+  },
+  {
+    "category": "Towing",
+    "name": "Hanceville Tire and Towing",
+    "service": "Wrecker and towing service",
+    "tags": [
+      "towing",
+      "wrecker",
+      "tow truck",
+      "tires",
+      "roadside"
+    ],
+    "address": "201 Magnolia Ave NW, Hanceville, AL 35077",
+    "summary": "A local wrecker service for when your car needs a ride of its own.",
+    "phone": "(256) 352-4813"
+  },
+  {
+    "category": "Home Services",
+    "name": "A, R and C Specialists",
+    "service": "HVAC and refrigeration",
+    "tags": [
+      "hvac",
+      "air conditioning",
+      "heating",
+      "refrigeration",
+      "commercial"
+    ],
+    "address": "850 County Road 636, Hanceville, AL 35077",
+    "summary": "Heating, air conditioning and commercial refrigeration service, based right here in Hanceville.",
+    "phone": "(256) 708-8617",
+    "website": "https://www.arandcspecialists.com/",
+    "logo": "logos/a-r-and-c-specialists.webp",
+    "logo_source": "https://www.arandcspecialists.com/wp-content/uploads/2025/08/A-R-C-Specialists.webp"
+  },
+  {
+    "category": "Health & Pharmacy",
+    "name": "Hanceville Drug Co",
+    "address": "101 Commercial St SE, Hanceville, AL 35077",
+    "summary": "A locally owned pharmacy since 1916 with an old fashioned soda fountain for ice cream, sundaes and shakes. A must visit downtown classic.",
+    "phone": "(256) 352-4110",
+    "website": "https://www.hancevilledrug.com/",
+    "facebook": "https://www.facebook.com/HancevilleDrug/",
+    "service": "Pharmacy and soda fountain",
+    "tags": [
+      "pharmacy",
+      "prescriptions",
+      "ice cream",
+      "soda fountain",
+      "milkshake"
+    ],
+    "logo": "logos/hanceville-drug-co.webp",
+    "logo_source": "https://images.squarespace-cdn.com/content/v1/62a79856b802aa5890ecadfc/5a5cad93-14ca-407b-a06f-51338b44ca76/HDCO+LOGO.jpg?format=1500w"
+  },
+  {
+    "category": "Pets & Child Care",
+    "name": "Animal Medical Hospital",
+    "service": "Veterinarian",
+    "tags": [
+      "vet",
+      "veterinarian",
+      "pets",
+      "vaccinations",
+      "spay",
+      "neuter",
+      "large animal"
+    ],
+    "address": "10161 US Highway 31, Hanceville, AL 35077",
+    "summary": "A veterinary clinic caring for small and large animals, from checkups and shots to surgery.",
+    "phone": "(256) 739-9318"
+  },
+  {
+    "category": "Pets & Child Care",
+    "name": "MaeMae's Paws",
+    "service": "Dog grooming, boarding and daycare",
+    "tags": [
+      "dog grooming",
+      "boarding",
+      "doggy daycare",
+      "pets"
+    ],
+    "address": "1399 AL Highway 69, Hanceville, AL 35077",
+    "summary": "Grooming, boarding and daycare to keep your pup clean, happy and loved.",
+    "phone": "(256) 735-3926"
+  },
+  {
+    "category": "Pets & Child Care",
+    "name": "Kids World",
+    "service": "Child care center",
+    "tags": [
+      "daycare",
+      "child care",
+      "preschool",
+      "after school"
+    ],
+    "address": "9360 US Highway 31 S, Hanceville, AL 35077",
+    "summary": "A licensed child care center serving infants through school age kids.",
+    "phone": "(256) 775-2502"
+  },
+  {
+    "category": "Finance & Insurance",
+    "name": "Peoples Bank of Alabama, Hanceville",
+    "service": "Bank",
+    "tags": [
+      "bank",
+      "checking",
+      "loans",
+      "atm"
+    ],
+    "address": "204 Main St NE, Hanceville, AL 35077",
+    "summary": "A community bank branch on Main Street. Bank local with neighbors who know Hanceville.",
+    "phone": "(256) 352-4090",
+    "website": "https://peoplesbankal.com/region/central-region/hanceville",
+    "logo": "logos/peoples-bank-of-alabama-hanceville.webp",
+    "logo_source": "https://peoplesbankal.com/apple-touch-icon.png"
+  },
+  {
+    "category": "Finance & Insurance",
+    "name": "Cullman Savings Bank, Hanceville",
+    "service": "Bank",
+    "tags": [
+      "bank",
+      "savings",
+      "loans",
+      "atm"
+    ],
+    "address": "101 Main St SW, Hanceville, AL 35077",
+    "summary": "A local bank branch with an ATM on site, keeping banking close to home.",
+    "phone": "(256) 352-6411",
+    "website": "https://www.cullmansavingsbank.com/",
+    "logo": "logos/cullman-savings-bank-hanceville.webp",
+    "logo_source": "https://www.cullmansavingsbank.com/wp-content/uploads/2023/11/logo-2-e1732213216408.png"
+  },
+  {
+    "category": "Finance & Insurance",
+    "name": "Traditions Bank, Dodge City",
+    "service": "Bank",
+    "tags": [
+      "bank",
+      "drive thru",
+      "atm",
+      "loans"
+    ],
+    "address": "639 AL Highway 69 S, Hanceville, AL 35077",
+    "summary": "A bank branch with lobby, drive thru and ATM service, open Saturday mornings too.",
+    "phone": "(256) 287-1400",
+    "website": "https://www.traditionsal.com/locations/",
+    "logo": "logos/traditions-bank-dodge-city.webp",
+    "logo_source": "https://www.traditionsal.com/wp-content/uploads/2024/05/traditions-logo-vert.png"
+  },
+  {
+    "category": "Finance & Insurance",
+    "name": "Merchants Bank of Alabama, Hanceville",
+    "service": "Bank",
+    "tags": [
+      "bank",
+      "atm",
+      "loans"
+    ],
+    "address": "906 Main St NE, Hanceville, AL 35077",
+    "summary": "A hometown bank branch on Main Street.",
+    "website": "https://www.merchantsbankal.bank/branches/hanceville-office/"
+  },
+  {
+    "category": "Finance & Insurance",
+    "name": "Alfa Insurance, Hanceville Office",
+    "address": "908 Main Street NE, Hanceville, AL 35077",
+    "summary": "A local Alfa Insurance office on Main Street helping neighbors protect their homes, cars and more.",
+    "phone": "(256) 352-9871",
+    "website": "https://www.alfainsurance.com/agents/stefani-nelson",
+    "service": "Insurance agency",
+    "tags": [
+      "insurance",
+      "auto insurance",
+      "home insurance"
+    ],
+    "logo": "logos/alfa-insurance-hanceville-office.webp",
+    "logo_source": "https://www.alfainsurance.com/images/favicons/favicon-180.png"
+  },
+  {
+    "category": "Shopping & Retail",
+    "name": "Hagar Guitars LLC",
+    "address": "317 County Road 263, Hanceville, AL 35077",
+    "summary": "A hidden gem for musicians: custom electric and bass guitars handcrafted in Hanceville, plus repairs and upgrades.",
+    "phone": "(205) 522-8501",
+    "website": "https://hagarguitars.com",
+    "service": "Custom guitars",
+    "tags": [
+      "guitars",
+      "music",
+      "guitar repair"
+    ]
+  },
+  {
+    "category": "Shopping & Retail",
+    "name": "Burns Florist",
+    "service": "Florist",
+    "tags": [
+      "flowers",
+      "florist",
+      "delivery",
+      "bouquets",
+      "funeral flowers"
+    ],
+    "address": "308 Magnolia Ave NW, Hanceville, AL 35077",
+    "summary": "A locally owned flower shop with custom bouquets and same day delivery. Brighten someone's day and shop small.",
+    "phone": "(256) 352-5233",
+    "website": "https://cullmanhancevilleflorist.com/",
+    "logo": "logos/burns-florist.webp",
+    "logo_source": "https://cullmanhancevilleflorist.com/cdn/shop/files/Burns_Florist_is_the_best_flower_shop_in_Hanceville.jpg?v=1748352702&amp;width=600"
+  },
+  {
+    "category": "Manufacturing & Industry",
+    "name": "Louisiana Pacific Corporation",
+    "address": "902 Main Street SE, Hanceville, AL 35077",
+    "summary": "LP's Hanceville plant makes oriented strand board, a key building material for homes and construction.",
+    "phone": "(256) 352-1700",
+    "website": "https://www.lpcorp.com",
+    "service": "Building products manufacturing",
+    "tags": [
+      "manufacturing",
+      "osb",
+      "jobs",
+      "plant"
+    ],
+    "logo": "logos/louisiana-pacific-corporation.webp",
+    "logo_source": "https://www.lpcorp.com/apple-icon.png?6c0909a9e35afca8"
+  },
+  {
+    "category": "Manufacturing & Industry",
+    "name": "Birmingham Fastener, Hanceville Distribution Center",
+    "address": "1100 Main Street SE, Hanceville, AL 35077",
+    "summary": "Birmingham Fastener's Hanceville distribution center supplies fasteners to industry.",
+    "phone": "(256) 352-1000",
+    "website": "https://bhamfast.com",
+    "service": "Fastener distribution",
+    "tags": [
+      "fasteners",
+      "distribution",
+      "jobs",
+      "warehouse"
+    ],
+    "logo": "logos/birmingham-fastener-hanceville-distribution-center.webp",
+    "logo_source": "https://bhamfast.com/hs-fs/hubfs/Group%205.png?width=299&amp;height=337&amp;name=Group%205.png"
+  },
+  {
+    "category": "Manufacturing & Industry",
+    "name": "Design Technologies, LLC",
+    "address": "110 McSwain Dr, Hanceville, AL 35077",
+    "summary": "Builds electrical wire harnesses and electronic control boxes, supporting manufacturers from design through production.",
+    "phone": "(256) 887-1214",
+    "service": "Contract manufacturing",
+    "tags": [
+      "wire harness",
+      "electronics",
+      "manufacturing",
+      "jobs"
+    ]
+  },
+  {
+    "category": "Lodging",
+    "name": "Quality Inn",
+    "address": "810 Main St NE, Hanceville, AL 35077",
+    "summary": "A hotel on Main Street for visitors who want to rest up close to everything in town.",
+    "phone": "(256) 787-2210",
+    "service": "Hotel",
+    "tags": [
+      "hotel",
+      "motel",
+      "lodging",
+      "stay"
+    ]
+  },
+  {
+    "category": "Other",
+    "name": "Thompson Cat Rentals",
+    "address": "6307 County Road 490, Hanceville, AL 35077",
+    "summary": "Rents equipment for jobs big and small, from the Thompson Cat location in Hanceville.",
+    "phone": "(256) 736-0460",
+    "website": "https://thompsontractor.com/locations/hanceville/",
+    "service": "Equipment rentals",
+    "tags": [
+      "equipment rental",
+      "construction",
+      "rentals"
+    ],
+    "logo": "logos/thompson-cat-rentals.webp",
+    "logo_source": "https://thompsontractor.com/wp-content/uploads/2021/05/Thompson-Tractor-Logo.jpg.webp"
+  },
+  {
+    "category": "Other",
+    "name": "Shrine of the Most Blessed Sacrament",
+    "address": "3224 County Road 548, Hanceville, AL 35077",
+    "summary": "One of the area's best known landmarks. Visitors and pilgrims are welcome to enjoy the peaceful grounds and the gift shop.",
+    "phone": "(256) 352-6267",
+    "website": "https://www.olamshrine.com",
+    "service": "Shrine and gift shop",
+    "tags": [
+      "shrine",
+      "attraction",
+      "gift shop",
+      "visitors"
+    ],
+    "logo": "logos/shrine-of-the-most-blessed-sacrament.webp",
+    "logo_source": "https://d3oa4flgfq4lhi.cloudfront.net/images/stories/template/logos/Shrine%20logo%20-%20%20maroon.png?1764779117"
+  }
 ]

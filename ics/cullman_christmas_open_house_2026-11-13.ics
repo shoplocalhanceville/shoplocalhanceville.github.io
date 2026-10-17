@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cullman_christmas_open_house-20261113@charliegamedevelop.github.io
+DTSTAMP:20261016T120000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Cullman Christmas Open House
+LOCATION:Cullman\, AL
+DESCRIPTION:Kick off holiday shopping with business promotions\, a cookie
+  crawl\, visits from Santa and a window display contest. Your wish list j
+ ust found its weekend. Time: Starts 8:00 AM Nov 13. https://www.facebook.
+ com/events/1604634394706572/
+URL:https://www.facebook.com/events/1604634394706572/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:murder_at_jubilee_manor_murder_mystery_dinner-20261025@charliegamedev
+ elop.github.io
+DTSTAMP:20261016T120000Z
+DTSTART;TZID=America/Chicago:20261025T173000
+DTEND;TZID=America/Chicago:20261025T193000
+SUMMARY:Murder at Jubilee Manor: Murder Mystery Dinner
+LOCATION:Jubilee Kitchen and Bar\, Cullman\, AL
+DESCRIPTION:Enjoy dinner while you follow the clues and solve the case. T
+ icket and menu details are coming soon\, so keep your detective hat handy
+ . Time: 5:30 PM. https://www.facebook.com/events/2203126510618743/
+URL:https://www.facebook.com/events/2203126510618743/
+END:VEVENT
+END:VCALENDAR
