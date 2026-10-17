@@ -40,6 +40,11 @@ footer{background:#2a0f40;color:#e9dcf7;padding:36px 0;margin-top:56px;text-alig
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .ev{display:flex;flex-direction:column}.ev .when{font-weight:700;color:var(--p2);margin:0 0 4px}.ev .meta{font-size:.95rem;margin:2px 0}.ev .sum{margin:10px 0 14px;flex:1}.ev .btn{font-size:1rem;padding:11px 20px;align-self:flex-start}
 #ev-status{margin-top:20px}
+.dg h3.group{margin:34px 0 0;color:var(--ink);font-size:1.3rem}.dc .meta{font-size:.95rem;margin:2px 0}.dc .sum{margin:10px 0 14px;flex:1}.dc{display:flex;flex-direction:column}
+.acts{display:flex;flex-wrap:wrap;gap:8px}.acts a{font-size:.95rem;padding:10px 16px}.acts a.alt2{background:var(--p2)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{border:2px solid var(--p2);background:#fff;color:var(--p2);border-radius:999px;padding:8px 14px;font-weight:700;font-size:.95rem;cursor:pointer}.chip[aria-pressed=true]{background:var(--p2);color:#fff}
+#biz-q{width:100%;max-width:480px;padding:12px 16px;font-size:1rem;border:2px solid #d9c9ea;border-radius:12px;margin-top:16px}#biz-q:focus{outline:3px solid var(--gold);border-color:var(--p2)}
+.tag{display:inline-block;background:#f1e8fa;color:var(--p);border-radius:999px;padding:2px 10px;font-size:.85rem;font-weight:700}
 </style>
 </head>
 <body>
@@ -47,7 +52,7 @@ footer{background:#2a0f40;color:#e9dcf7;padding:36px 0;margin-top:56px;text-alig
 <header class="hero">
  <div class="wrap">
   <div class="brand"><svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#ffc83d"/><path d="M20 7l3.8 8 8.7 1-6.4 6 1.7 8.6L20 26.3 12.2 30.6l1.7-8.6-6.4-6 8.7-1z" fill="#4b1d6b"/></svg>Shop Local Alabama</div>
-  <nav aria-label="Main" style="margin-top:14px"><a href="#events" style="color:#ffc83d;font-weight:700">Upcoming Events</a> &nbsp;·&nbsp; <a href="#get-featured" style="color:#ffc83d;font-weight:700">Get Featured</a></nav>
+  <nav aria-label="Main" style="margin-top:14px"><a href="#events" style="color:#ffc83d;font-weight:700">Upcoming Events</a> &nbsp;·&nbsp; <a href="#directory" style="color:#ffc83d;font-weight:700">Community Directory</a> &nbsp;·&nbsp; <a href="#businesses" style="color:#ffc83d;font-weight:700">Businesses</a> &nbsp;·&nbsp; <a href="#get-featured" style="color:#ffc83d;font-weight:700">Get Featured</a></nav>
   <h1>Hanceville Entertainment <span>&amp; Shopping</span></h1>
   <p class="lead">Your friendly front porch for everything happening in Hanceville. We share local events, great places to eat, hometown shops, nonprofits and city news, all in one happy feed. Think of us as the neighbor who always knows what is going on, minus the gossip.</p>
   <p class="cta"><a class="btn" href="https://www.facebook.com/ShopLocalAlabama" target="_blank" rel="noopener"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8z"/></svg>Follow on Facebook</a></p>
@@ -73,6 +78,22 @@ footer{background:#2a0f40;color:#e9dcf7;padding:36px 0;margin-top:56px;text-alig
  <p>Here is what is happening around Hanceville and Cullman County. Tap any event for full details on Facebook.</p>
  <div class="grid" id="ev-list"></div>
  <p id="ev-status" aria-live="polite">Loading events...</p>
+</div></section>
+<section id="directory" class="dg"><div class="wrap">
+ <h2>Hanceville Community Directory</h2>
+ <p>Public schools, city offices and community services, all in one handy spot. Tap a phone number to call.</p>
+ <div id="dir-list"></div>
+ <p id="dir-status" aria-live="polite">Loading directory...</p>
+</div></section>
+<section id="businesses" class="dg"><div class="wrap">
+ <h2>Hanceville Business Directory</h2>
+ <p>Eat, shop and hire local! Search by name or tap a category.</p>
+ <label for="biz-q" class="skip">Search businesses</label>
+ <input id="biz-q" type="search" placeholder="Search businesses, like pizza or coffee" autocomplete="off">
+ <div class="chips" id="biz-chips" role="group" aria-label="Filter by category"></div>
+ <div id="biz-list"></div>
+ <p id="biz-status" aria-live="polite">Loading businesses...</p>
+ <p><strong>Is your Hanceville business missing?</strong> We would love to add you. <a href="https://www.facebook.com/ShopLocalAlabama" target="_blank" rel="noopener">Message our Facebook Page</a> with your business name, address and phone number.</p>
 </div></section>
 <div class="feature" id="get-featured">
  <h2>Own a local business? Let us feature you!</h2>
@@ -114,6 +135,33 @@ fetch('events.json?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.
   var a=el('a','btn','View on Facebook');a.href=e.url;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','View '+e.name+' on Facebook');c.appendChild(a);list.appendChild(c);});
  st.textContent=ev.length?'':'No upcoming events right now. Follow the Page and we will post new ones soon!';
 }).catch(function(){st.textContent='Events could not load right now. Check our Facebook Page for the latest.';});
+})();
+</script>
+<script>
+(function(){
+function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n;}
+function link(txt,href,cls,ext){var a=el('a','btn'+(cls?' '+cls:''),txt);a.href=href;if(ext){a.target='_blank';a.rel='noopener';}return a;}
+function card(e,name){var c=el('article','card dc');c.appendChild(el('h3',null,e.name));if(e.type)c.appendChild(el('p',null)).appendChild(el('span','tag',e.type));
+ if(e.address)c.appendChild(el('p','meta','\ud83d\udccd '+e.address));if(e.phone)c.appendChild(el('p','meta','\ud83d\udcde '+e.phone));
+ c.appendChild(el('p','sum',e.summary));var a=el('div','acts');
+ if(e.phone){var t=link('Call',  'tel:'+e.phone.replace(/[^0-9]/g,''));t.setAttribute('aria-label','Call '+e.name);a.appendChild(t);}
+ if(e.website){var w=link('Website',e.website,'alt2',1);w.setAttribute('aria-label',e.name+' website');a.appendChild(w);}
+ if(e.facebook){var f=link('Facebook',e.facebook,'',1);f.setAttribute('aria-label',e.name+' on Facebook');a.appendChild(f);}
+ c.appendChild(a);return c;}
+function render(box,items,key,order){box.innerHTML='';order.forEach(function(g){var it=items.filter(function(e){return e[key]===g;});if(!it.length)return;box.appendChild(el('h3','group',g+' ('+it.length+')'));var gr=el('div','grid');it.forEach(function(e){gr.appendChild(card(e));});box.appendChild(gr);});}
+var v='?v='+Date.now();
+fetch('directory.json'+v,{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){
+ render(document.getElementById('dir-list'),d,'group',['Schools','City Hall & Government','Public Safety','Utilities & Public Works','Community Services']);document.getElementById('dir-status').textContent='';
+}).catch(function(){document.getElementById('dir-status').textContent='The directory could not load right now. Please try again soon.';});
+var CATS=['Restaurants & Food','Shopping & Retail','Services','Manufacturing & Industry','Other'];
+fetch('businesses.json'+v,{cache:'no-store'}).then(function(r){return r.json();}).then(function(b){
+ b.sort(function(x,y){return x.name.localeCompare(y.name);});
+ var q=document.getElementById('biz-q'),chips=document.getElementById('biz-chips'),box=document.getElementById('biz-list'),st=document.getElementById('biz-status'),cur='All';
+ ['All'].concat(CATS).forEach(function(c){var n=el('button','chip',c);n.type='button';n.setAttribute('aria-pressed',c==='All');n.onclick=function(){cur=c;[].forEach.call(chips.children,function(x){x.setAttribute('aria-pressed',x===n);});go();};chips.appendChild(n);});
+ function go(){var t=q.value.trim().toLowerCase();var f=b.filter(function(e){return (cur==='All'||e.category===cur)&&(!t||[e.name,e.type,e.category,e.summary,e.address].join(' ').toLowerCase().indexOf(t)>=0);});
+  render(box,f,'category',CATS);st.textContent=f.length?f.length+' businesses shown':'No matches yet. Try another word or category.';}
+ q.addEventListener('input',go);go();
+}).catch(function(){document.getElementById('biz-status').textContent='The business list could not load right now. Please try again soon.';});
 })();
 </script>
 </body></html>

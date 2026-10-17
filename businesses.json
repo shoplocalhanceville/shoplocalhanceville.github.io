@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Restaurants & Food",
+    "name": "Azul Tequila Mexican Cantina",
+    "type": "Mexican restaurant",
+    "address": "836 Main St NE, Hanceville, AL 35077",
+    "summary": "A Mexican cantina on Main Street for when the craving for tacos and good company hits.",
+    "phone": "(256) 887-1016"
+  },
+  {
+    "category": "Restaurants & Food",
+    "name": "Cafe Tula Taqueria",
+    "type": "Taqueria",
+    "address": "106 Commercial St, Hanceville, AL 35077",
+    "summary": "A downtown taqueria that brings Mexican flavor to Commercial Street.",
+    "phone": "(256) 636-0323"
+  },
+  {
+    "category": "Restaurants & Food",
+    "name": "Country Wok",
+    "type": "Chinese restaurant",
+    "address": "107 Bangor Ave NE, Hanceville, AL 35077",
+    "summary": "A local spot for Chinese food when you want something tasty without the fuss.",
+    "phone": "(256) 887-1360"
+  },
+  {
+    "category": "Restaurants & Food",
+    "name": "HanceVegas Coffee Shop",
+    "type": "Coffee shop",
+    "address": "113 Commercial St, Hanceville, AL 35077",
+    "summary": "A downtown coffee shop with a name that is almost as fun as the caffeine.",
+    "phone": "(256) 887-1234"
+  },
+  {
+    "category": "Restaurants & Food",
+    "name": "Jack's",
+    "type": "Fast food",
+    "address": "103 Styles St NE, Hanceville, AL 35077",
+    "summary": "The Southern burger and biscuit chain serves Hanceville from Styles Street.",
+    "phone": "(256) 392-6268"
+  },
+  {
+    "category": "Restaurants & Food",
+    "name": "McDonald's",
+    "type": "Fast food",
+    "address": "740 Main St NE, Hanceville, AL 35077",
+    "summary": "The familiar golden arches on Main Street, ready for a quick meal on the go.",
+    "phone": "(256) 352-2120"
+  },
+  {
+    "category": "Restaurants & Food",
+    "name": "Pop's Cafe Hanceville",
+    "type": "Cafe",
+    "address": "814 Main St NE, Hanceville, AL 35077",
+    "summary": "A hometown cafe on Main Street serving up meals and friendly conversation.",
+    "phone": "(256) 887-1035"
+  },
+  {
+    "category": "Restaurants & Food",
+    "name": "Subway",
+    "type": "Sandwiches",
+    "address": "720 Main St NE, Hanceville, AL 35077",
+    "summary": "Build your sandwich your way at this Main Street sub shop.",
+    "phone": "(256) 352-2444"
+  },
+  {
+    "category": "Restaurants & Food",
+    "name": "Reyes Pizza",
+    "type": "Pizza",
+    "address": "806 Main St NE, Hanceville, AL 35077",
+    "summary": "A local pizza place on Main Street for family nights and game day feasts.",
+    "phone": "(256) 887-1307"
+  },
+  {
+    "category": "Restaurants & Food",
+    "name": "Taco Bell",
+    "type": "Fast food",
+    "address": "702 Main St NE, Hanceville, AL 35077",
+    "summary": "Tacos, burritos and late night cravings handled on Main Street.",
+    "phone": "(256) 787-2170"
+  },
+  {
+    "category": "Shopping & Retail",
+    "name": "Hanceville Drug Co",
+    "type": "Pharmacy and soda fountain",
+    "address": "101 Commercial St SE, Hanceville, AL 35077",
+    "summary": "A locally owned pharmacy since 1916 with an old fashioned soda fountain serving ice cream, sundaes and shakes.",
+    "phone": "(256) 352-4110",
+    "website": "https://www.hancevilledrug.com/",
+    "facebook": "https://www.facebook.com/HancevilleDrug/"
+  },
+  {
+    "category": "Shopping & Retail",
+    "name": "Hagar Guitars LLC",
+    "type": "Custom guitars",
+    "address": "317 County Road 263, Hanceville, AL 35077",
+    "summary": "A Hanceville shop that handcrafts custom electric and bass guitars and also handles repairs and upgrades.",
+    "phone": "(205) 522-8501",
+    "website": "http://hagarguitars.com"
+  },
+  {
+    "category": "Services",
+    "name": "Quality Inn",
+    "type": "Lodging",
+    "address": "810 Main St NE, Hanceville, AL 35077",
+    "summary": "A hotel on Main Street for visitors who want to rest up close to everything in town.",
+    "phone": "(256) 787-2210"
+  },
+  {
+    "category": "Services",
+    "name": "Alfa Insurance, Hanceville Office",
+    "type": "Insurance",
+    "address": "908 Main Street NE, Hanceville, AL 35077",
+    "summary": "A local Alfa Insurance office on Main Street helping neighbors protect their homes, cars and more.",
+    "phone": "(256) 352-9871",
+    "website": "https://www.alfainsurance.com/agents/stefani-nelson"
+  },
+  {
+    "category": "Services",
+    "name": "Thompson Cat Rentals",
+    "type": "Equipment rentals",
+    "address": "6307 County Road 490, Hanceville, AL 35077",
+    "summary": "Thompson Cat Rentals of Hanceville rents equipment for a wide range of jobs, big and small.",
+    "phone": "(256) 736-0460",
+    "website": "https://thompsontractor.com/locations/hanceville/"
+  },
+  {
+    "category": "Manufacturing & Industry",
+    "name": "Louisiana Pacific Corporation",
+    "type": "Building products manufacturing",
+    "address": "902 Main Street SE, Hanceville, AL 35077",
+    "summary": "LP's Hanceville plant makes oriented strand board, a key building material for homes and construction.",
+    "phone": "(256) 352-1700",
+    "website": "http://www.lpcorp.com"
+  },
+  {
+    "category": "Manufacturing & Industry",
+    "name": "Birmingham Fastener, Hanceville Distribution Center",
+    "type": "Fastener distribution",
+    "address": "1100 Main Street SE, Hanceville, AL 35077",
+    "summary": "Birmingham Fastener runs a distribution center in Hanceville that supplies fasteners to industry.",
+    "phone": "(256) 352-1000",
+    "website": "http://www.bhamfast.com"
+  },
+  {
+    "category": "Manufacturing & Industry",
+    "name": "Design Technologies, LLC",
+    "type": "Contract manufacturing",
+    "address": "110 McSwain Dr, Hanceville, AL 35077",
+    "summary": "Design Technologies builds electrical wire harnesses and electronic control boxes, supporting manufacturers from design through production.",
+    "phone": "(256) 887-1214"
+  },
+  {
+    "category": "Other",
+    "name": "Shrine of the Most Blessed Sacrament",
+    "type": "Shrine and gift shop",
+    "address": "3224 County Road 548, Hanceville, AL 35077",
+    "summary": "One of the best known landmarks in the area, the Shrine welcomes visitors and pilgrims with peaceful grounds and a gift shop.",
+    "phone": "(256) 352-6267",
+    "website": "http://www.olamshrine.com"
+  }
+]
