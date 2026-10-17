@@ -27,7 +27,7 @@
   "name": "Poison Control",
   "summary": "Call right away if someone may have swallowed or touched something harmful.",
   "phone": "1-800-222-1222",
-  "website": "https://cullman911.org/emergency/",
+  "website": "https://poisonhelp.hrsa.gov/",
   "level": "Federal"
  },
  {
@@ -36,33 +36,36 @@
   "summary": "The local health department offers clinic services like shots and health care by appointment on weekdays.",
   "phone": "(256) 734-1030",
   "address": "601 Logan Avenue SW, Cullman",
-  "website": "https://www.alabamapublichealth.gov/cullman/",
-  "level": "Local"
+  "website": "https://www.alabamapublichealth.gov/cullman/contact.html",
+  "level": "Local",
+  "hours": "Clinic: Monday to Friday, 8:00 a.m. to 5:00 p.m. Call for an appointment."
  },
  {
   "group": "Everyone",
   "name": "Alabama Department of Rehabilitation Services",
-  "summary": "Helps people with disabilities get training and find work. The Decatur office serves Cullman County.",
+  "summary": "Helps people with disabilities get job training and find work. The Decatur office serves Cullman County, and its toll free number is 1-800-671-6838.",
   "phone": "(256) 353-2754",
-  "address": "4104 Highway 31 S, Building 2, Decatur",
-  "website": "https://rehab.alabama.gov/",
+  "address": "4104-2 Highway 31 S, Building 2, Decatur",
+  "website": "https://rehab.alabama.gov/office-locations",
   "level": "State"
  },
  {
   "group": "Everyone",
   "name": "Cullman Housing Authority",
-  "summary": "Provides affordable public housing for families and individuals who qualify.",
+  "summary": "Offers affordable public housing for families and individuals who qualify. Call ahead if you plan to come in during the afternoon.",
   "phone": "(256) 734-6171",
   "website": "https://cullmanha.com/contact-us/",
-  "level": "Local"
+  "level": "Local",
+  "address": "408 Cleveland Avenue SW, Cullman"
  },
  {
   "group": "Everyone",
   "name": "Cullman County Extension Office (ACES)",
-  "summary": "Offers free classes and advice on gardening, farming, food safety, family life and 4H for kids.",
+  "summary": "Free advice and classes on gardening, farming, food and nutrition, plus 4H for kids.",
   "phone": "(256) 737-9386",
   "website": "https://www.aces.edu/counties/cullman/",
-  "level": "Local"
+  "level": "Local",
+  "address": "1714 Tallyho Street SW, Cullman"
  },
  {
   "group": "Women",
@@ -94,11 +97,12 @@
  {
   "group": "Everyone",
   "name": "WellStone Cullman",
-  "summary": "Formerly Mental Healthcare of Cullman, WellStone offers mental health and substance use care for adults and youth.",
-  "phone": "(256) 734-4688",
+  "summary": "Mental health and substance use care for children, teens, adults and families, including counseling and medication management. Call the Cullman Access to Care line to get started.",
+  "phone": "(256) 255-1020",
   "address": "1909 Commerce Avenue NW, Cullman",
   "website": "https://wellstone.com/service-locations/wellstone-cullman-campus/",
-  "level": "Local"
+  "level": "Local",
+  "hours": "Monday to Friday, 8:00 a.m. to 5:00 p.m."
  },
  {
   "group": "Children & Families",
@@ -123,15 +127,15 @@
   "summary": "Free help for veterans and families applying for VA benefits. Located in the Cullman County Courthouse.",
   "phone": "(256) 775-4662",
   "address": "500 2nd Avenue SW, Room 109, Cullman",
-  "website": "https://va.alabama.gov/",
+  "website": "https://www.co.cullman.al.us/contact.html",
   "level": "Local"
  },
  {
   "group": "Veterans",
   "name": "Veterans Crisis Line",
-  "summary": "Veterans in crisis can call or text 988 any time and ask for veteran support.",
+  "summary": "Veterans in crisis can dial 988 and press 1, or text 838255. It's free, private and open 24 hours a day.",
   "phone": "988",
-  "website": "https://www.wallacestate.edu/student-resources/mentalhealth.html",
+  "website": "https://www.veteranscrisisline.net/",
   "level": "Federal"
  },
  {
@@ -158,11 +162,11 @@
   "group": "Seniors & Elderly",
   "level": "Local",
   "name": "Cullman County Commission on Aging",
-  "summary": "The county office for senior services. It runs seven full time senior centers, helps with Medicare drug plan comparisons, helps seniors apply for free medicine, and arranges free legal visits.",
+  "summary": "The county office for senior services. It runs the full time senior centers, helps with Medicare drug plan comparisons, helps seniors apply for free medicine and sets up free legal visits.",
   "who": "Cullman County residents 60 and older. Medicine help (SenioRx) starts at age 55. During Medicare Open Enrollment (October 15 to December 7) counseling is by appointment only.",
   "phone": "(256) 734-1241",
   "address": "1519 Sportsman Lake Road NW, Cullman",
-  "website": "https://www.co.cullman.al.us/coa/index.html",
+  "website": "https://www.co.cullman.al.us/coa/contact.html",
   "tags": [
    "seniors",
    "elderly",
@@ -171,18 +175,19 @@
    "prescriptions",
    "seniorx",
    "legal"
-  ]
+  ],
+  "hours": "Monday to Friday, 8:00 a.m. to 4:30 p.m. Closed for lunch 12:00 to 12:30."
  },
  {
   "group": "Seniors & Elderly",
   "level": "Local",
   "name": "Hanceville Senior Center",
-  "summary": "Hanceville's own senior center, in the new building next to the park. Come for a free hot lunch on weekdays, activities, exercise and good company. Donations for meals are welcome.",
+  "summary": "Hanceville's own Commission on Aging senior center. Come for a free hot lunch on weekdays and some good company. Donations for the meal program are welcome.",
   "who": "Adults 60 and older.",
   "phone": "(256) 352-4733",
   "hours": "Monday to Friday, 8:00 a.m. to 1:00 p.m.",
   "address": "209 Michelle Street NW, Hanceville",
-  "website": "https://www.co.cullman.al.us/coa/services.html",
+  "website": "https://www.co.cullman.al.us/coa/assets/PDFs/FullTimeCenters.pdf",
   "tags": [
    "seniors",
    "elderly",
@@ -195,12 +200,12 @@
   "group": "Seniors & Elderly",
   "level": "Local",
   "name": "Colony Senior Center",
-  "summary": "A full time Commission on Aging senior center near Hanceville with a free hot lunch on weekdays and activities.",
+  "summary": "A full time Commission on Aging senior center near Hanceville, with a free hot lunch on weekdays.",
   "who": "Adults 60 and older.",
   "phone": "(256) 287-1491",
   "hours": "Monday to Friday, 8:00 a.m. to 1:00 p.m.",
   "address": "12980 Alabama Highway 91, Hanceville",
-  "website": "https://www.co.cullman.al.us/coa/services.html",
+  "website": "https://www.co.cullman.al.us/coa/assets/PDFs/FullTimeCenters.pdf",
   "tags": [
    "seniors",
    "elderly",
@@ -214,7 +219,7 @@
   "level": "Local",
   "name": "Meals for Homebound Seniors",
   "summary": "Hot meals delivered to the homes of seniors who cannot easily get out, Monday to Friday except holidays. This is Cullman County's home delivered meals program, much like Meals on Wheels.",
-  "who": "Homebound adults 60 and older who meet program guidelines and live in the area served by one of the seven full time senior centers, including Hanceville and Colony.",
+  "who": "Homebound adults 60 and older who live in an area served by a full time senior center, including Hanceville and Colony.",
   "phone": "(256) 734-1241",
   "website": "https://www.co.cullman.al.us/coa/services.html",
   "tags": [
@@ -261,8 +266,8 @@
   "group": "Seniors & Elderly",
   "level": "State",
   "name": "Medicaid Waiver Care at Home",
-  "summary": "The Elderly and Disabled Waiver helps people stay at home instead of moving to a nursing home. A case manager can set up personal care, homemaker help, respite, adult day health and home delivered frozen meals.",
-  "who": "People whose doctor says they need nursing home level care and who have full Medicaid or meet the income and asset limits. NARCOG handles applications for Cullman County.",
+  "summary": "Medicaid waiver programs help people stay at home instead of moving to a nursing home. A case manager can set up personal care, homemaker help and other services at no cost to the family.",
+  "who": "People whose doctor says they need nursing home level care and who have full Medicaid or may qualify for it. NARCOG serves Cullman, Lawrence and Morgan counties.",
   "phone": "(256) 355-4515",
   "website": "https://www.narcog.org/serving-people/home-and-community-based-services",
   "tags": [
@@ -279,11 +284,11 @@
   "group": "Seniors & Elderly",
   "level": "State",
   "name": "Alabama Cares Caregiver Support",
-  "summary": "Help for family caregivers, including information, support groups, short term case management, training, counseling and some respite so you can rest.",
-  "who": "Family caregivers of adults 60 and older, relatives 55 and older raising children, and caregivers of adults 19 to 59 with disabilities. Income does not keep you from getting help.",
+  "summary": "Help for family caregivers, including information, counseling, support groups, training and respite so you can rest.",
+  "who": "Family caregivers of adults 60 and older, older relatives (not parents) raising children 18 and under, and caregivers of adults 19 to 59 with disabilities. Income does not keep you from getting help.",
   "phone": "(256) 355-4515",
   "website": "https://www.narcog.org/serving-people/caregiver-support",
-  "how": "Ask for the Alabama Cares coordinator (extension 222), or call 1-800-243-5463.",
+  "how": "Ask for the Alabama Cares coordinator at extension 222.",
   "tags": [
    "caregiver",
    "respite",
@@ -324,7 +329,8 @@
    "retirement",
    "medicare",
    "federal"
-  ]
+  ],
+  "hours": "Monday to Friday, 9:00 a.m. to 4:00 p.m."
  },
  {
   "group": "Food & SNAP",
@@ -335,7 +341,7 @@
   "phone": "(256) 737-5300",
   "hours": "8:00 a.m. to 4:30 p.m.",
   "address": "1220 St. Joseph Street NW, Cullman",
-  "website": "https://dhr.alabama.gov/food-assistance/",
+  "website": "https://dhr.alabama.gov/county-office-contact/",
   "tags": [
    "snap",
    "food stamps",
@@ -358,7 +364,8 @@
    "online application",
    "mydhr",
    "food"
-  ]
+  ],
+  "how": "Cullman County still uses MyDHR as of October 2026. A few Alabama counties have moved to DHR's new ACES Self Service Portal, and MyDHR will tell you if yours has."
  },
  {
   "group": "Food & SNAP",
@@ -428,12 +435,12 @@
   "group": "Food & SNAP",
   "level": "Local",
   "name": "Cullman Caring for Kids",
-  "summary": "One of Cullman County's biggest food pantries, serving about 900 to 1,000 families a month with boxes of food.",
-  "who": "Cullman County families in need.",
+  "summary": "One of Cullman County's biggest food pantries. It runs the United Way Food Bank and hands out boxes of food. Monetary donations can be made at cullmancaringforkids.com.",
+  "who": "Cullman County families in need. You may be asked to bring a photo ID, mail with your current address or proof of income.",
   "phone": "(256) 739-1111",
   "hours": "Monday to Thursday, 9:00 a.m. to noon and 1:00 to 3:00 p.m. Closed Friday to Sunday.",
-  "address": "402 Arnold Street NE, Cullman",
-  "website": "https://cullmancaringforkids.com",
+  "address": "402 Arnold Street NE, Suite W-1, Cullman",
+  "website": "https://www.uwaycc.org/sites/uwaycc/files/Cullman%20County%20Food%20Bank%20Schedule-Revised.pdf",
   "tags": [
    "food pantry",
    "food bank",
@@ -444,28 +451,13 @@
  },
  {
   "group": "Food & SNAP",
-  "level": "Local",
-  "name": "Hanceville Hope Pantry",
-  "summary": "A free food pantry in Hanceville run by local volunteers.",
-  "who": "Neighbors in need. Call 211 or check with the pantry for current days and hours.",
-  "address": "902 Commercial Street, Hanceville",
-  "source": "https://cullmantimes.com/2025/08/27/hanceville-library-staff-law-enforcement-object-to-food-pantry-expanding-into-library-space/",
-  "tags": [
-   "food pantry",
-   "food",
-   "free food",
-   "hanceville"
-  ]
- },
- {
-  "group": "Food & SNAP",
   "level": "Federal",
   "name": "USDA National Hunger Hotline",
   "summary": "Talk with someone who can find meal sites, food banks and other food help near you. You can also text a question to 914-342-7744.",
   "who": "Anyone who needs food.",
   "phone": "1-866-348-6479",
   "hours": "Monday to Friday, 7:00 a.m. to 7:00 p.m. Central time.",
-  "website": "https://www.fna.usda.gov/national-hunger-hotline",
+  "website": "https://www.fns.usda.gov/national-hunger-hotline",
   "tags": [
    "hunger hotline",
    "1-866-3-hungry",
@@ -560,10 +552,10 @@
   "level": "State",
   "name": "Help Paying for Child Care (Child Care Subsidy)",
   "summary": "DHR helps pay for child care so parents can work or go to school. For Cullman County, the Child Care Management Agency (CMA) of North Central Alabama decides who qualifies and can refer you to child care providers.",
-  "who": "Alabama families who are working, in school or in training and whose income is under the limit.",
+  "who": "Alabama families with low or moderate income who are working, in school or in training.",
   "phone": "(334) 242-1425",
   "email": "cma.nca@dhr.alabama.gov",
-  "website": "https://dhr.alabama.gov/subsidy-overview/",
+  "website": "https://dhr.alabama.gov/child-care/subsidy-overview/subsidized-child-care/",
   "tags": [
    "child care subsidy",
    "day care",
@@ -579,7 +571,6 @@
   "name": "Find a Licensed Child Care Provider",
   "summary": "Search Alabama DHR's list of licensed child care centers and homes by county or city.",
   "who": "Any family looking for child care.",
-  "phone": "(334) 242-1425",
   "website": "https://apps.dhr.alabama.gov/daycare/daycare_search",
   "tags": [
    "day care",
@@ -609,7 +600,7 @@
   "group": "Child Care",
   "level": "Local",
   "name": "Head Start and Early Head Start (CAPNA)",
-  "summary": "Community Action Partnership of North Alabama runs Head Start classrooms in Cullman County with early learning plus vision, health and dental screenings at no cost to families.",
+  "summary": "Community Action Partnership of North Alabama runs Head Start in Cullman County, with early learning plus vision, health and dental screenings at no cost to families.",
   "who": "Children from birth to age 5 whose families meet program guidelines. Services vary by county, so ask what is offered near you.",
   "phone": "(256) 355-7843",
   "website": "https://capna.org/childrens-services/",
@@ -670,21 +661,22 @@
   "group": "Child Care",
   "level": "State",
   "name": "Dolly Parton's Imagination Library",
-  "summary": "Free books mailed to your child every month from birth to age 5, promoted in Alabama by the Department of Early Childhood Education.",
-  "who": "Children from birth to age 5, no matter the family's income. Check whether your area is available on the website.",
-  "website": "https://imaginationlibrary.com/check-availability/",
+  "summary": "Free books mailed to your child every month from birth to age 5. In Cullman County the program is run by the United Way of Cullman County.",
+  "who": "Children 5 and under who live in Cullman County, no matter the family's income.",
+  "website": "https://www.uwaycc.org/DPIL",
   "tags": [
    "books",
    "reading",
    "babies",
    "toddlers"
-  ]
+  ],
+  "phone": "(256) 739-2948"
  },
  {
   "group": "Federal Programs",
   "level": "Federal",
   "name": "USA.gov Benefit Finder",
-  "summary": "Answer a few questions to see government benefits you may qualify for, like food, health care, housing and utilities, and how to apply. This replaced Benefits.gov.",
+  "summary": "Answer a few questions to see government benefits you may qualify for, like food, health care, housing and help with utilities, and how to apply.",
   "who": "Anyone in the United States.",
   "website": "https://www.usa.gov/benefit-finder",
   "tags": [
@@ -698,11 +690,11 @@
   "group": "Federal Programs",
   "level": "Federal",
   "name": "Social Security Administration",
-  "summary": "Retirement, disability, SSI, survivor benefits and Social Security cards. Many services are online. Wait times on the phone are usually shorter in the morning and later in the week.",
+  "summary": "Retirement, disability, SSI, survivor benefits and Social Security cards. Many services are online, and you can call to make, change or cancel an appointment.",
   "who": "Workers, retirees, people with disabilities and families.",
   "phone": "1-800-772-1213",
   "hours": "Monday to Friday, 8:00 a.m. to 7:00 p.m. local time.",
-  "website": "https://www.ssa.gov/",
+  "website": "https://www.ssa.gov/manage-benefits/make-an-appointment",
   "tags": [
    "social security",
    "ssi",
@@ -718,14 +710,15 @@
   "summary": "The official Medicare help line and website for questions about coverage, plans and claims.",
   "who": "People 65 and older and some younger people with disabilities.",
   "phone": "1-800-633-4227",
-  "website": "https://www.medicare.gov/",
+  "website": "https://www.medicare.gov/talk-to-someone",
   "tags": [
    "medicare",
    "1-800-medicare",
    "health insurance",
    "seniors",
    "federal"
-  ]
+  ],
+  "hours": "24 hours a day, 7 days a week, except some federal holidays."
  },
  {
   "group": "Federal Programs",

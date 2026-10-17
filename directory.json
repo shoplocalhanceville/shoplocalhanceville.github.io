@@ -12,7 +12,7 @@
   "name": "Hanceville Elementary School",
   "summary": "This Cullman County public school serves grades 3 through 5.",
   "address": "799 Commercial Street SE, Hanceville",
-  "phone": "(256) 352-6111",
+  "phone": "(256) 352-9196",
   "website": "https://hve.ccboe.org/"
  },
  {
@@ -37,7 +37,7 @@
   "summary": "Wallace State is one of the largest schools in the Alabama Community College System and offers more than 50 associate degree and technical programs right here in Hanceville.",
   "address": "801 Main Street NW, Hanceville",
   "phone": "(256) 352-8000",
-  "website": "https://www.wallacestate.edu/"
+  "website": "https://www.wallacestate.edu/about-wscc/campus-directory/index.html"
  },
  {
   "group": "City Hall & Government",
@@ -92,7 +92,7 @@
   "summary": "The Sheriff's Office now provides law enforcement for Hanceville, including patrol, investigations and calls for service, after the city police department was dissolved in 2026.",
   "address": "1910 Beech Avenue SE, Cullman",
   "phone": "(256) 734-0342",
-  "website": "https://cullmansheriff.org/"
+  "website": "https://cullmansheriff.org/contact/"
  },
  {
   "group": "Utilities & Public Works",
@@ -121,31 +121,32 @@
  {
   "group": "Community Services",
   "name": "Parks and Recreation",
-  "summary": "Parks and Recreation runs four city parks, including C. W. Day Park and Veterans Memorial Park, with ball fields, playgrounds, a community pool, walking trails and fishing. Facility rentals can be booked online.",
-  "address": "201 Commercial Street, Hanceville",
+  "summary": "Parks and Recreation runs four city parks. C. W. Day Park has ball fields, playgrounds and a community pool, and Veterans Memorial Park has a walking trail and fishing. You can book facility rentals online. Call City Hall with questions.",
   "phone": "(256) 352-9830",
   "website": "https://www.cityofhanceville.net/o/coh/page/parks-recreation"
  },
  {
   "group": "Community Services",
   "name": "Hanceville Senior Center",
-  "summary": "Part of the Cullman County senior center network. Seniors come for meals, crafts, music and company on weekday mornings until 1:00 PM.",
+  "summary": "A Cullman County Commission on Aging senior center. Seniors 60 and older can come for a free hot lunch and company on weekdays, 8:00 a.m. to 1:00 p.m.",
   "address": "209 Michelle Street NW, Hanceville",
-  "phone": "(256) 352-4733"
+  "phone": "(256) 352-4733",
+  "website": "https://www.co.cullman.al.us/coa/assets/PDFs/FullTimeCenters.pdf"
  },
  {
   "group": "Community Services",
   "name": "Hanceville Post Office",
   "summary": "The local post office handles mail, packages and PO boxes for the 35077 ZIP code.",
   "address": "630 Main Street NE, Hanceville",
-  "website": "https://tools.usps.com/locations/"
+  "website": "https://tools.usps.com/find-location.htm?address=Hanceville%2C%20AL%2035077"
  },
  {
   "group": "Public Safety",
   "name": "Cullman County Emergency Management Agency",
-  "summary": "The EMA plans for storms and disasters and shares weather information for the county. Call for non emergency questions.",
-  "phone": "(256) 739-3537",
-  "website": "https://cullman911.org/emergency/"
+  "summary": "The EMA plans for storms and disasters and helps people get ready before bad weather hits. Call the number listed here for non emergency questions.",
+  "phone": "(256) 739-5410",
+  "website": "https://www.cullmanema.org/",
+  "address": "2020 Beech Avenue SE, Cullman"
  },
  {
   "group": "Public Safety",
