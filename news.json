@@ -1,91 +1,387 @@
 [
-  {
-    "group": "City Council",
-    "name": "Council upholds removal of fire chief, adds road repair money",
-    "summary": "At its Oct. 8 meeting, the council approved more funding for road patching, discussed changes to city vehicle use and a formal interview process for department heads, and voted to uphold the mayor's removal of the fire chief. The fire department reported 116 calls in September.",
-    "tags": [
-      "council",
-      "roads",
-      "fire chief",
-      "vehicle policy"
-    ],
-    "date": "Oct 15, 2026",
-    "source": "https://www.cullmantribune.com/2026/10/15/hanceville-council-addresses-roads-vehicle-policy-leadership-changes-fire-chief/"
-  },
-  {
-    "group": "City Budget",
-    "name": "Hanceville budget projects $5.46 million in revenue",
-    "summary": "The city's budget for October 2026 through September 2027 projects about $5.46 million in revenue and $5.17 million in spending.",
-    "tags": [
-      "budget",
-      "finance",
-      "city"
-    ],
-    "date": "Oct 5, 2026",
-    "source": "https://www.cullmantribune.com/2026/10/05/budget-breakdown-hanceville-city-council-projects-5-46m-in-revenue-for-fy-2026-27/"
-  },
-  {
-    "group": "City Council",
-    "name": "City looks at fuel costs and take home vehicles",
-    "summary": "Because of rising fuel prices, the council discussed no longer letting department heads and on call staff take city vehicles home.",
-    "tags": [
-      "council",
-      "fuel",
-      "vehicle policy"
-    ],
-    "date": "Sep 29, 2026",
-    "source": "https://cullmantimes.com/2026/09/29/hanceville-discusses-updating-employee-vehicle-policy-in-response-to-fuel-costs/"
-  },
-  {
-    "group": "Roads and ALDOT",
-    "name": "ALDOT grant money goes to drainage and sidewalks",
-    "summary": "The council approved an agreement with ALDOT so about $20,000 in remaining grant funds can be used for drainage and sidewalk improvements. The same meeting approved a tax abatement for ZincFast and street closures for the Mud Creek festival.",
-    "tags": [
-      "aldot",
-      "sidewalks",
-      "drainage",
-      "roads",
-      "zincfast",
-      "council"
-    ],
-    "date": "Sep 12, 2026",
-    "source": "https://www.cullmantribune.com/2026/09/12/hanceville-council-approves-funding-tax-abatement-and-community-projects/"
-  },
-  {
-    "group": "Announcements",
-    "name": "Holly Market vendors wanted",
-    "summary": "Parks and Recreation is looking for craft, gift and food vendors, plus a Santa and carriage ride providers, for the December Holly Market.",
-    "tags": [
-      "holly market",
-      "vendors",
-      "parks and recreation"
-    ],
-    "date": "Aug 15, 2026",
-    "source": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/"
-  },
-  {
-    "group": "Announcements",
-    "name": "Knapsacks for Kids asks for support",
-    "summary": "The weekend food program packed 3,800 bags for Hanceville students last school year and now accepts Cash App donations.",
-    "tags": [
-      "knapsacks for kids",
-      "food",
-      "schools",
-      "donations"
-    ],
-    "date": "Aug 15, 2026",
-    "source": "https://www.cullmantribune.com/2026/08/15/hanceville-knapsacks-for-kids-seeks-support-for-new-school-year/"
-  },
-  {
-    "group": "Official City Updates",
-    "name": "Council meeting records posted",
-    "summary": "The City of Hanceville posts records for each council meeting on its news page, most recently for the Oct. 8 meeting.",
-    "tags": [
-      "council",
-      "minutes",
-      "city"
-    ],
-    "date": "Oct 10, 2026",
-    "source": "https://www.cityofhanceville.net/news/"
-  }
+ {
+  "id": "council-roads-vehicles-fire-chief",
+  "date": "2026-10-17",
+  "top": true,
+  "category": "City Hall",
+  "graphic": "🏛️",
+  "headline": "Hanceville council adds $25,000 for road patching and upholds fire chief removal",
+  "summary": "At its Oct. 8 meeting the City Council put more gas tax money toward pothole repairs, debated who gets to take city trucks home and backed the mayor's removal of the fire chief. The next meeting is Thursday, Oct. 22, at 6 p.m.",
+  "body": [
+   "If you have dodged a pothole on a Hanceville street lately, help is on the way. The City Council approved a $25,000 budget amendment on Oct. 8 so the Public Works Department can keep patching roads around town. The money comes from gas tax revenue, The Cullman Tribune reported.",
+   "Rusty Fields of Public Works told the council the patching has taken more time and material than expected because damaged spots vary in size and depth. City crews have been working with county crews and equipment at roughly $5,000 to $5,500 a day, and Fields said more than half of the planned work is done.",
+   "Take home vehicles drew the longest discussion. A proposed policy, Resolution 2026-8, would limit routine take home city vehicles to department heads and designated on call employees. Supporters pointed to fuel, insurance and upkeep costs, with one estimate putting six take home vehicles at about $17,000 a year. Public Works employees said keeping trucks at home helps them respond faster to fallen trees, flooding and storms. The council added emergency exceptions and a six month transition, then postponed a final vote until its next meeting.",
+   "Council members also talked about giving the council a bigger say in choosing the fire chief, public works director and park director. Mayor Nolan Bradford spoke against the change, and action was postponed for more review.",
+   "After an executive session of about 40 minutes, the council voted unanimously to uphold the mayor's removal of Fire Chief Chris Hardin, who had served since March. No public reason was given at the meeting and no replacement was announced, according to the Tribune. The Cullman Times also reported the vote.",
+   "In other business, the fire department answered 116 calls in September, the council gave $500 to the North Alabama Agriplex, Councilman Cameron Rowe was named to the Planning Commission, and work continues on the policies needed to bring back the Hanceville Police Department.",
+   "Want to be heard? The next council meeting is Thursday, Oct. 22, at 6 p.m."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Hanceville Council addresses roads, vehicle policy, leadership changes, fire chief (Oct. 15, 2026)",
+    "url": "https://www.cullmantribune.com/2026/10/15/hanceville-council-addresses-roads-vehicle-policy-leadership-changes-fire-chief/"
+   },
+   {
+    "name": "The Cullman Times: Hanceville unanimously votes to remove Chris Hardin as fire chief (Oct. 13, 2026)",
+    "url": "https://cullmantimes.com/2026/10/13/hanceville-unanimously-votes-to-remove-chris-hardin-as-fire-chief/"
+   },
+   {
+    "name": "City of Hanceville: council meeting records",
+    "url": "https://www.cityofhanceville.net/news/"
+   }
+  ],
+  "tags": [
+   "council",
+   "roads",
+   "potholes",
+   "fire chief",
+   "vehicle policy",
+   "city"
+  ]
+ },
+ {
+  "id": "wallace-volleyball-win-streak",
+  "date": "2026-10-17",
+  "category": "Sports",
+  "graphic": "🏐",
+  "headline": "Wallace State volleyball brings a nine match win streak into Saturday",
+  "summary": "The Lions swept Bishop State and Lurleen B. Wallace on Friday at Tom Drake Coliseum and finish their home invitational Saturday at 11 a.m. against Illinois Central College.",
+  "body": [
+   "Wallace State volleyball is on a roll. The Lions are 25 and 5 overall and 11 and 2 in conference play after two straight set sweeps on the first day of the Wallace State Lions Invitational, according to the team's official schedule and results.",
+   "On Friday, Wallace State beat Bishop State 25 to 9, 25 to 16 and 25 to 11 in the noon match, then topped Lurleen B. Wallace 25 to 15, 25 to 16 and 25 to 17 that evening. That makes nine wins in a row.",
+   "The invitational wraps up Saturday, Oct. 17, with an 11 a.m. match against Illinois Central College at Tom Drake Coliseum on the Wallace State campus in Hanceville. Next week the Lions host Calhoun on Wednesday, Oct. 21, at 5 p.m. and Southern Union for a doubleheader on Thursday, Oct. 22. It is a great time to catch a match close to home."
+  ],
+  "sources": [
+   {
+    "name": "Wallace State Athletics: 2026 volleyball schedule and results",
+    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule"
+   },
+   {
+    "name": "Wallace State Athletics: box score vs. Bishop State (Oct. 16, 2026)",
+    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/boxscores/20261016_w212.xml"
+   },
+   {
+    "name": "Wallace State Athletics: box score vs. Lurleen B. Wallace (Oct. 16, 2026)",
+    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/boxscores/20261016_3u43.xml"
+   }
+  ],
+  "tags": [
+   "wallace state",
+   "volleyball",
+   "lions",
+   "sports"
+  ]
+ },
+ {
+  "id": "bulldogs-hokes-bluff-oneonta-next",
+  "date": "2026-10-17",
+  "category": "Sports",
+  "graphic": "🏈",
+  "headline": "Bulldogs fall to Hokes Bluff, welcome Oneonta to Ray Talley Stadium next Friday",
+  "summary": "Hanceville lost 49 to 8 to Hokes Bluff in a Class 3A, Region 6 game moved up to Thursday for fall break. Oneonta visits Friday, Oct. 23, at 7 p.m.",
+  "body": [
+   "The Hanceville Bulldogs played on a Thursday night this week because the Hokes Bluff game was moved up to Oct. 15 ahead of fall break. The Eagles won 49 to 8 in the Class 3A, Region 6 matchup in Hanceville.",
+   "Carson Moore ran for Hanceville's touchdown and Zavier Malcom added the 2 point conversion, The Cullman Times reported. The final was also listed in the Alabama Sports Writers Association scores shared by WEIS Radio.",
+   "Next up is a home game against Oneonta on Friday, Oct. 23, at 7 p.m. at Ray Talley Stadium, then a trip to Elkmont on Friday, Oct. 30, according to the team's MaxPreps schedule. Wear your purple and come cheer on the Bulldogs."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Times: PREP FOOTBALL: Fairview cruises to win over Crossville; Hanceville falls to Hokes Bluff (Oct. 15, 2026)",
+    "url": "https://cullmantimes.com/2026/10/15/prep-football-fairview-cruises-to-win-over-crossville-hanceville-falls-to-hokes-bluff/"
+   },
+   {
+    "name": "WEIS Radio: Thursday's High School Football Final Scores (Oct. 16, 2026)",
+    "url": "https://weisradio.com/2026/10/16/thursday-football-scores-october-15-2026/"
+   },
+   {
+    "name": "MaxPreps: Hanceville Bulldogs football schedule",
+    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/"
+   },
+   {
+    "name": "Hanceville High School live feed",
+    "url": "https://hvh.ccboe.org/o/hvh/live-feed/"
+   }
+  ],
+  "tags": [
+   "football",
+   "bulldogs",
+   "hanceville high",
+   "hokes bluff",
+   "oneonta",
+   "sports"
+  ]
+ },
+ {
+  "id": "hhs-nhs-chapter-of-distinction",
+  "date": "2026-10-17",
+  "category": "Schools",
+  "graphic": "🏅",
+  "headline": "Hanceville High's Honor Society earns a national Chapter of Distinction",
+  "summary": "The National Honor Society recognized the Hanceville High chapter for leadership, service and work that makes the school and community better.",
+  "body": [
+   "Here is some good news to share. Hanceville High School's National Honor Society chapter has earned the national Chapter of Distinction award for its record of leadership, service and efforts to improve the school and community, The Cullman Times and The Cullman Tribune reported.",
+   "The program honors chapters that meet all of the honor society's essential standards and stand out in areas like student governance and leadership development. It is not a contest with a set number of winners, so every chapter that earns it has cleared a high bar.",
+   "Principal Daniel Wakefield praised the work of Ms. Teri Weaver in building “excellent leaders for the real world,” according to the Times. Congratulations, Bulldogs!"
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Times: Hanceville High School National Honors Society Chapter wins national award (Sept. 30, 2026)",
+    "url": "https://cullmantimes.com/2026/09/30/hanceville-high-school-national-honors-society-chapter-wins-national-award/"
+   },
+   {
+    "name": "The Cullman Tribune: Hanceville High School National Honor Society chapter wins national award (Oct. 10, 2026)",
+    "url": "https://www.cullmantribune.com/2026/10/10/hanceville-high-school-national-honor-society-chapter-wins-national-award/"
+   },
+   {
+    "name": "National Honor Society: Chapters of Distinction",
+    "url": "https://www.nationalhonorsociety.org/nhs-chapters-of-distinction/"
+   }
+  ],
+  "tags": [
+   "hanceville high",
+   "national honor society",
+   "schools",
+   "award"
+  ]
+ },
+ {
+  "id": "hhs-fall-break-red-ribbon-week",
+  "date": "2026-10-17",
+  "category": "Schools",
+  "graphic": "🍂",
+  "headline": "Fall break for Hanceville High runs through Monday, Red Ribbon Week starts Oct. 26",
+  "summary": "Hanceville High students are off Friday, Oct. 16, and Monday, Oct. 19. Red Ribbon Week follows Oct. 26 to 30 with fun dress up days.",
+  "body": [
+   "Enjoy the long weekend, Bulldogs. Hanceville High School's fall break is Friday, Oct. 16, and Monday, Oct. 19, following a remote learning day on Thursday, Oct. 15, the school announced on its website.",
+   "Coming up next is Red Ribbon Week, Oct. 26 to 30. This year's theme is “Make a Difference. Be a Hero. Stay Drug Free!” Students and staff will have a different dress up theme each day while taking a stand for healthy choices.",
+   "Other Cullman County schools may follow their own calendars, so check with your child's school for exact dates."
+  ],
+  "sources": [
+   {
+    "name": "Hanceville High School live feed",
+    "url": "https://hvh.ccboe.org/o/hvh/live-feed/"
+   }
+  ],
+  "tags": [
+   "hanceville high",
+   "fall break",
+   "red ribbon week",
+   "schools"
+  ]
+ },
+ {
+  "id": "weekend-weather-sunny-crisp",
+  "date": "2026-10-17",
+  "category": "Weather",
+  "graphic": "⛅",
+  "headline": "Sunny and crisp: a picture perfect fall weekend for Hanceville",
+  "summary": "The National Weather Service expects sunshine all weekend, with highs in the 60s and chilly nights near 40. Saturday will be breezy.",
+  "body": [
+   "Grab a jacket for the morning and sunglasses for the afternoon. The National Weather Service office in Huntsville forecasts a sunny Saturday in Hanceville with a high near 63 and a north wind around 15 mph, with gusts as high as 30 mph.",
+   "Saturday night should be clear and chilly with a low around 40. Sunday looks sunny with a high near 67, and Sunday night drops to around 38. Monday stays sunny with a high near 69.",
+   "It is a great weekend for a pumpkin patch, a ballgame or a walk downtown. Forecasts change, so check the latest from the Weather Service before you head out. This forecast was issued early Saturday, Oct. 17."
+  ],
+  "sources": [
+   {
+    "name": "National Weather Service Huntsville: forecast for Hanceville",
+    "url": "https://forecast.weather.gov/MapClick.php?lat=34.0607&lon=-86.7675"
+   }
+  ],
+  "tags": [
+   "weather",
+   "forecast",
+   "weekend"
+  ]
+ },
+ {
+  "id": "youth-leadership-agriplex-luncheon",
+  "date": "2026-10-16",
+  "category": "Around the County",
+  "graphic": "🥕",
+  "headline": "Students dig, cook and dine at the Agriplex farm to table luncheon",
+  "summary": "The Cullman Area Chamber's Youth Leadership group harvested vegetables and cooked lunch in the North Alabama Agriplex teaching kitchen.",
+  "body": [
+   "The Cullman Area Chamber of Commerce's Youth Leadership group spent Thursday, Oct. 15, at the North Alabama Agriplex learning where food comes from, The Cullman Times reported.",
+   "Students dug sweet potatoes, harvested kale and picked purple hull peas, then headed to the new teaching kitchen to make lunch, including kale smoothies, roasted sweet potatoes and creamed peas. They set the tables, shared the meal with Agriplex staff and learned about composting while cleaning up."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Times: Youth Leadership group picks, prepares, dines at Agriplex farm to table luncheon (Oct. 16, 2026)",
+    "url": "https://cullmantimes.com/2026/10/16/youth-leadership-group-picks-prepares-dines-at-agriplex-farm-to-table-luncheon/"
+   }
+  ],
+  "tags": [
+   "agriplex",
+   "youth leadership",
+   "chamber",
+   "cullman"
+  ]
+ },
+ {
+  "id": "city-council-meeting-records",
+  "date": "2026-10-10",
+  "category": "City Hall",
+  "graphic": "📄",
+  "headline": "City posts records from the Oct. 8 council meeting",
+  "summary": "The City of Hanceville posts records for each council meeting on its news page, most recently for the Oct. 8 meeting.",
+  "body": [
+   "Want to see what the council did, in its own words? The City of Hanceville posts records for each council meeting on its official news page. The most recent records are from the Oct. 8 meeting."
+  ],
+  "sources": [
+   {
+    "name": "City of Hanceville: news",
+    "url": "https://www.cityofhanceville.net/news/"
+   }
+  ],
+  "tags": [
+   "council",
+   "minutes",
+   "city"
+  ]
+ },
+ {
+  "id": "st-john-church-fire-investigation",
+  "date": "2026-10-06",
+  "category": "Public Safety",
+  "graphic": "🚒",
+  "headline": "State investigators look into fire at St. John Missionary Baptist Church",
+  "summary": "A fire early Monday, Oct. 5, heavily damaged the Hanceville church. The Alabama State Fire Marshal's Office is investigating and the cause has not been released.",
+  "body": [
+   "A fire in the early morning hours of Monday, Oct. 5, badly damaged St. John Missionary Baptist Church in Hanceville. The Alabama State Fire Marshal's Office is investigating, and the cause has not been released, ABC 33/40 reported.",
+   "In a statement, the City of Hanceville offered its support to the congregation and thanked Hanceville Fire and Rescue and the departments that helped, including Garden City, Walter, Berlin, Good Hope, Johnson's Crossing and the City of Cullman. The Cullman County Sheriff's Office also responded. City officials said they would not comment on the cause while the investigation continues.",
+   "Interim pastor Wayne Wisener told ABC 33/40 that hard times can bring people closer: “Things like this sometime really pull a church together.” Please keep the congregation in your thoughts."
+  ],
+  "sources": [
+   {
+    "name": "ABC 33/40: Fire at St. John Missionary Baptist Church under investigation in Hanceville (Oct. 5, 2026)",
+    "url": "https://abc3340.com/news/local/alabama-fire-at-st-john-missionary-baptist-church-under-investigation-in-hanceville-october-2026"
+   },
+   {
+    "name": "ABC 33/40: Investigation underway into fire that heavily damaged Hanceville church (Oct. 6, 2026)",
+    "url": "https://abc3340.com/news/local/hanceville-fire"
+   }
+  ],
+  "tags": [
+   "fire",
+   "church",
+   "investigation",
+   "public safety"
+  ]
+ },
+ {
+  "id": "city-budget-fy2027",
+  "date": "2026-10-05",
+  "category": "City Hall",
+  "graphic": "💵",
+  "headline": "Hanceville budget projects $5.46 million in revenue for the new year",
+  "summary": "The city's budget for October 2026 through September 2027 projects about $5.46 million in revenue and $5.17 million in spending.",
+  "body": [
+   "The City of Hanceville's budget for October 2026 through September 2027 projects about $5.46 million in revenue and $5.17 million in spending, leaving about $289,000 in expected net income, The Cullman Tribune reported.",
+   "Sales taxes are the biggest piece, at about $2.79 million. Public Works has the largest spending plan at about $1.52 million, including $200,000 for paving. The fire department budget is about $1.14 million, and Parks and Recreation is about $989,000, with $343,100 set aside for fencing.",
+   "Community favorites are funded too: $10,000 for Kids Night Out, $8,000 for Day in the Park, $3,000 for Fish O Rama and $2,000 for the Christmas Market. Donations include $12,000 for Hanceville schools and $3,000 for the Wallace State scholarship fund."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Budget breakdown: Hanceville City Council projects $5.46M in revenue for FY 2026-27 (Oct. 5, 2026)",
+    "url": "https://www.cullmantribune.com/2026/10/05/budget-breakdown-hanceville-city-council-projects-5-46m-in-revenue-for-fy-2026-27/"
+   }
+  ],
+  "tags": [
+   "budget",
+   "finance",
+   "city"
+  ]
+ },
+ {
+  "id": "vehicle-policy-fuel-costs",
+  "date": "2026-09-29",
+  "category": "City Hall",
+  "graphic": "⛽",
+  "headline": "City looks at fuel costs and take home vehicles",
+  "summary": "Because of rising fuel prices, the council discussed no longer letting department heads and on call staff take city vehicles home.",
+  "body": [
+   "Because of rising fuel prices, the Hanceville City Council discussed no longer letting department heads and on call staff take city vehicles home, The Cullman Times reported. The council took up a formal policy at its Oct. 8 meeting."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Times: Hanceville discusses updating employee vehicle policy in response to fuel costs (Sept. 29, 2026)",
+    "url": "https://cullmantimes.com/2026/09/29/hanceville-discusses-updating-employee-vehicle-policy-in-response-to-fuel-costs/"
+   }
+  ],
+  "tags": [
+   "council",
+   "fuel",
+   "vehicle policy"
+  ]
+ },
+ {
+  "id": "aldot-grant-drainage-sidewalks",
+  "date": "2026-09-12",
+  "category": "City Hall",
+  "graphic": "🚧",
+  "headline": "ALDOT grant money goes to drainage and sidewalks",
+  "summary": "The council approved an agreement with ALDOT so about $20,000 in remaining grant funds can be used for drainage and sidewalk improvements.",
+  "body": [
+   "The council approved an agreement with ALDOT so about $20,000 in remaining grant funds can be used for drainage and sidewalk improvements, The Cullman Tribune reported. The same meeting approved a tax abatement for ZincFast and street closures for the Mud Creek festival."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Hanceville council approves funding, tax abatement and community projects (Sept. 12, 2026)",
+    "url": "https://www.cullmantribune.com/2026/09/12/hanceville-council-approves-funding-tax-abatement-and-community-projects/"
+   }
+  ],
+  "tags": [
+   "aldot",
+   "sidewalks",
+   "drainage",
+   "roads",
+   "zincfast",
+   "council"
+  ]
+ },
+ {
+  "id": "holly-market-vendors-wanted",
+  "date": "2026-08-15",
+  "category": "Announcements",
+  "graphic": "🎄",
+  "headline": "Holly Market vendors wanted",
+  "summary": "Parks and Recreation is looking for craft, gift and food vendors, plus Santa and carriage ride providers, for the December Holly Market.",
+  "body": [
+   "Hanceville Parks and Recreation is looking for craft, gift and food vendors, plus Santa and carriage ride providers, for the December Holly Market, The Cullman Tribune reported."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Hanceville Holly Market coming this December, vendors needed (Aug. 15, 2026)",
+    "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/"
+   }
+  ],
+  "tags": [
+   "holly market",
+   "vendors",
+   "parks and recreation"
+  ]
+ },
+ {
+  "id": "knapsacks-for-kids-support",
+  "date": "2026-08-15",
+  "category": "Announcements",
+  "graphic": "🎒",
+  "headline": "Knapsacks for Kids asks for support",
+  "summary": "The weekend food program packed 3,800 bags for Hanceville students last school year and now accepts Cash App donations.",
+  "body": [
+   "Hanceville Knapsacks for Kids, the weekend food program for local students, packed 3,800 bags last school year and now accepts Cash App donations, The Cullman Tribune reported."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Hanceville Knapsacks for Kids seeks support for new school year (Aug. 15, 2026)",
+    "url": "https://www.cullmantribune.com/2026/08/15/hanceville-knapsacks-for-kids-seeks-support-for-new-school-year/"
+   }
+  ],
+  "tags": [
+   "knapsacks for kids",
+   "food",
+   "schools",
+   "donations"
+  ]
+ }
 ]

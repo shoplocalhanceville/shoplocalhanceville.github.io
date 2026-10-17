@@ -1,0 +1,21 @@
+{
+ "updated": "2026-10-17T00:58:00-05:00",
+ "teams": {
+  "hanceville": {"name": "Hanceville", "mascot": "Bulldogs", "initials": "H", "colors": ["#3b1466", "#c0c4cc"], "text": "#ffffff"},
+  "hokes-bluff": {"name": "Hokes Bluff", "initials": "HB", "colors": ["#00703f", "#ffffff"], "text": "#ffffff"},
+  "oneonta": {"name": "Oneonta", "initials": "O", "colors": ["#b3001e", "#ffffff"], "text": "#ffffff"},
+  "elkmont": {"name": "Elkmont", "initials": "E", "colors": ["#b3001e", "#ffffff"], "text": "#ffffff"},
+  "wallace": {"name": "Wallace State", "mascot": "Lions", "initials": "WS", "colors": ["#0f3068", "#c94f03"], "text": "#ffffff"},
+  "lbw": {"name": "Lurleen B. Wallace", "initials": "LBW", "colors": ["#4a5160", "#d5d9e0"], "text": "#ffffff"},
+  "illinois-central": {"name": "Illinois Central", "initials": "IC", "colors": ["#4a5160", "#d5d9e0"], "text": "#ffffff"},
+  "calhoun": {"name": "Calhoun", "initials": "C", "colors": ["#4a5160", "#d5d9e0"], "text": "#ffffff"}
+ },
+ "games": [
+  {"id": "hhs-fb-2026-10-15", "school": "hanceville", "label": "Hanceville High Football", "sport": "Football", "period": "Q", "start": "2026-10-15T19:00:00-05:00", "venue": "Ray Talley Stadium, Hanceville", "home": "hanceville", "away": "hokes-bluff", "status": "Final", "score": {"home": 8, "away": 49}, "line": null, "note": "Class 3A, Region 6. Moved to Thursday for fall break.", "source": {"name": "The Cullman Times", "url": "https://cullmantimes.com/2026/10/15/prep-football-fairview-cruises-to-win-over-crossville-hanceville-falls-to-hokes-bluff/"}},
+  {"id": "hhs-fb-2026-10-23", "school": "hanceville", "label": "Hanceville High Football", "sport": "Football", "period": "Q", "start": "2026-10-23T19:00:00-05:00", "venue": "Ray Talley Stadium, Hanceville", "home": "hanceville", "away": "oneonta", "status": "Upcoming", "score": null, "line": null, "note": "Region game.", "source": {"name": "MaxPreps schedule", "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/"}},
+  {"id": "hhs-fb-2026-10-30", "school": "hanceville", "label": "Hanceville High Football", "sport": "Football", "period": "Q", "start": "2026-10-30T19:00:00-05:00", "venue": "Elkmont", "home": "elkmont", "away": "hanceville", "status": "Upcoming", "score": null, "line": null, "source": {"name": "MaxPreps schedule", "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/"}},
+  {"id": "ws-vb-2026-10-16b", "school": "wallace", "label": "Wallace State Volleyball", "sport": "Volleyball", "period": "Set", "start": "2026-10-16T18:00:00-05:00", "venue": "Tom Drake Coliseum, Wallace State", "home": "wallace", "away": "lbw", "status": "Final", "score": {"home": 3, "away": 0}, "line": {"home": [25, 25, 25], "away": [15, 16, 17]}, "note": "Wallace State Lions Invitational.", "source": {"name": "Wallace State Athletics box score", "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/boxscores/20261016_3u43.xml"}},
+  {"id": "ws-vb-2026-10-17", "school": "wallace", "label": "Wallace State Volleyball", "sport": "Volleyball", "period": "Set", "start": "2026-10-17T11:00:00-05:00", "venue": "Tom Drake Coliseum, Wallace State", "home": "wallace", "away": "illinois-central", "status": "Upcoming", "score": null, "line": null, "note": "Wallace State Lions Invitational.", "source": {"name": "Wallace State Athletics schedule", "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule"}},
+  {"id": "ws-vb-2026-10-21", "school": "wallace", "label": "Wallace State Volleyball", "sport": "Volleyball", "period": "Set", "start": "2026-10-21T17:00:00-05:00", "venue": "Tom Drake Coliseum, Wallace State", "home": "wallace", "away": "calhoun", "status": "Upcoming", "score": null, "line": null, "source": {"name": "Wallace State Athletics schedule", "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule"}}
+ ]
+}

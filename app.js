@@ -5,7 +5,7 @@ var PAGES=[
  {k:'events',f:'events.html',t:'Upcoming Events',ic:'\ud83d\udcc5',j:'events.json',g:'group',o:['Community and Fun','Sports']},
  {k:'eats',f:'eats.html',t:'Local Eats',ic:'\ud83c\udf7d\ufe0f',j:'eats.json',g:'group',o:['Hometown Favorites','New Spots','Daily Specials','More Places to Eat'],info:1},
  {k:'shops',f:'shops.html',t:'Hometown Shops',ic:'\ud83d\udecd\ufe0f',j:'shops.json',g:'group',o:['Downtown Shops','Makers','Markets'],info:1},
- {k:'news',f:'news.html',t:'Community News',ic:'\ud83d\udcf0',j:'news.json',g:'group',o:['City Council','City Budget','Roads and ALDOT','Announcements','Official City Updates'],info:1},
+ {k:'news',f:'news.html',t:'Local News',ic:'\ud83d\udcf0',j:'news.json',g:'group',o:['City Hall','Schools','Sports','Public Safety','Weather','Around the County','Announcements'],info:1},
  {k:'nonprofits',f:'nonprofits.html',t:'Nonprofits',ic:'\ud83d\udc9c',j:'nonprofits.json',g:'group',o:['Feeding Neighbors','Community Builders','Support and Safety'],info:1},
  {k:'fun',f:'fun.html',t:'A Little Fun',ic:'\ud83d\ude03',j:'fun.json',g:'group',o:['Fun Facts','Local Landmarks','Sweet Tea Jokes'],info:1},
  {k:'businesses',f:'businesses.html',t:'Business Directory',ic:'\ud83c\udfea',j:'businesses.json',g:'category',o:['Restaurants','Drinks & Coffee','Barbers & Salons','Auto Sales','Auto Repair & Mechanics','Tires','Small Engine Repair','Towing','Home Services','Health & Pharmacy','Pets & Child Care','Finance & Insurance','Shopping & Retail','Manufacturing & Industry','Lodging','Other']},
@@ -16,7 +16,7 @@ var PAGES=[
 var today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Chicago'}).format(new Date());
 var cur=document.body.getAttribute('data-page');
 var cache={};
-function get(p){if(!cache[p.k])cache[p.k]=fetch(p.j+'?v='+Math.floor(Date.now()/6e5)).then(function(r){return r.json();}).then(function(d){if(p.k==='events')d=d.filter(function(e){return (e.end||e.start)>=today;}).sort(function(a,b){return a.start<b.start?-1:a.start>b.start?1:0;});return d;});return cache[p.k];}
+function get(p){if(!cache[p.k])cache[p.k]=fetch(p.j+'?v='+Math.floor(Date.now()/6e5)).then(function(r){return r.json();}).then(function(d){if(p.k==='news')d=d.map(function(e){e.name=e.headline;e.group=e.category;e.link='story-'+e.id+'.html';e.source=(e.sources&&e.sources[0]||{}).url;var x=dd(e.date);e.date2=x.m+' '+x.d+', '+e.date.slice(0,4);return e;}).sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0;});if(p.k==='events')d=d.filter(function(e){return (e.end||e.start)>=today;}).sort(function(a,b){return a.start<b.start?-1:a.start>b.start?1:0;});return d;});return cache[p.k];}
 function slug(s){return s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/ /g,'_');}
 function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n;}
 function safe(h){return /^(https:\/\/|tel:|mailto:|sms:)/i.test(String(h||''))?h:null;}
@@ -32,16 +32,17 @@ function icsName(e){return 'ics/'+slug(e.name)+'_'+e.start+'.ics';}
 function card(e,kind){var c=el('article','card '+(kind==='events'?'ev':'dc'));c.id=slug(e.name);
  var hd=el('div','c-head');
  if(kind==='events'){var x=dd(e.start),db=el('div','datebadge');db.setAttribute('aria-hidden','true');db.appendChild(el('span','m',x.m));db.appendChild(el('span','d',String(x.d)));hd.appendChild(db);}
+ else if(kind==='news'){var ca=el('span','cat-art sm');ca.setAttribute('aria-hidden','true');ca.appendChild(el('span',null,e.graphic||'\ud83d\udcf0'));hd.appendChild(ca);}
  else if(e.logo&&/^logos\/[a-z0-9-]+\.webp$/.test(e.logo)){var im=document.createElement('img');im.className='blogo';im.src=e.logo;im.alt=e.name+' logo';im.width=56;im.height=56;im.loading='lazy';im.decoding='async';hd.appendChild(im);}
  else{var ini=el('span','ini',initials(e.name));ini.setAttribute('aria-hidden','true');hd.appendChild(ini);}
- var ht=el('div','c-title');ht.appendChild(el('h3',null,e.name));
+ var ht=el('div','c-title');if(kind==='news'&&/^story-[a-z0-9-]+\.html$/.test(e.link)){var h3=el('h3');var hl=el('a',null,e.name);hl.href=e.link;h3.appendChild(hl);ht.appendChild(h3);ht.appendChild(el('p','when','Published '+e.date2));}else ht.appendChild(el('h3',null,e.name));
  if(kind==='events'){ht.appendChild(el('p','when',fmt(e)+(e.time?' \u00b7 '+e.time:'')));}
  else if(e.type||e.service||e.level||e.category){var tp=el('p','tags');if(e.level)tp.appendChild(el('span','tag lv lv-'+e.level.toLowerCase(),e.level));var t2=e.service||e.type;if(t2)tp.appendChild(el('span','tag',t2));if(tp.childNodes.length)ht.appendChild(tp);}
  hd.appendChild(ht);c.appendChild(hd);
  if(kind==='events'){c.appendChild(el('p','meta','\ud83d\udccd '+(e.venue?e.venue+', ':'')+e.town));c.appendChild(el('p','meta','\ud83d\udc65 Hosted by '+e.host));if(e.cost)c.appendChild(el('p','meta','\ud83c\udf9f\ufe0f '+e.cost));}
- else{if(e.date)c.appendChild(el('p','when',e.date));if(e.address)c.appendChild(el('p','meta','\ud83d\udccd '+e.address));if(e.phone)c.appendChild(el('p','meta','\ud83d\udcde '+e.phone));if(e.email)c.appendChild(el('p','meta','\u2709\ufe0f '+e.email));if(e.hours)c.appendChild(el('p','meta','\ud83d\udd52 '+e.hours));}
+ else{if(e.date&&kind!=='news')c.appendChild(el('p','when',e.date));if(e.address)c.appendChild(el('p','meta','\ud83d\udccd '+e.address));if(e.phone)c.appendChild(el('p','meta','\ud83d\udcde '+e.phone));if(e.email)c.appendChild(el('p','meta','\u2709\ufe0f '+e.email));if(e.hours)c.appendChild(el('p','meta','\ud83d\udd52 '+e.hours));}
  c.appendChild(el('p','sum',e.summary));if(e.who){var w=el('p','who');w.appendChild(el('strong',null,'Who qualifies: '));w.appendChild(document.createTextNode(e.who));c.appendChild(w);}if(e.how)c.appendChild(el('p','meta','\ud83d\udc49 '+e.how));
- var a=el('div','acts');
+ var a=el('div','acts');if(kind==='news'&&/^story-[a-z0-9-]+\.html$/.test(e.link)){var rd=el('a','btn','Read the story');rd.href=e.link;rd.setAttribute('aria-label','Read the story: '+e.name);a.appendChild(rd);}
  if(e.phone)a.appendChild(btn('\ud83d\udcde Call','tel:'+e.phone.replace(/[^0-9]/g,''),'',0,'Call '+e.name));
  var pl=placeOf(e,kind);if(pl)a.appendChild(btn('\ud83e\udded Directions',mapsUrl(pl),'alt2',1,'Directions to '+(kind==='events'&&e.venue?e.venue:e.name)));
  if(kind==='events'){if(e.url)a.appendChild(btn(isFb(e.url)?'View on Facebook':'Event details',e.url,'alt3',1,(isFb(e.url)?'View on Facebook: ':'Event details: ')+e.name));var ia=el('a','btn alt3','\ud83d\udcc5 Add to calendar');ia.href=icsName(e);ia.setAttribute('download','');ia.setAttribute('aria-label','Add to calendar: '+e.name);a.appendChild(ia);}
@@ -59,7 +60,7 @@ if(nav){var GR=[['Explore',['events','eats','shops','businesses']],['Community',
  var home=el('a',null,'\ud83c\udfe0 Home');home.href='index.html';if(cur==='home')home.setAttribute('aria-current','page');nav.appendChild(home);
  GR.forEach(function(g){nav.appendChild(el('h2',null,g[0]));g[1].forEach(function(k){var p=PAGES.filter(function(x){return x.k===k;})[0];var a=el('a',null,p.ic+' '+p.t);a.href=p.f;if(p.k===cur)a.setAttribute('aria-current','page');nav.appendChild(a);});});
  if(P&&P.o){nav.appendChild(el('h2',null,'On this page'));var s=el('div','sub');P.o.forEach(function(g){var a=el('a',null,g);a.href='#'+slug(g);s.appendChild(a);});nav.appendChild(s);}
- if(cur==='home'){nav.appendChild(el('h2',null,'On this page'));var s2=el('div','sub');[['looking','I\u2019m looking for'],['help','Get help'],['upcoming','Coming up soon'],['contact','Contact us']].forEach(function(x){var a=el('a',null,x[1]);a.href='#'+x[0];s2.appendChild(a);});nav.appendChild(s2);}
+ if(cur==='home'){nav.appendChild(el('h2',null,'On this page'));var s2=el('div','sub');[['main','Today\u2019s news'],['game-center','Game Center'],['looking','I\u2019m looking for'],['help','Get help'],['upcoming','Coming up soon'],['contact','Contact us']].forEach(function(x){var a=el('a',null,x[1]);a.href='#'+x[0];s2.appendChild(a);});nav.appendChild(s2);}
  var tg=document.getElementById('tab-toggle');
  var desk=matchMedia('(min-width:1200px)');
  function isOpen(){return desk.matches?!document.body.classList.contains('tabs-off'):nav.classList.contains('open');}
@@ -90,7 +91,7 @@ function run(){var t=q.value.trim().toLowerCase();if(t.length<2){res.classList.r
  (IDX||(IDX=Promise.all(PAGES.map(function(p){return get(p).then(function(d){return d.map(function(e){return{p:p,e:e,h:[e.name,e.summary,e.type,e.service,(e.tags||[]).join(' '),e.category,e.group,e.address,e.venue,e.town,e.host,e.level,e.who].join(' ').toLowerCase()};});}).catch(function(){return[];});})).then(function(a){return [].concat.apply([],a);}))).then(function(all){
   var words=t.split(/\s+/),out=[];all.forEach(function(x){if(words.every(function(w){return x.h.indexOf(w)>=0;}))out.push(x);});
   res.replaceChildren();if(!out.length){res.appendChild(el('p',null,'No matches yet. Try another word.'));}
-  out.slice(0,30).forEach(function(x){var a=el('a');a.href=x.p.f+'#'+slug(x.e.name);a.appendChild(el('small',null,x.p.t));a.appendChild(el('div',null,x.e.name));res.appendChild(a);});
+  out.slice(0,30).forEach(function(x){var a=el('a');a.href=x.e.link||(x.p.f+'#'+slug(x.e.name));a.appendChild(el('small',null,x.p.t));a.appendChild(el('div',null,x.e.name));res.appendChild(a);});
   res.classList.add('open');});}
 // page bodies
 var box=document.getElementById('list'),st=document.getElementById('status');
@@ -128,6 +129,37 @@ var fs=document.getElementById('feat-strip');
 if(fs)get(pg('businesses')).then(function(d){var pick=d.filter(function(e){return e.website||e.facebook;});pick.sort(function(){return Math.random()-.5;});pick.slice(0,8).forEach(function(e){var c=card(e,'businesses');var lk=el('a','more','More in '+e.category+' \u2192');lk.href='businesses.html#'+slug(e.category);c.appendChild(lk);fs.appendChild(c);});});
 var ep=document.getElementById('ev-prev');
 if(ep)get(pg('events')).then(function(d){d.slice(0,3).forEach(function(e){ep.appendChild(card(e,'events'));});if(!d.length)ep.appendChild(el('p',null,'New events are on the way. Follow the Page to hear first!'));});
+// game center
+var gcBox=document.getElementById('gc'),gcUpd=document.getElementById('gc-upd'),gcLast=null,gcTimer=null;
+var TZ='America/Chicago';
+function ctTime(d,o){try{return new Intl.DateTimeFormat('en-US',Object.assign({timeZone:TZ},o)).format(d);}catch(e){return d.toString();}}
+function okColor(c){return /^#[0-9a-f]{6}$/i.test(c||'')?c:'#4a5160';}
+function teamOf(d,k){var t=(d.teams||{})[k]||{name:String(k||'TBA'),initials:'?',colors:['#4a5160','#d5d9e0']};return t;}
+function badge(t){var b=el('span','tb',String(t.initials||'?').slice(0,3));var c=t.colors||[];b.style.background=okColor(c[0]);b.style.borderBottomColor=okColor(c[1]||c[0]);b.style.color=okColor(t.text||'#ffffff');b.setAttribute('aria-hidden','true');return b;}
+function stat(g,now){var s=g.status;var st=Date.parse(g.start);if(s==='Upcoming'&&!isNaN(st)&&now>st+10*60000)return 'Game time';return s==='Live'||s==='Final'?s:'Upcoming';}
+function gameCard(d,g,now){var s=stat(g,now),A=teamOf(d,g.away),H=teamOf(d,g.home);var c=el('article','gcard gs-'+s.toLowerCase().replace(/\s+/g,''));c.setAttribute('data-status',s);
+ var top=el('div','gc-top');top.appendChild(el('span','gpill',s==='Game time'?'Game time, score coming':s));var st=new Date(g.start);
+ top.appendChild(el('span','gwhen',isNaN(st)?'':ctTime(st,{weekday:'short',month:'short',day:'numeric'})+' \u00b7 '+ctTime(st,{hour:'numeric',minute:'2-digit'})+' CT'));c.appendChild(top);
+ if(s==='Live'){var band=el('div','liveband');band.style.setProperty('--c1',okColor((H.colors||[])[0]));band.style.setProperty('--c2',okColor((A.colors||[])[0]));band.style.setProperty('--c3',okColor((H.colors||[])[1]||'#ffffff'));
+  var bt=el('p','lb-text');bt.appendChild(el('span','lb-dot','LIVE'));bt.appendChild(document.createTextNode(' '+(A.initials||'')+' '+(g.score?g.score.away:0)+'  \u00b7  '+(H.initials||'')+' '+(g.score?g.score.home:0)+(g.now?'  \u00b7  '+g.now:'')));band.appendChild(bt);c.appendChild(band);}
+ c.appendChild(el('h4','gtitle',A.name+' at '+H.name));
+ var rows=el('div','gteams');[['away',A],['home',H]].forEach(function(x){var r=el('div','gteam');r.appendChild(badge(x[1]));var nm=el('span','gname',x[1].name+(x[1].mascot?' '+x[1].mascot:''));r.appendChild(nm);r.appendChild(el('span','ghome',x[0]==='home'?'Home':'Away'));
+  var sc=g.score&&g.score[x[0]]!=null&&s!=='Upcoming'?String(g.score[x[0]]):'';var so=el('span','gscore',sc);r.appendChild(so);
+  if(s==='Final'&&g.score&&g.score[x[0]]>g.score[x[0]==='home'?'away':'home'])r.classList.add('win');rows.appendChild(r);});c.appendChild(rows);
+ if(g.line&&g.line.home&&g.line.away&&s!=='Upcoming'){var tb=el('table','gline');var cap=el('caption','sr','Score by '+(g.period==='Set'?'set':'quarter'));tb.appendChild(cap);var th=el('thead'),tr=el('tr');tr.appendChild(el('th',null,'Team'));var n=Math.max(g.line.home.length,g.line.away.length);for(var i=0;i<n;i++){var h=el('th',null,(g.period==='Set'?'S':'Q')+(i+1));h.setAttribute('scope','col');tr.appendChild(h);}var tt=el('th',null,'Total');tt.setAttribute('scope','col');tr.appendChild(tt);th.appendChild(tr);tb.appendChild(th);var tbd=el('tbody');
+  [['away',A],['home',H]].forEach(function(x){var r=el('tr'),h=el('th',null,x[1].initials);h.setAttribute('scope','row');r.appendChild(h);for(var i=0;i<n;i++)r.appendChild(el('td',null,g.line[x[0]][i]!=null?String(g.line[x[0]][i]):''));r.appendChild(el('td','tot',g.score?String(g.score[x[0]]):''));tbd.appendChild(r);});tb.appendChild(tbd);c.appendChild(tb);}
+ else if(s==='Final')c.appendChild(el('p','gnote',(g.period==='Set'?'Set':'Quarter')+' scores were not reported in our sources.'));
+ if(g.venue)c.appendChild(el('p','gmeta','\ud83d\udccd '+g.venue));if(g.note)c.appendChild(el('p','gmeta',g.note));
+ var src=safe(g.source&&g.source.url);if(src){var p=el('p','src');var a=el('a',null,'Source: '+(g.source.name||'link'));a.href=src;a.target='_blank';a.rel='noopener noreferrer';p.appendChild(a);c.appendChild(p);}
+ return c;}
+function renderGC(d){var now=Date.now();gcBox.replaceChildren();var games=(d.games||[]).slice();var schools=[];games.forEach(function(g){if(schools.indexOf(g.school)<0)schools.push(g.school);});
+ schools.forEach(function(sk){var gs=games.filter(function(g){return g.school===sk;});var live=gs.filter(function(g){return g.status==='Live';});var fin=gs.filter(function(g){return g.status==='Final';}).sort(function(a,b){return Date.parse(b.start)-Date.parse(a.start);});var up=gs.filter(function(g){return g.status!=='Final'&&g.status!=='Live'&&Date.parse(g.start)>now-3*3600000;}).sort(function(a,b){return Date.parse(a.start)-Date.parse(b.start);});
+  var pick=live.length?live.concat(fin.slice(0,0)):[];if(!live.length){if(up[0]&&Date.parse(up[0].start)<now)pick.push(up[0]);else{if(fin[0])pick.push(fin[0]);if(up[0])pick.push(up[0]);}}if(!pick.length)return;
+  var blk=el('div','gc-school');blk.appendChild(el('h3',null,gs[0].label||teamOf(d,sk).name));var gr=el('div','gc-grid');pick.forEach(function(g){var w=el('div','gc-cell');w.appendChild(el('p','gc-tag',g.status==='Final'?'Last game':g.status==='Live'?'Now playing':'Next game'));w.appendChild(gameCard(d,g,now));gr.appendChild(w);});blk.appendChild(gr);gcBox.appendChild(blk);});
+ if(!gcBox.childNodes.length)gcBox.appendChild(el('p',null,'No games on the schedule right now. Check back soon!'));
+ var u=new Date(d.updated);gcUpd.textContent='Scores last updated '+(isNaN(u)?'recently':ctTime(u,{month:'short',day:'numeric'})+', '+ctTime(u,{hour:'numeric',minute:'2-digit'})+' CT')+'. Checked '+ctTime(new Date(),{hour:'numeric',minute:'2-digit'})+' CT, and we check again every minute.';}
+function loadGC(){return fetch('scores.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){gcLast=d;renderGC(d);}).catch(function(){if(gcLast)renderGC(gcLast);gcUpd.textContent='We could not refresh scores just now, so these are the last saved scores. We will try again in a minute.';});}
+if(gcBox){loadGC();gcTimer=setInterval(function(){if(!document.hidden)loadGC();},60000);document.addEventListener('visibilitychange',function(){if(!document.hidden)loadGC();});}
 var np=document.getElementById('news-prev');
 if(np)get(pg('news')).then(function(d){d.slice(0,3).forEach(function(e){np.appendChild(card(e,'news'));});});
 })();
