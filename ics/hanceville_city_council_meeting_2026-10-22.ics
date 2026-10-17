@@ -21,8 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:hanceville_city_council_meeting-20261022@charliegamedevelop.github.io
-DTSTAMP:20261016T120000Z
+UID:hanceville_city_council_meeting-20261022@hanceville-entertainment-sho
+ pping
+DTSTAMP:20261017T120000Z
 DTSTART;TZID=America/Chicago:20261022T180000
 DTEND;TZID=America/Chicago:20261022T200000
 SUMMARY:Hanceville City Council Meeting

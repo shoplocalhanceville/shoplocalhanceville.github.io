@@ -21,9 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cullman_veterans_day_celebration-20261107@charliegamedevelop.github.i
- o
-DTSTAMP:20261016T120000Z
+UID:cullman_veterans_day_celebration-20261107@hanceville-entertainment-sh
+ opping
+DTSTAMP:20261017T120000Z
 DTSTART;TZID=America/Chicago:20261107T090000
 DTEND;TZID=America/Chicago:20261107T150000
 SUMMARY:Cullman Veterans Day Celebration

@@ -21,9 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:hanceville_bulldogs_basketball_vs_good_hope-20261203@charliegamedevel
- op.github.io
-DTSTAMP:20261016T120000Z
+UID:hanceville_bulldogs_basketball_vs_good_hope-20261203@hanceville-enter
+ tainment-shopping
+DTSTAMP:20261017T120000Z
 DTSTART;TZID=America/Chicago:20261203T194500
 DTEND;TZID=America/Chicago:20261203T214500
 SUMMARY:Hanceville Bulldogs Basketball vs. Good Hope

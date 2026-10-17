@@ -21,9 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:16th_annual_mud_creek_arts_and_crafts_festival-20261107@charliegamede
- velop.github.io
-DTSTAMP:20261016T120000Z
+UID:16th_annual_mud_creek_arts_and_crafts_festival-20261107@hanceville-en
+ tertainment-shopping
+DTSTAMP:20261017T120000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:16th Annual Mud Creek Arts and Crafts Festival

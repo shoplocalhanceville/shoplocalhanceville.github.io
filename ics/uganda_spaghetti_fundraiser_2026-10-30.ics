@@ -21,8 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:uganda_spaghetti_fundraiser-20261030@charliegamedevelop.github.io
-DTSTAMP:20261016T120000Z
+UID:uganda_spaghetti_fundraiser-20261030@hanceville-entertainment-shoppin
+ g
+DTSTAMP:20261017T120000Z
 DTSTART;TZID=America/Chicago:20261030T170000
 DTEND;TZID=America/Chicago:20261030T183000
 SUMMARY:Uganda Spaghetti Fundraiser

@@ -21,9 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:alabama_s_fall_festival_and_pumpkin_patch-20260926@charliegamedevelop
- .github.io
-DTSTAMP:20261016T120000Z
+UID:alabama_s_fall_festival_and_pumpkin_patch-20260926@hanceville-enterta
+ inment-shopping
+DTSTAMP:20261017T120000Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20261102
 SUMMARY:Alabama's Fall Festival and Pumpkin Patch

@@ -21,9 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:wallace_state_men_s_basketball_vs_snead_state-20261105@charliegamedev
- elop.github.io
-DTSTAMP:20261016T120000Z
+UID:wallace_state_men_s_basketball_vs_snead_state-20261105@hanceville-ent
+ ertainment-shopping
+DTSTAMP:20261017T120000Z
 DTSTART;TZID=America/Chicago:20261105T180000
 DTEND;TZID=America/Chicago:20261105T200000
 SUMMARY:Wallace State Men's Basketball vs. Snead State

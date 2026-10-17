@@ -21,9 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:sawdust_jukebox_live_at_goat_island_brewing-20261030@charliegamedevel
- op.github.io
-DTSTAMP:20261016T120000Z
+UID:sawdust_jukebox_live_at_goat_island_brewing-20261030@hanceville-enter
+ tainment-shopping
+DTSTAMP:20261017T120000Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Sawdust Jukebox Live at Goat Island Brewing

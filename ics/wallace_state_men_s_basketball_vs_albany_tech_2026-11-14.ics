@@ -21,9 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:wallace_state_men_s_basketball_vs_albany_tech-20261114@charliegamedev
- elop.github.io
-DTSTAMP:20261016T120000Z
+UID:wallace_state_men_s_basketball_vs_albany_tech-20261114@hanceville-ent
+ ertainment-shopping
+DTSTAMP:20261017T120000Z
 DTSTART;TZID=America/Chicago:20261114T150000
 DTEND;TZID=America/Chicago:20261114T170000
 SUMMARY:Wallace State Men's Basketball vs. Albany Tech

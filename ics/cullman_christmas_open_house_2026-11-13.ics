@@ -21,8 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cullman_christmas_open_house-20261113@charliegamedevelop.github.io
-DTSTAMP:20261016T120000Z
+UID:cullman_christmas_open_house-20261113@hanceville-entertainment-shoppi
+ ng
+DTSTAMP:20261017T120000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Cullman Christmas Open House

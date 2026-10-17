@@ -21,8 +21,8 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:storytime_paper_shapes-20261021@charliegamedevelop.github.io
-DTSTAMP:20261016T120000Z
+UID:storytime_paper_shapes-20261021@hanceville-entertainment-shopping
+DTSTAMP:20261017T120000Z
 DTSTART;TZID=America/Chicago:20261021T100000
 DTEND;TZID=America/Chicago:20261021T120000
 SUMMARY:Storytime: Paper Shapes

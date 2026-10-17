@@ -21,9 +21,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:murder_at_jubilee_manor_murder_mystery_dinner-20261025@charliegamedev
- elop.github.io
-DTSTAMP:20261016T120000Z
+UID:murder_at_jubilee_manor_murder_mystery_dinner-20261025@hanceville-ent
+ ertainment-shopping
+DTSTAMP:20261017T120000Z
 DTSTART;TZID=America/Chicago:20261025T173000
 DTEND;TZID=America/Chicago:20261025T193000
 SUMMARY:Murder at Jubilee Manor: Murder Mystery Dinner
