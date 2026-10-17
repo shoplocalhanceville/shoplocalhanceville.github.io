@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:show_and_tell_book_club_a_book_that_haunts_you-20261022@hanceville-en
+ tertainment-shopping
+DTSTAMP:20261017T120000Z
+DTSTART;TZID=America/Chicago:20261022T174500
+DTEND;TZID=America/Chicago:20261022T194500
+SUMMARY:Show and Tell Book Club: A Book That Haunts You
+LOCATION:Arboreadum Bookshop and Garden\, 104 Fourth Ave. NE\, Cullman\, 
+ AL
+DESCRIPTION:Bring the book you just can't shake\, the one that still haun
+ ts you\, and tell the group why. It's a fun\, spooky season twist on book
+  club\, and everyone is welcome. Time: 5:45 PM. https://www.cullmantribun
+ e.com/2026/10/14/arboreadum-bookshop-and-garden-hosting-audiobook-walks-t
+ his-month/
+URL:https://www.cullmantribune.com/2026/10/14/arboreadum-bookshop-and-gar
+ den-hosting-audiobook-walks-this-month/
+END:VEVENT
+END:VCALENDAR
