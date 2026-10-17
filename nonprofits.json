@@ -1,0 +1,149 @@
+[
+  {
+    "group": "Feeding Neighbors",
+    "name": "Hanceville Knapsacks for Kids",
+    "summary": "Packs weekend food bags for Hanceville students who might otherwise go hungry. Each bag costs about $12, and volunteers pack on Thursdays at the Civic Center.",
+    "tags": [
+      "food",
+      "kids",
+      "volunteer",
+      "donate",
+      "schools"
+    ],
+    "address": "P.O. Box 255, Hanceville, AL 35077",
+    "source": "https://www.cullmantribune.com/2026/08/15/hanceville-knapsacks-for-kids-seeks-support-for-new-school-year/",
+    "how": "Donate by Cash App to $knapsacks4 or by mail. Message their Facebook page to volunteer."
+  },
+  {
+    "group": "Feeding Neighbors",
+    "name": "Hanceville Hope Pantry",
+    "summary": "A food pantry run by church volunteers at the Hanceville Civic Center.",
+    "tags": [
+      "food pantry",
+      "volunteer",
+      "churches"
+    ],
+    "address": "902 Commercial St, Hanceville",
+    "source": "https://www.ngos1.com/US/Hanceville/742870758920235/Hanceville-Alabama-Hope-Pantry-Civic-Center"
+  },
+  {
+    "group": "Feeding Neighbors",
+    "name": "Lions' Kitchen at Wallace State",
+    "summary": "A free food pantry for Wallace State students. Donations can be made through the Wallace State Future Foundation.",
+    "tags": [
+      "food pantry",
+      "students",
+      "donate"
+    ],
+    "phone": "(256) 352-8462",
+    "website": "https://www.wallacestate.edu/student-resources/lionskitchen.html",
+    "source": "https://www.wallacestate.edu/student-resources/lionskitchen.html"
+  },
+  {
+    "group": "Feeding Neighbors",
+    "name": "Cullman Caring for Kids",
+    "summary": "A Cullman nonprofit food pantry that helps families in need.",
+    "tags": [
+      "food pantry",
+      "families",
+      "donate"
+    ],
+    "address": "402 Arnold St NE, Cullman",
+    "phone": "(256) 739-1111",
+    "website": "https://cullmancaringforkids.com",
+    "source": "https://cullmantimes.com/2026/01/07/local-food-pantries-resume-operation-after-holiday-break/"
+  },
+  {
+    "group": "Community Builders",
+    "name": "Hanceville Friends of the Festival",
+    "summary": "Organizes the Mud Creek Arts and Crafts Festival, with proceeds benefiting Hanceville schools and the city. Vendors and sponsors are welcome.",
+    "tags": [
+      "festival",
+      "volunteer",
+      "sponsor",
+      "schools"
+    ],
+    "website": "https://www.facebook.com/mudcreekfestival",
+    "source": "https://www.cullmantribune.com/2026/09/12/hanceville-council-approves-funding-tax-abatement-and-community-projects/"
+  },
+  {
+    "group": "Community Builders",
+    "name": "Hanceville Civitan Club",
+    "summary": "A local service club that hosts community events like pancake breakfasts.",
+    "tags": [
+      "civic club",
+      "service",
+      "pancakes",
+      "volunteer"
+    ],
+    "website": "https://www.facebook.com/events/2869260006764344/",
+    "source": "https://www.facebook.com/events/2869260006764344/"
+  },
+  {
+    "group": "Community Builders",
+    "name": "Shirley Burden Public Library",
+    "summary": "Donations to the library are tax deductible, and its used book sales help fund children's programs.",
+    "tags": [
+      "library",
+      "donate",
+      "books",
+      "kids"
+    ],
+    "address": "201 Commercial St, Hanceville",
+    "phone": "(256) 352-0685",
+    "source": "https://www.cityofhanceville.net/o/coh/page/library"
+  },
+  {
+    "group": "Community Builders",
+    "name": "Wallace State Future Foundation",
+    "summary": "Raises money for more than 150 scholarships for Wallace State students.",
+    "tags": [
+      "scholarships",
+      "donate",
+      "college"
+    ],
+    "phone": "(256) 352-7842",
+    "website": "https://wsccfuturefoundation.org/scholarships/",
+    "source": "https://wsccfuturefoundation.org/scholarships/"
+  },
+  {
+    "group": "Support and Safety",
+    "name": "The Willow Path",
+    "summary": "Offers a 24 hour crisis line and emergency shelter for people facing abuse in Cullman County.",
+    "tags": [
+      "domestic violence",
+      "shelter",
+      "crisis",
+      "donate"
+    ],
+    "phone": "(256) 734-6100",
+    "website": "https://thewillowpath.org/",
+    "source": "https://thewillowpath.org/"
+  },
+  {
+    "group": "Support and Safety",
+    "name": "Brooks' Place Child Advocacy Center",
+    "summary": "Helps children who may have been abused, and their families, through a caring and coordinated response.",
+    "tags": [
+      "children",
+      "advocacy",
+      "donate"
+    ],
+    "phone": "(256) 739-2243",
+    "website": "https://www.cullmancac.com/",
+    "source": "https://www.cullmancac.com/"
+  },
+  {
+    "group": "Support and Safety",
+    "name": "United Way of Cullman County",
+    "summary": "Runs 211, which connects people to local help, and supports partner agencies across the county.",
+    "tags": [
+      "211",
+      "help",
+      "donate",
+      "volunteer"
+    ],
+    "website": "https://www.uwaycc.org/2-1-1",
+    "source": "https://www.uwaycc.org/2-1-1"
+  }
+]
