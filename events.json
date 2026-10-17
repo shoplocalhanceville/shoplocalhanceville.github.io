@@ -223,6 +223,24 @@
   ]
  },
  {
+  "name": "Senior Day at the Cullman County Fair",
+  "start": "2026-10-21",
+  "time": "10:00 AM to 1:00 PM",
+  "venue": "Cullman County Fairgrounds, 1501 Sportsman Lake Rd NW",
+  "town": "Cullman",
+  "host": "Cullman County Commission on Aging",
+  "cost": "Free for ages 55 and older",
+  "summary": "Seniors 55 and up get free admission, free parking and a free lunch for the first 400 guests. Enjoy live entertainment in the theater and stroll through all the fair exhibits. Rides will not run during Senior Day. Questions? Call the Commission on Aging at 256-734-1241.",
+  "url": "https://www.cullmantribune.com/2026/10/16/senior-day-at-cullman-county-fair-set-for-oct-21/",
+  "tags": [
+   "fair",
+   "seniors",
+   "free",
+   "cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
   "name": "Hanceville City Council Meeting",
   "start": "2026-10-22",
   "time": "6:00 PM",
@@ -366,6 +384,24 @@
   "group": "Community and Fun"
  },
  {
+  "name": "Cullman Therapeutic Recreation Halloween Party",
+  "start": "2026-10-24",
+  "time": "5:00 PM",
+  "venue": "Palomino RV Resort at Burrow Hamilton Farm, 1315 County Road 222",
+  "town": "Cullman",
+  "host": "Cullman Therapeutic Recreation",
+  "summary": "Spooky fun for everyone! Come in costume for candy, a costume contest and hot dogs grilled by Cullman police officers. Therapeutic Recreation members get a special closed trick or treat, and the resort is fully accessible. Please RSVP by Monday, Oct. 19, using the contact in the source article.",
+  "url": "https://www.cullmantribune.com/2026/10/17/everyone-belongs-here-cullman-therapeutic-recreation-halloween-party-set-for-oct-24/",
+  "tags": [
+   "halloween",
+   "accessible",
+   "special needs",
+   "costume contest",
+   "cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
   "name": "Murder at Jubilee Manor: Murder Mystery Dinner",
   "start": "2026-10-25",
   "time": "5:30 PM",
@@ -447,6 +483,24 @@
    "trunk or treat",
    "west point",
    "family"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Sourdough Class with Anett at Mavens and Makers",
+  "start": "2026-10-29",
+  "time": "5:30 PM to 7:30 PM",
+  "venue": "Mavens and Makers, 302 Second Ave SE",
+  "town": "Cullman",
+  "host": "Mavens and Makers with Danube Delights Bakery",
+  "cost": "$100",
+  "summary": "Learn to bake crusty homemade sourdough in a two hour class made for beginners. Every baker goes home with a live starter, and light refreshments are included. Reserve a spot at mavensandmakers.setmore.com or call 256-297-1097.",
+  "url": "https://www.cullmantribune.com/2026/10/16/after-national-dessert-day-rise-to-the-occasion-with-a-sourdough-class-at-mavens-makers/",
+  "tags": [
+   "class",
+   "baking",
+   "sourdough",
+   "downtown cullman"
   ],
   "group": "Community and Fun"
  },
@@ -588,6 +642,25 @@
    "lions",
    "college"
   ]
+ },
+ {
+  "name": "Cipollari Live: A Fundraiser for the Randy Travis Foundation",
+  "start": "2026-11-07",
+  "time": "6:00 PM to 8:00 PM",
+  "venue": "Terri Pines Country Club, 700 Pine Hill Dr",
+  "town": "Cullman",
+  "host": "Cipollari",
+  "cost": "Free tickets, reserve online",
+  "summary": "Hanceville's own Cipollari, a bluegrass band of six siblings, plays a free benefit concert for the Randy Travis Foundation, which supports arts and music for kids. Grab free tickets through the link in the source article.",
+  "url": "https://www.cullmantribune.com/2026/10/16/hancevilles-cipollari-siblings-to-play-randy-travis-foundation-fundraiser-nov-7-at-terri-pines/",
+  "tags": [
+   "bluegrass",
+   "live music",
+   "fundraiser",
+   "hanceville",
+   "free"
+  ],
+  "group": "Community and Fun"
  },
  {
   "name": "Cullman Christmas Open House",
