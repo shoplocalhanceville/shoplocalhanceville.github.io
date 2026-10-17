@@ -2,6 +2,7 @@
 'use strict';
 var FB='https://www.facebook.com/ShopLocalAlabama';
 var PAGES=[
+ {k:'departments',f:'departments.html',t:'Departments & Contacts',ic:'\ud83d\udcde',j:'departments.json',g:'group',o:['City Hall Offices','Public Safety','Streets, Water and Utilities','Parks, Library and Recreation','Boards and Committees','County Office at City Hall'],info:1},
  {k:'events',f:'events.html',t:'Upcoming Events',ic:'\ud83d\udcc5',j:'events.json',g:'group',o:['Community and Fun','Sports']},
  {k:'eats',f:'eats.html',t:'Local Eats',ic:'\ud83c\udf7d\ufe0f',j:'eats.json',g:'group',o:['Hometown Favorites','New Spots','Daily Specials','More Places to Eat'],info:1},
  {k:'shops',f:'shops.html',t:'Hometown Shops',ic:'\ud83d\udecd\ufe0f',j:'shops.json',g:'group',o:['Downtown Shops','Makers','Markets'],info:1},
@@ -12,7 +13,7 @@ var PAGES=[
  {k:'council',f:'council.html',t:'City Council',ic:'\u2696\ufe0f',j:'council.json',g:'group',o:['Council Members','Meeting Schedule','Agendas and Minutes','What the Council Does','Contact City Hall'],info:1},
  {k:'city',f:'city.html',t:'City Services',ic:'\ud83d\udccb',j:'city.json',g:'group',o:['City Offices','Public Safety','Utilities and Public Works','Parks, Library and Civic Center','Boards and Committees']},
  {k:'directory',f:'directory.html',t:'Community Directory',ic:'\ud83c\udfdb\ufe0f',j:'directory.json',g:'group',o:['Schools','City Hall & Government','Public Safety','Utilities & Public Works','Community Services']},
- {k:'resources',f:'resources.html',t:'Community Resources',ic:'\ud83e\udd1d',j:'resources.json',g:'group',o:['Crisis & Emergency','Seniors & Elderly','Food & SNAP','DHR Services','Child Care','Federal Programs','Everyone','Women','Children & Families','Veterans']},
+ {k:'resources',f:'resources.html',t:'More Resources (State & Federal)',ic:'\ud83e\udd1d',j:'resources.json',g:'group',o:['Crisis & Emergency','Seniors & Elderly','Food & SNAP','DHR Services','Child Care','Federal Programs','Everyone','Women','Children & Families','Veterans']},
  {k:'wallace',f:'wallace.html',t:'Wallace State Services',ic:'\ud83c\udf93',j:'wallace.json',g:'group',o:['Getting Started','Paying for College','Help in the Classroom','Careers and Training','Health, Safety and Support','Campus Life','Community Services']}
 ];
 var today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Chicago'}).format(new Date());
@@ -31,7 +32,9 @@ function mapsUrl(a){return 'https://www.google.com/maps/dir/?api=1&destination='
 function placeOf(e,kind){if(kind==='events'){if(!e.venue)return null;var v=e.venue.replace(/\s*\(away game\)/i,'');return v.indexOf(e.town)>=0?v+', AL':v+', '+e.town+', AL';}var a=e.address;if(!a||/p\.?\s*o\.?\s*box/i.test(a)||/^\s*hanceville,?\s*al/i.test(a))return null;return a;}
 function isFb(u){return /^https:\/\/(www\.|m\.)?facebook\.com\//i.test(u||'');}
 function icsName(e){return 'ics/'+slug(e.name)+'_'+e.start+'.ics';}
-function card(e,kind){var c=el('article','card '+(kind==='events'?'ev':'dc'));c.id=slug(e.name);
+var SCH=[['wallace',/Wallace State/],['hes',/Hanceville (Elementary|Primary)/],['hhs',/Hanceville (High|Middle)|\bHHS\b|Bulldogs/],['ccs',/Cullman County (Schools|Board of Education)/]];
+function schoolOf(){for(var i=0;i<arguments.length;i++){var t=arguments[i];if(!t)continue;for(var j=0;j<SCH.length;j++)if(SCH[j][1].test(t))return SCH[j][0];}return null;}
+function card(e,kind){var sk=schoolOf(e.name,e.host);var c=el('article','card '+(kind==='events'?'ev':'dc')+(sk?' sch sch-'+sk:''));c.id=slug(e.name);
  var hd=el('div','c-head');
  if(kind==='events'){var x=dd(e.start),db=el('div','datebadge');db.setAttribute('aria-hidden','true');db.appendChild(el('span','m',x.m));db.appendChild(el('span','d',String(x.d)));hd.appendChild(db);}
  else if(kind==='news'){var ca=el('span','cat-art sm');ca.setAttribute('aria-hidden','true');ca.appendChild(el('span',null,e.graphic||'\ud83d\udcf0'));hd.appendChild(ca);}
@@ -58,11 +61,11 @@ function jump(){if(location.hash){var t=document.getElementById(decodeURICompone
 // tabs
 var P=PAGES.filter(function(p){return p.k===cur;})[0];
 var nav=document.getElementById('tabs');
-if(nav){var GR=[['Explore',['events','eats','shops','businesses']],['City Hall',['council','city','directory']],['Community',['news','nonprofits','resources']],['More',['wallace','fun']]];
+if(nav){var GR=[['City Services',['city','departments','council','directory']],['News & Events',['news','events']],['Local Businesses',['businesses','eats','shops']],['Community',['nonprofits','wallace','fun']],['More Resources',['resources']]];
  var home=el('a',null,'\ud83c\udfe0 Home');home.href='index.html';if(cur==='home')home.setAttribute('aria-current','page');nav.appendChild(home);
  GR.forEach(function(g){nav.appendChild(el('h2',null,g[0]));g[1].forEach(function(k){var p=PAGES.filter(function(x){return x.k===k;})[0];var a=el('a',null,p.ic+' '+p.t);a.href=p.f;if(p.k===cur)a.setAttribute('aria-current','page');nav.appendChild(a);});});
  if(P&&P.o){nav.appendChild(el('h2',null,'On this page'));var s=el('div','sub');P.o.forEach(function(g){var a=el('a',null,g);a.href='#'+slug(g);s.appendChild(a);});nav.appendChild(s);}
- if(cur==='home'){nav.appendChild(el('h2',null,'On this page'));var s2=el('div','sub');[['main','Today\u2019s news'],['game-center','Game Center'],['city-hall','City Hall'],['looking','I\u2019m looking for'],['help','Get help'],['upcoming','Coming up soon'],['contact','Contact us']].forEach(function(x){var a=el('a',null,x[1]);a.href='#'+x[0];s2.appendChild(a);});nav.appendChild(s2);}
+ if(cur==='home'){nav.appendChild(el('h2',null,'On this page'));var s2=el('div','sub');[['main','City services'],['city-hall','City departments'],['news','Hanceville Today'],['upcoming','Coming up soon'],['looking','Local businesses'],['game-center','Game Center'],['help','More Resources'],['contact','Contact us']].forEach(function(x){var a=el('a',null,x[1]);a.href='#'+x[0];s2.appendChild(a);});nav.appendChild(s2);}
  var tg=document.getElementById('tab-toggle');
  var desk=matchMedia('(min-width:1200px)');
  function isOpen(){return desk.matches?!document.body.classList.contains('tabs-off'):nav.classList.contains('open');}
@@ -157,7 +160,7 @@ function gameCard(d,g,now){var s=stat(g,now),A=teamOf(d,g.away),H=teamOf(d,g.hom
 function renderGC(d){var now=Date.now();gcBox.replaceChildren();var games=(d.games||[]).slice();var schools=[];games.forEach(function(g){if(schools.indexOf(g.school)<0)schools.push(g.school);});
  schools.forEach(function(sk){var gs=games.filter(function(g){return g.school===sk;});var live=gs.filter(function(g){return g.status==='Live';});var fin=gs.filter(function(g){return g.status==='Final';}).sort(function(a,b){return Date.parse(b.start)-Date.parse(a.start);});var up=gs.filter(function(g){return g.status!=='Final'&&g.status!=='Live'&&Date.parse(g.start)>now-3*3600000;}).sort(function(a,b){return Date.parse(a.start)-Date.parse(b.start);});
   var pick=live.length?live.concat(fin.slice(0,0)):[];if(!live.length){if(up[0]&&Date.parse(up[0].start)<now)pick.push(up[0]);else{if(fin[0])pick.push(fin[0]);if(up[0])pick.push(up[0]);}}if(!pick.length)return;
-  var blk=el('div','gc-school');blk.appendChild(el('h3',null,gs[0].label||teamOf(d,sk).name));var gr=el('div','gc-grid');pick.forEach(function(g){var w=el('div','gc-cell');w.appendChild(el('p','gc-tag',g.status==='Final'?'Last game':g.status==='Live'?'Now playing':'Next game'));w.appendChild(gameCard(d,g,now));gr.appendChild(w);});blk.appendChild(gr);gcBox.appendChild(blk);});
+  var gsk={hanceville:'hhs',wallace:'wallace'}[sk];var blk=el('div','gc-school'+(gsk?' sch sch-'+gsk:''));blk.appendChild(el('h3',null,gs[0].label||teamOf(d,sk).name));var gr=el('div','gc-grid');pick.forEach(function(g){var w=el('div','gc-cell');w.appendChild(el('p','gc-tag',g.status==='Final'?'Last game':g.status==='Live'?'Now playing':'Next game'));w.appendChild(gameCard(d,g,now));gr.appendChild(w);});blk.appendChild(gr);gcBox.appendChild(blk);});
  if(!gcBox.childNodes.length)gcBox.appendChild(el('p',null,'There are no games on the schedule right now. Check back soon.'));
  var u=new Date(d.updated);gcUpd.textContent='Scores last updated '+(isNaN(u)?'recently':ctTime(u,{month:'short',day:'numeric'})+', '+ctTime(u,{hour:'numeric',minute:'2-digit'})+' CT')+'. Checked '+ctTime(new Date(),{hour:'numeric',minute:'2-digit'})+' CT, and we check again every minute.';}
 function loadGC(){return fetch('scores.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){gcLast=d;renderGC(d);}).catch(function(){if(gcLast)renderGC(gcLast);gcUpd.textContent='We couldn\u2019t refresh the scores just now, so these are the last saved scores. We\u2019ll try again in a minute.';});}

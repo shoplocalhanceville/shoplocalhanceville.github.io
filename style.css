@@ -226,3 +226,71 @@ footer{background:#0b0b0f;border-top:6px solid #4c1d95}footer a{color:#d9c7ff}
 .findus{font-style:normal}
 .feature{background:#2e1065;border-color:#4c1d95}.feature h2{color:#fff}.feature .btn{background:#fff;color:#2e1065}.feature .btn:hover{background:#efe7fb}
 .info h2{margin:0 0 4px;font-size:.92rem;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);font-weight:800}
+/* v14: city first home, departments, council bios */
+.city-hero{background:var(--bg);padding:26px 0 18px}
+.city-hero h1{margin:0 0 8px;font-size:clamp(2rem,6.5vw,3rem);line-height:1.1;color:var(--p)}
+.masthead .mh{margin:0;font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.05;color:var(--p);letter-spacing:-.5px}
+.lead-story h3.ls-h{font-size:clamp(1.5rem,4.5vw,2.1rem);line-height:1.15;margin:4px 0 10px}
+.lead-story h3.ls-h a{color:var(--ink);text-decoration:none}
+.lead-story h3.ls-h a:hover{text-decoration:underline}
+.story-card h4{margin:0 0 6px;font-size:1.15rem;line-height:1.3}
+.story-card h4 a{color:var(--ink);text-decoration:none}
+.story-card h4 a:hover,.story-card h4 a:focus-visible{text-decoration:underline}
+.dep-grid{display:grid;gap:18px;grid-template-columns:1fr;margin-top:18px}
+@media(min-width:700px){.dep-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1100px){.dep-grid{grid-template-columns:repeat(3,1fr)}}
+.dep{background:var(--card);border:1px solid var(--line);border-top:5px solid var(--p2);border-radius:var(--r);padding:20px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px;scroll-margin-top:120px}
+.dep-head{display:flex;gap:14px;align-items:flex-start}
+.dep h3,.dep h2{margin:2px 0 4px;font-size:1.22rem;line-height:1.25;color:var(--p)}
+.dep-who{margin:0;display:flex;flex-direction:column}
+.dep-who b{font-size:1.05rem;color:var(--ink)}
+.dep-who span{color:var(--muted);font-weight:600}
+.dep-dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 12px;margin:0}
+.dep-dl dt{font-weight:800;color:var(--muted);font-size:.9rem;text-transform:uppercase;letter-spacing:.4px;padding-top:2px}
+.dep-dl dd{margin:0;overflow-wrap:anywhere}
+.dep-dl a,.mcontact a{color:var(--link);font-weight:700}
+.dep .sum{margin:0}
+.dep .acts{margin-top:auto}
+.dep .src{margin:0;font-size:.9rem}
+.dep .src a{color:var(--link)}
+.dep.hl,.dep:target{outline:4px solid var(--p2)}
+.member .mterm,.mayor-card .mterm{margin:6px 0 0;font-weight:700;color:var(--muted);font-size:.95rem}
+.member .mbio{margin:8px 0 0}
+.member .mcontact,.mayor-card .mcontact{margin:10px 0 0;font-size:.98rem}
+.member .acts{margin-top:12px}
+.msrc{margin-top:10px;font-size:.92rem}
+.msrc summary{cursor:pointer;font-weight:700;color:var(--link);min-height:32px;display:flex;align-items:center}
+.msrc ul{margin:6px 0 0;padding-left:20px}
+.msrc a{color:var(--link)}
+/* v14: school themes. Official colors: Wallace State (wallacestate.edu/marketing/logos.html), Hanceville schools and Cullman County Schools (their official ccboe.org sites) */
+.sch,[data-school]{--sc1:#4c1d95;--sc2:#a78bfa}
+.sch-wallace,[data-school=wallace]{--sc1:#00294D;--sc2:#F68026;--sc3:#005497}
+.sch-hhs,[data-school=hhs]{--sc1:#421554;--sc2:#CCB458;--sc3:#421554}
+.sch-hes,[data-school=hes]{--sc1:#4F2F85;--sc2:#CCB458;--sc3:#4F2F85}
+.sch-ccs,[data-school=ccs]{--sc1:#1F55A4;--sc2:#8DB5EF;--sc3:#1F55A4}
+.card.sch,[data-school] .card,[data-school] .story-card,[data-school] .lead-story{border:2px solid #000;border-top:8px solid var(--sc1)}
+html[data-theme=dark] .card.sch,html[data-theme=dark] [data-school] .card,html[data-theme=dark] [data-school] .story-card{border-top-color:var(--sc2);box-shadow:0 0 0 1px var(--sc2)}
+.card.sch .ini,[data-school] .card .ini{background:var(--sc1);color:#fff;border-bottom:4px solid var(--sc2)}
+.card.sch h3{color:var(--ink)}
+[data-school] .page-head{background:var(--sc1);color:#fff;border-top:3px solid #000;border-bottom:8px solid var(--sc2);box-shadow:inset 0 -3px 0 #000;padding:26px 0 22px}
+[data-school] .page-head h1{color:#fff;border-bottom-color:var(--sc2)}
+[data-school] .page-head p,[data-school] .page-head .story-meta{color:#fff}
+[data-school] .page-head a{color:#fff}
+[data-school] .page-head .catpill{background:#fff;color:var(--sc1)}
+[data-school] h2.group{border-bottom:4px solid var(--sc2);box-shadow:0 2px 0 #000}
+[data-school] .card .btn:not(.alt2):not(.alt3),.card.sch .btn:not(.alt2):not(.alt3){background:var(--sc1);color:#fff;border:2px solid #000}
+[data-school] .card .btn:not(.alt2):not(.alt3):hover,.card.sch .btn:not(.alt2):not(.alt3):hover{background:#000;color:#fff}
+html[data-theme=dark] [data-school] .card .btn:not(.alt2):not(.alt3),html[data-theme=dark] .card.sch .btn:not(.alt2):not(.alt3){background:var(--sc2);color:#000;border-color:#000}
+[data-school] .chip[aria-pressed=true]{background:var(--sc1);border-color:#000;color:#fff}
+html[data-theme=dark] [data-school] .chip[aria-pressed=true]{background:var(--sc2);color:#000}
+[data-school] .crumbbar{border-bottom:3px solid var(--sc2)}
+.gc-school.sch{background:#fff;color:#0b0b0f;border:3px solid #000;border-top:10px solid var(--sc1);border-radius:16px;padding:14px}
+.gc-school.sch>h3{color:var(--sc1);display:flex;align-items:center;gap:10px}
+.gc-school.sch>h3::before{content:"";width:28px;height:14px;border-radius:4px;background:linear-gradient(90deg,var(--sc1) 50%,var(--sc2) 50%);border:2px solid #000}
+.gc-school.sch .gc-tag{color:#0b0b0f}
+.gc-school.sch .gcard{border:2px solid #000}
+html[data-theme=dark] .gc-school.sch{background:#0b0b0f;color:#fff;border-color:var(--sc2)}
+html[data-theme=dark] .gc-school.sch>h3{color:#fff}
+html[data-theme=dark] .gc-school.sch .gc-tag{color:#fff}
+.sch-legend{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 0;font-weight:700}
+.sch-legend .sw{display:inline-block;width:22px;height:22px;border-radius:6px;border:2px solid #000;vertical-align:middle}
