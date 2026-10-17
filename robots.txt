@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://charliegamedevelop.github.io/hanceville-entertainment-shopping/sitemap.xml
+Sitemap: https://shoplocalhanceville.github.io/sitemap.xml
