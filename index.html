@@ -38,6 +38,8 @@ section{padding:56px 0}h2{font-size:clamp(1.6rem,5vw,2.3rem);margin:0 0 8px;colo
 .feature h2{color:var(--ink)}.steps{padding-left:1.2em}.steps li{margin:6px 0}
 footer{background:#2a0f40;color:#e9dcf7;padding:36px 0;margin-top:56px;text-align:center}footer a{color:var(--gold)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.ev{display:flex;flex-direction:column}.ev .when{font-weight:700;color:var(--p2);margin:0 0 4px}.ev .meta{font-size:.95rem;margin:2px 0}.ev .sum{margin:10px 0 14px;flex:1}.ev .btn{font-size:1rem;padding:11px 20px;align-self:flex-start}
+#ev-status{margin-top:20px}
 </style>
 </head>
 <body>
@@ -45,6 +47,7 @@ footer{background:#2a0f40;color:#e9dcf7;padding:36px 0;margin-top:56px;text-alig
 <header class="hero">
  <div class="wrap">
   <div class="brand"><svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#ffc83d"/><path d="M20 7l3.8 8 8.7 1-6.4 6 1.7 8.6L20 26.3 12.2 30.6l1.7-8.6-6.4-6 8.7-1z" fill="#4b1d6b"/></svg>Shop Local Alabama</div>
+  <nav aria-label="Main" style="margin-top:14px"><a href="#events" style="color:#ffc83d;font-weight:700">Upcoming Events</a> &nbsp;·&nbsp; <a href="#get-featured" style="color:#ffc83d;font-weight:700">Get Featured</a></nav>
   <h1>Hanceville Entertainment <span>&amp; Shopping</span></h1>
   <p class="lead">Your friendly front porch for everything happening in Hanceville. We share local events, great places to eat, hometown shops, nonprofits and city news, all in one happy feed. Think of us as the neighbor who always knows what is going on, minus the gossip.</p>
   <p class="cta"><a class="btn" href="https://www.facebook.com/ShopLocalAlabama" target="_blank" rel="noopener"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8z"/></svg>Follow on Facebook</a></p>
@@ -64,6 +67,12 @@ footer{background:#2a0f40;color:#e9dcf7;padding:36px 0;margin-top:56px;text-alig
   <div class="card"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 41S7 30 7 18a8.5 8.5 0 0117-3 8.5 8.5 0 0117 3c0 12-17 23-17 23z" fill="#6d2fa0"/><circle cx="34" cy="14" r="5" fill="#ffc83d"/></svg><h3>Nonprofits</h3><p>Fundraisers, food drives and volunteer chances from the folks who give so much to our community.</p></div>
   <div class="card"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="17" fill="#ffc83d"/><circle cx="18" cy="21" r="2.5" fill="#4b1d6b"/><circle cx="30" cy="21" r="2.5" fill="#4b1d6b"/><path d="M16 28q8 8 16 0" stroke="#4b1d6b" stroke-width="3" fill="none" stroke-linecap="round"/></svg><h3>A little fun</h3><p>Smiles, local pride and the occasional joke. Life is better with a laugh and a sweet tea.</p></div>
  </div>
+</div></section>
+<section id="events"><div class="wrap">
+ <h2>Upcoming Events in Cullman County</h2>
+ <p>Here is what is happening around Hanceville and Cullman County. Tap any event for full details on Facebook.</p>
+ <div class="grid" id="ev-list"></div>
+ <p id="ev-status" aria-live="polite">Loading events...</p>
 </div></section>
 <div class="feature" id="get-featured">
  <h2>Own a local business? Let us feature you!</h2>
@@ -86,4 +95,25 @@ footer{background:#2a0f40;color:#e9dcf7;padding:36px 0;margin-top:56px;text-alig
  <p><a href="https://www.facebook.com/ShopLocalAlabama" target="_blank" rel="noopener">Find us on Facebook</a></p>
  <p class="small">&copy; 2026 Charles Adams. Independent community page, not affiliated with the City of Hanceville.</p>
 </div></footer>
+<script>
+(function(){
+var today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Chicago'}).format(new Date());
+var M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],W=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+function d(s){var p=s.split('-').map(Number),x=new Date(Date.UTC(p[0],p[1]-1,p[2]));return {w:W[x.getUTCDay()],m:M[p[1]-1],d:p[2]};}
+function fmt(e){var a=d(e.start);if(!e.end||e.end===e.start)return a.w+', '+a.m+' '+a.d;var b=d(e.end);return a.m+' '+a.d+' to '+(a.m===b.m?'':b.m+' ')+b.d;}
+function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n;}
+var list=document.getElementById('ev-list'),st=document.getElementById('ev-status');
+fetch('events.json?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(ev){
+ ev=ev.filter(function(e){return (e.end||e.start)>=today;}).sort(function(a,b){return a.start<b.start?-1:a.start>b.start?1:0;});
+ ev.forEach(function(e){var c=el('article','card ev');c.appendChild(el('h3',null,e.name));
+  c.appendChild(el('p','when',fmt(e)+(e.time?' \u00b7 '+e.time:'')));
+  c.appendChild(el('p','meta','\ud83d\udccd '+(e.venue?e.venue+', ':'')+e.town));
+  c.appendChild(el('p','meta','Hosted by '+e.host));
+  if(e.cost)c.appendChild(el('p','meta','\ud83c\udf9f\ufe0f '+e.cost));
+  c.appendChild(el('p','sum',e.summary));
+  var a=el('a','btn','View on Facebook');a.href=e.url;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','View '+e.name+' on Facebook');c.appendChild(a);list.appendChild(c);});
+ st.textContent=ev.length?'':'No upcoming events right now. Follow the Page and we will post new ones soon!';
+}).catch(function(){st.textContent='Events could not load right now. Check our Facebook Page for the latest.';});
+})();
+</script>
 </body></html>
