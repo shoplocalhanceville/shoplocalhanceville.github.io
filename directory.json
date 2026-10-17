@@ -139,5 +139,26 @@
     "summary": "The local post office handles mail, packages and PO boxes for the 35077 ZIP code.",
     "address": "630 Main Street NE, Hanceville",
     "website": "https://tools.usps.com/locations/"
+  },
+  {
+    "group": "Public Safety",
+    "name": "Cullman County Emergency Management Agency",
+    "summary": "The EMA plans for storms and disasters and shares weather information for the county. Call for non emergency questions.",
+    "phone": "(256) 739-3537",
+    "website": "https://cullman911.org/emergency/"
+  },
+  {
+    "group": "Public Safety",
+    "name": "Secret Witness Tip Line",
+    "summary": "Report criminal activity anonymously to the Cullman County Sheriff's Office with this tip line.",
+    "phone": "(256) 734-0210",
+    "website": "https://cullmansheriff.org/contact/"
+  },
+  {
+    "group": "Utilities & Public Works",
+    "name": "Cullman County Sanitation Department",
+    "summary": "The county sanitation department handles garbage service questions for Cullman County.",
+    "phone": "(256) 287-1142",
+    "website": "https://www.co.cullman.al.us/contact.html"
   }
 ]

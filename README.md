@@ -20,3 +20,9 @@ Entries live in `businesses.json`. Fields: `category` (Restaurants & Food, Shopp
 
 ## Updating Wallace State Services and Community Resources
 `wallace.json` and `resources.json` use the same fields: `group`, `name`, `summary`, `phone` (required), plus optional `email`, `address`, `website`. Group names must match the list in the page script (Wallace: Getting Started, Paying for College, Help in the Classroom, Careers and Training, Health, Safety and Support, Campus Life. Resources: Crisis & Emergency, Everyone, Women, Men, Children & Families, Seniors, Veterans). Sources: `wallace-sources.md` and `resources-sources.md` in `/workspace/hanceville/landing/`.
+
+## v2 structure
+- `index.html` home with category cards; one page per category: `events.html`, `businesses.html`, `directory.html`, `resources.html`, `wallace.html`.
+- Shared `style.css` and `app.js`. Page lists, the site wide search bar and the quick access tab bar are all built by `app.js` from the JSON files.
+- Group names for each page are set in the `PAGES` list at the top of `app.js`. Add a new group there if you add one to a JSON file.
+- Every card gets an anchor from its name (for example `businesses.html#reyes_pizza`), and every group gets one too (for example `directory.html#public_safety`).

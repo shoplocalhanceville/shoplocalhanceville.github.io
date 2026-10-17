@@ -176,5 +176,26 @@
     "summary": "Find clubs, activities and ways to make friends on campus.",
     "phone": "(256) 352-8047",
     "website": "https://www.wallacestate.edu/student-life"
+  },
+  {
+    "group": "Community Services",
+    "name": "Dental Clinic",
+    "summary": "Wallace State runs a dental clinic on campus. Call to ask about services and appointments.",
+    "phone": "(256) 352-8300",
+    "website": "https://wallacestate.cleancatalog.net/wscc-telephone-directory"
+  },
+  {
+    "group": "Community Services",
+    "name": "Burrow Museum",
+    "summary": "The campus museum shares local history and is a fun stop for families and visitors.",
+    "phone": "(256) 352-8457",
+    "website": "https://wallacestate.cleancatalog.net/wscc-telephone-directory"
+  },
+  {
+    "group": "Community Services",
+    "name": "Burrow Center for the Fine and Performing Arts",
+    "summary": "Home to Wallace State music and performances that are often open to the community.",
+    "phone": "(256) 352-8277",
+    "website": "https://wallacestate.cleancatalog.net/wscc-telephone-directory"
   }
 ]
