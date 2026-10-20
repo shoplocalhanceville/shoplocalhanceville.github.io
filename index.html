@@ -251,6 +251,28 @@ section[id],main[id]{scroll-margin-top:86px}
 .helpchip{transition:transform .15s ease,background .15s ease}
 .btn{transition:transform .15s ease,background .15s ease,box-shadow .15s ease}
 #wxNow{background:rgba(255,255,255,.08);color:#EDE8DC;border:1px solid rgba(255,255,255,.25);min-height:24px}
+
+/* ==== FIT PASS 2026-10-20: the page must fit every screen - phone, tablet, computer.
+   Nothing may ever be wider than the device screen; the header rearranges itself
+   on small screens instead of forcing the page wide. ==== */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+html,body{overflow-x:hidden;overflow-x:clip}
+img{max-width:100%}
+.topbar{flex-wrap:wrap}
+.topbar .brand{min-width:0}
+.menuPanel{max-width:calc(100vw - 24px)}
+@media (max-width:900px){
+  .topbar .brand{font-size:17.5px}
+  .daynight{padding:0 11px}
+}
+@media (max-width:680px){
+  .topbar{gap:8px;padding:8px 10px}
+  .topbar .brand{flex:1 1 100%;font-size:17px}
+  .daynight{padding:0 12px;font-size:14.5px}
+  .stickybar{top:104px}
+  .hero{padding:20px 12px 4px}
+  main{padding:8px 10px 24px}
+}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
