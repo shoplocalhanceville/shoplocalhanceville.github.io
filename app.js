@@ -73,7 +73,7 @@ if(nav){var GR=[['City Services',['city','departments','council','directory']],[
  function setMenu(o,keep){if(desk.matches){if(keep)return;document.body.classList.toggle('tabs-off',!o);sync();return;}nav.classList.toggle('open',o);sync();if(o){var f=nav.querySelector('a,button');if(f)f.focus();}else if(!keep&&nav.contains(document.activeElement))tg.focus();}
  tg.addEventListener('click',function(e){e.preventDefault();setMenu(!isOpen());});
  var cx=el('button','tabs-close','\u2715 Close menu');cx.type='button';cx.addEventListener('click',function(){setMenu(false);});nav.insertBefore(cx,nav.firstChild);
- var ct=el('div','tabs-contact');ct.appendChild(el('h2',null,'Contact us'));var m1=el('a',null,'\u2709\ufe0f Email us');m1.href='mailto:shoplocalhanceville@gmail.com';ct.appendChild(m1);var m2=el('a',null,'\ud83d\udc4d Facebook Page');m2.href=FB;m2.target='_blank';m2.rel='noopener noreferrer';ct.appendChild(m2);nav.appendChild(ct);
+ var ct=el('div','tabs-contact');ct.appendChild(el('h2',null,'Contact us'));var m1=el('a',null,'\ud83d\udcac Message us on Facebook');m1.href='https://www.facebook.com/2333964643484816';m1.target='_blank';m1.rel='noopener noreferrer';ct.appendChild(m1);var m2=el('a',null,'\ud83d\udc4d Facebook Page');m2.href=FB;m2.target='_blank';m2.rel='noopener noreferrer';ct.appendChild(m2);nav.appendChild(ct);
  try{desk.addEventListener('change',function(){nav.classList.remove('open');sync();});}catch(e){}sync();
  function headH(){var t=document.querySelector('.site-head');return (t?t.offsetHeight:0)+12;}
  function scrollToId(id){var t=document.getElementById(id);if(!t)return false;var y=t.getBoundingClientRect().top+window.pageYOffset-headH();window.scrollTo({top:y,behavior:'smooth'});return true;}
