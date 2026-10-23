@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:the_link_of_cullman_county_annual_gala-20261105@hanceville-entertainm
+ ent-shopping
+DTSTAMP:20261023T220000Z
+DTSTART;TZID=America/Chicago:20261105T173000
+DTEND;TZID=America/Chicago:20261105T183000
+SUMMARY:The Link of Cullman County Annual Gala
+LOCATION:Cotton Creek Warehouse\, 417 3rd Ave SW\, Cullman\, AL
+DESCRIPTION:The Link's yearly fundraising gala brings a silent auction\, 
+ a plated dinner with dessert\, and thanks for the volunteers and partner
+ s who help Cullman County families. Doors open at 5:30 PM. Time: 5:30 PM
+ . https://linkingcullman.org/gala/
+URL:https://linkingcullman.org/gala/
+END:VEVENT
+END:VCALENDAR
