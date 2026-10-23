@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:festival_of_trees_at_the_cullman_wellness_and_aquatic_center-20261203
+ @hanceville-entertainment-shopping
+DTSTAMP:20261023T190000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261228
+SUMMARY:Festival of Trees at the Cullman Wellness and Aquatic Center
+LOCATION:Cullman Wellness and Aquatic Center\, 1636 Field of Miracles Dri
+ ve SW\, AL
+DESCRIPTION:Christmas trees decorated by students from local public and p
+ rivate schools and the Cullman County Public Library fill the CWAC foyer
+ . Judging is Dec. 3 at 1 p.m. with the opening ceremony at 5 p.m. Time: 
+ Opening ceremony Dec. 3 at 5:00 PM\; trees on display Dec. 4 to 27 durin
+ g regular center hours. https://cullmantimes.com/2026/10/22/cullman-tree
+ -commission-prepares-for-2026-festival-of-trees/
+URL:https://cullmantimes.com/2026/10/22/cullman-tree-commission-prepares-
+ for-2026-festival-of-trees/
+END:VEVENT
+END:VCALENDAR

@@ -1,8 +1,44 @@
 [
  {
-  "id": "country-wok-new-menu-ramen-wontons",
+  "id": "wallace-state-record-fall-enrollment-7141",
   "date": "2026-10-23",
   "top": true,
+  "category": "Schools",
+  "graphic": "🎓",
+  "headline": "Wallace State sets a new fall enrollment record with 7,141 students",
+  "summary": "Hanceville's community college topped 7,100 students for the first time in its history, its fourth straight fall increase. Spring 2027 registration is open now.",
+  "body": [
+   "More students than ever are walking the Wallace State campus this fall. The college reports 7,141 students enrolled for the Fall 2026 semester as of Wednesday, Oct. 21, the first time it has passed 7,100.",
+   "That is 155 more students than last fall, when enrollment stood at 6,986. It is also the fourth fall in a row that enrollment has gone up. Since Fall 2022, when the college counted 5,966 students, enrollment has grown by nearly 20 percent.",
+   "Wallace State President Dr. Vicki P. Karolewics tied the record to the college's recognition as an Aspen Prize finalist, saying it reflects the work done across campus to help students start early, start right, finish and succeed.",
+   "Thinking about classes? Registration for Spring 2027 is open now. Regular term and Mini Term I classes start Jan. 8, and Mini Term II starts March 8. Lion Central can help at 256.352.8236, or visit wallacestate.edu."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Times: Wallace State sets fall enrollment record, surpassing 7,100 students (Oct. 23, 2026)",
+    "url": "https://cullmantimes.com/2026/10/23/wallace-state-sets-fall-enrollment-record-surpassing-7100-students/"
+   },
+   {
+    "name": "WZDX Rocket City Now: Wallace State sets new fall enrollment record (Oct. 23, 2026)",
+    "url": "https://www.rocketcitynow.com/article/news/education/wallace-state-new-fall-enrollment-record/525-897bd8bb-bace-4f8f-a191-7ed8363056b0"
+   },
+   {
+    "name": "Wallace State Community College",
+    "url": "https://www.wallacestate.edu/"
+   }
+  ],
+  "tags": [
+   "wallace state",
+   "enrollment record",
+   "hanceville",
+   "college",
+   "spring 2027 registration",
+   "aspen prize"
+  ]
+ },
+ {
+  "id": "country-wok-new-menu-ramen-wontons",
+  "date": "2026-10-23",
   "category": "Announcements",
   "graphic": "🍜",
   "headline": "Country Wok adds ramen, Hong Kong wontons and a matcha cannoli to its downtown Hanceville menu",

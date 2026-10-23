@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T08:20:00-05:00",
+ "updated": "2026-10-23T14:20:00-05:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -87,6 +87,15 @@
   "southern-union": {
    "name": "Southern Union",
    "initials": "SU",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "accc-tbd": {
+   "name": "Opponent TBD",
+   "initials": "TBD",
    "colors": [
     "#4a5160",
     "#d5d9e0"
@@ -349,6 +358,25 @@
    "source": {
     "name": "Wallace State Athletics box score",
     "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/boxscores/20261022_vw3v.xml"
+   }
+  },
+  {
+   "id": "ws-vb-2026-10-31",
+   "school": "wallace",
+   "label": "Wallace State Volleyball",
+   "sport": "Volleyball",
+   "period": "Set",
+   "start": "2026-10-31T15:00:00-05:00",
+   "venue": "Crampton Bowl, Montgomery",
+   "home": "wallace",
+   "away": "accc-tbd",
+   "status": "Upcoming",
+   "score": null,
+   "line": null,
+   "note": "ACCC Conference Tournament, neutral site in Montgomery. The Lions enter at 30 and 5 on a 14 match win streak. Opponent set by the bracket.",
+   "source": {
+    "name": "Wallace State Athletics volleyball schedule",
+    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule"
    }
   }
  ]
