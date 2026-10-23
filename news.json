@@ -1,8 +1,47 @@
 [
  {
-  "id": "council-oct-22-agenda-holidays-tax-holiday",
+  "id": "county-commission-sirens-hazard-plan-new-members",
   "date": "2026-10-23",
   "top": true,
+  "category": "Around the County",
+  "graphic": "🏛️",
+  "headline": "County Commission pays for tornado siren repairs, adopts a five year hazard plan and thanks two departing members",
+  "summary": "At its Oct. 20 meeting the Cullman County Commission approved about $39,000 in siren repairs, a new Hazard Mitigation Plan, a lower speed limit on County Road 52 and new cabins at Stony Lonesome OHV Park.",
+  "body": [
+   "The Cullman County Commission handled a long list of business at its Tuesday, Oct. 20, meeting, and several items touch families all over the county, Hanceville included.",
+   "Storm safety led the way. Commissioners approved $39,293.11 to dB Telco for tornado siren repairs and adopted a five year Hazard Mitigation Plan for the county. A plan like this maps out the risks a county faces, such as tornadoes and flooding, and keeps the county in line for federal mitigation grants.",
+   "Drivers should note that the commission lowered the speed limit on County Road 52 to 25 mph. It also approved a paving agreement for County Road 102.",
+   "Stony Lonesome OHV Park in Bremen is getting new cabins. Adams Building Co. won the bids for accessible cabins and standard cabins, and Burks Building won the bid for metal storage buildings. The work is funded through a federal Recreational Trails Program grant. A bid for security fencing was rejected because it did not meet the bid requirements.",
+   "Other spending included a new roof for the Clarkson Covered Bridge cabin, 10 concrete pads at Smith Lake Park and payoffs on a Water Department excavator and two Road Department loaders. The commission also proclaimed October as Domestic Violence Awareness Month.",
+   "Chairman Jeff Clemons thanked Commissioners Kerry Watson of District 1 and Gary Marchman of District 2, who are leaving after 12 years each. Kenneth Walker will be sworn in for District 1 and Richard Barnett for District 2 in November.",
+   "The swearing in is set for 9 a.m. on Wednesday, Nov. 11, followed by the organizational meeting at 10. The next work session is Tuesday, Nov. 17, at 4 p.m., with the regular meeting at 6, at the Cullman County Courthouse. We added that meeting to our events page."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: County Commission recognizes outgoing Commissioners Marchman, Watson (Oct. 22, 2026)",
+    "url": "https://www.cullmantribune.com/2026/10/22/county-commission-recognizes-outgoing-commissioners-marchman-watson/"
+   },
+   {
+    "name": "The Cullman Tribune: County to consider Stony Lonesome cabin, storage building contracts (Oct. 20, 2026)",
+    "url": "https://www.cullmantribune.com/2026/10/20/county-to-consider-stony-lonesome-cabin-storage-building-contracts/"
+   },
+   {
+    "name": "Cullman County Commission: meetings",
+    "url": "https://www.co.cullman.al.us/meetings.html"
+   }
+  ],
+  "tags": [
+   "county commission",
+   "tornado sirens",
+   "hazard mitigation",
+   "county road 52",
+   "stony lonesome",
+   "cullman county"
+  ]
+ },
+ {
+  "id": "council-oct-22-agenda-holidays-tax-holiday",
+  "date": "2026-10-23",
   "category": "City Hall",
   "graphic": "🏛️",
   "headline": "Christmas plans, a storm prep tax holiday and hiring rules filled Hanceville's Oct. 22 council agenda",

@@ -731,6 +731,24 @@
     ]
   },
   {
+    "name": "Cullman County Commission Work Session and Meeting",
+    "start": "2026-11-17",
+    "time": "4:00 PM to 7:00 PM",
+    "venue": "Cullman County Courthouse, Commission Meeting Room, 500 2nd Ave SW",
+    "town": "Cullman",
+    "host": "Cullman County Commission",
+    "cost": "Free and open to the public",
+    "summary": "The work session starts at 4:00 PM and the regular commission meeting follows at 6:00 PM. It is the first regular meeting with the new District 1 and District 2 commissioners.",
+    "url": "https://www.cullmantribune.com/2026/10/22/county-commission-recognizes-outgoing-commissioners-marchman-watson/",
+    "tags": [
+      "county commission",
+      "government",
+      "meeting",
+      "public"
+    ],
+    "group": "Community and Fun"
+  },
+  {
     "name": "Cullman Veterans Hall of Fame Dinner and Ceremony",
     "start": "2026-11-17",
     "time": "5:30 PM",
@@ -766,6 +784,27 @@
     ]
   },
   {
+    "name": "Cullman Christkindlmarkt",
+    "start": "2026-11-19",
+    "end": "2026-12-23",
+    "time": "Thursday to Saturday 11:00 AM to 9:00 PM; Sunday 12:00 PM to 8:00 PM; open every day from Dec. 10",
+    "venue": "Depot Park, 107 Arnold St NW",
+    "town": "Cullman",
+    "host": "Cullman Christkindlmarkt",
+    "cost": "Free admission and parking",
+    "summary": "A German style Christmas market in downtown Cullman with more than 40 vendors, German inspired food, an ice skating rink, a Ferris wheel and snow tubing. Closed Monday through Wednesday until Dec. 10, and closed Thanksgiving Day.",
+    "url": "https://www.cullmanchristkindlmarkt.com/",
+    "tags": [
+      "christkindlmarkt",
+      "christmas",
+      "market",
+      "holiday",
+      "family",
+      "free"
+    ],
+    "group": "Community and Fun"
+  },
+  {
     "name": "Run Run Rudolph at Winter Wonderland",
     "start": "2026-11-19",
     "time": "5:00 PM to 8:00 PM",
@@ -782,6 +821,26 @@
       "family",
       "holiday"
     ]
+  },
+  {
+    "name": "Christkindlmarkt Parade and Tree Lighting",
+    "start": "2026-11-20",
+    "time": "6:30 PM to 9:00 PM",
+    "venue": "Downtown Cullman and Depot Park, 107 Arnold St NW",
+    "town": "Cullman",
+    "host": "Cullman Christkindlmarkt",
+    "cost": "Free",
+    "summary": "Floats, local bands and community groups parade through downtown at 6:30 PM, then the tree lighting at Depot Park starts at 8:00 PM with a light show, fireworks and a new Christmas drone show. Rain date is Saturday, Nov. 21.",
+    "url": "https://www.cullmanchristkindlmarkt.com/parade-tree-lighting",
+    "tags": [
+      "christmas parade",
+      "tree lighting",
+      "drone show",
+      "fireworks",
+      "christmas",
+      "free"
+    ],
+    "group": "Community and Fun"
   },
   {
     "name": "Wallace State Women's Basketball: Wallace State Classic vs. Vincennes",

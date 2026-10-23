@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:christkindlmarkt_parade_and_tree_lighting-20261120@hanceville-enterta
+ inment-shopping
+DTSTAMP:20261023T130000Z
+DTSTART;TZID=America/Chicago:20261120T183000
+DTEND;TZID=America/Chicago:20261120T210000
+SUMMARY:Christkindlmarkt Parade and Tree Lighting
+LOCATION:Downtown Cullman and Depot Park\, 107 Arnold St NW\, Cullman\, AL
+DESCRIPTION:Floats\, local bands and community groups parade through down
+ town at 6:30 PM\, then the tree lighting at Depot Park starts at 8:00 PM
+  with a light show\, fireworks and a new Christmas drone show. Rain date
+  is Saturday\, Nov. 21. Time: 6:30 PM to 9:00 PM. https://www.cullmanchr
+ istkindlmarkt.com/parade-tree-lighting
+URL:https://www.cullmanchristkindlmarkt.com/parade-tree-lighting
+END:VEVENT
+END:VCALENDAR
