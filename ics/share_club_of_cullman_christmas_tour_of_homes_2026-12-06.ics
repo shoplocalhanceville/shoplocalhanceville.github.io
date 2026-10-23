@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:share_club_of_cullman_christmas_tour_of_homes-20261206@hanceville-ent
+ ertainment-shopping
+DTSTAMP:20261023T230000Z
+DTSTART;TZID=America/Chicago:20261206T130000
+DTEND;TZID=America/Chicago:20261206T170000
+SUMMARY:Share Club of Cullman Christmas Tour of Homes
+LOCATION:Decorated homes around Cullman (addresses come with your ticket)
+ \, AL
+DESCRIPTION:Step inside some of Cullman's most beautifully decorated home
+ s during this holiday tradition that goes back to 1986. Every dollar rai
+ sed helps the Bonnie Heatherly Memorial Scholarship\, Good Samaritan Hea
+ lth Clinic\, Hospice of Cullman and Restoring Women's Outreach. Time: 1:
+ 00 PM to 5:00 PM. https://www.eventbrite.com/e/share-club-of-cullman-chr
+ istmas-tour-of-homes-2026-tickets-2002154118866
+URL:https://www.eventbrite.com/e/share-club-of-cullman-christmas-tour-of-
+ homes-2026-tickets-2002154118866
+END:VEVENT
+END:VCALENDAR

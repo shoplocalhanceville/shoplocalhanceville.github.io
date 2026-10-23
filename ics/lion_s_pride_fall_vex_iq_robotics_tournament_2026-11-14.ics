@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lion_s_pride_fall_vex_iq_robotics_tournament-20261114@hanceville-ente
+ rtainment-shopping
+DTSTAMP:20261023T230000Z
+DTSTART;TZID=America/Chicago:20261114T080000
+DTEND;TZID=America/Chicago:20261114T160000
+SUMMARY:Lion's Pride Fall VEX IQ Robotics Tournament
+LOCATION:Wallace State Community College\, 801 Main St NW\, Hanceville\, 
+ AL
+DESCRIPTION:Elementary and middle school robotics teams from across Alaba
+ ma bring their VEX IQ robots to Wallace State for a full day of qualifyi
+ ng matches\, skills runs\, finals and awards. Doors and pits open at 8:0
+ 0 AM\, matches start at 9:15 AM\, and finals begin around 3:00 PM. Time:
+  8:00 AM to 4:00 PM. https://events.vex.com/robot-competitions/vex-iq-co
+ mpetition/VE-IQ-26-65828.html
+URL:https://events.vex.com/robot-competitions/vex-iq-competition/VE-IQ-26
+ -65828.html
+END:VEVENT
+END:VCALENDAR
