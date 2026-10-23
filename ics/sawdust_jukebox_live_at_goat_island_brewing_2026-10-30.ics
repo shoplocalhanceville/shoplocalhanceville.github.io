@@ -23,14 +23,16 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:sawdust_jukebox_live_at_goat_island_brewing-20261030@hanceville-enter
  tainment-shopping
-DTSTAMP:20261017T120000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTAMP:20261023T180000Z
+DTSTART;TZID=America/Chicago:20261030T190000
+DTEND;TZID=America/Chicago:20261030T230000
 SUMMARY:Sawdust Jukebox Live at Goat Island Brewing
-LOCATION:Goat Island Brewing\, Cullman\, AL
-DESCRIPTION:Sawdust Jukebox plays a four hour Friday night set of classic
-  and 90s country. Bring your boots. Time: Evening\, see event for time. h
- ttps://www.facebook.com/events/1420279983569078/
-URL:https://www.facebook.com/events/1420279983569078/
+LOCATION:Goat Island Brewing\, The Original\, 1646 John Cooper Drive SE\,
+  Cullman\, AL
+DESCRIPTION:Sawdust Jukebox plays four hours of classic and 90s country a
+ t Goat Island's original taproom. Red Door Deli serves food from 5 to 9:
+ 30 p.m. Bring your boots. Time: 7:00 PM to 11:00 PM. https://www.goatisl
+ andbrewing.com/events
+URL:https://www.goatislandbrewing.com/events
 END:VEVENT
 END:VCALENDAR

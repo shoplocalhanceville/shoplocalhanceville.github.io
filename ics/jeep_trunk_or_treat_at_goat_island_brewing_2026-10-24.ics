@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:jeep_trunk_or_treat_at_goat_island_brewing-20261024@hanceville-entert
+ ainment-shopping
+DTSTAMP:20261023T180000Z
+DTSTART;TZID=America/Chicago:20261024T120000
+DTEND;TZID=America/Chicago:20261024T170000
+SUMMARY:Jeep Trunk or Treat at Goat Island Brewing
+LOCATION:Goat Island Brewing\, The Original\, 1646 John Cooper Drive SE\,
+  Cullman\, AL
+DESCRIPTION:The Muddy Misfits Jeep club hands out treats from decorated J
+ eeps at Goat Island's original taproom. Bring food or pet supplies to do
+ nate to local animal shelters. Time: 12:00 PM to 5:00 PM. https://www.go
+ atislandbrewing.com/events
+URL:https://www.goatislandbrewing.com/events
+END:VEVENT
+END:VCALENDAR

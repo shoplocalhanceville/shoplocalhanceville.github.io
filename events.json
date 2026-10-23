@@ -83,6 +83,23 @@
     "group": "Sports"
   },
   {
+    "name": "Tequila Falls Live at Goat Island Brewing",
+    "start": "2026-10-23",
+    "time": "7:00 PM to 11:00 PM",
+    "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
+    "town": "Cullman",
+    "host": "Goat Island Brewing",
+    "summary": "Tequila Falls plays a Friday night set at Goat Island's original taproom. Papa Sam's Hotdogs serves food from 5 to 9:15 p.m.",
+    "url": "https://www.goatislandbrewing.com/events/papa-sams-hotdogs-original-2026-10-23",
+    "tags": [
+      "live music",
+      "brewery",
+      "friday night",
+      "cullman"
+    ],
+    "group": "Community and Fun"
+  },
+  {
     "name": "Trunk or Treat with The Link and Community Partners",
     "start": "2026-10-23",
     "time": "6:00 PM to 8:00 PM",
@@ -144,6 +161,25 @@
       "accessible",
       "special needs",
       "costume contest",
+      "cullman"
+    ],
+    "group": "Community and Fun"
+  },
+  {
+    "name": "Jeep Trunk or Treat at Goat Island Brewing",
+    "start": "2026-10-24",
+    "time": "12:00 PM to 5:00 PM",
+    "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
+    "town": "Cullman",
+    "host": "Goat Island Brewing and the Muddy Misfits",
+    "summary": "The Muddy Misfits Jeep club hands out treats from decorated Jeeps at Goat Island's original taproom. Bring food or pet supplies to donate to local animal shelters.",
+    "url": "https://www.goatislandbrewing.com/events",
+    "tags": [
+      "trunk or treat",
+      "halloween",
+      "kids",
+      "jeep",
+      "animal shelter",
       "cullman"
     ],
     "group": "Community and Fun"
@@ -396,12 +432,12 @@
   {
     "name": "Sawdust Jukebox Live at Goat Island Brewing",
     "start": "2026-10-30",
-    "time": "Evening, see event for time",
-    "venue": "Goat Island Brewing",
+    "time": "7:00 PM to 11:00 PM",
+    "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
     "town": "Cullman",
     "host": "Sawdust Jukebox",
-    "summary": "Sawdust Jukebox plays a four hour Friday night set of classic and 90s country. Bring your boots.",
-    "url": "https://www.facebook.com/events/1420279983569078/",
+    "summary": "Sawdust Jukebox plays four hours of classic and 90s country at Goat Island's original taproom. Red Door Deli serves food from 5 to 9:30 p.m. Bring your boots.",
+    "url": "https://www.goatislandbrewing.com/events",
     "group": "Community and Fun"
   },
   {
@@ -479,6 +515,23 @@
       "trick or treat",
       "kids"
     ]
+  },
+  {
+    "name": "Retro Rock Revival Live at Goat Island Brewing",
+    "start": "2026-10-31",
+    "time": "7:00 PM to 11:00 PM",
+    "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
+    "town": "Cullman",
+    "host": "Goat Island Brewing",
+    "summary": "Retro Rock Revival brings a Halloween night rock show to Goat Island's original taproom. Papa Sam's Hotdogs serves food from 5 to 10:30 p.m.",
+    "url": "https://www.goatislandbrewing.com/events",
+    "tags": [
+      "live music",
+      "halloween",
+      "brewery",
+      "cullman"
+    ],
+    "group": "Community and Fun"
   },
   {
     "name": "Events and Community Development Committee Meeting",
