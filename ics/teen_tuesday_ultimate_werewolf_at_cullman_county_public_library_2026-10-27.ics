@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:teen_tuesday_ultimate_werewolf_at_cullman_county_public_library-20261
+ 027@hanceville-entertainment-shopping
+DTSTAMP:20261023T210000Z
+DTSTART;TZID=America/Chicago:20261027T153000
+DTEND;TZID=America/Chicago:20261027T163000
+SUMMARY:Teen Tuesday: Ultimate Werewolf at Cullman County Public Library
+LOCATION:Cullman County Public Library\, 200 Clark St NE\, Cullman\, AL
+DESCRIPTION:Teens ages 13 to 18 get ready for Halloween with a game of Ul
+ timate Werewolf\, splitting into werewolves and villagers to unmask the 
+ secret culprit. Time: 3:30 PM. https://www.cullmanlib.org/
+URL:https://www.cullmanlib.org/
+END:VEVENT
+END:VCALENDAR

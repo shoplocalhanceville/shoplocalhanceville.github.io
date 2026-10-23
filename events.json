@@ -302,6 +302,27 @@
   "group": "Community and Fun"
  },
  {
+  "name": "STEAM Club: Space and Ozobots at Cullman County Public Library",
+  "start": "2026-10-26",
+  "time": "3:30 PM",
+  "venue": "Cullman County Public Library, 200 Clark St NE",
+  "town": "Cullman",
+  "host": "Cullman County Public Library System",
+  "cost": "Free",
+  "summary": "Kids explore outer space and the solar system with the library's Ozobot robots. Best for ages 7 to 12, and no registration is needed.",
+  "url": "https://www.cullmanlib.org/",
+  "tags": [
+   "steam",
+   "stem",
+   "kids",
+   "library",
+   "robots",
+   "free",
+   "cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
   "name": "Halloween Storytime at Cullman County Public Library",
   "start": "2026-10-27",
   "time": "10:00 AM",
@@ -317,6 +338,26 @@
    "kids",
    "free",
    "halloween"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Teen Tuesday: Ultimate Werewolf at Cullman County Public Library",
+  "start": "2026-10-27",
+  "time": "3:30 PM",
+  "venue": "Cullman County Public Library, 200 Clark St NE",
+  "town": "Cullman",
+  "host": "Cullman County Public Library System",
+  "cost": "Free",
+  "summary": "Teens ages 13 to 18 get ready for Halloween with a game of Ultimate Werewolf, splitting into werewolves and villagers to unmask the secret culprit.",
+  "url": "https://www.cullmanlib.org/",
+  "tags": [
+   "teens",
+   "halloween",
+   "games",
+   "library",
+   "free",
+   "cullman"
   ],
   "group": "Community and Fun"
  },
