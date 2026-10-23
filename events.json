@@ -1,1153 +1,1173 @@
 [
-  {
-    "name": "Alabama's Fall Festival and Pumpkin Patch",
-    "start": "2026-09-26",
-    "end": "2026-11-01",
-    "time": "Select dates through Nov 1",
-    "venue": "4D Farm, 7066 County Road 703",
-    "town": "Cullman",
-    "host": "4D Farm",
-    "cost": "Discounted tickets at 4dfamilyfarm.com",
-    "summary": "Pumpkins, hayrides, a corn maze, rides, farm animals and food. It's a fall outing many Cullman County families look forward to.",
-    "url": "https://www.facebook.com/events/1564714608789419/",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Scarecrow Trail at Heritage Park",
-    "start": "2026-10-01",
-    "end": "2026-10-31",
-    "time": "Open daily through Oct. 31",
-    "venue": "Heritage Park, 1705 Lee Avenue SW",
-    "town": "Cullman",
-    "host": "Cullman Area Literacy Council",
-    "cost": "Free to walk the trail",
-    "summary": "Walk through creative scarecrow displays by local businesses, churches, schools and neighbors. Proceeds from exhibit registrations support the Cullman Area Literacy Council.",
-    "url": "https://www.cullmantribune.com/2026/09/01/inaugural-scarecrow-trail-coming-to-heritage-park-in-october/",
-    "tags": [
-      "scarecrow",
-      "heritage park",
-      "free",
-      "family",
-      "literacy"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Cullman County Fair",
-    "start": "2026-10-15",
-    "end": "2026-10-24",
-    "time": "Weekdays from 5:00 PM; Saturdays and Sundays from 2:00 PM; Monday Oct. 19 Kids Day from 1:00 PM",
-    "venue": "Cullman County Fairgrounds, 1501 Sportsman Lake Rd NW",
-    "town": "Cullman",
-    "host": "Cullman County Fair",
-    "cost": "Ride armbands and tickets sold on site; see cullmanfair.org",
-    "summary": "The county fair is open through Saturday, Oct. 24, with rides, exhibits, food and family fun at the fairgrounds. The midway is cashless, so bring a card.",
-    "url": "https://www.cullmanfair.org/",
-    "tags": [
-      "fair",
-      "rides",
-      "family",
-      "fall"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Beauty and the Beast JR.",
-    "start": "2026-10-22",
-    "end": "2026-10-24",
-    "time": "6:00 PM",
-    "venue": "Cullman High School Auditorium",
-    "town": "Cullman",
-    "host": "Cullman Community Theatre",
-    "cost": "Tickets online or at the door; children 3 and under free",
-    "summary": "Cullman Community Theatre presents a youth production of Disney's Beauty and the Beast JR. Come cheer on the young performers.",
-    "url": "https://www.facebook.com/events/1359240585959329/",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Hanceville Bulldogs Football vs. Oneonta",
-    "start": "2026-10-23",
-    "time": "7:00 PM",
-    "venue": "Ray Talley Stadium, Hanceville High School",
-    "town": "Hanceville",
-    "host": "Hanceville High School",
-    "summary": "A home game at Ray Talley Stadium. Come out and cheer on the Bulldogs in this region matchup.",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/",
-    "tags": [
-      "football",
-      "high school",
-      "sports",
-      "bulldogs",
-      "friday night"
-    ],
-    "group": "Sports"
-  },
-  {
-    "name": "Tequila Falls Live at Goat Island Brewing",
-    "start": "2026-10-23",
-    "time": "7:00 PM to 11:00 PM",
-    "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
-    "town": "Cullman",
-    "host": "Goat Island Brewing",
-    "summary": "Tequila Falls plays a Friday night set at Goat Island's original taproom. Papa Sam's Hotdogs serves food from 5 to 9:15 p.m.",
-    "url": "https://www.goatislandbrewing.com/events/papa-sams-hotdogs-original-2026-10-23",
-    "tags": [
-      "live music",
-      "brewery",
-      "friday night",
-      "cullman"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Trunk or Treat with The Link and Community Partners",
-    "start": "2026-10-23",
-    "time": "6:00 PM to 8:00 PM",
-    "venue": "Desperation Church Student Center, 202 Elizabeth St. NE",
-    "town": "Cullman",
-    "host": "The Link Family Resource Center",
-    "cost": "Free",
-    "summary": "Decorated trunks, candy and food trucks for the whole family. Partners include America's First Federal Credit Union, the North Alabama Agriplex, Render Aid Alabama, the Extension Office and the Cullman County Public Library. Costumes welcome.",
-    "url": "https://www.cullmantribune.com/2026/10/21/the-link-and-local-partners-hosting-trunk-or-treat-oct-23/",
-    "tags": [
-      "trunk or treat",
-      "halloween",
-      "family",
-      "free",
-      "food trucks"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Bone Yard Bash at 91 Short Track",
-    "start": "2026-10-24",
-    "time": "7:00 PM",
-    "venue": "91 Short Track",
-    "town": "Hanceville",
-    "host": "Courtney Lynn Connors and Arab Blount Cullman Yardsale",
-    "summary": "The second annual Bone Yard Bash has racing with cash payouts, free Hot Wheels races for kids, and pumpkin and costume contests.",
-    "url": "https://www.facebook.com/events/1628335238682748/",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Colony Halloween Festival",
-    "start": "2026-10-24",
-    "time": "6:30 PM",
-    "venue": "Colony educational complex, 151 Bryars Road",
-    "town": "Hanceville",
-    "host": "Colony Parks and Recreation and the Colony Volunteer Fire Department",
-    "cost": "See hosts for details",
-    "summary": "Colony Parks and Recreation and the Colony Volunteer Fire Department put on a Halloween night with a bounce house, vendors, a cake walk and more. Dress up and bring the kids.",
-    "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
-    "tags": [
-      "halloween",
-      "colony",
-      "family",
-      "vendors"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Cullman Therapeutic Recreation Halloween Party",
-    "start": "2026-10-24",
-    "time": "5:00 PM",
-    "venue": "Palomino RV Resort at Burrow Hamilton Farm, 1315 County Road 222",
-    "town": "Cullman",
-    "host": "Cullman Therapeutic Recreation",
-    "summary": "Spooky fun for everyone! Come in costume for candy, a costume contest and hot dogs grilled by Cullman police officers. Therapeutic Recreation members get a special closed trick or treat, and the resort is fully accessible. Please RSVP by Monday, Oct. 19, using the contact in the source article.",
-    "url": "https://www.cullmantribune.com/2026/10/17/everyone-belongs-here-cullman-therapeutic-recreation-halloween-party-set-for-oct-24/",
-    "tags": [
-      "halloween",
-      "accessible",
-      "special needs",
-      "costume contest",
-      "cullman"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Jeep Trunk or Treat at Goat Island Brewing",
-    "start": "2026-10-24",
-    "time": "12:00 PM to 5:00 PM",
-    "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
-    "town": "Cullman",
-    "host": "Goat Island Brewing and the Muddy Misfits",
-    "summary": "The Muddy Misfits Jeep club hands out treats from decorated Jeeps at Goat Island's original taproom. Bring food or pet supplies to donate to local animal shelters.",
-    "url": "https://www.goatislandbrewing.com/events",
-    "tags": [
-      "trunk or treat",
-      "halloween",
-      "kids",
-      "jeep",
-      "animal shelter",
-      "cullman"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Render Aid Boo Festival",
-    "start": "2026-10-24",
-    "time": "4:00 PM to 8:00 PM",
-    "venue": "Randall Shedd Community Park, 605 Wesley Ave N",
-    "town": "Fairview",
-    "host": "Render Aid Alabama",
-    "cost": "Free",
-    "summary": "A free family festival supporting domestic violence awareness, with a car show, live music, food trucks, hay rides, inflatables and a sensory safe area.",
-    "url": "https://www.cullmantribune.com/2026/10/07/render-aid-hosting-4th-annual-boo-festival-oct-24-in-fairview/",
-    "tags": [
-      "halloween",
-      "fairview",
-      "free",
-      "car show",
-      "family"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Spooktacular Storybook 5K and 1 Mile Fun Run",
-    "start": "2026-10-24",
-    "time": "8:00 AM",
-    "venue": "Cullman County Public Library, 200 Clark St NE",
-    "town": "Cullman",
-    "host": "Friends of the Public Libraries of Cullman County",
-    "summary": "Dress as your favorite book character and run or walk a new course that starts and ends at the library. There are awards for the fastest runners, age groups and best costume, and the race kicks off the library's capital campaign. Register at storybook5k.com.",
-    "url": "https://www.cullmantribune.com/2026/10/06/3rd-annual-spooktacular-storybook-5k-coming-oct-24/",
-    "group": "Sports",
-    "tags": [
-      "5k",
-      "fun run",
-      "halloween",
-      "library",
-      "costume"
-    ]
-  },
-  {
-    "name": "The Butcher's Smoke and Flames BBQ Cookoff and Festival",
-    "start": "2026-10-24",
-    "time": "10:00 AM to 6:00 PM",
-    "venue": "266 Park Drive",
-    "town": "Vinemont",
-    "host": "The Butcher Meat Co.",
-    "cost": "Free admission",
-    "summary": "A KCBS sanctioned barbecue contest in chicken and ribs, plus a People's Choice Boston butt contest, desserts, live music, a car show and local vendors.",
-    "url": "https://www.cullmantribune.com/2026/10/20/fire-up-your-appetite-the-butchers-smoke-flames-bbq-cookoff-set-for-oct-24/",
-    "tags": [
-      "bbq",
-      "barbecue",
-      "cookoff",
-      "car show",
-      "live music",
-      "food"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Trick or Treat with the Chamber",
-    "start": "2026-10-24",
-    "time": "10:00 AM to 4:00 PM",
-    "venue": "Cullman Area Chamber of Commerce, 301 Second Ave SW",
-    "town": "Cullman",
-    "host": "Cullman Area Chamber of Commerce",
-    "cost": "Free",
-    "summary": "Pick up a free trick or treat bag and a list of stops at the Chamber on Friday, Oct. 23, from 8:00 AM to 5:00 PM. On Saturday, take the kids around to the participating Cullman businesses for treats. Bags are first come, first served.",
-    "url": "https://business.cullmanchamber.org/events/details/trick-or-treat-with-the-chamber-24052",
-    "group": "Community and Fun",
-    "tags": [
-      "halloween",
-      "trick or treat",
-      "kids",
-      "free",
-      "shop local"
-    ]
-  },
-  {
-    "name": "Wallace State Preview Day",
-    "start": "2026-10-24",
-    "time": "9:00 AM to 12:00 PM",
-    "venue": "James C. Bailey Center, Wallace State",
-    "town": "Hanceville",
-    "host": "Wallace State Community College",
-    "summary": "Learn about programs and meet staff, with hayride campus tours, face painting, pumpkin painting and a bounce house. Alumni and neighbors are welcome, too.",
-    "url": "https://www.wallacestate.edu/news/2026/10/02/2026_preview_day_adv.html",
-    "tags": [
-      "wallace state",
-      "college",
-      "family",
-      "hayride",
-      "pumpkin"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Murder at Jubilee Manor: Murder Mystery Dinner",
-    "start": "2026-10-25",
-    "time": "5:30 PM",
-    "venue": "Jubilee Kitchen and Bar",
-    "town": "Cullman",
-    "host": "Jubilee Kitchen and Bar",
-    "summary": "Dinner and a mystery to solve. Ticket and menu details have not been posted yet, so check the event page for updates.",
-    "url": "https://www.facebook.com/events/2203126510618743/",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Hanceville Planning Commission Meeting",
-    "start": "2026-10-26",
-    "time": "6:00 PM",
-    "venue": "Hanceville Civic Center, 902 Commercial St",
-    "town": "Hanceville",
-    "host": "City of Hanceville",
-    "cost": "Free and open to the public",
-    "summary": "The Planning Commission meets about zoning, land subdivision and development plans in the city. Anyone may attend.",
-    "url": "https://www.cityofhanceville.net/events",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Halloween Storytime at Cullman County Public Library",
-    "start": "2026-10-27",
-    "time": "10:00 AM",
-    "venue": "Cullman County Public Library, 200 Clark St NE",
-    "town": "Cullman",
-    "host": "Cullman County Public Library System",
-    "cost": "Free",
-    "summary": "Amber Thornton reads Alice and Greta and Here a Creek, There a Shriek for a spooky free morning at the library.",
-    "url": "https://www.cullmantribune.com/2026/10/13/upcoming-storytimes-for-kids-at-hanceville-cullman-libraries/",
-    "tags": [
-      "storytime",
-      "library",
-      "kids",
-      "free",
-      "halloween"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "WildWater Trunk or Treat",
-    "start": "2026-10-27",
-    "time": "5:00 PM to 7:00 PM",
-    "venue": "WildWater, 1701 Main Ave SW",
-    "town": "Cullman",
-    "host": "WildWater",
-    "cost": "See host for details",
-    "summary": "Trunk or treat returns at WildWater with candy and music. Bring costumes and the kids for an easy Halloween stop.",
-    "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
-    "tags": [
-      "halloween",
-      "trunk or treat",
-      "family",
-      "wildwater"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Halloween Storytime and STEM Fun",
-    "start": "2026-10-28",
-    "time": "10:00 AM",
-    "venue": "Shirley Burden Public Library, 201 Commercial St",
-    "town": "Hanceville",
-    "host": "Shirley Burden Public Library",
-    "cost": "Free",
-    "summary": "Halloween stories plus a science worksheet with a spooky theme. Free for families.",
-    "url": "https://www.cullmantribune.com/2026/10/13/upcoming-storytimes-for-kids-at-hanceville-cullman-libraries/",
-    "tags": [
-      "storytime",
-      "library",
-      "kids",
-      "halloween",
-      "free"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Sourdough Class with Anett at Mavens and Makers",
-    "start": "2026-10-29",
-    "time": "5:30 PM to 7:30 PM",
-    "venue": "Mavens and Makers, 302 Second Ave SE",
-    "town": "Cullman",
-    "host": "Mavens and Makers with Danube Delights Bakery",
-    "cost": "$100",
-    "summary": "Learn to bake crusty homemade sourdough in a two hour class made for beginners. Every baker goes home with a live starter, and light refreshments are included. Reserve a spot at mavensandmakers.setmore.com or call 256-297-1097.",
-    "url": "https://www.cullmantribune.com/2026/10/16/after-national-dessert-day-rise-to-the-occasion-with-a-sourdough-class-at-mavens-makers/",
-    "tags": [
-      "class",
-      "baking",
-      "sourdough",
-      "downtown cullman"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Southern Pie Class: Sweet Pie with a Lattice Top",
-    "start": "2026-10-29",
-    "time": "6:00 PM to 8:00 PM",
-    "venue": "North Alabama Agriplex, 1714 Tally Ho St SW",
-    "town": "Cullman",
-    "host": "North Alabama Agriplex Kitchen Series",
-    "cost": "$25 per person",
-    "summary": "Learn to make a tender, flaky pie crust from scratch, fill it with a classic Southern sweet filling and weave a full lattice top. Youth ages 12 to 15 need to register with a paid adult.",
-    "url": "https://business.cullmanchamber.org/events/details/kitchen-series-southern-pie-series-sweet-24047",
-    "group": "Community and Fun",
-    "tags": [
-      "cooking class",
-      "pie",
-      "baking",
-      "agriplex"
-    ]
-  },
-  {
-    "name": "West Point Trunk or Treat",
-    "start": "2026-10-29",
-    "time": "6:00 PM",
-    "venue": "3990 County Road 1141",
-    "town": "Vinemont",
-    "host": "Town of West Point",
-    "cost": "See host for details",
-    "summary": "The Town of West Point hosts trunk or treat with candy, games, food trucks and costumes. A fun midweek Halloween stop for families.",
-    "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
-    "tags": [
-      "halloween",
-      "trunk or treat",
-      "west point",
-      "family"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Hanceville Bulldogs Football at Elkmont",
-    "start": "2026-10-30",
-    "time": "7:00 PM",
-    "venue": "Elkmont (away game)",
-    "town": "Elkmont",
-    "host": "Hanceville High School",
-    "summary": "The Bulldogs travel to Elkmont for the last game of the regular season.",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/",
-    "tags": [
-      "football",
-      "high school",
-      "sports",
-      "bulldogs",
-      "away game"
-    ],
-    "group": "Sports"
-  },
-  {
-    "name": "Sawdust Jukebox Live at Goat Island Brewing",
-    "start": "2026-10-30",
-    "time": "7:00 PM to 11:00 PM",
-    "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
-    "town": "Cullman",
-    "host": "Sawdust Jukebox",
-    "summary": "Sawdust Jukebox plays four hours of classic and 90s country at Goat Island's original taproom. Red Door Deli serves food from 5 to 9:30 p.m. Bring your boots.",
-    "url": "https://www.goatislandbrewing.com/events",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Uganda Spaghetti Fundraiser",
-    "start": "2026-10-30",
-    "time": "5:00 PM to 6:30 PM",
-    "venue": "Northside Baptist Church",
-    "town": "Cullman",
-    "host": "Northside Baptist Church",
-    "cost": "$12 per plate; buy tickets by Oct 28",
-    "summary": "Eat in or take out a spaghetti dinner. The money raised supports the church's 2027 medical mission trip to Uganda.",
-    "url": "https://www.facebook.com/events/1124811586892693/",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Berlin Trunk or Treat",
-    "start": "2026-10-31",
-    "time": "6:00 PM to 8:00 PM",
-    "venue": "Berlin Farmers Market, 50 Mt. Carmel Drive",
-    "town": "Cullman",
-    "host": "Town of Berlin",
-    "cost": "Free",
-    "summary": "Full size candy bars from the Town of Berlin and free bounce houses for the kids. Every trunk bay is now filled, many by local churches. Parking questions go to the Berlin town clerk at 256-736-3138 before the event.",
-    "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
-    "group": "Community and Fun",
-    "tags": [
-      "halloween",
-      "trunk or treat",
-      "kids",
-      "free"
-    ]
-  },
-  {
-    "name": "Camp-O-Ween at Smith Lake Park",
-    "start": "2026-10-31",
-    "time": "12:00 PM to 8:00 PM",
-    "venue": "Smith Lake Park, 403 County Road 386",
-    "town": "Cullman",
-    "host": "Cullman County Parks and Recreation",
-    "cost": "Free for the public",
-    "summary": "Food trucks, games, contests, rides, a DJ and campground trick or treating make Halloween at Smith Lake Park a full day outing.",
-    "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
-    "tags": [
-      "halloween",
-      "smith lake",
-      "family",
-      "free",
-      "park"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Drive Through Trick or Treat",
-    "start": "2026-10-31",
-    "time": "4:00 PM to 8:00 PM",
-    "venue": "Hanceville Fire Station #1, 119 Collins Street",
-    "town": "Hanceville",
-    "host": "Hanceville Fire and Rescue",
-    "summary": "For the sixth year, Hanceville firefighters and EMTs are handing out candy to kids who stay in the car. Costumes are encouraged, and seatbelts are required.",
-    "url": "https://www.facebook.com/events/1665588358521659/",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Nightmare on Woodland Street",
-    "start": "2026-10-31",
-    "time": "5:00 PM",
-    "venue": "Woodland Street NW",
-    "town": "Cullman",
-    "host": "Woodland Street NW neighbors",
-    "summary": "Families along Woodland Street NW team up every Halloween with interactive props, plenty of candy and a whole street full of spooky fun.",
-    "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
-    "group": "Community and Fun",
-    "tags": [
-      "halloween",
-      "trick or treat",
-      "kids"
-    ]
-  },
-  {
-    "name": "Retro Rock Revival Live at Goat Island Brewing",
-    "start": "2026-10-31",
-    "time": "7:00 PM to 11:00 PM",
-    "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
-    "town": "Cullman",
-    "host": "Goat Island Brewing",
-    "summary": "Retro Rock Revival brings a Halloween night rock show to Goat Island's original taproom. Papa Sam's Hotdogs serves food from 5 to 10:30 p.m.",
-    "url": "https://www.goatislandbrewing.com/events",
-    "tags": [
-      "live music",
-      "halloween",
-      "brewery",
-      "cullman"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Events and Community Development Committee Meeting",
-    "start": "2026-11-02",
-    "time": "6:00 PM",
-    "venue": "Shirley Burden Public Library, 201 Commercial St",
-    "town": "Hanceville",
-    "host": "City of Hanceville",
-    "cost": "Free and open to the public",
-    "summary": "The city's events committee plans community events and works on tourism and local partnerships. Residents with ideas are welcome to come.",
-    "url": "https://www.cityofhanceville.net/page/events-community-development-committee",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Wallace State Men's Basketball vs. Snead State",
-    "start": "2026-11-05",
-    "time": "6:00 PM",
-    "venue": "Wallace State",
-    "town": "Hanceville",
-    "host": "Wallace State Lions Athletics",
-    "summary": "The Lions play Snead State. Check the official schedule for the location and any time changes before you go.",
-    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "wallace state",
-      "lions",
-      "college"
-    ]
-  },
-  {
-    "name": "Much Ado About Nothing at Wallace State",
-    "start": "2026-11-06",
-    "end": "2026-11-08",
-    "time": "7:00 PM Nov 6 and 7; 2:00 PM Nov 8",
-    "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
-    "town": "Hanceville",
-    "host": "Wallace State Theatre",
-    "cost": "$10 donation for adults, $5 for students and children under 12",
-    "summary": "Wallace State Theatre sets Shakespeare's comedy in the World War II era, with the music and dances of the time.",
-    "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
-    "tags": [
-      "theatre",
-      "shakespeare",
-      "wallace state",
-      "play",
-      "arts"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "16th Annual Mud Creek Arts and Crafts Festival",
-    "start": "2026-11-07",
-    "time": "9:00 AM to 4:00 PM",
-    "venue": "Historic Downtown Hanceville, 110 Commercial St",
-    "town": "Hanceville",
-    "host": "Hanceville Friends of the Festival",
-    "cost": "Free to attend",
-    "summary": "Downtown turns into a big street fair with craft vendors, food, kids activities and music. Proceeds go to Hanceville schools and the city.",
-    "url": "https://alabama.travel/events/2026-mud-creek-arts-and-crafts-festival/",
-    "tags": [
-      "festival",
-      "arts and crafts",
-      "vendors",
-      "downtown",
-      "food trucks",
-      "mud creek"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Cipollari Live: A Fundraiser for the Randy Travis Foundation",
-    "start": "2026-11-07",
-    "time": "6:00 PM to 8:00 PM",
-    "venue": "Terri Pines Country Club, 700 Pine Hill Dr",
-    "town": "Cullman",
-    "host": "Cipollari",
-    "cost": "Free tickets, reserve online",
-    "summary": "Hanceville's own Cipollari, a bluegrass band of six siblings, plays a free benefit concert for the Randy Travis Foundation, which supports arts and music for kids. Grab free tickets through the link in the source article.",
-    "url": "https://www.cullmantribune.com/2026/10/16/hancevilles-cipollari-siblings-to-play-randy-travis-foundation-fundraiser-nov-7-at-terri-pines/",
-    "tags": [
-      "bluegrass",
-      "live music",
-      "fundraiser",
-      "hanceville",
-      "free"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Cullman Veterans Day Celebration",
-    "start": "2026-11-07",
-    "time": "9:00 AM to 3:00 PM",
-    "venue": "Cullman Regional Airport",
-    "town": "Vinemont",
-    "host": "Cullman County Veterans Celebration",
-    "cost": "Free admission and free parking",
-    "summary": "Warbirds, skydivers, military flyovers, living history and special guest Mike Durant, all to honor our veterans. The celebration goes on rain or shine.",
-    "url": "https://www.facebook.com/events/1630784575170975/",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Holly Pond Lions Club Pancake Breakfast",
-    "start": "2026-11-07",
-    "time": "6:00 AM to 9:00 AM",
-    "venue": "Holly Pond Lions Club Building, Lyons Park Road",
-    "town": "Holly Pond",
-    "host": "Holly Pond Lions Club",
-    "cost": "Donation",
-    "summary": "Pancakes, bacon, sausage and coffee or juice, to eat in or take out. Proceeds help the Lions Club project fund and the food pantry between Town Hall and the fire department.",
-    "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
-    "group": "Community and Fun",
-    "tags": [
-      "breakfast",
-      "fundraiser",
-      "lions club",
-      "food pantry"
-    ]
-  },
-  {
-    "name": "Wallace State Men's Basketball vs. Itawamba",
-    "start": "2026-11-07",
-    "time": "3:00 PM",
-    "venue": "Wallace State",
-    "town": "Hanceville",
-    "host": "Wallace State Lions Athletics",
-    "summary": "The Lions play Itawamba. Check the official schedule for the location and any time changes before you go.",
-    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "wallace state",
-      "lions",
-      "college"
-    ]
-  },
-  {
-    "name": "Salute to United States Veterans Concert",
-    "start": "2026-11-10",
-    "time": "7:00 PM",
-    "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
-    "town": "Hanceville",
-    "host": "Wallace State Concert Band and Jazz Band",
-    "cost": "Free",
-    "summary": "Patriotic music from the Wallace State bands, the hymns of each branch of the Armed Forces and a moment to honor veterans in the audience.",
-    "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
-    "tags": [
-      "veterans",
-      "concert",
-      "band",
-      "wallace state",
-      "free"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Veterans Day",
-    "start": "2026-11-11",
-    "time": "All day",
-    "venue": "Hanceville City Hall, 112 Main St SE",
-    "town": "Hanceville",
-    "host": "City of Hanceville",
-    "cost": "Free",
-    "summary": "Veterans Day is marked on the city calendar. If you need to visit City Hall that day, call ahead at (256) 352-9830 to check whether offices are open.",
-    "url": "https://www.cityofhanceville.net/events?id=52393701",
-    "tags": [
-      "veterans day",
-      "city calendar",
-      "holiday"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Hanceville City Council Meeting",
-    "start": "2026-11-12",
-    "time": "6:00 PM work session, regular meeting right after",
-    "venue": "Hanceville City Hall, 112 Main St SE",
-    "town": "Hanceville",
-    "host": "City of Hanceville",
-    "cost": "Free and open to the public",
-    "summary": "The City Council holds a work session at 6:00 PM, followed right away by its regular meeting. The city announced this date on its Oct. 8 agenda.",
-    "url": "https://www.cityofhanceville.net/o/coh/page/city-council",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "United Way Designer Bag Bingo",
-    "start": "2026-11-12",
-    "time": "6:00 PM to 10:00 PM",
-    "venue": "Cotton Creek, 417 Third Ave SW",
-    "town": "Cullman",
-    "host": "United Way of Cullman County",
-    "cost": "$50 per person or $500 per table",
-    "summary": "An evening of bingo with designer handbag prizes. Proceeds support local needs and programs through United Way of Cullman County.",
-    "url": "https://business.cullmanchamber.org/events/details/united-way-of-cullman-county-designer-bag-bingo-23309",
-    "group": "Community and Fun",
-    "tags": [
-      "bingo",
-      "fundraiser",
-      "united way",
-      "night out"
-    ]
-  },
-  {
-    "name": "Cullman Christmas Open House",
-    "start": "2026-11-13",
-    "end": "2026-11-15",
-    "time": "Starts 8:00 AM Nov 13",
-    "town": "Cullman",
-    "host": "Cullman Area Chamber of Commerce and Visitor Center",
-    "summary": "Holiday shopping kicks off with store specials, a cookie crawl, visits with Santa and a window display contest.",
-    "url": "https://www.facebook.com/events/1604634394706572/",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Wallace State Men's Basketball vs. Albany Tech",
-    "start": "2026-11-14",
-    "time": "3:00 PM",
-    "venue": "Wallace State",
-    "town": "Hanceville",
-    "host": "Wallace State Lions Athletics",
-    "summary": "The Lions play Albany Tech. Check the official schedule for the location and any time changes before you go.",
-    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "wallace state",
-      "lions",
-      "college"
-    ]
-  },
-  {
-    "name": "Wallace State Men's Basketball vs. East Mississippi",
-    "start": "2026-11-16",
-    "time": "6:00 PM",
-    "venue": "Wallace State",
-    "town": "Hanceville",
-    "host": "Wallace State Lions Athletics",
-    "summary": "The Lions play East Mississippi. Check the official schedule for the location and any time changes before you go.",
-    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "wallace state",
-      "lions",
-      "college"
-    ]
-  },
-  {
-    "name": "Cullman County Commission Work Session and Meeting",
-    "start": "2026-11-17",
-    "time": "4:00 PM to 7:00 PM",
-    "venue": "Cullman County Courthouse, Commission Meeting Room, 500 2nd Ave SW",
-    "town": "Cullman",
-    "host": "Cullman County Commission",
-    "cost": "Free and open to the public",
-    "summary": "The work session starts at 4:00 PM and the regular commission meeting follows at 6:00 PM. It is the first regular meeting with the new District 1 and District 2 commissioners.",
-    "url": "https://www.cullmantribune.com/2026/10/22/county-commission-recognizes-outgoing-commissioners-marchman-watson/",
-    "tags": [
-      "county commission",
-      "government",
-      "meeting",
-      "public"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Cullman Veterans Hall of Fame Dinner and Ceremony",
-    "start": "2026-11-17",
-    "time": "5:30 PM",
-    "venue": "Loft 212, 212 Fourth St SW",
-    "town": "Cullman",
-    "host": "Cullman Veterans Hall of Fame",
-    "summary": "This year's class of inductees will be honored at a dinner and ceremony. The event was moved to this new date, and ticket details are coming soon.",
-    "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
-    "group": "Community and Fun",
-    "tags": [
-      "veterans",
-      "hall of fame",
-      "dinner",
-      "military"
-    ]
-  },
-  {
-    "name": "Hanceville Bulldogs Basketball vs. Ardmore",
-    "start": "2026-11-17",
-    "time": "7:45 PM (varsity boys tip off)",
-    "venue": "Hanceville High School",
-    "town": "Hanceville",
-    "host": "Hanceville High School Bulldogs",
-    "summary": "The Bulldogs host Ardmore in the Hanceville High gym. Bring the family and wear your purple.",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "high school",
-      "bulldogs",
-      "home game"
-    ]
-  },
-  {
-    "name": "Cullman Christkindlmarkt",
-    "start": "2026-11-19",
-    "end": "2026-12-23",
-    "time": "Thursday to Saturday 11:00 AM to 9:00 PM; Sunday 12:00 PM to 8:00 PM; open every day from Dec. 10",
-    "venue": "Depot Park, 107 Arnold St NW",
-    "town": "Cullman",
-    "host": "Cullman Christkindlmarkt",
-    "cost": "Free admission and parking",
-    "summary": "A German style Christmas market in downtown Cullman with more than 40 vendors, German inspired food, an ice skating rink, a Ferris wheel and snow tubing. Closed Monday through Wednesday until Dec. 10, and closed Thanksgiving Day.",
-    "url": "https://www.cullmanchristkindlmarkt.com/",
-    "tags": [
-      "christkindlmarkt",
-      "christmas",
-      "market",
-      "holiday",
-      "family",
-      "free"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Run Run Rudolph at Winter Wonderland",
-    "start": "2026-11-19",
-    "time": "5:00 PM to 8:00 PM",
-    "venue": "Sportsman Lake Park, 1544 Sportsman Lake Rd NW",
-    "town": "Cullman",
-    "host": "Cullman County Parks and Recreation",
-    "summary": "Run or stroll through the Winter Wonderland Christmas lights on foot, one night only. Registration opens at 4:00 PM, runners start at 5:00 PM and walkers follow. There's an ugly sweater and Christmas costume contest, dogs and strollers are welcome, and kids 6 and under are free. Park at the fairgrounds.",
-    "url": "https://www.eventbrite.com/e/run-run-rudolph-tickets-2002938862054",
-    "group": "Sports",
-    "tags": [
-      "fun run",
-      "christmas lights",
-      "winter wonderland",
-      "family",
-      "holiday"
-    ]
-  },
-  {
-    "name": "Christkindlmarkt Parade and Tree Lighting",
-    "start": "2026-11-20",
-    "time": "6:30 PM to 9:00 PM",
-    "venue": "Downtown Cullman and Depot Park, 107 Arnold St NW",
-    "town": "Cullman",
-    "host": "Cullman Christkindlmarkt",
-    "cost": "Free",
-    "summary": "Floats, local bands and community groups parade through downtown at 6:30 PM, then the tree lighting at Depot Park starts at 8:00 PM with a light show, fireworks and a new Christmas drone show. Rain date is Saturday, Nov. 21.",
-    "url": "https://www.cullmanchristkindlmarkt.com/parade-tree-lighting",
-    "tags": [
-      "christmas parade",
-      "tree lighting",
-      "drone show",
-      "fireworks",
-      "christmas",
-      "free"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Wallace State Women's Basketball: Wallace State Classic vs. Vincennes",
-    "start": "2026-11-20",
-    "time": "2:00 PM",
-    "venue": "Wallace State",
-    "town": "Hanceville",
-    "host": "Wallace State Lions Athletics",
-    "summary": "The Wallace State Lions women's basketball team hosts Vincennes in the Wallace State Classic.",
-    "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "wallace state",
-      "lions",
-      "college"
-    ]
-  },
-  {
-    "name": "The Nutcracker with Ballet South",
-    "start": "2026-11-21",
-    "end": "2026-11-22",
-    "time": "2:00 PM and 7:00 PM Nov 21; 2:00 PM Nov 22",
-    "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
-    "town": "Hanceville",
-    "host": "Ballet South at Wallace State",
-    "cost": "$15 adults, $10 children",
-    "summary": "Ballet South brings its yearly Nutcracker to Wallace State, following Clara's dream through the Land of Sweets.",
-    "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
-    "tags": [
-      "nutcracker",
-      "ballet",
-      "christmas",
-      "wallace state",
-      "family"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Wallace State Women's Basketball: Wallace State Classic vs. Chipola",
-    "start": "2026-11-21",
-    "time": "2:00 PM",
-    "venue": "Wallace State",
-    "town": "Hanceville",
-    "host": "Wallace State Lions Athletics",
-    "summary": "The Lions women's basketball team wraps up the Wallace State Classic at home against Chipola.",
-    "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "wallace state",
-      "lions",
-      "college"
-    ]
-  },
-  {
-    "name": "Festival of Trees at the Cullman Wellness and Aquatic Center",
-    "start": "2026-12-03",
-    "end": "2026-12-27",
-    "time": "Opening ceremony Dec. 3 at 5:00 PM; trees on display Dec. 4 to 27 during regular center hours",
-    "venue": "Cullman Wellness and Aquatic Center, 1636 Field of Miracles Drive SW",
-    "town": "Cullman",
-    "host": "City of Cullman Tree Commission",
-    "cost": "Free",
-    "summary": "Christmas trees decorated by students from local public and private schools and the Cullman County Public Library fill the CWAC foyer. Judging is Dec. 3 at 1 p.m. with the opening ceremony at 5 p.m.",
-    "url": "https://cullmantimes.com/2026/10/22/cullman-tree-commission-prepares-for-2026-festival-of-trees/",
-    "tags": [
-      "festival of trees",
-      "christmas",
-      "holiday",
-      "schools",
-      "free",
-      "cullman"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Hanceville Bulldogs Basketball vs. Good Hope",
-    "start": "2026-12-03",
-    "time": "7:45 PM (varsity boys tip off)",
-    "venue": "Hanceville High School",
-    "town": "Hanceville",
-    "host": "Hanceville High School Bulldogs",
-    "summary": "The Bulldogs host Good Hope in the Hanceville High gym. Bring the family and wear your purple.",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "high school",
-      "bulldogs",
-      "home game"
-    ]
-  },
-  {
-    "name": "Hanceville Holly Market",
-    "start": "2026-12-05",
-    "venue": "Hanceville Civic Center, 902 Commercial St",
-    "town": "Hanceville",
-    "host": "Hanceville Parks and Recreation",
-    "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
-    "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
-    "tags": [
-      "holiday market",
-      "christmas",
-      "shopping",
-      "vendors",
-      "gifts"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Hanceville Bulldogs Basketball vs. Corner",
-    "start": "2026-12-07",
-    "time": "7:00 PM (varsity boys tip off)",
-    "venue": "Hanceville High School",
-    "town": "Hanceville",
-    "host": "Hanceville High School Bulldogs",
-    "summary": "The Bulldogs host Corner in the Hanceville High gym. Bring the family and wear your purple.",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "high school",
-      "bulldogs",
-      "home game"
-    ]
-  },
-  {
-    "name": "Christmas Spectacular at Wallace State",
-    "start": "2026-12-10",
-    "time": "7:00 PM",
-    "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
-    "town": "Hanceville",
-    "host": "Wallace State Fine and Performing Arts",
-    "cost": "Free",
-    "summary": "Every Wallace State performing arts group shares the stage for a holiday concert.",
-    "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
-    "tags": [
-      "christmas",
-      "concert",
-      "wallace state",
-      "free",
-      "holiday"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Hanceville Holly Market",
-    "start": "2026-12-12",
-    "venue": "Hanceville Civic Center, 902 Commercial St",
-    "town": "Hanceville",
-    "host": "Hanceville Parks and Recreation",
-    "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
-    "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
-    "tags": [
-      "holiday market",
-      "christmas",
-      "shopping",
-      "vendors",
-      "gifts"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Hanceville Holly Market",
-    "start": "2026-12-19",
-    "venue": "Hanceville Civic Center, 902 Commercial St",
-    "town": "Hanceville",
-    "host": "Hanceville Parks and Recreation",
-    "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
-    "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
-    "tags": [
-      "holiday market",
-      "christmas",
-      "shopping",
-      "vendors",
-      "gifts"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Hanceville Bulldogs Basketball vs. Cleveland",
-    "start": "2027-01-04",
-    "time": "7:45 PM (varsity boys tip off)",
-    "venue": "Hanceville High School",
-    "town": "Hanceville",
-    "host": "Hanceville High School Bulldogs",
-    "summary": "The Bulldogs host Cleveland in the Hanceville High gym. Bring the family and wear your purple.",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "high school",
-      "bulldogs",
-      "home game"
-    ]
-  },
-  {
-    "name": "Hanceville Bulldogs Basketball vs. Holly Pond",
-    "start": "2027-01-15",
-    "time": "7:45 PM (varsity boys tip off)",
-    "venue": "Hanceville High School",
-    "town": "Hanceville",
-    "host": "Hanceville High School Bulldogs",
-    "summary": "The Bulldogs host Holly Pond in the Hanceville High gym. Bring the family and wear your purple.",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "high school",
-      "bulldogs",
-      "home game"
-    ]
-  },
-  {
-    "name": "Hanceville Bulldogs Basketball vs. Sumiton Christian",
-    "start": "2027-01-29",
-    "time": "7:00 PM (varsity boys tip off)",
-    "venue": "Hanceville High School",
-    "town": "Hanceville",
-    "host": "Hanceville High School Bulldogs",
-    "summary": "The Bulldogs host Sumiton Christian in the Hanceville High gym. Bring the family and wear your purple.",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "high school",
-      "bulldogs",
-      "home game"
-    ]
-  },
-  {
-    "name": "Hanceville Bulldogs Basketball vs. Danville",
-    "start": "2027-02-02",
-    "time": "6:45 PM (varsity boys tip off)",
-    "venue": "Hanceville High School",
-    "town": "Hanceville",
-    "host": "Hanceville High School Bulldogs",
-    "summary": "The Bulldogs host Danville in the Hanceville High gym. Bring the family and wear your purple.",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "high school",
-      "bulldogs",
-      "home game"
-    ]
-  }
+ {
+  "name": "Alabama's Fall Festival and Pumpkin Patch",
+  "start": "2026-09-26",
+  "end": "2026-11-01",
+  "time": "Select dates through Nov 1",
+  "venue": "4D Farm, 7066 County Road 703",
+  "town": "Cullman",
+  "host": "4D Farm",
+  "cost": "Discounted tickets at 4dfamilyfarm.com",
+  "summary": "Pumpkins, hayrides, a corn maze, rides, farm animals and food. It's a fall outing many Cullman County families look forward to.",
+  "url": "https://www.facebook.com/events/1564714608789419/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Scarecrow Trail at Heritage Park",
+  "start": "2026-10-01",
+  "end": "2026-10-31",
+  "time": "Open daily through Oct. 31",
+  "venue": "Heritage Park, 1705 Lee Avenue SW",
+  "town": "Cullman",
+  "host": "Cullman Area Literacy Council",
+  "cost": "Free to walk the trail",
+  "summary": "Walk through creative scarecrow displays by local businesses, churches, schools and neighbors. Proceeds from exhibit registrations support the Cullman Area Literacy Council.",
+  "url": "https://www.cullmantribune.com/2026/09/01/inaugural-scarecrow-trail-coming-to-heritage-park-in-october/",
+  "tags": [
+   "scarecrow",
+   "heritage park",
+   "free",
+   "family",
+   "literacy"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Cullman County Fair",
+  "start": "2026-10-15",
+  "end": "2026-10-24",
+  "time": "Weekdays from 5:00 PM; Saturdays and Sundays from 2:00 PM; Monday Oct. 19 Kids Day from 1:00 PM",
+  "venue": "Cullman County Fairgrounds, 1501 Sportsman Lake Rd NW",
+  "town": "Cullman",
+  "host": "Cullman County Fair",
+  "cost": "Ride armbands and tickets sold on site; see cullmanfair.org",
+  "summary": "The county fair is open through Saturday, Oct. 24, with rides, exhibits, food and family fun at the fairgrounds. The midway is cashless, so bring a card.",
+  "url": "https://www.cullmanfair.org/",
+  "tags": [
+   "fair",
+   "rides",
+   "family",
+   "fall"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Beauty and the Beast JR.",
+  "start": "2026-10-22",
+  "end": "2026-10-24",
+  "time": "6:00 PM",
+  "venue": "Cullman High School Auditorium",
+  "town": "Cullman",
+  "host": "Cullman Community Theatre",
+  "cost": "Tickets online or at the door; children 3 and under free",
+  "summary": "Cullman Community Theatre presents a youth production of Disney's Beauty and the Beast JR. Come cheer on the young performers.",
+  "url": "https://www.facebook.com/events/1359240585959329/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Bulldogs Football vs. Oneonta",
+  "start": "2026-10-23",
+  "time": "7:00 PM",
+  "venue": "Ray Talley Stadium, Hanceville High School",
+  "town": "Hanceville",
+  "host": "Hanceville High School",
+  "summary": "A home game at Ray Talley Stadium. Come out and cheer on the Bulldogs in this region matchup.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/",
+  "tags": [
+   "football",
+   "high school",
+   "sports",
+   "bulldogs",
+   "friday night"
+  ],
+  "group": "Sports"
+ },
+ {
+  "name": "Tequila Falls Live at Goat Island Brewing",
+  "start": "2026-10-23",
+  "time": "7:00 PM to 11:00 PM",
+  "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
+  "town": "Cullman",
+  "host": "Goat Island Brewing",
+  "summary": "Tequila Falls plays a Friday night set at Goat Island's original taproom. Papa Sam's Hotdogs serves food from 5 to 9:15 p.m.",
+  "url": "https://www.goatislandbrewing.com/events/papa-sams-hotdogs-original-2026-10-23",
+  "tags": [
+   "live music",
+   "brewery",
+   "friday night",
+   "cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Trunk or Treat with The Link and Community Partners",
+  "start": "2026-10-23",
+  "time": "6:00 PM to 8:00 PM",
+  "venue": "Desperation Church Student Center, 202 Elizabeth St. NE",
+  "town": "Cullman",
+  "host": "The Link Family Resource Center",
+  "cost": "Free",
+  "summary": "Decorated trunks, candy and food trucks for the whole family. Partners include America's First Federal Credit Union, the North Alabama Agriplex, Render Aid Alabama, the Extension Office and the Cullman County Public Library. Costumes welcome.",
+  "url": "https://www.cullmantribune.com/2026/10/21/the-link-and-local-partners-hosting-trunk-or-treat-oct-23/",
+  "tags": [
+   "trunk or treat",
+   "halloween",
+   "family",
+   "free",
+   "food trucks"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Bone Yard Bash at 91 Short Track",
+  "start": "2026-10-24",
+  "time": "7:00 PM",
+  "venue": "91 Short Track",
+  "town": "Hanceville",
+  "host": "Courtney Lynn Connors and Arab Blount Cullman Yardsale",
+  "summary": "The second annual Bone Yard Bash has racing with cash payouts, free Hot Wheels races for kids, and pumpkin and costume contests.",
+  "url": "https://www.facebook.com/events/1628335238682748/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Colony Halloween Festival",
+  "start": "2026-10-24",
+  "time": "6:30 PM",
+  "venue": "Colony educational complex, 151 Bryars Road",
+  "town": "Hanceville",
+  "host": "Colony Parks and Recreation and the Colony Volunteer Fire Department",
+  "cost": "See hosts for details",
+  "summary": "Colony Parks and Recreation and the Colony Volunteer Fire Department put on a Halloween night with a bounce house, vendors, a cake walk and more. Dress up and bring the kids.",
+  "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
+  "tags": [
+   "halloween",
+   "colony",
+   "family",
+   "vendors"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Cullman Therapeutic Recreation Halloween Party",
+  "start": "2026-10-24",
+  "time": "5:00 PM",
+  "venue": "Palomino RV Resort at Burrow Hamilton Farm, 1315 County Road 222",
+  "town": "Cullman",
+  "host": "Cullman Therapeutic Recreation",
+  "summary": "Spooky fun for everyone! Come in costume for candy, a costume contest and hot dogs grilled by Cullman police officers. Therapeutic Recreation members get a special closed trick or treat, and the resort is fully accessible. Please RSVP by Monday, Oct. 19, using the contact in the source article.",
+  "url": "https://www.cullmantribune.com/2026/10/17/everyone-belongs-here-cullman-therapeutic-recreation-halloween-party-set-for-oct-24/",
+  "tags": [
+   "halloween",
+   "accessible",
+   "special needs",
+   "costume contest",
+   "cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Jeep Trunk or Treat at Goat Island Brewing",
+  "start": "2026-10-24",
+  "time": "12:00 PM to 5:00 PM",
+  "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
+  "town": "Cullman",
+  "host": "Goat Island Brewing and the Muddy Misfits",
+  "summary": "The Muddy Misfits Jeep club hands out treats from decorated Jeeps at Goat Island's original taproom. Bring food or pet supplies to donate to local animal shelters.",
+  "url": "https://www.goatislandbrewing.com/events",
+  "tags": [
+   "trunk or treat",
+   "halloween",
+   "kids",
+   "jeep",
+   "animal shelter",
+   "cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Render Aid Boo Festival",
+  "start": "2026-10-24",
+  "time": "4:00 PM to 8:00 PM",
+  "venue": "Randall Shedd Community Park, 605 Wesley Ave N",
+  "town": "Fairview",
+  "host": "Render Aid Alabama",
+  "cost": "Free",
+  "summary": "A free family festival supporting domestic violence awareness, with a car show, live music, food trucks, hay rides, inflatables and a sensory safe area.",
+  "url": "https://www.cullmantribune.com/2026/10/07/render-aid-hosting-4th-annual-boo-festival-oct-24-in-fairview/",
+  "tags": [
+   "halloween",
+   "fairview",
+   "free",
+   "car show",
+   "family"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Spooktacular Storybook 5K and 1 Mile Fun Run",
+  "start": "2026-10-24",
+  "time": "8:00 AM",
+  "venue": "Cullman County Public Library, 200 Clark St NE",
+  "town": "Cullman",
+  "host": "Friends of the Public Libraries of Cullman County",
+  "summary": "Dress as your favorite book character and run or walk a new course that starts and ends at the library. There are awards for the fastest runners, age groups and best costume, and the race kicks off the library's capital campaign. Register at storybook5k.com.",
+  "url": "https://www.cullmantribune.com/2026/10/06/3rd-annual-spooktacular-storybook-5k-coming-oct-24/",
+  "group": "Sports",
+  "tags": [
+   "5k",
+   "fun run",
+   "halloween",
+   "library",
+   "costume"
+  ]
+ },
+ {
+  "name": "The Butcher's Smoke and Flames BBQ Cookoff and Festival",
+  "start": "2026-10-24",
+  "time": "10:00 AM to 6:00 PM",
+  "venue": "266 Park Drive",
+  "town": "Vinemont",
+  "host": "The Butcher Meat Co.",
+  "cost": "Free admission",
+  "summary": "A KCBS sanctioned barbecue contest in chicken and ribs, plus a People's Choice Boston butt contest, desserts, live music, a car show and local vendors.",
+  "url": "https://www.cullmantribune.com/2026/10/20/fire-up-your-appetite-the-butchers-smoke-flames-bbq-cookoff-set-for-oct-24/",
+  "tags": [
+   "bbq",
+   "barbecue",
+   "cookoff",
+   "car show",
+   "live music",
+   "food"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Trick or Treat with the Chamber",
+  "start": "2026-10-24",
+  "time": "10:00 AM to 4:00 PM",
+  "venue": "Cullman Area Chamber of Commerce, 301 Second Ave SW",
+  "town": "Cullman",
+  "host": "Cullman Area Chamber of Commerce",
+  "cost": "Free",
+  "summary": "Pick up a free trick or treat bag and a list of stops at the Chamber on Friday, Oct. 23, from 8:00 AM to 5:00 PM. On Saturday, take the kids around to the participating Cullman businesses for treats. Bags are first come, first served.",
+  "url": "https://business.cullmanchamber.org/events/details/trick-or-treat-with-the-chamber-24052",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "trick or treat",
+   "kids",
+   "free",
+   "shop local"
+  ]
+ },
+ {
+  "name": "Wallace State Preview Day",
+  "start": "2026-10-24",
+  "time": "9:00 AM to 12:00 PM",
+  "venue": "James C. Bailey Center, Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Community College",
+  "summary": "Learn about programs and meet staff, with hayride campus tours, face painting, pumpkin painting and a bounce house. Alumni and neighbors are welcome, too.",
+  "url": "https://www.wallacestate.edu/news/2026/10/02/2026_preview_day_adv.html",
+  "tags": [
+   "wallace state",
+   "college",
+   "family",
+   "hayride",
+   "pumpkin"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Murder at Jubilee Manor: Murder Mystery Dinner",
+  "start": "2026-10-25",
+  "time": "5:30 PM",
+  "venue": "Jubilee Kitchen and Bar",
+  "town": "Cullman",
+  "host": "Jubilee Kitchen and Bar",
+  "summary": "Dinner and a mystery to solve. Ticket and menu details have not been posted yet, so check the event page for updates.",
+  "url": "https://www.facebook.com/events/2203126510618743/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Planning Commission Meeting",
+  "start": "2026-10-26",
+  "time": "6:00 PM",
+  "venue": "Hanceville Civic Center, 902 Commercial St",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The Planning Commission meets about zoning, land subdivision and development plans in the city. Anyone may attend.",
+  "url": "https://www.cityofhanceville.net/events",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Halloween Storytime at Cullman County Public Library",
+  "start": "2026-10-27",
+  "time": "10:00 AM",
+  "venue": "Cullman County Public Library, 200 Clark St NE",
+  "town": "Cullman",
+  "host": "Cullman County Public Library System",
+  "cost": "Free",
+  "summary": "Amber Thornton reads Alice and Greta and Here a Creek, There a Shriek for a spooky free morning at the library.",
+  "url": "https://www.cullmantribune.com/2026/10/13/upcoming-storytimes-for-kids-at-hanceville-cullman-libraries/",
+  "tags": [
+   "storytime",
+   "library",
+   "kids",
+   "free",
+   "halloween"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "WildWater Trunk or Treat",
+  "start": "2026-10-27",
+  "time": "5:00 PM to 7:00 PM",
+  "venue": "WildWater, 1701 Main Ave SW",
+  "town": "Cullman",
+  "host": "WildWater",
+  "cost": "See host for details",
+  "summary": "Trunk or treat returns at WildWater with candy and music. Bring costumes and the kids for an easy Halloween stop.",
+  "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
+  "tags": [
+   "halloween",
+   "trunk or treat",
+   "family",
+   "wildwater"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Halloween Storytime and STEM Fun",
+  "start": "2026-10-28",
+  "time": "10:00 AM",
+  "venue": "Shirley Burden Public Library, 201 Commercial St",
+  "town": "Hanceville",
+  "host": "Shirley Burden Public Library",
+  "cost": "Free",
+  "summary": "Halloween stories plus a science worksheet with a spooky theme. Free for families.",
+  "url": "https://www.cullmantribune.com/2026/10/13/upcoming-storytimes-for-kids-at-hanceville-cullman-libraries/",
+  "tags": [
+   "storytime",
+   "library",
+   "kids",
+   "halloween",
+   "free"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Sourdough Class with Anett at Mavens and Makers",
+  "start": "2026-10-29",
+  "time": "5:30 PM to 7:30 PM",
+  "venue": "Mavens and Makers, 302 Second Ave SE",
+  "town": "Cullman",
+  "host": "Mavens and Makers with Danube Delights Bakery",
+  "cost": "$100",
+  "summary": "Learn to bake crusty homemade sourdough in a two hour class made for beginners. Every baker goes home with a live starter, and light refreshments are included. Reserve a spot at mavensandmakers.setmore.com or call 256-297-1097.",
+  "url": "https://www.cullmantribune.com/2026/10/16/after-national-dessert-day-rise-to-the-occasion-with-a-sourdough-class-at-mavens-makers/",
+  "tags": [
+   "class",
+   "baking",
+   "sourdough",
+   "downtown cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Southern Pie Class: Sweet Pie with a Lattice Top",
+  "start": "2026-10-29",
+  "time": "6:00 PM to 8:00 PM",
+  "venue": "North Alabama Agriplex, 1714 Tally Ho St SW",
+  "town": "Cullman",
+  "host": "North Alabama Agriplex Kitchen Series",
+  "cost": "$25 per person",
+  "summary": "Learn to make a tender, flaky pie crust from scratch, fill it with a classic Southern sweet filling and weave a full lattice top. Youth ages 12 to 15 need to register with a paid adult.",
+  "url": "https://business.cullmanchamber.org/events/details/kitchen-series-southern-pie-series-sweet-24047",
+  "group": "Community and Fun",
+  "tags": [
+   "cooking class",
+   "pie",
+   "baking",
+   "agriplex"
+  ]
+ },
+ {
+  "name": "West Point Trunk or Treat",
+  "start": "2026-10-29",
+  "time": "6:00 PM",
+  "venue": "3990 County Road 1141",
+  "town": "Vinemont",
+  "host": "Town of West Point",
+  "cost": "See host for details",
+  "summary": "The Town of West Point hosts trunk or treat with candy, games, food trucks and costumes. A fun midweek Halloween stop for families.",
+  "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
+  "tags": [
+   "halloween",
+   "trunk or treat",
+   "west point",
+   "family"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Bulldogs Football at Elkmont",
+  "start": "2026-10-30",
+  "time": "7:00 PM",
+  "venue": "Elkmont (away game)",
+  "town": "Elkmont",
+  "host": "Hanceville High School",
+  "summary": "The Bulldogs travel to Elkmont for the last game of the regular season.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/",
+  "tags": [
+   "football",
+   "high school",
+   "sports",
+   "bulldogs",
+   "away game"
+  ],
+  "group": "Sports"
+ },
+ {
+  "name": "Sawdust Jukebox Live at Goat Island Brewing",
+  "start": "2026-10-30",
+  "time": "7:00 PM to 11:00 PM",
+  "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
+  "town": "Cullman",
+  "host": "Sawdust Jukebox",
+  "summary": "Sawdust Jukebox plays four hours of classic and 90s country at Goat Island's original taproom. Red Door Deli serves food from 5 to 9:30 p.m. Bring your boots.",
+  "url": "https://www.goatislandbrewing.com/events",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Uganda Spaghetti Fundraiser",
+  "start": "2026-10-30",
+  "time": "5:00 PM to 6:30 PM",
+  "venue": "Northside Baptist Church",
+  "town": "Cullman",
+  "host": "Northside Baptist Church",
+  "cost": "$12 per plate; buy tickets by Oct 28",
+  "summary": "Eat in or take out a spaghetti dinner. The money raised supports the church's 2027 medical mission trip to Uganda.",
+  "url": "https://www.facebook.com/events/1124811586892693/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Berlin Trunk or Treat",
+  "start": "2026-10-31",
+  "time": "6:00 PM to 8:00 PM",
+  "venue": "Berlin Farmers Market, 50 Mt. Carmel Drive",
+  "town": "Cullman",
+  "host": "Town of Berlin",
+  "cost": "Free",
+  "summary": "Full size candy bars from the Town of Berlin and free bounce houses for the kids. Every trunk bay is now filled, many by local churches. Parking questions go to the Berlin town clerk at 256-736-3138 before the event.",
+  "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "trunk or treat",
+   "kids",
+   "free"
+  ]
+ },
+ {
+  "name": "Camp-O-Ween at Smith Lake Park",
+  "start": "2026-10-31",
+  "time": "12:00 PM to 8:00 PM",
+  "venue": "Smith Lake Park, 403 County Road 386",
+  "town": "Cullman",
+  "host": "Cullman County Parks and Recreation",
+  "cost": "Free for the public",
+  "summary": "Food trucks, games, contests, rides, a DJ and campground trick or treating make Halloween at Smith Lake Park a full day outing.",
+  "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
+  "tags": [
+   "halloween",
+   "smith lake",
+   "family",
+   "free",
+   "park"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Drive Through Trick or Treat",
+  "start": "2026-10-31",
+  "time": "4:00 PM to 8:00 PM",
+  "venue": "Hanceville Fire Station #1, 119 Collins Street",
+  "town": "Hanceville",
+  "host": "Hanceville Fire and Rescue",
+  "summary": "For the sixth year, Hanceville firefighters and EMTs are handing out candy to kids who stay in the car. Costumes are encouraged, and seatbelts are required.",
+  "url": "https://www.facebook.com/events/1665588358521659/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Nightmare on Woodland Street",
+  "start": "2026-10-31",
+  "time": "5:00 PM",
+  "venue": "Woodland Street NW",
+  "town": "Cullman",
+  "host": "Woodland Street NW neighbors",
+  "summary": "Families along Woodland Street NW team up every Halloween with interactive props, plenty of candy and a whole street full of spooky fun.",
+  "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "trick or treat",
+   "kids"
+  ]
+ },
+ {
+  "name": "Retro Rock Revival Live at Goat Island Brewing",
+  "start": "2026-10-31",
+  "time": "7:00 PM to 11:00 PM",
+  "venue": "Goat Island Brewing, The Original, 1646 John Cooper Drive SE",
+  "town": "Cullman",
+  "host": "Goat Island Brewing",
+  "summary": "Retro Rock Revival brings a Halloween night rock show to Goat Island's original taproom. Papa Sam's Hotdogs serves food from 5 to 10:30 p.m.",
+  "url": "https://www.goatislandbrewing.com/events",
+  "tags": [
+   "live music",
+   "halloween",
+   "brewery",
+   "cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Events and Community Development Committee Meeting",
+  "start": "2026-11-02",
+  "time": "6:00 PM",
+  "venue": "Shirley Burden Public Library, 201 Commercial St",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The city's events committee plans community events and works on tourism and local partnerships. Residents with ideas are welcome to come.",
+  "url": "https://www.cityofhanceville.net/page/events-community-development-committee",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Wallace State Men's Basketball vs. Snead State",
+  "start": "2026-11-05",
+  "time": "6:00 PM",
+  "venue": "Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Lions play Snead State. Check the official schedule for the location and any time changes before you go.",
+  "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "wallace state",
+   "lions",
+   "college"
+  ]
+ },
+ {
+  "name": "Much Ado About Nothing at Wallace State",
+  "start": "2026-11-06",
+  "end": "2026-11-08",
+  "time": "7:00 PM Nov 6 and 7; 2:00 PM Nov 8",
+  "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
+  "town": "Hanceville",
+  "host": "Wallace State Theatre",
+  "cost": "$10 donation for adults, $5 for students and children under 12",
+  "summary": "Wallace State Theatre sets Shakespeare's comedy in the World War II era, with the music and dances of the time.",
+  "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
+  "tags": [
+   "theatre",
+   "shakespeare",
+   "wallace state",
+   "play",
+   "arts"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "16th Annual Mud Creek Arts and Crafts Festival",
+  "start": "2026-11-07",
+  "time": "9:00 AM to 4:00 PM",
+  "venue": "Historic Downtown Hanceville, 110 Commercial St",
+  "town": "Hanceville",
+  "host": "Hanceville Friends of the Festival",
+  "cost": "Free to attend",
+  "summary": "Downtown turns into a big street fair with craft vendors, food, kids activities and music. Proceeds go to Hanceville schools and the city.",
+  "url": "https://alabama.travel/events/2026-mud-creek-arts-and-crafts-festival/",
+  "tags": [
+   "festival",
+   "arts and crafts",
+   "vendors",
+   "downtown",
+   "food trucks",
+   "mud creek"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Cipollari Live: A Fundraiser for the Randy Travis Foundation",
+  "start": "2026-11-07",
+  "time": "6:00 PM to 8:00 PM",
+  "venue": "Terri Pines Country Club, 700 Pine Hill Dr",
+  "town": "Cullman",
+  "host": "Cipollari",
+  "cost": "Free tickets, reserve online",
+  "summary": "Hanceville's own Cipollari, a bluegrass band of six siblings, plays a free benefit concert for the Randy Travis Foundation, which supports arts and music for kids. Grab free tickets through the link in the source article.",
+  "url": "https://www.cullmantribune.com/2026/10/16/hancevilles-cipollari-siblings-to-play-randy-travis-foundation-fundraiser-nov-7-at-terri-pines/",
+  "tags": [
+   "bluegrass",
+   "live music",
+   "fundraiser",
+   "hanceville",
+   "free"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Cullman Veterans Day Celebration",
+  "start": "2026-11-07",
+  "time": "9:00 AM to 3:00 PM",
+  "venue": "Cullman Regional Airport",
+  "town": "Vinemont",
+  "host": "Cullman County Veterans Celebration",
+  "cost": "Free admission and free parking",
+  "summary": "Warbirds, skydivers, military flyovers, living history and special guest Mike Durant, all to honor our veterans. The celebration goes on rain or shine.",
+  "url": "https://www.facebook.com/events/1630784575170975/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Holly Pond Lions Club Pancake Breakfast",
+  "start": "2026-11-07",
+  "time": "6:00 AM to 9:00 AM",
+  "venue": "Holly Pond Lions Club Building, Lyons Park Road",
+  "town": "Holly Pond",
+  "host": "Holly Pond Lions Club",
+  "cost": "Donation",
+  "summary": "Pancakes, bacon, sausage and coffee or juice, to eat in or take out. Proceeds help the Lions Club project fund and the food pantry between Town Hall and the fire department.",
+  "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "breakfast",
+   "fundraiser",
+   "lions club",
+   "food pantry"
+  ]
+ },
+ {
+  "name": "Wallace State Men's Basketball vs. Itawamba",
+  "start": "2026-11-07",
+  "time": "3:00 PM",
+  "venue": "Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Lions play Itawamba. Check the official schedule for the location and any time changes before you go.",
+  "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "wallace state",
+   "lions",
+   "college"
+  ]
+ },
+ {
+  "name": "Grace Concert Series: Madison City Community Orchestra",
+  "start": "2026-11-08",
+  "time": "4:00 PM to 5:00 PM",
+  "venue": "Grace Episcopal Church, 305 Arnold Street NE",
+  "town": "Cullman",
+  "host": "Grace Episcopal Church",
+  "cost": "Free",
+  "summary": "Violinist Rachel Wyatt, a former Grace member, joins the Madison City Community Orchestra for a free one hour program called Strings Through the Ages in the church nave.",
+  "url": "https://www.gracecullman.org/upcoming-events/grace-concert-series-madison-city-community-orchestra",
+  "tags": [
+   "free concert",
+   "orchestra",
+   "strings",
+   "live music",
+   "church",
+   "cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Salute to United States Veterans Concert",
+  "start": "2026-11-10",
+  "time": "7:00 PM",
+  "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
+  "town": "Hanceville",
+  "host": "Wallace State Concert Band and Jazz Band",
+  "cost": "Free",
+  "summary": "Patriotic music from the Wallace State bands, the hymns of each branch of the Armed Forces and a moment to honor veterans in the audience.",
+  "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
+  "tags": [
+   "veterans",
+   "concert",
+   "band",
+   "wallace state",
+   "free"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Veterans Day",
+  "start": "2026-11-11",
+  "time": "All day",
+  "venue": "Hanceville City Hall, 112 Main St SE",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free",
+  "summary": "Veterans Day is marked on the city calendar. If you need to visit City Hall that day, call ahead at (256) 352-9830 to check whether offices are open.",
+  "url": "https://www.cityofhanceville.net/events?id=52393701",
+  "tags": [
+   "veterans day",
+   "city calendar",
+   "holiday"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville City Council Meeting",
+  "start": "2026-11-12",
+  "time": "6:00 PM work session, regular meeting right after",
+  "venue": "Hanceville City Hall, 112 Main St SE",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The City Council holds a work session at 6:00 PM, followed right away by its regular meeting. The city announced this date on its Oct. 8 agenda.",
+  "url": "https://www.cityofhanceville.net/o/coh/page/city-council",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "United Way Designer Bag Bingo",
+  "start": "2026-11-12",
+  "time": "6:00 PM to 10:00 PM",
+  "venue": "Cotton Creek, 417 Third Ave SW",
+  "town": "Cullman",
+  "host": "United Way of Cullman County",
+  "cost": "$50 per person or $500 per table",
+  "summary": "An evening of bingo with designer handbag prizes. Proceeds support local needs and programs through United Way of Cullman County.",
+  "url": "https://business.cullmanchamber.org/events/details/united-way-of-cullman-county-designer-bag-bingo-23309",
+  "group": "Community and Fun",
+  "tags": [
+   "bingo",
+   "fundraiser",
+   "united way",
+   "night out"
+  ]
+ },
+ {
+  "name": "Cullman Christmas Open House",
+  "start": "2026-11-13",
+  "end": "2026-11-15",
+  "time": "Starts 8:00 AM Nov 13",
+  "town": "Cullman",
+  "host": "Cullman Area Chamber of Commerce and Visitor Center",
+  "summary": "Holiday shopping kicks off with store specials, a cookie crawl, visits with Santa and a window display contest.",
+  "url": "https://www.facebook.com/events/1604634394706572/",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Wallace State Men's Basketball vs. Albany Tech",
+  "start": "2026-11-14",
+  "time": "3:00 PM",
+  "venue": "Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Lions play Albany Tech. Check the official schedule for the location and any time changes before you go.",
+  "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "wallace state",
+   "lions",
+   "college"
+  ]
+ },
+ {
+  "name": "Wallace State Men's Basketball vs. East Mississippi",
+  "start": "2026-11-16",
+  "time": "6:00 PM",
+  "venue": "Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Lions play East Mississippi. Check the official schedule for the location and any time changes before you go.",
+  "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "wallace state",
+   "lions",
+   "college"
+  ]
+ },
+ {
+  "name": "Cullman County Commission Work Session and Meeting",
+  "start": "2026-11-17",
+  "time": "4:00 PM to 7:00 PM",
+  "venue": "Cullman County Courthouse, Commission Meeting Room, 500 2nd Ave SW",
+  "town": "Cullman",
+  "host": "Cullman County Commission",
+  "cost": "Free and open to the public",
+  "summary": "The work session starts at 4:00 PM and the regular commission meeting follows at 6:00 PM. It is the first regular meeting with the new District 1 and District 2 commissioners.",
+  "url": "https://www.cullmantribune.com/2026/10/22/county-commission-recognizes-outgoing-commissioners-marchman-watson/",
+  "tags": [
+   "county commission",
+   "government",
+   "meeting",
+   "public"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Cullman Veterans Hall of Fame Dinner and Ceremony",
+  "start": "2026-11-17",
+  "time": "5:30 PM",
+  "venue": "Loft 212, 212 Fourth St SW",
+  "town": "Cullman",
+  "host": "Cullman Veterans Hall of Fame",
+  "summary": "This year's class of inductees will be honored at a dinner and ceremony. The event was moved to this new date, and ticket details are coming soon.",
+  "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "veterans",
+   "hall of fame",
+   "dinner",
+   "military"
+  ]
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball vs. Ardmore",
+  "start": "2026-11-17",
+  "time": "7:45 PM (varsity boys tip off)",
+  "venue": "Hanceville High School",
+  "town": "Hanceville",
+  "host": "Hanceville High School Bulldogs",
+  "summary": "The Bulldogs host Ardmore in the Hanceville High gym. Bring the family and wear your purple.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "high school",
+   "bulldogs",
+   "home game"
+  ]
+ },
+ {
+  "name": "Cullman Christkindlmarkt",
+  "start": "2026-11-19",
+  "end": "2026-12-23",
+  "time": "Thursday to Saturday 11:00 AM to 9:00 PM; Sunday 12:00 PM to 8:00 PM; open every day from Dec. 10",
+  "venue": "Depot Park, 107 Arnold St NW",
+  "town": "Cullman",
+  "host": "Cullman Christkindlmarkt",
+  "cost": "Free admission and parking",
+  "summary": "A German style Christmas market in downtown Cullman with more than 40 vendors, German inspired food, an ice skating rink, a Ferris wheel and snow tubing. Closed Monday through Wednesday until Dec. 10, and closed Thanksgiving Day.",
+  "url": "https://www.cullmanchristkindlmarkt.com/",
+  "tags": [
+   "christkindlmarkt",
+   "christmas",
+   "market",
+   "holiday",
+   "family",
+   "free"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Run Run Rudolph at Winter Wonderland",
+  "start": "2026-11-19",
+  "time": "5:00 PM to 8:00 PM",
+  "venue": "Sportsman Lake Park, 1544 Sportsman Lake Rd NW",
+  "town": "Cullman",
+  "host": "Cullman County Parks and Recreation",
+  "summary": "Run or stroll through the Winter Wonderland Christmas lights on foot, one night only. Registration opens at 4:00 PM, runners start at 5:00 PM and walkers follow. There's an ugly sweater and Christmas costume contest, dogs and strollers are welcome, and kids 6 and under are free. Park at the fairgrounds.",
+  "url": "https://www.eventbrite.com/e/run-run-rudolph-tickets-2002938862054",
+  "group": "Sports",
+  "tags": [
+   "fun run",
+   "christmas lights",
+   "winter wonderland",
+   "family",
+   "holiday"
+  ]
+ },
+ {
+  "name": "Christkindlmarkt Parade and Tree Lighting",
+  "start": "2026-11-20",
+  "time": "6:30 PM to 9:00 PM",
+  "venue": "Downtown Cullman and Depot Park, 107 Arnold St NW",
+  "town": "Cullman",
+  "host": "Cullman Christkindlmarkt",
+  "cost": "Free",
+  "summary": "Floats, local bands and community groups parade through downtown at 6:30 PM, then the tree lighting at Depot Park starts at 8:00 PM with a light show, fireworks and a new Christmas drone show. Rain date is Saturday, Nov. 21.",
+  "url": "https://www.cullmanchristkindlmarkt.com/parade-tree-lighting",
+  "tags": [
+   "christmas parade",
+   "tree lighting",
+   "drone show",
+   "fireworks",
+   "christmas",
+   "free"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Wallace State Women's Basketball: Wallace State Classic vs. Vincennes",
+  "start": "2026-11-20",
+  "time": "2:00 PM",
+  "venue": "Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Wallace State Lions women's basketball team hosts Vincennes in the Wallace State Classic.",
+  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "wallace state",
+   "lions",
+   "college"
+  ]
+ },
+ {
+  "name": "The Nutcracker with Ballet South",
+  "start": "2026-11-21",
+  "end": "2026-11-22",
+  "time": "2:00 PM and 7:00 PM Nov 21; 2:00 PM Nov 22",
+  "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
+  "town": "Hanceville",
+  "host": "Ballet South at Wallace State",
+  "cost": "$15 adults, $10 children",
+  "summary": "Ballet South brings its yearly Nutcracker to Wallace State, following Clara's dream through the Land of Sweets.",
+  "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
+  "tags": [
+   "nutcracker",
+   "ballet",
+   "christmas",
+   "wallace state",
+   "family"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Wallace State Women's Basketball: Wallace State Classic vs. Chipola",
+  "start": "2026-11-21",
+  "time": "2:00 PM",
+  "venue": "Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Lions women's basketball team wraps up the Wallace State Classic at home against Chipola.",
+  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "wallace state",
+   "lions",
+   "college"
+  ]
+ },
+ {
+  "name": "Festival of Trees at the Cullman Wellness and Aquatic Center",
+  "start": "2026-12-03",
+  "end": "2026-12-27",
+  "time": "Opening ceremony Dec. 3 at 5:00 PM; trees on display Dec. 4 to 27 during regular center hours",
+  "venue": "Cullman Wellness and Aquatic Center, 1636 Field of Miracles Drive SW",
+  "town": "Cullman",
+  "host": "City of Cullman Tree Commission",
+  "cost": "Free",
+  "summary": "Christmas trees decorated by students from local public and private schools and the Cullman County Public Library fill the CWAC foyer. Judging is Dec. 3 at 1 p.m. with the opening ceremony at 5 p.m.",
+  "url": "https://cullmantimes.com/2026/10/22/cullman-tree-commission-prepares-for-2026-festival-of-trees/",
+  "tags": [
+   "festival of trees",
+   "christmas",
+   "holiday",
+   "schools",
+   "free",
+   "cullman"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball vs. Good Hope",
+  "start": "2026-12-03",
+  "time": "7:45 PM (varsity boys tip off)",
+  "venue": "Hanceville High School",
+  "town": "Hanceville",
+  "host": "Hanceville High School Bulldogs",
+  "summary": "The Bulldogs host Good Hope in the Hanceville High gym. Bring the family and wear your purple.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "high school",
+   "bulldogs",
+   "home game"
+  ]
+ },
+ {
+  "name": "Hanceville Holly Market",
+  "start": "2026-12-05",
+  "venue": "Hanceville Civic Center, 902 Commercial St",
+  "town": "Hanceville",
+  "host": "Hanceville Parks and Recreation",
+  "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
+  "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
+  "tags": [
+   "holiday market",
+   "christmas",
+   "shopping",
+   "vendors",
+   "gifts"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball vs. Corner",
+  "start": "2026-12-07",
+  "time": "7:00 PM (varsity boys tip off)",
+  "venue": "Hanceville High School",
+  "town": "Hanceville",
+  "host": "Hanceville High School Bulldogs",
+  "summary": "The Bulldogs host Corner in the Hanceville High gym. Bring the family and wear your purple.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "high school",
+   "bulldogs",
+   "home game"
+  ]
+ },
+ {
+  "name": "Christmas Spectacular at Wallace State",
+  "start": "2026-12-10",
+  "time": "7:00 PM",
+  "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
+  "town": "Hanceville",
+  "host": "Wallace State Fine and Performing Arts",
+  "cost": "Free",
+  "summary": "Every Wallace State performing arts group shares the stage for a holiday concert.",
+  "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
+  "tags": [
+   "christmas",
+   "concert",
+   "wallace state",
+   "free",
+   "holiday"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Holly Market",
+  "start": "2026-12-12",
+  "venue": "Hanceville Civic Center, 902 Commercial St",
+  "town": "Hanceville",
+  "host": "Hanceville Parks and Recreation",
+  "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
+  "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
+  "tags": [
+   "holiday market",
+   "christmas",
+   "shopping",
+   "vendors",
+   "gifts"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Holly Market",
+  "start": "2026-12-19",
+  "venue": "Hanceville Civic Center, 902 Commercial St",
+  "town": "Hanceville",
+  "host": "Hanceville Parks and Recreation",
+  "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
+  "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
+  "tags": [
+   "holiday market",
+   "christmas",
+   "shopping",
+   "vendors",
+   "gifts"
+  ],
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball vs. Cleveland",
+  "start": "2027-01-04",
+  "time": "7:45 PM (varsity boys tip off)",
+  "venue": "Hanceville High School",
+  "town": "Hanceville",
+  "host": "Hanceville High School Bulldogs",
+  "summary": "The Bulldogs host Cleveland in the Hanceville High gym. Bring the family and wear your purple.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "high school",
+   "bulldogs",
+   "home game"
+  ]
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball vs. Holly Pond",
+  "start": "2027-01-15",
+  "time": "7:45 PM (varsity boys tip off)",
+  "venue": "Hanceville High School",
+  "town": "Hanceville",
+  "host": "Hanceville High School Bulldogs",
+  "summary": "The Bulldogs host Holly Pond in the Hanceville High gym. Bring the family and wear your purple.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "high school",
+   "bulldogs",
+   "home game"
+  ]
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball vs. Sumiton Christian",
+  "start": "2027-01-29",
+  "time": "7:00 PM (varsity boys tip off)",
+  "venue": "Hanceville High School",
+  "town": "Hanceville",
+  "host": "Hanceville High School Bulldogs",
+  "summary": "The Bulldogs host Sumiton Christian in the Hanceville High gym. Bring the family and wear your purple.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "high school",
+   "bulldogs",
+   "home game"
+  ]
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball vs. Danville",
+  "start": "2027-02-02",
+  "time": "6:45 PM (varsity boys tip off)",
+  "venue": "Hanceville High School",
+  "town": "Hanceville",
+  "host": "Hanceville High School Bulldogs",
+  "summary": "The Bulldogs host Danville in the Hanceville High gym. Bring the family and wear your purple.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "high school",
+   "bulldogs",
+   "home game"
+  ]
+ }
 ]
