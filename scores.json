@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T06:01:54-05:00",
+ "updated": "2026-10-23T07:15:00-05:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -83,6 +83,15 @@
     "#d5d9e0"
    ],
    "text": "#ffffff"
+  },
+  "southern-union": {
+   "name": "Southern Union",
+   "initials": "SU",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
   }
  },
  "games": [
@@ -121,7 +130,7 @@
    "status": "Upcoming",
    "score": null,
    "line": null,
-   "note": "Region game.",
+   "note": "Class 3A, Region 6. Oneonta comes in at 8 and 1. The Bulldogs are 0 and 8, 0 and 6 in region.",
    "source": {
     "name": "MaxPreps schedule",
     "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/"
@@ -188,13 +197,27 @@
    "venue": "Tom Drake Coliseum, Wallace State",
    "home": "wallace",
    "away": "illinois-central",
-   "status": "Upcoming",
-   "score": null,
-   "line": null,
+   "status": "Final",
+   "score": {
+    "home": 3,
+    "away": 0
+   },
+   "line": {
+    "home": [
+     25,
+     26,
+     25
+    ],
+    "away": [
+     15,
+     24,
+     17
+    ]
+   },
    "note": "Wallace State Lions Invitational.",
    "source": {
-    "name": "Wallace State Athletics schedule",
-    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule"
+    "name": "Wallace State Athletics box score",
+    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/boxscores/20261017_k54d.xml"
    }
   },
   {
@@ -207,13 +230,27 @@
    "venue": "Tom Drake Coliseum, Wallace State",
    "home": "wallace",
    "away": "reid-state",
-   "status": "Upcoming",
-   "score": null,
-   "line": null,
+   "status": "Final",
+   "score": {
+    "home": 3,
+    "away": 0
+   },
+   "line": {
+    "home": [
+     25,
+     25,
+     25
+    ],
+    "away": [
+     9,
+     11,
+     22
+    ]
+   },
    "note": "Wallace State Lions Invitational.",
    "source": {
-    "name": "Wallace State Athletics schedule",
-    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule"
+    "name": "Wallace State Athletics box score",
+    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/boxscores/20261017_1j4e.xml"
    }
   },
   {
@@ -226,12 +263,92 @@
    "venue": "Tom Drake Coliseum, Wallace State",
    "home": "wallace",
    "away": "calhoun",
-   "status": "Upcoming",
-   "score": null,
-   "line": null,
+   "status": "Final",
+   "score": {
+    "home": 3,
+    "away": 0
+   },
+   "line": {
+    "home": [
+     25,
+     25,
+     25
+    ],
+    "away": [
+     23,
+     12,
+     18
+    ]
+   },
    "source": {
-    "name": "Wallace State Athletics schedule",
-    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule"
+    "name": "Wallace State Athletics box score",
+    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/boxscores/20261021_t3cs.xml"
+   }
+  },
+  {
+   "id": "ws-vb-2026-10-22",
+   "school": "wallace",
+   "label": "Wallace State Volleyball",
+   "sport": "Volleyball",
+   "period": "Set",
+   "start": "2026-10-22T13:00:00-05:00",
+   "venue": "Tom Drake Coliseum, Wallace State",
+   "home": "wallace",
+   "away": "southern-union",
+   "status": "Final",
+   "score": {
+    "home": 3,
+    "away": 0
+   },
+   "line": {
+    "home": [
+     25,
+     25,
+     25
+    ],
+    "away": [
+     23,
+     4,
+     16
+    ]
+   },
+   "note": "Conference doubleheader, match one.",
+   "source": {
+    "name": "Wallace State Athletics box score",
+    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/boxscores/20261022_dhq7.xml"
+   }
+  },
+  {
+   "id": "ws-vb-2026-10-22b",
+   "school": "wallace",
+   "label": "Wallace State Volleyball",
+   "sport": "Volleyball",
+   "period": "Set",
+   "start": "2026-10-22T15:00:00-05:00",
+   "venue": "Tom Drake Coliseum, Wallace State",
+   "home": "wallace",
+   "away": "southern-union",
+   "status": "Final",
+   "score": {
+    "home": 3,
+    "away": 0
+   },
+   "line": {
+    "home": [
+     25,
+     25,
+     25
+    ],
+    "away": [
+     14,
+     12,
+     10
+    ]
+   },
+   "note": "Conference doubleheader, match two. Lions finish the regular season 30 and 5, 14 and 2 in the ACCC.",
+   "source": {
+    "name": "Wallace State Athletics box score",
+    "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/boxscores/20261022_vw3v.xml"
    }
   }
  ]

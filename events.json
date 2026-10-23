@@ -83,6 +83,25 @@
     "group": "Sports"
   },
   {
+    "name": "Trunk or Treat with The Link and Community Partners",
+    "start": "2026-10-23",
+    "time": "6:00 PM to 8:00 PM",
+    "venue": "Desperation Church Student Center, 202 Elizabeth St. NE",
+    "town": "Cullman",
+    "host": "The Link Family Resource Center",
+    "cost": "Free",
+    "summary": "Decorated trunks, candy and food trucks for the whole family. Partners include America's First Federal Credit Union, the North Alabama Agriplex, Render Aid Alabama, the Extension Office and the Cullman County Public Library. Costumes welcome.",
+    "url": "https://www.cullmantribune.com/2026/10/21/the-link-and-local-partners-hosting-trunk-or-treat-oct-23/",
+    "tags": [
+      "trunk or treat",
+      "halloween",
+      "family",
+      "free",
+      "food trucks"
+    ],
+    "group": "Community and Fun"
+  },
+  {
     "name": "Bone Yard Bash at 91 Short Track",
     "start": "2026-10-24",
     "time": "7:00 PM",
@@ -112,6 +131,24 @@
     "group": "Community and Fun"
   },
   {
+    "name": "Cullman Therapeutic Recreation Halloween Party",
+    "start": "2026-10-24",
+    "time": "5:00 PM",
+    "venue": "Palomino RV Resort at Burrow Hamilton Farm, 1315 County Road 222",
+    "town": "Cullman",
+    "host": "Cullman Therapeutic Recreation",
+    "summary": "Spooky fun for everyone! Come in costume for candy, a costume contest and hot dogs grilled by Cullman police officers. Therapeutic Recreation members get a special closed trick or treat, and the resort is fully accessible. Please RSVP by Monday, Oct. 19, using the contact in the source article.",
+    "url": "https://www.cullmantribune.com/2026/10/17/everyone-belongs-here-cullman-therapeutic-recreation-halloween-party-set-for-oct-24/",
+    "tags": [
+      "halloween",
+      "accessible",
+      "special needs",
+      "costume contest",
+      "cullman"
+    ],
+    "group": "Community and Fun"
+  },
+  {
     "name": "Render Aid Boo Festival",
     "start": "2026-10-24",
     "time": "4:00 PM to 8:00 PM",
@@ -127,42 +164,6 @@
       "free",
       "car show",
       "family"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Wallace State Preview Day",
-    "start": "2026-10-24",
-    "time": "9:00 AM to 12:00 PM",
-    "venue": "James C. Bailey Center, Wallace State",
-    "town": "Hanceville",
-    "host": "Wallace State Community College",
-    "summary": "Learn about programs and meet staff, with hayride campus tours, face painting, pumpkin painting and a bounce house. Alumni and neighbors are welcome, too.",
-    "url": "https://www.wallacestate.edu/news/2026/10/02/2026_preview_day_adv.html",
-    "tags": [
-      "wallace state",
-      "college",
-      "family",
-      "hayride",
-      "pumpkin"
-    ],
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Cullman Therapeutic Recreation Halloween Party",
-    "start": "2026-10-24",
-    "time": "5:00 PM",
-    "venue": "Palomino RV Resort at Burrow Hamilton Farm, 1315 County Road 222",
-    "town": "Cullman",
-    "host": "Cullman Therapeutic Recreation",
-    "summary": "Spooky fun for everyone! Come in costume for candy, a costume contest and hot dogs grilled by Cullman police officers. Therapeutic Recreation members get a special closed trick or treat, and the resort is fully accessible. Please RSVP by Monday, Oct. 19, using the contact in the source article.",
-    "url": "https://www.cullmantribune.com/2026/10/17/everyone-belongs-here-cullman-therapeutic-recreation-halloween-party-set-for-oct-24/",
-    "tags": [
-      "halloween",
-      "accessible",
-      "special needs",
-      "costume contest",
-      "cullman"
     ],
     "group": "Community and Fun"
   },
@@ -185,6 +186,26 @@
     ]
   },
   {
+    "name": "The Butcher's Smoke and Flames BBQ Cookoff and Festival",
+    "start": "2026-10-24",
+    "time": "10:00 AM to 6:00 PM",
+    "venue": "266 Park Drive",
+    "town": "Vinemont",
+    "host": "The Butcher Meat Co.",
+    "cost": "Free admission",
+    "summary": "A KCBS sanctioned barbecue contest in chicken and ribs, plus a People's Choice Boston butt contest, desserts, live music, a car show and local vendors.",
+    "url": "https://www.cullmantribune.com/2026/10/20/fire-up-your-appetite-the-butchers-smoke-flames-bbq-cookoff-set-for-oct-24/",
+    "tags": [
+      "bbq",
+      "barbecue",
+      "cookoff",
+      "car show",
+      "live music",
+      "food"
+    ],
+    "group": "Community and Fun"
+  },
+  {
     "name": "Trick or Treat with the Chamber",
     "start": "2026-10-24",
     "time": "10:00 AM to 4:00 PM",
@@ -202,6 +223,24 @@
       "free",
       "shop local"
     ]
+  },
+  {
+    "name": "Wallace State Preview Day",
+    "start": "2026-10-24",
+    "time": "9:00 AM to 12:00 PM",
+    "venue": "James C. Bailey Center, Wallace State",
+    "town": "Hanceville",
+    "host": "Wallace State Community College",
+    "summary": "Learn about programs and meet staff, with hayride campus tours, face painting, pumpkin painting and a bounce house. Alumni and neighbors are welcome, too.",
+    "url": "https://www.wallacestate.edu/news/2026/10/02/2026_preview_day_adv.html",
+    "tags": [
+      "wallace state",
+      "college",
+      "family",
+      "hayride",
+      "pumpkin"
+    ],
+    "group": "Community and Fun"
   },
   {
     "name": "Murder at Jubilee Manor: Murder Mystery Dinner",
@@ -283,24 +322,6 @@
     "group": "Community and Fun"
   },
   {
-    "name": "West Point Trunk or Treat",
-    "start": "2026-10-29",
-    "time": "6:00 PM",
-    "venue": "3990 County Road 1141",
-    "town": "Vinemont",
-    "host": "Town of West Point",
-    "cost": "See host for details",
-    "summary": "The Town of West Point hosts trunk or treat with candy, games, food trucks and costumes. A fun midweek Halloween stop for families.",
-    "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
-    "tags": [
-      "halloween",
-      "trunk or treat",
-      "west point",
-      "family"
-    ],
-    "group": "Community and Fun"
-  },
-  {
     "name": "Sourdough Class with Anett at Mavens and Makers",
     "start": "2026-10-29",
     "time": "5:30 PM to 7:30 PM",
@@ -335,6 +356,24 @@
       "baking",
       "agriplex"
     ]
+  },
+  {
+    "name": "West Point Trunk or Treat",
+    "start": "2026-10-29",
+    "time": "6:00 PM",
+    "venue": "3990 County Road 1141",
+    "town": "Vinemont",
+    "host": "Town of West Point",
+    "cost": "See host for details",
+    "summary": "The Town of West Point hosts trunk or treat with candy, games, food trucks and costumes. A fun midweek Halloween stop for families.",
+    "url": "https://www.cullmantribune.com/2026/09/10/list-upcoming-fall-events/",
+    "tags": [
+      "halloween",
+      "trunk or treat",
+      "west point",
+      "family"
+    ],
+    "group": "Community and Fun"
   },
   {
     "name": "Hanceville Bulldogs Football at Elkmont",
@@ -376,6 +415,24 @@
     "summary": "Eat in or take out a spaghetti dinner. The money raised supports the church's 2027 medical mission trip to Uganda.",
     "url": "https://www.facebook.com/events/1124811586892693/",
     "group": "Community and Fun"
+  },
+  {
+    "name": "Berlin Trunk or Treat",
+    "start": "2026-10-31",
+    "time": "6:00 PM to 8:00 PM",
+    "venue": "Berlin Farmers Market, 50 Mt. Carmel Drive",
+    "town": "Cullman",
+    "host": "Town of Berlin",
+    "cost": "Free",
+    "summary": "Full size candy bars from the Town of Berlin and free bounce houses for the kids. Businesses, churches and groups are welcome to set up a trunk, and candy donations can be dropped off at Berlin Town Hall.",
+    "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
+    "group": "Community and Fun",
+    "tags": [
+      "halloween",
+      "trunk or treat",
+      "kids",
+      "free"
+    ]
   },
   {
     "name": "Camp-O-Ween at Smith Lake Park",
@@ -424,24 +481,6 @@
     ]
   },
   {
-    "name": "Berlin Trunk or Treat",
-    "start": "2026-10-31",
-    "time": "6:00 PM to 8:00 PM",
-    "venue": "Berlin Farmers Market, 50 Mt. Carmel Drive",
-    "town": "Cullman",
-    "host": "Town of Berlin",
-    "cost": "Free",
-    "summary": "Full size candy bars from the Town of Berlin and free bounce houses for the kids. Businesses, churches and groups are welcome to set up a trunk, and candy donations can be dropped off at Berlin Town Hall.",
-    "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
-    "group": "Community and Fun",
-    "tags": [
-      "halloween",
-      "trunk or treat",
-      "kids",
-      "free"
-    ]
-  },
-  {
     "name": "Events and Community Development Committee Meeting",
     "start": "2026-11-02",
     "time": "6:00 PM",
@@ -472,6 +511,26 @@
     ]
   },
   {
+    "name": "Much Ado About Nothing at Wallace State",
+    "start": "2026-11-06",
+    "end": "2026-11-08",
+    "time": "7:00 PM Nov 6 and 7; 2:00 PM Nov 8",
+    "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
+    "town": "Hanceville",
+    "host": "Wallace State Theatre",
+    "cost": "$10 donation for adults, $5 for students and children under 12",
+    "summary": "Wallace State Theatre sets Shakespeare's comedy in the World War II era, with the music and dances of the time.",
+    "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
+    "tags": [
+      "theatre",
+      "shakespeare",
+      "wallace state",
+      "play",
+      "arts"
+    ],
+    "group": "Community and Fun"
+  },
+  {
     "name": "16th Annual Mud Creek Arts and Crafts Festival",
     "start": "2026-11-07",
     "time": "9:00 AM to 4:00 PM",
@@ -490,36 +549,6 @@
       "mud creek"
     ],
     "group": "Community and Fun"
-  },
-  {
-    "name": "Cullman Veterans Day Celebration",
-    "start": "2026-11-07",
-    "time": "9:00 AM to 3:00 PM",
-    "venue": "Cullman Regional Airport",
-    "town": "Vinemont",
-    "host": "Cullman County Veterans Celebration",
-    "cost": "Free admission and free parking",
-    "summary": "Warbirds, skydivers, military flyovers, living history and special guest Mike Durant, all to honor our veterans. The celebration goes on rain or shine.",
-    "url": "https://www.facebook.com/events/1630784575170975/",
-    "group": "Community and Fun"
-  },
-  {
-    "name": "Wallace State Men's Basketball vs. Itawamba",
-    "start": "2026-11-07",
-    "time": "3:00 PM",
-    "venue": "Wallace State",
-    "town": "Hanceville",
-    "host": "Wallace State Lions Athletics",
-    "summary": "The Lions play Itawamba. Check the official schedule for the location and any time changes before you go.",
-    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
-    "group": "Sports",
-    "tags": [
-      "sports",
-      "basketball",
-      "wallace state",
-      "lions",
-      "college"
-    ]
   },
   {
     "name": "Cipollari Live: A Fundraiser for the Randy Travis Foundation",
@@ -541,6 +570,18 @@
     "group": "Community and Fun"
   },
   {
+    "name": "Cullman Veterans Day Celebration",
+    "start": "2026-11-07",
+    "time": "9:00 AM to 3:00 PM",
+    "venue": "Cullman Regional Airport",
+    "town": "Vinemont",
+    "host": "Cullman County Veterans Celebration",
+    "cost": "Free admission and free parking",
+    "summary": "Warbirds, skydivers, military flyovers, living history and special guest Mike Durant, all to honor our veterans. The celebration goes on rain or shine.",
+    "url": "https://www.facebook.com/events/1630784575170975/",
+    "group": "Community and Fun"
+  },
+  {
     "name": "Holly Pond Lions Club Pancake Breakfast",
     "start": "2026-11-07",
     "time": "6:00 AM to 9:00 AM",
@@ -557,6 +598,43 @@
       "lions club",
       "food pantry"
     ]
+  },
+  {
+    "name": "Wallace State Men's Basketball vs. Itawamba",
+    "start": "2026-11-07",
+    "time": "3:00 PM",
+    "venue": "Wallace State",
+    "town": "Hanceville",
+    "host": "Wallace State Lions Athletics",
+    "summary": "The Lions play Itawamba. Check the official schedule for the location and any time changes before you go.",
+    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
+    "group": "Sports",
+    "tags": [
+      "sports",
+      "basketball",
+      "wallace state",
+      "lions",
+      "college"
+    ]
+  },
+  {
+    "name": "Salute to United States Veterans Concert",
+    "start": "2026-11-10",
+    "time": "7:00 PM",
+    "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
+    "town": "Hanceville",
+    "host": "Wallace State Concert Band and Jazz Band",
+    "cost": "Free",
+    "summary": "Patriotic music from the Wallace State bands, the hymns of each branch of the Armed Forces and a moment to honor veterans in the audience.",
+    "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
+    "tags": [
+      "veterans",
+      "concert",
+      "band",
+      "wallace state",
+      "free"
+    ],
+    "group": "Community and Fun"
   },
   {
     "name": "Veterans Day",
@@ -653,6 +731,23 @@
     ]
   },
   {
+    "name": "Cullman Veterans Hall of Fame Dinner and Ceremony",
+    "start": "2026-11-17",
+    "time": "5:30 PM",
+    "venue": "Loft 212, 212 Fourth St SW",
+    "town": "Cullman",
+    "host": "Cullman Veterans Hall of Fame",
+    "summary": "This year's class of inductees will be honored at a dinner and ceremony. The event was moved to this new date, and ticket details are coming soon.",
+    "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
+    "group": "Community and Fun",
+    "tags": [
+      "veterans",
+      "hall of fame",
+      "dinner",
+      "military"
+    ]
+  },
+  {
     "name": "Hanceville Bulldogs Basketball vs. Ardmore",
     "start": "2026-11-17",
     "time": "7:45 PM (varsity boys tip off)",
@@ -668,23 +763,6 @@
       "high school",
       "bulldogs",
       "home game"
-    ]
-  },
-  {
-    "name": "Cullman Veterans Hall of Fame Dinner and Ceremony",
-    "start": "2026-11-17",
-    "time": "5:30 PM",
-    "venue": "Loft 212, 212 Fourth St SW",
-    "town": "Cullman",
-    "host": "Cullman Veterans Hall of Fame",
-    "summary": "This year's class of inductees will be honored at a dinner and ceremony. The event was moved to this new date, and ticket details are coming soon.",
-    "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
-    "group": "Community and Fun",
-    "tags": [
-      "veterans",
-      "hall of fame",
-      "dinner",
-      "military"
     ]
   },
   {
@@ -722,6 +800,26 @@
       "lions",
       "college"
     ]
+  },
+  {
+    "name": "The Nutcracker with Ballet South",
+    "start": "2026-11-21",
+    "end": "2026-11-22",
+    "time": "2:00 PM and 7:00 PM Nov 21; 2:00 PM Nov 22",
+    "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
+    "town": "Hanceville",
+    "host": "Ballet South at Wallace State",
+    "cost": "$15 adults, $10 children",
+    "summary": "Ballet South brings its yearly Nutcracker to Wallace State, following Clara's dream through the Land of Sweets.",
+    "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
+    "tags": [
+      "nutcracker",
+      "ballet",
+      "christmas",
+      "wallace state",
+      "family"
+    ],
+    "group": "Community and Fun"
   },
   {
     "name": "Wallace State Women's Basketball: Wallace State Classic vs. Chipola",
@@ -793,6 +891,25 @@
       "bulldogs",
       "home game"
     ]
+  },
+  {
+    "name": "Christmas Spectacular at Wallace State",
+    "start": "2026-12-10",
+    "time": "7:00 PM",
+    "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
+    "town": "Hanceville",
+    "host": "Wallace State Fine and Performing Arts",
+    "cost": "Free",
+    "summary": "Every Wallace State performing arts group shares the stage for a holiday concert.",
+    "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
+    "tags": [
+      "christmas",
+      "concert",
+      "wallace state",
+      "free",
+      "holiday"
+    ],
+    "group": "Community and Fun"
   },
   {
     "name": "Hanceville Holly Market",

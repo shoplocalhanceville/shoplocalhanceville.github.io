@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:the_butcher_s_smoke_and_flames_bbq_cookoff_and_festival-20261024@hanc
+ eville-entertainment-shopping
+DTSTAMP:20261023T120000Z
+DTSTART;TZID=America/Chicago:20261024T100000
+DTEND;TZID=America/Chicago:20261024T180000
+SUMMARY:The Butcher's Smoke and Flames BBQ Cookoff and Festival
+LOCATION:266 Park Drive\, Vinemont\, AL
+DESCRIPTION:A KCBS sanctioned barbecue contest in chicken and ribs\, plus
+  a People's Choice Boston butt contest\, desserts\, live music\, a car s
+ how and local vendors. Time: 10:00 AM to 6:00 PM. https://www.cullmantri
+ bune.com/2026/10/20/fire-up-your-appetite-the-butchers-smoke-flames-bbq-
+ cookoff-set-for-oct-24/
+URL:https://www.cullmantribune.com/2026/10/20/fire-up-your-appetite-the-b
+ utchers-smoke-flames-bbq-cookoff-set-for-oct-24/
+END:VEVENT
+END:VCALENDAR
