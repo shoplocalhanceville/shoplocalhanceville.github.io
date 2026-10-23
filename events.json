@@ -559,6 +559,23 @@
     ]
   },
   {
+    "name": "Veterans Day",
+    "start": "2026-11-11",
+    "time": "All day",
+    "venue": "Hanceville City Hall, 112 Main St SE",
+    "town": "Hanceville",
+    "host": "City of Hanceville",
+    "cost": "Free",
+    "summary": "Veterans Day is marked on the city calendar. If you need to visit City Hall that day, call ahead at (256) 352-9830 to check whether offices are open.",
+    "url": "https://www.cityofhanceville.net/events?id=52393701",
+    "tags": [
+      "veterans day",
+      "city calendar",
+      "holiday"
+    ],
+    "group": "Community and Fun"
+  },
+  {
     "name": "Hanceville City Council Meeting",
     "start": "2026-11-12",
     "time": "6:00 PM work session, regular meeting right after",
