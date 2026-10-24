@@ -46,3 +46,6 @@ The home page is a news front page built by `../build.py` from `news.json`. Each
 - `games`: `{id, school, label, sport, period ("Q" or "Set"), start (ISO with offset), venue, home, away, status ("Upcoming", "Live" or "Final"), score: {home, away} or null, line: {home: [...], away: [...]} or null, now (live clock text, optional), note, source: {name, url}}`.
 - For each school the card shows the live game, or else the last final and the next game.
 - During a game, edit `score`, `line`, `now`, `status` and `updated` (the GitHub mobile app works) and commit. Pages usually publishes in about a minute, and open browsers pick it up within the next minute. No build step is needed for scores.
+
+## SEO check before every commit
+Run `python3 tools/seo_head.py` from the repo root and make sure it prints `SEO OK`. See CHANGES-SEO.md.
