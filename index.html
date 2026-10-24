@@ -1012,5 +1012,6 @@ function openFromHash(){
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",openFromHash);else openFromHash();
 })();
-</script></body>
+</script><script>if('serviceWorker' in navigator&&location.protocol==='https:')window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});</script>
+</body>
 </html>

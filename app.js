@@ -169,3 +169,5 @@ if(gcBox){loadGC();gcTimer=setInterval(function(){if(!document.hidden)loadGC();}
 var np=document.getElementById('news-prev');
 if(np)get(pg('news')).then(function(d){d.slice(0,3).forEach(function(e){np.appendChild(card(e,'news'));});});
 })();
+
+if('serviceWorker' in navigator&&location.protocol==='https:')window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});
