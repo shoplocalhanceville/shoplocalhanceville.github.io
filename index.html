@@ -326,11 +326,11 @@ img{max-width:100%}
 </defs></svg>
 
 <header class="topbar">   <a class="brand" href="index.html">★ Hanceville Entertainment and Shopping</a>   <span style="margin-left:auto"></span>   <button class="daynight" id="themeToggle" type="button" aria-pressed="false"><svg class="ic"><use href="#i-moon"/></svg> Night</button>
-   <button class="daynight" id="langBtn" type="button" aria-label="Cambiar a espa\u00f1ol / Switch to Spanish">ES &#183; Espa\u00f1ol</button>
+   <button class="daynight" id="langBtn" type="button" aria-label="ES &#183; Español, cambiar a español, switch to Spanish">ES &#183; Español</button>
    <div class="menuWrap">
     <button class="daynight" id="menuBtn" type="button" aria-haspopup="true" aria-expanded="false" data-i18n="Menu"><svg class="ic"><use href="#i-list"/></svg> Menu</button>
     <div class="menuPanel" id="menuPanel" hidden>
-     <a href="#" id="menuLang">Ver en espa\u00f1ol</a>
+     <a href="#" id="menuLang">Ver en español</a>
      <a href="#results" data-menu="search" data-i18n="Search listings">Search listings</a>
      <a href="#krail" data-i18n="Browse by kind">Browse by kind</a>
      <a href="#frail" data-i18n="Featured listings">Featured listings</a>
@@ -1000,8 +1000,7 @@ if(orail){orail.querySelectorAll("figure").forEach(function(fig){
   OFF.forEach(function(o){if(normName(o.name)===normName(nm)&&(o.role===role||role.indexOf(o.role)===0||o.role.indexOf(role)===0))match=o;});
   if(!match)OFF.forEach(function(o){if(normName(o.name)===normName(nm)&&!match)match=o;});
   if(!match)return;
-  fig.style.cursor="pointer";fig.setAttribute("role","button");fig.setAttribute("tabindex","0");
-  fig.setAttribute("aria-label",nm+" - "+T("View profile"));
+  fig.style.cursor="pointer";var vb=document.createElement("button");vb.type="button";vb.textContent=nm+", "+T("View profile");vb.style.cssText="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap";vb.addEventListener("click",function(ev){ev.stopPropagation();openOfficial(match,img.src);});fig.appendChild(vb);
   fig.addEventListener("click",function(){openOfficial(match,img.src);});
   fig.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();openOfficial(match,img.src);}});
 });}
