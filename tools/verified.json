@@ -1,0 +1,22 @@
+{
+  "_readme": "Hand-verified facts that override or extend the data files. Only add a value after checking it on an official source the same day. Every entry needs source URLs and a checked date. hours_spec feeds openingHoursSpecification in JSON-LD, so only add it when the hours come from the business itself (its site, its Facebook Page, or a listing the owner has claimed). Never add geo coordinates unless they come from an official record.",
+  "cut-n-up-barber-and-style": {
+    "schema_type": "BarberShop",
+    "facebook": "https://www.facebook.com/cutntnupbarberandstyle/",
+    "phone": "(256) 636-2018",
+    "address": "105 Commercial St SE, Hanceville, AL 35077",
+    "hours": "Tuesday and Thursday 8 AM to 5 PM; Wednesday and Friday 9 AM to 5 PM; Saturday 8 AM to 2 PM; closed Sunday and Monday",
+    "hours_source": "https://www.yelp.com/biz/cut-n-up-barber-and-style-hanceville",
+    "hours_source_label": "Hours as posted on the business's owner-claimed Yelp page",
+    "hours_spec": [
+      {"days": ["Tuesday", "Thursday"], "opens": "08:00", "closes": "17:00"},
+      {"days": ["Wednesday", "Friday"], "opens": "09:00", "closes": "17:00"},
+      {"days": ["Saturday"], "opens": "08:00", "closes": "14:00"}
+    ],
+    "sources": [
+      {"url": "https://www.facebook.com/cutntnupbarberandstyle/", "label": "Official Facebook Page (name, services, phone, address)"},
+      {"url": "https://www.yelp.com/biz/cut-n-up-barber-and-style-hanceville", "label": "Owner-claimed Yelp page (hours)"}
+    ],
+    "verified": "2026-10-24"
+  }
+}

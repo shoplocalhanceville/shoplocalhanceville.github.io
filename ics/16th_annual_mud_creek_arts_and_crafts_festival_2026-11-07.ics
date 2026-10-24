@@ -21,19 +21,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:16th_annual_mud_creek_arts_and_crafts_festival-20261107@hanceville-en
- tertainment-shopping
-DTSTAMP:20261017T120000Z
+UID:16th_annual_mud_creek_arts_and_crafts_festival-20261107@hanceville-ente
+ rtainment-shopping
+DTSTAMP:20261024T190000Z
 DTSTART;TZID=America/Chicago:20261107T090000
 DTEND;TZID=America/Chicago:20261107T160000
 SUMMARY:16th Annual Mud Creek Arts and Crafts Festival
-LOCATION:Historic Downtown Hanceville\, 110 Commercial St\, Hanceville\, 
- AL
-DESCRIPTION:Downtown turns into a big street fair with craft vendors\, fo
- od\, kids activities and music. Proceeds go to Hanceville schools and the
-  city. Time: 9:00 AM to 4:00 PM. https://alabama.travel/events/2026-mud-c
- reek-arts-and-crafts-festival/
-URL:https://alabama.travel/events/2026-mud-creek-arts-and-crafts-festival
- /
+LOCATION:Historic Downtown Hanceville\, 106 Commercial St NE\, Hanceville\,
+  AL
+DESCRIPTION:Downtown Hanceville turns into a free street fair with handmade
+  goods\, food trucks\, kids activities and shops open along Commercial Str
+ eet. It goes on rain or shine. Time: 9:00 AM to 4:00 PM. https://www.cullm
+ antribune.com/2026/10/24/16th-annual-mud-creek-arts-crafts-festival-set-fo
+ r-nov-7/
+URL:https://www.cullmantribune.com/2026/10/24/16th-annual-mud-creek-arts-cr
+ afts-festival-set-for-nov-7/
 END:VEVENT
 END:VCALENDAR
