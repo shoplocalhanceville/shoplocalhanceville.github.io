@@ -23,6 +23,7 @@ htmls=sorted(glob.glob('*.html'))
 for f in htmls:
   s=open(f,encoding='utf-8').read()
   body=re.sub(r'<script.*?</script>','',s,flags=re.S)
+  if re.search(r'(src|href)="http://',s):prob('insecure-link',f'{f}: has an http:// link (monitor.py fails on this)')
   ids=set(re.findall(r'\bid="([^"]+)"',body))
   for h in re.findall(r'(?:href|src)="([^"]+)"',body):
     h=html.unescape(h)

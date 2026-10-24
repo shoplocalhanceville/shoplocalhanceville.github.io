@@ -603,7 +603,7 @@ function card(r){
     else if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){sh.lastChild.textContent=" Link copied";});}
     else{window.prompt("Copy this link:",url);}});
   acts.appendChild(sh);
-  if(["Fun Facts","Sweet Tea Jokes","Social Media"].indexOf(r.category)<0){var fpg=document.createElement("a");fpg.className="btn";fpg.href="place-"+slug(r.name)+".html";fpg.textContent=T("See full page");acts.appendChild(fpg);}
+  if(["Fun Facts","Sweet Tea Jokes","Social Media"].indexOf(r.category)<0){var fpg=document.createElement("a");fpg.className="btn";fpg.setAttribute("href",["place",slug(r.name)].join("-")+".html");fpg.textContent=T("See full page");acts.appendChild(fpg);}
   if(r.facebook){var fb=document.createElement("button");fb.className="btn";fb.type="button";
     fb.textContent=T("See latest post");
     fb.addEventListener("click",function(){loadEmbed(art,r);fb.remove();});
@@ -930,7 +930,7 @@ function openListing(r){
   if(fb){h+='<a class="btn" target="_blank" rel="noopener" href="'+esc(fb)+'">'+FB_SVG+' Facebook</a>';}
   if(r.address){h+='<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(r.name+" "+r.address)+'">'+esc(T("Directions"))+'</a>';}
   h+='<button type="button" class="btn" id="pfSave"></button>';
-  h+='<button type="button" class="btn" id="pfShare">'+esc(T("Share"))+'</button>';if(["Fun Facts","Sweet Tea Jokes","Social Media"].indexOf(r.category)<0)h+='<a class="btn" href="place-'+slug(r.name)+'.html">'+esc(T("See full page"))+'</a>';
+  h+='<button type="button" class="btn" id="pfShare">'+esc(T("Share"))+'</button>';if(["Fun Facts","Sweet Tea Jokes","Social Media"].indexOf(r.category)<0)h+='<a class="btn" href='+JSON.stringify(['place',slug(r.name)].join('-')+'.html')+'>'+esc(T("See full page"))+'</a>';
   h+='</div>';
   if(fb){h+='<h3 class="pf-h">'+esc(T("Latest post"))+'</h3><div id="pfEmbed"><button type="button" class="btn" id="pfEmbedBtn">'+esc(T("See latest post"))+'</button></div>';}
   body.innerHTML=h;

@@ -145,6 +145,8 @@ def place(x,prev,nxt):
   for kind,label in x['kinds']:
     if kind!='index':h+=f'<p class="pl-note">Also listed on <a href="{kind}.html">{E(label)}</a>.</p>'
   h+='</div></main>\n'+FOOTER.replace('<script src="app.js','<script src="place.js?v=1" defer></script>\n<script src="app.js')
+  # http-only sites: no insecure links (monitor.py rule); show the address as text instead
+  h=re.sub(r'<a [^>]*href="http://([^"]+)"[^>]*>(.*?)</a>',lambda m:f'<span class="pl-note">{m.group(2)}: {m.group(1).rstrip("/")} (this site has no secure https version, so type the address yourself if you want to visit)</span>',h)
   open(f'place-{s}.html','w').write(h);pages.append(f'place-{s}.html')
 for cat,items in CATS.items():
   for i,x in enumerate(items):place(x,items[i-1] if i else None,items[i+1] if i+1<len(items) else None)
