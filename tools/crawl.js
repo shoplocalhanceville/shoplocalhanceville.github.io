@@ -13,7 +13,7 @@ for(const [vp,size] of [['desktop',{width:1350,height:900}],['mobile',{width:390
   let st=0;try{const r=await p.goto(base+u,{waitUntil:'domcontentloaded',timeout:60000});st=r?r.status():0;await p.waitForTimeout(400);}catch(e){st=-1}
   if(st!==200){res.broken.push({vp,url:u,status:st});continue}
   const info=await p.evaluate(()=>{const a=[...document.querySelectorAll('a[href]')].map(x=>x.getAttribute('href'));
-   const tabs=[...document.querySelectorAll('[role=tab],button[data-tab],[data-target],button[aria-controls]')].map((t,i)=>({i,txt:(t.innerText||t.getAttribute('aria-label')||'').trim().slice(0,40),ctl:t.getAttribute('aria-controls')||t.dataset.tab||t.dataset.target||''}));
+   const tabs=[...document.querySelectorAll('[role=tab],button[data-tab],[data-target],button[aria-controls]:not(#tab-toggle)')].map((t,i)=>({i,txt:(t.innerText||t.getAttribute('aria-label')||'').trim().slice(0,40),ctl:t.getAttribute('aria-controls')||t.dataset.tab||t.dataset.target||''}));
    const hashes=a.filter(h=>h.startsWith('#')&&h.length>1).filter(h=>{try{return !document.querySelector(h)}catch(e){return true}});
    const empty=[...document.querySelectorAll('section,[role=tabpanel]')].filter(s=>s.innerText.trim().length<3&&!s.hidden&&s.offsetParent).map(s=>s.id||s.className);
    return {a,tabs,hashes,empty,words:document.body.innerText.split(/\s+/).length}});

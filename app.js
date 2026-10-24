@@ -53,6 +53,7 @@ function card(e,kind){var sk=schoolOf(e.name,e.host);var c=el('article','card '+
  if(kind==='events'){if(e.url)a.appendChild(btn(isFb(e.url)?'View on Facebook':'Event details',e.url,'alt3',1,(isFb(e.url)?'View on Facebook: ':'Event details: ')+e.name));var ia=el('a','btn alt3','\ud83d\udcc5 Add to calendar');ia.href=icsName(e);ia.setAttribute('download','');ia.setAttribute('aria-label','Add to calendar: '+e.name);a.appendChild(ia);}
  else{var site=e.website&&!isFb(e.website)?e.website:null,fb=e.facebook||(isFb(e.website)?e.website:null);if(site)a.appendChild(btn('\ud83c\udf10 Website',site,'alt3',1,'Website: '+e.name));else if(fb)a.appendChild(btn('Facebook',fb,'alt3',1,'Facebook: '+e.name));}
  if(e.email)a.appendChild(btn('\u2709\ufe0f Email','mailto:'+e.email,'alt3',0,'Email '+e.name));
+ if(['businesses','shops','eats','nonprofits','city','departments','directory','resources','wallace','council'].indexOf(kind)>=0){var fp=el('a','btn alt3','See full page');fp.href='place-'+e.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'.html';fp.setAttribute('aria-label','See full page: '+e.name);a.appendChild(fp);}
  if(a.childNodes.length)c.appendChild(a);
  var src=safe(e.source);if(src&&src!==e.website&&src!==e.url){var sp=el('p','src');var sl=el('a',null,'Source');sl.href=src;sl.target='_blank';sl.rel='noopener noreferrer';sl.setAttribute('aria-label','Source for '+e.name);sp.appendChild(sl);c.appendChild(sp);}
  return c;}
