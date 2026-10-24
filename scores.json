@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T14:20:00-05:00",
+ "updated": "2026-10-23T21:10:00-05:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -136,13 +136,16 @@
    "venue": "Ray Talley Stadium, Hanceville",
    "home": "hanceville",
    "away": "oneonta",
-   "status": "Upcoming",
-   "score": null,
+   "status": "Final",
+   "score": {
+    "home": 0,
+    "away": 62
+   },
    "line": null,
-   "note": "Class 3A, Region 6. Oneonta comes in at 8 and 1. The Bulldogs are 0 and 8, 0 and 6 in region.",
+   "note": "Class 3A, Region 6. Final home game of the season. The Bulldogs fall to 0 and 9, 0 and 7 in region, and close the season at Elkmont on Oct. 30.",
    "source": {
-    "name": "MaxPreps schedule",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/"
+    "name": "AL.com Week 10 live scores",
+    "url": "https://www.al.com/highschoolsports/2026/10/football-high-live-scores-updates-as-region-titles-playoff-spots-are-clinched.html"
    }
   },
   {
