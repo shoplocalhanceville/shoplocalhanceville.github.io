@@ -161,11 +161,15 @@
    "fade"
   ],
   "address": "105 Commercial St SE, Hanceville, AL 35077",
-  "summary": "A family barbershop open since 2008, right next door to Hanceville Drug Co. They cut hair for men, women and kids. Walk ins are welcome for haircuts, and color and perms are by appointment.",
+  "summary": "A family barbershop open since 2008, right next door to Hanceville Drug Co. The shop cuts hair for men, women and kids. Walk ins are welcome for haircuts and styling, and color and perms are by appointment only.",
   "phone": "(256) 636-2018",
-  "facebook": "https://www.facebook.com/147243128973265",
+  "facebook": "https://www.facebook.com/cutntnupbarberandstyle/",
   "logo": "logos/cut-n-up-barber-and-style.webp",
-  "logo_source": "https://www.facebook.com/147243128973265"
+  "logo_source": "https://www.facebook.com/147243128973265",
+  "hours": "Tuesday and Thursday 8 AM to 5 PM; Wednesday and Friday 9 AM to 5 PM; Saturday 8 AM to 2 PM; closed Sunday and Monday",
+  "hours_source": "https://www.yelp.com/biz/cut-n-up-barber-and-style-hanceville",
+  "source": "https://www.facebook.com/cutntnupbarberandstyle/",
+  "verified": "2026-10-24"
  },
  {
   "category": "Barbers & Salons",

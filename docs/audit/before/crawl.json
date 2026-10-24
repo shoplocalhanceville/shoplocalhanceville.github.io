@@ -1,0 +1,1083 @@
+{
+ "base": "https://shoplocalhanceville.github.io/",
+ "pages": {
+  "desktop:index.html": {
+   "words": 2136,
+   "links": 85,
+   "tabs": 0,
+   "errors": []
+  },
+  "desktop:directory.html": {
+   "words": 1179,
+   "links": 116,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:businesses.html": {
+   "words": 2290,
+   "links": 177,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:eats.html": {
+   "words": 935,
+   "links": 98,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:shops.html": {
+   "words": 666,
+   "links": 77,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:nonprofits.html": {
+   "words": 665,
+   "links": 76,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:resources.html": {
+   "words": 3304,
+   "links": 194,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:city.html": {
+   "words": 1747,
+   "links": 142,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:events.html": {
+   "words": 5638,
+   "links": 275,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:news.html": {
+   "words": 2132,
+   "links": 166,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:wallace.html": {
+   "words": 1151,
+   "links": 124,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:departments.html": {
+   "words": 1470,
+   "links": 156,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:council.html": {
+   "words": 1549,
+   "links": 122,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:fun.html": {
+   "words": 774,
+   "links": 69,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-council-oct-22-agenda-holidays-tax-holiday.html": {
+   "words": 884,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-council-roads-vehicles-fire-chief.html": {
+   "words": 938,
+   "links": 64,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-council-section-oct-22-meeting.html": {
+   "words": 755,
+   "links": 65,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-city-council-meeting-records.html": {
+   "words": 575,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-city-budget-fy2027.html": {
+   "words": 687,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-vehicle-policy-fuel-costs.html": {
+   "words": 600,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-aldot-grant-drainage-sidewalks.html": {
+   "words": 599,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-wallace-state-record-fall-enrollment-7141.html": {
+   "words": 718,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-hhs-nhs-chapter-of-distinction.html": {
+   "words": 668,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-hhs-fall-break-red-ribbon-week.html": {
+   "words": 636,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-cold-springs-west-point-volleyball-state-tournament.html": {
+   "words": 800,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-cullman-county-friday-football-roundup-oct-23.html": {
+   "words": 899,
+   "links": 68,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-bulldogs-fall-to-oneonta-elkmont-next.html": {
+   "words": 705,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-wallace-volleyball-14-straight-tournament.html": {
+   "words": 868,
+   "links": 67,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-bulldogs-host-oneonta-friday.html": {
+   "words": 699,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-wallace-volleyball-win-streak.html": {
+   "words": 701,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-bulldogs-hokes-bluff-oneonta-next.html": {
+   "words": 728,
+   "links": 64,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-sheriff-litter-deputy-35-tons-a-year.html": {
+   "words": 741,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-st-john-church-fire-investigation.html": {
+   "words": 688,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-weekend-weather-sunny-crisp.html": {
+   "words": 637,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-senior-day-cullman-county-fair-500.html": {
+   "words": 759,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-county-commission-sirens-hazard-plan-new-members.html": {
+   "words": 876,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-sunny-weekend-trunk-or-treats-bbq.html": {
+   "words": 805,
+   "links": 65,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-listerhill-cullman-branch-10k-schools.html": {
+   "words": 745,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-curts-closet-christmas-toy-drive.html": {
+   "words": 776,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-americas-thrift-cullman-november.html": {
+   "words": 688,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-ms-walk-awareness-day.html": {
+   "words": 726,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-cipollari-randy-travis-benefit.html": {
+   "words": 716,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-youth-leadership-agriplex-luncheon.html": {
+   "words": 625,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-country-wok-new-menu-ramen-wontons.html": {
+   "words": 719,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-wallace-state-performing-arts-season.html": {
+   "words": 838,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-register-by-oct-19-nov-3-ballot.html": {
+   "words": 981,
+   "links": 64,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-for-kids-sake-auditions-oct-20.html": {
+   "words": 722,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-holly-market-vendors-wanted.html": {
+   "words": 572,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "desktop:story-knapsacks-for-kids-support.html": {
+   "words": 566,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:index.html": {
+   "words": 2136,
+   "links": 85,
+   "tabs": 0,
+   "errors": []
+  },
+  "mobile:directory.html": {
+   "words": 1083,
+   "links": 116,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:businesses.html": {
+   "words": 2169,
+   "links": 177,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:eats.html": {
+   "words": 842,
+   "links": 98,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:shops.html": {
+   "words": 579,
+   "links": 77,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:nonprofits.html": {
+   "words": 575,
+   "links": 76,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:resources.html": {
+   "words": 3200,
+   "links": 194,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:city.html": {
+   "words": 1648,
+   "links": 142,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:events.html": {
+   "words": 5551,
+   "links": 275,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:news.html": {
+   "words": 2038,
+   "links": 166,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:wallace.html": {
+   "words": 1048,
+   "links": 124,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:departments.html": {
+   "words": 1366,
+   "links": 156,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:council.html": {
+   "words": 1452,
+   "links": 122,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:fun.html": {
+   "words": 684,
+   "links": 69,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-council-oct-22-agenda-holidays-tax-holiday.html": {
+   "words": 804,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-council-roads-vehicles-fire-chief.html": {
+   "words": 858,
+   "links": 64,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-council-section-oct-22-meeting.html": {
+   "words": 675,
+   "links": 65,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-city-council-meeting-records.html": {
+   "words": 495,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-city-budget-fy2027.html": {
+   "words": 607,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-vehicle-policy-fuel-costs.html": {
+   "words": 520,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-aldot-grant-drainage-sidewalks.html": {
+   "words": 519,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-wallace-state-record-fall-enrollment-7141.html": {
+   "words": 638,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-hhs-nhs-chapter-of-distinction.html": {
+   "words": 588,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-hhs-fall-break-red-ribbon-week.html": {
+   "words": 556,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-cold-springs-west-point-volleyball-state-tournament.html": {
+   "words": 720,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-cullman-county-friday-football-roundup-oct-23.html": {
+   "words": 819,
+   "links": 68,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-bulldogs-fall-to-oneonta-elkmont-next.html": {
+   "words": 625,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-wallace-volleyball-14-straight-tournament.html": {
+   "words": 788,
+   "links": 67,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-bulldogs-host-oneonta-friday.html": {
+   "words": 619,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-wallace-volleyball-win-streak.html": {
+   "words": 621,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-bulldogs-hokes-bluff-oneonta-next.html": {
+   "words": 648,
+   "links": 64,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-sheriff-litter-deputy-35-tons-a-year.html": {
+   "words": 661,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-st-john-church-fire-investigation.html": {
+   "words": 608,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-weekend-weather-sunny-crisp.html": {
+   "words": 557,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-senior-day-cullman-county-fair-500.html": {
+   "words": 679,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-county-commission-sirens-hazard-plan-new-members.html": {
+   "words": 796,
+   "links": 63,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-sunny-weekend-trunk-or-treats-bbq.html": {
+   "words": 725,
+   "links": 65,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-listerhill-cullman-branch-10k-schools.html": {
+   "words": 665,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-curts-closet-christmas-toy-drive.html": {
+   "words": 696,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-americas-thrift-cullman-november.html": {
+   "words": 608,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-ms-walk-awareness-day.html": {
+   "words": 646,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-cipollari-randy-travis-benefit.html": {
+   "words": 636,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-youth-leadership-agriplex-luncheon.html": {
+   "words": 545,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-country-wok-new-menu-ramen-wontons.html": {
+   "words": 639,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-wallace-state-performing-arts-season.html": {
+   "words": 758,
+   "links": 62,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-register-by-oct-19-nov-3-ballot.html": {
+   "words": 901,
+   "links": 64,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-for-kids-sake-auditions-oct-20.html": {
+   "words": 642,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-holly-market-vendors-wanted.html": {
+   "words": 492,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  },
+  "mobile:story-knapsacks-for-kids-support.html": {
+   "words": 486,
+   "links": 61,
+   "tabs": 1,
+   "errors": []
+  }
+ },
+ "broken": [],
+ "deadTabs": [
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#cut-n-up-barber-and-style"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#dual-enrollment"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#duchess-bakery"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#duncan-bridge-marina-arley"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#duskin-point-marina-jasper-smith-lake"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#dusty-s-small-engines"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#east-point-animal-hospital-cullman"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#eg-s-bbq"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#electrical"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#elevate-cullman"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#ellis-chiropractic-center"
+  },
+  {
+   "vp": "desktop",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#emergency-call-911"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#cut-n-up-barber-and-style"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#dual-enrollment"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#duchess-bakery"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#duncan-bridge-marina-arley"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#duskin-point-marina-jasper-smith-lake"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#dusty-s-small-engines"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#east-point-animal-hospital-cullman"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#eg-s-bbq"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#electrical"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#elevate-cullman"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#ellis-chiropractic-center"
+  },
+  {
+   "vp": "mobile",
+   "url": "index.html",
+   "kind": "missing-anchor",
+   "target": "#emergency-call-911"
+  },
+  {
+   "vp": "mobile",
+   "url": "directory.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "businesses.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "eats.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "shops.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "nonprofits.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "resources.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "city.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "events.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "news.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "wallace.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "departments.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "council.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "fun.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-council-oct-22-agenda-holidays-tax-holiday.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-council-roads-vehicles-fire-chief.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-council-section-oct-22-meeting.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-city-council-meeting-records.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-city-budget-fy2027.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-vehicle-policy-fuel-costs.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-aldot-grant-drainage-sidewalks.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-wallace-state-record-fall-enrollment-7141.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-hhs-nhs-chapter-of-distinction.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-hhs-fall-break-red-ribbon-week.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-cold-springs-west-point-volleyball-state-tournament.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-cullman-county-friday-football-roundup-oct-23.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-bulldogs-fall-to-oneonta-elkmont-next.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-wallace-volleyball-14-straight-tournament.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-bulldogs-host-oneonta-friday.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-wallace-volleyball-win-streak.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-bulldogs-hokes-bluff-oneonta-next.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-sheriff-litter-deputy-35-tons-a-year.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-st-john-church-fire-investigation.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-weekend-weather-sunny-crisp.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-senior-day-cullman-county-fair-500.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-county-commission-sirens-hazard-plan-new-members.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-sunny-weekend-trunk-or-treats-bbq.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-listerhill-cullman-branch-10k-schools.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-curts-closet-christmas-toy-drive.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-americas-thrift-cullman-november.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-ms-walk-awareness-day.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-cipollari-randy-travis-benefit.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-youth-leadership-agriplex-luncheon.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-country-wok-new-menu-ramen-wontons.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-wallace-state-performing-arts-season.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-register-by-oct-19-nov-3-ballot.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-for-kids-sake-auditions-oct-20.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-holly-market-vendors-wanted.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  },
+  {
+   "vp": "mobile",
+   "url": "story-knapsacks-for-kids-support.html",
+   "kind": "tab-target-empty",
+   "target": "tabs",
+   "label": "☰\nMenu"
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages": 98,
+  "broken": 0,
+  "deadTabs": 72,
+  "pagesWithErrors": 0
+ }
+}
