@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:christmas_at_the_grotto-20261119@hanceville-entertainment-shopping
+DTSTAMP:20261030T160000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261228
+SUMMARY:Christmas at the Grotto
+LOCATION:Ave Maria Grotto\, 1600 St. Bernard Dr SE\, Cullman\, AL
+DESCRIPTION:Brother Joseph Zoettl's miniature shrines glow under holiday l
+ ights with music\, food and family fun. Santa\, $7 horse drawn wagon ride
+ s\, live music and food trucks are planned for the special weekend of Dec
+ . 11 and 12. Time: Nov. 19 to 22\, Nov. 27 to 29\, Dec. 3 to 6\, Dec. 10 
+ to 23 and Dec. 26 to 27\; 9:00 AM to 9:00 PM Monday to Saturday\, 12:00 P
+ M to 9:00 PM Sunday\; lights on at 5:00 PM. https://www.avemariagrotto.co
+ m/
+URL:https://www.avemariagrotto.com/
+END:VEVENT
+END:VCALENDAR

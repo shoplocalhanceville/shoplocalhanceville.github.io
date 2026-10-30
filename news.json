@@ -41,6 +41,35 @@
   ]
  },
  {
+  "id": "halloween-weekend-forecast-2026",
+  "date": "2026-10-30",
+  "category": "Weather",
+  "graphic": "🌂",
+  "headline": "Dry skies for Friday night trunk or treats, but showers are likely on Halloween night",
+  "summary": "The National Weather Service calls for a mostly cloudy, mild Friday night, then a 30 percent chance of showers Saturday afternoon that climbs to 60 percent after dark on Halloween.",
+  "body": [
+   "Good news for tonight's trunk or treats: the National Weather Service forecast for Hanceville calls for a mostly sunny Friday with a high near 79, then a mostly cloudy night with a low around 57 and only a light breeze.",
+   "Halloween itself looks less certain. Saturday should be mostly cloudy with a high near 75, and showers become possible after 3 PM, with about a 30 percent chance. East winds of 5 to 10 mph could gust to 20 mph. Rainfall during the day should stay under a tenth of an inch.",
+   "Saturday night is the wetter part of the weekend. The forecast gives showers a 60 percent chance after dark, with a low around 55 and gusts up to 25 mph. Rain stays likely on Sunday, at about 70 percent, with a cooler high near 66.",
+   "If your family has plans Saturday, like the Drive Through Trick or Treat at Hanceville Fire Station #1 from 4 PM to 8 PM, the Berlin trunk or treat or Nightmare on Woodland Street in Cullman, pack rain jackets and check the host's page before you head out in case times change. No weather alerts were active for Hanceville as of Friday morning. Forecasts change, so check weather.gov for the latest."
+  ],
+  "sources": [
+   {
+    "name": "National Weather Service Huntsville: Forecast for Hanceville (issued Oct. 30, 2026)",
+    "url": "https://forecast.weather.gov/MapClick.php?lat=34.06&lon=-86.77"
+   }
+  ],
+  "tags": [
+   "weather",
+   "halloween",
+   "forecast",
+   "rain",
+   "hanceville",
+   "cullman county",
+   "trick or treat"
+  ]
+ },
+ {
   "id": "library-short-story-challenge-november-2026",
   "date": "2026-10-30",
   "category": "Around the County",

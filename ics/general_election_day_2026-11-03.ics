@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:general_election_day-20261103@hanceville-entertainment-shopping
+DTSTAMP:20261030T160000Z
+DTSTART;TZID=America/Chicago:20261103T070000
+DTEND;TZID=America/Chicago:20261103T190000
+SUMMARY:General Election Day
+LOCATION:Cullman County\, AL
+DESCRIPTION:Polls are open 7 AM to 7 PM for the Nov. 3 general election. C
+ ullman County ballots carry state races\, four statewide amendments and a
+  local question on a property tax break for qualifying seniors. Find your
+  polling place and sample ballot on AlabamaVotes.gov. Time: Polls open 7:
+ 00 AM to 7:00 PM. https://www.sos.alabama.gov/newsroom/secretary-state-we
+ s-allen-issues-important-election-day-reminders-ahead-november-3-general
+URL:https://www.sos.alabama.gov/newsroom/secretary-state-wes-allen-issues-
+ important-election-day-reminders-ahead-november-3-general
+END:VEVENT
+END:VCALENDAR

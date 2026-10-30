@@ -236,6 +236,46 @@
   "group": "Community and Fun"
  },
  {
+  "name": "An Evening with Poe at Jubilee Kitchen and Bar",
+  "start": "2026-11-02",
+  "time": "Cocktail hour 5:00 PM, readings at 6:00 PM",
+  "venue": "Jubilee Kitchen and Bar, 515 Fourth St. SW",
+  "town": "Cullman",
+  "host": "Jubilee Kitchen and Bar and the Cullman County Public Library",
+  "cost": "Reservations required through Jubilee; 21 and older",
+  "summary": "Hear readings of The Tell-Tale Heart, The Raven, The Black Cat and The Cask of Amontillado in the dining room of the historic Flying Fifty Hotel. Seats need a reservation, and cancellations inside 48 hours cost $35 per person.",
+  "url": "https://www.cullmantribune.com/2026/10/27/jubilee-county-library-hosting-an-evening-with-poe-nov-2/",
+  "group": "Community and Fun",
+  "tags": [
+   "poe",
+   "library",
+   "readings",
+   "downtown cullman",
+   "adults",
+   "book lovers"
+  ]
+ },
+ {
+  "name": "General Election Day",
+  "start": "2026-11-03",
+  "time": "Polls open 7:00 AM to 7:00 PM",
+  "venue": "Cullman County polling places (find yours on AlabamaVotes.gov)",
+  "town": "Cullman County",
+  "host": "Alabama Secretary of State and Cullman County Probate Office",
+  "cost": "Free; bring a valid photo ID",
+  "summary": "Polls are open 7 AM to 7 PM for the Nov. 3 general election. Cullman County ballots carry state races, four statewide amendments and a local question on a property tax break for qualifying seniors. Find your polling place and sample ballot on AlabamaVotes.gov.",
+  "url": "https://www.sos.alabama.gov/newsroom/secretary-state-wes-allen-issues-important-election-day-reminders-ahead-november-3-general",
+  "group": "Community and Fun",
+  "tags": [
+   "election",
+   "vote",
+   "polling place",
+   "amendments",
+   "cullman county",
+   "hanceville"
+  ]
+ },
+ {
   "name": "Short Story Writing Workshop at the Cullman County Public Library",
   "start": "2026-11-04",
   "time": "4:00 PM",
@@ -642,6 +682,27 @@
    "winter wonderland",
    "family",
    "holiday"
+  ]
+ },
+ {
+  "name": "Christmas at the Grotto",
+  "start": "2026-11-19",
+  "end": "2026-12-27",
+  "time": "Nov. 19 to 22, Nov. 27 to 29, Dec. 3 to 6, Dec. 10 to 23 and Dec. 26 to 27; 9:00 AM to 9:00 PM Monday to Saturday, 12:00 PM to 9:00 PM Sunday; lights on at 5:00 PM",
+  "venue": "Ave Maria Grotto, 1600 St. Bernard Dr SE",
+  "town": "Cullman",
+  "host": "Ave Maria Grotto",
+  "cost": "Adults $12, seniors and teens $10, kids 5 to 12 and military $9, under 4 free",
+  "summary": "Brother Joseph Zoettl's miniature shrines glow under holiday lights with music, food and family fun. Santa, $7 horse drawn wagon rides, live music and food trucks are planned for the special weekend of Dec. 11 and 12.",
+  "url": "https://www.avemariagrotto.com/",
+  "group": "Community and Fun",
+  "tags": [
+   "christmas",
+   "lights",
+   "ave maria grotto",
+   "holiday",
+   "family",
+   "cullman"
   ]
  },
  {
