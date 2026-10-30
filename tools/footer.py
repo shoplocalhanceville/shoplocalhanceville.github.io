@@ -13,7 +13,7 @@ n=0
 for f in glob.glob('*.html'):
   if f.startswith('google'):continue
   s=open(f,encoding='utf-8').read();o=s
-  s=re.sub(r'<!--foot-links-->.*?<!--/foot-links-->','',s,flags=re.S)
+  s=re.sub(r'(?:\n[ \t]*)*<!--foot-links-->.*?<!--/foot-links-->\n?','\n',s,flags=re.S)
   if '<p class="foot-note">' in s:s=s.replace('<p class="foot-note">',NAV+'\n <p class="foot-note">',1)
   elif '</footer>' in s:s=s.replace('</footer>',NAV+'\n</footer>',1)
   else:print('no footer in',f);continue
