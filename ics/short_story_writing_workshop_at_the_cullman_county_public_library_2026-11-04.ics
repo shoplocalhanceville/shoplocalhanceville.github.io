@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:short_story_writing_workshop_at_the_cullman_county_public_library-2026
+ 1104@hanceville-entertainment-shopping
+DTSTAMP:20261030T150000Z
+DTSTART;TZID=America/Chicago:20261104T160000
+DTEND;TZID=America/Chicago:20261104T170000
+SUMMARY:Short Story Writing Workshop at the Cullman County Public Library
+LOCATION:Cullman County Public Library\, 200 Clark Street NE\, Cullman\, A
+ L
+DESCRIPTION:A free writing workshop for adults and students in grade 5 and
+  up\, held during the library's November short story challenge. Pick up p
+ rompts and entry sheets for stories of 1\,000 to 5\,000 words\, due by No
+ v. 25. Time: 4:00 PM. https://www.cullmantribune.com/2026/10/29/cullman-c
+ ounty-public-library-invites-writers-of-all-ages-to-short-story-challenge
+ /
+URL:https://www.cullmantribune.com/2026/10/29/cullman-county-public-librar
+ y-invites-writers-of-all-ages-to-short-story-challenge/
+END:VEVENT
+END:VCALENDAR
