@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cold_springs_1936_club_trunk_or_treat-20261030@hanceville-entertainmen
+ t-shopping
+DTSTAMP:20261030T120000Z
+DTSTART;TZID=America/Chicago:20261030T173000
+DTEND;TZID=America/Chicago:20261030T190000
+SUMMARY:Cold Springs 1936 Club Trunk or Treat
+LOCATION:Cold Springs High School\, 9010 County Road 109\, Bremen\, AL
+DESCRIPTION:The Cold Springs 1936 Club hosts a trunk or treat in the high 
+ school parking lot\, a quick early stop for families before dark. Time: 5
+ :30 PM to 7:00 PM. https://www.cullmantribune.com/2026/10/27/halloween-ev
+ ents-from-oct-27-31/
+URL:https://www.cullmantribune.com/2026/10/27/halloween-events-from-oct-27
+ -31/
+END:VEVENT
+END:VCALENDAR

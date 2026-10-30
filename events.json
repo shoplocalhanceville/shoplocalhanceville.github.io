@@ -74,6 +74,40 @@
   "group": "Community and Fun"
  },
  {
+  "name": "Cullman Police Department Trunk or Treat",
+  "start": "2026-10-30",
+  "time": "6:00 PM to 8:00 PM",
+  "venue": "Cullman Police Department, 601 Second Ave NE",
+  "town": "Cullman",
+  "host": "Cullman Police Department",
+  "summary": "The ninth annual Trunk or Treat fills the police department parking lot with candy and officers in costume. Bring the kids for a safe night of treats.",
+  "url": "https://cullmantimes.com/2026/10/28/halloween-safety-and-trunk-or-treat-in-cullman/",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "trunk or treat",
+   "kids",
+   "free",
+   "police"
+  ]
+ },
+ {
+  "name": "Cold Springs 1936 Club Trunk or Treat",
+  "start": "2026-10-30",
+  "time": "5:30 PM to 7:00 PM",
+  "venue": "Cold Springs High School, 9010 County Road 109",
+  "town": "Bremen",
+  "host": "Cold Springs 1936 Club",
+  "summary": "The Cold Springs 1936 Club hosts a trunk or treat in the high school parking lot, a quick early stop for families before dark.",
+  "url": "https://www.cullmantribune.com/2026/10/27/halloween-events-from-oct-27-31/",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "trunk or treat",
+   "kids"
+  ]
+ },
+ {
   "name": "Berlin Trunk or Treat",
   "start": "2026-10-31",
   "time": "6:00 PM to 8:00 PM",
@@ -153,6 +187,22 @@
    "cullman"
   ],
   "group": "Community and Fun"
+ },
+ {
+  "name": "Halloween Night at the Cullman Elks Lodge",
+  "start": "2026-10-31",
+  "time": "Doors open 6:00 PM, music at 8:00 PM",
+  "venue": "Cullman Elks Lodge, 1525 Brantley Ave NW",
+  "town": "Cullman",
+  "host": "Cullman Elks Lodge",
+  "summary": "Candy, a costume contest and live music from the Sipsey Falls Band make for a fun Halloween night out at the Elks Lodge.",
+  "url": "https://www.cullmantribune.com/2026/10/27/halloween-events-from-oct-27-31/",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "costume contest",
+   "live music"
+  ]
  },
  {
   "name": "Events and Community Development Committee Meeting",
