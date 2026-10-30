@@ -205,6 +205,25 @@
   ]
  },
  {
+  "name": "Harvest at the Park in Baileyton",
+  "start": "2026-10-31",
+  "time": "10:00 AM to 7:00 PM",
+  "venue": "Baileyton Town Park, 390 Fire Station Road",
+  "town": "Baileyton",
+  "host": "Town of Baileyton",
+  "summary": "Baileyton throws its first Harvest at the Park with live music, costume contests for kids and pets, bounce houses, carnival games, sack races and pickleball. A full day of Halloween fun for the whole family.",
+  "url": "https://www.cullmantribune.com/2026/10/27/halloween-events-from-oct-27-31/",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "festival",
+   "kids",
+   "pets",
+   "live music",
+   "baileyton"
+  ]
+ },
+ {
   "name": "Events and Community Development Committee Meeting",
   "start": "2026-11-02",
   "time": "6:00 PM",
@@ -811,6 +830,25 @@
    "gifts"
   ],
   "group": "Community and Fun"
+ },
+ {
+  "name": "Jingle Bell Run and Holiday Stroll",
+  "start": "2026-12-12",
+  "time": "8:00 AM to 10:30 AM",
+  "venue": "Grace Episcopal Church, 305 Arnold Street NE",
+  "town": "Cullman",
+  "host": "Grace Episcopal Church",
+  "summary": "Grace Episcopal Church hosts its first Christmas Carol Classic, a 5K Jingle Bell Run and 1 mile Holiday Stroll through downtown Cullman past the Christkindlmarkt. Holiday outfits and leashed pets are welcome, and proceeds help local nonprofits.",
+  "url": "https://www.gracecullman.org/upcoming-events",
+  "group": "Community and Fun",
+  "tags": [
+   "5k",
+   "fun run",
+   "christmas",
+   "pets welcome",
+   "charity",
+   "cullman"
+  ]
  },
  {
   "name": "Hanceville Holly Market",

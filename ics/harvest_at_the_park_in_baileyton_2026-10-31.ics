@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:harvest_at_the_park_in_baileyton-20261031@hanceville-entertainment-sho
+ pping
+DTSTAMP:20261030T130000Z
+DTSTART;TZID=America/Chicago:20261031T100000
+DTEND;TZID=America/Chicago:20261031T190000
+SUMMARY:Harvest at the Park in Baileyton
+LOCATION:Baileyton Town Park\, 390 Fire Station Road\, Baileyton\, AL
+DESCRIPTION:Baileyton throws its first Harvest at the Park with live music
+ \, costume contests for kids and pets\, bounce houses\, carnival games\, 
+ sack races and pickleball. A full day of Halloween fun for the whole fami
+ ly. Time: 10:00 AM to 7:00 PM. https://www.cullmantribune.com/2026/10/27/
+ halloween-events-from-oct-27-31/
+URL:https://www.cullmantribune.com/2026/10/27/halloween-events-from-oct-27
+ -31/
+END:VEVENT
+END:VCALENDAR
