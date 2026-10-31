@@ -1,5 +1,39 @@
 [
  {
+  "id": "nov-3-election-where-hanceville-votes",
+  "date": "2026-10-31",
+  "category": "Announcements",
+  "graphic": "🗳️",
+  "headline": "Voting Tuesday? Hanceville's polls are at City Hall and the Civic Center, open 7 AM to 7 PM",
+  "summary": "The Nov. 3 general election notice lists Hanceville City Hall for Precinct 3, Box 1 and Hanceville Civic Center for Precinct 3, Box 2. Bring a photo ID and check your assigned spot before you go.",
+  "body": [
+   "Election Day is Tuesday, Nov. 3, and polls across Cullman County are open from 7 AM to 7 PM. If you are in line by 7 PM, you still get to vote, The Cullman Tribune reported.",
+   "Cullman County's notice for the general election lists two polling places in Hanceville: Hanceville City Hall at 112 Main St. SE for Precinct 3, Box 1, and the Hanceville Civic Center at 902 Commercial St. for Precinct 3, Box 2. Your assigned spot can be different from where you voted in a city election, so check it first on Alabama's official voter lookup at myinfo.alabamavotes.gov or call the Cullman County Board of Registrars at 256-775-4697 or 256-775-4698.",
+   "Bring an accepted photo ID, such as an Alabama driver's license or nondriver ID, an Alabama Photo Voter ID, a U.S. passport, or a qualifying military, tribal, government or college ID. A voter without one can still vote a regular ballot if two poll officials know them and sign an affidavit, or can cast a provisional ballot and bring ID to the Board of Registrars by 5 PM Friday, Nov. 6.",
+   "Absentee ballots dropped off by hand are due by 5 PM Monday, Nov. 2, and mailed ballots must arrive by noon on Election Day. The county's absentee election manager can be reached at 256-775-4654, option 1.",
+   "Accessible voting equipment is at every polling place, and voters over 70 or with mobility disabilities may ask to move to the front of the line. Questions about how the election is run can go to the Cullman County Probate Office at 256-775-4652."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Where to vote and what to know at Cullman County polling places",
+    "url": "https://www.cullmantribune.com/2026/10/31/where-to-vote-and-what-to-know-at-cullman-county-polling-places/"
+   },
+   {
+    "name": "Alabama Votes: Voter lookup",
+    "url": "https://myinfo.alabamavotes.gov/voterview"
+   }
+  ],
+  "tags": [
+   "election",
+   "voting",
+   "polling places",
+   "hanceville city hall",
+   "hanceville civic center",
+   "nov 3",
+   "photo id"
+  ]
+ },
+ {
   "id": "eddie-wilson-foundry-farm-remembered",
   "date": "2026-10-31",
   "category": "Around the County",
