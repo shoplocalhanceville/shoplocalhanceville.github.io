@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T21:10:00-05:00",
+ "updated": "2026-10-30T22:05:00-05:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -155,16 +155,20 @@
    "sport": "Football",
    "period": "Q",
    "start": "2026-10-30T19:00:00-05:00",
-   "venue": "Elkmont",
+   "venue": "Elkmont High School, Elkmont",
    "home": "elkmont",
    "away": "hanceville",
-   "status": "Upcoming",
-   "score": null,
+   "status": "Final",
+   "score": {
+    "home": 48,
+    "away": 8
+   },
    "line": null,
    "source": {
-    "name": "MaxPreps schedule",
-    "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/football/schedule/"
-   }
+    "name": "MaxPreps box score",
+    "url": "https://www.maxpreps.com/al/football/game/elkmont-vs-hanceville/10-30-2026/?c=6df1374e-642a-4731-8ceb-af907d0bd6d3"
+   },
+   "note": "Season finale. Elkmont led 36 to 0 after three quarters, and Hanceville scored its 8 points in the fourth. The Bulldogs finish the season 0 and 10."
   },
   {
    "id": "ws-vb-2026-10-16b",
