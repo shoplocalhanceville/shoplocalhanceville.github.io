@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:halloween_at_baileyton_drag_strip-20261031@hanceville-entertainment-sh
+ opping
+DTSTAMP:20261031T010000Z
+DTSTART;TZID=America/Chicago:20261031T080000
+DTEND;TZID=America/Chicago:20261031T200000
+SUMMARY:Halloween at Baileyton Drag Strip
+LOCATION:Baileyton Drag Strip\, 1500 Summit Road\, Baileyton\, AL
+DESCRIPTION:Spend Halloween at the track. Time trials start at 10 AM\, and
+  kids can trick or treat in the pits starting at 4:30 PM\, along with a c
+ ostume contest. Time: Gates 8:00 AM\, time trials 10:00 AM\, trick or tre
+ at in the pits from 4:30 PM. https://www.cullmantribune.com/2026/10/27/ha
+ lloween-events-from-oct-27-31/
+URL:https://www.cullmantribune.com/2026/10/27/halloween-events-from-oct-27
+ -31/
+END:VEVENT
+END:VCALENDAR

@@ -553,7 +553,7 @@
   "category": "Finance & Insurance",
   "name": "Alfa Insurance, Hanceville Office",
   "address": "908 Main Street NE, Hanceville, AL 35077",
-  "summary": "A local Alfa Insurance office on Main Street for home, auto and other coverage.",
+  "summary": "Stefani Nelson's Alfa office on Main Street handles auto, home and life coverage.",
   "phone": "(256) 352-9871",
   "website": "https://www.alfainsurance.com/agents/stefani-nelson",
   "service": "Insurance agency",
@@ -561,7 +561,8 @@
    "insurance",
    "auto insurance",
    "home insurance"
-  ]
+  ],
+  "hours": "Monday to Friday 8 AM to 5 PM; closed Saturday and Sunday"
  },
  {
   "category": "Shopping & Retail",

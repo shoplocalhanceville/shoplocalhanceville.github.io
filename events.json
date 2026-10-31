@@ -36,7 +36,7 @@
   "name": "Hanceville Bulldogs Football at Elkmont",
   "start": "2026-10-30",
   "time": "7:00 PM",
-  "venue": "Elkmont (away game)",
+  "venue": "Elkmont High School, 25630 Evans Ave",
   "town": "Elkmont",
   "host": "Hanceville High School",
   "summary": "The Bulldogs travel to Elkmont for the last game of the regular season.",
@@ -60,52 +60,6 @@
   "summary": "Sawdust Jukebox plays four hours of classic and 90s country at Goat Island's original taproom. Red Door Deli serves food from 5 to 9:30 p.m. Bring your boots.",
   "url": "https://www.goatislandbrewing.com/events",
   "group": "Community and Fun"
- },
- {
-  "name": "Uganda Spaghetti Fundraiser",
-  "start": "2026-10-30",
-  "time": "5:00 PM to 6:30 PM",
-  "venue": "Northside Baptist Church",
-  "town": "Cullman",
-  "host": "Northside Baptist Church",
-  "cost": "$12 per plate; buy tickets by Oct 28",
-  "summary": "Eat in or take out a spaghetti dinner. The money raised supports the church's 2027 medical mission trip to Uganda.",
-  "url": "https://www.facebook.com/events/1124811586892693/",
-  "group": "Community and Fun"
- },
- {
-  "name": "Cullman Police Department Trunk or Treat",
-  "start": "2026-10-30",
-  "time": "6:00 PM to 8:00 PM",
-  "venue": "Cullman Police Department, 601 Second Ave NE",
-  "town": "Cullman",
-  "host": "Cullman Police Department",
-  "summary": "The ninth annual Trunk or Treat fills the police department parking lot with candy and officers in costume. Bring the kids for a safe night of treats.",
-  "url": "https://cullmantimes.com/2026/10/28/halloween-safety-and-trunk-or-treat-in-cullman/",
-  "group": "Community and Fun",
-  "tags": [
-   "halloween",
-   "trunk or treat",
-   "kids",
-   "free",
-   "police"
-  ]
- },
- {
-  "name": "Cold Springs 1936 Club Trunk or Treat",
-  "start": "2026-10-30",
-  "time": "5:30 PM to 7:00 PM",
-  "venue": "Cold Springs High School, 9010 County Road 109",
-  "town": "Bremen",
-  "host": "Cold Springs 1936 Club",
-  "summary": "The Cold Springs 1936 Club hosts a trunk or treat in the high school parking lot, a quick early stop for families before dark.",
-  "url": "https://www.cullmantribune.com/2026/10/27/halloween-events-from-oct-27-31/",
-  "group": "Community and Fun",
-  "tags": [
-   "halloween",
-   "trunk or treat",
-   "kids"
-  ]
  },
  {
   "name": "Berlin Trunk or Treat",
@@ -221,6 +175,25 @@
    "pets",
    "live music",
    "baileyton"
+  ]
+ },
+ {
+  "name": "Halloween at Baileyton Drag Strip",
+  "start": "2026-10-31",
+  "time": "Gates 8:00 AM, time trials 10:00 AM, trick or treat in the pits from 4:30 PM",
+  "venue": "Baileyton Drag Strip, 1500 Summit Road",
+  "town": "Baileyton",
+  "host": "Baileyton Drag Strip",
+  "summary": "Spend Halloween at the track. Time trials start at 10 AM, and kids can trick or treat in the pits starting at 4:30 PM, along with a costume contest.",
+  "url": "https://www.cullmantribune.com/2026/10/27/halloween-events-from-oct-27-31/",
+  "group": "Community and Fun",
+  "tags": [
+   "halloween",
+   "trick or treat",
+   "drag racing",
+   "costume contest",
+   "baileyton",
+   "kids"
   ]
  },
  {
