@@ -1,5 +1,44 @@
 [
  {
+  "id": "nov-3-ballot-what-hanceville-voters-will-see",
+  "date": "2026-10-31",
+  "category": "Announcements",
+  "graphic": "📋",
+  "headline": "What's on the Nov. 3 ballot in Hanceville: state races, a school board seat and a county tax freeze for homeowners 65 and up",
+  "summary": "Hanceville voters will see federal and state races, the Hanceville seat on the Cullman County Board of Education, county offices, four statewide amendments and one Cullman County amendment that would freeze home values for qualifying seniors.",
+  "body": [
+   "Before you head to the polls Tuesday, Nov. 3, it helps to know what is on the ballot. The Cullman Tribune walked through Cullman County's official sample ballot, and the full ballot is posted by the Alabama Secretary of State.",
+   "The top of the ballot covers U.S. Senate, the 4th Congressional District, governor, lieutenant governor, attorney general and other statewide offices, plus two seats on the Alabama Public Service Commission and several appellate court seats. Many legislative and court races list only one printed candidate, and every contest has a write in line.",
+   "Closer to home, the Hanceville seat on the Cullman County Board of Education, District 4, lists Republican Kenny Brockman as the only printed candidate. County races for coroner, revenue commissioner, sheriff and two associate county commission seats also each list one printed candidate.",
+   "After the candidate races come five yes or no questions. Statewide Amendment 1 changes how a lieutenant governor vacancy is filled. Amendment 2 sets up a process that neighboring county school systems could use to merge, though passing it would not merge any schools by itself. Amendment 3 would require school boards to adopt policies for a daily Pledge of Allegiance and voluntary student led prayer, and Amendment 4 would require public schools to play or perform the first verse of the national anthem at least once a week.",
+   "The last question applies only in Cullman County. The local amendment would freeze the assessed value of a primary home for owners who are at least 65 and have lived there as their main residence for at least five years. There is no income limit, but tax rate changes or new additions could still raise a bill. If it passes, claims could start Oct. 1, 2027, based on the home's Oct. 1, 2026, value, with applications going to the revenue commissioner between Oct. 1 and Dec. 31.",
+   "Your district races depend on where you live, so look over both sides of the sample ballot before Tuesday. Polls are open 7 AM to 7 PM, and Hanceville voters can check their polling place on Alabama's official voter lookup."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Cullman County voters to decide federal, state and local races Nov. 3",
+    "url": "https://www.cullmantribune.com/2026/10/31/cullman-county-voters-to-decide-federal-state-and-local-races-nov-3/"
+   },
+   {
+    "name": "Alabama Secretary of State: Cullman County sample ballot",
+    "url": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Cullman-Sample.pdf"
+   },
+   {
+    "name": "Alabama Votes: Voter lookup",
+    "url": "https://myinfo.alabamavotes.gov/voterview"
+   }
+  ],
+  "tags": [
+   "election",
+   "ballot",
+   "amendments",
+   "school board",
+   "property tax",
+   "seniors",
+   "nov 3"
+  ]
+ },
+ {
   "id": "nov-3-election-where-hanceville-votes",
   "date": "2026-10-31",
   "category": "Announcements",
