@@ -305,7 +305,7 @@ for k,v in byl.items():
 simple('sources.html','Sources and References | Hanceville Entertainment & Shopping','The official sources behind every listing in the Hanceville Entertainment & Shopping directory.','Sources and References',sb)
 # HTML sitemap
 grp=[('Start here',[('index.html','Home'),('places.html','All Places A to Z'),('about.html','About Us'),('contact.html','Contact Us')]),
- ('City and community',[('city.html','City Services'),('departments.html','Departments and Contacts'),('council.html','City Council'),('directory.html','Community Directory'),('nonprofits.html','Nonprofits'),('wallace.html','Wallace State'),('resources.html','More Resources')]),
+ ('City and community',[('city.html','City Services'),('departments.html','Departments and Contacts'),('council.html','City Council'),('directory.html','Community Directory'),('hanceville-library.html','Hanceville Library'),('nonprofits.html','Nonprofits'),('wallace.html','Wallace State'),('resources.html','More Resources')]),
  ('News, events and businesses',[('news.html','Local News'),('events.html','Upcoming Events'),('businesses.html','Business Directory'),('eats.html','Local Eats'),('shops.html','Hometown Shops'),('fun.html','A Little Fun')]),
  ('Site information',[('privacy.html','Privacy Policy'),('terms.html','Terms of Use'),('sources.html','Sources and References')])]
 mb=''.join(f'<section class="pl-sec"><h2>{t}</h2><ul class="pl-links">'+''.join(f'<li><a href="{u}">{l}</a></li>' for u,l in v if os.path.exists(u) or u in pages)+'</ul></section>' for t,v in grp)

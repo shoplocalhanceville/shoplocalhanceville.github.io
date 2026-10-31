@@ -9,14 +9,85 @@
     "hours_source": "https://www.yelp.com/biz/cut-n-up-barber-and-style-hanceville",
     "hours_source_label": "Hours as posted on the business's owner-claimed Yelp page",
     "hours_spec": [
-      {"days": ["Tuesday", "Thursday"], "opens": "08:00", "closes": "17:00"},
-      {"days": ["Wednesday", "Friday"], "opens": "09:00", "closes": "17:00"},
-      {"days": ["Saturday"], "opens": "08:00", "closes": "14:00"}
+      {
+        "days": [
+          "Tuesday",
+          "Thursday"
+        ],
+        "opens": "08:00",
+        "closes": "17:00"
+      },
+      {
+        "days": [
+          "Wednesday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      {
+        "days": [
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "14:00"
+      }
     ],
     "sources": [
-      {"url": "https://www.facebook.com/cutntnupbarberandstyle/", "label": "Official Facebook Page (name, services, phone, address)"},
-      {"url": "https://www.yelp.com/biz/cut-n-up-barber-and-style-hanceville", "label": "Owner-claimed Yelp page (hours)"}
+      {
+        "url": "https://www.facebook.com/cutntnupbarberandstyle/",
+        "label": "Official Facebook Page (name, services, phone, address)"
+      },
+      {
+        "url": "https://www.yelp.com/biz/cut-n-up-barber-and-style-hanceville",
+        "label": "Owner-claimed Yelp page (hours)"
+      }
     ],
     "verified": "2026-10-24"
+  },
+  "hanceville-library": {
+    "schema_type": "Library",
+    "phone": "(256) 352-0685",
+    "address": "201 Commercial Street, Hanceville, AL 35077",
+    "hours": "Tuesday to Friday 8 AM to 5 PM, closed noon to 1 PM; Saturday 9 AM to 1 PM; closed Sunday and Monday",
+    "hours_source": "https://sites.google.com/view/sbhpl/library",
+    "hours_source_label": "Hours on the library's own website, matching the CCPLS branches page",
+    "hours_spec": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "12:00"
+      },
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "13:00",
+        "closes": "17:00"
+      },
+      {
+        "days": [
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "13:00"
+      }
+    ],
+    "sources": [
+      "https://sites.google.com/view/sbhpl/library",
+      "https://www.cullmanlib.org/about-us/branches",
+      "https://www.cullmanlib.org/about-us/forms",
+      "https://www.facebook.com/p/Hanceville-Public-Library-100064419230635/"
+    ],
+    "verified": "2026-10-31",
+    "note": "Promo page hanceville-library.html, not a generated place page"
   }
 }
