@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:05:00-05:00",
+ "updated": "2026-10-31T07:30:00-05:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -374,16 +374,20 @@
    "sport": "Volleyball",
    "period": "Set",
    "start": "2026-10-31T15:00:00-05:00",
-   "venue": "Crampton Bowl, Montgomery",
+   "venue": "Cramton Bowl Multiplex, 220 Hall Street, Montgomery",
    "home": "wallace",
    "away": "accc-tbd",
    "status": "Upcoming",
    "score": null,
    "line": null,
-   "note": "ACCC Conference Tournament, neutral site in Montgomery. The Lions enter at 30 and 5 on a 14 match win streak. Opponent set by the bracket.",
+   "note": "ACCC Conference Tournament, neutral site in Montgomery. The Lions are the No. 1 seed from the North and enter at 30 and 5 on a 14 match win streak. Opponent set by the bracket. The ACCC champion advances to the NJCAA South District Championship on Nov. 8.",
    "source": {
     "name": "Wallace State Athletics volleyball schedule",
     "url": "https://athletics.wallacestate.edu/sports/wvball/2026-27/schedule"
+   },
+   "source2": {
+    "name": "ACCC: Volleyball tournament pairings and information",
+    "url": "https://www.acccathletics.com/sports/wvball/2026-27/releases/20261026fpmjvp"
    }
   }
  ]

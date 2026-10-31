@@ -1,5 +1,46 @@
 [
  {
+  "id": "cullman-regional-federal-funding-surgical-robot",
+  "date": "2026-10-31",
+  "category": "Around the County",
+  "graphic": "🏥",
+  "headline": "Cullman Regional gets $2.5 million in federal money for a surgical robot",
+  "summary": "The hospital will use a federal grant secured by Sen. Katie Britt to buy a da Vinci surgical robot, bringing more minimally invasive surgery options close to home.",
+  "body": [
+   "Cullman Regional Medical Center is putting $2.5 million in federal funding toward a robotic surgery system for its operating rooms, the hospital and U.S. Sen. Katie Britt's office announced this week, according to ABC 33/40.",
+   "Federal grant records show the money was awarded Sept. 11 through the Health Resources and Services Administration for the purchase of a da Vinci surgical robot. The funding came through the fiscal 2026 Labor, Health and Human Services, Education and Related Agencies appropriations act, where Britt's office listed $2.5 million for Cullman Regional among more than $28 million it secured for Alabama health care and education projects.",
+   "With robotic assisted surgery, the surgeon stays in full control and guides small instruments through tiny incisions. Cullman Regional says the approach can mean less pain, less blood loss, smaller scars and a quicker recovery, and it can be used in gynecology, urology, thoracic and general surgery.",
+   "Cullman Regional CEO James Clements thanked Britt for her support of rural Alabama hospitals. For families in Hanceville and across the county, it means more advanced surgery options without a drive to Huntsville or Birmingham.",
+   "Questions about whether robotic surgery is right for you are best answered by your doctor or a Cullman Regional surgeon."
+  ],
+  "sources": [
+   {
+    "name": "ABC 33/40: Cullman Regional to use $2.5 million in federal funding for surgical robot",
+    "url": "https://abc3340.com/news/local/cullman-regional-to-use-25-million-in-federal-funding-for-surgical-robot"
+   },
+   {
+    "name": "HHS TAGGS: Cullman Regional Medical Center award records",
+    "url": "https://taggs.hhs.gov/Detail/RecipDetail?arg_EntityId=TaEanoFvDXAinIs2dvGCsA%3D%3D"
+   },
+   {
+    "name": "Sen. Katie Britt: FY2026 health funding for Alabama",
+    "url": "https://www.britt.senate.gov/news/press-releases/u-s-senator-katie-britt-advances-critical-funding-for-alabamas-medical-centers-hospitals-and-universities/"
+   },
+   {
+    "name": "Cullman Regional: Robotic surgery",
+    "url": "https://cullmanregional.com/robotic-surgery/"
+   }
+  ],
+  "tags": [
+   "cullman regional",
+   "hospital",
+   "health",
+   "surgery",
+   "federal funding",
+   "cullman"
+  ]
+ },
+ {
   "id": "cullman-county-football-regular-season-wraps-2026",
   "date": "2026-10-31",
   "category": "Sports",

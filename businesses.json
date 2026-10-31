@@ -503,7 +503,8 @@
   "address": "204 Main St NE, Hanceville, AL 35077",
   "summary": "The Peoples Bank of Alabama branch on Main Street.",
   "phone": "(256) 352-4090",
-  "website": "https://peoplesbankal.com/region/central-region/hanceville"
+  "website": "https://peoplesbankal.com/region/central-region/hanceville",
+  "hours": "Lobby Monday to Friday 8:30 AM to 5 PM; drive thru Monday to Friday 8:30 AM to 5 PM and Saturday 8:30 AM to noon; 24 hour ATM that takes deposits"
  },
  {
   "category": "Finance & Insurance",
@@ -595,7 +596,8 @@
   "phone": "(256) 352-5233",
   "website": "https://cullmanhancevilleflorist.com/",
   "logo": "logos/burns-florist.webp",
-  "logo_source": "https://cullmanhancevilleflorist.com/cdn/shop/files/Burns_Florist_is_the_best_flower_shop_in_Hanceville.jpg?v=1748352702&amp;width=600"
+  "logo_source": "https://cullmanhancevilleflorist.com/cdn/shop/files/Burns_Florist_is_the_best_flower_shop_in_Hanceville.jpg?v=1748352702&amp;width=600",
+  "hours": "Monday to Friday 8 AM to 5 PM; Saturday 8 AM to 2 PM; closed Sunday"
  },
  {
   "category": "Manufacturing & Industry",
@@ -667,7 +669,8 @@
    "equipment rental",
    "construction",
    "rentals"
-  ]
+  ],
+  "hours": "Monday to Friday 7 AM to 5 PM"
  },
  {
   "category": "Other",
