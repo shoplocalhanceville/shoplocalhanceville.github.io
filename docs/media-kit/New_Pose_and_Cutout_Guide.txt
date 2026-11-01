@@ -1,0 +1,76 @@
+NEW POSE AND CUT-OUT CREATION GUIDE AND TEMPLATE
+Big Dog and Maggie, the mascots of Hanceville Entertainment and Shopping
+Companion to the Big Dog and Maggie Complete Media Kit
+
+PURPOSE
+This guide explains exactly how to create a new pose of Big Dog, of Maggie, or of the two of them together, how to cut the character out of the background cleanly, and how to name, check, and file the result so it becomes part of the official pose library. Follow it step by step and every new pose will match the existing library in style, size, and quality.
+
+THE CHARACTER LOCK
+The characters never change. Big Dog is a friendly brindle and white bulldog with a purple tint in his coat, drawn in a soft 3D cartoon style, standing upright. Maggie is a brindle and white bulldog with a purple tint, long eyelashes, a big purple bow with gold sparkles on one ear, and a purple collar with a gold heart tag. Her bow and collar stay on her in every pose, from every angle, with no exceptions. Any result that changes a face, a coat, a marking, the proportions, or Maggie's bow and collar is rejected and regenerated.
+
+SPECIFICATIONS FOR EVERY NEW POSE IMAGE
+1. File type: PNG.
+2. Size: 1152 by 2048 pixels, vertical 9:16.
+3. Background: plain solid white, nothing else in the frame. No scenery, no floor, no shadow effects, no words, no logos, no borders.
+4. Framing: the full body inside the frame with a small margin on every side. No paw, ear, tail, bow, or held prop is cut off.
+5. Style: the same soft 3D cartoon style as the reference portraits, with the same coat pattern and colors.
+6. One pose per image. One character per image for the solo sets, and the two of them side by side for the together set.
+
+STEP 1: START FROM THE REFERENCE
+Every new pose begins from an official reference image, never from memory and never from a social media copy.
+For Big Dog, use the pose BD-F17 file, big-dog-pose-17.png.
+For Maggie, use the character portrait, maggie-solo.png.
+For the two together, use the couple portrait, big-dog-and-maggie.png.
+These files live in the master pack, Big_Dog_and_Maggie_COMPLETE_MASTER.zip, in the folders named in the media kit.
+
+STEP 2: WRITE THE POSE REQUEST WITH TEMPLATE A
+Copy Template A, fill every blank, and give it to the image tool together with the reference image.
+
+TEMPLATE A: NEW POSE REQUEST
+Using the attached reference image of [Big Dog / Maggie / Big Dog and Maggie together], keep the character exactly as drawn: same dog, same brindle and white coat with the purple tint, same markings, same face, same proportions, and the same soft 3D cartoon style. [For Maggie and for the together poses, add: Maggie keeps her big purple bow with gold sparkles and her purple collar with the gold heart tag.]
+Create one new pose: [DESCRIBE THE ACTION IN ONE CLEAR SENTENCE, FOR EXAMPLE: standing and holding a welcome sign with both front paws, smiling at the viewer].
+View: [front view facing the viewer / back view with the face not visible / full side profile facing right].
+The character is alone in the picture on a plain solid white background, full body in frame, vertical 9:16, PNG. No text, no words, no logos, no scenery, and no other characters. [IF A PROP IS WANTED, ADD: The only object is (name the prop). IF NO PROP, ADD: No objects or props.]
+
+STEP 3: CHECK THE RESULT WITH THE POSE CHECKLIST
+Compare the new image against the reference, side by side. Every line must pass.
+1. The face is the same face as the reference.
+2. The coat pattern, colors, and purple tint match the reference.
+3. The body proportions match the reference.
+4. Maggie's bow and collar are present, correct, and unchanged.
+5. The full body is in frame, and nothing is cut off.
+6. The background is plain solid white with nothing else in it.
+7. There is no text, no watermark, and no extra object that was not requested.
+8. The image is a PNG at 1152 by 2048 pixels.
+If any line fails, regenerate the pose. Do not repair a wrong face or a wrong coat by editing; a clean regeneration from the reference is always better.
+
+STEP 4: MAKE THE CUT-OUT
+A cut-out is a copy of the pose with the white background removed, saved with a transparent background for placing on colored designs.
+1. Work on a copy. The original pose file is never changed.
+2. Remove the white background with the background removal tool, keeping the full silhouette: ears, tail, bow, paws, and any held prop.
+3. Inspect the edge at high zoom. The edge must be clean, with no white halo and no missing pieces. The white chest and belly sit close to the white background, so check the chest and belly edge with special care.
+4. If the tool eats into the chest or belly, redo the cut-out from a version of the pose generated on a solid light purple background instead, and note that version in the pose record.
+5. Save the cut-out as a PNG with transparency, at the same 1152 by 2048 size, named with the word cutout added to the pose file name, for example big-dog-pose-19-cutout.png.
+6. Never cut out from a preview, a screenshot, or a social media copy. Cut-outs are made from the master PNG only.
+
+STEP 5: NAME IT, NUMBER IT, AND RECORD IT
+1. File names follow the library pattern: big-dog-pose-NN.png for Big Dog, maggie-pose-NN.png for Maggie, duo-pose-NN.png for the pair, and back-side-NN, maggie-back-side-NN, and duo-back-side-NN for the back and side sets.
+2. A new front pose takes the next free number in its set. The front sets currently end at 18, so the next new front pose is number 19. The back and side sets currently end at 8, so the next new back or side pose is number 9.
+3. The catalog ID follows the media kit pattern: BD-F and a number for Big Dog front poses, MG-F for Maggie, DUO-F for the pair, and BD-B, MG-B, and DUO-B for the back and side sets.
+4. Record the new pose with Template B, and add the finished PNG to the master pack in the matching folder.
+
+TEMPLATE B: POSE RECORD
+Catalog ID: [for example BD-F19]
+File name: [for example big-dog-pose-19.png]
+Character: [Big Dog / Maggie / Together]
+View: [Front / Back / Side profile]
+Pose name: [short name, for example Holding a welcome sign]
+Description: [one or two complete sentences describing exactly what the character is doing]
+Best for: [the uses this pose suits, for example welcome posts, new business greetings]
+Cut-out file: [the cutout file name, or the words Not made yet]
+Approved by Charles: [Yes or No, with the date]
+
+THE STANDING RULES
+1. Nothing enters the official library until Charles approves it.
+2. The masters are never overwritten. Corrections are new files with the record updated.
+3. Quality is protected at every step: master PNG in, master PNG out, and no screenshots, previews, or re-saved copies anywhere in the chain.

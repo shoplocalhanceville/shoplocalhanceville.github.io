@@ -1,0 +1,62 @@
+AI CONTENT CREATION PLAYBOOK
+Hanceville Entertainment and Shopping, Facebook Page and Website
+How Big Dog and Maggie content is planned, built, approved, and published
+
+PURPOSE
+This playbook puts the Big Dog and Maggie media kit to work. It is the standing system for creating content for the Hanceville Entertainment and Shopping Facebook Page and for the Hanceville Entertainment and Shopping website: promotional flyers, posts, videos, reels, audio, and talking pieces featuring Big Dog and Maggie. It works together with three companions: the Complete Media Kit (the pose catalog and quality rules), the New Pose and Cut-Out Creation Guide (how new library art is made), and the AI Video Creation Guide (the video templates).
+
+THE PIECES OF THE SYSTEM
+1. The characters: Big Dog and Maggie, locked in design, described in the media kit.
+2. The library: 78 approved poses with catalog IDs, held at full quality in Big_Dog_and_Maggie_COMPLETE_MASTER.zip.
+3. The templates: Canva templates for the recurring graphics, the pose templates in the guides, and the video templates in the AI Video Creation Guide.
+4. The facts: the verified directory behind the website. Every post and video draws its names, addresses, phone numbers, hours, and dates from verified listings and official announcements only.
+5. The approver: Charles Adams. Nothing publishes without his approval.
+
+CONTENT PILLARS
+Every piece of content belongs to one pillar. The pillars keep the Page and the website useful, local, and trusted.
+1. Business Spotlight: one verified business at a time, told well. Uses the spotlight video template and the Business Spotlight graphic template.
+2. This Week in Hanceville: the week's events and happenings, gathered from official sources. Uses the This Week graphic template.
+3. New in the Directory: welcomes for newly listed businesses. Uses the New in the Directory graphic template and the welcome video template.
+4. Events: festivals, school and community events, and special days, promoted with the event video template.
+5. Deals and Offers: real offers from real businesses, with terms and end dates stated, removed or marked ended when they pass.
+6. Community and Safety: weather alerts, road and civic notices, closings, and helpful reminders, always sourced from official channels.
+7. Holidays and Seasons: greetings, holiday hours roundups, and seasonal features.
+
+WHERE EACH KIND OF CONTENT LIVES
+On the Facebook Page: spotlight posts and reels, This Week posts, event promotions, deal announcements, closing and schedule notices, and holiday greetings. Video follows the AI Video Creation Guide. Still graphics follow the media kit flyer rules.
+On the website: section videos and character art on the homepage and category pages, spotlight features, event graphics, and the Big Dog Approved seal on verified listings. Website media is exported as a web copy from the master; the master itself is archived, and page speed is checked after any media addition because the homepage is already image heavy.
+In advertisements: only the advertisement template in the AI Video Creation Guide, with its extra honesty rules, and only for real businesses with verifiable offers.
+
+THE WORKFLOW, EVERY TIME
+1. Draft: the piece is planned and built from the templates, using verified facts and master pose files. Its sources are recorded with the draft.
+2. Review: Charles sees the finished draft: the graphic or video, the exact post text, and where it will run.
+3. Approval: Charles approves, corrects, or declines. Corrections are made and shown again.
+4. Publish: only the approved piece, exactly as approved, is posted or published.
+5. Record: the published piece, its date, and its sources are logged so the rotation stays fair and nothing repeats too soon.
+The weekly content engine follows this same workflow: it prepares the rotating spotlight draft, the This Week draft, the Meme Factory bridge post, and three reel scripts each Monday, and every one of them waits for Charles.
+
+FACT AND SAFETY RULES
+1. Verified facts only. If a detail cannot be verified, it is left out. An honest blank beats a confident mistake.
+2. A business's own logo and photos are used to identify that business. Artwork is never altered and never presented as an endorsement.
+3. Offers, prices, dates, and hours are copied from the source, and time sensitive pieces are retired when they expire.
+4. No content puts a real business, school, church, or person in a false light.
+5. Advertisements follow the honesty rules in the AI Video Creation Guide: real claims, real contact information, and a plain promotion label.
+6. The site email stays off all content until Charles confirms the account is fixed. Contact is routed to the Facebook Page messages.
+
+QUALITY RULES, IN SHORT
+The full rules live in the media kit, Section 6. In short: work only from the master PNG files; never build from previews, screenshots, or social media copies; never upscale; export stills as PNG and video once at 1080 by 1920 at the highest quality; keep masters archived and unchanged; and keep file names and catalog IDs exactly as issued, so any instruction can name the exact picture it means.
+
+ADDING TO THE LIBRARY
+New poses and cut-outs are made only by the New Pose and Cut-Out Creation Guide, recorded with its pose record template, added to the master pack, and approved by Charles before first use. Requests for a new pose name the job it serves, so the library grows where the work needs it.
+
+ROLES
+Muse prepares drafts, graphics, scripts, and videos, checks facts, and keeps the library and records in order.
+Grok and Copilot build website pieces from the same kit and the same rules, under their instruction files, which carry a media kit section pointing here.
+Charles approves everything before it publishes. He is the only approver.
+
+SETUP CHECKLIST, SO THE SYSTEM RUNS
+1. The media kit guide and the complete master pack are stored with the project files.
+2. The media kit, this playbook, and both creation guides are published in the website repository, in the docs and media-kit folder, so every builder works from the same pages.
+3. The Grok and Copilot instruction files carry the media kit section that points to this system.
+4. The Canva templates for Business Spotlight, This Week in Hanceville, and New in the Directory are the starting point for recurring graphics.
+5. Every new piece starts from a template in this system, and every finished piece waits for Charles.

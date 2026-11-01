@@ -1,0 +1,94 @@
+AI VIDEO CREATION GUIDE AND TEMPLATES
+Big Dog and Maggie, the mascots of Hanceville Entertainment and Shopping
+For promotional videos, advertisements, reels, and website videos
+
+PURPOSE
+This guide is the working template book for every video made with Big Dog and Maggie: Facebook Page posts and reels, advertisements, and videos used on the Hanceville Entertainment and Shopping website. Pick the template that matches the job, fill in the blanks with verified facts, build the video from the master pose files, and send it to Charles for approval before anything is posted or published.
+
+HOUSE SPECIFICATIONS FOR EVERY VIDEO
+1. Format: vertical 9:16, 1080 by 1920, unless the placement requires a different shape. The website hero placement may use a wide version built from the same masters.
+2. Source art: the original PNG pose files from the master pack, animated directly. Never animate a preview from the media kit guide, a screenshot, or a frame from an earlier video.
+3. Length: most promotional videos run 15 to 45 seconds. Reels run 15 to 30 seconds. Website loops run 5 to 15 seconds and must loop cleanly.
+4. Captions: every spoken video carries captions in bold white or purple type with a black outline, placed low on the screen and clear of the characters' faces and paws.
+5. Sound: voice first, music under the voice, family friendly music only. A silent viewer must still understand the video from the captions and the pictures.
+6. Brand: black, purple, and white are the design colors, with gold used sparingly. The Big Dog Approved seal appears when a verified business is featured.
+7. Facts: every name, address, phone number, hour, price, and date comes from a verified source, the business itself or an official listing. Nothing is invented. If a fact is not verified, it is left out.
+8. Approval: Charles Adams approves every video before it is posted or published. No exceptions.
+
+THE MASTER VIDEO TEMPLATE
+Copy Template V, fill every blank, and give it to the video tool together with the pose files named in it.
+
+TEMPLATE V: VIDEO REQUEST
+Make a vertical 9:16 video, 1080 by 1920, for [the Hanceville Entertainment and Shopping Facebook Page / the website / an advertisement].
+Use these poses from the Big Dog and Maggie master pack, in this order: [POSE IDS IN ORDER, FOR EXAMPLE DUO-B07, then BD-F01, then BD-F06].
+Keep Big Dog and Maggie exactly as drawn in the pose files: same dogs, same coats, same colors, and Maggie keeps her purple bow and her purple collar with the gold heart tag in every shot.
+Shots:
+Shot 1: [WHAT HAPPENS, FOR EXAMPLE: Big Dog and Maggie run in from the left in side profile and stop center screen, smiling].
+Shot 2: [WHAT HAPPENS].
+Shot 3: [WHAT HAPPENS, INCLUDING THE CLOSING POSE].
+Voice: [Big Dog / Maggie / Both / No voice]. The voice says, word for word: "[THE SCRIPT]".
+Words on screen: "[THE HEADLINE]" and "[THE CLOSING LINE WITH THE BUSINESS NAME, TOWN, AND PHONE OR WEBSITE IF VERIFIED]".
+Music: [cheerful and family friendly, low under the voice / none].
+Style: bright, friendly, and clean, in black, purple, and white. Family friendly. No other characters, no extra words, and no logos except the Big Dog Approved seal [include / do not include].
+
+READY-MADE TEMPLATES BY JOB
+
+1. BUSINESS SPOTLIGHT, FOR THE FACEBOOK PAGE
+Goal: introduce one verified local business and send people to it.
+Poses: DUO-B07 (running in together) or BD-B05 (walk in), then BD-F01 (waving), then the business moment, then BD-F06 (thumbs up) or BD-F12 (checkmark sign).
+Script pattern, Big Dog speaking: "Hey, Hanceville. Big Dog here with a local favorite. [BUSINESS NAME] in [TOWN] is [ONE TRUE SENTENCE ABOUT WHAT THEY DO BEST]. Find them at [ADDRESS] or call [PHONE]. Tell them Big Dog sent you."
+On screen: the business name, the town, and the phone or website.
+Website use: the same video, or a silent 10 second cut of shots 1 and 2, sits on the business's profile section when the site carries video.
+
+2. NEW IN THE DIRECTORY WELCOME
+Goal: welcome a newly listed business.
+Poses: DUO-F17 (welcoming together) or MG-F17 (Maggie welcoming).
+Script pattern, Maggie speaking: "Welcome to the neighborhood. [BUSINESS NAME] is now listed on Hanceville Entertainment and Shopping, with their real address, phone, and links all checked. Go say hello."
+On screen: "New in the Directory" and the business name.
+
+3. EVENT PROMOTION
+Goal: fill an event with local people.
+Poses: BD-F16 (megaphone) to open, BD-F04 (jumping) for energy, DUO-B01 (waving goodbye) to close with the words See You There.
+Script pattern: "Mark your calendar. [EVENT NAME] is coming to [PLACE] on [DAY AND DATE] from [START TIME] to [END TIME]. [ONE TRUE SENTENCE ABOUT WHAT IS HAPPENING]. Admission is [FREE OR THE VERIFIED PRICE]. We will see you there."
+Rule: dates, times, and prices are copied from the event's own announcement, never from memory.
+
+4. DEAL OR OFFER ANNOUNCEMENT
+Goal: share a real offer from a real business.
+Poses: BD-F05 (shopping bag) or BD-F08 (shopping cart) to open, MG-F06 (thumbs up) to close.
+Script pattern: "Here is a deal worth knowing. At [BUSINESS NAME] in [TOWN], [THE OFFER IN THE BUSINESS'S OWN TERMS] through [END DATE]. [ADDRESS AND PHONE]. When it is gone, it is gone."
+Rule: the offer, its terms, and its end date come from the business. When the end date passes, the post comes down or is marked ended.
+
+5. HOURS, CLOSINGS, AND SCHEDULE CHANGES
+Goal: tell people before they make the trip.
+Poses: MG-F16 or BD-F16 (megaphone) for a change, BD-F14 (sleepy) for a closing or a rest day.
+Script pattern: "A quick heads up. [BUSINESS NAME] will be [CLOSED / OPEN SPECIAL HOURS] on [DATE] [BECAUSE, IF THE BUSINESS SAID WHY]. They will be back to regular hours on [DATE]. Thank you for understanding."
+
+6. WEBSITE SECTION VIDEO
+Goal: bring a website section to life without slowing the page.
+Poses: one pose per section. Shopping sections use BD-F08 (cart). Events use BD-F16 (megaphone). Welcomes use DUO-F17. Directions and find us sections use BD-F15 (map).
+Form: a silent, clean looping video of 5 to 15 seconds, exported small enough to keep the page fast, always built from the master PNG. The master export is kept in the project folder; the website carries the web copy only.
+
+7. ADVERTISEMENT, PAID OR SPONSORED
+Goal: a paid promotion that a viewer can trust.
+Poses: BD-F12 (checkmark sign) for the trust frame, plus the template that matches the offer.
+Extra rules for advertisements:
+a. Every claim in the ad must be true and verifiable: real business, real contact information, real offer, real dates.
+b. No invented prices, discounts, or results. No pressure tricks, no false countdowns, and no claims about competitors.
+c. The business name and a real way to reach the business, phone, address, or website, appear in the ad itself.
+d. The ad is labeled as a promotion in the post text, in plain words.
+These rules protect the page's name: Big Dog approves honest advertising only.
+
+TALKING VIDEO RULES
+1. Use a front pose with the mouth visible for talking shots: poses 1, 2, 6, 16, and 17 are the strongest talkers.
+2. Keep the head steady and the full face in frame while the character speaks. Never cover the mouth with captions, logos, or props.
+3. Big Dog's voice is a warm, friendly adult male voice with natural Southern warmth. Maggie's voice is a warm, friendly adult female voice with the same warmth. One voice per character, used consistently across every video.
+4. Write scripts in short, complete sentences, one idea per line, and read each script aloud before recording. Most talking pieces run 15 to 60 seconds.
+
+VIDEO CHECKLIST, BEFORE SENDING TO CHARLES
+1. The characters match the pose files exactly, including Maggie's bow and collar.
+2. Every fact in the script and on screen is verified, and the source is noted in the project record.
+3. Captions are present, spelled correctly, and clear of faces and paws.
+4. The brand colors and, where earned, the Big Dog Approved seal are in place.
+5. The export is 1080 by 1920 at the highest quality setting, made once from the masters.
+6. The file is named for its job and date, for example spotlight-cut-n-up-2026-11-07.mp4, and the master export is stored with the project.
+7. Nothing is posted or published. The video goes to Charles for approval first.
