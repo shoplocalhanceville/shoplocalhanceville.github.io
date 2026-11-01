@@ -1,0 +1,18 @@
+MESSAGE FOR GROK: IMPLEMENT THE BIG DOG AND MAGGIE MEDIA KIT
+From Charles Adams, Hanceville Entertainment and Shopping
+
+Grok, the Big Dog and Maggie media kit is finished and it is already in our GitHub repository, in the docs/media-kit folder. Your implementation instructions are the file Grok_Media_Kit_Implementation.txt in that same folder. Please read that file and follow it exactly.
+
+WHAT IS WAITING FOR YOU IN docs/media-kit
+1. Big_Dog_and_Maggie_Complete_Media_Kit.pdf: the complete guide, with the character descriptions, the brand colors, the catalog of all 78 poses with their ID codes, descriptions, and best uses, and the quality rules.
+2. Grok_Media_Kit_Implementation.txt and .pdf: your step by step build orders for the website.
+3. AI_Content_Creation_Playbook, New_Pose_and_Cutout_Guide, and AI_Video_Creation_Guide, each as PDF and text: the system behind the kit.
+4. The poses folder: every pose as a full quality PNG master, in seven subfolders (00_Reference, 01_Big_Dog_Front_Poses, 02_Maggie_Front_Poses, 03_Together_Front_Poses, 04_Big_Dog_Back_and_Side, 05_Maggie_Back_and_Side, 06_Together_Back_and_Side).
+
+WHAT TO BUILD FIRST
+Follow Section 3 of the implementation file, in order: the homepage welcome with the together welcoming pose DUO-F17, the section accents with their named poses, the Business Spotlight art with the checkmark pose and the Big Dog Approved seal, the profile page accents, and the notice art. Build website copies as WebP files under img/mascots/ from the PNG masters, keep the masters untouched, lazy load the images, and keep the total added homepage weight under 400 kilobytes.
+
+THE RULES THAT MATTER MOST
+The characters are locked: never redraw or recolor Big Dog or Maggie, and Maggie's purple bow and her purple collar with the gold heart tag never come off. Use poses by their catalog IDs. Change no listing data under this build. Keep the site email off the site. Run the security and accuracy scans before and after, and report exactly what you built.
+
+And the standing rule above all: build it, show me the result, and nothing goes live until I approve it.
