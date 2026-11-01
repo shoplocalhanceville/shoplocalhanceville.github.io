@@ -216,20 +216,6 @@
  },
  {
   "category": "Auto Sales",
-  "name": "Jerry's Used Cars",
-  "service": "Used car dealer",
-  "tags": [
-   "used cars",
-   "car lot",
-   "trade ins",
-   "auto sales"
-  ],
-  "address": "10474 US Highway 31, Hanceville, AL 35077",
-  "summary": "A used car lot on Highway 31. They take trade ins, too.",
-  "phone": "(256) 775-2883"
- },
- {
-  "category": "Auto Sales",
   "name": "Kretzschmar Motors",
   "service": "Used car dealer",
   "tags": [
@@ -461,20 +447,6 @@
   "address": "10161 US Highway 31, Hanceville, AL 35077",
   "summary": "A vet clinic for small and large animals, from checkups and shots to surgery.",
   "phone": "(256) 739-9318"
- },
- {
-  "category": "Pets & Child Care",
-  "name": "MaeMae's Paws",
-  "service": "Dog grooming, boarding and daycare",
-  "tags": [
-   "dog grooming",
-   "boarding",
-   "doggy daycare",
-   "pets"
-  ],
-  "address": "1399 AL Highway 69, Hanceville, AL 35077",
-  "summary": "Dog grooming, boarding and daycare. Your pup can get a bath, an overnight stay or a day of play.",
-  "phone": "(256) 735-3926"
  },
  {
   "category": "Pets & Child Care",
