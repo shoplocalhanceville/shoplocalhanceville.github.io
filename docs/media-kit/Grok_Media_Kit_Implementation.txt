@@ -1,0 +1,60 @@
+IMPLEMENTATION INSTRUCTIONS FOR GROK: THE BIG DOG AND MAGGIE MEDIA KIT
+For the Hanceville Entertainment and Shopping website
+Prepared for Charles Adams, November 1, 2026
+
+WHAT THIS IS
+Big Dog and Maggie are now the official mascots of Hanceville Entertainment and Shopping. A complete media kit has been built for them: 78 approved poses at full quality, character and brand rules, and creation guides for flyers, videos, reels, audio, and AI generated content. This instruction tells you how to implement the kit on the website. Read it together with the governing documents, which live in this repository in the docs/media-kit folder: the Complete Media Kit (Big_Dog_and_Maggie_Complete_Media_Kit.pdf), the AI Content Creation Playbook, the New Pose and Cut-Out Creation Guide, and the AI Video Creation Guide. The pose artwork itself lives in this repository in the docs/media-kit/poses folder, organized exactly like the master pack.
+
+SECTION 1: THE CHARACTERS, LOCKED
+1. Big Dog is a friendly brindle and white bulldog with a purple tint in his coat, drawn in a soft 3D cartoon style. He is the face of the Big Dog Approved seal.
+2. Maggie is his girlfriend: a brindle and white bulldog with a purple tint, long eyelashes, a big purple bow with gold sparkles on one ear, and a purple collar with a gold heart tag.
+3. Never redraw, recolor, restyle, or replace the characters. Never remove or change Maggie's bow or collar. Use the artwork exactly as provided; scale is the only change allowed.
+4. The brand colors are black, purple (number 6D28D9), light purple (number A78BFA), white, and gold (number C9A227) used sparingly. The site theme does not change: keep the existing black, purple, and white design and the Wallace State exception exactly as they are.
+
+SECTION 2: THE POSE LIBRARY IN THIS REPOSITORY
+1. The poses folder holds seven subfolders: 00_Reference (the Big Dog Approved seal artwork and the character portraits), 01_Big_Dog_Front_Poses (18 poses), 02_Maggie_Front_Poses (18 poses), 03_Together_Front_Poses (18 poses), 04_Big_Dog_Back_and_Side (8 poses), 05_Maggie_Back_and_Side (8 poses), and 06_Together_Back_and_Side (8 poses).
+2. Every pose has a catalog ID in the Complete Media Kit: BD-F for Big Dog front poses, MG-F for Maggie front poses, DUO-F for the pair, and BD-B, MG-B, and DUO-B for the back and side sets. When an instruction names an ID, use exactly that file.
+3. The PNG files in the poses folder are masters. Never edit, rename, recompress, or delete a master. Build every website copy from the master, and keep the master untouched.
+4. Website copies: export each placement as a WebP copy sized for its placement (never wider than 640 pixels for accent art, never wider than 1080 pixels for a hero placement), stored under img/mascots/ with the catalog ID in the file name, for example img/mascots/duo-f17.webp. The full-size PNG masters are never placed on a page directly.
+
+SECTION 3: WHAT TO BUILD ON THE WEBSITE
+Build the following, in this order, and report each step before moving to the next.
+1. Homepage welcome. Place the together welcoming pose, DUO-F17 (file duo-pose-17.png), beside the homepage welcome headline, sized as a friendly accent, with the alt text in Section 5. On narrow phone layouts it sits under the headline, never covering words.
+2. Section accents. Add one mascot accent to each major homepage section header, using these poses: shopping sections use BD-F08 (pushing a shopping cart); events use BD-F16 (megaphone); the directory and find us area uses BD-F15 (studying a map); deals and offers use BD-F05 (holding a shopping bag); the welcome and new listings area uses MG-F17 (Maggie welcoming); help and contact use MG-F09 (Maggie looking at a phone).
+3. Business Spotlight art. Where the site shows a featured or spotlight business, pair it with BD-F12 (holding a checkmark sign) and the Big Dog Approved seal from the 00_Reference folder, seal file Big_Dog_Approved_Page_Logo.png, shown only for verified listings, as the standing rules already require.
+4. Profile pages. A listing profile page may carry one small mascot accent chosen by the listing's category from the same map as step 2. Do not add accents to every card on the listing grids; the grids stay clean and fast.
+5. Notices. For closings, holiday hours, and schedule change notices on the site, use BD-F14 (sitting sleepy) for a closing and MG-F16 (megaphone) for a change announcement, beside the notice text.
+6. Video slots. Where an approved mascot video is later supplied for a section, place it in a framed slot with the matching pose image as its poster frame, set to load only when the visitor reaches it (lazy loading), muted and looping only if Charles approved that video as a loop, and never autoplaying with sound. No video is placed until Charles has approved that exact video.
+7. The pair for celebrations. For festival and holiday features, DUO-F04 (jumping, paws up) or DUO-F10 (dancing) may accent the feature header, in season only, and removed when the feature ends.
+
+SECTION 4: PERFORMANCE AND LAYOUT RULES
+1. The homepage is already image heavy, so this implementation must stay light: total added weight on the homepage from mascot web copies must stay under 400 kilobytes, every mascot image lazy loads except the homepage welcome accent, and every image carries width and height attributes so the layout never shifts while loading.
+2. Mascot art is decorative support, never the content. It never replaces a business logo, never covers text, and never appears behind paragraphs.
+3. On phones, accents shrink or stack; no accent may push a headline, a button, or a listing off the visible area, and tap targets stay clear of the artwork.
+4. Spanish mode: the same artwork serves both languages. Alt text follows Section 5 in English and in the Spanish fields where the site carries them.
+
+SECTION 5: ALT TEXT
+Use these exact alt texts so screen readers and search engines describe the mascots correctly.
+DUO-F17: Big Dog and Maggie, the Hanceville Entertainment and Shopping mascots, welcoming visitors with open paws.
+BD-F08: Big Dog pushing a shopping cart.
+BD-F16: Big Dog making an announcement with a megaphone.
+BD-F15: Big Dog studying a map.
+BD-F05: Big Dog holding a shopping bag.
+MG-F17: Maggie, the Hanceville Entertainment and Shopping mascot, welcoming visitors.
+MG-F09: Maggie looking at a phone.
+BD-F12: Big Dog holding a sign with a checkmark.
+BD-F14: Big Dog sitting with his eyes closed.
+MG-F16: Maggie making an announcement with a megaphone.
+DUO-F04: Big Dog and Maggie jumping with excitement.
+DUO-F10: Big Dog and Maggie dancing.
+Seal: Big Dog Approved, verified listing.
+
+SECTION 6: FACTS, SAFETY, AND APPROVAL
+1. This implementation adds artwork and layout only. It changes no listing data, no hours, no links, and no text content beyond the placements above.
+2. The suspended site email stays off the site. Contact continues to route to the Hanceville Entertainment and Shopping Facebook Page messages.
+3. Run the standing security and accuracy scans before and after this update, as the main instruction file requires.
+4. Nothing in this instruction publishes on its own. Build the implementation, report exactly what was built with the placements and file names used, and wait for Charles Adams to approve before it goes live. Charles is the only approver.
+5. If a named pose file is missing from the repository, stop that step and report it. Never substitute a different image, a stock image, or a generated replacement.
+
+SECTION 7: WHAT GROK DOES NOT DO UNDER THIS INSTRUCTION
+Do not create new poses, edit the artwork, add characters, or commission videos under this instruction. New poses are made only under the New Pose and Cut-Out Creation Guide and enter the library only after Charles approves them, and videos are made only under the AI Video Creation Guide and placed only after Charles approves each one. Content for the Facebook Page follows the AI Content Creation Playbook and is not part of this website build.
