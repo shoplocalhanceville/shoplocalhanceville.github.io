@@ -168,6 +168,56 @@ function loadGC(){return fetch('scores.json?t='+Date.now(),{cache:'no-store'}).t
 if(gcBox){loadGC();gcTimer=setInterval(function(){if(!document.hidden)loadGC();},60000);document.addEventListener('visibilitychange',function(){if(!document.hidden)loadGC();});}
 var np=document.getElementById('news-prev');
 if(np)get(pg('news')).then(function(d){d.slice(0,3).forEach(function(e){np.appendChild(card(e,'news'));});});
+
+/* Reviews on other sites: link-outs only, added to main profile pages.
+   Data comes from the page's own JSON-LD. No review content is copied or stored. */
+(function(){
+  var path=location.pathname;
+  if(!/\/place-[a-z0-9-]+\.html$/.test(path))return;
+  if(/-(contact|related|social|location|hours)\.html$/.test(path))return;
+  if(document.querySelector('.slh-reviews'))return;
+  var ent=null;
+  var lds=document.querySelectorAll('script[type="application/ld+json"]');
+  for(var i=0;i<lds.length&&!ent;i++){
+    try{
+      var j=JSON.parse(lds[i].textContent);
+      var g=j['@graph']||[j];
+      for(var k=0;k<g.length;k++){if(g[k]&&g[k]['@id']&&/#entity$/.test(g[k]['@id'])){ent=g[k];break;}}
+      if(!ent&&g[0]&&g[0].name)ent=g[0];
+    }catch(e){}
+  }
+  if(!ent||!ent.name)return;
+  var addr='';
+  if(ent.address){
+    var a=ent.address;
+    addr=[a.streetAddress,a.addressLocality,a.addressRegion,a.postalCode].filter(Boolean).join(', ').replace(', AL,',', AL ');
+    if(a.addressLocality&&a.addressRegion)addr=[a.streetAddress,(a.addressLocality+', '+a.addressRegion),a.postalCode].filter(Boolean).join(', ');
+  }
+  var fb='';
+  if(ent.sameAs){for(var s=0;s<ent.sameAs.length;s++){if(/facebook\.com/.test(ent.sameAs[s])){fb=ent.sameAs[s];break;}}}
+  var q=encodeURIComponent(ent.name+(addr?' '+addr:' Alabama'));
+  var links=[
+    {label:'Google reviews',url:'https://www.google.com/maps/search/?api=1&query='+q},
+    {label:'Search Yelp for '+ent.name,url:'https://www.yelp.com/search?find_desc='+encodeURIComponent(ent.name)+'&find_loc='+encodeURIComponent(addr||'Cullman County, AL')}
+  ];
+  if(fb)links.push({label:'Facebook page',url:fb});
+  var sec=el('section','pl-sec slh-reviews');
+  sec.appendChild(el('h2',null,'Reviews on other sites'));
+  var ul=el('ul','pl-links');
+  links.forEach(function(L){
+    var li=el('li');var a=el('a',null,L.label);
+    a.href=safe(L.url);a.target='_blank';a.rel='noopener noreferrer';
+    li.appendChild(a);ul.appendChild(li);
+  });
+  sec.appendChild(ul);
+  sec.appendChild(el('p','pl-note','These links go to search results on Google and Yelp. This site does not copy, store, or display reviews from other sites.'));
+  var anchor=null;
+  var secs=document.querySelectorAll('main section.pl-sec');
+  for(var m=0;m<secs.length;m++){var h=secs[m].querySelector('h2');if(h&&h.textContent.indexOf('Explore this listing')===0){anchor=secs[m];break;}}
+  var main=document.querySelector('main');
+  if(anchor&&anchor.parentNode)anchor.parentNode.insertBefore(sec,anchor);
+  else if(main)main.appendChild(sec);
+})();
 })();
 
 if('serviceWorker' in navigator&&location.protocol==='https:')window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});
