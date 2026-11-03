@@ -1,0 +1,32 @@
+name: Lighthouse CI Gate
+
+# Charles Development Standard gate: every pull request must pass the
+# Lighthouse CI assertions in .lighthouserc.json (desktop) and
+# .lighthouserc.mobile.json (mobile) before it can merge.
+# A failed gate blocks the merge. Only Charles may waive a failed gate,
+# in writing, for that one release.
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Lighthouse CI
+        run: npm install -g @lhci/cli
+      - name: Run Lighthouse CI (desktop)
+        run: lhci autorun --config=.lighthouserc.json
+      - name: Run Lighthouse CI (mobile)
+        run: lhci autorun --config=.lighthouserc.mobile.json
+      - name: Save reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: lhci-reports
