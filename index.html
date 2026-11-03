@@ -540,6 +540,11 @@ document.getElementById("themeToggle").addEventListener("click",function(){
   try{localStorage.setItem("hes-theme",cur);}catch(e){}
   paintToggle();});
 var L=window.SLH_LISTINGS||[];
+function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
+function favs(){try{return JSON.parse(localStorage.getItem("slh-favs")||"[]");}catch(e){return[];}}
+function setFavs(f){try{localStorage.setItem("slh-favs",JSON.stringify(f));}catch(e){}}
+function T(en){return (LANG==="es"&&window.SLH_UI&&window.SLH_UI[en])||en;}
+
 
 function isFav(n){return favs().indexOf(n)>=0;}
 /* weather */
