@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-var FB='https://www.facebook.com/ShopLocalAlabama';
+var FB='https://www.facebook.com/2333964643484816';
 var PAGES=[
  {k:'departments',f:'departments.html',t:'Departments & Contacts',ic:'\ud83d\udcde',j:'departments.json',g:'group',o:['City Hall Offices','Public Safety','Streets, Water and Utilities','Parks, Library and Recreation','Boards and Committees','County Office at City Hall'],info:1},
  {k:'events',f:'events.html',t:'Upcoming Events',ic:'\ud83d\udcc5',j:'events.json',g:'group',o:['Community and Fun','Sports']},
