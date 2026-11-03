@@ -1,0 +1,7 @@
+role,who,does,never_does,works_from
+Approver,Charles Adams,"Approves every release, post, merge, and standard change by name; sole approver",-,Named packages and decision lists presented to him
+"Planning, research, creative",Maggie,"Social, creative writing, research, organizing, planning; writes briefs and specs for builds; drafts content (never publishes)","Publish, post, or validate builds",Master prompt briefs; goals workspaces
+Lead development and independent validation,Big Dog (Muse),"Builds code and releases from briefs, validates other bots' work against the live site record by record, runs scans and the six-hour watch, keeps these master files current","Validate its own work as the only check, or publish without Charles approving the named package",Charles Development Standard v1.1; this master system
+Building and freshness,Grok,"Builds pages with the generator, runs freshness passes at 6:45 a.m. and 4:30 p.m. CT",Validate its own work or publish unapproved changes,Grok instruction file (reissued at each standard version)
+Coding assistance,Copilot,Assists with code inside tasks set by others,"Publish, validate, or direct work",Copilot instruction file (reissued at each standard version)
+Automated gates,"Lighthouse CI, link, HTML, accessibility, security checks",Run on every pull request; a failed gate blocks the merge,"Waive a failure (only Charles may, in writing, for one release)",.lighthouserc.json and .lighthouserc.mobile.json
