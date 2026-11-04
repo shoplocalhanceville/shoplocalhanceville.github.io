@@ -325,6 +325,57 @@ sm=open('sitemap.xml').read();sm=re.sub(r'\s*<url><loc>'+re.escape(BASE)+r'(plac
 sm=re.sub(r'\s*<url><loc>'+re.escape(BASE)+r'(places|about|contact|privacy|terms|sources|sitemap)\.html</loc>.*?</url>','',sm,flags=re.S)
 sm=sm.replace('</urlset>',''.join(f'\n  <url><loc>{BASE}{p}</loc><lastmod>{today}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>' for p in sorted(pages))+'\n</urlset>')
 open('sitemap.xml','w').write(sm)
+
+# --- News sitemap (News SEO package, staged 2026-11-03; not yet applied) ---
+# Emits news-sitemap.xml per Google Search Central's news sitemap spec:
+# only stories whose recorded publication date falls inside the two-day
+# window ending today (America/Chicago) are listed. A story's date comes
+# from its own page: the NewsArticle JSON-LD datePublished must agree with
+# the visible "Published" date in the page's story-meta line. A story whose
+# two recorded dates disagree is skipped and reported, never dated by
+# guesswork. Dates are emitted exactly as recorded (date-only ISO 8601);
+# no time or timezone offset is invented for a story that records none.
+# An empty result is a valid, harmless file per the spec.
+NEWS_PUB_NAME='Hanceville Entertainment & Shopping'
+NEWS_PUB_LANG='en'
+def news_sitemap():
+  from zoneinfo import ZoneInfo
+  today_ct=datetime.datetime.now(ZoneInfo('America/Chicago')).date()
+  window_start=today_ct-datetime.timedelta(days=2)
+  entries=[]
+  for f in sorted(glob.glob('story-*.html')):
+    src=open(f,encoding='utf-8').read()
+    na=None
+    m=re.search(r'<script type="application/ld\+json">(.*?)</script>',src,re.S)
+    if m:
+      try:
+        for node in json.loads(m.group(1)).get('@graph',[]):
+          if node.get('@type')=='NewsArticle':na=node
+      except Exception:na=None
+    if not na or not na.get('datePublished') or not na.get('headline'):
+      print('news sitemap: skipped',f,'(no NewsArticle headline/datePublished)');continue
+    vm=re.search(r'class="story-meta">Published <time datetime="([^"]+)"',src)
+    if not vm or vm.group(1)!=na['datePublished']:
+      print('news sitemap: skipped',f,'(visible date and JSON-LD datePublished disagree)');continue
+    try:d=datetime.date.fromisoformat(na['datePublished'])
+    except Exception:
+      print('news sitemap: skipped',f,'(unparseable datePublished)');continue
+    if window_start<=d<=today_ct:entries.append((f,na))
+  out=['<?xml version="1.0" encoding="UTF-8"?>',
+       '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">']
+  for f,na in entries:
+    out.append('  <url>')
+    out.append('    <loc>'+BASE+f+'</loc>')
+    out.append('    <news:news>')
+    out.append('      <news:publication><news:name>'+E(NEWS_PUB_NAME)+'</news:name><news:language>'+NEWS_PUB_LANG+'</news:language></news:publication>')
+    out.append('      <news:publication_date>'+na['datePublished']+'</news:publication_date>')
+    out.append('      <news:title>'+E(na['headline'])+'</news:title>')
+    out.append('    </news:news>')
+    out.append('  </url>')
+  out.append('</urlset>')
+  open('news-sitemap.xml','w',encoding='utf-8').write('\n'.join(out)+'\n')
+  print(len(entries),'stories in the news sitemap window')
+news_sitemap()
 json.dump({x['slug']:1 for x in P.values()},open('places.json','w'),separators=(',',':'))
 print(len(P),'places',len(CATS),'categories',len(pages),'generated pages')
 subprocess.run(['python3','tools/footer.py'],check=True)
