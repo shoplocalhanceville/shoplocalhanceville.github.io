@@ -303,6 +303,19 @@ img{max-width:100%}
 #orail figure{cursor:pointer}
 .card h3{cursor:pointer}
 </style><style>.openst{font-weight:600;font-size:.92em;margin:.15em 0 0}.openst:before{content:"\25CF  "}</style>
+<style>
+/* Layout stability: rails reserve their filled height from first paint, and
+   featured card titles reserve three lines so the daily rotation cannot
+   change card height (a fourth line is covered by the rail reserve). */
+.fcard h3{min-height:3.9em}
+#wxNow{min-height:52px}
+@media (max-width:900px){#wxNow{min-height:79px}}
+#krail{min-height:139px}
+#frail{min-height:354px}
+#orail{min-height:182px}
+#prail{min-height:232px}
+#trail{min-height:108px}
+</style>
 </head>
 <body><a class="skiplink" href="#results" data-i18n="Skip to listings">Skip to listings</a>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
