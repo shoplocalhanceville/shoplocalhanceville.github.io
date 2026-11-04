@@ -2,7 +2,8 @@
 <html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
-<script>try{window.SLH_LANG=localStorage.getItem("hes-lang")||"en";if(window.SLH_LANG==="es"){document.documentElement.lang="es";}}catch(e){window.SLH_LANG="en";}</script>
+<script>(function(){var saved=null,choice=null,pick=null;try{saved=localStorage.getItem("hes-lang");}catch(e){}try{choice=localStorage.getItem("hes-access");}catch(e){}try{pick=sessionStorage.getItem("hes-access-pick");}catch(e){}window.SLH_ACCESS_CHOICE=choice||"";if(pick==="es"||pick==="en"){window.SLH_LANG=pick;window.SLH_LANG_SRC="picked";}else if(saved==="es"||saved==="en"){window.SLH_LANG=saved;window.SLH_LANG_SRC="saved";}else{var langs=[];try{langs=(navigator.languages&&navigator.languages.length)?navigator.languages:(navigator.language?[navigator.language]:[]);}catch(e){}window.SLH_LANG="en";window.SLH_LANG_SRC=langs.length?"detected":"none";for(var i=0;i<langs.length;i++){var c=String(langs[i]||"").toLowerCase();if(c==="es"||c.indexOf("es-")===0){window.SLH_LANG="es";break;}}}if(window.SLH_LANG==="es"){document.documentElement.lang="es";}if((window.SLH_LANG_SRC==="none"||window.SLH_LANG_SRC==="picked")&&!window.SLH_ACCESS_CHOICE){document.documentElement.setAttribute("data-access","pending");}})();</script>
+
 <meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta property="og:type" content="website">
@@ -233,6 +234,20 @@ section[id],main[id]{scroll-margin-top:86px}html{scroll-padding-bottom:84px}
 #siteinfo details{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:6px 16px;margin:0 0 10px}
 #siteinfo summary{cursor:pointer;font-weight:700;font-size:17px;padding:10px 0;min-height:28px}
 #siteinfo details p{margin:0 0 12px;line-height:1.55}
+/* === Language and privacy notice (no language signal only, fixed banner, reserves no space) === */
+.accessSlot{position:fixed;top:0;left:0;right:0;z-index:90}
+.accessBar{max-height:72vh;overflow:auto;background:var(--surface);border-bottom:2px solid var(--line);box-shadow:0 8px 28px rgba(0,0,0,.3)}
+.accessInner{max-width:1080px;margin:0 auto;padding:14px 16px}
+.accessInner h2{font-size:18px;margin:0 0 6px}
+.accessInner p{margin:0 0 8px;line-height:1.5;font-size:15px;max-width:760px}
+.accessTerms{display:inline-block;font-weight:700;margin:2px 0 8px;min-height:24px}
+.accessCheck{display:flex;gap:10px;align-items:flex-start;font-size:15px;margin:0 0 10px;max-width:760px}
+.accessCheck input{width:22px;height:22px;flex:none;margin:1px 0 0}
+.accessBtns{display:flex;flex-wrap:wrap;gap:10px}
+.accessBtns .btn{min-height:44px;padding:0 18px}
+.accessPick{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 8px;font-weight:700}
+.accessPick .btn{min-height:44px;padding:0 18px}
+@media (max-width:640px){.accessBtns .btn{flex:1 1 40%}}
 @media print{
  header.topbar,.tabbar,.heroPanel,.helpbar,.wxalert,.ctaBanner,.stickybar,.arrows,#toTop,.menuWrap,#shareSite,.suggest,.fbembed,.embedbox{display:none!important}
  body{background:#fff;color:#000}
@@ -318,6 +333,15 @@ img{max-width:100%}
 </style>
 </head>
 <body><a class="skiplink" href="#results" data-i18n="Skip to listings">Skip to listings</a>
+<div class="accessSlot" id="accessSlot"><div class="accessBar" id="accessBar" role="region" aria-labelledby="accessTitle" hidden>
+<div class="accessInner">
+<h2 id="accessTitle">Language and privacy: your choice</h2>
+<p id="accessText">We read the language setting of your browser on your device and used it to open this site in English. Nothing about the check is sent to us. Allow all saves your language choice and this answer on your device. Only what is needed saves only this answer, and your language is checked again on your next visit. This site sets no tracking cookies either way.</p>
+<div class="accessPick" id="accessPick" hidden><span id="accessPickLabel">Choose your language:</span><button type="button" class="btn" id="accessPickEn" lang="en">English</button><button type="button" class="btn" id="accessPickEs" lang="es">Español</button></div>
+<a class="accessTerms" id="accessTermsLink" href="#pol-terms">Review the terms</a>
+<label class="accessCheck"><input type="checkbox" id="accessCheck"><span id="accessCheckLabel">I have read and agree to the Terms of Use.</span></label>
+<div class="accessBtns"><button type="button" class="btn btn-primary" id="accessAllow" disabled>Allow all</button><button type="button" class="btn" id="accessNeeded" disabled>Only what is needed</button><button type="button" class="btn" id="accessReview">Review first</button></div>
+</div></div></div>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
 <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></symbol>
 <symbol id="i-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1" fill="currentColor"/><circle cx="3.5" cy="12" r="1" fill="currentColor"/><circle cx="3.5" cy="18" r="1" fill="currentColor"/></symbol>
@@ -487,7 +511,7 @@ img{max-width:100%}
  <details id="pol-privacy"><summary data-i18n="privacy_h">Privacy policy</summary>
   <p data-i18n="privacy_p">This site does not require accounts, does not ask for passwords, and does not sell or share visitor information. The site itself sets no tracking cookies. Places you save are stored only in your own browser on your own device and never leave it. Search runs on your device. Weather comes from the National Weather Service. When you tap &#8220;See latest post&#8221; on a listing, that organization&#8217;s Facebook post loads from Facebook, and Facebook&#8217;s own privacy policy then applies. The site is hosted on GitHub Pages; like most hosts, GitHub may keep standard server logs. Questions about privacy can be sent by message to the Hanceville Entertainment &amp; Shopping Facebook Page.</p></details>
  <details id="pol-terms"><summary data-i18n="terms_h">Terms of use</summary>
-  <p data-i18n="terms_p">Information here is provided for community convenience and is believed accurate when published, but details such as hours, prices, and services can change. Please confirm important details directly with the business or organization. A listing is not an endorsement. Links lead to third-party websites that this site does not control. Business names and logos are used only to identify each business or organization and remain the property of their owners.</p></details>
+  <p data-i18n="terms_p">Information here is provided for community convenience and is believed accurate when published, but details such as hours, prices, and services can change. Please confirm important details directly with the business or organization. A listing is not an endorsement. Links lead to third-party websites that this site does not control. Business names and logos are used only to identify each business or organization and remain the property of their owners.</p><p data-i18n="terms_lang_p" id="termsLangP">Language detection and translation. On a first visit, this site reads the language setting of your browser on your own device so it can open in English or in Spanish. The check happens on your device, and no language information is sent to this site or to any third party. If you choose a language, or confirm it in the language notice, your choice is stored only in your browser on your device, and you can change it at any time with the language button. This site is offered in English and Spanish only. Business and organization names are proper nouns and keep their original form in both languages. Every Spanish description on this site is a written translation prepared for this site. A listing that does not yet have a Spanish description appears in English while Spanish mode is on, and no machine translation is presented as verified information.</p></details>
  <details id="pol-listing"><summary data-i18n="listing_h">Listing &amp; removal policy</summary>
   <p data-i18n="listing_p">Any Cullman County business, church, school, nonprofit, or community organization may be listed free of charge. New listings and changes are reviewed, and nothing is published without the owner&#8217;s approval. If your organization&#8217;s information is wrong, or you would like a listing or logo corrected or removed, message the Hanceville Entertainment &amp; Shopping Facebook Page and it will be handled promptly. Inaccurate links are removed as soon as they are found.</p></details>
  <details id="pol-access"><summary data-i18n="access_h">Accessibility statement</summary>
@@ -1065,5 +1089,63 @@ function openFromHash(){
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",openFromHash);else openFromHash();
 })();
 </script><script>if('serviceWorker' in navigator&&location.protocol==='https:')window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});</script>
+<script>
+/* === Language notice: strings, terms clause swap, and prompt behavior === */
+(function(){
+"use strict";
+var ES={
+ title:"Idioma y privacidad: su elección",
+ textDetected:"Consultamos el ajuste de idioma de su navegador en su dispositivo y lo usamos para abrir este sitio en español. Ningún dato de esa consulta se nos envía. Permitir todo guarda su elección de idioma y esta respuesta en su dispositivo. Solo lo necesario guarda únicamente esta respuesta, y su idioma se consultará de nuevo en su próxima visita. Este sitio no instala cookies de seguimiento en ningún caso.",
+ textNone:"No pudimos leer el ajuste de idioma de su navegador. Elija el idioma que prefiere en los botones siguientes y luego confirme su elección.",
+ pickLabel:"Elija su idioma:",
+ textPicked:"Usted eligió español para este sitio, y esa elección ya quedó guardada en su dispositivo. Confirme su respuesta a continuación. Permitir todo mantiene guardada esa elección. Solo lo necesario guarda únicamente esta respuesta y borra la elección de idioma guardada, de modo que se le preguntará de nuevo en su próxima visita. Este sitio no instala cookies de seguimiento en ningún caso.",
+ termsLink:"Revisar las condiciones",
+ checkLabel:"He leído las Condiciones de uso y las acepto.",
+ allow:"Permitir todo",needed:"Solo lo necesario",review:"Revisar primero",
+ termsClause:"Detección de idioma y traducción. En una primera visita, este sitio consulta el ajuste de idioma de su navegador en su propio dispositivo para abrirse en inglés o en español. La consulta se realiza en su dispositivo y no se envía ninguna información de idioma a este sitio ni a terceros. Si usted elige un idioma, o lo confirma en el aviso de idioma, su elección se guarda únicamente en su navegador, en su dispositivo, y puede cambiarla en cualquier momento con el botón de idioma. Este sitio se ofrece solamente en inglés y en español. Los nombres de negocios y organizaciones son nombres propios y mantienen su forma original en ambos idiomas. Cada descripción en español de este sitio es una traducción escrita preparada para este sitio. Una ficha que aún no tiene descripción en español aparece en inglés mientras el modo en español está activo, y ninguna traducción automática se presenta como información verificada."
+};
+var EN={
+ textNone:"We could not read a language setting from your browser. Please choose your language with the buttons below, and then confirm your choice.",
+ pickedEn:"Thank you. This site will stay in English. Please review the terms and confirm your choice below."
+};
+var tp=document.getElementById("termsLangP");
+if(tp&&window.SLH_LANG==="es"){tp.textContent=(window.SLH_UI&&window.SLH_UI.terms_lang_p)||ES.termsClause;}
+var root=document.documentElement;
+if(root.getAttribute("data-access")!=="pending")return;
+var bar=document.getElementById("accessBar");if(!bar)return;
+function setText(id,txt){var el=document.getElementById(id);if(el)el.textContent=txt;}
+if(window.SLH_LANG==="es"){
+ setText("accessTitle",ES.title);setText("accessText",ES.textDetected);
+ setText("accessPickLabel",ES.pickLabel);setText("accessTermsLink",ES.termsLink);
+ setText("accessCheckLabel",ES.checkLabel);setText("accessAllow",ES.allow);
+ setText("accessNeeded",ES.needed);setText("accessReview",ES.review);
+}
+if(window.SLH_LANG_SRC==="picked"&&window.SLH_LANG==="es"){setText("accessText",ES.textPicked);}
+if(window.SLH_LANG_SRC==="none"){
+ setText("accessText",window.SLH_LANG==="es"?ES.textNone:EN.textNone);
+ var pk=document.getElementById("accessPick");if(pk)pk.hidden=false;
+}
+bar.hidden=false;
+function openTerms(e){if(e)e.preventDefault();var d=document.getElementById("pol-terms");if(!d)return;d.open=true;d.scrollIntoView({block:"start"});var s=d.querySelector("summary");if(s)s.focus({preventScroll:true});}
+var tl=document.getElementById("accessTermsLink");if(tl)tl.addEventListener("click",openTerms);
+var rv=document.getElementById("accessReview");if(rv)rv.addEventListener("click",openTerms);
+var chk=document.getElementById("accessCheck");
+var allow=document.getElementById("accessAllow"),needed=document.getElementById("accessNeeded");
+if(chk)chk.addEventListener("change",function(){allow.disabled=!chk.checked;needed.disabled=!chk.checked;});
+function dismiss(mode){
+ try{localStorage.setItem("hes-access",mode);}catch(e){}
+ try{sessionStorage.removeItem("hes-access-pick");}catch(e){}
+ if(mode==="all"){try{localStorage.setItem("hes-lang",window.SLH_LANG||"en");}catch(e){}}
+ else if(window.SLH_LANG_SRC==="picked"){try{localStorage.removeItem("hes-lang");}catch(e){}}
+ root.removeAttribute("data-access");bar.hidden=true;
+ var lb=document.getElementById("langBtn");if(lb)lb.focus();
+}
+if(allow)allow.addEventListener("click",function(){dismiss("all");});
+if(needed)needed.addEventListener("click",function(){dismiss("needed");});
+var pEn=document.getElementById("accessPickEn"),pEs=document.getElementById("accessPickEs");
+if(pEn)pEn.addEventListener("click",function(){window.SLH_LANG="en";var pk2=document.getElementById("accessPick");if(pk2)pk2.hidden=true;setText("accessText",EN.pickedEn);});
+if(pEs)pEs.addEventListener("click",function(){try{sessionStorage.setItem("hes-access-pick","es");localStorage.setItem("hes-lang","es");}catch(e){}location.reload();});
+})();
+</script>
 </body>
 </html>
