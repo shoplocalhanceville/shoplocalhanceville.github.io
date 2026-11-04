@@ -18,18 +18,6 @@
  },
  {
   "group": "Downtown Shops",
-  "name": "Coffee Hour Co.",
-  "summary": "Fresh roasted coffee from a local roastery, sold in bags from 12 ounces up to 5 pounds. It makes a nice gift for the coffee lover in your life.",
-  "tags": [
-   "coffee beans",
-   "roastery",
-   "gifts"
-  ],
-  "address": "Commercial Street, Hanceville",
-  "source": "https://cullmantimes.com/2025/02/05/hanceville-coffee-roastery-cuts-the-ribbon-on-new-downtown-tasting-room/"
- },
- {
-  "group": "Downtown Shops",
   "name": "Sublime Vintage",
   "summary": "A vintage clothing shop on Main Street. Thrifters will want to stop in, because you never know what you'll find.",
   "tags": [

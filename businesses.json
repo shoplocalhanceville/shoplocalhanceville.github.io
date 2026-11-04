@@ -229,18 +229,6 @@
  },
  {
   "category": "Auto Sales",
-  "name": "S and N Auto Sales",
-  "service": "Used car dealer",
-  "tags": [
-   "used cars",
-   "car lot",
-   "auto sales"
-  ],
-  "address": "Main Street NE, Hanceville, AL 35077",
-  "summary": "A used car lot on Main Street in Hanceville."
- },
- {
-  "category": "Auto Sales",
   "name": "Barbee Truck Sales",
   "service": "Used truck dealer",
   "tags": [
