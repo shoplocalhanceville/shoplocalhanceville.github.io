@@ -89,5 +89,15 @@
     ],
     "verified": "2026-10-31",
     "note": "Promo page hanceville-library.html, not a generated place page"
+  },
+  "hanceville-civitan-club": {
+    "facebook": "https://www.facebook.com/hancevillecivitan",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/hancevillecivitan",
+        "label": "Official Facebook Page"
+      }
+    ],
+    "verified": "2026-11-03"
   }
 }

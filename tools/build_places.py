@@ -4,7 +4,7 @@
 
 Data sources, merged by slug (later sources fill blanks, never overwrite):
   1. the per-section JSON files (businesses.json, shops.json, eats.json, ...)
-  2. window.SLH_LISTINGS inside index.html (the homepage directory)
+  2. window.SLH_LISTINGS inside data.js (the homepage directory)
 Rerun after any data change:  python3 tools/build_places.py
 Nothing here invents facts. Each section only appears when its data exists."""
 import json,re,os,html,datetime,urllib.parse,glob,subprocess
@@ -34,8 +34,8 @@ def add(r,kind,label,catkey):
     if v and not x.get(k):x[k]=v
 for kind,ck,label in KINDS:
   for r in json.load(open(kind+'.json')):add(r,kind,label,ck)
-idx=open('index.html').read()
-mm=re.search(r'window\.SLH_LISTINGS = (\[.*?\]);\n',idx,re.S)
+dj=open('data.js').read()
+mm=re.search(r'window\.SLH_LISTINGS = (\[.*?\]);\n',dj,re.S)
 for r in json.loads(mm.group(1)) if mm else []:add(r,'index','Home Directory','category')
 for x in P.values():
   w=x.get('website') or ''
