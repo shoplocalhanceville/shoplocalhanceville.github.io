@@ -1,7 +1,7 @@
 # Website Program Master Guide
 ## Hanceville Entertainment and Shopping (Shop Local Hanceville)
 Site: https://shoplocalhanceville.github.io/ · Repository: github.com/shoplocalhanceville/shoplocalhanceville.github.io (public, main)
-Owner and only approver: **Charles Adams**. Current as of **November 3, 2026** (after PR #46). Maintained by Big Dog; update this guide and the registries in the same pass as any release.
+Owner and only approver: **Charles Adams**. Current as of **November 3, 2026** (after PR #54; the gate follow-up release is in flight). Maintained by Big Dog; update this guide and the registries in the same pass as any release.
 
 ## If you are a new bot or developer picking this up, read in this order
 1. This guide.
