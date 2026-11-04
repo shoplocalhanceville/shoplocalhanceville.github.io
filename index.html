@@ -9,7 +9,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://shoplocalhanceville.github.io/">
 <meta property="og:title" content="Hanceville Entertainment and Shopping">
-<meta property="og:description" content="Free local directory for Hanceville and Cullman County, Alabama: 723 businesses, restaurants, churches, schools, shopping spots, nonprofits, and help resources with real phone numbers, directions, and local posts.">
+<meta property="og:description" content="Free local directory for Hanceville and Cullman County, Alabama: businesses, restaurants, churches, schools, shopping spots, nonprofits, and help resources with real phone numbers, directions, and local posts.">
 <meta property="og:image" content="https://shoplocalhanceville.github.io/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -947,9 +947,13 @@ if(window.SLH_LANG==="es"&&window.SLH_UI){
  if(qi)qi.placeholder="Busca peluquer\u00edas, comida, iglesias, escuelas \u2014 o el nombre de un negocio";
  var pb=document.getElementById("printBtn"); if(pb)pb.textContent="Imprimir lista";
 }
+if(window.SLH_LANG!=="es"&&window.SLH_LISTINGS){
+ var tlen=document.getElementById("trustline");
+ if(tlen&&tlen.firstChild&&tlen.firstChild.nodeType===3){tlen.firstChild.nodeValue=tlen.firstChild.nodeValue.replace(/^\d+/,String(window.SLH_LISTINGS.length));}
+}
 if(window.SLH_LANG==="es"&&window.SLH_MINI&&window.SLH_MINI.trust_listings){
  var M=window.SLH_MINI;var tl=document.getElementById("trustline");
- if(tl){tl.innerHTML=(window.SLH_LISTINGS?window.SLH_LISTINGS.length:722)+" "+M.trust_listings+" &#183; "+M.trust_verified+" &#183; Hanceville &amp; Cullman County, Alabama &#183; ";
+ if(tl){tl.innerHTML=(window.SLH_LISTINGS?window.SLH_LISTINGS.length+" ":"")+M.trust_listings+" &#183; "+M.trust_verified+" &#183; Hanceville &amp; Cullman County, Alabama &#183; ";
   var b=document.createElement("button");b.type="button";b.id="shareSiteEs";b.className="sharelink";b.textContent=M.share_site;
   b.addEventListener("click",function(){var url=location.href.split("#")[0];
    if(navigator.share){navigator.share({title:document.title,url:url}).catch(function(){});}
