@@ -527,6 +527,7 @@ img{max-width:100%}
 </nav>
 
 <script src="data.js"></script>
+<script>if(window.SLH_LANG==="es")document.write('<script src="data-es.js"><\/script>');</script>
 
 <script>
 window.SLH_REG = "img/home/f7679b5094c0.webp";window.SLH_CONTENT=function(r){return ["Fun Facts","Sweet Tea Jokes","Getting Started","Everyone","Social Media"].indexOf(r.category)>=0||["Attractions, Farms & Recreation","Businesses & Services","Lodging & Campgrounds","Nonprofits, Counseling & Community Organizations","Restaurants, Food & Drink"].indexOf(r.name)>=0;};
@@ -584,9 +585,9 @@ var SYN={food:"restaurant",eats:"restaurant",hair:"barber",doctor:"clinic",healt
 var LANG=window.SLH_LANG||"en";
 
 function catName(c){return (LANG==="es"&&window.SLH_CAT&&window.SLH_CAT[c])||c;}
-function descOf(r){return (LANG==="es"&&r.descEs)?r.descEs:(r.description||"");}
+function descOf(r){return (LANG==="es"&&window.SLH_DESC_ES&&SLH_DESC_ES[r.name])?SLH_DESC_ES[r.name]:(r.description||"");}
 function norm(s){return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
-function hayOf(r){return norm(r.name+" "+(r.category||"")+" "+(r.address||"")+" "+(r.aka||"")+" "+(r.description||"")+" "+(r.descEs||""));}
+function hayOf(r){return norm(r.name+" "+(r.category||"")+" "+(r.address||"")+" "+(r.aka||"")+" "+(r.description||"")+" "+((window.SLH_DESC_ES&&SLH_DESC_ES[r.name])||""));}
 var BATCH=24,shown=0,filtered=L.slice();
 function card(r){
   var art=document.createElement("article");art.className="card";art.id=slug(r.name);
@@ -679,9 +680,28 @@ function apply(scroll){
   document.getElementById("noresults").hidden=filtered.length>0;
   if(scroll)document.getElementById("results").scrollIntoView({behavior:"smooth"});
 }
-function renderMore(){
-  filtered.slice(shown,shown+BATCH).forEach(function(r){grid.appendChild(card(r));});
-  shown+=BATCH;more.style.display=shown<filtered.length?"block":"none";
+/* WS4 prototype: chunked rendering (INP pattern). Build cards in small
+   chunks and yield to the main thread between chunks so no single task
+   runs long; a generation counter makes a newer apply() supersede any
+   render still in flight. Final DOM is identical to the original. */
+function yieldToMain(){
+  if(window.scheduler&&typeof scheduler.yield==="function")return scheduler.yield();
+  return new Promise(function(res){setTimeout(res,0);});
+}
+var renderGen=0,CHUNK=6;
+async function renderMore(){
+  var gen=++renderGen;
+  var end=Math.min(shown+BATCH,filtered.length);
+  while(shown<end){
+    if(gen!==renderGen)return;
+    var frag=document.createDocumentFragment();
+    var stop=Math.min(shown+CHUNK,end);
+    for(var i=shown;i<stop;i++){frag.appendChild(card(filtered[i]));}
+    shown=stop;
+    grid.appendChild(frag);
+    if(shown<end)await yieldToMain();
+  }
+  if(gen===renderGen)more.style.display=shown<filtered.length?"block":"none";
 }
 more.addEventListener("click",renderMore);
 q.addEventListener("input",function(){apply(false);suggest();});
@@ -955,7 +975,7 @@ function openListing(r){
   h+='<p class="pf-sub">'+esc((window.SLH_CAT&&LANG==="es"&&window.SLH_CAT[r.category])||r.category||"")+((r.town)?' · '+esc(r.town):'')+'</p></div></div>';
   h+='<h3 class="pf-h">'+esc(T("About"))+'</h3>';
   if(isFiller(r)){h+='<p class="pf-text">'+esc(LANG==="es"?"La descripción completa de este listado está en preparación. Los botones de contacto siguientes llegan directamente a la organización.":"A full description for this listing is being completed. The contact buttons below reach the organization directly.")+'</p>';}
-  else{var d=(LANG==="es"&&r.descEs)?r.descEs:r.description;h+='<p class="pf-text">'+esc(d)+'</p>';}
+  else{var d=(LANG==="es"&&window.SLH_DESC_ES&&SLH_DESC_ES[r.name])?SLH_DESC_ES[r.name]:r.description;h+='<p class="pf-text">'+esc(d)+'</p>';}
   if(r.address){h+='<h3 class="pf-h">'+esc(LANG==="es"?"Ubicación":"Location")+'</h3><p class="pf-text">'+esc(r.address)+'</p>';}
   h+='<div class="pf-acts">';
   if(r.phone){h+='<a class="btn btn-primary" href="tel:'+r.phone.replace(/[^0-9+]/g,"")+'">'+esc(T("Call"))+' · '+esc(r.phone)+'</a>';}
