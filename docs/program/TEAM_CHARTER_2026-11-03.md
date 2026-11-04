@@ -1,5 +1,7 @@
 # Team Charter — restructured for the Complete Overhaul Program, 2026-11-03
 
+Amendment, late evening 2026-11-03: at Charles's direction, Maggie is removed from the website team structure entirely. Lane 3 duties below move to the expanded Big Dog Research and Development cell, and a Prevention and Freshness cell is added. The current structure is BIG_DOG_EXPANDED_STRUCTURE_2026-11-03.md, which governs where it differs from this charter.
+
 Set by Charles Adams's direction on 2026-11-03: restructure the team for highly professional development, able to expand and build out the website continuously without asking continuously, toward the 100 out of 100 Lighthouse standard and professional standards generally, with accounting, organizing, and forward-looking score work as named duties.
 
 ## The lanes
