@@ -23,6 +23,7 @@ jobs:
       - name: Run Lighthouse CI (desktop)
         run: lhci autorun --config=.lighthouserc.json
       - name: Run Lighthouse CI (mobile)
+        if: always()
         run: lhci autorun --config=.lighthouserc.mobile.json
       - name: Save reports
         if: always()
