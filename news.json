@@ -1,5 +1,35 @@
 [
  {
+  "id": "shrimp-basket-cullman-closed-2026",
+  "date": "2026-11-06",
+  "category": "Business",
+  "graphic": "🦐",
+  "headline": "Shrimp Basket closes its Cullman restaurant as the chain refocuses on the coast",
+  "summary": "Artistry Restaurants shuttered the Cullman Shrimp Basket effective Nov. 1, part of a wider pullback from inland locations so the brand can put its energy into beach and coastal stores.",
+  "body": [
+   "Shrimp Basket's Cullman restaurant is closed. Parent company Artistry Restaurants said the Cullman location shut effective Sunday, Nov. 1, 2026, along with other inland stores in Alabama and one in the Pensacola area.",
+   "CEO Bryan Lockwood said the company is returning the brand to its coastal seafood roots and directing future investment toward beach and coastal restaurants. Alabama closures also include Bay Minette, Gardendale, Tuscaloosa and Auburn, leaving Foley, Gulf Shores, Orange Beach and Evergreen among the Alabama stores still open.",
+   "Locals who counted on the Cullman stop for smoked mahi dip, Boom Boom shrimp and other favorites will need to plan a coastal trip or find another hometown seafood option. Shop Local Alabama will keep pointing neighbors to Cullman County kitchens that are still plating fresh meals close to home."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Times: Shrimp Basket announces closure of Cullman location",
+    "url": "https://cullmantimes.com/2026/11/02/shrimp-basket-announces-closure-of-cullman-location/"
+   },
+   {
+    "name": "AL.com: Shrimp Basket closures across Alabama",
+    "url": "https://www.al.com/life/2026/11/popular-seafood-chain-closing-5-restaurants-across-alabama.html"
+   }
+  ],
+  "tags": [
+   "shrimp basket",
+   "cullman",
+   "restaurant",
+   "closure",
+   "business"
+  ]
+ },
+ {
   "id": "hanceville-high-woodwind-grant-amrv-2026",
   "date": "2026-11-05",
   "category": "Schools",
@@ -56,61 +86,31 @@
   ]
  },
  {
-  "id": "wallace-state-soccer-southeast-district-nationals-2026",
-  "date": "2026-11-01",
-  "category": "Sports",
-  "graphic": "⚽",
-  "headline": "Wallace State men's soccer wins Southeast District title, punches ticket to nationals in Huntsville",
-  "summary": "The Lions beat Patrick and Henry 6-5 on penalty kicks after 110 scoreless minutes on Oct. 31. Goalkeeper Emrik Senecal's final save sent Wallace State to the NJCAA Division II national tournament, which starts Nov. 15 in Huntsville.",
+  "id": "wallace-state-lets-pretend-hospital-2026",
+  "date": "2026-11-05",
+  "category": "Education",
+  "graphic": "🏥",
+  "headline": "Wallace State welcomes area first graders for Let's Pretend Hospital",
+  "summary": "Nursing students and the Hanceville Fire Department turned the School of Nursing into kid friendly stations this week so first graders could learn about hospitals, fire safety and healthy habits without the scare.",
   "body": [
-   "Wallace State men's soccer claimed the NJCAA Division II Southeast District Championship on Saturday, Oct. 31, in Martinsville, Virginia. The No. 18 Lions defeated host Patrick and Henry 6-5 in a penalty shootout after regulation and two overtime periods ended 0-0.",
-   "Eduardo Gutierrez, Jared Orellana, Juan Gazga, Wilson Nichols, Luis Orta and Matti Stocker all converted for Wallace State. Goalkeeper Emrik Senecal stopped Patrick and Henry's sixth attempt to seal the title. The win came on the second day of back-to-back postseason games.",
-   "Head coach James Fee said the team set a national-tournament goal last spring in only its second season under his watch. The NJCAA Division II National Championship begins Nov. 15 at the Spencer Soccer Complex in Huntsville. Game times will be announced once the 12-team field is set."
+   "Wallace State Community College hosted its annual Let's Pretend Hospital this week in the School of Nursing and Center for Science building. Area first graders visited Tuesday through Thursday for a hands on look at emergency care and everyday health.",
+   "The event has been part of Wallace State for more than 20 years. This year the Sim Center rooms leaned into familiar stories. An operating room mixed the classic Operation board game with Inside Out characters so kids could talk about feelings during a procedure. A sign on the wall put it plainly: It's OK to feel all the feels.",
+   "Other stops kept the theme going. A Jungle Patient Room used Zootopia characters to show a checkup and a hospital meal tray. A Mario themed obstacle course reminded kids that exercise can be fun. The Hanceville Fire Department joined in with fire safety lessons, and a Minecraft themed area covered helmet safety and more.",
+   "The goal is simple and local. Kids leave knowing doctors and nurses are there to help them get better, and that firefighters and healthy habits are part of the same team. Families who missed this year's dates can watch for Wallace State and local school notices when the next Let's Pretend Hospital is announced."
   ],
   "sources": [
    {
-    "name": "The Cullman Tribune: Wallace State claims Southeast District championship on penalty kicks",
-    "url": "https://www.cullmantribune.com/2026/11/01/wscc-soccer-wallace-state-claims-southeast-district-championship-on-penalty-kicks/"
+    "name": "The Cullman Tribune: Wallace State hosts annual Let's Pretend Hospital for area students",
+    "url": "https://www.cullmantribune.com/2026/11/05/wallace-state-hosts-annual-lets-pretend-hospital-for-area-students/"
    }
   ],
   "tags": [
    "wallace state",
-   "soccer",
-   "lions",
-   "nationals",
-   "sports",
-   "njcaa"
-  ]
- },
- {
-  "id": "wallace-state-cross-country-ninth-straight-accc-2026",
-  "date": "2026-11-01",
-  "category": "Sports",
-  "graphic": "🏃",
-  "headline": "Wallace State men and women sweep ACCC cross country for a ninth straight year",
-  "summary": "Both Lion teams won ACCC titles on Oct. 30 at John Hunt Park in Huntsville. Brookelyn Morgan took the women's individual crown, and Jaquavion Bryant led the men with a runner-up finish.",
-  "body": [
-   "Wallace State cross country swept the ACCC championships again on Friday, Oct. 30, at John Hunt Park in Huntsville. Both the men and the women captured their ninth consecutive conference titles.",
-   "On the women's side, No. 3 Wallace State scored 23 points. Brookelyn Morgan won the 5K in 19:12.8 and earned Conference Runner of the Year. Hanna Sheffield and Joy McBride finished second and third, with Paizley Whitlow fifth. Head coach Tony Crider was named Conference Coach of the Year. The Lady Lions return to John Hunt Park in two weeks for the NJCAA National Championship.",
-   "The men scored 33 points behind five top-10 finishers. Jaquavion Bryant placed second in the 8K in 26:49.7. Dawson McCollum, Hudson Williams, Rene Moreno and Evan Hallford completed the scoring five. Shelton State was second and Southern Union third. Crider said the championship capped a season with few chances to race a full lineup before October."
-  ],
-  "sources": [
-   {
-    "name": "The Cullman Tribune: Wallace State men win 9th consecutive ACCC cross country championship",
-    "url": "https://www.cullmantribune.com/2026/11/01/wscc-cross-country-wallace-state-men-win-9th-consecutive-accc-cross-country-championship/"
-   },
-   {
-    "name": "The Cullman Tribune: Morgan leads No. 3 Wallace State women to 9th straight ACCC championship",
-    "url": "https://www.cullmantribune.com/2026/11/01/wscc-cross-country-morgan-leads-no-3-wallace-state-women-to-9th-straight-accc-championship/"
-   }
-  ],
-  "tags": [
-   "wallace state",
-   "cross country",
-   "lions",
-   "accc",
-   "sports",
-   "championship"
+   "education",
+   "nursing",
+   "hanceville",
+   "kids",
+   "fire department"
   ]
  },
  {
@@ -169,31 +169,61 @@
   ]
  },
  {
-  "id": "wallace-state-lets-pretend-hospital-2026",
-  "date": "2026-11-05",
-  "category": "Education",
-  "graphic": "🏥",
-  "headline": "Wallace State welcomes area first graders for Let's Pretend Hospital",
-  "summary": "Nursing students and the Hanceville Fire Department turned the School of Nursing into kid friendly stations this week so first graders could learn about hospitals, fire safety and healthy habits without the scare.",
+  "id": "wallace-state-soccer-southeast-district-nationals-2026",
+  "date": "2026-11-01",
+  "category": "Sports",
+  "graphic": "⚽",
+  "headline": "Wallace State men's soccer wins Southeast District title, punches ticket to nationals in Huntsville",
+  "summary": "The Lions beat Patrick and Henry 6-5 on penalty kicks after 110 scoreless minutes on Oct. 31. Goalkeeper Emrik Senecal's final save sent Wallace State to the NJCAA Division II national tournament, which starts Nov. 15 in Huntsville.",
   "body": [
-   "Wallace State Community College hosted its annual Let's Pretend Hospital this week in the School of Nursing and Center for Science building. Area first graders visited Tuesday through Thursday for a hands on look at emergency care and everyday health.",
-   "The event has been part of Wallace State for more than 20 years. This year the Sim Center rooms leaned into familiar stories. An operating room mixed the classic Operation board game with Inside Out characters so kids could talk about feelings during a procedure. A sign on the wall put it plainly: It's OK to feel all the feels.",
-   "Other stops kept the theme going. A Jungle Patient Room used Zootopia characters to show a checkup and a hospital meal tray. A Mario themed obstacle course reminded kids that exercise can be fun. The Hanceville Fire Department joined in with fire safety lessons, and a Minecraft themed area covered helmet safety and more.",
-   "The goal is simple and local. Kids leave knowing doctors and nurses are there to help them get better, and that firefighters and healthy habits are part of the same team. Families who missed this year's dates can watch for Wallace State and local school notices when the next Let's Pretend Hospital is announced."
+   "Wallace State men's soccer claimed the NJCAA Division II Southeast District Championship on Saturday, Oct. 31, in Martinsville, Virginia. The No. 18 Lions defeated host Patrick and Henry 6-5 in a penalty shootout after regulation and two overtime periods ended 0-0.",
+   "Eduardo Gutierrez, Jared Orellana, Juan Gazga, Wilson Nichols, Luis Orta and Matti Stocker all converted for Wallace State. Goalkeeper Emrik Senecal stopped Patrick and Henry's sixth attempt to seal the title. The win came on the second day of back-to-back postseason games.",
+   "Head coach James Fee said the team set a national-tournament goal last spring in only its second season under his watch. The NJCAA Division II National Championship begins Nov. 15 at the Spencer Soccer Complex in Huntsville. Game times will be announced once the 12-team field is set."
   ],
   "sources": [
    {
-    "name": "The Cullman Tribune: Wallace State hosts annual Let's Pretend Hospital for area students",
-    "url": "https://www.cullmantribune.com/2026/11/05/wallace-state-hosts-annual-lets-pretend-hospital-for-area-students/"
+    "name": "The Cullman Tribune: Wallace State claims Southeast District championship on penalty kicks",
+    "url": "https://www.cullmantribune.com/2026/11/01/wscc-soccer-wallace-state-claims-southeast-district-championship-on-penalty-kicks/"
    }
   ],
   "tags": [
    "wallace state",
-   "education",
-   "nursing",
-   "hanceville",
-   "kids",
-   "fire department"
+   "soccer",
+   "lions",
+   "nationals",
+   "sports",
+   "njcaa"
+  ]
+ },
+ {
+  "id": "wallace-state-cross-country-ninth-straight-accc-2026",
+  "date": "2026-11-01",
+  "category": "Sports",
+  "graphic": "🏃",
+  "headline": "Wallace State men and women sweep ACCC cross country for a ninth straight year",
+  "summary": "Both Lion teams won ACCC titles on Oct. 30 at John Hunt Park in Huntsville. Brookelyn Morgan took the women's individual crown, and Jaquavion Bryant led the men with a runner-up finish.",
+  "body": [
+   "Wallace State cross country swept the ACCC championships again on Friday, Oct. 30, at John Hunt Park in Huntsville. Both the men and the women captured their ninth consecutive conference titles.",
+   "On the women's side, No. 3 Wallace State scored 23 points. Brookelyn Morgan won the 5K in 19:12.8 and earned Conference Runner of the Year. Hanna Sheffield and Joy McBride finished second and third, with Paizley Whitlow fifth. Head coach Tony Crider was named Conference Coach of the Year. The Lady Lions return to John Hunt Park in two weeks for the NJCAA National Championship.",
+   "The men scored 33 points behind five top-10 finishers. Jaquavion Bryant placed second in the 8K in 26:49.7. Dawson McCollum, Hudson Williams, Rene Moreno and Evan Hallford completed the scoring five. Shelton State was second and Southern Union third. Crider said the championship capped a season with few chances to race a full lineup before October."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Wallace State men win 9th consecutive ACCC cross country championship",
+    "url": "https://www.cullmantribune.com/2026/11/01/wscc-cross-country-wallace-state-men-win-9th-consecutive-accc-cross-country-championship/"
+   },
+   {
+    "name": "The Cullman Tribune: Morgan leads No. 3 Wallace State women to 9th straight ACCC championship",
+    "url": "https://www.cullmantribune.com/2026/11/01/wscc-cross-country-morgan-leads-no-3-wallace-state-women-to-9th-straight-accc-championship/"
+   }
+  ],
+  "tags": [
+   "wallace state",
+   "cross country",
+   "lions",
+   "accc",
+   "sports",
+   "championship"
   ]
  },
  {
@@ -1039,42 +1069,6 @@
   ]
  },
  {
-  "id": "wallace-state-record-fall-enrollment-7141",
-  "date": "2026-10-23",
-  "category": "Schools",
-  "graphic": "🎓",
-  "headline": "Wallace State sets a new fall enrollment record with 7,141 students",
-  "summary": "Hanceville's community college topped 7,100 students for the first time in its history, its fourth straight fall increase. Spring 2027 registration is open now.",
-  "body": [
-   "More students than ever are walking the Wallace State campus this fall. The college reports 7,141 students enrolled for the Fall 2026 semester as of Wednesday, Oct. 21, the first time it has passed 7,100.",
-   "That is 155 more students than last fall, when enrollment stood at 6,986. It is also the fourth fall in a row that enrollment has gone up. Since Fall 2022, when the college counted 5,966 students, enrollment has grown by nearly 20 percent.",
-   "Wallace State President Dr. Vicki P. Karolewics tied the record to the college's recognition as an Aspen Prize finalist, saying it reflects the work done across campus to help students start early, start right, finish and succeed.",
-   "Thinking about classes? Registration for Spring 2027 is open now. Regular term and Mini Term I classes start Jan. 8, and Mini Term II starts March 8. Lion Central can help at 256.352.8236, or visit wallacestate.edu."
-  ],
-  "sources": [
-   {
-    "name": "The Cullman Times: Wallace State sets fall enrollment record, surpassing 7,100 students (Oct. 23, 2026)",
-    "url": "https://cullmantimes.com/2026/10/23/wallace-state-sets-fall-enrollment-record-surpassing-7100-students/"
-   },
-   {
-    "name": "WZDX Rocket City Now: Wallace State sets new fall enrollment record (Oct. 23, 2026)",
-    "url": "https://www.rocketcitynow.com/article/news/education/wallace-state-new-fall-enrollment-record/525-897bd8bb-bace-4f8f-a191-7ed8363056b0"
-   },
-   {
-    "name": "Wallace State Community College",
-    "url": "https://www.wallacestate.edu/"
-   }
-  ],
-  "tags": [
-   "wallace state",
-   "enrollment record",
-   "hanceville",
-   "college",
-   "spring 2027 registration",
-   "aspen prize"
-  ]
- },
- {
   "id": "senior-day-cullman-county-fair-500",
   "date": "2026-10-24",
   "category": "Around the County",
@@ -1210,6 +1204,42 @@
    "hanceville",
    "cullman county",
    "playoffs"
+  ]
+ },
+ {
+  "id": "wallace-state-record-fall-enrollment-7141",
+  "date": "2026-10-23",
+  "category": "Schools",
+  "graphic": "🎓",
+  "headline": "Wallace State sets a new fall enrollment record with 7,141 students",
+  "summary": "Hanceville's community college topped 7,100 students for the first time in its history, its fourth straight fall increase. Spring 2027 registration is open now.",
+  "body": [
+   "More students than ever are walking the Wallace State campus this fall. The college reports 7,141 students enrolled for the Fall 2026 semester as of Wednesday, Oct. 21, the first time it has passed 7,100.",
+   "That is 155 more students than last fall, when enrollment stood at 6,986. It is also the fourth fall in a row that enrollment has gone up. Since Fall 2022, when the college counted 5,966 students, enrollment has grown by nearly 20 percent.",
+   "Wallace State President Dr. Vicki P. Karolewics tied the record to the college's recognition as an Aspen Prize finalist, saying it reflects the work done across campus to help students start early, start right, finish and succeed.",
+   "Thinking about classes? Registration for Spring 2027 is open now. Regular term and Mini Term I classes start Jan. 8, and Mini Term II starts March 8. Lion Central can help at 256.352.8236, or visit wallacestate.edu."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Times: Wallace State sets fall enrollment record, surpassing 7,100 students (Oct. 23, 2026)",
+    "url": "https://cullmantimes.com/2026/10/23/wallace-state-sets-fall-enrollment-record-surpassing-7100-students/"
+   },
+   {
+    "name": "WZDX Rocket City Now: Wallace State sets new fall enrollment record (Oct. 23, 2026)",
+    "url": "https://www.rocketcitynow.com/article/news/education/wallace-state-new-fall-enrollment-record/525-897bd8bb-bace-4f8f-a191-7ed8363056b0"
+   },
+   {
+    "name": "Wallace State Community College",
+    "url": "https://www.wallacestate.edu/"
+   }
+  ],
+  "tags": [
+   "wallace state",
+   "enrollment record",
+   "hanceville",
+   "college",
+   "spring 2027 registration",
+   "aspen prize"
   ]
  },
  {
@@ -1988,6 +2018,45 @@
   ]
  },
  {
+  "id": "council-section-oct-22-meeting",
+  "date": "2026-10-17",
+  "category": "City Hall",
+  "graphic": "🏛️",
+  "headline": "Meet your Hanceville City Council before the Nov. 12 meeting",
+  "summary": "Hanceville's five council members and the Mayor meet next on Thursday, Nov. 12, at City Hall. Here is who represents you and how to follow along.",
+  "body": [
+   "The Hanceville City Council meets next on Thursday, Nov. 12, at City Hall, 112 Main Street SE. A work session starts at 6:00 PM, and the regular meeting begins right after it.",
+   "The council has five members. Jana Shelton holds Place 1 and serves as Mayor Pro Tem. Robert Powell holds Place 2, Kim Brown holds Place 3, Cameron Rowe holds Place 4 and Carla Cain holds Place 5. Mayor Nolan Bradford also votes on council business. Each seat is elected to a four year term.",
+   "The council passes ordinances and resolutions, approves the yearly budget and keeps an eye on how city money and property are used. It also makes some appointments to city boards.",
+   "Every regular meeting is open to the public, and there is time set aside for public comments. If you can't make it, the city posts meeting videos on its YouTube channel. Draft agendas and minutes go up on the city's documents page, and they can change until the council approves them.",
+   "You can see photos of each council member, the full meeting schedule and links to agendas and minutes on our new City Council page."
+  ],
+  "sources": [
+   {
+    "name": "City of Hanceville: City Council",
+    "url": "https://www.cityofhanceville.net/o/coh/page/city-council"
+   },
+   {
+    "name": "City of Hanceville: council agenda for Oct. 8, 2026",
+    "url": "https://www.cityofhanceville.net/documents/council---meeting-agendas/2026/25520828"
+   },
+   {
+    "name": "City of Hanceville: events calendar",
+    "url": "https://www.cityofhanceville.net/events"
+   },
+   {
+    "name": "City of Hanceville on YouTube",
+    "url": "https://www.youtube.com/@OfficialCityofHancevilleAL"
+   }
+  ],
+  "tags": [
+   "council",
+   "city",
+   "meeting",
+   "mayor"
+  ]
+ },
+ {
   "id": "youth-leadership-agriplex-luncheon",
   "date": "2026-10-16",
   "category": "Around the County",
@@ -2176,45 +2245,6 @@
    "food",
    "schools",
    "donations"
-  ]
- },
- {
-  "id": "council-section-oct-22-meeting",
-  "date": "2026-10-17",
-  "category": "City Hall",
-  "graphic": "🏛️",
-  "headline": "Meet your Hanceville City Council before the Nov. 12 meeting",
-  "summary": "Hanceville's five council members and the Mayor meet next on Thursday, Nov. 12, at City Hall. Here is who represents you and how to follow along.",
-  "body": [
-   "The Hanceville City Council meets next on Thursday, Nov. 12, at City Hall, 112 Main Street SE. A work session starts at 6:00 PM, and the regular meeting begins right after it.",
-   "The council has five members. Jana Shelton holds Place 1 and serves as Mayor Pro Tem. Robert Powell holds Place 2, Kim Brown holds Place 3, Cameron Rowe holds Place 4 and Carla Cain holds Place 5. Mayor Nolan Bradford also votes on council business. Each seat is elected to a four year term.",
-   "The council passes ordinances and resolutions, approves the yearly budget and keeps an eye on how city money and property are used. It also makes some appointments to city boards.",
-   "Every regular meeting is open to the public, and there is time set aside for public comments. If you can't make it, the city posts meeting videos on its YouTube channel. Draft agendas and minutes go up on the city's documents page, and they can change until the council approves them.",
-   "You can see photos of each council member, the full meeting schedule and links to agendas and minutes on our new City Council page."
-  ],
-  "sources": [
-   {
-    "name": "City of Hanceville: City Council",
-    "url": "https://www.cityofhanceville.net/o/coh/page/city-council"
-   },
-   {
-    "name": "City of Hanceville: council agenda for Oct. 8, 2026",
-    "url": "https://www.cityofhanceville.net/documents/council---meeting-agendas/2026/25520828"
-   },
-   {
-    "name": "City of Hanceville: events calendar",
-    "url": "https://www.cityofhanceville.net/events"
-   },
-   {
-    "name": "City of Hanceville on YouTube",
-    "url": "https://www.youtube.com/@OfficialCityofHancevilleAL"
-   }
-  ],
-  "tags": [
-   "council",
-   "city",
-   "meeting",
-   "mayor"
   ]
  }
 ]

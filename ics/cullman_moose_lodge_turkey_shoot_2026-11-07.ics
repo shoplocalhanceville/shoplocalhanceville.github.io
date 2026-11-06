@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cullman_moose_lodge_turkey_shoot-20261107@hanceville-entertainment-sho
+ pping
+DTSTAMP:20261106T180000Z
+DTSTART;TZID=America/Chicago:20261107T080000
+DTEND;TZID=America/Chicago:20261107T120000
+SUMMARY:Cullman Moose Lodge Turkey Shoot
+LOCATION:Cullman Moose Lodge 1861\, 1729 Eva Road NE\, Cullman\, AL 35055
+DESCRIPTION:Cullman Moose Lodge hosts its turkey shoot Saturdays from Nov.
+  7 through Dec. 12\, plus Thanksgiving Day\, with prizes at each shoot. C
+ onfirm times and rules with the lodge before you go. Time: 8:00 AM. Admis
+ sion: Check with the lodge for entry details. https://cullman-local.com/e
+ vents/cullman-moose-lodge-turkey-shoot-1792397746911
+URL:https://cullman-local.com/events/cullman-moose-lodge-turkey-shoot-1792
+ 397746911
+END:VEVENT
+END:VCALENDAR

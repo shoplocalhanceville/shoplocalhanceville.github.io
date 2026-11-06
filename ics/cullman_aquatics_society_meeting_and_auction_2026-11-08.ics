@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cullman_aquatics_society_meeting_and_auction-20261108@hanceville-enter
+ tainment-shopping
+DTSTAMP:20261106T180000Z
+DTSTART;TZID=America/Chicago:20261108T143000
+DTEND;TZID=America/Chicago:20261108T163000
+SUMMARY:Cullman Aquatics Society Meeting and Auction
+LOCATION:Cullman OmniPlex conference room\, 1634 Field of Miracles Drive S
+ W\, Cullman\, AL 35055
+DESCRIPTION:The Cullman Aquatics Society welcomes beginners and longtime h
+ obbyists for an open meeting with a fish\, plant and aquarium gear auctio
+ n at the OmniPlex. Follow the club on Facebook for updates. Time: 2:30 PM
+ . Admission: Open meeting\; auction is cash only. https://www.cullmantrib
+ une.com/2026/11/06/aquatic-hobbyist-cullman-aquatics-society-has-a-place-
+ for-you-event-set-for-nov-8/
+URL:https://www.cullmantribune.com/2026/11/06/aquatic-hobbyist-cullman-aqu
+ atics-society-has-a-place-for-you-event-set-for-nov-8/
+END:VEVENT
+END:VCALENDAR

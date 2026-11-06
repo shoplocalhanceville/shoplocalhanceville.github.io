@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wallace_state_women_s_basketball_at_pellissippi_state-20261116@hancevi
+ lle-entertainment-shopping
+DTSTAMP:20261106T180000Z
+DTSTART;TZID=America/Chicago:20261116T163000
+DTEND;TZID=America/Chicago:20261116T183000
+SUMMARY:Wallace State Women's Basketball at Pellissippi State
+LOCATION:Pellissippi State Community College\, Knoxville\, TN 37932
+DESCRIPTION:The Lady Lions play at Pellissippi State at 4:30 PM CST on Mon
+ day\, Nov. 16. Check Wallace State Athletics for venue details and any ti
+ me changes. Time: 4:30 PM CST. Admission: Check Wallace State Athletics. 
+ https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule
+URL:https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule
+END:VEVENT
+END:VCALENDAR

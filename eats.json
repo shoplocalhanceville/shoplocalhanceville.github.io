@@ -93,7 +93,7 @@
  {
   "group": "More Places to Eat",
   "name": "Azul Tequila Mexican Cantina",
-  "summary": "Azul Tequila Mexican Cantina on Main Street plates tacos, fajitas and classic Mexican American favorites for dine in or takeout.",
+  "summary": "Azul Tequila Mexican Cantina on Main Street plates tacos, fajitas and classic Mexican American favorites for dine in or takeout from late morning through evening.",
   "tags": [
    "mexican",
    "tacos"
@@ -101,7 +101,9 @@
   "address": "836 Main St NE, Hanceville",
   "phone": "(256) 887-1016",
   "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local",
-  "source_checked": "2026-11-06"
+  "source_checked": "2026-11-06",
+  "hours": "Daily 10:30 AM to 9:00 PM",
+  "hours_source": "https://www.zmenu.com/azul-tequila-mexican-cantina-hanceville-35077-online-menu/ (checked Nov. 6, 2026)"
  },
  {
   "group": "More Places to Eat",
@@ -122,14 +124,16 @@
  {
   "group": "More Places to Eat",
   "name": "Reyes Pizza",
-  "summary": "Reyes Pizza on Main Street is a hometown stop for pies you can pick up on the way home. Call ahead when the family wants pizza night without the drive to Cullman.",
+  "summary": "Reyes Pizza on Main Street is a hometown stop for pies, calzones and homemade sides. Call ahead when the family wants pickup before the evening rush.",
   "tags": [
    "pizza"
   ],
   "address": "806 Main St NE, Hanceville",
   "phone": "(256) 887-1307",
   "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local",
-  "source_checked": "2026-11-06"
+  "source_checked": "2026-11-06",
+  "hours": "Monday to Saturday 11 AM to 8 PM; closed Sunday",
+  "hours_source": "https://www.restaurantji.com/al/hanceville/reyes-pizza-/ (checked Nov. 6, 2026); listing updated Oct. 28, 2026"
  },
  {
   "group": "More Places to Eat",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T11:05:00-06:00",
+ "updated": "2026-11-06T12:05:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -204,6 +204,42 @@
   "chipola": {
    "name": "Chipola",
    "initials": "CH",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "itawamba": {
+   "name": "Itawamba",
+   "initials": "ICC",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "albany-tech": {
+   "name": "Albany Tech",
+   "initials": "ATC",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "east-mississippi": {
+   "name": "East Mississippi",
+   "initials": "EMCC",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "pellissippi": {
+   "name": "Pellissippi State",
+   "initials": "PSCC",
    "colors": [
     "#4a5160",
     "#d5d9e0"
@@ -520,17 +556,17 @@
    }
   },
   {
-   "id": "ws-wb-2026-11-07a",
+   "id": "ws-wb-2026-11-06",
    "school": "wallace",
    "label": "Wallace State Women's Basketball",
    "sport": "Basketball",
    "period": "Q",
-   "start": "2026-11-07T13:00:00-06:00",
+   "start": "2026-11-06T17:00:00-06:00",
    "venue": "Chipola Classic, Marianna, FL",
    "home": "gulf-coast",
    "away": "wallace",
    "status": "Upcoming",
-   "note": "Chipola Classic vs Gulf Coast State at 1:00 PM CST, then Chipola at 3:00 PM.",
+   "note": "Chipola Classic vs Gulf Coast State at 5:00 PM CST Friday, then Chipola on Saturday at 3:00 PM CST.",
    "source": {
     "name": "Wallace State Athletics schedule",
     "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
@@ -551,6 +587,23 @@
    "source": {
     "name": "Wallace State Athletics schedule",
     "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
+   }
+  },
+  {
+   "id": "ws-mb-2026-11-07",
+   "school": "wallace",
+   "label": "Wallace State Men's Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-07T15:00:00-06:00",
+   "venue": "Tom Drake Coliseum, Wallace State",
+   "home": "wallace",
+   "away": "itawamba",
+   "status": "Upcoming",
+   "note": "Home game vs Itawamba Community College.",
+   "source": {
+    "name": "Wallace State Athletics schedule",
+    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
    }
   },
   {
@@ -594,6 +647,57 @@
    "away": "hanceville",
    "status": "Upcoming",
    "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "ws-mb-2026-11-14",
+   "school": "wallace",
+   "label": "Wallace State Men's Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-14T15:00:00-06:00",
+   "venue": "Tom Drake Coliseum, Wallace State",
+   "home": "wallace",
+   "away": "albany-tech",
+   "status": "Upcoming",
+   "note": "Home game vs Albany Technical College.",
+   "source": {
+    "name": "Wallace State Athletics schedule",
+    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   }
+  },
+  {
+   "id": "ws-wb-2026-11-16",
+   "school": "wallace",
+   "label": "Wallace State Women's Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-16T16:30:00-06:00",
+   "venue": "Pellissippi State, Knoxville, TN",
+   "home": "pellissippi",
+   "away": "wallace",
+   "status": "Upcoming",
+   "note": "Road game at Pellissippi State.",
+   "source": {
+    "name": "Wallace State Athletics schedule",
+    "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
+   }
+  },
+  {
+   "id": "ws-mb-2026-11-16",
+   "school": "wallace",
+   "label": "Wallace State Men's Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-16T18:00:00-06:00",
+   "venue": "Tom Drake Coliseum, Wallace State",
+   "home": "wallace",
+   "away": "east-mississippi",
+   "status": "Upcoming",
+   "note": "Home game vs East Mississippi Community College.",
+   "source": {
+    "name": "Wallace State Athletics schedule",
+    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   }
   },
   {
    "id": "hhs-bb-2026-11-17",

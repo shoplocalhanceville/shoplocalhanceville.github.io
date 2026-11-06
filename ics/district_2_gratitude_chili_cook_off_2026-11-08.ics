@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:district_2_gratitude_chili_cook_off-20261108@hanceville-entertainment-
+ shopping
+DTSTAMP:20261106T180000Z
+DTSTART;TZID=America/Chicago:20261108T160000
+DTEND;TZID=America/Chicago:20261108T180000
+SUMMARY:District 2 Gratitude Chili Cook Off
+LOCATION:St. Joseph's Hall\, 1519 St. Joseph Street NW\, Cullman\, AL 3505
+ 5
+DESCRIPTION:Alabama District 2 hosts a Gratitude Chili Cook Off supper at 
+ St. Joseph's Hall in Cullman from 4 to 6 p.m.\, with guest speaker Bill K
+ . of Hartselle Hope. Confirm details with the organizer before you go. Ti
+ me: 4:00 PM to 6:00 PM. Admission: Check with the host for details. https
+ ://the12traditions.com/event/gratitude-chili-cook-off-nov-2026/
+URL:https://the12traditions.com/event/gratitude-chili-cook-off-nov-2026/
+END:VEVENT
+END:VCALENDAR
