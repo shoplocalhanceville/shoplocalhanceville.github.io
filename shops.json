@@ -14,7 +14,10 @@
   "website": "https://www.hancevilledrug.com/",
   "source": "https://www.hancevilledrug.com/contactus",
   "logo": "logos/hanceville-drug-co.webp",
-  "logo_source": "https://images.squarespace-cdn.com/content/v1/62a79856b802aa5890ecadfc/5a5cad93-14ca-407b-a06f-51338b44ca76/HDCO+LOGO.jpg?format=1500w"
+  "logo_source": "https://images.squarespace-cdn.com/content/v1/62a79856b802aa5890ecadfc/5a5cad93-14ca-407b-a06f-51338b44ca76/HDCO+LOGO.jpg?format=1500w",
+  "hours": "Monday to Friday 8 AM to 5:30 PM; Saturday 8 AM to 2 PM; closed Sunday",
+  "hours_source": "https://www.hancevilledrug.com/contactus (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "group": "Downtown Shops",
@@ -42,7 +45,10 @@
   "address": "317 County Road 263, Hanceville",
   "phone": "(205) 522-8501",
   "website": "https://hagarguitars.com",
-  "source": "https://business.cullmanchamber.org/list/member/hagar-guitars-llc-17058"
+  "source": "https://business.cullmanchamber.org/list/member/hagar-guitars-llc-17058",
+  "hours": "Monday to Friday 8 AM to 5 PM; closed Saturday and Sunday",
+  "hours_source": "https://hagarguitars.com/contact (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "group": "Makers",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T06:00:00-06:00",
+ "updated": "2026-11-06T07:00:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -168,6 +168,24 @@
   "corner": {
    "name": "Corner",
    "initials": "C",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "snead": {
+   "name": "Snead State",
+   "initials": "SS",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "bevill": {
+   "name": "Bevill State",
+   "initials": "BS",
    "colors": [
     "#4a5160",
     "#d5d9e0"
@@ -463,6 +481,27 @@
    }
   },
   {
+   "id": "ws-mb-2026-11-05",
+   "school": "wallace",
+   "label": "Wallace State Men's Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-05T18:00:00-06:00",
+   "venue": "Tom Drake Coliseum, Wallace State",
+   "home": "wallace",
+   "away": "snead",
+   "status": "Final",
+   "score": {
+    "home": 97,
+    "away": 90
+   },
+   "note": "Season opener. Lions improve to 1 and 0.",
+   "source": {
+    "name": "Wallace State Athletics schedule",
+    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   }
+  },
+  {
    "id": "hhs-bb-2026-11-10",
    "school": "hanceville",
    "label": "Hanceville High Boys Basketball",
@@ -474,6 +513,22 @@
    "away": "hanceville",
    "status": "Upcoming",
    "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "ws-mb-2026-11-12",
+   "school": "wallace",
+   "label": "Wallace State Men's Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-12T18:00:00-06:00",
+   "venue": "Bevill State Community College",
+   "home": "bevill",
+   "away": "wallace",
+   "status": "Upcoming",
+   "source": {
+    "name": "Wallace State Athletics schedule",
+    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   }
   },
   {
    "id": "hhs-bb-2026-11-12",

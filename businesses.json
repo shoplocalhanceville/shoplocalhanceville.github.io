@@ -24,13 +24,16 @@
    "mexican",
    "tacos",
    "lunch"
-  ]
+  ],
+  "facebook": "https://www.facebook.com/cafetulataqueria/",
+  "hours_source": "https://www.facebook.com/cafetulataqueria/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Restaurants",
   "name": "Country Wok",
   "address": "107 Bangor Ave NE, Hanceville, AL 35077",
-  "summary": "Chinese food cooked in an open kitchen, so you can watch your order come together. Don't leave without trying the eggrolls or Grandma's Cantonese fried rice.",
+  "summary": "Country Wok on Bangor Avenue serves Chinese American favorites plus newer plates like ramen, Japanese hot dogs, Hong Kong wontons and a matcha cannoli. Owner Kenny Lee keeps the menu focused and sources ingredients locally. Open Tuesday to Saturday 11 AM to 7 PM.",
   "phone": "(256) 887-1360",
   "service": "Chinese restaurant",
   "tags": [
@@ -38,13 +41,15 @@
    "takeout"
   ],
   "website": "https://www.countrywok.com",
-  "hours": "Tuesday to Saturday 11 AM to 7 PM; closed Sunday and Monday"
+  "hours": "Tuesday to Saturday 11 AM to 7 PM; closed Sunday and Monday",
+  "hours_source": "https://www.cullmantribune.com/2026/10/23/small-business-spotlight-country-wok-features-new-menu/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Restaurants",
   "name": "Jack's",
   "address": "103 Styles St NE, Hanceville, AL 35077",
-  "summary": "Jack's, the Southern burger and biscuit chain, has a spot on Styles Street. It's handy for breakfast on the way to work.",
+  "summary": "Jack's on Styles Street serves Southern breakfast biscuits, burgers and shakes with dine in, drive thru and mobile ordering. It opens early for breakfast every day.",
   "phone": "(256) 392-6268",
   "service": "Fast food",
   "tags": [
@@ -52,7 +57,12 @@
    "biscuits",
    "breakfast",
    "drive thru"
-  ]
+  ],
+  "hours": "Monday to Thursday 4 AM to 10 PM; Friday and Saturday 4 AM to 11 PM; Sunday 5 AM to 10 PM",
+  "website": "https://locations.eatatjacks.com/al/hanceville/103-styles-st",
+  "facebook": "https://www.facebook.com/259021661235736",
+  "hours_source": "https://locations.eatatjacks.com/al/hanceville/103-styles-st (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Restaurants",
@@ -79,7 +89,10 @@
    "lunch",
    "home cooking"
   ],
-  "facebook": "https://www.facebook.com/popscafehanceville"
+  "facebook": "https://www.facebook.com/popscafehanceville",
+  "hours": "Monday to Friday 7 AM to 2 PM; Sunday 11 AM to 3 PM; check Facebook for Saturday hours",
+  "hours_source": "https://www.cullmantribune.com/2026/01/20/local-eats-pops-cafe/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Restaurants",
@@ -133,7 +146,10 @@
    "latte",
    "espresso",
    "smoothie"
-  ]
+  ],
+  "website": "https://www.hancevegas.com/",
+  "hours_source": "https://www.hancevegas.com/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Drinks & Coffee",
@@ -416,7 +432,10 @@
    "milkshake"
   ],
   "logo": "logos/hanceville-drug-co.webp",
-  "logo_source": "https://images.squarespace-cdn.com/content/v1/62a79856b802aa5890ecadfc/5a5cad93-14ca-407b-a06f-51338b44ca76/HDCO+LOGO.jpg?format=1500w"
+  "logo_source": "https://images.squarespace-cdn.com/content/v1/62a79856b802aa5890ecadfc/5a5cad93-14ca-407b-a06f-51338b44ca76/HDCO+LOGO.jpg?format=1500w",
+  "hours": "Monday to Friday 8 AM to 5:30 PM; Saturday 8 AM to 2 PM; closed Sunday",
+  "hours_source": "https://www.hancevilledrug.com/contactus (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Pets & Child Care",
@@ -537,7 +556,10 @@
    "guitars",
    "music",
    "guitar repair"
-  ]
+  ],
+  "hours": "Monday to Friday 8 AM to 5 PM; closed Saturday and Sunday",
+  "hours_source": "https://hagarguitars.com/contact (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Shopping & Retail",

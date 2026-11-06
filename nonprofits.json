@@ -79,7 +79,11 @@
   ],
   "address": "201 Commercial St, Hanceville",
   "phone": "(256) 352-0685",
-  "source": "https://www.cityofhanceville.net/o/coh/page/library"
+  "source": "https://www.cityofhanceville.net/o/coh/page/library",
+  "hours": "Tuesday to Friday 8 AM to 5 PM (closed noon to 1 PM), Saturday 9 AM to 1 PM, closed Monday",
+  "website": "https://sites.google.com/view/sbhpl/library",
+  "hours_source": "https://www.cityofhanceville.net/o/coh/page/library (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "group": "Community Builders",

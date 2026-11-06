@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hanceville_public_library_storytime-20261118@hanceville-entertainment-
+ shopping
+DTSTAMP:20261106T130000Z
+DTSTART;TZID=America/Chicago:20261118T100000
+DTEND;TZID=America/Chicago:20261118T103000
+SUMMARY:Hanceville Public Library Storytime
+LOCATION:Shirley Burden Public Library\, 201 Commercial St\, Hanceville\, 
+ AL 35077
+DESCRIPTION:Weekly storytime for ages 0 through preschool at Shirley Burde
+ n Public Library\, with guest readers and interactive activities. Open to
+  kids of other ages who come along. Time: 10:00 AM to 10:30 AM. Admission
+ : Free. https://pal.ua.edu/events/event/hanceville-pl-storytimes/
+URL:https://pal.ua.edu/events/event/hanceville-pl-storytimes/
+END:VEVENT
+END:VCALENDAR
