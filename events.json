@@ -19,25 +19,6 @@
   ]
  },
  {
-  "name": "Wallace State Women's Basketball vs Gulf Coast State (Chipola Classic)",
-  "start": "2026-11-06",
-  "time": "5:00 PM CST",
-  "venue": "Chipola College (Chipola Classic)",
-  "town": "Marianna",
-  "host": "Wallace State Athletics",
-  "cost": "See host for admission",
-  "summary": "The Lady Lions open the Chipola Classic against Gulf Coast State in Marianna, Florida. Check Wallace State Athletics for any time changes before you go.",
-  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
-  "group": "Sports",
-  "tags": [
-   "basketball",
-   "wallace state",
-   "women",
-   "college",
-   "chipola classic"
-  ]
- },
- {
   "name": "Much Ado About Nothing at Wallace State",
   "start": "2026-11-06",
   "end": "2026-11-08",
@@ -56,6 +37,25 @@
    "arts"
   ],
   "group": "Community and Fun"
+ },
+ {
+  "name": "Wallace State Women's Basketball vs Gulf Coast State (Chipola Classic)",
+  "start": "2026-11-07",
+  "time": "1:00 PM CST",
+  "venue": "Chipola College (Chipola Classic)",
+  "town": "Marianna",
+  "host": "Wallace State Athletics",
+  "cost": "See host for admission",
+  "summary": "The Lady Lions face Gulf Coast State at 1:00 PM CST in the Chipola Classic in Marianna, Florida, then play host Chipola at 3:00 PM. Check Wallace State Athletics for any time changes before you go.",
+  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "basketball",
+   "wallace state",
+   "women",
+   "college",
+   "chipola classic"
+  ]
  },
  {
   "name": "Ms. Senior Cullman County Pageant",
@@ -219,6 +219,24 @@
    "cullman"
   ],
   "group": "Community and Fun"
+ },
+ {
+  "name": "Veterans Day Fireworks at Good Hope Park",
+  "start": "2026-11-08",
+  "time": "Gates 2:30 PM, festivities 3:00 PM",
+  "venue": "Good Hope Park, 135 Municipal Drive",
+  "town": "Good Hope",
+  "host": "Branded by Christ Cowboy Church",
+  "cost": "Check with the host for details",
+  "summary": "Branded by Christ Cowboy Church brings a Veterans Day fireworks show to Good Hope Park after its Fourth of July celebration was canceled earlier this year. Gates open at 2:30 p.m. and festivities begin at 3 p.m.",
+  "url": "https://cullmantimes.com/2026/11/04/veterans-day-celebrations-kick-off-this-weekend-with-slate-of-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "veterans",
+   "fireworks",
+   "good hope",
+   "family"
+  ]
  },
  {
   "name": "Salute to United States Veterans Concert",
@@ -424,6 +442,25 @@
    "hanceville"
   ],
   "group": "Community and Fun"
+ },
+ {
+  "name": "40th Annual Ho! Ho! Ho!",
+  "start": "2026-11-14",
+  "time": "9:00 AM to 2:00 PM",
+  "venue": "Cullman Caring for Kids, 402 Arnold Street NE",
+  "town": "Cullman",
+  "host": "Cullman Caring for Kids",
+  "cost": "$20 entry or a toy worth $20 or more",
+  "summary": "Cullman Caring for Kids hosts its 40th annual Ho! Ho! Ho! Christmas car, truck and motorcycle show. Entry is $20 or a toy worth $20 or more, with awards and a silent auction benefiting local kids.",
+  "url": "https://greatsouthern.aaca.com/calendar/regional-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "car show",
+   "christmas",
+   "fundraiser",
+   "caring for kids",
+   "cullman"
+  ]
  },
  {
   "name": "Wallace State Men's Basketball vs. East Mississippi",

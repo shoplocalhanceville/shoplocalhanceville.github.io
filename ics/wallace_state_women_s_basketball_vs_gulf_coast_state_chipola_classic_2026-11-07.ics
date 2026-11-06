@@ -22,17 +22,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:wallace_state_women_s_basketball_vs_gulf_coast_state_chipola_classic-2
- 0261106@hanceville-entertainment-shopping
-DTSTAMP:20261106T154500Z
-DTSTART;TZID=America/Chicago:20261106T170000
-DTEND;TZID=America/Chicago:20261106T190000
+ 0261107@hanceville-entertainment-shopping
+DTSTAMP:20261106T170000Z
+DTSTART;TZID=America/Chicago:20261107T130000
+DTEND;TZID=America/Chicago:20261107T150000
 SUMMARY:Wallace State Women's Basketball vs Gulf Coast State (Chipola Clas
  sic)
 LOCATION:Chipola College (Chipola Classic)\, Marianna\, FL 32446
-DESCRIPTION:The Lady Lions open the Chipola Classic against Gulf Coast Sta
- te in Marianna\, Florida. Check Wallace State Athletics for any time chan
- ges before you go. Time: 5:00 PM CST. Admission: See host for admission. 
- https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule
+DESCRIPTION:The Lady Lions face Gulf Coast State at 1:00 PM CST in the Chi
+ pola Classic in Marianna\, Florida\, then play host Chipola at 3:00 PM. C
+ heck Wallace State Athletics for any time changes before you go. Time: 1:
+ 00 PM CST. Admission: See host for admission. https://athletics.wallacest
+ ate.edu/sports/wbkb/2026-27/schedule
 URL:https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule
 END:VEVENT
 END:VCALENDAR

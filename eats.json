@@ -106,7 +106,7 @@
  {
   "group": "More Places to Eat",
   "name": "Cafe Tula Taqueria",
-  "summary": "Cafe Tula Taqueria serves Mexican plates on Commercial Street in downtown Hanceville. Grab tacos, burritos and daily specials a short walk from the civic center.",
+  "summary": "Cafe Tula Taqueria on Commercial Street serves tacos, burritos and daily Mexican plates for dine in or pickup. Tamales are available by phone or in person order ahead of Mud Creek Festival on Nov. 7.",
   "tags": [
    "mexican",
    "tacos"
@@ -115,8 +115,9 @@
   "phone": "(256) 636-0323",
   "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local",
   "facebook": "https://www.facebook.com/cafetulataqueria/",
-  "hours_source": "https://www.facebook.com/cafetulataqueria/ (checked Nov. 6, 2026)",
-  "source_checked": "2026-11-06"
+  "hours_source": "https://www.restauranteamexicana.com/mexican-restaurants-near-me/cafe-tula-taqueria (checked Nov. 6, 2026); Facebook Page open status checked",
+  "source_checked": "2026-11-06",
+  "hours": "Monday 11 AM to 2 PM; Tuesday to Saturday 11 AM to 8 PM; closed Sunday"
  },
  {
   "group": "More Places to Eat",
@@ -133,7 +134,7 @@
  {
   "group": "More Places to Eat",
   "name": "HanceVegas Coffee Shop",
-  "summary": "HanceVegas Coffee Shop on Commercial Street pours espresso drinks and local favorites under one of downtown's most memorable names. Stop in when you need a caffeine break between errands.",
+  "summary": "HanceVegas Coffee Shop and Pub on Commercial Street pours coffee, espresso drinks and cafe fare Tuesday through Saturday. The shop closes Mondays and Sundays.",
   "tags": [
    "coffee",
    "smoothie"
@@ -142,8 +143,9 @@
   "phone": "(256) 887-1234",
   "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local",
   "website": "https://www.hancevegas.com/",
-  "hours_source": "https://www.hancevegas.com/ (checked Nov. 6, 2026)",
-  "source_checked": "2026-11-06"
+  "hours_source": "https://www.restaurants10.com/US/Hanceville/102878649521581/Hance-Vegas (checked Nov. 6, 2026); business posts confirm Tuesday to Saturday schedule",
+  "source_checked": "2026-11-06",
+  "hours": "Tuesday to Saturday 7 AM to 6 PM; closed Sunday and Monday"
  },
  {
   "group": "More Places to Eat",

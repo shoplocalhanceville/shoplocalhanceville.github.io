@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T09:45:00-06:00",
+ "updated": "2026-11-06T11:05:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -520,17 +520,17 @@
    }
   },
   {
-   "id": "ws-wb-2026-11-06",
+   "id": "ws-wb-2026-11-07a",
    "school": "wallace",
    "label": "Wallace State Women's Basketball",
    "sport": "Basketball",
    "period": "Q",
-   "start": "2026-11-06T17:00:00-06:00",
+   "start": "2026-11-07T13:00:00-06:00",
    "venue": "Chipola Classic, Marianna, FL",
    "home": "gulf-coast",
    "away": "wallace",
    "status": "Upcoming",
-   "note": "Chipola Classic. Lady Lions enter 2 and 0.",
+   "note": "Chipola Classic vs Gulf Coast State at 1:00 PM CST, then Chipola at 3:00 PM.",
    "source": {
     "name": "Wallace State Athletics schedule",
     "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
