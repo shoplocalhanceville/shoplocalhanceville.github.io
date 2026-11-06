@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:vintage_postcard_collection_talk_at_shirley_burden_public_library-2026
+ 1114@hanceville-entertainment-shopping
+DTSTAMP:20261106T120000Z
+DTSTART;TZID=America/Chicago:20261114T100000
+DTEND;TZID=America/Chicago:20261114T110000
+SUMMARY:Vintage Postcard Collection Talk at Shirley Burden Public Library
+LOCATION:Shirley Burden Public Library\, 201 Commercial St\, Hanceville\, 
+ AL 35077
+DESCRIPTION:Longtime Hanceville resident Charles Wilson shares his vintage
+  postcard collection\, including local cards\, military cards\, old voter
+  receipts and cards from around the world. Time: 10:00 AM to 11:00 AM. Ad
+ mission: Free. https://cullmantimes.com/2026/11/03/calendar-of-events/
+URL:https://cullmantimes.com/2026/11/03/calendar-of-events/
+END:VEVENT
+END:VCALENDAR

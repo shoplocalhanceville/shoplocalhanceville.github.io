@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hanceville_bulldogs_basketball_at_dora-20261120@hanceville-entertainme
+ nt-shopping
+DTSTAMP:20261106T120000Z
+DTSTART;TZID=America/Chicago:20261120T190000
+DTEND;TZID=America/Chicago:20261120T210000
+SUMMARY:Hanceville Bulldogs Basketball at Dora
+LOCATION:Dora High School\, Dora\, AL 35062
+DESCRIPTION:The Bulldogs play at Dora. Check MaxPreps or the school for an
+ y time changes before you go. Time: 7:00 PM (varsity boys tip off). Admis
+ sion: See school for admission. https://www.maxpreps.com/al/hanceville/ha
+ nceville-bulldogs/basketball/schedule/
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/
+ schedule/
+END:VEVENT
+END:VCALENDAR

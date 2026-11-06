@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hanceville_bulldogs_basketball_at_danville-20261110@hanceville-enterta
+ inment-shopping
+DTSTAMP:20261106T120000Z
+DTSTART;TZID=America/Chicago:20261110T193000
+DTEND;TZID=America/Chicago:20261110T213000
+SUMMARY:Hanceville Bulldogs Basketball at Danville
+LOCATION:Danville High School\, Danville\, AL 35119
+DESCRIPTION:The Bulldogs play at Danville. Check MaxPreps or the school fo
+ r any time changes before you go. Time: 7:30 PM (varsity boys tip off). A
+ dmission: See school for admission. https://www.maxpreps.com/al/hancevill
+ e/hanceville-bulldogs/basketball/schedule/
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/
+ schedule/
+END:VEVENT
+END:VCALENDAR

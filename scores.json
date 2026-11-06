@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T14:00:00-05:00",
+ "updated": "2026-11-06T06:00:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -101,6 +101,78 @@
     "#d5d9e0"
    ],
    "text": "#ffffff"
+  },
+  "danville": {
+   "name": "Danville",
+   "initials": "D",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "sumiton-christian": {
+   "name": "Sumiton Christian",
+   "initials": "SC",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "ardmore": {
+   "name": "Ardmore",
+   "initials": "A",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "west-point": {
+   "name": "West Point",
+   "initials": "WP",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "dora": {
+   "name": "Dora",
+   "initials": "DO",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "fairview": {
+   "name": "Fairview",
+   "initials": "F",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "good-hope": {
+   "name": "Good Hope",
+   "initials": "GH",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "corner": {
+   "name": "Corner",
+   "initials": "C",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
   }
  },
  "games": [
@@ -125,50 +197,6 @@
     "name": "The Cullman Times",
     "url": "https://cullmantimes.com/2026/10/15/prep-football-fairview-cruises-to-win-over-crossville-hanceville-falls-to-hokes-bluff/"
    }
-  },
-  {
-   "id": "hhs-fb-2026-10-23",
-   "school": "hanceville",
-   "label": "Hanceville High Football",
-   "sport": "Football",
-   "period": "Q",
-   "start": "2026-10-23T19:00:00-05:00",
-   "venue": "Ray Talley Stadium, Hanceville",
-   "home": "hanceville",
-   "away": "oneonta",
-   "status": "Final",
-   "score": {
-    "home": 0,
-    "away": 62
-   },
-   "line": null,
-   "note": "Class 3A, Region 6. Final home game of the season. The Bulldogs fall to 0 and 9, 0 and 7 in region, and close the season at Elkmont on Oct. 30.",
-   "source": {
-    "name": "AL.com Week 10 live scores",
-    "url": "https://www.al.com/highschoolsports/2026/10/football-high-live-scores-updates-as-region-titles-playoff-spots-are-clinched.html"
-   }
-  },
-  {
-   "id": "hhs-fb-2026-10-30",
-   "school": "hanceville",
-   "label": "Hanceville High Football",
-   "sport": "Football",
-   "period": "Q",
-   "start": "2026-10-30T19:00:00-05:00",
-   "venue": "Elkmont High School, Elkmont",
-   "home": "elkmont",
-   "away": "hanceville",
-   "status": "Final",
-   "score": {
-    "home": 48,
-    "away": 8
-   },
-   "line": null,
-   "source": {
-    "name": "MaxPreps box score",
-    "url": "https://www.maxpreps.com/al/football/game/elkmont-vs-hanceville/10-30-2026/?c=6df1374e-642a-4731-8ceb-af907d0bd6d3"
-   },
-   "note": "Season finale. Elkmont led 36 to 0 after three quarters, and Hanceville scored its 8 points in the fourth. The Bulldogs finish the season 0 and 10."
   },
   {
    "id": "ws-vb-2026-10-16b",
@@ -368,6 +396,50 @@
    }
   },
   {
+   "id": "hhs-fb-2026-10-23",
+   "school": "hanceville",
+   "label": "Hanceville High Football",
+   "sport": "Football",
+   "period": "Q",
+   "start": "2026-10-23T19:00:00-05:00",
+   "venue": "Ray Talley Stadium, Hanceville",
+   "home": "hanceville",
+   "away": "oneonta",
+   "status": "Final",
+   "score": {
+    "home": 0,
+    "away": 62
+   },
+   "line": null,
+   "note": "Class 3A, Region 6. Final home game of the season. The Bulldogs fall to 0 and 9, 0 and 7 in region, and close the season at Elkmont on Oct. 30.",
+   "source": {
+    "name": "AL.com Week 10 live scores",
+    "url": "https://www.al.com/highschoolsports/2026/10/football-high-live-scores-updates-as-region-titles-playoff-spots-are-clinched.html"
+   }
+  },
+  {
+   "id": "hhs-fb-2026-10-30",
+   "school": "hanceville",
+   "label": "Hanceville High Football",
+   "sport": "Football",
+   "period": "Q",
+   "start": "2026-10-30T19:00:00-05:00",
+   "venue": "Elkmont High School, Elkmont",
+   "home": "elkmont",
+   "away": "hanceville",
+   "status": "Final",
+   "score": {
+    "home": 48,
+    "away": 8
+   },
+   "line": null,
+   "source": {
+    "name": "MaxPreps box score",
+    "url": "https://www.maxpreps.com/al/football/game/elkmont-vs-hanceville/10-30-2026/?c=6df1374e-642a-4731-8ceb-af907d0bd6d3"
+   },
+   "note": "Season finale. Elkmont led 36 to 0 after three quarters, and Hanceville scored its 8 points in the fourth. The Bulldogs finish the season 0 and 10."
+  },
+  {
    "id": "ws-vb-2026-10-31",
    "school": "wallace",
    "label": "Wallace State Volleyball",
@@ -377,7 +449,7 @@
    "venue": "Cramton Bowl Multiplex, 220 Hall Street, Montgomery",
    "home": "wallace",
    "away": "accc-tbd",
-   "status": "Upcoming",
+   "status": "Final",
    "score": null,
    "line": null,
    "note": "ACCC Conference Tournament, neutral site in Montgomery. The Lions are the No. 1 seed from the North and face the winner of Bishop State and Northwest Shoals. Wallace State enters at 30 and 5 on a 14 match win streak, and the ACCC champion advances to the NJCAA South District Championship on Nov. 8.",
@@ -389,6 +461,110 @@
     "name": "ACCC: Volleyball tournament pairings and information",
     "url": "https://www.acccathletics.com/sports/wvball/2026-27/releases/20261026fpmjvp"
    }
+  },
+  {
+   "id": "hhs-bb-2026-11-10",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-10T19:30:00-06:00",
+   "venue": "Danville High School",
+   "home": "danville",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-11-12",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-12T19:00:00-06:00",
+   "venue": "Sumiton Christian School",
+   "home": "sumiton-christian",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-11-17",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-17T19:45:00-06:00",
+   "venue": "Hanceville High School",
+   "home": "hanceville",
+   "away": "ardmore",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-11-19",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-19T19:45:00-06:00",
+   "venue": "West Point High School",
+   "home": "west-point",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-11-20",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-20T19:00:00-06:00",
+   "venue": "Dora High School",
+   "home": "dora",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-12-01",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-12-01T19:00:00-06:00",
+   "venue": "Fairview High School",
+   "home": "fairview",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-12-03",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-12-03T19:45:00-06:00",
+   "venue": "Hanceville High School",
+   "home": "hanceville",
+   "away": "good-hope",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-12-07",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-12-07T19:00:00-06:00",
+   "venue": "Hanceville High School",
+   "home": "hanceville",
+   "away": "corner",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
   }
  ]
 }

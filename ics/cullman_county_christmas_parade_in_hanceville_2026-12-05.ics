@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cullman_county_christmas_parade_in_hanceville-20261205@hanceville-ente
+ rtainment-shopping
+DTSTAMP:20261106T120000Z
+DTSTART;TZID=America/Chicago:20261205T120000
+DTEND;TZID=America/Chicago:20261205T140000
+SUMMARY:Cullman County Christmas Parade in Hanceville
+LOCATION:Parade route on Michelle Street and Park Street (Wallace State to
+  downtown)\, Hanceville\, AL 35077
+DESCRIPTION:The annual Cullman County Christmas Parade rolls through Hance
+ ville. Expect street closures on Michelle Street and Park Street. Check l
+ ocal posts closer to the day for the exact staging details. Time: Starts 
+ at noon. Admission: Free to watch. https://www.cullmantribune.com/2026/10
+ /27/hanceville-city-council-addresses-vehicle-policy-department-appointme
+ nts-holiday-events/
+URL:https://www.cullmantribune.com/2026/10/27/hanceville-city-council-addr
+ esses-vehicle-policy-department-appointments-holiday-events/
+END:VEVENT
+END:VCALENDAR

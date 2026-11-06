@@ -2,7 +2,7 @@
  {
   "group": "Hometown Favorites",
   "name": "Pop's Cafe Hanceville",
-  "summary": "A 1950s style diner with chrome counters and checkered floors. Regulars love the fluffy pancakes, meatloaf is served every day, and cakes are baked fresh daily. German chocolate is the one people ask for most.",
+  "summary": "Pop's Cafe Hanceville is a 1950s style diner with chrome counters and checkered floors. Regulars order fluffy pancakes and everyday meatloaf, and cakes are baked fresh when the kitchen has them ready.",
   "tags": [
    "diner",
    "breakfast",
@@ -20,7 +20,7 @@
  {
   "group": "Hometown Favorites",
   "name": "Country Wok",
-  "summary": "Owner Kenny Lee keeps the menu small and sources ingredients locally. New this fall: ramen, Japanese hot dogs, Hong Kong wontons and a matcha cannoli, plus the eggrolls and Korean fried wings. Open Tuesday through Saturday, 11 a.m. to 7 p.m.",
+  "summary": "Country Wok on Bangor Avenue in Hanceville serves Chinese American favorites with a few new plates this fall, including ramen, Japanese hot dogs, Hong Kong wontons and a matcha cannoli. Owner Kenny Lee keeps the menu focused and sources ingredients locally, Tuesday through Saturday 11 AM to 7 PM.",
   "tags": [
    "chinese",
    "wings",
@@ -34,7 +34,9 @@
   "phone": "(256) 887-1360",
   "website": "https://www.countrywok.com",
   "source": "https://www.cullmantribune.com/2026/10/23/small-business-spotlight-country-wok-features-new-menu/",
-  "date": "Featured Oct 23, 2026"
+  "date": "Featured Oct 23, 2026",
+  "hours": "Tuesday to Saturday 11 AM to 7 PM; closed Sunday and Monday",
+  "hours_source": "https://www.cullmantribune.com/2026/10/23/small-business-spotlight-country-wok-features-new-menu/ (checked Nov. 6, 2026)"
  },
  {
   "group": "Hometown Favorites",

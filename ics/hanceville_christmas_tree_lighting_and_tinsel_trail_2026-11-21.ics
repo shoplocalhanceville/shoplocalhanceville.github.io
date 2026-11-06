@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hanceville_christmas_tree_lighting_and_tinsel_trail-20261121@hancevill
+ e-entertainment-shopping
+DTSTAMP:20261106T120000Z
+DTSTART;TZID=America/Chicago:20261121T180000
+DTEND;TZID=America/Chicago:20261121T200000
+SUMMARY:Hanceville Christmas Tree Lighting and Tinsel Trail
+LOCATION:Veterans Memorial Park\, 503 Park St\, Hanceville\, AL 35077
+DESCRIPTION:The city's Christmas tree lighting at Veterans Memorial Park i
+ s set for 6 PM\, with the Hanceville Civitan Club Tinsel Trail and guest 
+ speaker meteorologist Jason Simpson. Tinsel Trail setup begins Nov. 14. T
+ ime: 6:00 PM. Admission: Free. https://www.cullmantribune.com/2026/10/27/
+ hanceville-city-council-addresses-vehicle-policy-department-appointments-
+ holiday-events/
+URL:https://www.cullmantribune.com/2026/10/27/hanceville-city-council-addr
+ esses-vehicle-policy-department-appointments-holiday-events/
+END:VEVENT
+END:VCALENDAR
