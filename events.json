@@ -1,5 +1,43 @@
 [
  {
+  "name": "Sydni Helms-Hipp Memorial Barrel Race Night Ride",
+  "start": "2026-11-06",
+  "time": "4:00 PM to 8:00 PM",
+  "venue": "Cullman County Agricultural Trade Center, 17645 U.S. Highway 31",
+  "town": "Cullman",
+  "host": "Sydni Helms-Hipp Memorial Barrel Race",
+  "cost": "$10 per rider",
+  "summary": "Kickoff night ride for the 4th annual Sydni Helms-Hipp Memorial Barrel Race weekend at the Cullman County Agricultural Trade Center. The main barrel race continues Saturday.",
+  "url": "https://www.cullmantribune.com/2026/11/05/4th-annual-sydni-helms-hipp-memorial-barrel-race-this-saturday-nov-7/",
+  "group": "Community and Fun",
+  "tags": [
+   "rodeo",
+   "barrel race",
+   "cullman",
+   "agriculture",
+   "memorial"
+  ]
+ },
+ {
+  "name": "Wallace State Women's Basketball vs Gulf Coast State (Chipola Classic)",
+  "start": "2026-11-06",
+  "time": "5:00 PM CST",
+  "venue": "Chipola College (Chipola Classic)",
+  "town": "Marianna",
+  "host": "Wallace State Athletics",
+  "cost": "See host for admission",
+  "summary": "The Lady Lions open the Chipola Classic against Gulf Coast State in Marianna, Florida. Check Wallace State Athletics for any time changes before you go.",
+  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "basketball",
+   "wallace state",
+   "women",
+   "college",
+   "chipola classic"
+  ]
+ },
+ {
   "name": "Much Ado About Nothing at Wallace State",
   "start": "2026-11-06",
   "end": "2026-11-08",
@@ -20,43 +58,78 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Sydni Helms-Hipp Memorial Barrel Race Night Ride",
-  "start": "2026-11-06",
-  "time": "4:00 PM to 8:00 PM",
-  "venue": "Cullman County Agricultural Trade Center, 17645 U.S. Highway 31",
+  "name": "Ms. Senior Cullman County Pageant",
+  "start": "2026-11-07",
+  "time": "2:00 PM",
+  "venue": "Fairview High School Auditorium, 841 Welcome Rd",
   "town": "Cullman",
-  "host": "Sydni Helms-Hipp Memorial Barrel Race",
-  "cost": "$10 per rider",
-  "summary": "Kickoff night ride for the 4th annual Sydni Helms-Hipp Memorial Barrel Race weekend at the Cullman County Agricultural Trade Center. The main barrel race continues Saturday.",
-  "url": "https://www.cullmantribune.com/2026/11/05/4th-annual-sydni-helms-hipp-memorial-barrel-race-this-saturday-nov-7/",
+  "host": "Ms. Senior Cullman County Pageant",
+  "cost": "$10 ages 13 and up, $5 ages 6 to 12",
+  "summary": "Eight local women compete for Ms. Senior Cullman County (ages 60 to 69) and Ms. Super Senior Cullman County (70 and up). Cash votes for People's Choice help support LEAD and First Source for Women.",
+  "url": "https://www.cullmantribune.com/2026/10/03/ms-senior-cullman-county-pageant-introduces-contestants-ahead-of-nov-7-event/",
   "group": "Community and Fun",
   "tags": [
-   "rodeo",
-   "barrel race",
-   "cullman",
-   "agriculture",
-   "memorial"
+   "pageant",
+   "seniors",
+   "fundraiser",
+   "fairview",
+   "community"
   ]
  },
  {
-  "name": "16th Annual Mud Creek Arts and Crafts Festival",
+  "name": "Wallace State Men's Basketball vs. Itawamba",
   "start": "2026-11-07",
-  "time": "9:00 AM to 4:00 PM",
-  "venue": "Historic Downtown Hanceville, 110 Commercial St",
+  "time": "3:00 PM",
+  "venue": "Wallace State",
   "town": "Hanceville",
-  "host": "Friends of the Festival",
-  "cost": "Free to attend",
-  "summary": "Downtown Hanceville turns into a free street fair with handmade goods, food trucks, kids activities and shops open along Commercial Street. It goes on rain or shine.",
-  "url": "https://www.cullmantribune.com/2026/10/24/16th-annual-mud-creek-arts-crafts-festival-set-for-nov-7/",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Lions play Itawamba. Check the official schedule for the location and any time changes before you go.",
+  "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
+  "group": "Sports",
   "tags": [
-   "festival",
-   "arts and crafts",
-   "vendors",
-   "downtown",
-   "food trucks",
-   "mud creek"
-  ],
-  "group": "Community and Fun"
+   "sports",
+   "basketball",
+   "wallace state",
+   "lions",
+   "college"
+  ]
+ },
+ {
+  "name": "Wallace State Women's Basketball at Chipola College (Chipola Classic)",
+  "start": "2026-11-07",
+  "time": "3:00 PM CST",
+  "venue": "Chipola College",
+  "town": "Marianna",
+  "host": "Wallace State Athletics",
+  "cost": "See host for admission",
+  "summary": "Wallace State women's basketball continues the Chipola Classic on the road at Chipola College in Marianna, Florida. Check Wallace State Athletics for any time changes before you go.",
+  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
+  "group": "Sports",
+  "tags": [
+   "basketball",
+   "wallace state",
+   "women",
+   "college",
+   "chipola classic"
+  ]
+ },
+ {
+  "name": "Holly Pond Lions Club Pancake Breakfast",
+  "start": "2026-11-07",
+  "time": "6:00 AM to 9:00 AM",
+  "venue": "Holly Pond Lions Club Building, Lyons Park Road",
+  "town": "Holly Pond",
+  "host": "Holly Pond Lions Club",
+  "cost": "Donation",
+  "summary": "Pancakes, bacon, sausage and coffee or juice, to eat in or take out. Proceeds help the Lions Club project fund and the food pantry between Town Hall and the fire department.",
+  "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
+  "group": "Community and Fun",
+  "tags": [
+   "breakfast",
+   "fundraiser",
+   "lions club",
+   "food pantry"
+  ]
  },
  {
   "name": "Cipollari Live: A Fundraiser for the Randy Travis Foundation",
@@ -90,41 +163,24 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Holly Pond Lions Club Pancake Breakfast",
+  "name": "16th Annual Mud Creek Arts and Crafts Festival",
   "start": "2026-11-07",
-  "time": "6:00 AM to 9:00 AM",
-  "venue": "Holly Pond Lions Club Building, Lyons Park Road",
-  "town": "Holly Pond",
-  "host": "Holly Pond Lions Club",
-  "cost": "Donation",
-  "summary": "Pancakes, bacon, sausage and coffee or juice, to eat in or take out. Proceeds help the Lions Club project fund and the food pantry between Town Hall and the fire department.",
-  "url": "https://cullmantimes.com/2026/10/14/calendar-of-events/",
-  "group": "Community and Fun",
+  "time": "9:00 AM to 4:00 PM",
+  "venue": "Historic Downtown Hanceville, 110 Commercial St",
+  "town": "Hanceville",
+  "host": "Friends of the Festival",
+  "cost": "Free to attend",
+  "summary": "Downtown Hanceville turns into a free street fair with handmade goods, food trucks, kids activities and shops open along Commercial Street. It goes on rain or shine.",
+  "url": "https://www.cullmantribune.com/2026/10/24/16th-annual-mud-creek-arts-crafts-festival-set-for-nov-7/",
   "tags": [
-   "breakfast",
-   "fundraiser",
-   "lions club",
-   "food pantry"
-  ]
- },
- {
-  "name": "Ms. Senior Cullman County Pageant",
-  "start": "2026-11-07",
-  "time": "2:00 PM",
-  "venue": "Fairview High School Auditorium, 841 Welcome Rd",
-  "town": "Cullman",
-  "host": "Ms. Senior Cullman County Pageant",
-  "cost": "$10 ages 13 and up, $5 ages 6 to 12",
-  "summary": "Eight local women compete for Ms. Senior Cullman County (ages 60 to 69) and Ms. Super Senior Cullman County (70 and up). Cash votes for People's Choice help support LEAD and First Source for Women.",
-  "url": "https://www.cullmantribune.com/2026/10/03/ms-senior-cullman-county-pageant-introduces-contestants-ahead-of-nov-7-event/",
-  "group": "Community and Fun",
-  "tags": [
-   "pageant",
-   "seniors",
-   "fundraiser",
-   "fairview",
-   "community"
-  ]
+   "festival",
+   "arts and crafts",
+   "vendors",
+   "downtown",
+   "food trucks",
+   "mud creek"
+  ],
+  "group": "Community and Fun"
  },
  {
   "name": "Sydni Helms-Hipp Memorial Barrel Race",
@@ -142,24 +198,6 @@
    "barrel race",
    "cullman",
    "memorial"
-  ]
- },
- {
-  "name": "Wallace State Men's Basketball vs. Itawamba",
-  "start": "2026-11-07",
-  "time": "3:00 PM",
-  "venue": "Wallace State",
-  "town": "Hanceville",
-  "host": "Wallace State Lions Athletics",
-  "summary": "The Lions play Itawamba. Check the official schedule for the location and any time changes before you go.",
-  "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
-  "group": "Sports",
-  "tags": [
-   "sports",
-   "basketball",
-   "wallace state",
-   "lions",
-   "college"
   ]
  },
  {
@@ -183,24 +221,6 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Hanceville Bulldogs Basketball at Danville",
-  "start": "2026-11-10",
-  "time": "7:30 PM (varsity boys tip off)",
-  "venue": "Danville High School",
-  "town": "Danville",
-  "host": "Hanceville High School Bulldogs",
-  "cost": "See school for admission",
-  "summary": "The Bulldogs play at Danville. Check MaxPreps or the school for any time changes before you go.",
-  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-  "group": "Sports",
-  "tags": [
-   "basketball",
-   "hanceville",
-   "bulldogs",
-   "high school"
-  ]
- },
- {
   "name": "Salute to United States Veterans Concert",
   "start": "2026-11-10",
   "time": "7:00 PM",
@@ -218,6 +238,24 @@
    "free"
   ],
   "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball at Danville",
+  "start": "2026-11-10",
+  "time": "7:30 PM (varsity boys tip off)",
+  "venue": "Danville High School",
+  "town": "Danville",
+  "host": "Hanceville High School Bulldogs",
+  "cost": "See school for admission",
+  "summary": "The Bulldogs play at Danville. Check MaxPreps or the school for any time changes before you go.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "basketball",
+   "hanceville",
+   "bulldogs",
+   "high school"
+  ]
  },
  {
   "name": "Hanceville Public Library Storytime",
@@ -256,34 +294,21 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Hanceville Bulldogs Basketball at Sumiton Christian",
+  "name": "Wallace State Men's Basketball at Bevill State",
   "start": "2026-11-12",
-  "time": "7:00 PM (varsity boys tip off)",
-  "venue": "Sumiton Christian School",
+  "time": "6:00 PM",
+  "venue": "Bevill State Community College",
   "town": "Sumiton",
-  "host": "Hanceville High School Bulldogs",
+  "host": "Wallace State Athletics",
   "cost": "See school for admission",
-  "summary": "The Bulldogs play at Sumiton Christian. Check MaxPreps or the school for any time changes before you go.",
-  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "summary": "The Lions hit the road at Bevill State. Check Wallace State Athletics for any time changes before you go.",
+  "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
   "group": "Sports",
   "tags": [
    "basketball",
-   "hanceville",
-   "bulldogs",
-   "high school"
+   "wallace state",
+   "college"
   ]
- },
- {
-  "name": "Hanceville City Council Meeting",
-  "start": "2026-11-12",
-  "time": "6:00 PM work session, regular meeting right after",
-  "venue": "Hanceville City Hall, 112 Main St SE",
-  "town": "Hanceville",
-  "host": "City of Hanceville",
-  "cost": "Free and open to the public",
-  "summary": "The City Council holds a work session at 6:00 PM, followed right away by its regular meeting. The city announced this date on its Oct. 8 agenda.",
-  "url": "https://www.cityofhanceville.net/o/coh/page/city-council",
-  "group": "Community and Fun"
  },
  {
   "name": "United Way Designer Bag Bingo",
@@ -304,20 +329,33 @@
   ]
  },
  {
-  "name": "Wallace State Men's Basketball at Bevill State",
+  "name": "Hanceville City Council Meeting",
   "start": "2026-11-12",
-  "time": "6:00 PM",
-  "venue": "Bevill State Community College",
+  "time": "6:00 PM work session, regular meeting right after",
+  "venue": "Hanceville City Hall, 112 Main St SE",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free and open to the public",
+  "summary": "The City Council holds a work session at 6:00 PM, followed right away by its regular meeting. The city announced this date on its Oct. 8 agenda.",
+  "url": "https://www.cityofhanceville.net/o/coh/page/city-council",
+  "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball at Sumiton Christian",
+  "start": "2026-11-12",
+  "time": "7:00 PM (varsity boys tip off)",
+  "venue": "Sumiton Christian School",
   "town": "Sumiton",
-  "host": "Wallace State Athletics",
+  "host": "Hanceville High School Bulldogs",
   "cost": "See school for admission",
-  "summary": "The Lions hit the road at Bevill State. Check Wallace State Athletics for any time changes before you go.",
-  "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
+  "summary": "The Bulldogs play at Sumiton Christian. Check MaxPreps or the school for any time changes before you go.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
   "group": "Sports",
   "tags": [
    "basketball",
-   "wallace state",
-   "college"
+   "hanceville",
+   "bulldogs",
+   "high school"
   ]
  },
  {
@@ -329,26 +367,6 @@
   "host": "Cullman Area Chamber of Commerce and Visitor Center",
   "summary": "Holiday shopping kicks off with store specials, a cookie crawl, visits with Santa and a window display contest.",
   "url": "https://www.facebook.com/events/1604634394706572/",
-  "group": "Community and Fun"
- },
- {
-  "name": "Lion's Pride Fall VEX IQ Robotics Tournament",
-  "start": "2026-11-14",
-  "time": "8:00 AM to 4:00 PM",
-  "venue": "Wallace State Community College, 801 Main St NW",
-  "town": "Hanceville",
-  "host": "Wallace State Community College",
-  "cost": "Free to watch; team registration through VEX",
-  "summary": "Elementary and middle school robotics teams from across Alabama bring their VEX IQ robots to Wallace State for a full day of qualifying matches, skills runs, finals and awards. Doors and pits open at 8:00 AM, matches start at 9:15 AM, and finals begin around 3:00 PM.",
-  "url": "https://events.vex.com/robot-competitions/vex-iq-competition/VE-IQ-26-65828.html",
-  "tags": [
-   "robotics",
-   "vex iq",
-   "stem",
-   "wallace state",
-   "students",
-   "hanceville"
-  ],
   "group": "Community and Fun"
  },
  {
@@ -386,6 +404,26 @@
    "lions",
    "college"
   ]
+ },
+ {
+  "name": "Lion's Pride Fall VEX IQ Robotics Tournament",
+  "start": "2026-11-14",
+  "time": "8:00 AM to 4:00 PM",
+  "venue": "Wallace State Community College, 801 Main St NW",
+  "town": "Hanceville",
+  "host": "Wallace State Community College",
+  "cost": "Free to watch; team registration through VEX",
+  "summary": "Elementary and middle school robotics teams from across Alabama bring their VEX IQ robots to Wallace State for a full day of qualifying matches, skills runs, finals and awards. Doors and pits open at 8:00 AM, matches start at 9:15 AM, and finals begin around 3:00 PM.",
+  "url": "https://events.vex.com/robot-competitions/vex-iq-competition/VE-IQ-26-65828.html",
+  "tags": [
+   "robotics",
+   "vex iq",
+   "stem",
+   "wallace state",
+   "students",
+   "hanceville"
+  ],
+  "group": "Community and Fun"
  },
  {
   "name": "Wallace State Men's Basketball vs. East Mississippi",
@@ -478,6 +516,42 @@
   ]
  },
  {
+  "name": "Run Run Rudolph at Winter Wonderland",
+  "start": "2026-11-19",
+  "time": "5:00 PM to 8:00 PM",
+  "venue": "Sportsman Lake Park, 1544 Sportsman Lake Rd NW",
+  "town": "Cullman",
+  "host": "Cullman County Parks and Recreation",
+  "summary": "Run or stroll through the Winter Wonderland Christmas lights on foot, one night only. Registration opens at 4:00 PM, runners start at 5:00 PM and walkers follow. There's an ugly sweater and Christmas costume contest, dogs and strollers are welcome, and kids 6 and under are free. Park at the fairgrounds.",
+  "url": "https://www.eventbrite.com/e/run-run-rudolph-tickets-2002938862054",
+  "group": "Sports",
+  "tags": [
+   "fun run",
+   "christmas lights",
+   "winter wonderland",
+   "family",
+   "holiday"
+  ]
+ },
+ {
+  "name": "Hanceville Bulldogs Basketball at West Point",
+  "start": "2026-11-19",
+  "time": "7:45 PM (varsity boys tip off)",
+  "venue": "West Point High School",
+  "town": "Cullman",
+  "host": "Hanceville High School Bulldogs",
+  "cost": "See school for admission",
+  "summary": "The Bulldogs play at West Point. Check MaxPreps or the school for any time changes before you go.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "basketball",
+   "hanceville",
+   "bulldogs",
+   "high school"
+  ]
+ },
+ {
   "name": "Christmas at the Grotto",
   "start": "2026-11-19",
   "end": "2026-12-27",
@@ -520,39 +594,21 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Hanceville Bulldogs Basketball at West Point",
-  "start": "2026-11-19",
-  "time": "7:45 PM (varsity boys tip off)",
-  "venue": "West Point High School",
-  "town": "Cullman",
-  "host": "Hanceville High School Bulldogs",
-  "cost": "See school for admission",
-  "summary": "The Bulldogs play at West Point. Check MaxPreps or the school for any time changes before you go.",
-  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "name": "Wallace State Women's Basketball: Wallace State Classic vs. Vincennes",
+  "start": "2026-11-20",
+  "time": "2:00 PM",
+  "venue": "Wallace State",
+  "town": "Hanceville",
+  "host": "Wallace State Lions Athletics",
+  "summary": "The Wallace State Lions women's basketball team hosts Vincennes in the Wallace State Classic.",
+  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
   "group": "Sports",
   "tags": [
+   "sports",
    "basketball",
-   "hanceville",
-   "bulldogs",
-   "high school"
-  ]
- },
- {
-  "name": "Run Run Rudolph at Winter Wonderland",
-  "start": "2026-11-19",
-  "time": "5:00 PM to 8:00 PM",
-  "venue": "Sportsman Lake Park, 1544 Sportsman Lake Rd NW",
-  "town": "Cullman",
-  "host": "Cullman County Parks and Recreation",
-  "summary": "Run or stroll through the Winter Wonderland Christmas lights on foot, one night only. Registration opens at 4:00 PM, runners start at 5:00 PM and walkers follow. There's an ugly sweater and Christmas costume contest, dogs and strollers are welcome, and kids 6 and under are free. Park at the fairgrounds.",
-  "url": "https://www.eventbrite.com/e/run-run-rudolph-tickets-2002938862054",
-  "group": "Sports",
-  "tags": [
-   "fun run",
-   "christmas lights",
-   "winter wonderland",
-   "family",
-   "holiday"
+   "wallace state",
+   "lions",
+   "college"
   ]
  },
  {
@@ -614,13 +670,13 @@
   ]
  },
  {
-  "name": "Wallace State Women's Basketball: Wallace State Classic vs. Vincennes",
-  "start": "2026-11-20",
+  "name": "Wallace State Women's Basketball: Wallace State Classic vs. Chipola",
+  "start": "2026-11-21",
   "time": "2:00 PM",
   "venue": "Wallace State",
   "town": "Hanceville",
   "host": "Wallace State Lions Athletics",
-  "summary": "The Wallace State Lions women's basketball team hosts Vincennes in the Wallace State Classic.",
+  "summary": "The Lions women's basketball team wraps up the Wallace State Classic at home against Chipola.",
   "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
   "group": "Sports",
   "tags": [
@@ -629,26 +685,6 @@
    "wallace state",
    "lions",
    "college"
-  ]
- },
- {
-  "name": "Hanceville Christmas Tree Lighting and Tinsel Trail",
-  "start": "2026-11-21",
-  "time": "6:00 PM",
-  "venue": "Veterans Memorial Park, 503 Park St",
-  "town": "Hanceville",
-  "host": "Hanceville Parks and Recreation and Hanceville Civitan Club",
-  "cost": "Free",
-  "summary": "The city's Christmas tree lighting at Veterans Memorial Park is set for 6 PM, with the Hanceville Civitan Club Tinsel Trail and guest speaker meteorologist Jason Simpson. Tinsel Trail setup begins Nov. 14.",
-  "url": "https://www.cullmantribune.com/2026/10/27/hanceville-city-council-addresses-vehicle-policy-department-appointments-holiday-events/",
-  "group": "Community and Fun",
-  "tags": [
-   "christmas",
-   "tree lighting",
-   "tinsel trail",
-   "hanceville",
-   "civitan",
-   "free"
   ]
  },
  {
@@ -672,21 +708,23 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Wallace State Women's Basketball: Wallace State Classic vs. Chipola",
+  "name": "Hanceville Christmas Tree Lighting and Tinsel Trail",
   "start": "2026-11-21",
-  "time": "2:00 PM",
-  "venue": "Wallace State",
+  "time": "6:00 PM",
+  "venue": "Veterans Memorial Park, 503 Park St",
   "town": "Hanceville",
-  "host": "Wallace State Lions Athletics",
-  "summary": "The Lions women's basketball team wraps up the Wallace State Classic at home against Chipola.",
-  "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule",
-  "group": "Sports",
+  "host": "Hanceville Parks and Recreation and Hanceville Civitan Club",
+  "cost": "Free",
+  "summary": "The city's Christmas tree lighting at Veterans Memorial Park is set for 6 PM, with the Hanceville Civitan Club Tinsel Trail and guest speaker meteorologist Jason Simpson. Tinsel Trail setup begins Nov. 14.",
+  "url": "https://www.cullmantribune.com/2026/10/27/hanceville-city-council-addresses-vehicle-policy-department-appointments-holiday-events/",
+  "group": "Community and Fun",
   "tags": [
-   "sports",
-   "basketball",
-   "wallace state",
-   "lions",
-   "college"
+   "christmas",
+   "tree lighting",
+   "tinsel trail",
+   "hanceville",
+   "civitan",
+   "free"
   ]
  },
  {
@@ -744,6 +782,24 @@
   ]
  },
  {
+  "name": "Hanceville Bulldogs Basketball vs. Good Hope",
+  "start": "2026-12-03",
+  "time": "7:45 PM (varsity boys tip off)",
+  "venue": "Hanceville High School",
+  "town": "Hanceville",
+  "host": "Hanceville High School Bulldogs",
+  "summary": "The Bulldogs host Good Hope in the Hanceville High gym. Bring the family and wear your purple.",
+  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "basketball",
+   "high school",
+   "bulldogs",
+   "home game"
+  ]
+ },
+ {
   "name": "Festival of Trees at the Cullman Wellness and Aquatic Center",
   "start": "2026-12-03",
   "end": "2026-12-27",
@@ -765,22 +821,22 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Hanceville Bulldogs Basketball vs. Good Hope",
-  "start": "2026-12-03",
-  "time": "7:45 PM (varsity boys tip off)",
-  "venue": "Hanceville High School",
+  "name": "Hanceville Holly Market",
+  "start": "2026-12-05",
+  "venue": "Hanceville Civic Center, 902 Commercial St",
   "town": "Hanceville",
-  "host": "Hanceville High School Bulldogs",
-  "summary": "The Bulldogs host Good Hope in the Hanceville High gym. Bring the family and wear your purple.",
-  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-  "group": "Sports",
+  "host": "Hanceville Parks and Recreation",
+  "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
+  "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
   "tags": [
-   "sports",
-   "basketball",
-   "high school",
-   "bulldogs",
-   "home game"
-  ]
+   "holiday market",
+   "christmas",
+   "shopping",
+   "vendors",
+   "gifts"
+  ],
+  "group": "Community and Fun",
+  "time": "9:00 AM to 5:00 PM"
  },
  {
   "name": "Cullman County Christmas Parade in Hanceville",
@@ -800,24 +856,6 @@
    "civitan",
    "free"
   ]
- },
- {
-  "name": "Hanceville Holly Market",
-  "start": "2026-12-05",
-  "venue": "Hanceville Civic Center, 902 Commercial St",
-  "town": "Hanceville",
-  "host": "Hanceville Parks and Recreation",
-  "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
-  "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
-  "tags": [
-   "holiday market",
-   "christmas",
-   "shopping",
-   "vendors",
-   "gifts"
-  ],
-  "group": "Community and Fun",
-  "time": "9:00 AM to 5:00 PM"
  },
  {
   "name": "Share Club of Cullman Christmas Tour of Homes",
@@ -877,24 +915,6 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Hanceville Holly Market",
-  "start": "2026-12-12",
-  "venue": "Hanceville Civic Center, 902 Commercial St",
-  "town": "Hanceville",
-  "host": "Hanceville Parks and Recreation",
-  "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
-  "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
-  "tags": [
-   "holiday market",
-   "christmas",
-   "shopping",
-   "vendors",
-   "gifts"
-  ],
-  "group": "Community and Fun",
-  "time": "9:00 AM to 5:00 PM"
- },
- {
   "name": "Jingle Bell Run and Holiday Stroll",
   "start": "2026-12-12",
   "time": "8:00 AM to 10:30 AM",
@@ -915,7 +935,7 @@
  },
  {
   "name": "Hanceville Holly Market",
-  "start": "2026-12-19",
+  "start": "2026-12-12",
   "venue": "Hanceville Civic Center, 902 Commercial St",
   "town": "Hanceville",
   "host": "Hanceville Parks and Recreation",
@@ -949,6 +969,24 @@
    "hanceville",
    "free"
   ]
+ },
+ {
+  "name": "Hanceville Holly Market",
+  "start": "2026-12-19",
+  "venue": "Hanceville Civic Center, 902 Commercial St",
+  "town": "Hanceville",
+  "host": "Hanceville Parks and Recreation",
+  "summary": "An indoor holiday market with handmade gifts, boutiques, crafts and holiday treats. Get your Christmas shopping done close to home.",
+  "url": "https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-this-december-vendors-needed/",
+  "tags": [
+   "holiday market",
+   "christmas",
+   "shopping",
+   "vendors",
+   "gifts"
+  ],
+  "group": "Community and Fun",
+  "time": "9:00 AM to 5:00 PM"
  },
  {
   "name": "Hanceville Bulldogs Basketball vs. Cleveland",

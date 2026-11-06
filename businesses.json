@@ -231,8 +231,9 @@
    "auto sales"
   ],
   "address": "102 Main St NE, Hanceville, AL 35077",
-  "summary": "A used car dealer on Main Street with cars and trucks for sale.",
-  "phone": "(256) 775-8001"
+  "summary": "Freedom Motors of Alabama is a used car lot on Main Street NE with cars and trucks for sale. Call ahead to ask about current inventory and financing options.",
+  "phone": "(256) 775-8001",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Auto Sales",
@@ -416,11 +417,14 @@
    "commercial"
   ],
   "address": "850 County Road 636, Hanceville, AL 35077",
-  "summary": "A Hanceville company that services heating, air conditioning and commercial refrigeration.",
+  "summary": "A, R and C Specialists on County Road 636 handles heating, air conditioning and commercial refrigeration for Hanceville homes and businesses. Call when a unit needs service any day of the week.",
   "phone": "(256) 708-8617",
   "website": "https://www.arandcspecialists.com/",
   "logo": "logos/a-r-and-c-specialists.webp",
-  "logo_source": "https://www.arandcspecialists.com/wp-content/uploads/2025/08/A-R-C-Specialists.webp"
+  "logo_source": "https://www.arandcspecialists.com/wp-content/uploads/2025/08/A-R-C-Specialists.webp",
+  "hours": "Monday to Sunday 24 hours",
+  "hours_source": "https://www.arandcspecialists.com/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Health & Pharmacy",

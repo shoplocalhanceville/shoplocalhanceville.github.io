@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T08:00:00-06:00",
+ "updated": "2026-11-06T09:45:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -186,6 +186,24 @@
   "bevill": {
    "name": "Bevill State",
    "initials": "BS",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "gulf-coast": {
+   "name": "Gulf Coast State",
+   "initials": "GC",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "chipola": {
+   "name": "Chipola",
+   "initials": "CH",
    "colors": [
     "#4a5160",
     "#d5d9e0"
@@ -499,6 +517,40 @@
    "source": {
     "name": "Wallace State Athletics schedule",
     "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   }
+  },
+  {
+   "id": "ws-wb-2026-11-06",
+   "school": "wallace",
+   "label": "Wallace State Women's Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-06T17:00:00-06:00",
+   "venue": "Chipola Classic, Marianna, FL",
+   "home": "gulf-coast",
+   "away": "wallace",
+   "status": "Upcoming",
+   "note": "Chipola Classic. Lady Lions enter 2 and 0.",
+   "source": {
+    "name": "Wallace State Athletics schedule",
+    "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
+   }
+  },
+  {
+   "id": "ws-wb-2026-11-07",
+   "school": "wallace",
+   "label": "Wallace State Women's Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-07T15:00:00-06:00",
+   "venue": "Chipola College, Marianna, FL",
+   "home": "chipola",
+   "away": "wallace",
+   "status": "Upcoming",
+   "note": "Chipola Classic road game.",
+   "source": {
+    "name": "Wallace State Athletics schedule",
+    "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
    }
   },
   {
