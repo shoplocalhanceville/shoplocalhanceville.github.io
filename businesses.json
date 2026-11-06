@@ -207,7 +207,7 @@
    "fade"
   ],
   "address": "Main Street, Hanceville, AL 35077",
-  "summary": "The Warehouse Barber on Main Street keeps cuts clean and simple. Call ahead or walk in when you need a fresh haircut before work or a weekend out.",
+  "summary": "The Warehouse Barber on Main Street cuts hair for men and boys in a straightforward shop setting. Call ahead if you want to lock in a time.",
   "phone": "(256) 736-3286",
   "source_checked": "2026-11-06"
  },
@@ -683,7 +683,7 @@
   "category": "Other",
   "name": "Shrine of the Most Blessed Sacrament",
   "address": "3224 County Road 548, Hanceville, AL 35077",
-  "summary": "One of the best known landmarks in the area. Visitors and pilgrims are welcome to walk the quiet grounds and stop by the gift shop.",
+  "summary": "The Shrine of the Most Blessed Sacrament at Our Lady of the Angels Monastery welcomes visitors and pilgrims to walk the quiet grounds, attend Mass and stop by the Gift Shop of El Nino on County Road 548.",
   "phone": "(256) 352-6267",
   "website": "https://www.olamshrine.com",
   "service": "Shrine and gift shop",
@@ -694,6 +694,9 @@
    "visitors"
   ],
   "logo": "logos/shrine-of-the-most-blessed-sacrament.webp",
-  "logo_source": "https://d3oa4flgfq4lhi.cloudfront.net/images/stories/template/logos/Shrine%20logo%20-%20%20maroon.png?1764779117"
+  "logo_source": "https://d3oa4flgfq4lhi.cloudfront.net/images/stories/template/logos/Shrine%20logo%20-%20%20maroon.png?1764779117",
+  "hours": "Grounds open daily, winter 6 AM to 6 PM (summer 6 AM to 8 PM); Gift Shop Monday to Saturday 8 AM to 4:45 PM, closed Sunday",
+  "hours_source": "https://www.olamshrine.com/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  }
 ]

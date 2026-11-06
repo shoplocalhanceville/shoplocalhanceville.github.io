@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T12:05:00-06:00",
+ "updated": "2026-11-06T13:00:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -240,6 +240,15 @@
   "pellissippi": {
    "name": "Pellissippi State",
    "initials": "PSCC",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "east-central": {
+   "name": "East Central",
+   "initials": "ECCC",
    "colors": [
     "#4a5160",
     "#d5d9e0"
@@ -711,6 +720,23 @@
    "away": "ardmore",
    "status": "Upcoming",
    "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "ws-mb-2026-11-19",
+   "school": "wallace",
+   "label": "Wallace State Men's Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-19T19:30:00-06:00",
+   "venue": "Brackeen-Wood Gymnasium, East Central CC, Decatur, MS",
+   "home": "east-central",
+   "away": "wallace",
+   "status": "Upcoming",
+   "note": "Road game at East Central Community College at 7:30 PM CST.",
+   "source": {
+    "name": "Wallace State Athletics schedule",
+    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   }
   },
   {
    "id": "hhs-bb-2026-11-19",

@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cullman_regional_lights_of_love_ceremony-20261208@hanceville-entertain
+ ment-shopping
+DTSTAMP:20261106T190000Z
+DTSTART;TZID=America/Chicago:20261208T180000
+DTEND;TZID=America/Chicago:20261208T193000
+SUMMARY:Cullman Regional Lights of Love Ceremony
+LOCATION:St. John's Evangelical Protestant Church\, Christ Hall\, 512 2nd 
+ Ave SE\, Cullman\, AL 35055
+DESCRIPTION:The Cullman Regional Foundation Dr. Herman C. Ensor Lights of 
+ Love Ceremony is Tuesday\, Dec. 8 at 6 p.m. in Christ Hall at St. John's 
+ Evangelical Protestant Church. Gifts of $20 or more place a light on the 
+ Cullman Regional Christmas tree in honor or memory of someone\, with dona
+ tions received by Dec. 4 included in the ceremony. This year's program ho
+ nors hospice patients and retired surgeon Dr. Donald Marecle. Time: 6:00 
+ PM. Admission: Open to the public\; lights on the tree start at a $20 gif
+ t. https://cullmantimes.com/2026/11/06/lights-of-love-ceremony-returns-de
+ c-8/
+URL:https://cullmantimes.com/2026/11/06/lights-of-love-ceremony-returns-de
+ c-8/
+END:VEVENT
+END:VCALENDAR
