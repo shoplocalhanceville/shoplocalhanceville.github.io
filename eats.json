@@ -18,7 +18,8 @@
   "date": "Featured Jan 20, 2026",
   "hours": "Monday to Friday 7 AM to 2 PM; Sunday 11 AM to 3 PM; check Facebook for Saturday hours",
   "hours_source": "https://www.cullmantribune.com/2026/01/20/local-eats-pops-cafe/ (checked Nov. 6, 2026)",
-  "source_checked": "2026-11-06"
+  "source_checked": "2026-11-06",
+  "facebook": "https://www.facebook.com/popscafehanceville"
  },
  {
   "group": "Hometown Favorites",
@@ -92,19 +93,20 @@
  {
   "group": "More Places to Eat",
   "name": "Azul Tequila Mexican Cantina",
-  "summary": "A Mexican cantina on Main Street. Grab a table for tacos and good conversation.",
+  "summary": "Azul Tequila Mexican Cantina on Main Street plates tacos, fajitas and classic Mexican American favorites for dine in or takeout.",
   "tags": [
    "mexican",
    "tacos"
   ],
   "address": "836 Main St NE, Hanceville",
   "phone": "(256) 887-1016",
-  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local",
+  "source_checked": "2026-11-06"
  },
  {
   "group": "More Places to Eat",
   "name": "Cafe Tula Taqueria",
-  "summary": "A taqueria on Commercial Street, just a few steps from the downtown shops.",
+  "summary": "Cafe Tula Taqueria serves Mexican plates on Commercial Street in downtown Hanceville. Grab tacos, burritos and daily specials a short walk from the civic center.",
   "tags": [
    "mexican",
    "tacos"
@@ -119,18 +121,19 @@
  {
   "group": "More Places to Eat",
   "name": "Reyes Pizza",
-  "summary": "Hometown pizza on Main Street, easy to pick up on your way home.",
+  "summary": "Reyes Pizza on Main Street is a hometown stop for pies you can pick up on the way home. Call ahead when the family wants pizza night without the drive to Cullman.",
   "tags": [
    "pizza"
   ],
   "address": "806 Main St NE, Hanceville",
   "phone": "(256) 887-1307",
-  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local",
+  "source_checked": "2026-11-06"
  },
  {
   "group": "More Places to Eat",
   "name": "HanceVegas Coffee Shop",
-  "summary": "Downtown coffee with a name that makes people smile.",
+  "summary": "HanceVegas Coffee Shop on Commercial Street pours espresso drinks and local favorites under one of downtown's most memorable names. Stop in when you need a caffeine break between errands.",
   "tags": [
    "coffee",
    "smoothie"

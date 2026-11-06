@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sydni_helms_hipp_memorial_barrel_race_night_ride-20261106@hanceville-e
+ ntertainment-shopping
+DTSTAMP:20261106T140000Z
+DTSTART;TZID=America/Chicago:20261106T160000
+DTEND;TZID=America/Chicago:20261106T200000
+SUMMARY:Sydni Helms-Hipp Memorial Barrel Race Night Ride
+LOCATION:Cullman County Agricultural Trade Center\, 17645 U.S. Highway 31\
+ , Cullman\, AL 35055
+DESCRIPTION:Kickoff night ride for the 4th annual Sydni Helms-Hipp Memoria
+ l Barrel Race weekend at the Cullman County Agricultural Trade Center. Th
+ e main barrel race continues Saturday. Time: 4:00 PM to 8:00 PM. Admissio
+ n: $10 per rider. https://www.cullmantribune.com/2026/11/05/4th-annual-sy
+ dni-helms-hipp-memorial-barrel-race-this-saturday-nov-7/
+URL:https://www.cullmantribune.com/2026/11/05/4th-annual-sydni-helms-hipp-
+ memorial-barrel-race-this-saturday-nov-7/
+END:VEVENT
+END:VCALENDAR

@@ -3,7 +3,7 @@
   "category": "Restaurants",
   "name": "Azul Tequila Mexican Cantina",
   "address": "836 Main St NE, Hanceville, AL 35077",
-  "summary": "A Mexican cantina on Main Street. Come hungry for tacos and bring a few friends.",
+  "summary": "Azul Tequila Mexican Cantina on Main Street plates tacos, fajitas and classic Mexican American favorites for dine in or takeout.",
   "phone": "(256) 887-1016",
   "service": "Mexican restaurant",
   "tags": [
@@ -11,13 +11,14 @@
    "tacos",
    "dinner",
    "lunch"
-  ]
+  ],
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Restaurants",
   "name": "Cafe Tula Taqueria",
   "address": "106 Commercial St, Hanceville, AL 35077",
-  "summary": "A taqueria on Commercial Street in downtown Hanceville. It sits close to the shops, so it pairs nicely with an afternoon of browsing.",
+  "summary": "Cafe Tula Taqueria serves Mexican plates on Commercial Street in downtown Hanceville. Grab tacos, burritos and daily specials a short walk from the civic center.",
   "phone": "(256) 636-0323",
   "service": "Taqueria",
   "tags": [
@@ -111,14 +112,15 @@
   "category": "Restaurants",
   "name": "Reyes Pizza",
   "address": "806 Main St NE, Hanceville, AL 35077",
-  "summary": "A local pizza place on Main Street. Pick up a pie for family night or before the next ballgame.",
+  "summary": "Reyes Pizza on Main Street is a hometown stop for pies you can pick up on the way home. Call ahead when the family wants pizza night without the drive to Cullman.",
   "phone": "(256) 887-1307",
   "service": "Pizza",
   "tags": [
    "pizza",
    "delivery",
    "dinner"
-  ]
+  ],
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Restaurants",
@@ -138,7 +140,7 @@
   "category": "Drinks & Coffee",
   "name": "HanceVegas Coffee Shop",
   "address": "113 Commercial St, Hanceville, AL 35077",
-  "summary": "A downtown coffee shop with one of the best names in town. Stop in for your morning cup and a little conversation.",
+  "summary": "HanceVegas Coffee Shop on Commercial Street pours espresso drinks and local favorites under one of downtown's most memorable names. Stop in when you need a caffeine break between errands.",
   "phone": "(256) 887-1234",
   "service": "Coffee shop",
   "tags": [
@@ -199,8 +201,9 @@
    "fade"
   ],
   "address": "Main Street, Hanceville, AL 35077",
-  "summary": "A downtown barbershop for fresh haircuts and clean lines.",
-  "phone": "(256) 736-3286"
+  "summary": "The Warehouse Barber downtown keeps cuts clean and simple. Walk in when you need a fresh haircut before work or a weekend out.",
+  "phone": "(256) 736-3286",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Barbers & Salons",
@@ -212,8 +215,9 @@
    "style"
   ],
   "address": "112 Commercial St NE, Hanceville, AL 35077",
-  "summary": "A longtime barber and style shop on Commercial Street that has kept plenty of Hanceville heads neatly trimmed.",
-  "phone": "(256) 352-7271"
+  "summary": "Hanceville Barber and Style Shop on Commercial Street has been cutting hair for locals for years. Book a chair when you want a reliable trim close to downtown.",
+  "phone": "(256) 352-7271",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Auto Sales",
@@ -380,7 +384,10 @@
   "phone": "(205) 304-1120",
   "website": "https://dustyssmallengines.com/",
   "logo": "logos/dusty-s-small-engines.webp",
-  "logo_source": "https://dustyssmallengines.com/static/img/logo.png"
+  "logo_source": "https://dustyssmallengines.com/static/img/logo.png",
+  "hours": "Monday to Friday 9 AM to 6 PM; Saturday 10 AM to 4 PM",
+  "hours_source": "https://dustyssmallengines.com/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Towing",
@@ -499,7 +506,10 @@
   "phone": "(256) 352-6411",
   "website": "https://www.cullmansavingsbank.com/",
   "logo": "logos/cullman-savings-bank-hanceville.webp",
-  "logo_source": "https://www.cullmansavingsbank.com/wp-content/uploads/2023/11/logo-2-e1732213216408.png"
+  "logo_source": "https://www.cullmansavingsbank.com/wp-content/uploads/2023/11/logo-2-e1732213216408.png",
+  "hours": "Lobby Monday to Thursday 8:30 AM to 4:30 PM, Friday 8:30 AM to 5 PM, Saturday 8:30 AM to noon; drive-up Monday to Thursday 7:30 AM to 4:30 PM, Friday 7:30 AM to 5 PM, Saturday 8:30 AM to noon",
+  "hours_source": "https://www.cullmansavingsbank.com/about/locations-hours/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Finance & Insurance",
@@ -514,7 +524,10 @@
   "address": "639 AL Highway 69 S, Hanceville, AL 35077",
   "summary": "A Traditions Bank branch with a lobby, drive thru and ATM. It's open Saturday mornings, too.",
   "phone": "(256) 287-1400",
-  "website": "https://www.traditionsal.com/locations/"
+  "website": "https://www.traditionsal.com/locations/",
+  "hours": "Monday to Friday 8:30 AM to 5 PM; Saturday 8:30 AM to noon",
+  "hours_source": "https://www.traditionsal.com/locations/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Finance & Insurance",
@@ -527,7 +540,10 @@
   ],
   "address": "906 Main St NE, Hanceville, AL 35077",
   "summary": "The Merchants Bank of Alabama branch on Main Street.",
-  "website": "https://merchantsbankal.bank/location-and-hours/"
+  "website": "https://merchantsbankal.bank/location-and-hours/",
+  "hours": "Lobby Monday to Friday 8:30 AM to 4:30 PM; drive-thru Monday to Friday 7:30 AM to 4:30 PM",
+  "hours_source": "https://merchantsbankal.bank/location-and-hours/ (checked Nov. 6, 2026)",
+  "source_checked": "2026-11-06"
  },
  {
   "category": "Finance & Insurance",
