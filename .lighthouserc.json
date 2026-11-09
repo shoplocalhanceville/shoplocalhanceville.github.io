@@ -9,7 +9,7 @@
         "http://localhost:8080/place-cut-n-up-barber-and-style.html"
       ],
       "numberOfRuns": 5,
-      "startServerCommand": "python3 -m http.server 8080",
+      "startServerCommand": "python3 tools/gzip_server.py 8080",
       "startServerReadyPattern": "Serving HTTP",
       "settings": {
         "onlyCategories": [
