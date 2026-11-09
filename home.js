@@ -426,8 +426,8 @@ var FB_SVG='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" s
 var view=document.getElementById("profileView");
 var body=document.getElementById("pfBody");
 var lastCard=null;
-function showView(){view.hidden=false;document.body.style.overflow="hidden";view.scrollTop=0;}
-function hideView(){view.hidden=true;document.body.style.overflow="";if(lastCard){lastCard.scrollIntoView({block:"center"});lastCard.classList.add("deeplink-hit");setTimeout(function(){if(lastCard)lastCard.classList.remove("deeplink-hit");},2600);}}
+function showView(){view.hidden=false;document.body.style.overflow="hidden";view.scrollTop=0;document.getElementById("pfBack").focus();}
+function hideView(){view.hidden=true;document.body.style.overflow="";if(lastCard){lastCard.scrollIntoView({block:"center"});lastCard.classList.add("deeplink-hit");var _pfT=lastCard.querySelector(".pf-open");if(_pfT)_pfT.focus();setTimeout(function(){if(lastCard)lastCard.classList.remove("deeplink-hit");},2600);}}
 if(LANG==="es")document.getElementById("pfBackLabel").textContent="Volver a los listados";
 document.getElementById("pfBack").addEventListener("click",hideView);
 document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!view.hidden)hideView();});
