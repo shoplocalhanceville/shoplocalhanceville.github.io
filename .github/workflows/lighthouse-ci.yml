@@ -18,8 +18,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Install Lighthouse CI
-        run: npm install -g @lhci/cli
+      - name: "Install Lighthouse CI (pinned: lhci 0.15.1, Lighthouse 12.6.1)"
+        run: npm install -g @lhci/cli@0.15.1
       - name: Run Lighthouse CI (desktop)
         run: lhci autorun --config=.lighthouserc.json
       - name: Run Lighthouse CI (mobile)
