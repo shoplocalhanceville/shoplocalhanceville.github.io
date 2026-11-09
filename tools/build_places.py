@@ -264,8 +264,13 @@ h+=f'<div class="page-head"><div class="wrap"><h1>All Places A to Z</h1><p>{len(
 by={}
 for x in sorted(P.values(),key=lambda x:x['name'].lower()):by.setdefault(x['name'][0].upper() if x['name'][0].isalpha() else '#',[]).append(x)
 h+='<nav class="pl-tabs" aria-label="Letters"><div class="wrap">'+''.join(f'<a href="#l-{k if k!="#" else "num"}">{k}</a>' for k in by)+'</div></nav>'
-for k,v in by.items():h+=f'<section class="pl-sec" id="l-{k if k!="#" else "num"}"><h2>{k}</h2><ul class="pl-grid">'+''.join(tile(x) for x in v)+'</ul></section>'
-h+='</div></main>\n'+FOOTER;open('places.html','w').write(h);pages.append('places.html')
+# The A to Z tiles are about 180 KB of markup, which made places.html slow to first paint on phones.
+# They now live in places-az.json and places-az.js draws them (same tiles, same ids, same order).
+# Every listing is still linked from the category pages and the sitemap, and from the tag list above.
+AZ=[[k,[[x['slug'],x['name'],x['category'],x['logo'] if x.get('logo') else ''.join(w[0] for w in x['name'].split()[:2]).upper(),1 if x.get('logo') else 0] for x in v]] for k,v in by.items()]
+json.dump(AZ,open('places-az.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
+h+='<div id="pl-az" data-src="places-az.json" style="min-height:100vh"><noscript><p>The full A to Z list needs JavaScript. Every listing is also linked from the category pages above.</p></noscript></div>'
+h+='</div></main>\n'+FOOTER.replace('<script src="app.js','<script src="places-az.js?v=1" defer></script>\n<script src="app.js',1);open('places.html','w').write(h);pages.append('places.html')
 # ---------- footer pages: About, Contact, Privacy, Terms, Sources & References, Sitemap ----------
 FB='https://www.facebook.com/2333964643484816'
 def simple(path,title,desc,h1,body,extra_ld=None):

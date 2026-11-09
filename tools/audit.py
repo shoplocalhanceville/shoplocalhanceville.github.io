@@ -32,6 +32,12 @@ for f in htmls:
   body=re.sub(r'<script.*?</script>','',s,flags=re.S)
   if re.search(r'(src|href)="http://',s):prob('insecure-link',f'{f}: has an http:// link (monitor.py fails on this)')
   ids=set(re.findall(r'\bid="([^"]+)"',body))
+  if f=='places.html' and os.path.exists('places-az.json'):  # the A to Z sections are drawn by places-az.js from places-az.json
+    az=json.load(open('places-az.json',encoding='utf-8'))
+    ids|={'l-'+('num' if k=='#' else k) for k,_ in az}
+    for k,rows in az:
+      for r in rows:
+        if not os.path.exists(f'place-{r[0]}.html'):prob('broken-link',f'places-az.json: place-{r[0]}.html')
   for h in re.findall(r'(?:href|src)="([^"]+)"',body):
     h=html.unescape(h)
     if re.match(r'^(https?:|mailto:|tel:|sms:|data:|javascript:|//)',h):continue
