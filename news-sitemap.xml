@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://shoplocalhanceville.github.io/story-bella-balle-condominiums-downtown-cullman-nov-2026.html</loc>
+    <news:news>
+      <news:publication><news:name>Hanceville Entertainment &amp; Shopping</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-07</news:publication_date>
+      <news:title>Work starts on Bella Balle, a new condo and shop building in downtown Cullman</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://shoplocalhanceville.github.io/story-cullman-christmas-open-house-cookie-crawl-nov-13-2026.html</loc>
     <news:news>
       <news:publication><news:name>Hanceville Entertainment &amp; Shopping</news:name><news:language>en</news:language></news:publication>
@@ -41,11 +49,11 @@
     </news:news>
   </url>
   <url>
-    <loc>https://shoplocalhanceville.github.io/story-wallace-state-soccer-twins-ice-custody-nov-2026.html</loc>
+    <loc>https://shoplocalhanceville.github.io/story-cullman-retired-teachers-day-nov-17-2026.html</loc>
     <news:news>
       <news:publication><news:name>Hanceville Entertainment &amp; Shopping</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-08</news:publication_date>
-      <news:title>Two Wallace State soccer players are in immigration custody after a traffic stop in Lincoln</news:title>
+      <news:title>Cullman sets Nov. 17 as Retired Teachers Day, so thank a teacher</news:title>
     </news:news>
   </url>
 </urlset>

@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kitchen_series_beyond_biscuits_class_at_the_agriplex-20261112@hancevil
+ le-entertainment-shopping
+DTSTAMP:20261109T170000Z
+DTSTART;TZID=America/Chicago:20261112T180000
+DTEND;TZID=America/Chicago:20261112T200000
+SUMMARY:Kitchen Series: Beyond Biscuits Class at the Agriplex
+LOCATION:North Alabama Agriplex\, 1714 Tally Ho St SW\, Cullman\, AL 35055
+DESCRIPTION:A hands on Southern Pie Series class at the North Alabama Agri
+ plex. Learn one from scratch dough and use it three ways: flaky drop bisc
+ uits\, tender scones and a biscuit topped pot pie. Youth ages 12 to 15 mu
+ st register and come with a paid registered adult. Time: 6:00 PM to 8:00 
+ PM. Admission: $25 per person\, registration required. https://business.c
+ ullmanchamber.org/events/details/kitchen-series-southern-pie-series-beyon
+ d-biscuites-24049
+URL:https://business.cullmanchamber.org/events/details/kitchen-series-sout
+ hern-pie-series-beyond-biscuites-24049
+END:VEVENT
+END:VCALENDAR

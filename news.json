@@ -127,42 +127,6 @@
   ]
  },
  {
-  "id": "wallace-state-soccer-twins-ice-custody-nov-2026",
-  "date": "2026-11-08",
-  "category": "Education",
-  "graphic": "⚽",
-  "headline": "Two Wallace State soccer players are in immigration custody after a traffic stop in Lincoln",
-  "summary": "Twin brothers Luis and Carlos Orta-Santoro, 19, were stopped in Lincoln on Nov. 4 while driving back to Wallace State and were taken into ICE custody the next day. Their parents say they have pending asylum cases and work permits; ICE says their temporary permission to stay expired.",
-  "body": [
-   "Two Wallace State Community College students who play on the Lions men's soccer team are being held in immigration custody, according to reports from The Cullman Tribune, WAFF 48 and WBRC.",
-   "Twin brothers Luis and Carlos Orta-Santoro, both 19, were driving back to Wallace State after visiting their parents in Georgia when a Lincoln police officer stopped them on Wednesday, Nov. 4, for allegedly rolling through a stop sign, their father told WBRC. Talladega County jail records reviewed by the Tribune list a hold for ICE and a Nov. 5 release to federal custody, with no traffic charge listed.",
-   "The family says the brothers have pending asylum cases and work permits valid through 2030. An ICE spokesperson told WAFF the family entered the United States legally from Venezuela in June 2022, overstayed after their temporary permission expired, and that the brothers' claims will be heard by an immigration judge. The agency noted that a pending application does not by itself grant legal status.",
-   "WBRC reported the brothers were being held at the Pickens County Detention Center in Carrollton, and their mother said the family has hired attorneys and fears they could be moved to Louisiana. Their coach praised their character to WAFF.",
-   "The news comes days after Wallace State's men's soccer team won the Southeast District title. The Lions open play at the NJCAA Division II national tournament in Huntsville on Nov. 15."
-  ],
-  "sources": [
-   {
-    "name": "The Cullman Tribune: ICE detains Wallace State soccer players after Lincoln traffic stop",
-    "url": "https://www.cullmantribune.com/2026/11/08/ice-detains-wallace-state-soccer-players-after-lincoln-traffic-stop/"
-   },
-   {
-    "name": "WAFF 48: ICE responds after Wallace State soccer players detained following traffic stop",
-    "url": "https://www.waff.com/2026/11/08/ice-responds-after-wallace-state-soccer-players-detained-following-traffic-stop/"
-   },
-   {
-    "name": "WBRC: Twin brothers transferred to ICE custody after being detained during traffic stop",
-    "url": "https://www.wbrc.com/2026/11/07/twin-brothers-being-held-pickens-county-detention-center-after-being-detained-by-ice-during-traffic-stop/"
-   }
-  ],
-  "tags": [
-   "wallace state",
-   "soccer",
-   "immigration",
-   "ice",
-   "hanceville"
-  ]
- },
- {
   "id": "cullman-planning-commission-tables-7-brew-nov-2026",
   "date": "2026-11-08",
   "category": "Business",
@@ -186,6 +150,60 @@
    "coffee",
    "planning commission",
    "annexation",
+   "cullman"
+  ]
+ },
+ {
+  "id": "cullman-retired-teachers-day-nov-17-2026",
+  "date": "2026-11-08",
+  "category": "Education",
+  "graphic": "🍎",
+  "headline": "Cullman sets Nov. 17 as Retired Teachers Day, so thank a teacher",
+  "summary": "Mayor Woody Jacobs signed a proclamation naming Tuesday, Nov. 17, Retired Teachers Day in the City of Cullman. Members of the Cullman Education Retirees Association accepted it on Nov. 5.",
+  "body": [
+   "If a teacher made a difference in your life, Tuesday, Nov. 17, is a good day to tell them. Cullman Mayor Woody Jacobs has proclaimed it Retired Teachers Day in the City of Cullman.",
+   "Four retired educators accepted the proclamation on Thursday, Nov. 5, on behalf of the Cullman Education Retirees Association, a local affiliate of the Alabama Education Retirees Association. The proclamation recognizes the role public education has played in the growth and character of Cullman and the teachers who shaped generations of local students.",
+   "“We appreciate everything our retired teachers have done for our children and our community,” Jacobs said. “Thank you for your years of dedication and service.”",
+   "Alabama marks Retired Teachers Day on the Tuesday of American Education Week each year. The city encourages everyone to take a moment and thank a retired teacher."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Times: Jacobs proclaims Nov. 17 Retired Teachers Day in Cullman",
+    "url": "https://cullmantimes.com/2026/11/08/jacobs-proclaims-nov-17-retired-teachers-day-in-cullman/"
+   }
+  ],
+  "tags": [
+   "retired teachers",
+   "education",
+   "proclamation",
+   "city of cullman",
+   "cullman"
+  ]
+ },
+ {
+  "id": "bella-balle-condominiums-downtown-cullman-nov-2026",
+  "date": "2026-11-07",
+  "category": "Business",
+  "graphic": "🏗",
+  "headline": "Work starts on Bella Balle, a new condo and shop building in downtown Cullman",
+  "summary": "Construction has begun on Bella Balle Condominiums, a three story building on Fourth Street SE with ground floor commercial space and four condos above. The project is expected to take 12 to 14 months.",
+  "body": [
+   "Downtown Cullman is getting a new mixed use building. The Cullman Tribune reports that construction has started on Bella Balle Condominiums, according to an update from the Cullman Economic Development Agency.",
+   "The three story building will have commercial space on the first floor and two condominiums on each of the second and third floors, for four homes in all. CEDA said one unit has already been sold to a local family. The agency did not name a tenant for the street level space.",
+   "Public real estate listings place the project at 208 Fourth St. SE. The developer, Stephen Gannon, also owns the nearby 412 Public House restaurant. Listings describe three bedroom, two bath units of roughly 2,000 square feet with balconies, with asking prices from $649,900 to $699,900.",
+   "CEDA expects construction to take 12 to 14 months. Marketing materials credit AB Smith with the design and Yearwood Construction as the builder."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Construction begins on Bella Balle Condominiums in downtown Cullman",
+    "url": "https://www.cullmantribune.com/2026/11/07/construction-begins-on-bella-balle-condominiums-in-downtown-cullman/"
+   }
+  ],
+  "tags": [
+   "downtown cullman",
+   "construction",
+   "condominiums",
+   "business",
    "cullman"
   ]
  },

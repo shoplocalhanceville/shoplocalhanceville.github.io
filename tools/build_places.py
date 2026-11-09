@@ -310,7 +310,7 @@ grp=[('Start here',[('index.html','Home'),('places.html','All Places A to Z'),('
  ('Site information',[('privacy.html','Privacy Policy'),('terms.html','Terms of Use'),('sources.html','Sources and References')])]
 mb=''.join(f'<section class="pl-sec"><h2>{t}</h2><ul class="pl-links">'+''.join(f'<li><a href="{u}">{l}</a></li>' for u,l in v if os.path.exists(u) or u in pages)+'</ul></section>' for t,v in grp)
 mb+='<section class="pl-sec"><h2>Categories</h2><p class="pl-cats">'+''.join(f'<a class="tag" href="category-{slug(c)}.html">{E(c)} ({len(v)})</a>' for c,v in sorted(CATS.items()))+'</p></section>'
-st=sorted(glob.glob('story-*.html'))
+st=[f for f in sorted(glob.glob('story-*.html')) if 'http-equiv="refresh"' not in open(f).read()]  # skip removed stories kept as redirects
 def stitle(f):
   m=re.search(r'<h1[^>]*>(.*?)</h1>',open(f).read(),re.S);return re.sub(r'<[^>]+>','',m.group(1)).strip() if m else f
 if st:mb+='<section class="pl-sec"><h2>News stories</h2><ul class="pl-links">'+''.join(f'<li><a href="{f}">{stitle(f)}</a></li>' for f in st)+'</ul></section>'
