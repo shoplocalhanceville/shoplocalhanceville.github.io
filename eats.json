@@ -171,14 +171,17 @@
  {
   "group": "More Places to Eat",
   "name": "McDonald's",
-  "summary": "Quick meals on Main Street when the family is in a hurry.",
+  "summary": "McDonald's at 740 Main St NE opens at 5 AM most days for breakfast and coffee, and stays open until midnight on Fridays and Saturdays.",
   "tags": [
    "burgers",
    "fast food"
   ],
   "address": "740 Main St NE, Hanceville",
   "phone": "(256) 352-2120",
-  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local",
+  "hours": "Monday to Thursday 5 AM to 11 PM; Friday and Saturday 5 AM to midnight; Sunday 6 AM to 11 PM",
+  "hours_source": "https://www.facebook.com/McDonalds740MainSt (checked Nov. 9, 2026)",
+  "source_checked": "2026-11-09"
  },
  {
   "group": "More Places to Eat",

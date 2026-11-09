@@ -72,14 +72,17 @@
   "category": "Restaurants",
   "name": "McDonald's",
   "address": "740 Main St NE, Hanceville, AL 35077",
-  "summary": "The McDonald's on Main Street, for a quick meal when the kids are hungry and time is short.",
+  "summary": "McDonald's at 740 Main St NE opens at 5 AM most days for breakfast and coffee, and stays open until midnight on Fridays and Saturdays.",
   "phone": "(256) 352-2120",
   "service": "Fast food",
   "tags": [
    "burgers",
    "breakfast",
    "drive thru"
-  ]
+  ],
+  "hours": "Monday to Thursday 5 AM to 11 PM; Friday and Saturday 5 AM to midnight; Sunday 6 AM to 11 PM",
+  "hours_source": "https://www.facebook.com/McDonalds740MainSt (checked Nov. 9, 2026)",
+  "source_checked": "2026-11-09"
  },
  {
   "category": "Restaurants",
@@ -660,7 +663,7 @@
   "category": "Lodging",
   "name": "Quality Inn",
   "address": "810 Main St NE, Hanceville, AL 35077",
-  "summary": "A hotel on Main Street, close to everything in town.",
+  "summary": "Quality Inn sits on Main Street NE along U.S. 31, with free hot breakfast, free WiFi and a fitness center for travelers and Wallace State visitors.",
   "phone": "(256) 787-2210",
   "service": "Hotel",
   "tags": [
@@ -668,7 +671,10 @@
    "motel",
    "lodging",
    "stay"
-  ]
+  ],
+  "hours": "Check in 2 PM; check out 11 AM",
+  "hours_source": "https://www.choicehotels.com/alabama/hanceville/quality-inn-hotels/al220 (checked Nov. 9, 2026)",
+  "source_checked": "2026-11-09"
  },
  {
   "category": "Other",
