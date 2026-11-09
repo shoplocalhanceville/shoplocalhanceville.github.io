@@ -21,16 +21,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cullman_christmas_open_house-20261113@hanceville-entertainment-shoppi
- ng
-DTSTAMP:20261017T120000Z
+UID:cullman_christmas_open_house-20261113@hanceville-entertainment-shoppin
+ g
+DTSTAMP:20261109T140000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Cullman Christmas Open House
-LOCATION:Cullman\, AL
-DESCRIPTION:Holiday shopping kicks off with store specials\, a cookie cra
- wl\, visits with Santa and a window display contest. Time: Starts 8:00 AM
-  Nov 13. https://www.facebook.com/events/1604634394706572/
-URL:https://www.facebook.com/events/1604634394706572/
+LOCATION:Cullman Area Chamber of Commerce\, 301 2nd Ave SW\, Cullman\, AL 
+ 35055
+DESCRIPTION:Cullman's Christmas Open House weekend starts Friday with Sant
+ a at the Chamber from 4 to 6 PM while families pick up free Cookie Crawl 
+ boxes\, one per family. Saturday's Cookie Crawl runs 10 AM to 2 PM at par
+ ticipating Chamber member shops\, and Sunday brings a Christmas Pickle Hu
+ nt with prizes. Time: Santa and Cookie Crawl box pickup 4:00 PM to 6:00 P
+ M Nov 13\; Cookie Crawl 10:00 AM to 2:00 PM Nov 14\; Christmas Pickle Hun
+ t Nov 15. Admission: Free. https://www.cullmanchamber.org/news-events/sig
+ nature-events/
+URL:https://www.cullmanchamber.org/news-events/signature-events/
 END:VEVENT
 END:VCALENDAR

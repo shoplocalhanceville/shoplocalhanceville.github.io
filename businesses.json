@@ -633,8 +633,8 @@
  {
   "category": "Manufacturing & Industry",
   "name": "Birmingham Fastener, Hanceville Distribution Center",
-  "address": "1100 Main Street SE, Hanceville, AL 35077",
-  "summary": "Birmingham Fastener's distribution center in Hanceville ships fasteners to industrial customers.",
+  "address": "439 Jochum Rd, Hanceville, AL 35077",
+  "summary": "Birmingham Fastener's Hanceville Distribution Center on Jochum Road stocks bolts and fasteners and ships them to job sites and industrial customers across the country.",
   "phone": "(256) 352-1000",
   "website": "https://bhamfast.com",
   "service": "Fastener distribution",
@@ -643,7 +643,9 @@
    "distribution",
    "jobs",
    "warehouse"
-  ]
+  ],
+  "source": "https://bhamfast.com/locations/hanceville-al (checked Nov. 9, 2026)",
+  "source_checked": "2026-11-09"
  },
  {
   "category": "Manufacturing & Industry",
