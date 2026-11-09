@@ -7,7 +7,7 @@ Data sources, merged by slug (later sources fill blanks, never overwrite):
   2. window.SLH_LISTINGS inside data.js (the homepage directory)
 Rerun after any data change:  python3 tools/build_places.py
 Nothing here invents facts. Each section only appears when its data exists."""
-import json,re,os,html,datetime,urllib.parse,glob,subprocess
+import json,re,os,html,datetime,urllib.parse,glob,subprocess,sys
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'))
 BASE='https://shoplocalhanceville.github.io/'
 E=lambda x:html.escape(str(x),quote=True)
@@ -84,7 +84,7 @@ pages=[]
 VER=json.load(open('tools/verified.json'))
 for k,v in VER.items():
   if k.startswith('_') or k not in P:continue
-  for f in('facebook','phone','address','hours','hours_source','hours_source_label','hours_spec','sources','verified','schema_type','documents'):
+  for f in('website','facebook','phone','address','hours','hours_source','hours_source_label','hours_spec','sources','verified','schema_type','documents'):
     if v.get(f):P[k][f]=v[f]
 # ---------- schema.org subtype, chosen from the listing's own name, category and service text ----------
 RULES=[(r'barber','BarberShop'),(r'nail','NailSalon'),(r'salon|hair|beauty|spa\b','BeautySalon'),(r'pharmac|drug co','Pharmacy'),
@@ -121,7 +121,15 @@ def srcs_of(x):
     if isinstance(sv,dict):out.append((sv['url'],sv['label']))
   have={u for u,_ in out}
   for u,l in((x.get('source'),'Listing source'),(x.get('website'),'Official website'),(x.get('facebook'),'Official Facebook Page'),(x.get('hours_source'),x.get('hours_source_label') or 'Hours source')):
-    if isinstance(u,str) and u not in have and re.match(r'^https?://',u):out.append((u,l));have.add(u)
+    if isinstance(u,str) and re.match(r'^https?://',u):
+      # a source value can carry a note after the link, like "https://x.com/ (checked Nov. 6, 2026)". Link only the
+      # URL (the note inside an href made a broken link) and keep the note in the visible label.
+      parts=html.unescape(u).split(None,1)
+      u=parts[0].rstrip(';,')
+      note=parts[1].strip(' ;,') if len(parts)>1 else ''
+      if note:l=l+(' ' if note.startswith('(') else ': ')+note
+    else:continue
+    if u not in have:out.append((u,l));have.add(u)
   return out
 TABS=[('bio','Bio'),('hours','Hours'),('contact','Contact'),('location','Location'),('social','Social Links'),('media','Media'),('documents','Documents'),('references','References'),('related','Related')]
 def tab_file(s,k):return f'place-{s}.html' if k=='bio' else (f'sources.html#s-{s}' if k=='references' else f'place-{s}-{k}.html')
@@ -318,6 +326,26 @@ mb+=f'<section class="pl-sec"><h2>Every listing</h2><p>All {len(P)} listings, ea
 simple('sitemap.html','Sitemap | Hanceville Entertainment & Shopping','Every section, category and news story on Hanceville Entertainment & Shopping in one list.','Sitemap',mb)
 print(nsrc,'listings with source links')
 # remove stale generated pages
+# Guard (Nov 9 2026): a tab page (contact, social, hours, ...) of a listing that still exists used to be deleted
+# whenever the listing's data lost the website, Facebook link, phone or hours behind that tab. That happened to Hele
+# Bowls when a stale data.js overwrote its record, and the hourly run had to restore the pages by hand. Now such
+# pages are KEPT (and stay in sitemap.xml) and the run says so loudly. Remove them for real, when the data was
+# dropped on purpose, with --prune-lost. --strict stops the whole run with exit code 2 instead, so a routine can
+# fail visibly. Pages of listings that were removed altogether are still pruned as before.
+TABSUF=('contact','social','hours','location','media','documents')
+lost=[]
+for f in sorted(os.listdir('.')):
+  if re.match(r'^place-.*\.html$',f) and f not in pages:
+    m=re.match(r'^place-(.+)-('+'|'.join(TABSUF)+r')\.html$',f)
+    if m and m.group(1) in P:lost.append(f)
+if lost:
+  keep='--prune-lost' not in sys.argv
+  print('WARNING: %d tab page(s) belong to listings that still exist but no longer have the data behind that tab (%s):'%(len(lost),'KEPT, not deleted' if keep else 'removed because of --prune-lost'))
+  for f in lost:print('  ',f)
+  print('  Look for a lost website, Facebook link, phone, address, hours or photo in data.js, the section JSON files and tools/verified.json.')
+  if '--strict' in sys.argv:
+    print('--strict: stopping with exit code 2. Nothing was deleted and sitemap.xml, news-sitemap.xml and places.json were not updated (page files were already rebuilt in place, see git status).');sys.exit(2)
+  if keep:pages.extend(lost)
 for f in os.listdir('.'):
   if re.match(r'^(place|category)-.*\.html$',f) and f not in pages and 'http-equiv="refresh"' not in open(f,encoding='utf-8').read():os.remove(f)  # keep noindex redirect stubs for merged duplicate listings
 # sitemap

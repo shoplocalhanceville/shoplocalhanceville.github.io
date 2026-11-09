@@ -1,0 +1,317 @@
+{
+ "100 Michelle Street NW, Hanceville, AL 35077": {
+  "lat": 34.065166,
+  "lon": -86.773752,
+  "src": "census"
+ },
+ "10161 US Highway 31, Hanceville, AL 35077": {
+  "lat": 34.125108,
+  "lon": -86.814819,
+  "src": "census"
+ },
+ "10231 US Highway 31, Hanceville, AL 35077": {
+  "lat": 34.12649,
+  "lon": -86.815226,
+  "src": "census"
+ },
+ "10474 US Highway 31, Hanceville, AL 35077": {
+  "lat": 34.129353,
+  "lon": -86.815796,
+  "src": "census"
+ },
+ "106 Commercial St, Hanceville, AL": {
+  "lat": 34.059258,
+  "lon": -86.768292,
+  "src": "census"
+ },
+ "106 Commercial St, Hanceville, AL 35077": {
+  "lat": 34.059258,
+  "lon": -86.768292,
+  "src": "census"
+ },
+ "107 Bangor Ave, Suite A, Hanceville, AL": {
+  "lat": 34.059728,
+  "lon": -86.76757,
+  "src": "census"
+ },
+ "113 Commercial St, Hanceville, AL": {
+  "lat": 34.05917,
+  "lon": -86.770596,
+  "src": "census"
+ },
+ "113 Commercial St, Hanceville, AL 35077": {
+  "lat": 34.05917,
+  "lon": -86.770596,
+  "src": "census"
+ },
+ "1395 AL Highway 69 S, Hanceville, AL 35077": {
+  "lat": 34.042332,
+  "lon": -86.88197,
+  "src": "census"
+ },
+ "1399 AL Highway 69, Hanceville, AL 35077": {
+  "lat": 34.042412,
+  "lon": -86.881802,
+  "src": "census"
+ },
+ "1407 Commercial Street SE, Hanceville, AL 35077": {
+  "lat": 34.063325,
+  "lon": -86.753967,
+  "src": "census"
+ },
+ "1414 Commercial St, Hanceville, AL 35077": {
+  "lat": 34.063399,
+  "lon": -86.75124,
+  "src": "census"
+ },
+ "1550 County Road 715, Cullman, AL": {
+  "lat": 34.133008,
+  "lon": -86.817726,
+  "src": "census"
+ },
+ "1749 Eva Road NE, Cullman, AL": {
+  "lat": 34.190608,
+  "lon": -86.841022,
+  "src": "census"
+ },
+ "1910 Beech Avenue SE, Cullman, AL": {
+  "lat": 34.151093,
+  "lon": -86.830589,
+  "src": "census"
+ },
+ "1910 Beech Avenue SE, Cullman, AL 35055": {
+  "lat": 34.151093,
+  "lon": -86.830589,
+  "src": "census"
+ },
+ "201 Commercial Street, Hanceville, AL": {
+  "lat": 34.05919,
+  "lon": -86.771463,
+  "src": "census"
+ },
+ "201 Commercial Street, Hanceville, AL 35077": {
+  "lat": 34.05919,
+  "lon": -86.771463,
+  "src": "census"
+ },
+ "201 Magnolia Ave NW, Hanceville, AL 35077": {
+  "lat": 34.066825,
+  "lon": -86.794829,
+  "src": "census"
+ },
+ "2020 Beech Avenue SE, Cullman, AL": {
+  "lat": 34.147398,
+  "lon": -86.830663,
+  "src": "census"
+ },
+ "203 Michelle Street NW, Hanceville, AL 35077": {
+  "lat": 34.065089,
+  "lon": -86.777453,
+  "src": "census"
+ },
+ "209 Michelle Street NW, Hanceville, AL": {
+  "lat": 34.065093,
+  "lon": -86.777557,
+  "src": "census"
+ },
+ "308 Magnolia Ave NW, Hanceville, AL": {
+  "lat": 34.066826,
+  "lon": -86.788104,
+  "src": "census"
+ },
+ "308 Magnolia Ave NW, Hanceville, AL 35077": {
+  "lat": 34.066826,
+  "lon": -86.788104,
+  "src": "census"
+ },
+ "317 County Road 263, Hanceville, AL": {
+  "lat": 34.052929,
+  "lon": -86.874096,
+  "src": "census"
+ },
+ "317 County Road 263, Hanceville, AL 35077": {
+  "lat": 34.052929,
+  "lon": -86.874096,
+  "src": "census"
+ },
+ "3224 County Road 548, Hanceville, AL 35077": {
+  "lat": 34.060778,
+  "lon": -86.69218,
+  "src": "census"
+ },
+ "503 Park Street, Hanceville, AL 35077": {
+  "lat": 34.056766,
+  "lon": -86.764534,
+  "src": "census"
+ },
+ "6307 County Road 490, Hanceville, AL 35077": {
+  "lat": 34.058967,
+  "lon": -86.862056,
+  "src": "census"
+ },
+ "7794 US Highway 31, Hanceville, AL 35077": {
+  "lat": 34.093274,
+  "lon": -86.799385,
+  "src": "census"
+ },
+ "8125 US Highway 31, Hanceville, AL 35077": {
+  "lat": 34.096449,
+  "lon": -86.801919,
+  "src": "census"
+ },
+ "850 County Road 636, Hanceville, AL 35077": {
+  "lat": 34.09567,
+  "lon": -86.756456,
+  "src": "census"
+ },
+ "902 Commercial Street, Hanceville, AL 35077": {
+  "lat": 34.06192,
+  "lon": -86.758812,
+  "src": "census"
+ },
+ "9360 US Highway 31 S, Hanceville, AL 35077": {
+  "lat": 34.113364,
+  "lon": -86.810237,
+  "src": "census"
+ },
+ "799 Commercial Street SE, Hanceville, AL": {
+  "lat": 34.061702,
+  "lon": -86.760191,
+  "src": "osm"
+ },
+ "801 Commercial Street SE, Hanceville, AL": {
+  "lat": 34.061705,
+  "lon": -86.760167,
+  "src": "osm"
+ },
+ "805 Commercial Street SE, Hanceville, AL": {
+  "lat": 34.061712,
+  "lon": -86.760121,
+  "src": "osm"
+ },
+ "101 Commercial St SE, Hanceville, AL": {
+  "lat": 34.059137,
+  "lon": -86.768251,
+  "src": "census-nodir"
+ },
+ "101 Commercial St SE, Hanceville, AL 35077": {
+  "lat": 34.059137,
+  "lon": -86.768251,
+  "src": "census-nodir"
+ },
+ "102 Main St NE, Hanceville, AL 35077": {
+  "lat": 34.059332,
+  "lon": -86.768447,
+  "src": "census-nodir"
+ },
+ "103 Styles St NE, Hanceville, AL": {
+  "lat": 34.064638,
+  "lon": -86.770607,
+  "src": "census-nodir"
+ },
+ "103 Styles St NE, Hanceville, AL 35077": {
+  "lat": 34.064638,
+  "lon": -86.770607,
+  "src": "census-nodir"
+ },
+ "105 Commercial St SE, Hanceville, AL 35077": {
+  "lat": 34.059159,
+  "lon": -86.76822,
+  "src": "census-nodir"
+ },
+ "107 Bangor Ave NE, Hanceville, AL 35077": {
+  "lat": 34.059728,
+  "lon": -86.76757,
+  "src": "census-nodir"
+ },
+ "112 Commercial St NE, Hanceville, AL 35077": {
+  "lat": 34.059289,
+  "lon": -86.768246,
+  "src": "census-nodir"
+ },
+ "112 Main Street SE, Hanceville, AL": {
+  "lat": 34.059352,
+  "lon": -86.768467,
+  "src": "census-nodir"
+ },
+ "112 Main Street SE, Hanceville, AL 35077": {
+  "lat": 34.059352,
+  "lon": -86.768467,
+  "src": "census-nodir"
+ },
+ "204 Main St NE, Hanceville, AL 35077": {
+  "lat": 34.060335,
+  "lon": -86.769496,
+  "src": "census-nodir"
+ },
+ "401 Main St NW, Hanceville, AL 35077": {
+  "lat": 34.064417,
+  "lon": -86.772799,
+  "src": "census-nodir"
+ },
+ "630 Main Street NE, Hanceville, AL": {
+  "lat": 34.069353,
+  "lon": -86.775504,
+  "src": "census-nodir"
+ },
+ "702 Main St NE, Hanceville, AL": {
+  "lat": 34.070421,
+  "lon": -86.776232,
+  "src": "census-nodir"
+ },
+ "702 Main St NE, Hanceville, AL 35077": {
+  "lat": 34.070421,
+  "lon": -86.776232,
+  "src": "census-nodir"
+ },
+ "720 Main St NE, Hanceville, AL": {
+  "lat": 34.07079,
+  "lon": -86.776506,
+  "src": "census-nodir"
+ },
+ "720 Main St NE, Hanceville, AL 35077": {
+  "lat": 34.07079,
+  "lon": -86.776506,
+  "src": "census-nodir"
+ },
+ "740 Main St NE, Hanceville, AL": {
+  "lat": 34.0712,
+  "lon": -86.77681,
+  "src": "census-nodir"
+ },
+ "740 Main St NE, Hanceville, AL 35077": {
+  "lat": 34.0712,
+  "lon": -86.77681,
+  "src": "census-nodir"
+ },
+ "906 Main St NE, Hanceville, AL 35077": {
+  "lat": 34.077962,
+  "lon": -86.783483,
+  "src": "census-nodir"
+ },
+ "908 Main Street NE, Hanceville, AL 35077": {
+  "lat": 34.078018,
+  "lon": -86.783546,
+  "src": "census-nodir"
+ },
+ "918 Main St NE, Hanceville, AL 35077": {
+  "lat": 34.078303,
+  "lon": -86.78386,
+  "src": "census-nodir"
+ },
+ "119 Collins Avenue, Hanceville, AL": {
+  "lat": 34.0577,
+  "lon": -86.76892,
+  "src": "osm-poi Hanceville Fire Department #1"
+ },
+ "119 Collins Avenue, Hanceville, AL 35077": {
+  "lat": 34.0577,
+  "lon": -86.76892,
+  "src": "osm-poi Hanceville Fire Department #1"
+ },
+ "801 Main Street NW, Hanceville, AL": {
+  "lat": 34.07302,
+  "lon": -86.7851,
+  "src": "osm-poi Wallace State Community College"
+ }
+}
