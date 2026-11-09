@@ -23,6 +23,9 @@ def prob(k,m):P.append(f'[{k}] {m}')
 files=set(glob.glob('*.html'))|set(glob.glob('*.json'))|set(glob.glob('*.css'))|set(glob.glob('*.js'))
 def slug(s):return re.sub(r'^-|-$','',re.sub(r'[^a-z0-9]+','-',(s or '').lower()))
 htmls=sorted(glob.glob('*.html'))
+# removed stories kept only as noindex redirects (for example the Nov. 9 owner removal) are not real pages
+REDIRECTS=[f for f in htmls if re.search(r'http-equiv="refresh"',open(f,encoding='utf-8').read()) and 'content="noindex"' in open(f,encoding='utf-8').read()]
+htmls=[f for f in htmls if f not in REDIRECTS]
 # 1 + 3
 for f in htmls:
   s=open(f,encoding='utf-8').read()
