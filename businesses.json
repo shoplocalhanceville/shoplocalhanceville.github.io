@@ -70,6 +70,19 @@
  },
  {
   "category": "Restaurants",
+  "name": "K's Botanas & More",
+  "summary": "K's Botanas & More is a Mexican snack shop known for elote, esquites, chilaquiles, and strawberries and cream. Its storefront at 1410 2nd Ave NW in Cullman is closed, and the business now serves from a booth at local events. It was last confirmed serving at Bernard Blues & BBQ in Cullman on September 13, 2026.",
+  "service": "Mexican snack shop",
+  "tags": [
+   "mexican",
+   "snacks",
+   "elote",
+   "esquites"
+  ],
+  "facebook": "https://www.facebook.com/profile.php?id=100091381527418"
+ },
+ {
+  "category": "Restaurants",
   "name": "McDonald's",
   "address": "740 Main St NE, Hanceville, AL 35077",
   "summary": "McDonald's at 740 Main St NE opens at 5 AM most days for breakfast and coffee, and stays open until midnight on Fridays and Saturdays.",
@@ -179,7 +192,7 @@
    "energy drinks",
    "tea"
   ],
-  "address": "918 Main St NE, Hanceville, AL 35077",
+  "address": "842 Main St NE, Hanceville, AL 35077",
   "summary": "Hanceville Nutrition on Main Street mixes smoothies, protein shakes and energy drinks for a quick stop between errands or after a workout."
  },
  {
