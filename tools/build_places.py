@@ -319,7 +319,7 @@ simple('sitemap.html','Sitemap | Hanceville Entertainment & Shopping','Every sec
 print(nsrc,'listings with source links')
 # remove stale generated pages
 for f in os.listdir('.'):
-  if re.match(r'^(place|category)-.*\.html$',f) and f not in pages:os.remove(f)
+  if re.match(r'^(place|category)-.*\.html$',f) and f not in pages and 'http-equiv="refresh"' not in open(f,encoding='utf-8').read():os.remove(f)  # keep noindex redirect stubs for merged duplicate listings
 # sitemap
 sm=open('sitemap.xml').read();sm=re.sub(r'\s*<url><loc>'+re.escape(BASE)+r'(place|category)-[^<]*</loc>.*?</url>','',sm,flags=re.S)
 sm=re.sub(r'\s*<url><loc>'+re.escape(BASE)+r'(places|about|contact|privacy|terms|sources|sitemap)\.html</loc>.*?</url>','',sm,flags=re.S)
