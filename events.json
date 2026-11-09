@@ -288,24 +288,6 @@
   "group": "Community and Fun"
  },
  {
-  "name": "Cullman Veterans Hall of Fame Dinner and Ceremony",
-  "start": "2026-11-17",
-  "time": "Doors 5:30 PM, ceremony 6:15 PM",
-  "venue": "Loft 212, 212 4th St SW",
-  "town": "Cullman",
-  "host": "Cullman Veterans Hall of Fame (VFW Post 2214, DAV Chapter 101, American Legion Post 4)",
-  "summary": "The Cullman Veterans Hall of Fame inducts its fourth class with a dinner and ceremony at Loft 212, honoring county veterans from World War II, Vietnam and the Global War on Terror. Doors open at 5:30 PM and the program starts at 6:15 PM. Each inductee receives a plaque that will hang in the courthouse.",
-  "url": "https://www.cullmantribune.com/2026/11/07/new-members-of-cullman-veterans-hall-of-fame-to-be-honored-nov-17/",
-  "group": "Community and Fun",
-  "tags": [
-   "veterans",
-   "hall of fame",
-   "dinner",
-   "military"
-  ],
-  "cost": "Dinner event; to attend, contact VFW Post 2214, DAV Chapter 101 or American Legion Post 4"
- },
- {
   "name": "Hanceville Bulldogs Basketball vs. Ardmore",
   "start": "2026-11-17",
   "time": "7:45 PM (varsity boys tip off)",
@@ -322,6 +304,24 @@
    "bulldogs",
    "home game"
   ]
+ },
+ {
+  "name": "Cullman Veterans Hall of Fame Dinner and Ceremony",
+  "start": "2026-11-17",
+  "time": "Doors 5:30 PM, ceremony 6:15 PM",
+  "venue": "Loft 212, 212 4th St SW",
+  "town": "Cullman",
+  "host": "Cullman Veterans Hall of Fame (VFW Post 2214, DAV Chapter 101, American Legion Post 4)",
+  "summary": "The Cullman Veterans Hall of Fame inducts its fourth class with a dinner and ceremony at Loft 212, honoring county veterans from World War II, Vietnam and the Global War on Terror. Doors open at 5:30 PM and the program starts at 6:15 PM. Each inductee receives a plaque that will hang in the courthouse.",
+  "url": "https://www.cullmantribune.com/2026/11/07/new-members-of-cullman-veterans-hall-of-fame-to-be-honored-nov-17/",
+  "group": "Community and Fun",
+  "tags": [
+   "veterans",
+   "hall of fame",
+   "dinner",
+   "military"
+  ],
+  "cost": "Dinner event; to attend, contact VFW Post 2214, DAV Chapter 101 or American Legion Post 4"
  },
  {
   "name": "Hanceville Public Library Storytime",
@@ -570,6 +570,25 @@
    "hanceville",
    "civitan",
    "free"
+  ]
+ },
+ {
+  "name": "Drive Through Food Bank at Spirit Life Church",
+  "start": "2026-11-21",
+  "time": "9:00 AM to 11:00 AM",
+  "venue": "Spirit Life Church, 1650 St. Joseph Dr NW",
+  "town": "Cullman",
+  "host": "Spirit Life Church",
+  "cost": "Free",
+  "summary": "Spirit Life Church hands out free boxes of food from its drive through line on the third Saturday of each month. No ID is needed; families fill out a one page form once a year saying they need food help, and volunteers load the box into your car.",
+  "url": "https://business.cullmanchamber.org/events/details/drive-through-food-bank-11-21-2026-23789",
+  "group": "Community and Fun",
+  "tags": [
+   "food bank",
+   "free food",
+   "church",
+   "cullman",
+   "help"
   ]
  },
  {
