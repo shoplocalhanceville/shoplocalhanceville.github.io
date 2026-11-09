@@ -58,6 +58,16 @@ function descOf(r){return (LANG==="es"&&window.SLH_DESC_ES&&SLH_DESC_ES[r.name])
 function norm(s){return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
 function hayOf(r){return norm(r.name+" "+(r.category||"")+" "+(r.address||"")+" "+(r.aka||"")+" "+(r.description||"")+" "+((window.SLH_DESC_ES&&SLH_DESC_ES[r.name])||""));}
 var BATCH=24,shown=0,filtered=L.slice();
+function variantize(im, sizes){
+  var v=(window.SLH_VARIANTS||{})[im.getAttribute("src")||""];
+  if(!v)return im;
+  im.srcset=v.w;im.setAttribute("sizes",sizes);im.decoding="async";
+  if(!v.a)return im;
+  var pic=document.createElement("picture");pic.style.display="block";
+  var so=document.createElement("source");so.type="image/avif";so.srcset=v.a;so.setAttribute("sizes",sizes);
+  pic.appendChild(so);pic.appendChild(im);
+  return pic;
+}
 function card(r){
   var art=document.createElement("article");art.className="card";art.id=slug(r.name);
   if(r.wallace)art.classList.add("wallace");
@@ -65,7 +75,7 @@ function card(r){
   if(!usePh){im.alt=r.logo?r.name+" logo":"Register your business";im.src=r.logo||window.SLH_REG;}
   if(r.logo&&(/-w\.svg$/.test(r.logo))){try{if(1){im.style.background="#241243";im.style.padding="10px";im.style.boxSizing="border-box";}}catch(e){}}
   if(!usePh)im.addEventListener("click",function(){openZoom(im.src,r.name);});
-  im.onerror=function(){im.remove();};art.appendChild(im);
+  im.onerror=function(){im.remove();};art.appendChild(variantize(im,"(max-width: 700px) 362px, 310px"));
   var h=document.createElement("h3");h.textContent=r.name;art.appendChild(h);
   if(r.category){var c=document.createElement("p");c.className="cat";c.textContent=catName(r.category);art.appendChild(c);}
   if(r.hs){var st=hsStatus(r);var sp=document.createElement("p");sp.className="openst";sp.textContent=st==="open"?T("Open now"):st==="closed"?T("Closed right now"):T("Hours not listed for today");art.appendChild(sp);}
@@ -215,7 +225,7 @@ for(var i=0;picks.length<12&&picks.length<pool.length;i++){
 }
 picks.forEach(function(r){
   var fc=document.createElement("div");fc.className="fcard";if(r.wallace)fc.classList.add("wallace");
-  var im=document.createElement("img");im.src=r.logo;im.alt="";if(r.logo&&(/-w\.svg$/.test(r.logo))){try{if(1){im.style.background="#241243";im.style.padding="10px";im.style.boxSizing="border-box";}}catch(e){}}fc.appendChild(im);
+  var im=document.createElement("img");im.src=r.logo;im.alt="";if(r.logo&&(/-w\.svg$/.test(r.logo))){try{if(1){im.style.background="#241243";im.style.padding="10px";im.style.boxSizing="border-box";}}catch(e){}}fc.appendChild(variantize(im,"224px"));
   var h=document.createElement("h3");h.textContent=r.name;fc.appendChild(h);
   var lk=document.createElement("a");lk.className="btn btn-primary";lk.href=(["Fun Facts","Sweet Tea Jokes","Social Media"].indexOf(r.category)<0?"place-"+slug(r.name)+".html":"#"+slug(r.name));
   lk.textContent="See listing";
