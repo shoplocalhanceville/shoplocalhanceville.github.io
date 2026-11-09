@@ -1012,7 +1012,7 @@ if(LANG==="es")document.getElementById("pfBackLabel").textContent="Volver a los 
 document.getElementById("pfBack").addEventListener("click",hideView);
 document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!view.hidden)hideView();});
 function btn(label,href,primary){var a=document.createElement("a");a.className="btn"+(primary?" btn-primary":"");a.innerHTML=label;if(href){a.href=href;}return a;}
-function isFiller(r){var d=(r.description||"").trim();return !d||d.indexOf(r.name)===0;}
+function isFiller(r){var d=(r.description||"").trim();if(!d)return true;if(d===r.name)return true;if(d.indexOf(r.name+" is listed in ")===0)return true;if(d.indexOf(r.name+" appears in our ")===0)return true;return false;}
 function openListing(r){
   lastCard=document.getElementById(slug(r.name));
   var fb=r.facebook||((r.website&&r.website.indexOf("facebook.com")>=0)?r.website:null);
