@@ -21,17 +21,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cullman_veterans_hall_of_fame_dinner_and_ceremony-20261117@hanceville
- -entertainment-shopping
-DTSTAMP:20261017T120000Z
+UID:cullman_veterans_hall_of_fame_dinner_and_ceremony-20261117@hanceville-
+ entertainment-shopping
+DTSTAMP:20261109T120000Z
 DTSTART;TZID=America/Chicago:20261117T173000
-DTEND;TZID=America/Chicago:20261117T193000
+DTEND;TZID=America/Chicago:20261117T200000
 SUMMARY:Cullman Veterans Hall of Fame Dinner and Ceremony
-LOCATION:Loft 212\, 212 Fourth St SW\, Cullman\, AL
-DESCRIPTION:This year's class of inductees will be honored at a dinner an
- d ceremony. The event was moved to this new date\, and ticket details are
-  coming soon. Time: 5:30 PM. https://cullmantimes.com/2026/10/14/calendar
- -of-events/
-URL:https://cullmantimes.com/2026/10/14/calendar-of-events/
+LOCATION:Loft 212\, 212 4th St SW\, Cullman\, AL 35055
+DESCRIPTION:The Cullman Veterans Hall of Fame inducts its fourth class wit
+ h a dinner and ceremony at Loft 212\, honoring county veterans from World
+  War II\, Vietnam and the Global War on Terror. Doors open at 5:30 PM and
+  the program starts at 6:15 PM. Each inductee receives a plaque that will
+  hang in the courthouse. Time: Doors 5:30 PM\, ceremony 6:15 PM. Admissio
+ n: Dinner event\; to attend\, contact VFW Post 2214\, DAV Chapter 101 or 
+ American Legion Post 4. https://www.cullmantribune.com/2026/11/07/new-mem
+ bers-of-cullman-veterans-hall-of-fame-to-be-honored-nov-17/
+URL:https://www.cullmantribune.com/2026/11/07/new-members-of-cullman-veter
+ ans-hall-of-fame-to-be-honored-nov-17/
 END:VEVENT
 END:VCALENDAR

@@ -183,24 +183,30 @@
  {
   "group": "More Places to Eat",
   "name": "Subway",
-  "summary": "Subs made to order on Main Street.",
+  "summary": "Subway on Main Street NE builds subs, wraps and salads to order, with breakfast on weekday mornings and catering for bigger groups.",
   "tags": [
    "sandwiches"
   ],
   "address": "720 Main St NE, Hanceville",
   "phone": "(256) 352-2444",
-  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local",
+  "hours": "Monday to Friday 8 AM to 9:30 PM; Saturday and Sunday 9 AM to 9 PM",
+  "hours_source": "https://restaurants.subway.com/united-states/al/hanceville/720-main-st-ne (checked Nov. 9, 2026)",
+  "source_checked": "2026-11-09"
  },
  {
   "group": "More Places to Eat",
   "name": "Taco Bell",
-  "summary": "Tacos and burritos on Main Street.",
+  "summary": "Taco Bell on Main Street NE serves tacos, burritos and quesadillas, and the drive thru stays open until 1 AM for late night cravings.",
   "tags": [
    "tacos",
    "fast food"
   ],
   "address": "702 Main St NE, Hanceville",
   "phone": "(256) 787-2170",
-  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local"
+  "source": "https://www.cityofhanceville.net/o/coh/page/eat-sleep-shop-local",
+  "hours": "Drive thru daily 9 AM to 1 AM; dining room daily 9 AM to 10 PM",
+  "hours_source": "https://locations.tacobell.com/al/hanceville/702-main-st-ne.html (checked Nov. 9, 2026)",
+  "source_checked": "2026-11-09"
  }
 ]

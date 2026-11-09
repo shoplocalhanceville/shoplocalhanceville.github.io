@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T13:00:00-06:00",
+ "updated": "2026-11-09T06:00:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -574,8 +574,8 @@
    "venue": "Chipola Classic, Marianna, FL",
    "home": "gulf-coast",
    "away": "wallace",
-   "status": "Upcoming",
-   "note": "Chipola Classic vs Gulf Coast State at 5:00 PM CST Friday, then Chipola on Saturday at 3:00 PM CST.",
+   "status": "Final",
+   "note": "Chipola Classic game has been played; final score not confirmed in this refresh.",
    "source": {
     "name": "Wallace State Athletics schedule",
     "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
@@ -591,11 +591,15 @@
    "venue": "Chipola College, Marianna, FL",
    "home": "chipola",
    "away": "wallace",
-   "status": "Upcoming",
-   "note": "Chipola Classic road game.",
+   "status": "Final",
+   "note": "Chipola won 73 to 61 in the Chipola Classic.",
    "source": {
-    "name": "Wallace State Athletics schedule",
-    "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
+    "name": "Chipola College women's basketball schedule",
+    "url": "https://chipolaathletics.com/sports/wbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 73,
+    "away": 61
    }
   },
   {
@@ -608,11 +612,15 @@
    "venue": "Tom Drake Coliseum, Wallace State",
    "home": "wallace",
    "away": "itawamba",
-   "status": "Upcoming",
-   "note": "Home game vs Itawamba Community College.",
+   "status": "Final",
+   "note": "Itawamba won 80 to 56 at Tom Drake Coliseum.",
    "source": {
-    "name": "Wallace State Athletics schedule",
-    "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+    "name": "Itawamba Community College men's basketball schedule",
+    "url": "https://www.letsgoicc.com/sports/mbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 56,
+    "away": 80
    }
   },
   {
