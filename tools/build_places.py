@@ -298,6 +298,7 @@ simple('terms.html','Terms of Use | Hanceville Entertainment & Shopping','The te
  '<section class="pl-sec"><h2>Information only</h2><p>Listings, hours and news on this site are shared for general information. We check details against official sources, but businesses and offices can change things without notice, so please confirm hours and details with them before you go.</p></section>'
  '<section class="pl-sec"><h2>Independent site</h2><p>This is an independent community page. It is not the official Chamber of Commerce and is not affiliated with the City of Hanceville or any business listed here. A listing is not an endorsement.</p></section>'
  '<section class="pl-sec"><h2>Names, logos and links</h2><p>Business names, logos and trademarks belong to their owners and are shown only to identify each listing. News stories are written in our own words with links to the original source. Links to other websites are for your convenience, and those sites have their own terms.</p></section>'
+ '<section class="pl-sec"><h2>Copyright</h2><p>&copy; 2026 Charles Adams, doing business as Hanceville Entertainment and Shopping. All rights reserved.</p></section>'
  '<section class="pl-sec"><h2>Corrections and removal</h2><p>Owners can ask us to correct or remove a listing at any time through the <a href="contact.html">Contact page</a>.</p></section>'
  '<section class="pl-sec"><h2>Changes</h2><p>We may update these terms as the site grows. They were last updated October 24, 2026.</p></section>')
 # Sources and References: every citation for every listing lives here
