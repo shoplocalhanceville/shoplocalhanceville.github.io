@@ -19,6 +19,7 @@ document.getElementById("themeToggle").addEventListener("click",function(){
   root.setAttribute("data-theme",cur);
   try{localStorage.setItem("hes-theme",cur);}catch(e){}
   paintToggle();});
+function idle(fn){if(window.requestIdleCallback)requestIdleCallback(fn,{timeout:1500});else setTimeout(fn,0);}
 var L=window.SLH_LISTINGS||[];
 function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
 function favs(){try{return JSON.parse(localStorage.getItem("slh-favs")||"[]");}catch(e){return[];}}
@@ -140,6 +141,7 @@ function loadEmbed(art,r){
     b.textContent="Open on Facebook";box.appendChild(p);box.appendChild(b);},9000);
 }
 function apply(scroll){
+  bootApplied=true;
   var term=norm(q.value||"").replace(/\bnear me\b/g," ").replace(/\bcerca de mi\b/g," ").trim();
   if(SYN[term])term=SYN[term];
   var toks=term.split(/\s+/).filter(Boolean);
@@ -292,11 +294,13 @@ document.getElementById("zSmall").addEventListener("click",function(){scale=Math
 document.getElementById("zFit").addEventListener("click",function(){scale=1;zimg.style.transform="scale(1)";});
 document.getElementById("zClose").addEventListener("click",function(){dlg.close();});
 document.getElementById("toTop").addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
-apply(false);
+var bootApplied=false;
+function bootApply(){if(bootApplied)return;bootApplied=true;apply(false);}
+idle(bootApply);
 var h0=location.hash.slice(1);
 if(h0){var tgt=null;
   for(var hi=0;hi<L.length;hi++){if(slug(L[hi].name)===h0){tgt=L[hi];break;}}
-  if(tgt){q.value="";catSel.value="";townFilter="";savedOnly.checked=false;apply(false);
+  if(tgt){q.value="";catSel.value="";townFilter="";savedOnly.checked=false;bootApply();
     var el=document.getElementById(h0);
     while(!el&&shown<filtered.length){renderMore();el=document.getElementById(h0);}
     if(el)setTimeout(function(){el.scrollIntoView({block:"center"});el.style.outline="3px solid var(--purple)";},80);}}
@@ -419,6 +423,7 @@ if(window.SLH_LANG==="es"&&window.SLH_MINI&&window.SLH_MINI.trust_listings){
 try{
 (function(){
 "use strict";
+function main(){
 var LANG=window.SLH_LANG||"en";
 if(window.SLH_UI){
   var add={"View profile":"Ver perfil","Back to listings":"Volver a los listados","About":"Acerca de","Office":"Oficina","Employer":"Empleador","Position":"Cargo","Biography":"Biografía","Latest post":"Publicación reciente"};
@@ -542,6 +547,8 @@ function openFromHash(){
   var r=bySlug[h];if(r)openListing(r);
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",openFromHash);else openFromHash();
+}
+if(window.requestIdleCallback)requestIdleCallback(main,{timeout:1500});else if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",main);else main();
 })();
 }catch(e){if(window.console)console.error(e);}
 try{

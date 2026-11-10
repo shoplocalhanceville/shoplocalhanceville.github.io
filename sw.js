@@ -1,6 +1,6 @@
 /* Service worker: network first for pages and data (hourly updates always win),
    cache first for versioned assets and images. Bump V to drop old caches. */
-var V='hes-v5';
+var V='hes-v6';
 self.addEventListener('install',function(e){self.skipWaiting();});
 self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(k){return Promise.all(k.filter(function(n){return n!==V;}).map(function(n){return caches.delete(n);}));}).then(function(){return self.clients.claim();}));});
 self.addEventListener('fetch',function(e){var r=e.request,u=new URL(r.url);
