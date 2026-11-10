@@ -10,6 +10,15 @@ on:
   pull_request:
   workflow_dispatch:
 
+# One gate run per pull request at a time: a new push cancels the run for
+# the superseded head instead of letting it run to a failure result.
+# Only the newest head's run completes and reports, which is the only run
+# that judges the pull request (standing gate rule). Assertions and
+# configs are unchanged.
+concurrency:
+  group: lighthouse-ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
