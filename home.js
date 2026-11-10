@@ -269,7 +269,7 @@ function suggest(){
   hits.forEach(function(r){
     var b=document.createElement("button");b.type="button";
     var im=document.createElement("img");im.src=r.logo||window.SLH_REG;im.alt="";
-    b.appendChild(im);
+    b.appendChild(variantize(im,"46px"));
     var tx=document.createElement("span");tx.textContent=r.name+" ";
     var sm=document.createElement("small");sm.textContent=r.category||"";
     tx.appendChild(sm);b.appendChild(tx);
@@ -465,6 +465,7 @@ function openListing(r){
   h+='</div>';
   if(fb){h+='<h3 class="pf-h">'+esc(T("Latest post"))+'</h3><div id="pfEmbed"><button type="button" class="btn" id="pfEmbedBtn">'+esc(T("See latest post"))+'</button></div>';}
   body.innerHTML=h;
+  var _pfi=body.querySelector("img.pf-logo");if(_pfi&&r.logo){var _v=(window.SLH_VARIANTS||{})[_pfi.getAttribute("src")||""];if(_v){_pfi.srcset=_v.w;_pfi.setAttribute("sizes","150px");_pfi.decoding="async";if(_v.a){var _pic=document.createElement("picture");_pic.style.display="block";var _so=document.createElement("source");_so.type="image/avif";_so.srcset=_v.a;_so.setAttribute("sizes","150px");_pic.appendChild(_so);_pfi.parentNode.insertBefore(_pic,_pfi);_pic.appendChild(_pfi);}}}
   var sv=document.getElementById("pfSave");
   function paintSave(){var f=favs();sv.textContent=(f.indexOf(r.name)>=0?"★ ":"☆ ")+T("Save");}
   paintSave();

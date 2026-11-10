@@ -1,5 +1,8 @@
 (function(){
 'use strict';
+var SLH_VMAN=null;
+function slhVariantize(im){if(!SLH_VMAN)return;var src=im.getAttribute('src');var e=SLH_VMAN[src];if(!e)return;if(im.parentNode&&im.parentNode.tagName==='PICTURE')return;var cands=(e.w||'').split(',').filter(function(s){return s.trim();});var hasA=!!e.a;if(!hasA&&cands.length<=1)return;if(cands.length>1){im.srcset=e.w;im.sizes='56px';}else if(hasA){im.sizes='56px';}if(hasA){var pic=document.createElement('picture');var so=document.createElement('source');so.type='image/avif';so.srcset=e.a;so.sizes='56px';im.parentNode.insertBefore(pic,im);pic.appendChild(so);pic.appendChild(im);}}
+(function(){var s=document.createElement('script');s.src='variants-manifest.js';s.async=true;s.onload=function(){SLH_VMAN=window.SLH_VARIANTS||null;if(SLH_VMAN)document.querySelectorAll('img.blogo').forEach(slhVariantize);};document.head.appendChild(s);})();
 var FB='https://www.facebook.com/2333964643484816';
 var PAGES=[
  {k:'departments',f:'departments.html',t:'Departments & Contacts',ic:'\ud83d\udcde',j:'departments.json',g:'group',o:['City Hall Offices','Public Safety','Streets, Water and Utilities','Parks, Library and Recreation','Boards and Committees','County Office at City Hall'],info:1},
@@ -38,7 +41,7 @@ function card(e,kind){var sk=schoolOf(e.name,e.host);var c=el('article','card '+
  var hd=el('div','c-head');
  if(kind==='events'){var x=dd(e.start),db=el('div','datebadge');db.setAttribute('aria-hidden','true');db.appendChild(el('span','m',x.m));db.appendChild(el('span','d',String(x.d)));hd.appendChild(db);}
  else if(kind==='news'){var ca=el('span','cat-art sm');ca.setAttribute('aria-hidden','true');ca.appendChild(el('span',null,e.graphic||'\ud83d\udcf0'));hd.appendChild(ca);}
- else if(e.logo&&/^logos\/[a-z0-9-]+\.webp$/.test(e.logo)){var im=document.createElement('img');im.className='blogo';im.src=e.logo;im.alt=e.name+' logo';im.width=56;im.height=56;im.loading='lazy';im.decoding='async';hd.appendChild(im);}
+ else if(e.logo&&/^logos\/[a-z0-9-]+\.webp$/.test(e.logo)){var im=document.createElement('img');im.className='blogo';im.src=e.logo;im.alt=e.name+' logo';im.width=56;im.height=56;im.loading='lazy';im.decoding='async';hd.appendChild(im);slhVariantize(im);}
  else{var ini=el('span','ini',initials(e.name));ini.setAttribute('aria-hidden','true');hd.appendChild(ini);}
  var ht=el('div','c-title');if(kind==='news'&&/^story-[a-z0-9-]+\.html$/.test(e.link)){var h3=el('h3');var hl=el('a',null,e.name);hl.href=e.link;h3.appendChild(hl);ht.appendChild(h3);ht.appendChild(el('p','when','Published '+e.date2));}else ht.appendChild(el('h3',null,e.name));
  if(kind==='events'){ht.appendChild(el('p','when',fmt(e)+(e.time?' \u00b7 '+e.time:'')));}
