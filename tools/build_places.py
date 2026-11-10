@@ -59,6 +59,12 @@ FOOTER=tpl[tpl.find('</main>')+7:]
 CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; frame-src https://www.facebook.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
 THEME="<script>(function(){try{var t=localStorage.getItem('hes-theme');if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>"
 CSSV=re.search(r'style\.css\?v=(\d+)',tpl).group(1)
+SPCSS='<link rel="stylesheet" href="sponsor-slots.css?v=1">\n'
+SPJS='<script src="sponsors.js?v=1" defer></script>\n<script src="sponsor-slots.js?v=1" defer></script>\n'
+SPGROUP=6
+def spslot(slot,profile=None):
+  pa=f' data-sp-profile="place-{profile}.html"' if profile else ''
+  return f'<div class="sp-slot sp-slot--rectangle" data-sp-slot="{slot}"{pa}>\n  <p class="sp-label" data-sp-label></p>\n  <div class="sp-box sp-box--300x250" data-sp-box></div>\n</div>'
 def head(title,desc,path,ld,ogtype='website',img=None):
   img=img or BASE+'og-image.jpg'
   url=BASE+path
@@ -198,6 +204,7 @@ def place(x,prev,nxt):
     graph[-1]=bl([(t,(h if h else path)) for t,h in crumb])
     ld={"@context":"https://schema.org","@graph":graph}
     h=head(title,md,path,ld,'business.business' if k=='bio' and ty not in('Person','Organization','GovernmentOffice','NGO') else 'website',img)+f'<body data-page="place">\n{HEADER}<main id="main">'
+    if k=='bio':h=h.replace('</head>',SPCSS+'</head>',1)
     h+=crumbs(crumb)
     hx='h1' if k=='bio' else 'p class="pl-name"'
     h+=f'<div class="page-head pl-head"><div class="wrap">{logo}<div><p class="kick"><a class="catpill" href="category-{cs}.html">{E(cat)}</a></p><{hx}>{E(n)}</{hx.split()[0]}><p>{sub} in the Hanceville area</p><p class="pl-cta">{cta}</p></div></div></div>'
@@ -208,9 +215,11 @@ def place(x,prev,nxt):
     pn='<nav class="pl-pn" aria-label="Other pages for this listing">'
     if pv:pn+=f'<a rel="prev" href="{tab_file(s,pv[-1])}">&larr; {lab[pv[-1]]}</a>'
     if nx:pn+=f'<a rel="next" href="{tab_file(s,nx[0])}">{lab[nx[0]]} &rarr;</a>'
+    if k=='bio':h+=spslot('P-1',s)
     h+=pn+'</nav>'
     h+=f'<p class="pl-note">Something out of date? Owners can request a correction by messaging <a href="https://www.facebook.com/2333964643484816" target="_blank" rel="noopener noreferrer">our Facebook Page</a>. Sources for this listing are on our <a href="sources.html#s-{s}">Sources and References</a> page.</p>'
     h+='</div></main>\n'+FOOTER.replace('<script src="app.js','<script src="place.js?v=1" defer></script>\n<script src="app.js')
+    if k=='bio':h=h.replace('<script src="app.js',SPJS+'<script src="app.js',1)
     h=re.sub(r'<a [^>]*href="http://([^"]+)"[^>]*>(.*?)</a>',lambda m:f'<span class="pl-note">{m.group(2)}: {m.group(1).rstrip("/")} (this site has no secure https version, so type the address yourself if you want to visit)</span>',h)
     open(path,'w').write(h);pages.append(path)
   # Bio (main page)
@@ -274,9 +283,12 @@ for cat,items in CATS.items():
   cs=slug(cat);items=CATS[cat]
   other=sorted(c for c in CATS if c!=cat)
   h=head(f'{cat} in Hanceville, AL | Hanceville Entertainment & Shopping',f'Every {cat} listing in our Hanceville directory, with a full page for each one.',f'category-{cs}.html',{"@context":"https://schema.org",**bl([('Home',''),('All Places','places.html'),(cat,f'category-{cs}.html')])})
+  h=h.replace('</head>',SPCSS+'</head>',1)
   h+=f'<body data-page="category">\n{HEADER}<main id="main">'+crumbs([('Home','index.html'),('All Places','places.html'),(cat,None)])
-  h+=f'<div class="page-head"><div class="wrap"><h1>{E(cat)}</h1><p>{len(items)} {"listing" if len(items)==1 else "listings"} in this category. Tap any name to open its full page with hours, contact details, directions and related places.</p></div></div><div class="wrap pl-body"><ul class="pl-grid">'+''.join(tile(x) for x in items)+'</ul>'
+  _tl=[tile(x) for x in items]
+  h+=f'<div class="page-head"><div class="wrap"><h1>{E(cat)}</h1><p>{len(items)} {"listing" if len(items)==1 else "listings"} in this category. Tap any name to open its full page with hours, contact details, directions and related places.</p></div></div><div class="wrap pl-body"><ul class="pl-grid">'+''.join(_tl[:SPGROUP])+'</ul>'+spslot('C-1')+(('<ul class="pl-grid">'+''.join(_tl[SPGROUP:])+'</ul>') if len(_tl)>SPGROUP else '')
   h+='<section class="pl-sec"><h2>Other categories</h2><p class="pl-cats">'+''.join(f'<a class="tag" href="category-{slug(c)}.html">{E(c)}</a>' for c in other)+'</p></section></div></main>\n'+FOOTER
+  h=h.replace('<script src="app.js',SPJS+'<script src="app.js',1)
   open(f'category-{cs}.html','w').write(h);pages.append(f'category-{cs}.html')
 h=head('All Hanceville Places A to Z | Hanceville Entertainment & Shopping','Every business, office, nonprofit and service in our Hanceville directory, each with its own full page.','places.html',{"@context":"https://schema.org",**bl([('Home',''),('All Places','places.html')])})
 h+=f'<body data-page="places">\n{HEADER}<main id="main">'+crumbs([('Home','index.html'),('All Places',None)])
