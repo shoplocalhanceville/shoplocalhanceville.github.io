@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <script>(function(){var saved=null,choice=null,pick=null;try{saved=localStorage.getItem("hes-lang");}catch(e){}try{choice=localStorage.getItem("hes-access");}catch(e){}try{pick=sessionStorage.getItem("hes-access-pick");}catch(e){}window.SLH_ACCESS_CHOICE=choice||"";if(pick==="es"||pick==="en"){window.SLH_LANG=pick;window.SLH_LANG_SRC="picked";}else if(saved==="es"||saved==="en"){window.SLH_LANG=saved;window.SLH_LANG_SRC="saved";}else{var langs=[];try{langs=(navigator.languages&&navigator.languages.length)?navigator.languages:(navigator.language?[navigator.language]:[]);}catch(e){}window.SLH_LANG="en";window.SLH_LANG_SRC=langs.length?"detected":"none";for(var i=0;i<langs.length;i++){var c=String(langs[i]||"").toLowerCase();if(c==="es"||c.indexOf("es-")===0){window.SLH_LANG="es";break;}}}if(window.SLH_LANG==="es"){document.documentElement.lang="es";}if((window.SLH_LANG_SRC==="none"||window.SLH_LANG_SRC==="picked")&&!window.SLH_ACCESS_CHOICE){document.documentElement.setAttribute("data-access","pending");}if(window.SLH_LANG==="es"){var pl=document.createElement("link");pl.rel="preload";pl.as="script";pl.href="data-es.js";document.head.appendChild(pl);}})();</script>
 <link rel="preload" href="data.js" as="script">
+<link rel="preload" href="img/sponsors/house-leaderboard-728x90.webp" as="image" type="image/webp" media="(min-width: 761px)" fetchpriority="high">
+<link rel="preconnect" href="https://api.weather.gov">
 
 <meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -346,6 +348,149 @@ img{max-width:100%}
 .bd-build-in p{margin:0;color:#e4d6ff;font-size:1rem;line-height:1.45}
 .bd-build-in .bd-big{color:#fff;font-weight:800}
 @media (max-width:560px){.bd-build-in{flex-direction:column;text-align:center;padding:18px}}
+/*
+ * sponsor-slots.css - WS2 sponsor slot system (STAGED, NOT LIVE).
+ *
+ * Reserved-box rules per WS2 design section 3: every slot declares its
+ * exact box in CSS before any creative exists, so a late, missing, or
+ * unsold creative can never move page content. Layout shift from these
+ * slots is zero by construction: the box has a fixed aspect ratio and a
+ * min-height floor at each breakpoint, and the creative image is
+ * absolutely filled inside it.
+ *
+ * Theme: black, purple, white, matching the site theme.
+ */
+
+/* ---------- Slot shell ---------- */
+
+.sp-slot {
+  margin: 1.25rem auto;
+  text-align: left;
+}
+
+.sp-slot--leaderboard { max-width: 728px; }
+.sp-slot--rectangle { max-width: 300px; }
+
+/* The disclosure label is real text in the slot markup, present in
+   every state (paid or house), per WS2 design section 5. A paid slot
+   reads "Sponsored" / "Patrocinado". A house slot reads the house
+   attribution instead, so the paid label is never diluted. */
+.sp-label {
+  margin: 0 0 0.35rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #3d3d3d;
+}
+
+/* The label line is a fixed height in every state, so swapping between
+   the Sponsored label and the longer house attribution can never move
+   the reserved box below it. The full house attribution also appears
+   in the house creative itself and in its alternative text. */
+.sp-label--house {
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+}
+
+/* ---------- Reserved boxes ---------- */
+
+.sp-box {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #d9d2e8;
+  border-radius: 12px;
+  background: #0d0d0f;
+}
+
+.sp-box--728x90 {
+  aspect-ratio: 728 / 90;
+  min-height: 90px;
+}
+
+.sp-box--300x250 {
+  aspect-ratio: 300 / 250;
+  min-height: 250px;
+}
+
+/* The creative link and image fill the reserved box exactly. The image
+   carries explicit width and height attributes in markup matching the
+   slot, plus the CSS fill here, so nothing reflows when it loads. */
+.sp-creative {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sp-creative img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sp-creative:focus-visible {
+  outline: 3px solid #7b2ff7;
+  outline-offset: 2px;
+}
+
+/* ---------- Our Sponsors row (H-2) ---------- */
+
+.sp-row {
+  margin: 1.5rem auto;
+  max-width: 1100px;
+}
+
+.sp-row-heading {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+.sp-row-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sp-row .sp-slot {
+  margin: 0;
+}
+
+/* ---------- Breakpoints ---------- */
+
+/* Mobile form of H-1: the 320x50 banner box replaces the leaderboard
+   box. Both boxes are declared in the markup-free CSS only; the engine
+   swaps the creative file, the box geometry comes from here. */
+@media (max-width: 760px) {
+  .sp-slot--leaderboard { max-width: 320px; }
+  .sp-box--728x90 {
+    aspect-ratio: 320 / 50;
+    min-height: 50px;
+  }
+}
+
+/* Forced-colors survival (WS2 design section 9): the sponsor name
+   lives in the image alternative text and in the visible label, never
+   in color alone. The border keeps the box visible in forced-colors
+   mode. */
+@media (forced-colors: active) {
+  .sp-box { border: 1px solid CanvasText; }
+}
+
+/* Publish-lane correction (queue Step 36 composition): the label color
+   above is tuned for the light theme. The homepage and the generated
+   pages both follow the visitor's theme, and on the dark theme
+   #3d3d3d measures 1.81:1 against the page background, which would
+   leave the disclosure label unreadable. In the dark theme the label
+   therefore takes a light ink color. Geometry is unchanged, so the
+   reserved-box rule is untouched. */
+[data-theme="dark"] .sp-label { color: #C9C2DC; }
 </style>
 </head>
 <body><a class="skiplink" href="#results" data-i18n="Skip to listings">Skip to listings</a>
@@ -453,6 +598,11 @@ img{max-width:100%}
  <p><a class="btn" href="news.html" id="newsLeadAll">Read all news</a></p>
 </section>
 
+<div class="wrap"><div class="sp-slot sp-slot--leaderboard" data-sp-slot="H-1">
+  <p class="sp-label" data-sp-label></p>
+  <div class="sp-box sp-box--728x90" data-sp-box></div>
+</div></div>
+
 <section class="wrap" id="guide" aria-label="Community Guide">
  <h2 id="guideH" style="margin-top:0">Community Guide</h2>
  <p id="guideP">The Community Guide is the free directory service of this news organization. Search above, browse by kind, or scan the listings below to find verified local businesses, restaurants, churches, schools, nonprofits, city services, and help resources across Hanceville and Cullman County.</p>
@@ -542,6 +692,15 @@ img{max-width:100%}
   <div id="grid" class="grid"></div>
   <button id="more" class="btn btn-primary showmore" type="button">Show more</button>
   <p style="color:var(--ink-2)">Links last checked November 3, 2026.</p>
+<section class="wrap sp-row" data-sp-row="H-2" aria-label="Our Sponsors">
+  <h2 class="sp-row-heading" data-sp-row-heading>Our Sponsors</h2>
+  <div class="sp-row-cards" data-sp-row-cards>
+    <div class="sp-slot sp-slot--rectangle" data-sp-slot="H-2">
+      <p class="sp-label" data-sp-label></p>
+      <div class="sp-box sp-box--300x250" data-sp-box></div>
+    </div>
+  </div>
+</section>
 </main>
 
 <section class="wrap" id="siteinfo" aria-label="Site information and policies">
@@ -643,5 +802,7 @@ fetch("news.json").then(function(r){return r.json();}).then(function(d){
 }).catch(function(){});
 })();
 </script>
+<script src="sponsors.js?v=1" defer></script>
+<script src="sponsor-slots.js?v=1" defer></script>
 </body>
 </html>
