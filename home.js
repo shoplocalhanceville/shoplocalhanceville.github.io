@@ -1,4 +1,4 @@
-/* Homepage behavior. Moved out of index.html so the page paints before this runs; each block keeps its original order and is isolated so one error cannot stop the others. Needs data.js (and data-es.js in Spanish) loaded first. */
+/* Homepage behavior. Moved out of index.html so the page paints before this runs; each block keeps its original order and is isolated so one error cannot stop the others. Needs data.js loaded first. */
 try{
 window.SLH_REG = "img/home/f7679b5094c0.webp";window.SLH_CONTENT=function(r){return ["Fun Facts","Sweet Tea Jokes","Getting Started","Everyone","Social Media"].indexOf(r.category)>=0||["Attractions, Farms & Recreation","Businesses & Services","Lodging & Campgrounds","Nonprofits, Counseling & Community Organizations","Restaurants, Food & Drink"].indexOf(r.name)>=0;};
 }catch(e){if(window.console)console.error(e);}
@@ -8,7 +8,7 @@ try{
 var root=document.documentElement;
 function paintToggle(){var b=document.getElementById("themeToggle");if(!b)return;
   var dark=root.getAttribute("data-theme")==="dark";
-  b.innerHTML=dark?'<svg class="ic"><use href="#i-sun"/></svg> '+(window.SLH_LANG==="es"?"D\u00eda":"Day"):'<svg class="ic"><use href="#i-moon"/></svg> '+(window.SLH_LANG==="es"?"Noche":"Night");b.setAttribute("aria-pressed",dark?"true":"false");}
+  b.innerHTML=dark?'<svg class="ic"><use href="#i-sun"/></svg> '+"Day":'<svg class="ic"><use href="#i-moon"/></svg> '+"Night";b.setAttribute("aria-pressed",dark?"true":"false");}
 try{var t=localStorage.getItem("hes-theme");
   if(t)root.setAttribute("data-theme",t);
   else if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)
@@ -24,7 +24,7 @@ var L=window.SLH_LISTINGS||[];
 function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
 function favs(){try{return JSON.parse(localStorage.getItem("slh-favs")||"[]");}catch(e){return[];}}
 function setFavs(f){try{localStorage.setItem("slh-favs",JSON.stringify(f));}catch(e){}}
-function T(en){return (LANG==="es"&&window.SLH_UI&&window.SLH_UI[en])||en;}
+function T(en){return en;}
 function hsStatus(r){var hs=r.hs;if(!hs)return null;
   var parts={};new Intl.DateTimeFormat("en-US",{timeZone:"America/Chicago",weekday:"short",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).forEach(function(p){parts[p.type]=p.value;});
   var dm={Sun:"sun",Mon:"mon",Tue:"tue",Wed:"wed",Thu:"thu",Fri:"fri",Sat:"sat"};
@@ -51,13 +51,12 @@ var q=document.getElementById("q"),catSel=document.getElementById("catSel"),
     grid=document.getElementById("grid"),count=document.getElementById("count"),
     more=document.getElementById("more"),townFilter="";
 var SYN={food:"restaurant",eats:"restaurant",hair:"barber",doctor:"clinic",health:"clinic",gas:"gas station",fuel:"gas station",kids:"children"};
-/* ---------- language + keyword search helpers ---------- */
-var LANG=window.SLH_LANG||"en";
+/* ---------- keyword search helpers ---------- */
 
-function catName(c){return (LANG==="es"&&window.SLH_CAT&&window.SLH_CAT[c])||c;}
-function descOf(r){return (LANG==="es"&&window.SLH_DESC_ES&&SLH_DESC_ES[r.name])?SLH_DESC_ES[r.name]:(r.description||"");}
+function catName(c){return c;}
+function descOf(r){return r.description||"";}
 function norm(s){return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
-function hayOf(r){return norm(r.name+" "+(r.category||"")+" "+(r.address||"")+" "+(r.aka||"")+" "+(r.description||"")+" "+((window.SLH_DESC_ES&&SLH_DESC_ES[r.name])||""));}
+function hayOf(r){return norm(r.name+" "+(r.category||"")+" "+(r.address||"")+" "+(r.aka||"")+" "+(r.description||""));}
 var BATCH=24,shown=0,filtered=L.slice();
 function variantize(im, sizes){
   var v=(window.SLH_VARIANTS||{})[im.getAttribute("src")||""];
@@ -142,7 +141,7 @@ function loadEmbed(art,r){
 }
 function apply(scroll){
   bootApplied=true;
-  var term=norm(q.value||"").replace(/\bnear me\b/g," ").replace(/\bcerca de mi\b/g," ").trim();
+  var term=norm(q.value||"").replace(/\bnear me\b/g," ").trim();
   if(SYN[term])term=SYN[term];
   var toks=term.split(/\s+/).filter(Boolean);
   var cat=catSel.value;
@@ -157,7 +156,7 @@ function apply(scroll){
   if(sortSel.value==="kind")filtered.sort(function(a,b){return (a.category||"").localeCompare(b.category||"")||a.name.localeCompare(b.name);});
   else filtered.sort(function(a,b){return a.name.localeCompare(b.name);});
   shown=0;grid.textContent="";renderMore();
-  count.textContent=filtered.length+" "+T("places found")+(townFilter?(LANG==="es"?" en ":" in ")+townFilter:"");
+  count.textContent=filtered.length+" "+T("places found")+(townFilter?" in "+townFilter:"");
   document.getElementById("noresults").hidden=filtered.length>0;
   if(scroll)document.getElementById("results").scrollIntoView({behavior:"smooth"});
 }
@@ -207,7 +206,7 @@ Object.keys(cats).sort(function(a,b){return cats[b]-cats[a];}).forEach(function(
   var svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.setAttribute("class","ic");
   var use=document.createElementNS("http://www.w3.org/2000/svg","use");use.setAttribute("href",icn);svg.appendChild(use);b.appendChild(svg);
   b.appendChild(document.createTextNode(catName(c)));
-  var sm=document.createElement("small");sm.textContent=cats[c]+" "+(LANG==="es"?"lugares":"places");b.appendChild(sm);
+  var sm=document.createElement("small");sm.textContent=cats[c]+" "+"places";b.appendChild(sm);
   b.addEventListener("click",function(){
     catSel.value=(catSel.value===c)?"":c;syncTiles();apply(true);});
   krail.appendChild(b);});
@@ -386,37 +385,9 @@ document.querySelectorAll(".rail").forEach(function(rail){
 }catch(e){if(window.console)console.error(e);}
 try{
 (function(){
-function setLang(l){try{localStorage.setItem("hes-lang",l);}catch(e){} location.reload();}
-var lb=document.getElementById("langBtn");
-if(lb){lb.textContent=(window.SLH_LANG==="es")?"EN \u00b7 English":"ES \u00b7 Espa\u00f1ol";
- lb.addEventListener("click",function(){setLang(window.SLH_LANG==="es"?"en":"es");});}
-var ml=document.getElementById("menuLang");
-if(ml){ml.textContent=(window.SLH_LANG==="es")?"View in English":"Ver en espa\u00f1ol";
- ml.addEventListener("click",function(e){e.preventDefault();setLang(window.SLH_LANG==="es"?"en":"es");});}
-if(window.SLH_LANG==="es"&&window.SLH_UI){
- document.querySelectorAll("[data-i18n]").forEach(function(el){
-  var es=window.SLH_UI[el.getAttribute("data-i18n")];if(!es)return;
-  var nodes=el.childNodes,done=false;
-  for(var i=nodes.length-1;i>=0;i--){var n=nodes[i];
-   if(n.nodeType===3&&n.textContent.trim()){n.textContent=n.textContent.replace(n.textContent.trim(),es);done=true;break;}}
-  if(!done)el.textContent=es;
- });
- var qi=document.getElementById("q");
- if(qi)qi.placeholder="Busca peluquer\u00edas, comida, iglesias, escuelas \u2014 o el nombre de un negocio";
- var pb=document.getElementById("printBtn"); if(pb)pb.textContent="Imprimir lista";
-}
-if(window.SLH_LANG!=="es"&&window.SLH_LISTINGS){
+if(window.SLH_LISTINGS){
  var tlen=document.getElementById("trustline");
  if(tlen&&tlen.firstChild&&tlen.firstChild.nodeType===3){tlen.firstChild.nodeValue=tlen.firstChild.nodeValue.replace(/^\d+/,String(window.SLH_LISTINGS.length));}
-}
-if(window.SLH_LANG==="es"&&window.SLH_MINI&&window.SLH_MINI.trust_listings){
- var M=window.SLH_MINI;var tl=document.getElementById("trustline");
- if(tl){tl.innerHTML=(window.SLH_LISTINGS?window.SLH_LISTINGS.length+" ":"")+M.trust_listings+" &#183; "+M.trust_verified+" &#183; Hanceville &amp; Cullman County, Alabama &#183; ";
-  var b=document.createElement("button");b.type="button";b.id="shareSiteEs";b.className="sharelink";b.textContent=M.share_site;
-  b.addEventListener("click",function(){var url=location.href.split("#")[0];
-   if(navigator.share){navigator.share({title:document.title,url:url}).catch(function(){});}
-   else if(navigator.clipboard){navigator.clipboard.writeText(url);b.textContent="\u00a1Enlace copiado!";}});
-  tl.appendChild(b);}
 }
 })();
 }catch(e){if(window.console)console.error(e);}
@@ -424,12 +395,7 @@ try{
 (function(){
 "use strict";
 function main(){
-var LANG=window.SLH_LANG||"en";
-if(window.SLH_UI){
-  var add={"View profile":"Ver perfil","Back to listings":"Volver a los listados","About":"Acerca de","Office":"Oficina","Employer":"Empleador","Position":"Cargo","Biography":"Biografía","Latest post":"Publicación reciente"};
-  for(var k in add){if(!(k in window.SLH_UI))window.SLH_UI[k]=add[k];}
-}
-function T(en){return (LANG==="es"&&window.SLH_UI&&window.SLH_UI[en])||en;}
+function T(en){return en;}
 function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
 function esc(s){var d=document.createElement("div");d.textContent=s||"";return d.innerHTML;}
 var L=window.SLH_LISTINGS||[];
@@ -443,7 +409,6 @@ var body=document.getElementById("pfBody");
 var lastCard=null;
 function showView(){view.hidden=false;document.body.style.overflow="hidden";view.scrollTop=0;document.getElementById("pfBack").focus();}
 function hideView(){view.hidden=true;document.body.style.overflow="";if(lastCard){lastCard.scrollIntoView({block:"center"});lastCard.classList.add("deeplink-hit");var _pfT=lastCard.querySelector(".pf-open");if(_pfT)_pfT.focus();setTimeout(function(){if(lastCard)lastCard.classList.remove("deeplink-hit");},2600);}}
-if(LANG==="es")document.getElementById("pfBackLabel").textContent="Volver a los listados";
 document.getElementById("pfBack").addEventListener("click",hideView);
 document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!view.hidden)hideView();});
 function btn(label,href,primary){var a=document.createElement("a");a.className="btn"+(primary?" btn-primary":"");a.innerHTML=label;if(href){a.href=href;}return a;}
@@ -455,11 +420,11 @@ function openListing(r){
   var h="";
   h+='<div class="pf-head"><img class="pf-logo" src="'+(r.logo||(window.SLH_CONTENT(r)?"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='480' height='320'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%23241243'/><stop offset='1' stop-color='%236D28D9'/></linearGradient></defs><rect width='480' height='320' fill='url(%23g)'/><text x='50%' y='55%' font-size='150' fill='white' text-anchor='middle' dominant-baseline='middle'>★</text></svg>":window.SLH_REG))+'" alt="'+esc(r.name)+'">';
   h+='<div><h2 class="pf-name">'+esc(r.name)+'</h2>';
-  h+='<p class="pf-sub">'+esc((window.SLH_CAT&&LANG==="es"&&window.SLH_CAT[r.category])||r.category||"")+((r.town)?' · '+esc(r.town):'')+'</p></div></div>';
+  h+='<p class="pf-sub">'+esc(r.category||"")+((r.town)?' · '+esc(r.town):'')+'</p></div></div>';
   h+='<h3 class="pf-h">'+esc(T("About"))+'</h3>';
-  if(isFiller(r)){h+='<p class="pf-text">'+esc(LANG==="es"?"La descripción completa de este listado está en preparación. Los botones de contacto siguientes llegan directamente a la organización.":"A full description for this listing is being completed. The contact buttons below reach the organization directly.")+'</p>';}
-  else{var d=(LANG==="es"&&window.SLH_DESC_ES&&SLH_DESC_ES[r.name])?SLH_DESC_ES[r.name]:r.description;h+='<p class="pf-text">'+esc(d)+'</p>';}
-  if(r.address){h+='<h3 class="pf-h">'+esc(LANG==="es"?"Ubicación":"Location")+'</h3><p class="pf-text">'+esc(r.address)+'</p>';}
+  if(isFiller(r)){h+='<p class="pf-text">'+esc("A full description for this listing is being completed. The contact buttons below reach the organization directly.")+'</p>';}
+  else{var d=r.description;h+='<p class="pf-text">'+esc(d)+'</p>';}
+  if(r.address){h+='<h3 class="pf-h">'+esc("Location")+'</h3><p class="pf-text">'+esc(r.address)+'</p>';}
   h+='<div class="pf-acts">';
   if(r.phone){h+='<a class="btn btn-primary" href="tel:'+r.phone.replace(/[^0-9+]/g,"")+'">'+esc(T("Call"))+' · '+esc(r.phone)+'</a>';}
   if(site){h+='<a class="btn" target="_blank" rel="noopener" href="'+esc(site)+'">'+esc(T("Website"))+'</a>';}
@@ -553,62 +518,4 @@ if(window.requestIdleCallback)requestIdleCallback(main,{timeout:1500});else if(d
 }catch(e){if(window.console)console.error(e);}
 try{
 if('serviceWorker' in navigator&&location.protocol==='https:')window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});
-}catch(e){if(window.console)console.error(e);}
-try{
-/* === Language notice: strings, terms clause swap, and prompt behavior === */
-(function(){
-"use strict";
-var ES={
- title:"Idioma y privacidad: su elección",
- textDetected:"Consultamos el ajuste de idioma de su navegador en su dispositivo y lo usamos para abrir este sitio en español. Ningún dato de esa consulta se nos envía. Permitir todo guarda su elección de idioma y esta respuesta en su dispositivo. Solo lo necesario guarda únicamente esta respuesta, y su idioma se consultará de nuevo en su próxima visita. Este sitio no instala cookies de seguimiento en ningún caso.",
- textNone:"No pudimos leer el ajuste de idioma de su navegador. Elija el idioma que prefiere en los botones siguientes y luego confirme su elección.",
- pickLabel:"Elija su idioma:",
- textPicked:"Usted eligió español para este sitio, y esa elección ya quedó guardada en su dispositivo. Confirme su respuesta a continuación. Permitir todo mantiene guardada esa elección. Solo lo necesario guarda únicamente esta respuesta y borra la elección de idioma guardada, de modo que se le preguntará de nuevo en su próxima visita. Este sitio no instala cookies de seguimiento en ningún caso.",
- termsLink:"Revisar las condiciones",
- checkLabel:"He leído las Condiciones de uso y las acepto.",
- allow:"Permitir todo",needed:"Solo lo necesario",review:"Revisar primero",
- termsClause:"Detección de idioma y traducción. En una primera visita, este sitio consulta el ajuste de idioma de su navegador en su propio dispositivo para abrirse en inglés o en español. La consulta se realiza en su dispositivo y no se envía ninguna información de idioma a este sitio ni a terceros. Si usted elige un idioma, o lo confirma en el aviso de idioma, su elección se guarda únicamente en su navegador, en su dispositivo, y puede cambiarla en cualquier momento con el botón de idioma. Este sitio se ofrece solamente en inglés y en español. Los nombres de negocios y organizaciones son nombres propios y mantienen su forma original en ambos idiomas. Cada descripción en español de este sitio es una traducción escrita preparada para este sitio. Una ficha que aún no tiene descripción en español aparece en inglés mientras el modo en español está activo, y ninguna traducción automática se presenta como información verificada."
-};
-var EN={
- textNone:"We could not read a language setting from your browser. Please choose your language with the buttons below, and then confirm your choice.",
- pickedEn:"Thank you. This site will stay in English. Please review the terms and confirm your choice below."
-};
-var tp=document.getElementById("termsLangP");
-if(tp&&window.SLH_LANG==="es"){tp.textContent=(window.SLH_UI&&window.SLH_UI.terms_lang_p)||ES.termsClause;}
-var root=document.documentElement;
-if(root.getAttribute("data-access")!=="pending")return;
-var bar=document.getElementById("accessBar");if(!bar)return;
-function setText(id,txt){var el=document.getElementById(id);if(el)el.textContent=txt;}
-if(window.SLH_LANG==="es"){
- setText("accessTitle",ES.title);setText("accessText",ES.textDetected);
- setText("accessPickLabel",ES.pickLabel);setText("accessTermsLink",ES.termsLink);
- setText("accessCheckLabel",ES.checkLabel);setText("accessAllow",ES.allow);
- setText("accessNeeded",ES.needed);setText("accessReview",ES.review);
-}
-if(window.SLH_LANG_SRC==="picked"&&window.SLH_LANG==="es"){setText("accessText",ES.textPicked);}
-if(window.SLH_LANG_SRC==="none"){
- setText("accessText",window.SLH_LANG==="es"?ES.textNone:EN.textNone);
- var pk=document.getElementById("accessPick");if(pk)pk.hidden=false;
-}
-bar.hidden=false;
-function openTerms(e){if(e)e.preventDefault();var d=document.getElementById("pol-terms");if(!d)return;d.open=true;d.scrollIntoView({block:"start"});var s=d.querySelector("summary");if(s)s.focus({preventScroll:true});}
-var tl=document.getElementById("accessTermsLink");if(tl)tl.addEventListener("click",openTerms);
-var rv=document.getElementById("accessReview");if(rv)rv.addEventListener("click",openTerms);
-var chk=document.getElementById("accessCheck");
-var allow=document.getElementById("accessAllow"),needed=document.getElementById("accessNeeded");
-if(chk)chk.addEventListener("change",function(){allow.disabled=!chk.checked;needed.disabled=!chk.checked;});
-function dismiss(mode){
- try{localStorage.setItem("hes-access",mode);}catch(e){}
- try{sessionStorage.removeItem("hes-access-pick");}catch(e){}
- if(mode==="all"){try{localStorage.setItem("hes-lang",window.SLH_LANG||"en");}catch(e){}}
- else if(window.SLH_LANG_SRC==="picked"){try{localStorage.removeItem("hes-lang");}catch(e){}}
- root.removeAttribute("data-access");bar.hidden=true;
- var lb=document.getElementById("langBtn");if(lb)lb.focus();
-}
-if(allow)allow.addEventListener("click",function(){dismiss("all");});
-if(needed)needed.addEventListener("click",function(){dismiss("needed");});
-var pEn=document.getElementById("accessPickEn"),pEs=document.getElementById("accessPickEs");
-if(pEn)pEn.addEventListener("click",function(){window.SLH_LANG="en";var pk2=document.getElementById("accessPick");if(pk2)pk2.hidden=true;setText("accessText",EN.pickedEn);});
-if(pEs)pEs.addEventListener("click",function(){try{sessionStorage.setItem("hes-access-pick","es");localStorage.setItem("hes-lang","es");}catch(e){}location.reload();});
-})();
 }catch(e){if(window.console)console.error(e);}
