@@ -122,7 +122,17 @@
     img.alt = creative.alt;
     img.width = creative.w;
     img.height = creative.h;
-    img.loading = "lazy";
+    if (slotId === "H-1") {
+      /* V3 CANDIDATE (diagnosis scratch only): the homepage leaderboard
+       * sits in the LCP region; a lazy creative there fails the LCP
+       * discovery audit when it becomes the LCP element. Render the
+       * H-1 creative eagerly at high priority; all other slots keep
+       * lazy loading. */
+      img.loading = "eager";
+      img.fetchPriority = "high";
+    } else {
+      img.loading = "lazy";
+    }
     img.decoding = "async";
     a.appendChild(img);
     box.textContent = "";
