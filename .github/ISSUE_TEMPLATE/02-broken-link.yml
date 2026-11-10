@@ -1,0 +1,33 @@
+name: Broken or unsafe link
+description: Report a listing link that is down, parked, hijacked, or pointing somewhere wrong
+title: "[Link]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: listing
+    attributes:
+      label: Listing name
+      description: The exact name of the listing, letter for letter.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link address
+      description: The link as it appears on the site today.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What the link does now
+      description: For example, error code, parked page, unrelated content, or a redirect. Never guess a replacement link.
+    validations:
+      required: true
+  - type: textarea
+    id: replacement
+    attributes:
+      label: Verified replacement, if known
+      description: Only a replacement you have personally opened and confirmed belongs to this business. Leave empty if none is verified.
+    validations:
+      required: false

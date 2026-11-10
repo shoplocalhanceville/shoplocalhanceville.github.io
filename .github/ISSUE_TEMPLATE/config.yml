@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/shoplocalhanceville/shoplocalhanceville.github.io/discussions
+    about: Please use Discussions for questions and ideas, not Issues.
+  - name: Security report
+    url: https://github.com/shoplocalhanceville/shoplocalhanceville.github.io/security/advisories/new
+    about: Please report security problems privately here, not in a public issue.
