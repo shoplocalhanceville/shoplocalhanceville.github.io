@@ -8,6 +8,9 @@ Data sources, merged by slug (later sources fill blanks, never overwrite):
 Rerun after any data change:  python3 tools/build_places.py
 Nothing here invents facts. Each section only appears when its data exists."""
 import json,re,os,html,datetime,urllib.parse,glob,subprocess,sys
+VARIANTS = {}
+if os.path.exists('tools/variants-manifest.json'):
+    VARIANTS = json.load(open('tools/variants-manifest.json'))
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'))
 BASE='https://shoplocalhanceville.github.io/'
 E=lambda x:html.escape(str(x),quote=True)
@@ -74,8 +77,24 @@ def head(title,desc,path,ld,ogtype='website',img=None):
 def crumbs(items):
   return '<div class="crumbbar"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb">'+' &rsaquo; '.join(f'<a href="{h}">{E(t)}</a>' if h else f'<span aria-current="page">{E(t)}</span>' for t,h in items)+'</nav></div></div>'
 def bl(items):return {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":t,"item":BASE+(h or '')} for i,(t,h) in enumerate(items)]}
+def pic(src, img, sizes):
+  e = VARIANTS.get(src)
+  if not e:
+    return img
+  a = e.get('a', '')
+  w = e.get('w', '')
+  cands = [c for c in w.split(',') if c.strip()]
+  if len(cands) > 1:
+    img = img[:-1] + f' srcset="{w}" sizes="{sizes}">'
+  elif a:
+    img = img[:-1] + f' sizes="{sizes}">'
+  if a:
+    return (f'<picture><source type="image/avif" srcset="{a}" '
+            f'sizes="{sizes}">{img}</picture>')
+  return img
 def tile(x):
   img=f'<img src="{x["logo"]}" alt="" width="48" height="48" loading="lazy" decoding="async">' if x.get('logo') else f'<span class="pl-ini" aria-hidden="true">{E("".join(w[0] for w in x["name"].split()[:2]).upper())}</span>'
+  img=pic(x.get('logo'),img,'48px')
   return f'<li><a class="pl-tile" href="place-{x["slug"]}.html">{img}<span><strong>{E(x["name"])}</strong><small>{E(x["category"])}</small></span></a></li>'
 def maps(x):return 'https://www.google.com/maps/search/?api=1&query='+urllib.parse.quote(x['name']+' '+x['address'])
 today=datetime.date.today().isoformat()
@@ -166,6 +185,7 @@ def place(x,prev,nxt):
   if x.get('website') and 'facebook.com' not in x['website']:cta+=f'<a class="btn alt3" href="{E(x["website"])}" target="_blank" rel="noopener noreferrer">Visit website</a> '
   if x.get('facebook'):cta+=f'<a class="btn alt3" href="{E(x["facebook"])}" target="_blank" rel="noopener noreferrer">Facebook Page</a>'
   logo=f'<img class="pl-logo" src="{x["logo"]}" alt="{E(n)} logo" width="96" height="96" decoding="async">' if x.get('logo') else ''
+  logo=pic(x.get('logo'),logo,'96px')
   sub=E(x['service']) if x.get('service') else E(cat)
   def page(k,body):
     path=tab_file(s,k);tl=lab[k]
@@ -228,7 +248,7 @@ def place(x,prev,nxt):
     if x.get('facebook'):b+=f'<section class="pl-sec"><h2>Latest from Facebook</h2><p>The feed loads from Facebook only when you ask for it, which keeps this page fast and private until you choose to see it.</p><div class="fb-facade" data-href="{E(x["facebook"])}"><button type="button" class="btn fb-load">Show latest Facebook posts</button></div></section>'
     page('social',b)
   if 'media' in tabs:
-    page('media',f'<section class="pl-sec"><h2>Photos of {E(n)}</h2><img src="{E(x["photo"])}" alt="{E(n)}" loading="lazy" decoding="async" width="240" height="240"></section>')
+    page('media',f'<section class="pl-sec"><h2>Photos of {E(n)}</h2>'+pic(x["photo"],f'<img src="{E(x["photo"])}" alt="{E(n)}" loading="lazy" decoding="async" width="240" height="240">','240px')+'</section>')
   if 'documents' in tabs:
     page('documents',f'<section class="pl-sec"><h2>Documents from {E(n)}</h2><ul class="pl-links">'+''.join(f'<li><a href="{E(d["url"])}" target="_blank" rel="noopener noreferrer">{E(d["title"])}</a></li>' for d in x['documents'])+'</ul></section>')
   samec=[y for y in CATS[cat] if y is not x][:12]
