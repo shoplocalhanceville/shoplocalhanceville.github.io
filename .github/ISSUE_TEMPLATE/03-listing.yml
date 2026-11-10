@@ -1,0 +1,39 @@
+name: Listing addition or correction
+description: Propose a new listing, or a correction to an existing one, with its source
+title: "[Listing]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Verification standard: every listing fact needs a recorded source. A fact with no source is researched or held, never published. Nothing in this form approves publication; Charles approves every named package.
+  - type: input
+    id: name
+    attributes:
+      label: Business or listing name
+      description: The exact name, letter for letter.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Addition or correction
+      description: What should be added or changed, field by field.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: The address or record each fact comes from. One source per fact where they differ.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I opened the source myself and the facts match it exactly.
+          required: true
+        - label: No detail in this request was invented or copied from a different listing.
+          required: true

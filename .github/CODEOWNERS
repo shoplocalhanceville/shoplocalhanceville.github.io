@@ -1,0 +1,8 @@
+# Charles Adams is the only approver for this repository.
+# Every path defaults to him. More specific rules are listed last because
+# the last matching pattern wins in CODEOWNERS.
+
+* @CharlieGamedevelop
+/.github/ @CharlieGamedevelop
+/.github/workflows/ @CharlieGamedevelop
+/SECURITY.md @CharlieGamedevelop

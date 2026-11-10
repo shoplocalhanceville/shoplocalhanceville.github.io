@@ -1,0 +1,41 @@
+name: Bug report
+description: Report something broken or wrong on the website
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues first. Include the exact page address so the problem can be reproduced by rendering the page.
+  - type: input
+    id: page
+    attributes:
+      label: Page address
+      description: The full address of the page where the problem appears.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What is wrong, and what did you expect instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Seen on
+      options:
+        - Phone
+        - Tablet
+        - Computer
+        - All devices
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Screenshot description, error text, or anything else that proves the problem.
+    validations:
+      required: true
