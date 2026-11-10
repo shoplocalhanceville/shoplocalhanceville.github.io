@@ -1,0 +1,63 @@
+/* WS5 assistant styles (raw CSS, site theme: black, purple, white).
+   Loaded lazily with the assistant; nothing here is on the initial
+   stylesheet of any page. */
+
+.ws5-ask-btn {
+  background: #5b21b6;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 44px;
+}
+.ws5-ask-btn:focus-visible,
+.ws5-assistant button:focus-visible,
+.ws5-assistant input:focus-visible {
+  outline: 3px solid #c4b5fd;
+  outline-offset: 2px;
+}
+
+.ws5-assistant {
+  background: #111;
+  color: #fff;
+  border: 2px solid #5b21b6;
+  border-radius: 16px;
+  max-width: min(92vw, 34rem);
+  padding: 1.25rem;
+}
+.ws5-assistant::backdrop { background: rgba(0, 0, 0, 0.72); }
+.ws5-assistant h2 { margin-top: 0; color: #c4b5fd; }
+.ws5-note, .ws5-voice-note { color: #ddd6fe; font-size: 0.95rem; }
+
+.ws5-form { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: end; }
+.ws5-form label { flex-basis: 100%; font-weight: 600; }
+.ws5-form input {
+  flex: 1 1 12rem;
+  min-height: 44px;
+  border-radius: 8px;
+  border: 1px solid #5b21b6;
+  padding: 0.5rem;
+  background: #fff;
+  color: #000;
+}
+.ws5-form button, .ws5-close {
+  min-height: 44px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: #5b21b6;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.ws5-out { margin-top: 1rem; line-height: 1.45; }
+.ws5-cards { margin: 0.75rem 0 0; padding-left: 1.1rem; }
+.ws5-cards li { margin: 0.3rem 0; }
+.ws5-cards a { color: #c4b5fd; }
+.ws5-close-row { margin-top: 1rem; text-align: right; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .ws5-assistant[open] { animation: ws5-in 160ms ease-out; }
+  @keyframes ws5-in { from { transform: translateY(6px); opacity: 0.4; } }
+}

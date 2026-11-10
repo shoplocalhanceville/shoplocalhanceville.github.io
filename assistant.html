@@ -1,0 +1,37 @@
+<!-- WS5 directory assistant markup (staging fragment, not a live page).
+     Integration: this fragment is inserted into the homepage and profile
+     pages by the release package at the points named in WS5_BUILD.md.
+     The button is plain HTML and costs nothing until activated; the
+     dialog, assistant.js, and the search index load lazily on the first
+     activation (design section 5). English shown; the release renders
+     the same fragment from the site's UI string table in Spanish mode,
+     with the fixed Spanish refusal carried in assistant.js. -->
+
+<button type="button" class="ws5-ask-btn" data-ws5-ask>
+  Ask the directory
+</button>
+
+<dialog id="ws5-assistant" class="ws5-assistant" aria-labelledby="ws5-assistant-title">
+  <h2 id="ws5-assistant-title">Ask the directory</h2>
+  <p class="ws5-note">
+    Answers come only from the verified listings. If a fact is not in a
+    listing, the assistant will say so rather than guess.
+  </p>
+  <form method="dialog" class="ws5-form">
+    <label for="ws5-q">Your question</label>
+    <input id="ws5-q" name="q" type="text" autocomplete="off"
+           placeholder="Example: What is the phone number for Cut N Up?">
+    <button type="submit">Ask</button>
+    <button type="button" class="ws5-mic" data-ws5-mic hidden>Use voice</button>
+  </form>
+  <p class="ws5-voice-note" data-ws5-voice-note hidden>
+    Voice search uses your browser's speech service. It is not available
+    in Firefox, and in Chrome your voice is sent to Google to be
+    recognized. Typing always works.
+  </p>
+  <div class="ws5-out" data-ws5-out aria-live="polite"></div>
+  <ul class="ws5-cards" data-ws5-cards></ul>
+  <form method="dialog" class="ws5-close-row">
+    <button type="submit" class="ws5-close">Close</button>
+  </form>
+</dialog>
