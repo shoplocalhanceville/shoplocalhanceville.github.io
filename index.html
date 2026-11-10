@@ -579,6 +579,7 @@ img{max-width:100%}
     <input id="q" type="search" placeholder="Search barbers, food, churches, schools, or a business name" autocomplete="off">
     <button class="btn btn-primary" id="qGo" type="button" data-i18n="Search">Search</button>
     <div id="suggest" class="suggest" hidden></div>
+    <button type="button" class="btn ws5-ask-btn" data-ws5-ask>Ask the directory</button>
   </div>
   <p class="trustline" id="trustline">720 free listings &#183; Information verified October 2026 &#183; Hanceville &amp; Cullman County, Alabama &#183; <button type="button" id="shareSite" class="sharelink">Share this directory</button></p>
   <div class="quickrow" aria-label="Popular right now">
@@ -804,5 +805,214 @@ fetch("news.json").then(function(r){return r.json();}).then(function(d){
 </script>
 <script src="sponsors.js?v=1" defer></script>
 <script src="sponsor-slots.js?v=1" defer></script>
+<!-- WS5 INTEGRATION BEGIN (queue Step 38, region R-WS5-2: this block only; the lazy hooks for search, recommendations, and the assistant. Nothing in this block is requested or run beyond listener registration until a visitor trigger fires.) -->
+<script>
+function ws5GlueInit() {
+  "use strict";
+  var loadedScripts = {};
+  var engine = null, recommender = null, assistantReady = false;
+  var picked = false;
+  var searchPromise = null, recommendPromise = null, assistantPromise = null;
+
+  function loadScript(src) {
+    return new Promise(function (resolve, reject) {
+      if (loadedScripts[src]) { resolve(); return; }
+      var s = document.createElement("script");
+      s.src = src;
+      s.onload = function () { loadedScripts[src] = true; resolve(); };
+      s.onerror = function () { reject(new Error("failed to load " + src)); };
+      document.head.appendChild(s);
+    });
+  }
+  function loadCss(href) {
+    var l = document.createElement("link");
+    l.rel = "stylesheet"; l.href = href;
+    document.head.appendChild(l);
+  }
+  function records() { return window.SLH_LISTINGS || []; }
+  function lang() { return window.SLH_LANG || "en"; }
+  function slugOf(s) { return (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
+  function profileUrl(r) { return "place-" + slugOf(r.name) + ".html"; }
+
+  /* ---------- Typo-tolerant search hook (design section 5 trigger:
+   * first focus of, or first keystroke in, the search box) ----------
+   * WS5 PAYLOAD HOOK (Step 38 release decision, recorded in the
+   * package's RELEASE_PACKAGE.md): the design option (a) token index
+   * payload ships beside data.js as ws5-index.js, generated in the
+   * same pass as any listings change. The shipped search.js builds its
+   * index in the browser from the listings the page already has, so
+   * this staged loader does not fetch the payload; the release either
+   * adds a from-index constructor to search.js and fetches it here, or
+   * drops the payload. No unused bytes are fetched in this staging. */
+  var q = document.getElementById("q");
+  var sug = document.getElementById("suggest");
+  function ensureSearch() {
+    if (engine) return Promise.resolve(engine);
+    if (!searchPromise) {
+      searchPromise = loadScript("search.js").then(function () {
+        engine = window.WS5Search.createSearch(records());
+        return engine;
+      });
+    }
+    return searchPromise;
+  }
+  function renderSuggest(term) {
+    if (!engine || !sug || !q) return;
+    if ((q.value || "").trim() !== term.trim()) return;
+    var hits = engine.search(term, 6);
+    if (!hits.length) { sug.hidden = true; sug.textContent = ""; return; }
+    sug.textContent = "";
+    hits.forEach(function (hit) {
+      var r = hit.record;
+      var b = document.createElement("button"); b.type = "button";
+      var im = document.createElement("img");
+      im.src = r.logo || window.SLH_REG || ""; im.alt = "";
+      b.appendChild(im);
+      var tx = document.createElement("span"); tx.textContent = r.name + " ";
+      var sm = document.createElement("small");
+      sm.textContent = (r.category || "") + (hit.town ? " · " + hit.town : "");
+      tx.appendChild(sm); b.appendChild(tx);
+      b.addEventListener("click", function () {
+        sug.hidden = true; q.value = r.name;
+        if (typeof window.apply === "function") { window.apply(false); }
+        else { picked = true; q.dispatchEvent(new Event("input", { bubbles: true })); sug.hidden = true; }
+        setTimeout(function () {
+          var el = document.getElementById(slugOf(r.name));
+          if (el) el.scrollIntoView({ behavior: "smooth" });
+        }, 80);
+      });
+      sug.appendChild(b);
+    });
+    sug.hidden = false;
+  }
+  if (q) {
+    q.addEventListener("focus", function () { ensureSearch(); }, { once: true });
+    q.addEventListener("input", function () {
+      if (picked) { picked = false; return; }
+      var term = q.value || "";
+      if (term.trim().length < 2) return;
+      ensureSearch().then(function () { renderSuggest(term); });
+    });
+  }
+
+  /* ---------- Recommendation rails hook (design section 5 trigger:
+   * the profile overlay is opened for a specific listing) ---------- */
+  var pfView = document.getElementById("profileView");
+  var pfBody = document.getElementById("pfBody");
+  function ensureRecommend() {
+    if (recommender) return Promise.resolve(recommender);
+    if (!recommendPromise) {
+      recommendPromise = loadScript("recommend.js").then(function () {
+        recommender = window.WS5Recommend.createRecommender(records());
+        return recommender;
+      });
+    }
+    return recommendPromise;
+  }
+  function renderRails() {
+    if (!pfBody || !recommender) return;
+    var nameEl = pfBody.querySelector(".pf-name");
+    if (!nameEl) return;
+    var name = nameEl.textContent;
+    var existing = pfBody.querySelector("[data-ws5-rails]");
+    if (existing && existing.getAttribute("data-for") === name) return;
+    if (existing) existing.remove();
+    var rails = recommender.recommend(name);
+    if (!rails.length) return;
+    var wrap = document.createElement("div");
+    wrap.setAttribute("data-ws5-rails", "");
+    wrap.setAttribute("data-for", name);
+    rails.forEach(function (rail) {
+      var h = document.createElement("h3");
+      h.className = "pf-h";
+      h.textContent = lang() === "es" ? rail.heading.es : rail.heading.en;
+      wrap.appendChild(h);
+      rail.items.forEach(function (r) {
+        var p = document.createElement("p");
+        p.className = "pf-text";
+        var a = document.createElement("a");
+        a.href = profileUrl(r); a.textContent = r.name;
+        p.appendChild(a);
+        var extra = (r.address ? " · " + r.address : "") + (r.phone ? " · " + r.phone : "");
+        if (extra) p.appendChild(document.createTextNode(extra));
+        wrap.appendChild(p);
+      });
+    });
+    pfBody.appendChild(wrap);
+  }
+  if (pfView && pfBody && window.MutationObserver) {
+    var ws5Obs = new MutationObserver(function () {
+      if (pfView.hidden) return;
+      ensureRecommend().then(renderRails);
+    });
+    ws5Obs.observe(pfBody, { childList: true });
+    ws5Obs.observe(pfView, { attributes: true, attributeFilter: ["hidden"] });
+  }
+
+  /* ---------- Directory assistant hook (design section 5 trigger:
+   * the visitor activates the Ask the directory button). The dialog
+   * markup, assistant.css, and assistant.js load only now. ---------- */
+  function wireMic(dialog) {
+    var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR || !dialog) return;
+    var mic = dialog.querySelector("[data-ws5-mic]");
+    var note = dialog.querySelector("[data-ws5-voice-note]");
+    if (!mic) return;
+    mic.hidden = false;
+    if (note) note.hidden = false;
+    mic.addEventListener("click", function () {
+      var rec = new SR();
+      rec.lang = lang() === "es" ? "es-US" : "en-US";
+      rec.onresult = function (ev) {
+        var input = dialog.querySelector("input");
+        if (input) { input.value = ev.results[0][0].transcript; input.focus(); }
+      };
+      rec.start();
+    });
+  }
+  function ensureAssistant() {
+    if (assistantReady) return Promise.resolve();
+    if (!assistantPromise) {
+      assistantPromise = Promise.all([loadScript("search.js"), loadScript("assistant.js")])
+        .then(function () { return fetch("assistant.html"); })
+        .then(function (r) { return r.text(); })
+        .then(function (html) {
+          var tpl = document.createElement("template");
+          tpl.innerHTML = html;
+          var dlg = tpl.content.querySelector("#ws5-assistant");
+          if (!dlg) throw new Error("assistant fragment has no dialog");
+          document.body.appendChild(dlg);
+          loadCss("assistant.css");
+          if (!engine) engine = window.WS5Search.createSearch(records());
+          window.WS5Assistant.initAssistant({
+            records: records(),
+            searchEngine: engine,
+            lang: lang(),
+            profileUrl: profileUrl
+          });
+          wireMic(dlg);
+          assistantReady = true;
+        });
+    }
+    return assistantPromise;
+  }
+  var askBtn = document.querySelector("[data-ws5-ask]");
+  if (askBtn) {
+    askBtn.addEventListener("click", function () {
+      ensureAssistant().then(function () {
+        var d = document.getElementById("ws5-assistant");
+        if (!d || d.open) return;
+        if (typeof d.showModal === "function") d.showModal();
+        else d.setAttribute("open", "");
+        var inp = d.querySelector("input");
+        if (inp) inp.focus();
+      });
+    });
+  }
+}
+  if (document.readyState === "loading") { document.addEventListener("DOMContentLoaded", ws5GlueInit); }
+  else { ws5GlueInit(); }
+</script>
+<!-- WS5 INTEGRATION END -->
 </body>
 </html>
