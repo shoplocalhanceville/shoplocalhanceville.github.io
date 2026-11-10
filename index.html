@@ -347,6 +347,7 @@ img{max-width:100%}
 .bd-build-in .bd-big{color:#fff;font-weight:800}
 @media (max-width:560px){.bd-build-in{flex-direction:column;text-align:center;padding:18px}}
 </style>
+<link rel="stylesheet" href="sponsor-slots.css?v=1">
 </head>
 <body><a class="skiplink" href="#results" data-i18n="Skip to listings">Skip to listings</a>
 <div class="accessSlot" id="accessSlot"><div class="accessBar" id="accessBar" role="region" aria-labelledby="accessTitle" hidden>
@@ -453,6 +454,11 @@ img{max-width:100%}
  <p><a class="btn" href="news.html" id="newsLeadAll">Read all news</a></p>
 </section>
 
+<div class="wrap"><div class="sp-slot sp-slot--leaderboard" data-sp-slot="H-1">
+  <p class="sp-label" data-sp-label></p>
+  <div class="sp-box sp-box--728x90" data-sp-box></div>
+</div></div>
+
 <section class="wrap" id="guide" aria-label="Community Guide">
  <h2 id="guideH" style="margin-top:0">Community Guide</h2>
  <p id="guideP">The Community Guide is the free directory service of this news organization. Search above, browse by kind, or scan the listings below to find verified local businesses, restaurants, churches, schools, nonprofits, city services, and help resources across Hanceville and Cullman County.</p>
@@ -542,6 +548,15 @@ img{max-width:100%}
   <div id="grid" class="grid"></div>
   <button id="more" class="btn btn-primary showmore" type="button">Show more</button>
   <p style="color:var(--ink-2)">Links last checked November 3, 2026.</p>
+<section class="wrap sp-row" data-sp-row="H-2" aria-label="Our Sponsors">
+  <h2 class="sp-row-heading" data-sp-row-heading>Our Sponsors</h2>
+  <div class="sp-row-cards" data-sp-row-cards>
+    <div class="sp-slot sp-slot--rectangle" data-sp-slot="H-2">
+      <p class="sp-label" data-sp-label></p>
+      <div class="sp-box sp-box--300x250" data-sp-box></div>
+    </div>
+  </div>
+</section>
 </main>
 
 <section class="wrap" id="siteinfo" aria-label="Site information and policies">
@@ -643,5 +658,7 @@ fetch("news.json").then(function(r){return r.json();}).then(function(d){
 }).catch(function(){});
 })();
 </script>
+<script src="sponsors.js?v=1"></script>
+<script src="sponsor-slots.js?v=1"></script>
 </body>
 </html>
