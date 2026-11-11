@@ -1,3 +1,18 @@
+# ============================================================================
+# HARDENED COPY - applied 2026-11-11 under Charles Adams's batch approval
+# of Expansion Pass 1 ("Do all and complete 100%", 2026-11-11).
+# Base: current main c91b31b .github/workflows/lighthouse-ci.yml (includes
+# the concurrency block added after the Pass 1 staging was composed).
+# Hardening applied (function otherwise identical to the base file):
+#   1. Every action is pinned to a full commit SHA with a version comment.
+#      SHAs verified against GitHub's API on 2026-11-10 - see
+#      expansion_pass1/03_actions_hygiene/ACTIONS_INVENTORY.md.
+#      Dependabot (.github/dependabot.yml) keeps these pins current.
+#   2. Top-level least-privilege floor: permissions: contents: read.
+#      No job widens it: checkout needs contents: read; setup-node needs
+#      no token scope; upload-artifact v4 uploads through the Actions
+#      artifact service on the job's ephemeral runtime token.
+# ============================================================================
 name: Lighthouse CI Gate
 
 # Charles Development Standard gate: every pull request must pass the
@@ -9,6 +24,11 @@ name: Lighthouse CI Gate
 on:
   pull_request:
   workflow_dispatch:
+
+# Least-privilege floor for the whole workflow (was: no permissions block,
+# so the token inherited the repository default, which can be write-capable).
+permissions:
+  contents: read
 
 # One gate run per pull request at a time: a new push cancels the run for
 # the superseded head instead of letting it run to a failure result.
@@ -23,8 +43,8 @@ jobs:
   lighthouse:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 20
       - name: "Install Lighthouse CI (pinned: lhci 0.15.1, Lighthouse 12.6.1)"
@@ -36,7 +56,7 @@ jobs:
         run: lhci autorun --config=.lighthouserc.mobile.json
       - name: Save reports
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: lighthouse-reports
           path: lhci-reports
