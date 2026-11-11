@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,19 +23,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:wallace_state_men_s_basketball_at_east_central-20261119@hanceville-ent
- ertainment-shopping
-DTSTAMP:20261106T190000Z
-DTSTART;TZID=America/Chicago:20261119T193000
-DTEND;TZID=America/Chicago:20261119T213000
+UID:wallace-state-men-s-basketball-at-east-central-20261119@shoplocalhancev
+ ille.github.io
+DTSTAMP:20261111T225427Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
 SUMMARY:Wallace State Men's Basketball at East Central
-LOCATION:Brackeen-Wood Gymnasium\, East Central Community College\, 486 10
- th St\, Decatur\, MS 39327
-DESCRIPTION:The Lions play at East Central Community College in Decatur\, 
- Mississippi\, at 7:30 PM CST on Thursday\, Nov. 19. Check Wallace State A
- thletics for ticket and time updates. Time: 7:30 PM CST. Admission: Check
-  Wallace State Athletics. https://athletics.wallacestate.edu/sports/mbkb/
- 2026-27/schedule
+LOCATION:Brackeen-Wood Gymnasium\, East Central Community College\, 486 10t
+ h St\, Decatur
+DESCRIPTION:The Lions play at East Central Community College in Decatur\, M
+ ississippi\, at 7:30 PM CST on Thursday\, Nov. 19. Check Wallace State Ath
+ letics for ticket and time updates. Time: 7:30 PM CST Host: Wallace State 
+ Athletics Cost: Check Wallace State Athletics
 URL:https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule
+CATEGORIES:Sports
 END:VEVENT
 END:VCALENDAR

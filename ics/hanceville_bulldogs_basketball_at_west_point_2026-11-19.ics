@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,18 +23,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:hanceville_bulldogs_basketball_at_west_point-20261119@hanceville-enter
- tainment-shopping
-DTSTAMP:20261106T120000Z
-DTSTART;TZID=America/Chicago:20261119T194500
-DTEND;TZID=America/Chicago:20261119T214500
+UID:hanceville-bulldogs-basketball-at-west-point-20261119@shoplocalhancevil
+ le.github.io
+DTSTAMP:20261111T225427Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
 SUMMARY:Hanceville Bulldogs Basketball at West Point
-LOCATION:West Point High School\, Cullman\, AL 35057
-DESCRIPTION:The Bulldogs play at West Point. Check MaxPreps or the school 
- for any time changes before you go. Time: 7:45 PM (varsity boys tip off).
-  Admission: See school for admission. https://www.maxpreps.com/al/hancevi
- lle/hanceville-bulldogs/basketball/schedule/
-URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/
- schedule/
+LOCATION:West Point High School\, Cullman
+DESCRIPTION:The Bulldogs play at West Point. Check MaxPreps or the school f
+ or any time changes before you go. Time: 7:45 PM (varsity boys tip off) Ho
+ st: Hanceville High School Bulldogs Cost: See school for admission
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
 END:VEVENT
 END:VCALENDAR

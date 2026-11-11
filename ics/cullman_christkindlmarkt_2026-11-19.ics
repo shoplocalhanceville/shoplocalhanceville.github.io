@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,18 +23,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cullman_christkindlmarkt-20261119@hanceville-entertainment-shopping
-DTSTAMP:20261023T130000Z
+UID:cullman-christkindlmarkt-20261119@shoplocalhanceville.github.io
+DTSTAMP:20261111T225427Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261224
 SUMMARY:Cullman Christkindlmarkt
-LOCATION:Depot Park\, 107 Arnold St NW\, Cullman\, AL
-DESCRIPTION:A German style Christmas market in downtown Cullman with more
-  than 40 vendors\, German inspired food\, an ice skating rink\, a Ferris
-  wheel and snow tubing. Closed Monday through Wednesday until Dec. 10\, 
- and closed Thanksgiving Day. Time: Thursday to Saturday 11:00 AM to 9:00
-  PM\; Sunday 12:00 PM to 8:00 PM\; open every day from Dec. 10. https://
- www.cullmanchristkindlmarkt.com/
+LOCATION:Depot Park\, 107 Arnold St NW\, Cullman
+DESCRIPTION:A German style Christmas market in downtown Cullman with more t
+ han 40 vendors\, German inspired food\, an ice skating rink\, a Ferris whe
+ el and snow tubing. Closed Monday through Wednesday until Dec. 10\, and cl
+ osed Thanksgiving Day. Time: Thursday to Saturday 11:00 AM to 9:00 PM\; Su
+ nday 12:00 PM to 8:00 PM\; open every day from Dec. 10 Host: Cullman Chris
+ tkindlmarkt Cost: Free admission and parking
 URL:https://www.cullmanchristkindlmarkt.com/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

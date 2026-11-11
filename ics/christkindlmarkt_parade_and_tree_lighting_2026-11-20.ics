@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,18 +23,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:christkindlmarkt_parade_and_tree_lighting-20261120@hanceville-enterta
- inment-shopping
-DTSTAMP:20261023T130000Z
+UID:christkindlmarkt-parade-and-tree-lighting-20261120@shoplocalhanceville.
+ github.io
+DTSTAMP:20261111T225427Z
 DTSTART;TZID=America/Chicago:20261120T183000
 DTEND;TZID=America/Chicago:20261120T210000
 SUMMARY:Christkindlmarkt Parade and Tree Lighting
-LOCATION:Downtown Cullman and Depot Park\, 107 Arnold St NW\, Cullman\, AL
-DESCRIPTION:Floats\, local bands and community groups parade through down
- town at 6:30 PM\, then the tree lighting at Depot Park starts at 8:00 PM
-  with a light show\, fireworks and a new Christmas drone show. Rain date
-  is Saturday\, Nov. 21. Time: 6:30 PM to 9:00 PM. https://www.cullmanchr
- istkindlmarkt.com/parade-tree-lighting
+LOCATION:Downtown Cullman and Depot Park\, 107 Arnold St NW\, Cullman
+DESCRIPTION:Floats\, local bands and community groups parade through downto
+ wn at 6:30 PM\, then the tree lighting at Depot Park starts at 8:00 PM wit
+ h a light show\, fireworks and a new Christmas drone show. Rain date is Sa
+ turday\, Nov. 21. Time: 6:30 PM to 9:00 PM Host: Cullman Christkindlmarkt 
+ Cost: Free
 URL:https://www.cullmanchristkindlmarkt.com/parade-tree-lighting
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

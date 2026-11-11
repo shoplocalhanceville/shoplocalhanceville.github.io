@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,20 +23,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:drive_through_food_bank_at_spirit_life_church-20261121@hanceville-ente
- rtainment-shopping
-DTSTAMP:20261109T140000Z
+UID:drive-through-food-bank-at-spirit-life-church-20261121@shoplocalhancevi
+ lle.github.io
+DTSTAMP:20261111T225427Z
 DTSTART;TZID=America/Chicago:20261121T090000
 DTEND;TZID=America/Chicago:20261121T110000
 SUMMARY:Drive Through Food Bank at Spirit Life Church
-LOCATION:Spirit Life Church\, 1650 St. Joseph Dr NW\, Cullman\, AL 35055
-DESCRIPTION:Spirit Life Church hands out free boxes of food from its drive
-  through line on the third Saturday of each month. No ID is needed\; fami
- lies fill out a one page form once a year saying they need food help\, an
- d volunteers load the box into your car. Time: 9:00 AM to 11:00 AM. Admis
- sion: Free. https://business.cullmanchamber.org/events/details/drive-thro
- ugh-food-bank-11-21-2026-23789
-URL:https://business.cullmanchamber.org/events/details/drive-through-food-
- bank-11-21-2026-23789
+LOCATION:Spirit Life Church\, 1650 St. Joseph Dr NW\, Cullman
+DESCRIPTION:Spirit Life Church hands out free boxes of food from its drive 
+ through line on the third Saturday of each month. No ID is needed\; famili
+ es fill out a one page form once a year saying they need food help\, and v
+ olunteers load the box into your car. Time: 9:00 AM to 11:00 AM Host: Spir
+ it Life Church Cost: Free
+URL:https://business.cullmanchamber.org/events/details/drive-through-food-b
+ ank-11-21-2026-23789
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

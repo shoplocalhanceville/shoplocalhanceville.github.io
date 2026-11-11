@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,17 +23,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:wallace_state_women_s_basketball_wallace_state_classic_vs_vincennes-2
- 0261120@hanceville-entertainment-shopping
-DTSTAMP:20261017T120000Z
-DTSTART;TZID=America/Chicago:20261120T140000
-DTEND;TZID=America/Chicago:20261120T160000
-SUMMARY:Wallace State Women's Basketball: Wallace State Classic vs. Vince
- nnes
-LOCATION:Wallace State\, Hanceville\, AL
-DESCRIPTION:The Wallace State Lions women's basketball team hosts Vincenn
- es in the Wallace State Classic. Time: 2:00 PM. https://athletics.wallace
- state.edu/sports/wbkb/2026-27/schedule
+UID:wallace-state-women-s-basketball-wallace-state-classic-vs-vincennes-202
+ 61120@shoplocalhanceville.github.io
+DTSTAMP:20261111T225427Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Wallace State Women's Basketball: Wallace State Classic vs. Vincenn
+ es
+LOCATION:Wallace State\, Hanceville
+DESCRIPTION:The Wallace State Lions women's basketball team hosts Vincennes
+  in the Wallace State Classic. Time: 2:00 PM Host: Wallace State Lions Ath
+ letics
 URL:https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule
+CATEGORIES:Sports
 END:VEVENT
 END:VCALENDAR

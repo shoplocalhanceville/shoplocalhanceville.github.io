@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,17 +23,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:wallace_state_women_s_basketball_wallace_state_classic_vs_chipola-202
- 61121@hanceville-entertainment-shopping
-DTSTAMP:20261017T120000Z
-DTSTART;TZID=America/Chicago:20261121T140000
-DTEND;TZID=America/Chicago:20261121T160000
-SUMMARY:Wallace State Women's Basketball: Wallace State Classic vs. Chipo
- la
-LOCATION:Wallace State\, Hanceville\, AL
-DESCRIPTION:The Lions women's basketball team wraps up the Wallace State 
- Classic at home against Chipola. Time: 2:00 PM. https://athletics.wallace
- state.edu/sports/wbkb/2026-27/schedule
+UID:wallace-state-women-s-basketball-wallace-state-classic-vs-chipola-20261
+ 121@shoplocalhanceville.github.io
+DTSTAMP:20261111T225427Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Wallace State Women's Basketball: Wallace State Classic vs. Chipola
+LOCATION:Wallace State\, Hanceville
+DESCRIPTION:The Lions women's basketball team wraps up the Wallace State Cl
+ assic at home against Chipola. Time: 2:00 PM Host: Wallace State Lions Ath
+ letics
 URL:https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule
+CATEGORIES:Sports
 END:VEVENT
 END:VCALENDAR

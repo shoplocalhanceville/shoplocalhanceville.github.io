@@ -32,12 +32,26 @@ it is a generation timestamp, not event data).
 
 Usage:
     python3 tools/emit_ics.py events.json [--out DIR] [--all]
+                                          [--no-per-event]
 
 Production windowing (Expansion execution, 2026-11-11): by default only
 events whose effective end (recorded ``end``, else ``start``) is today or
 later in America/Chicago are emitted, matching the events page's own rule
 that events drop off once they are over. ``--all`` emits every record, as
 the Pass 1 prototype did. The filter reads the same records; it edits none.
+
+Per-event downloads (Charles's decision sweep, 2026-11-11): the same run
+also writes one single-event .ics per emitted record into ``ics/`` beside
+the feed. app.js already renders an "Add to calendar" button on every
+event card linking to ``ics/<slug>_<start>.ics`` under its own slug rule
+(replicated exactly in app_slug below); this pass emits the files those
+buttons point at. Each per-event file carries the identical VEVENT lines
+(same UID, same DTSTAMP) as the feed from the same run, wrapped in its
+own VCALENDAR with the VTIMEZONE block; the feed's REFRESH-INTERVAL and
+X-PUBLISHED-TTL lines are omitted because a downloaded file is a
+snapshot, not a subscription. ``--no-per-event`` restores feed-only
+output. A per-event filename collision fails the run loudly rather than
+overwriting one event's file with another's.
 """
 
 import argparse
@@ -92,6 +106,17 @@ def to_24h(hour, minute, ampm):
 def slugify(name):
     slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
     return slug or "event"
+
+
+def app_slug(name):
+    """Filename slug exactly as app.js computes it: its slug() lowercases,
+    turns '&' into 'and', replaces each run of non-[a-z0-9] characters
+    with one space, trims, then turns spaces into underscores. Together
+    with the record's start date this is the per-event .ics filename the
+    site's own 'Add to calendar' buttons already link to."""
+    s = name.lower().replace("&", "and")
+    s = re.sub(r"[^a-z0-9]+", " ", s).strip()
+    return s.replace(" ", "_")
 
 
 def escape_text(value):
@@ -200,6 +225,8 @@ def main(argv=None):
     ap.add_argument("--out", default=".", help="output directory (default: .)")
     ap.add_argument("--all", action="store_true",
                     help="emit every record, including ended events")
+    ap.add_argument("--no-per-event", action="store_true",
+                    help="do not write the per-event ics/ download files")
     args = ap.parse_args(argv)
 
     records = json.loads(Path(args.events_json).read_text(encoding="utf-8"))
@@ -242,11 +269,13 @@ def main(argv=None):
     ]
     seen_uids = set()
     timed_count = 0
+    per_event = []  # (record, event_lines) in feed order, for ics/ files
     for r in records:
         event_lines = build_event_lines(r, dtstamp, seen_uids)
         if any(l.startswith("DTSTART;TZID") for l in event_lines):
             timed_count += 1
         logical.extend(event_lines)
+        per_event.append((r, event_lines))
     logical.append("END:VCALENDAR")
 
     physical = []
@@ -261,6 +290,33 @@ def main(argv=None):
     print(f"wrote {target} ({len(payload)} bytes)")
     print(f"events emitted: {len(records)} "
           f"(timed: {timed_count}, date-only: {len(records) - timed_count})")
+
+    if not args.no_per_event:
+        names = [f"{app_slug(r['name'])}_{r['start']}.ics" for r, _ in per_event]
+        if len(set(names)) != len(names):
+            dupes = sorted({n for n in names if names.count(n) > 1})
+            print(f"per-event filename collision(s): {dupes}", file=sys.stderr)
+            return 1
+        header = [
+            "BEGIN:VCALENDAR",
+            "VERSION:2.0",
+            f"PRODID:{PRODID}",
+            "CALSCALE:GREGORIAN",
+            "METHOD:PUBLISH",
+            f"X-WR-CALNAME:{CAL_NAME}",
+            "X-WR-TIMEZONE:America/Chicago",
+            *VTIMEZONE_LINES,
+        ]
+        ics_dir = out / "ics"
+        ics_dir.mkdir(parents=True, exist_ok=True)
+        for (r, event_lines), fname in zip(per_event, names):
+            lines = [*header, *event_lines, "END:VCALENDAR"]
+            phys = []
+            for line in lines:
+                phys.extend(fold_line(line))
+            (ics_dir / fname).write_bytes(
+                ("\r\n".join(phys) + "\r\n").encode("utf-8"))
+        print(f"per-event files written: {len(names)} in {ics_dir}")
     return 0
 
 

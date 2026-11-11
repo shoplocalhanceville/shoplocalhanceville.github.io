@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,22 +23,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cullman_veterans_hall_of_fame_dinner_and_ceremony-20261117@hanceville-
- entertainment-shopping
-DTSTAMP:20261109T120000Z
-DTSTART;TZID=America/Chicago:20261117T173000
-DTEND;TZID=America/Chicago:20261117T200000
+UID:cullman-veterans-hall-of-fame-dinner-and-ceremony-20261117@shoplocalhan
+ ceville.github.io
+DTSTAMP:20261111T225427Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
 SUMMARY:Cullman Veterans Hall of Fame Dinner and Ceremony
-LOCATION:Loft 212\, 212 4th St SW\, Cullman\, AL 35055
-DESCRIPTION:The Cullman Veterans Hall of Fame inducts its fourth class wit
- h a dinner and ceremony at Loft 212\, honoring county veterans from World
-  War II\, Vietnam and the Global War on Terror. Doors open at 5:30 PM and
-  the program starts at 6:15 PM. Each inductee receives a plaque that will
-  hang in the courthouse. Time: Doors 5:30 PM\, ceremony 6:15 PM. Admissio
- n: Dinner event\; to attend\, contact VFW Post 2214\, DAV Chapter 101 or 
- American Legion Post 4. https://www.cullmantribune.com/2026/11/07/new-mem
- bers-of-cullman-veterans-hall-of-fame-to-be-honored-nov-17/
-URL:https://www.cullmantribune.com/2026/11/07/new-members-of-cullman-veter
- ans-hall-of-fame-to-be-honored-nov-17/
+LOCATION:Loft 212\, 212 4th St SW\, Cullman
+DESCRIPTION:The Cullman Veterans Hall of Fame inducts its fourth class with
+  a dinner and ceremony at Loft 212\, honoring county veterans from World W
+ ar II\, Vietnam and the Global War on Terror. Doors open at 5:30 PM and th
+ e program starts at 6:15 PM. Each inductee receives a plaque that will han
+ g in the courthouse. Time: Doors 5:30 PM\, ceremony 6:15 PM Host: Cullman 
+ Veterans Hall of Fame (VFW Post 2214\, DAV Chapter 101\, American Legion P
+ ost 4) Cost: Dinner event\; to attend\, contact VFW Post 2214\, DAV Chapte
+ r 101 or American Legion Post 4
+URL:https://www.cullmantribune.com/2026/11/07/new-members-of-cullman-vetera
+ ns-hall-of-fame-to-be-honored-nov-17/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR
