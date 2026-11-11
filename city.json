@@ -124,7 +124,7 @@
   "source": "https://www.cityofhanceville.net/o/coh/page/storm-shelters"
  },
  {
-  "group": "Utilities and Public Works",
+  "group": "Utilities & Public Works",
   "name": "Hanceville Water and Sewer Board",
   "type": "Water and sewer",
   "summary": "The water board has served Hanceville since 1925. Call or stop by for new service, billing questions and leaks, or pay your bill online.",
@@ -135,7 +135,7 @@
   "source": "https://www.cityofhanceville.net/o/coh/page/water-department"
  },
  {
-  "group": "Utilities and Public Works",
+  "group": "Utilities & Public Works",
   "name": "Public Works Department",
   "type": "Streets and maintenance",
   "summary": "Public Works repairs and maintains city streets, picks up brush and handles street light outages. Call City Hall to report a problem.",
@@ -145,7 +145,7 @@
   "source": "https://www.cityofhanceville.net/o/coh/page/public-works"
  },
  {
-  "group": "Utilities and Public Works",
+  "group": "Utilities & Public Works",
   "name": "Cullman Electric Cooperative",
   "type": "Electric service",
   "summary": "Cullman Electric Cooperative provides power in the Hanceville area. You can pay your bill online or at the main office in Cullman.",
@@ -154,7 +154,7 @@
   "source": "https://www.cityofhanceville.net/o/coh/page/quick-information-and-how-do-i"
  },
  {
-  "group": "Utilities and Public Works",
+  "group": "Utilities & Public Works",
   "name": "Cullman Jefferson Gas",
   "type": "Natural gas service",
   "summary": "Cullman Jefferson Gas provides natural gas service in the area. Pay your bill online or visit the main office.",
