@@ -257,17 +257,17 @@ for k,v in VER.items():
     if v.get(f):P[k][f]=v[f]
 # ---------- schema.org subtype, chosen from the listing's own name, category and service text ----------
 RULES=[(r'barber','BarberShop'),(r'nail','NailSalon'),(r'salon|hair|beauty|spa\b','BeautySalon'),(r'pharmac|drug co','Pharmacy'),
- (r'pizza|bbq|barbecue|grill|restaurant|diner|kitchen|burger|taco|sushi|steak|deli|eatery|wings|subway|shrimp','Restaurant'),
+ (r'fast food','FastFoodRestaurant'),(r'pizza|bbq|barbecue|grill|restaurant|diner|kitchen|burger|taco|sushi|steak|deli|eatery|wings|subway|shrimp','Restaurant'),
  (r'coffee|barista|brew\b|cafe','CafeOrCoffeeShop'),(r'bakery|sunflour','Bakery'),(r'winery','Winery'),
- (r'church|abbey|shrine|parish|chapel|ministr|baptist|methodist|catholic|orthodox|pentecostal','Church'),
+ (r'hvac|refrigeration','HVACBusiness'),(r'child care center','ChildCare'),(r'church|abbey|shrine|parish|chapel|ministr|baptist|methodist|catholic|orthodox|pentecostal','Church'),
  (r'library','Library'),(r'high school|elementary|middle school|academy|preschool','School'),(r'college|university','CollegeOrUniversity'),
  (r'tire','TireShop'),(r'towing|wrecker','AutomotiveBusiness'),(r'auto sales|motors|car lot|dealer','AutoDealer'),
- (r'auto repair|mechanic|muffler|truck and trailer repair|service center','AutoRepair'),(r'insurance','InsuranceAgency'),
- (r'bank|credit union','BankOrCreditUnion'),(r'hotel|inn\b|motel|lodg','LodgingBusiness'),(r'rv park|campground','Campground'),
+ (r'body shop','AutoBodyShop'),(r'auto repair|mechanic|muffler|truck and trailer repair|service center','AutoRepair'),(r'bank|credit union','BankOrCreditUnion'),
+ (r'insurance','InsuranceAgency'),(r'hotel|inn\b|motel|lodg','LodgingBusiness'),(r'rv park|campground','Campground'),
  (r'storage','SelfStorage'),(r'veterinar|animal medical','VeterinaryCare'),(r'thrift','ThriftStore' ),(r'boutique|clothing','ClothingStore'),
  (r'furniture','FurnitureStore'),(r'grocer|market\b|foods','GroceryStore'),(r'park\b|stadium','Park'),
  (r'police|sheriff','PoliceStation'),(r'fire department|fire dept|fire and rescue','FireStation'),(r'city hall|department|office|commission|council|town of|city of','GovernmentOffice')]
-OK_TYPES={'BarberShop','NailSalon','BeautySalon','Pharmacy','Restaurant','CafeOrCoffeeShop','Bakery','Winery','Church','Library','School','CollegeOrUniversity','TireShop','AutomotiveBusiness','AutoDealer','AutoRepair','InsuranceAgency','BankOrCreditUnion','LodgingBusiness','Campground','SelfStorage','VeterinaryCare','ClothingStore','FurnitureStore','GroceryStore','Park','PoliceStation','FireStation','GovernmentOffice','LocalBusiness','Organization','Person','NGO'}
+OK_TYPES={'HVACBusiness','Florist','ChildCare','FastFoodRestaurant','Hotel','AutoBodyShop','Store','BarberShop','NailSalon','BeautySalon','Pharmacy','Restaurant','CafeOrCoffeeShop','Bakery','Winery','Church','Library','School','CollegeOrUniversity','TireShop','AutomotiveBusiness','AutoDealer','AutoRepair','InsuranceAgency','BankOrCreditUnion','LodgingBusiness','Campground','SelfStorage','VeterinaryCare','ClothingStore','FurnitureStore','GroceryStore','Park','PoliceStation','FireStation','GovernmentOffice','LocalBusiness','Organization','Person','NGO'}
 def stype(x):
   if x.get('schema_type'):return x['schema_type']
   k=x['kinds'][0][0]
@@ -277,7 +277,9 @@ def stype(x):
     if re.search(pat,t):return 'Store' if ty=='ThriftStore' else ty
   if k=='nonprofits':return 'NGO'
   if k in('city','departments'):return 'GovernmentOffice'
-  return 'LocalBusiness' if k in('businesses','shops','eats','index') else 'Organization'
+  if k in('businesses','shops','eats','index'):
+    print('WARNING: no schema @type rule matched',x['slug'],'('+x['name']+') - falling back to LocalBusiness');return 'LocalBusiness'
+  return 'Organization'
 def postal(a):
   m=re.match(r'^\s*(.+?),\s*([A-Za-z .]+?),\s*(AL|Alabama)\.?\s*(\d{5})?\s*$',a or '')
   if not m:return a

@@ -1,5 +1,17 @@
 {
   "_readme": "Hand-verified facts that override or extend the data files. Only add a value after checking it on an official source the same day. Every entry needs source URLs and a checked date. hours_spec feeds openingHoursSpecification in JSON-LD, so only add it when the hours come from the business itself (its site, its Facebook Page, or a listing the owner has claimed). Never add geo coordinates unless they come from an official record.",
+  "burns-florist": {
+    "schema_type": "Florist",
+    "_decision": "Gap Build 01 (2026-11-11): ItemList side already Florist; a general florist rule in the place generator would also flip Burke's Florist and Cullman Florist (measured), which are outside the decided set, so the decided type is pinned per-entity. Basis: gap_build_2026-11-10/01-schema-type-audit-fix/audit_results.json."
+  },
+  "hagar-guitars-llc": {
+    "schema_type": "Store",
+    "_decision": "Gap Build 01 (2026-11-11): a general guitar rule would also flip the separate hagar-guitars shops record (measured), outside the decided set, so the decided type is pinned per-entity. Basis: gap_build_2026-11-10/01-schema-type-audit-fix/audit_results.json."
+  },
+  "quality-inn": {
+    "schema_type": "Hotel",
+    "_decision": "Gap Build 01 (2026-11-11): ItemList side already Hotel; the place generator's lodging rule emits LodgingBusiness for all 7 lodging records (measured), and only Quality Inn's type was decided, so the decided type is pinned per-entity. Basis: gap_build_2026-11-10/01-schema-type-audit-fix/audit_results.json."
+  },
   "cut-n-up-barber-and-style": {
     "schema_type": "BarberShop",
     "facebook": "https://www.facebook.com/cutntnupbarberandstyle/",
