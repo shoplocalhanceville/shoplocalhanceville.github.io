@@ -158,8 +158,6 @@
         "document-latency-insight": "warn",
         "image-delivery-insight": "warn",
         "network-dependency-tree-insight": "warn",
-        "uses-responsive-images": "warn",
-        "uses-text-compression": "warn",
         "valid-source-maps": "warn",
         "unused-css-rules": "warn",
         "unused-javascript": "warn"
