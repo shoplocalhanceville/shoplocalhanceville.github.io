@@ -200,8 +200,8 @@ def _addr(a):
     return o
   return None
 def _btype(e):
-  s=(e.get('service') or e.get('type') or '').lower();c=e.get('category','')
-  for k,t in [('fast food','FastFoodRestaurant'),('coffee','CafeOrCoffeeShop'),('restaurant','Restaurant'),('cafe','CafeOrCoffeeShop'),('taqueria','Restaurant'),('pizza','Restaurant'),('sandwich','Restaurant'),('smoothie','FoodEstablishment'),('barber','HairSalon'),('car dealer','AutoDealer'),('truck dealer','AutoDealer'),('body shop','AutoBodyShop'),('tire','TireShop'),('auto repair','AutoRepair'),('hvac','HVACBusiness'),('pharmacy','Pharmacy'),('veterinar','VeterinaryCare'),('child care','ChildCare'),('bank','BankOrCreditUnion'),('insurance','InsuranceAgency'),('florist','Florist'),('hotel','Hotel'),('shrine','PlaceOfWorship'),('roastery','CafeOrCoffeeShop'),('vintage','ClothingStore'),('guitar','Store')]:
+  s=((e.get('name') or '')+' '+(e.get('service') or e.get('type') or '')).lower();c=e.get('category','')
+  for k,t in [('fast food','FastFoodRestaurant'),('coffee','CafeOrCoffeeShop'),('restaurant','Restaurant'),('cafe','CafeOrCoffeeShop'),('taqueria','Restaurant'),('pizza','Restaurant'),('sandwich','Restaurant'),('smoothie','CafeOrCoffeeShop'),('barber','BarberShop'),('car dealer','AutoDealer'),('truck dealer','AutoDealer'),('body shop','AutoBodyShop'),('tire','TireShop'),('auto repair','AutoRepair'),('hvac','HVACBusiness'),('pharmacy','Pharmacy'),('veterinar','VeterinaryCare'),('child care','ChildCare'),('bank','BankOrCreditUnion'),('insurance','InsuranceAgency'),('florist','Florist'),('hotel','Hotel'),('shrine','Church'),('roastery','CafeOrCoffeeShop'),('vintage','ClothingStore'),('guitar','Store')]:
     if k in s:return 'Restaurant' if (t=='CafeOrCoffeeShop' and c=='Restaurants') else t
   if c=='Restaurants':return 'Restaurant'
   return 'LocalBusiness'
