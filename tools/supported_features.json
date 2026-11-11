@@ -1,0 +1,18 @@
+{
+ "_about": "Google rich-result features as currently supported, pinned 2026-11-10. Source: Google Search Central, 'Structured data markup that Google Search supports' (search gallery), last updated 2026-10-16 UTC, read 2026-11-10. The gallery lists 25 features. Only features this site's markup can plausibly target are mapped to schema types below; the full gallery list is recorded for the drift check. Eligibility is not display: Google does not guarantee a rich result for valid markup.",
+ "_gallery_2026-10-16": ["Article","Breadcrumb","Carousel","Course list","Dataset","Discussion forum","Education Q&A","Employer aggregate rating","Event","Image metadata","Job posting","Local business","Math solver","Movie","Organization","Product","Profile page","Q&A","Recipe","Review snippet","Software app","Speakable","Subscription and paywalled content","Vacation rental","Video"],
+ "supported": {
+  "Article": {"types": ["NewsArticle","Article","BlogPosting"], "note": "NewsArticle maps to the Article feature."},
+  "Breadcrumb": {"types": ["BreadcrumbList"]},
+  "Event": {"types": ["Event"]},
+  "Local business": {"types": ["LocalBusiness","Restaurant","Store","AutoRepair","BarberShop","BeautySalon","Bakery","CafeOrCoffeeShop","GroceryStore","Hotel","LodgingBusiness"], "note": "Mapped for the LocalBusiness family generally; the validator applies this at the family level, not per subtype."},
+  "Organization": {"types": ["Organization","GovernmentOrganization","NGO"]},
+  "Profile page": {"types": ["Person","Organization"], "note": "Only where the page is primarily about that person/organization."},
+  "Image metadata": {"types": ["ImageObject"]}
+ },
+ "retired": {
+  "FAQPage": {"feature": "FAQ rich result", "status": "valid schema, rich result retired 2026-05", "detail": "Google stopped showing FAQ rich results on 2026-05-07; FAQ documentation, Search Console report and Rich Results Test support were removed in June 2026. FAQPage remains a valid schema.org type (schema.org/FAQPage, a WebPage subtype). Markup aimed at this feature is drift: warn, do not fail.", "emitted_by_this_site_2026-11-10": false},
+  "HowTo": {"feature": "HowTo rich result", "status": "valid schema, rich result retired 2023-09", "detail": "Removed from mobile 2023-08 and desktop 2023-09. Valid schema.org vocabulary.", "emitted_by_this_site_2026-11-10": false}
+ },
+ "_maintenance": "Review when the standards watch notes a Google Search Central changelog entry touching structured data, or at most quarterly. One file, ~30 minutes per review."
+}
