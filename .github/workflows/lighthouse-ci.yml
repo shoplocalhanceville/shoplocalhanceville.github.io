@@ -47,6 +47,8 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 20
+      - name: Validate structured data (errors fail the gate, drift warns)
+        run: python3 tools/sd_validate.py . --vocab tools/vocabulary_subset.json --features tools/supported_features.json --out sd-report.json
       - name: "Install Lighthouse CI (pinned: lhci 0.15.1, Lighthouse 12.6.1)"
         run: npm install -g @lhci/cli@0.15.1
       - name: Run Lighthouse CI (desktop)
@@ -59,4 +61,6 @@ jobs:
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: lighthouse-reports
-          path: lhci-reports
+          path: |
+            lhci-reports
+            sd-report.json
