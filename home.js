@@ -20,6 +20,25 @@ document.getElementById("themeToggle").addEventListener("click",function(){
   try{localStorage.setItem("hes-theme",cur);}catch(e){}
   paintToggle();});
 function idle(fn){if(window.requestIdleCallback)requestIdleCallback(fn,{timeout:1500});else setTimeout(fn,0);}
+/* A2 L3 scratch change (2026-11-11, staging only): variants-manifest.js is
+   no longer a parser-discovered deferred script in index.html. It is
+   fetched from here instead, starting as soon as this file runs, and every
+   card-rendering path waits for it to settle (loaded or failed) before it
+   renders, which is the same guarantee the old script order gave:
+   variantize() always saw the manifest, or its absence on a failed load,
+   exactly as before. On failure the promise still resolves and
+   variantize() falls back to the plain img, as its existing guard does. */
+var variantsSettled=false,variantsPromise=null;
+function ensureVariants(){
+  if(window.SLH_VARIANTS){variantsSettled=true;return Promise.resolve();}
+  if(!variantsPromise){variantsPromise=new Promise(function(res){
+    var s=document.createElement("script");s.src="variants-manifest.js";
+    s.onload=function(){variantsSettled=true;res();};
+    s.onerror=function(){variantsSettled=true;res();};
+    document.head.appendChild(s);});}
+  return variantsPromise;
+}
+ensureVariants();
 var L=window.SLH_LISTINGS||[];
 function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
 function favs(){try{return JSON.parse(localStorage.getItem("slh-favs")||"[]");}catch(e){return[];}}
@@ -140,6 +159,7 @@ function loadEmbed(art,r){
     b.textContent="Open on Facebook";box.appendChild(p);box.appendChild(b);},9000);
 }
 function apply(scroll){
+  if(!variantsSettled){ensureVariants().then(function(){apply(scroll);});return;}
   bootApplied=true;
   var term=norm(q.value||"").replace(/\bnear me\b/g," ").trim();
   if(SYN[term])term=SYN[term];
@@ -295,14 +315,15 @@ document.getElementById("zClose").addEventListener("click",function(){dlg.close(
 document.getElementById("toTop").addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
 var bootApplied=false;
 function bootApply(){if(bootApplied)return;bootApplied=true;apply(false);}
-idle(bootApply);
+idle(function(){ensureVariants().then(bootApply);});
 var h0=location.hash.slice(1);
 if(h0){var tgt=null;
   for(var hi=0;hi<L.length;hi++){if(slug(L[hi].name)===h0){tgt=L[hi];break;}}
-  if(tgt){q.value="";catSel.value="";townFilter="";savedOnly.checked=false;bootApply();
+  if(tgt){q.value="";catSel.value="";townFilter="";savedOnly.checked=false;
+    ensureVariants().then(function(){bootApply();
     var el=document.getElementById(h0);
     while(!el&&shown<filtered.length){renderMore();el=document.getElementById(h0);}
-    if(el)setTimeout(function(){el.scrollIntoView({block:"center"});el.style.outline="3px solid var(--purple)";},80);}}
+    if(el)setTimeout(function(){el.scrollIntoView({block:"center"});el.style.outline="3px solid var(--purple)";},80);});}}
 })();
 }catch(e){if(window.console)console.error(e);}
 try{
