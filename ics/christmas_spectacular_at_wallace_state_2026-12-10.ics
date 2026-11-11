@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,19 +23,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:christmas_spectacular_at_wallace_state-20261210@hanceville-entertainm
- ent-shopping
-DTSTAMP:20261023T120000Z
-DTSTART;TZID=America/Chicago:20261210T190000
-DTEND;TZID=America/Chicago:20261210T210000
+UID:christmas-spectacular-at-wallace-state-20261210@shoplocalhanceville.git
+ hub.io
+DTSTAMP:20261111T225427Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
 SUMMARY:Christmas Spectacular at Wallace State
-LOCATION:Betty Leeth Haynes Theatre\, Wallace State\, 801 Main Street NW\
- , Hanceville\, AL
-DESCRIPTION:Every Wallace State performing arts group shares the stage fo
- r a holiday concert. Time: 7:00 PM. https://www.cullmantribune.com/2026/
- 10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-seas
- on/
-URL:https://www.cullmantribune.com/2026/10/21/wallace-state-releases-perf
- orming-arts-schedule-for-2026-2027-season/
+LOCATION:Betty Leeth Haynes Theatre\, Wallace State\, 801 Main Street NW\, 
+ Hanceville
+DESCRIPTION:Every Wallace State performing arts group shares the stage for 
+ a holiday concert. Time: 7:00 PM Host: Wallace State Fine and Performing A
+ rts Cost: Free
+URL:https://www.cullmantribune.com/2026/10/21/wallace-state-releases-perfor
+ ming-arts-schedule-for-2026-2027-season/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

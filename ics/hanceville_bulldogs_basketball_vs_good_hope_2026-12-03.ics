@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,18 +23,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:hanceville_bulldogs_basketball_vs_good_hope-20261203@hanceville-enter
- tainment-shopping
-DTSTAMP:20261017T120000Z
-DTSTART;TZID=America/Chicago:20261203T194500
-DTEND;TZID=America/Chicago:20261203T214500
+UID:hanceville-bulldogs-basketball-vs-good-hope-20261203@shoplocalhancevill
+ e.github.io
+DTSTAMP:20261111T225427Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
 SUMMARY:Hanceville Bulldogs Basketball vs. Good Hope
-LOCATION:Hanceville High School\, Hanceville\, AL
-DESCRIPTION:The Bulldogs host Good Hope in the Hanceville High gym. Bring
-  the family and wear your purple. Time: 7:45 PM (varsity boys tip off). h
- ttps://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/sche
- dule/
-URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball
- /schedule/
+LOCATION:Hanceville High School\, Hanceville
+DESCRIPTION:The Bulldogs host Good Hope in the Hanceville High gym. Bring t
+ he family and wear your purple. Time: 7:45 PM (varsity boys tip off) Host:
+  Hanceville High School Bulldogs
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
 END:VEVENT
 END:VCALENDAR

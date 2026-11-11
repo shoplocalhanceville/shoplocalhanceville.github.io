@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,17 +23,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:hanceville_holly_market-20261205@hanceville-entertainment-shopping
-DTSTAMP:20261017T120000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
+UID:hanceville-holly-market-20261205@shoplocalhanceville.github.io
+DTSTAMP:20261111T225427Z
+DTSTART;TZID=America/Chicago:20261205T090000
+DTEND;TZID=America/Chicago:20261205T170000
 SUMMARY:Hanceville Holly Market
-LOCATION:Hanceville Civic Center\, 902 Commercial St\, Hanceville\, AL
-DESCRIPTION:An indoor holiday market with handmade gifts\, boutiques\, cr
- afts and holiday treats. Get your Christmas shopping done close to home. 
- https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-coming-
- this-december-vendors-needed/
-URL:https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-com
- ing-this-december-vendors-needed/
+LOCATION:Hanceville Civic Center\, 902 Commercial St\, Hanceville
+DESCRIPTION:An indoor holiday market with handmade gifts\, boutiques\, craf
+ ts and holiday treats. Get your Christmas shopping done close to home. Tim
+ e: 9:00 AM to 5:00 PM Host: Hanceville Parks and Recreation
+URL:https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-comin
+ g-this-december-vendors-needed/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

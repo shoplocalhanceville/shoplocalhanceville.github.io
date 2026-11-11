@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,24 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cullman_regional_lights_of_love_ceremony-20261208@hanceville-entertain
- ment-shopping
-DTSTAMP:20261106T190000Z
-DTSTART;TZID=America/Chicago:20261208T180000
-DTEND;TZID=America/Chicago:20261208T193000
+UID:cullman-regional-lights-of-love-ceremony-20261208@shoplocalhanceville.g
+ ithub.io
+DTSTAMP:20261111T225427Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
 SUMMARY:Cullman Regional Lights of Love Ceremony
-LOCATION:St. John's Evangelical Protestant Church\, Christ Hall\, 512 2nd 
- Ave SE\, Cullman\, AL 35055
-DESCRIPTION:The Cullman Regional Foundation Dr. Herman C. Ensor Lights of 
- Love Ceremony is Tuesday\, Dec. 8 at 6 p.m. in Christ Hall at St. John's 
- Evangelical Protestant Church. Gifts of $20 or more place a light on the 
- Cullman Regional Christmas tree in honor or memory of someone\, with dona
- tions received by Dec. 4 included in the ceremony. This year's program ho
- nors hospice patients and retired surgeon Dr. Donald Marecle. Time: 6:00 
- PM. Admission: Open to the public\; lights on the tree start at a $20 gif
- t. https://cullmantimes.com/2026/11/06/lights-of-love-ceremony-returns-de
- c-8/
-URL:https://cullmantimes.com/2026/11/06/lights-of-love-ceremony-returns-de
- c-8/
+LOCATION:St. John's Evangelical Protestant Church\, Christ Hall\, 512 2nd A
+ ve SE\, Cullman
+DESCRIPTION:The Cullman Regional Foundation Dr. Herman C. Ensor Lights of L
+ ove Ceremony is Tuesday\, Dec. 8 at 6 p.m. in Christ Hall at St. John's Ev
+ angelical Protestant Church. Gifts of $20 or more place a light on the Cul
+ lman Regional Christmas tree in honor or memory of someone\, with donation
+ s received by Dec. 4 included in the ceremony. This year's program honors 
+ hospice patients and retired surgeon Dr. Donald Marecle. Time: 6:00 PM Hos
+ t: Cullman Regional Foundation Cost: Open to the public\; lights on the tr
+ ee start at a $20 gift
+URL:https://cullmantimes.com/2026/11/06/lights-of-love-ceremony-returns-dec
+ -8/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

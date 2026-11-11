@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,22 +23,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cullman_christmas_open_house-20261113@hanceville-entertainment-shoppin
- g
-DTSTAMP:20261109T140000Z
+UID:cullman-christmas-open-house-20261113@shoplocalhanceville.github.io
+DTSTAMP:20261111T225427Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Cullman Christmas Open House
-LOCATION:Cullman Area Chamber of Commerce\, 301 2nd Ave SW\, Cullman\, AL 
- 35055
-DESCRIPTION:Cullman's Christmas Open House weekend starts Friday with Sant
- a at the Chamber from 4 to 6 PM while families pick up free Cookie Crawl 
- boxes\, one per family. Saturday's Cookie Crawl runs 10 AM to 2 PM at par
- ticipating Chamber member shops\, and Sunday brings a Christmas Pickle Hu
- nt with prizes. Time: Santa and Cookie Crawl box pickup 4:00 PM to 6:00 P
- M Nov 13\; Cookie Crawl 10:00 AM to 2:00 PM Nov 14\; Christmas Pickle Hun
- t Nov 15. Admission: Free. https://www.cullmanchamber.org/news-events/sig
- nature-events/
+LOCATION:Cullman Area Chamber of Commerce\, 301 2nd Ave SW\, Cullman
+DESCRIPTION:Cullman's Christmas Open House weekend starts Friday with Santa
+  at the Chamber from 4 to 6 PM while families pick up free Cookie Crawl bo
+ xes\, one per family. Saturday's Cookie Crawl runs 10 AM to 2 PM at partic
+ ipating Chamber member shops\, and Sunday brings a Christmas Pickle Hunt w
+ ith prizes. Time: Santa and Cookie Crawl box pickup 4:00 PM to 6:00 PM Nov
+  13\; Cookie Crawl 10:00 AM to 2:00 PM Nov 14\; Christmas Pickle Hunt Nov 
+ 15 Host: Cullman Area Chamber of Commerce and Visitor Center Cost: Free
 URL:https://www.cullmanchamber.org/news-events/signature-events/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

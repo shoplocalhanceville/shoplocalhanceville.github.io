@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,19 +23,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:christmas_at_the_grotto-20261119@hanceville-entertainment-shopping
-DTSTAMP:20261030T160000Z
+UID:christmas-at-the-grotto-20261119@shoplocalhanceville.github.io
+DTSTAMP:20261111T225427Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261228
 SUMMARY:Christmas at the Grotto
-LOCATION:Ave Maria Grotto\, 1600 St. Bernard Dr SE\, Cullman\, AL
-DESCRIPTION:Brother Joseph Zoettl's miniature shrines glow under holiday l
- ights with music\, food and family fun. Santa\, $7 horse drawn wagon ride
- s\, live music and food trucks are planned for the special weekend of Dec
- . 11 and 12. Time: Nov. 19 to 22\, Nov. 27 to 29\, Dec. 3 to 6\, Dec. 10 
- to 23 and Dec. 26 to 27\; 9:00 AM to 9:00 PM Monday to Saturday\, 12:00 P
- M to 9:00 PM Sunday\; lights on at 5:00 PM. https://www.avemariagrotto.co
- m/
+LOCATION:Ave Maria Grotto\, 1600 St. Bernard Dr SE\, Cullman
+DESCRIPTION:Brother Joseph Zoettl's miniature shrines glow under holiday li
+ ghts with music\, food and family fun. Santa\, $7 horse drawn wagon rides\
+ , live music and food trucks are planned for the special weekend of Dec. 1
+ 1 and 12. Time: Nov. 19 to 22\, Nov. 27 to 29\, Dec. 3 to 6\, Dec. 10 to 2
+ 3 and Dec. 26 to 27\; 9:00 AM to 9:00 PM Monday to Saturday\, 12:00 PM to 
+ 9:00 PM Sunday\; lights on at 5:00 PM Host: Ave Maria Grotto Cost: Adults 
+ $12\, seniors and teens $10\, kids 5 to 12 and military $9\, under 4 free
 URL:https://www.avemariagrotto.com/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,21 +23,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:festival_of_trees_at_the_cullman_wellness_and_aquatic_center-20261203
- @hanceville-entertainment-shopping
-DTSTAMP:20261023T190000Z
+UID:festival-of-trees-at-the-cullman-wellness-and-aquatic-center-20261203@s
+ hoplocalhanceville.github.io
+DTSTAMP:20261111T225427Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261228
 SUMMARY:Festival of Trees at the Cullman Wellness and Aquatic Center
-LOCATION:Cullman Wellness and Aquatic Center\, 1636 Field of Miracles Dri
- ve SW\, AL
-DESCRIPTION:Christmas trees decorated by students from local public and p
- rivate schools and the Cullman County Public Library fill the CWAC foyer
- . Judging is Dec. 3 at 1 p.m. with the opening ceremony at 5 p.m. Time: 
- Opening ceremony Dec. 3 at 5:00 PM\; trees on display Dec. 4 to 27 durin
- g regular center hours. https://cullmantimes.com/2026/10/22/cullman-tree
- -commission-prepares-for-2026-festival-of-trees/
-URL:https://cullmantimes.com/2026/10/22/cullman-tree-commission-prepares-
- for-2026-festival-of-trees/
+LOCATION:Cullman Wellness and Aquatic Center\, 1636 Field of Miracles Drive
+  SW\, Cullman
+DESCRIPTION:Christmas trees decorated by students from local public and pri
+ vate schools and the Cullman County Public Library fill the CWAC foyer. Ju
+ dging is Dec. 3 at 1 p.m. with the opening ceremony at 5 p.m. Time: Openin
+ g ceremony Dec. 3 at 5:00 PM\; trees on display Dec. 4 to 27 during regula
+ r center hours Host: City of Cullman Tree Commission Cost: Free
+URL:https://cullmantimes.com/2026/10/22/cullman-tree-commission-prepares-fo
+ r-2026-festival-of-trees/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR
