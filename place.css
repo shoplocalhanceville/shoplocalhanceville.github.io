@@ -29,3 +29,15 @@
 .pl-tabs a[aria-current="page"]{background:var(--purple,#6d28d9);color:#fff}
 
 @media (forced-colors:active){.pl-tabs a[aria-current="page"]{outline:2px solid ButtonText;outline-offset:-2px}}
+
+/* Enhanced click-to-load Facebook facade (Expansion Pass 1 item 1, applied 2026-11-11).
+   Reserves the same 600px height the injected iframe will occupy, so loading
+   the feed on click does not move the content below it. Black/purple/white. */
+.fb-facade-pro{box-sizing:border-box;min-height:602px;max-width:500px;margin:0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6rem;text-align:center;padding:1.5rem 1rem;border:1px solid #d9d2e8;border-radius:12px;background:#0d0d0f;color:#fff}
+.fb-facade-pro .fbpro-logo{width:72px;height:72px;border-radius:50%;background:#fff;object-fit:cover}
+.fb-facade-pro .fbpro-mark{display:flex;align-items:center;justify-content:center;width:72px;height:72px;border-radius:50%;background:#6d28d9;color:#fff;font-size:2rem;font-weight:700}
+.fb-facade-pro .fbpro-name{margin:0;font-size:1.15rem;font-weight:700}
+.fb-facade-pro .fbpro-note{margin:0;max-width:38ch;color:#C9C2DC}
+.fb-facade-pro .fbpro-hint{margin:0;font-size:.85rem;color:#C9C2DC}
+.fb-facade-pro .fb-load{cursor:pointer}
+.fb-facade-pro iframe{width:100%;max-width:500px;height:600px;border:0;display:block;margin:0 auto}
