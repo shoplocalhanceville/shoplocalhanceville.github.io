@@ -400,7 +400,9 @@ def place(x,prev,nxt):
     if x.get('facebook'):b+=f'<li><a href="{E(x["facebook"])}" target="_blank" rel="noopener noreferrer">Facebook Page</a></li>'
     if x.get('website') and 'facebook.com' not in x['website']:b+=f'<li><a href="{E(x["website"])}" target="_blank" rel="noopener noreferrer">Official website</a></li>'
     b+='</ul></section>'
-    if x.get('facebook'):b+=f'<section class="pl-sec"><h2>Latest from Facebook</h2><p>The feed loads from Facebook only when you ask for it, which keeps this page fast and private until you choose to see it.</p><div class="fb-facade" data-href="{E(x["facebook"])}"><button type="button" class="btn fb-load">Show latest Facebook posts</button></div></section>'
+    if x.get('facebook'):
+      fbimg=f'<img class="fbpro-logo" src="{E(x["logo"])}" alt="" width="72" height="72" decoding="async">' if x.get('logo') else f'<span class="fbpro-mark" aria-hidden="true">{E(x["name"].strip()[:1].upper())}</span>'
+      b+=f'<section class="pl-sec"><h2>Latest from Facebook</h2><p>The feed loads from Facebook only when you ask for it, which keeps this page fast and private until you choose to see it.</p><div class="fb-facade-pro" data-href="{E(x["facebook"])}">{fbimg}<p class="fbpro-name">{E(n)} on Facebook</p><p class="fbpro-note">Latest posts from this Facebook Page. Nothing loads from Facebook until you tap the button.</p><button type="button" class="btn fb-load">Load Facebook feed</button><p class="fbpro-hint">Loads the Facebook Page plugin (facebook.com) in this space.</p></div></section>'
     page('social',b)
   if 'media' in tabs:
     page('media',f'<section class="pl-sec"><h2>Photos of {E(n)}</h2>'+pic(x["photo"],f'<img src="{E(x["photo"])}" alt="{E(n)}" loading="lazy" decoding="async" width="240" height="240">','240px')+'</section>')
