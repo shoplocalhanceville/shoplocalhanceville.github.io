@@ -1,0 +1,23 @@
+# For the website repo (shoplocalhanceville.github.io), at
+# .github/dependabot.yml. Applied 2026-11-11 under Charles Adams's batch
+# approval of Expansion Pass 1. Staged 2026-11-10, Pass 1 Item 3 (Lane 7).
+#
+# Purpose: keep the SHA-pinned GitHub Actions in .github/workflows/
+# current. Dependabot's github-actions updates bump both the commit SHA
+# and the version comment together, which is what makes SHA pinning
+# sustainable instead of freezing the gate on old action versions.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/Chicago"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "dependencies"
+      - "github-actions"
