@@ -593,6 +593,11 @@ news_sitemap()
 # pass, from the same story records as the story pages and news sitemap.
 # The feeds are never hand-maintained; see tools/emit_feed.py.
 subprocess.run(['python3','tools/emit_feed.py','news.json','--out','.'],check=True)
+# --- Event subscriptions (Expansion Pass 1 item 5, applied 2026-11-11) ---
+# Emits events.ics from events.json in this same pass, under the
+# records-only rule: verbatim times, no invented ends or durations.
+# See tools/emit_ics.py.
+subprocess.run(['python3','tools/emit_ics.py','events.json','--out','.'],check=True)
 json.dump({x['slug']:1 for x in P.values()},open('places.json','w'),separators=(',',':'))
 print(len(P),'places',len(CATS),'categories',len(pages),'generated pages')
 subprocess.run(['python3','tools/footer.py'],check=True)
