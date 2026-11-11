@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,21 +23,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:lion_s_pride_fall_vex_iq_robotics_tournament-20261114@hanceville-ente
- rtainment-shopping
-DTSTAMP:20261023T230000Z
+UID:lion-s-pride-fall-vex-iq-robotics-tournament-20261114@shoplocalhancevil
+ le.github.io
+DTSTAMP:20261111T225427Z
 DTSTART;TZID=America/Chicago:20261114T080000
 DTEND;TZID=America/Chicago:20261114T160000
 SUMMARY:Lion's Pride Fall VEX IQ Robotics Tournament
-LOCATION:Wallace State Community College\, 801 Main St NW\, Hanceville\, 
- AL
-DESCRIPTION:Elementary and middle school robotics teams from across Alaba
- ma bring their VEX IQ robots to Wallace State for a full day of qualifyi
- ng matches\, skills runs\, finals and awards. Doors and pits open at 8:0
- 0 AM\, matches start at 9:15 AM\, and finals begin around 3:00 PM. Time:
-  8:00 AM to 4:00 PM. https://events.vex.com/robot-competitions/vex-iq-co
- mpetition/VE-IQ-26-65828.html
-URL:https://events.vex.com/robot-competitions/vex-iq-competition/VE-IQ-26
- -65828.html
+LOCATION:Wallace State Community College\, 801 Main St NW\, Hanceville
+DESCRIPTION:Elementary and middle school robotics teams from across Alabama
+  bring their VEX IQ robots to Wallace State for a full day of qualifying m
+ atches\, skills runs\, finals and awards. Doors and pits open at 8:00 AM\,
+  matches start at 9:15 AM\, and finals begin around 3:00 PM. Time: 8:00 AM
+  to 4:00 PM Host: Wallace State Community College Cost: Free to watch\; te
+ am registration through VEX
+URL:https://events.vex.com/robot-competitions/vex-iq-competition/VE-IQ-26-6
+ 5828.html
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

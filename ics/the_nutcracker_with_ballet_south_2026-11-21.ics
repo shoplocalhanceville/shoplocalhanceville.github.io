@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,19 +23,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:the_nutcracker_with_ballet_south-20261121@hanceville-entertainment-sh
- opping
-DTSTAMP:20261023T120000Z
+UID:the-nutcracker-with-ballet-south-20261121@shoplocalhanceville.github.io
+DTSTAMP:20261111T225427Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:The Nutcracker with Ballet South
-LOCATION:Betty Leeth Haynes Theatre\, Wallace State\, 801 Main Street NW\
- , Hanceville\, AL
-DESCRIPTION:Ballet South brings its yearly Nutcracker to Wallace State\, 
- following Clara's dream through the Land of Sweets. Time: 2:00 PM and 7:
- 00 PM Nov 21\; 2:00 PM Nov 22. https://www.cullmantribune.com/2026/10/21
- /wallace-state-releases-performing-arts-schedule-for-2026-2027-season/
-URL:https://www.cullmantribune.com/2026/10/21/wallace-state-releases-perf
- orming-arts-schedule-for-2026-2027-season/
+LOCATION:Betty Leeth Haynes Theatre\, Wallace State\, 801 Main Street NW\, 
+ Hanceville
+DESCRIPTION:Ballet South brings its yearly Nutcracker to Wallace State\, fo
+ llowing Clara's dream through the Land of Sweets. Time: 2:00 PM and 7:00 P
+ M Nov 21\; 2:00 PM Nov 22 Host: Ballet South at Wallace State Cost: $15 ad
+ ults\, $10 children
+URL:https://www.cullmantribune.com/2026/10/21/wallace-state-releases-perfor
+ ming-arts-schedule-for-2026-2027-season/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR

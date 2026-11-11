@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hanceville Entertainment and Shopping//Events//EN
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
 BEGIN:VTIMEZONE
 TZID:America/Chicago
 BEGIN:DAYLIGHT
@@ -21,21 +23,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:vinemont_band_booster_winter_craft_show-20261120@hanceville-entertainm
- ent-shopping
-DTSTAMP:20261030T150000Z
+UID:vinemont-band-booster-winter-craft-show-20261120@shoplocalhanceville.gi
+ thub.io
+DTSTAMP:20261111T225427Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:Vinemont Band Booster Winter Craft Show
-LOCATION:Cullman Church of Christ\, 4345 Alabama Highway 157\, Cullman\, A
- L
-DESCRIPTION:Get a head start on Christmas shopping with local craft and fo
- od vendors\, from handmade gifts to fresh sourdough\, while supporting th
- e Vinemont High School Marching Eagle Band. Time: 9:00 AM to 5:00 PM Nov 
- 20\; 9:00 AM to 4:00 PM Nov 21. https://www.cullmantribune.com/2026/10/18
- /vendor-spots-available-for-vinemont-band-booster-winter-craft-show-nov-2
- 0-21/
-URL:https://www.cullmantribune.com/2026/10/18/vendor-spots-available-for-v
- inemont-band-booster-winter-craft-show-nov-20-21/
+LOCATION:Cullman Church of Christ\, 4345 Alabama Highway 157\, Cullman
+DESCRIPTION:Get a head start on Christmas shopping with local craft and foo
+ d vendors\, from handmade gifts to fresh sourdough\, while supporting the 
+ Vinemont High School Marching Eagle Band. Time: 9:00 AM to 5:00 PM Nov 20\
+ ; 9:00 AM to 4:00 PM Nov 21 Host: Vinemont Band Boosters
+URL:https://www.cullmantribune.com/2026/10/18/vendor-spots-available-for-vi
+ nemont-band-booster-winter-craft-show-nov-20-21/
+CATEGORIES:Community and Fun
 END:VEVENT
 END:VCALENDAR
