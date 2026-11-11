@@ -259,12 +259,12 @@ for k,v in VER.items():
 RULES=[(r'barber','BarberShop'),(r'nail','NailSalon'),(r'salon|hair|beauty|spa\b','BeautySalon'),(r'pharmac|drug co','Pharmacy'),
  (r'fast food','FastFoodRestaurant'),(r'pizza|bbq|barbecue|grill|restaurant|diner|kitchen|burger|taco|sushi|steak|deli|eatery|wings|subway|shrimp','Restaurant'),
  (r'coffee|barista|brew\b|cafe','CafeOrCoffeeShop'),(r'bakery|sunflour','Bakery'),(r'winery','Winery'),
- (r'hvac|refrigeration','HVACBusiness'),(r'child care center','ChildCare'),(r'church|abbey|shrine|parish|chapel|ministr|baptist|methodist|catholic|orthodox|pentecostal','Church'),
+ (r'florist','Florist'),(r'hvac|refrigeration|air conditioning','HVACBusiness'),(r'child care center','ChildCare'),(r'church|abbey|shrine|parish|chapel|ministr|baptist|methodist|catholic|orthodox|pentecostal','Church'),
  (r'library','Library'),(r'high school|elementary|middle school|academy|preschool','School'),(r'college|university','CollegeOrUniversity'),
  (r'tire','TireShop'),(r'towing|wrecker','AutomotiveBusiness'),(r'auto sales|motors|car lot|dealer','AutoDealer'),
  (r'body shop','AutoBodyShop'),(r'auto repair|mechanic|muffler|truck and trailer repair|service center','AutoRepair'),(r'bank|credit union','BankOrCreditUnion'),
  (r'insurance','InsuranceAgency'),(r'hotel|inn\b|motel|lodg','LodgingBusiness'),(r'rv park|campground','Campground'),
- (r'storage','SelfStorage'),(r'veterinar|animal medical','VeterinaryCare'),(r'thrift','ThriftStore' ),(r'boutique|clothing','ClothingStore'),
+ (r'storage','SelfStorage'),(r'veterinar|animal medical','VeterinaryCare'),(r'thrift','ThriftStore' ),(r'guitar','Store'),(r'boutique|clothing','ClothingStore'),
  (r'furniture','FurnitureStore'),(r'grocer|market\b|foods','GroceryStore'),(r'park\b|stadium','Park'),
  (r'police|sheriff','PoliceStation'),(r'fire department|fire dept|fire and rescue','FireStation'),(r'city hall|department|office|commission|council|town of|city of','GovernmentOffice')]
 OK_TYPES={'HVACBusiness','Florist','ChildCare','FastFoodRestaurant','Hotel','AutoBodyShop','Store','BarberShop','NailSalon','BeautySalon','Pharmacy','Restaurant','CafeOrCoffeeShop','Bakery','Winery','Church','Library','School','CollegeOrUniversity','TireShop','AutomotiveBusiness','AutoDealer','AutoRepair','InsuranceAgency','BankOrCreditUnion','LodgingBusiness','Campground','SelfStorage','VeterinaryCare','ClothingStore','FurnitureStore','GroceryStore','Park','PoliceStation','FireStation','GovernmentOffice','LocalBusiness','Organization','Person','NGO'}

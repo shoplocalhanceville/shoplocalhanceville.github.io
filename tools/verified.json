@@ -111,5 +111,25 @@
       }
     ],
     "verified": "2026-11-03"
+  },
+  "cobblestone-hotel-suites-cullman": {
+    "schema_type": "Hotel",
+    "_decision": "Schema Type Extension (2026-11-11): the lodging rule emits LodgingBusiness for all 7 lodging records (measured); the rule is not flipped to Hotel because it also governs the Lodging & Campgrounds finder record, which is not a hotel (held, see EXTENSION_PACKAGE.md). Hotel pinned per-entity, following the Quality Inn precedent. Evidence: the entity's own listing describes Cobblestone Hotel & Suites, Cullman as a hotel off I-65 Exit 305."
+  },
+  "days-inn-by-wyndham-cullman": {
+    "schema_type": "Hotel",
+    "_decision": "Schema Type Extension (2026-11-11): the lodging rule emits LodgingBusiness for all 7 lodging records (measured); the rule is not flipped to Hotel because it also governs the Lodging & Campgrounds finder record, which is not a hotel (held, see EXTENSION_PACKAGE.md). Hotel pinned per-entity, following the Quality Inn precedent. Evidence: the entity's own listing description calls it 'a hotel in Cullman'."
+  },
+  "hampton-inn-cullman": {
+    "schema_type": "Hotel",
+    "_decision": "Schema Type Extension (2026-11-11): the lodging rule emits LodgingBusiness for all 7 lodging records (measured); the rule is not flipped to Hotel because it also governs the Lodging & Campgrounds finder record, which is not a hotel (held, see EXTENSION_PACKAGE.md). Hotel pinned per-entity, following the Quality Inn precedent. Evidence: the entity's own listing description calls it 'a Hilton hotel'."
+  },
+  "red-roof-inn-cullman": {
+    "schema_type": "Hotel",
+    "_decision": "Schema Type Extension (2026-11-11): the lodging rule emits LodgingBusiness for all 7 lodging records (measured); the rule is not flipped to Hotel because it also governs the Lodging & Campgrounds finder record, which is not a hotel (held, see EXTENSION_PACKAGE.md). Hotel pinned per-entity, following the Quality Inn precedent. Evidence: the entity's own listing description calls it 'a budget hotel in Cullman'."
+  },
+  "the-flying-fifty-boutique-hotel": {
+    "schema_type": "Hotel",
+    "_decision": "Schema Type Extension (2026-11-11): the lodging rule emits LodgingBusiness for all 7 lodging records (measured); the rule is not flipped to Hotel because it also governs the Lodging & Campgrounds finder record, which is not a hotel (held, see EXTENSION_PACKAGE.md). Hotel pinned per-entity, following the Quality Inn precedent. Evidence: the entity's own listing description calls it 'a boutique hotel in Cullman with seven themed suites'."
   }
 }
