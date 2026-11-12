@@ -101,6 +101,7 @@ function card(r){
   if(r.portraits){var pr=document.createElement("div");pr.style.display="flex";pr.style.gap="10px";pr.style.flexWrap="wrap";
     r.portraits.forEach(function(pp){var fig=document.createElement("figure");fig.style.margin="0";fig.style.textAlign="center";
       var pi=document.createElement("img");pi.src=pp.img;pi.alt=pp.name;pi.loading="lazy";
+      pi.width=64;pi.height=64;
       pi.style.width="64px";pi.style.height="64px";pi.style.objectFit="cover";pi.style.borderRadius="50%";pi.style.border="2px solid var(--purple)";
       var cap=document.createElement("figcaption");cap.style.fontSize="12.5px";cap.style.maxWidth="86px";
       cap.textContent=pp.name+", "+pp.title;fig.appendChild(pi);fig.appendChild(cap);pr.appendChild(fig);});
