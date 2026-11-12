@@ -236,8 +236,8 @@ html{scroll-behavior:smooth}
 section[id],main[id]{scroll-margin-top:86px}html{scroll-padding-bottom:84px}
 .card{transition:transform .22s ease,box-shadow .22s ease}
 @media(hover:hover){.card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(20,10,50,.18)}}
-[data-reveal]{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
-[data-reveal].in{opacity:1;transform:none}
+[data-reveal]{transform:translateY(14px);transition:transform .5s ease}
+[data-reveal].in{transform:none}
 .footlinks a{color:var(--purple);font-weight:600}
 #siteinfo details{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:6px 16px;margin:0 0 10px}
 #siteinfo summary{cursor:pointer;font-weight:700;font-size:17px;padding:10px 0;min-height:28px}
@@ -248,7 +248,7 @@ section[id],main[id]{scroll-margin-top:86px}html{scroll-padding-bottom:84px}
  .card{break-inside:avoid;box-shadow:none;border:1px solid #999}
  .grid{display:block}.card{margin:0 0 10px}
 }
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}[data-reveal]{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}[data-reveal]{transform:none}}
 
 /* even rails: photos fill a fixed frame (cropped like a photo should be), officials are uniform circles */
 #prail figure{width:264px}
@@ -258,7 +258,7 @@ section[id],main[id]{scroll-margin-top:86px}html{scroll-padding-bottom:84px}
 #orail img{width:104px;height:104px;object-fit:cover;border-radius:50%;display:block;margin:0 auto;border:2px solid var(--purple)}
 #orail figcaption{font-size:12.5px;margin-top:6px;line-height:1.3}
 /* reveal fail-safe: content appears even if a script hiccups */
-@keyframes rvShow{to{opacity:1;transform:none}}
+@keyframes rvShow{to{transform:none}}
 [data-reveal]{animation:rvShow .7s ease 3s forwards}
 /* gentle, even transitions */
 .fcard{transition:transform .22s ease,box-shadow .22s ease}
