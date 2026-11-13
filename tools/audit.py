@@ -24,7 +24,10 @@ files=set(glob.glob('*.html'))|set(glob.glob('*.json'))|set(glob.glob('*.css'))|
 def slug(s):return re.sub(r'^-|-$','',re.sub(r'[^a-z0-9]+','-',(s or '').lower()))
 htmls=sorted(glob.glob('*.html'))
 # removed stories kept only as noindex redirects (for example the Nov. 9 owner removal) are not real pages
-REDIRECTS=[f for f in htmls if re.search(r'http-equiv="refresh"',open(f,encoding='utf-8').read()) and 'content="noindex"' in open(f,encoding='utf-8').read()]
+def _txt(f):
+  return open(f,encoding='utf-8').read()
+# redirect stubs (meta refresh, for example renamed listings and removed stories) and staging fragments with no <html> are not real pages
+REDIRECTS=[f for f in htmls if re.search(r'http-equiv="refresh"',_txt(f),re.I) or '<html' not in _txt(f).lower()]
 htmls=[f for f in htmls if f not in REDIRECTS]
 # 1 + 3
 for f in htmls:
@@ -41,6 +44,10 @@ for f in htmls:
   for h in re.findall(r'(?:href|src)="([^"]+)"',body):
     h=html.unescape(h)
     if re.match(r'^(https?:|mailto:|tel:|sms:|data:|javascript:|//)',h):continue
+    m_wc=re.match(r'^webcal://shoplocalhanceville\.github\.io/(.+)$',h)
+    if m_wc:
+      if not os.path.exists(m_wc.group(1).split('?')[0]):prob('broken-link',f'{f}: {h}')
+      continue
     path,_,frag=h.partition('#');path=path.split('?')[0].lstrip('/')
     if path and not os.path.exists(path):prob('broken-link',f'{f}: {h}')
     if not path and frag and f.startswith(('place-','category-','places')) and frag not in ids:prob('dead-tab',f'{f}: #{frag} has no target')
@@ -148,6 +155,8 @@ for t,fs in titles.items():
 import datetime
 for k,v in VER.items():
   if k.startswith('_'):continue
+  # entries that only pin a schema type (Gap Build 01) carry no verified facts
+  if isinstance(v,dict) and 'verified' not in v and set(v)<={'schema_type','_decision'}:continue
   try:
     age=(datetime.date.today()-datetime.date.fromisoformat(v.get('verified',''))).days
     if age>90:W.append(f'{k}: verified {age} days ago, re-check its sources')

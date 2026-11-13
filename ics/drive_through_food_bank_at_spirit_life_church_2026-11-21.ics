@@ -25,7 +25,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:drive-through-food-bank-at-spirit-life-church-20261121@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261111T225427Z
+DTSTAMP:20261113T120657Z
 DTSTART;TZID=America/Chicago:20261121T090000
 DTEND;TZID=America/Chicago:20261121T110000
 SUMMARY:Drive Through Food Bank at Spirit Life Church
