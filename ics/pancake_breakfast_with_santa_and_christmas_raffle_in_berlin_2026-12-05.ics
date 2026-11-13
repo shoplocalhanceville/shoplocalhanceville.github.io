@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pancake-breakfast-with-santa-and-christmas-raffle-in-berlin-20261205@sh
+ oplocalhanceville.github.io
+DTSTAMP:20261113T200817Z
+DTSTART;TZID=America/Chicago:20261205T070000
+DTEND;TZID=America/Chicago:20261205T100000
+SUMMARY:Pancake Breakfast with Santa and Christmas Raffle in Berlin
+LOCATION:Berlin Community Center\, 3309 U.S. Highway 278\, Berlin
+DESCRIPTION:Grab a plate of pancakes with bacon or sausage and a drink\, vi
+ sit with Santa and try your luck in the Christmas raffle. Prizes include a
+  go kart\, a mini bike\, a kids ride on mower and a 36 inch Blackstone gri
+ ddle\, with the drawing right after breakfast. Every raffle dollar goes to
+  the fire department's Christmas for Kids program. Time: 7:00 AM to 10:00 
+ AM Host: Berlin Volunteer Fire Department and Town of Berlin Cost: Plates 
+ by donation\; raffle tickets $5 each or six for $20
+URL:https://www.cullmantribune.com/2026/11/13/berlin-vfd-hosting-breakfast-
+ with-santa-christmas-raffle-dec-5/
+CATEGORIES:Community and Fun
+END:VEVENT
+END:VCALENDAR
