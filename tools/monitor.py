@@ -136,7 +136,8 @@ def urls_in(v):
   return [u.rstrip('.:)]}') for u in URLRX.findall(_html.unescape(v))]
 malformed={}
 for p in pages:
-  for href in re.findall(r'href="([^"#][^"]*)"',live[p].decode('utf8','ignore')):
+  # inline JavaScript builds hrefs at run time (for example a.href="story-"+e.id+".html" on the homepage); only check real markup
+  for href in re.findall(r'href="([^"#][^"]*)"',re.sub(r'<script\b[^>]*>.*?</script>','',live[p].decode('utf8','ignore'),flags=re.S)):
     href=href.replace('&amp;','&')
     if re.search(r'\s',href) and re.match(r'https?://',href):
       # a note such as "(checked Nov. 9, 2026)" got glued into the link: a real bug on our own page, not an outside problem
