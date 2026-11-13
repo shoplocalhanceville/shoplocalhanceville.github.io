@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T06:50:00-06:00",
+ "updated": "2026-11-13T07:30:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -575,10 +575,14 @@
    "home": "gulf-coast",
    "away": "wallace",
    "status": "Final",
-   "note": "Chipola Classic game has been played; final score not confirmed in this refresh.",
+   "note": "Gulf Coast State won 75 to 60 in the Chipola Classic.",
    "source": {
     "name": "Wallace State Athletics schedule",
     "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 75,
+    "away": 60
    }
   },
   {
@@ -642,7 +646,7 @@
     "home": 70,
     "away": 50
    },
-   "note": "Danville won 70 to 50 in the season opener."
+   "note": "Danville won 70 to 50 in the season opener. The Hanceville girls won their game that night 51 to 27."
   },
   {
    "id": "ws-mb-2026-11-12",

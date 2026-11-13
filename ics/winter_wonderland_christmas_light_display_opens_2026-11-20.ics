@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:winter-wonderland-christmas-light-display-opens-20261120@shoplocalhance
+ ville.github.io
+DTSTAMP:20261113T130929Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Winter Wonderland Christmas Light Display Opens
+LOCATION:Sportsman Lake Park\, 1544 Sportsman Lake Rd NW\, Cullman
+DESCRIPTION:The 24th annual Winter Wonderland drive through Christmas light
+  display opens for the season. Drive under arches and running lights\, the
+ n stop for Santa photos\, the snow machine\, the Christmas train and hot c
+ hocolate at the concession stand. Horse drawn carriage rides run on weeken
+ ds. Time: Opens at 5:00 PM Host: Cullman County Parks and Recreation
+URL:https://www.cullmantribune.com/2026/08/28/county-parks-and-rec-gearing-
+ up-for-seasonal-events/
+CATEGORIES:Community and Fun
+END:VEVENT
+END:VCALENDAR
