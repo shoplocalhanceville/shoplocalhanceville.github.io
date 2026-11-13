@@ -4,8 +4,44 @@
   <id>https://shoplocalhanceville.github.io/atom.xml</id>
   <link rel="alternate" href="https://shoplocalhanceville.github.io/news.html" />
   <link rel="self" href="https://shoplocalhanceville.github.io/atom.xml" />
-  <updated>2026-11-09T00:00:00-06:00</updated>
+  <updated>2026-11-13T00:00:00-06:00</updated>
   <subtitle>Hanceville, AL news from city hall, local schools, sports, public safety and weather in Cullman County. Every story is dated and links to its sources.</subtitle>
+  <entry>
+    <title>Freeze warnings tonight and Saturday night: lows near 26 in Cullman County</title>
+    <id>https://shoplocalhanceville.github.io/story-freeze-warnings-cullman-county-nov-14-15-2026.html</id>
+    <link href="https://shoplocalhanceville.github.io/story-freeze-warnings-cullman-county-nov-14-15-2026.html" />
+    <published>2026-11-13T00:00:00-06:00</published>
+    <updated>2026-11-13T00:00:00-06:00</updated>
+    <summary>The National Weather Service in Huntsville has issued two Freeze Warnings, from midnight to 8 AM Saturday and again from midnight to 8 AM Sunday, with temperatures as low as 26 degrees.</summary>
+    <category term="Weather" />
+  </entry>
+  <entry>
+    <title>Good Hope, Vinemont and Cold Springs play for quarterfinal spots tonight</title>
+    <id>https://shoplocalhanceville.github.io/story-cullman-county-football-playoffs-second-round-nov-13-2026.html</id>
+    <link href="https://shoplocalhanceville.github.io/story-cullman-county-football-playoffs-second-round-nov-13-2026.html" />
+    <published>2026-11-13T00:00:00-06:00</published>
+    <updated>2026-11-13T00:00:00-06:00</updated>
+    <summary>Good Hope hosts No. 9 Deshler, Vinemont hosts Fayette County and No. 10 Cold Springs visits Lexington in the second round of the AHSAA football playoffs. All three games kick off at 7 PM.</summary>
+    <category term="Sports" />
+  </entry>
+  <entry>
+    <title>Cullman High Theatre wins Best in Show, and you can see the show this weekend</title>
+    <id>https://shoplocalhanceville.github.io/story-cullman-high-theatre-best-in-show-james-giant-peach-nov-2026.html</id>
+    <link href="https://shoplocalhanceville.github.io/story-cullman-high-theatre-best-in-show-james-giant-peach-nov-2026.html" />
+    <published>2026-11-12T00:00:00-06:00</published>
+    <updated>2026-11-12T00:00:00-06:00</updated>
+    <summary>Cullman High School Theatre won Best in Show at the District 3 Walter Trumbauer festival with "James and the Giant Peach." Public shows are Friday and Saturday, Nov. 13 and 14, at 7 PM.</summary>
+    <category term="Schools" />
+  </entry>
+  <entry>
+    <title>Kenneth Walker and Richard Barnett join the Cullman County Commission</title>
+    <id>https://shoplocalhanceville.github.io/story-walker-barnett-sworn-in-cullman-county-commission-nov-2026.html</id>
+    <link href="https://shoplocalhanceville.github.io/story-walker-barnett-sworn-in-cullman-county-commission-nov-2026.html" />
+    <published>2026-11-11T00:00:00-06:00</published>
+    <updated>2026-11-11T00:00:00-06:00</updated>
+    <summary>The two new commissioners were sworn in Wednesday, Nov. 11, succeeding Kerry Watson and Garry Marchman, who each served 12 years. Their first work session is Tuesday, Nov. 17, at 4 PM.</summary>
+    <category term="Around the County" />
+  </entry>
   <entry>
     <title>Cullman County Public Library adds a campaign manager for its $1 million Every Chapter Matters drive and wants your input</title>
     <id>https://shoplocalhanceville.github.io/story-cullman-county-library-every-chapter-matters-survey-nov-2026.html</id>

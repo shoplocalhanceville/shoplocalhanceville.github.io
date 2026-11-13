@@ -1,5 +1,125 @@
 [
  {
+  "id": "freeze-warnings-cullman-county-nov-14-15-2026",
+  "date": "2026-11-13",
+  "category": "Weather",
+  "graphic": "❄",
+  "headline": "Freeze warnings tonight and Saturday night: lows near 26 in Cullman County",
+  "summary": "The National Weather Service in Huntsville has issued two Freeze Warnings, from midnight to 8 AM Saturday and again from midnight to 8 AM Sunday, with temperatures as low as 26 degrees.",
+  "body": [
+   "Cover the plants and check the pipes. Early Friday, Nov. 13, the National Weather Service office in Huntsville upgraded the Freeze Watch for north Alabama to two Freeze Warnings, and Cullman County is included.",
+   "The first warning runs from midnight tonight to 8 AM Saturday, Nov. 14. The second runs from midnight Saturday night to 8 AM Sunday, Nov. 15. Forecasters expect temperatures as low as 26 degrees across portions of north central, northeast and northwest Alabama.",
+   "The weather service says frost and freeze conditions could kill crops and other sensitive plants and could damage outdoor plumbing that is not protected. Bring potted plants inside or cover them, disconnect garden hoses, wrap exposed pipes and make sure pets have a warm place to sleep.",
+   "Heading out early Saturday for the Cookie Crawl in downtown Cullman, the Ho! Ho! Ho! Christmas show or a ballgame tonight? Dress in layers. Check the latest forecast for Hanceville at weather.gov before you go."
+  ],
+  "sources": [
+   {
+    "name": "National Weather Service Huntsville: forecast and active alerts for Hanceville",
+    "url": "https://forecast.weather.gov/MapClick.php?lat=34.0604&lon=-86.7675"
+   },
+   {
+    "name": "National Weather Service Huntsville office",
+    "url": "https://www.weather.gov/hun/"
+   }
+  ],
+  "tags": [
+   "weather",
+   "freeze warning",
+   "national weather service",
+   "cullman county",
+   "hanceville"
+  ]
+ },
+ {
+  "id": "cullman-county-football-playoffs-second-round-nov-13-2026",
+  "date": "2026-11-13",
+  "category": "Sports",
+  "graphic": "🏈",
+  "headline": "Good Hope, Vinemont and Cold Springs play for quarterfinal spots tonight",
+  "summary": "Good Hope hosts No. 9 Deshler, Vinemont hosts Fayette County and No. 10 Cold Springs visits Lexington in the second round of the AHSAA football playoffs. All three games kick off at 7 PM.",
+  "body": [
+   "Three Cullman County football teams are still playing in mid November, and all three are one win from a state quarterfinal. Second round games in the Alabama High School Athletic Association playoffs kick off at 7 PM tonight, Friday, Nov. 13.",
+   "Good Hope (8 and 3) gets its first home game of the postseason against No. 9 Deshler (9 and 2) in Class 4A at James W. Shabel Stadium. The Raiders reached this round with a 24 to 21 double overtime win at Fairfield on a Chase Prewett field goal. It is the first meeting between the two schools.",
+   "Vinemont (7 and 4) hosts Fayette County (9 and 2) in Class 3A with a chance at its first quarterfinal berth since 1993. The Eagles earned their first playoff win in 33 years last week, 16 to 8 at region champion Central-Florence.",
+   "Cold Springs (10 and 1), ranked No. 10 in Class 2A, travels to Lexington (10 and 1). The Eagles are 5 and 0 on the road and beat Pisgah 42 to 34 last week on Ethan Day's 10 yard run with 27 seconds left.",
+   "A Freeze Warning starts at midnight, so bring blankets and dress warm if you are going to the game."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Good Hope, Vinemont and Addison to host playoff games as Cold Springs visits Lexington",
+    "url": "https://www.cullmantribune.com/2026/11/12/prep-football-playoffs-good-hope-vinemont-and-addison-to-host-playoff-games-as-cold-springs-visits-lexington/"
+   },
+   {
+    "name": "The Cullman Times: Local teams in search of quarterfinal berths",
+    "url": "https://cullmantimes.com/2026/11/11/prep-football-local-teams-in-search-of-quarterfinal-berths/"
+   }
+  ],
+  "tags": [
+   "football",
+   "playoffs",
+   "good hope",
+   "vinemont",
+   "cold springs",
+   "sports"
+  ]
+ },
+ {
+  "id": "cullman-high-theatre-best-in-show-james-giant-peach-nov-2026",
+  "date": "2026-11-12",
+  "category": "Schools",
+  "graphic": "🎭",
+  "headline": "Cullman High Theatre wins Best in Show, and you can see the show this weekend",
+  "summary": "Cullman High School Theatre won Best in Show at the District 3 Walter Trumbauer festival with \"James and the Giant Peach.\" Public shows are Friday and Saturday, Nov. 13 and 14, at 7 PM.",
+  "body": [
+   "Cullman High School Theatre hosted the District 3 Walter Trumbauer High School Theatre Festival on Nov. 7 and took home Best in Show for its one act production of \"James and the Giant Peach,\" based on the Roald Dahl children's book.",
+   "Director Wayne Cook told The Cullman Tribune the group has won Best in Show at the state one act festival three of the last four years. District winners advance to the Walter Trumbauer State Festival at UAB on Dec. 4 and 5.",
+   "The set, designed by senior Jill Blocher, is built to read like a pop up children's book. Blocher also earned superior ratings for puppet design and scenic design. The production also won Best Sound Design, and six students were named to the All Star Cast.",
+   "You can see it yourself this weekend. Shows are Friday and Saturday, Nov. 13 and 14, at 7 PM in the Cullman High School auditorium. Tickets are $12 at CullmanTheatre.ludus.com or $15 at the door, and Cullman City Schools students get in free."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Best in Show: Cullman Theatre wins for ‘James and the Giant Peach’; see it Nov. 13 to 14",
+    "url": "https://www.cullmantribune.com/2026/11/12/best-in-show-cullman-theatre-wins-for-james-and-the-giant-peach-see-it-nov-13-14/"
+   }
+  ],
+  "tags": [
+   "theatre",
+   "cullman high school",
+   "arts",
+   "schools",
+   "cullman"
+  ]
+ },
+ {
+  "id": "walker-barnett-sworn-in-cullman-county-commission-nov-2026",
+  "date": "2026-11-11",
+  "category": "Around the County",
+  "graphic": "🏛",
+  "headline": "Kenneth Walker and Richard Barnett join the Cullman County Commission",
+  "summary": "The two new commissioners were sworn in Wednesday, Nov. 11, succeeding Kerry Watson and Garry Marchman, who each served 12 years. Their first work session is Tuesday, Nov. 17, at 4 PM.",
+  "body": [
+   "The Cullman County Commission has two new members. Kenneth Walker and Richard Barnett were sworn in Wednesday morning, Nov. 11, at the Cullman County Courthouse.",
+   "Walker represents District 1 and Barnett represents District 2. They succeed Commissioners Kerry Watson and Garry Marchman, who each served 12 years. Walker is no stranger to the job: he served as commission chairman from 2012 to 2020.",
+   "They join Chairman Jeff Clemons, District 3 Commissioner Kelly Duke and District 4 Commissioner Corey Freeman. The commission oversees county roads and infrastructure, public services and the county budget.",
+   "The next work session is Tuesday, Nov. 17, at 4 PM, followed by the regular commission meeting at 6 PM in the commission meeting room at the courthouse, 500 2nd Ave. SW in Cullman. Meetings are open to the public. The commission office can be reached at (256) 775-4878."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Walker, Barnett sworn in as newest Cullman County commissioners",
+    "url": "https://www.cullmantribune.com/2026/11/11/walker-barnett-sworn-in-as-newest-cullman-county-commissioners/"
+   },
+   {
+    "name": "Cullman County Commission: official commission information",
+    "url": "https://www.co.cullman.al.us/commission.html"
+   }
+  ],
+  "tags": [
+   "cullman county commission",
+   "government",
+   "cullman county"
+  ]
+ },
+ {
   "id": "cullman-council-weighs-lake-protection-rules-nov-9-2026",
   "date": "2026-11-09",
   "category": "Around the County",

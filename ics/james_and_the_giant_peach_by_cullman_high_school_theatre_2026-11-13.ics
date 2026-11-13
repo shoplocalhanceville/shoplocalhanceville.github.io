@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:james-and-the-giant-peach-by-cullman-high-school-theatre-20261113@shopl
+ ocalhanceville.github.io
+DTSTAMP:20261113T121151Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+SUMMARY:"James and the Giant Peach" by Cullman High School Theatre
+LOCATION:Cullman High School Auditorium\, 510 13th St NE\, Cullman
+DESCRIPTION:See the District 3 Best in Show winner. Cullman High School The
+ atre stages its pop up storybook production of Roald Dahl's "James and the
+  Giant Peach" two nights only. Time: 7:00 PM Nov. 13 and 7:00 PM Nov. 14 H
+ ost: Cullman High School Theatre Cost: $12 online at CullmanTheatre.ludus.
+ com\, $15 at the door\; Cullman City Schools students free
+URL:https://www.cullmantribune.com/2026/11/12/best-in-show-cullman-theatre-
+ wins-for-james-and-the-giant-peach-see-it-nov-13-14/
+CATEGORIES:Community and Fun
+END:VEVENT
+END:VCALENDAR

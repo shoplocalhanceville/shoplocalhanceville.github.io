@@ -1,5 +1,61 @@
 [
  {
+  "name": "AHSAA Playoffs: Deshler at Good Hope",
+  "start": "2026-11-13",
+  "time": "7:00 PM",
+  "venue": "James W. Shabel Stadium, Good Hope High School, 210 Good Hope School Rd",
+  "town": "Cullman",
+  "host": "Good Hope High School",
+  "summary": "Good Hope (8 and 3) hosts No. 9 Deshler (9 and 2) in the second round of the Class 4A playoffs, the first meeting between the schools and the Raiders' first home playoff game this season.",
+  "url": "https://www.cullmantribune.com/2026/11/12/prep-football-playoffs-good-hope-vinemont-and-addison-to-host-playoff-games-as-cold-springs-visits-lexington/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "football",
+   "playoffs",
+   "good hope",
+   "high school"
+  ]
+ },
+ {
+  "name": "AHSAA Playoffs: Fayette County at Vinemont",
+  "start": "2026-11-13",
+  "time": "7:00 PM",
+  "venue": "Vinemont High School, 165 High School Rd",
+  "town": "Vinemont",
+  "host": "Vinemont High School",
+  "summary": "Vinemont (7 and 4) plays for its first state quarterfinal berth since 1993 when Fayette County (9 and 2) visits for the second round of the Class 3A playoffs.",
+  "url": "https://www.cullmantribune.com/2026/11/12/prep-football-playoffs-good-hope-vinemont-and-addison-to-host-playoff-games-as-cold-springs-visits-lexington/",
+  "group": "Sports",
+  "tags": [
+   "sports",
+   "football",
+   "playoffs",
+   "vinemont",
+   "high school"
+  ]
+ },
+ {
+  "name": "\"James and the Giant Peach\" by Cullman High School Theatre",
+  "start": "2026-11-13",
+  "end": "2026-11-14",
+  "time": "7:00 PM Nov. 13 and 7:00 PM Nov. 14",
+  "venue": "Cullman High School Auditorium, 510 13th St NE",
+  "town": "Cullman",
+  "host": "Cullman High School Theatre",
+  "cost": "$12 online at CullmanTheatre.ludus.com, $15 at the door; Cullman City Schools students free",
+  "summary": "See the District 3 Best in Show winner. Cullman High School Theatre stages its pop up storybook production of Roald Dahl's \"James and the Giant Peach\" two nights only.",
+  "url": "https://www.cullmantribune.com/2026/11/12/best-in-show-cullman-theatre-wins-for-james-and-the-giant-peach-see-it-nov-13-14/",
+  "group": "Community and Fun",
+  "tags": [
+   "theatre",
+   "cullman high",
+   "family",
+   "arts",
+   "cullman"
+  ]
+ },
+ {
   "name": "Cullman Christmas Open House",
   "start": "2026-11-13",
   "end": "2026-11-15",
@@ -641,6 +697,23 @@
   ]
  },
  {
+  "name": "Hanceville City Council Meeting",
+  "start": "2026-12-10",
+  "time": "6:00 PM to 7:00 PM",
+  "venue": "Hanceville City Hall, 112 Main St SE",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free",
+  "summary": "The city calendar lists the next regular City Council meeting for Thursday, Dec. 10, at City Hall. Meetings are open to the public.",
+  "url": "https://www.cityofhanceville.net/events",
+  "group": "Community and Fun",
+  "tags": [
+   "council",
+   "government",
+   "hanceville"
+  ]
+ },
+ {
   "name": "Christmas Spectacular at Wallace State",
   "start": "2026-12-10",
   "time": "7:00 PM",
@@ -658,23 +731,6 @@
    "holiday"
   ],
   "group": "Community and Fun"
- },
- {
-  "name": "Hanceville City Council Meeting",
-  "start": "2026-12-10",
-  "time": "6:00 PM to 7:00 PM",
-  "venue": "Hanceville City Hall, 112 Main St SE",
-  "town": "Hanceville",
-  "host": "City of Hanceville",
-  "cost": "Free",
-  "summary": "The city calendar lists the next regular City Council meeting for Thursday, Dec. 10, at City Hall. Meetings are open to the public.",
-  "url": "https://www.cityofhanceville.net/events",
-  "group": "Community and Fun",
-  "tags": [
-   "council",
-   "government",
-   "hanceville"
-  ]
  },
  {
   "name": "Jingle Bell Run and Holiday Stroll",

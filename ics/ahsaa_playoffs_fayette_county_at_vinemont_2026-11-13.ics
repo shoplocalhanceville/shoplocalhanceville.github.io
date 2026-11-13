@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ahsaa-playoffs-fayette-county-at-vinemont-20261113@shoplocalhanceville.
+ github.io
+DTSTAMP:20261113T121151Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:AHSAA Playoffs: Fayette County at Vinemont
+LOCATION:Vinemont High School\, 165 High School Rd\, Vinemont
+DESCRIPTION:Vinemont (7 and 4) plays for its first state quarterfinal berth
+  since 1993 when Fayette County (9 and 2) visits for the second round of t
+ he Class 3A playoffs. Time: 7:00 PM Host: Vinemont High School
+URL:https://www.cullmantribune.com/2026/11/12/prep-football-playoffs-good-h
+ ope-vinemont-and-addison-to-host-playoff-games-as-cold-springs-visits-lexi
+ ngton/
+CATEGORIES:Sports
+END:VEVENT
+END:VCALENDAR

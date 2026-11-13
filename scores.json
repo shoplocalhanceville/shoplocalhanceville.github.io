@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:00:00-06:00",
+ "updated": "2026-11-13T06:50:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -633,8 +633,16 @@
    "venue": "Danville High School",
    "home": "danville",
    "away": "hanceville",
-   "status": "Upcoming",
-   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+   "status": "Final",
+   "source": {
+    "name": "The Decatur Daily: Wednesday's roundup",
+    "url": "https://www.decaturdaily.com/sports/wednesdays-roundup-bennich-hartselle-roll-in-season-opener/article_c821c9c7-cad1-4b4e-b38e-4edab94cc489.html"
+   },
+   "score": {
+    "home": 70,
+    "away": 50
+   },
+   "note": "Danville won 70 to 50 in the season opener."
   },
   {
    "id": "ws-mb-2026-11-12",
@@ -646,11 +654,16 @@
    "venue": "Bevill State Community College",
    "home": "bevill",
    "away": "wallace",
-   "status": "Upcoming",
+   "status": "Final",
    "source": {
-    "name": "Wallace State Athletics schedule",
+    "name": "Wallace State Athletics schedule and results",
     "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
-   }
+   },
+   "score": {
+    "home": 100,
+    "away": 90
+   },
+   "note": "Bevill State won 100 to 90."
   },
   {
    "id": "hhs-bb-2026-11-12",
@@ -663,7 +676,8 @@
    "home": "sumiton-christian",
    "away": "hanceville",
    "status": "Upcoming",
-   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+   "note": "Final score not reported yet."
   },
   {
    "id": "ws-mb-2026-11-14",
