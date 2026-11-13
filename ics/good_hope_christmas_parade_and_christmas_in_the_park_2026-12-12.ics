@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:good-hope-christmas-parade-and-christmas-in-the-park-20261212@shoplocal
+ hanceville.github.io
+DTSTAMP:20261113T160335Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Good Hope Christmas Parade and Christmas in the Park
+LOCATION:Good Hope High School football field\, 210 Good Hope School Road\,
+  Cullman
+DESCRIPTION:Good Hope's "Be the Light" Christmas Parade leaves the Good Hop
+ e High School football field at 11 AM and rolls down County Road 437 to Ci
+ ty Hall. Christmas in the Park follows at Municipal Park with free food an
+ d a visit from Santa. Groups that want to ride in the parade line up at 10
+  AM\; call Good Hope City Hall at (256) 739-3757 for entry details. Time: 
+ Parade steps off 11:00 AM\; Christmas in the Park follows Host: City of Go
+ od Hope Cost: Free
+URL:https://www.cullmantribune.com/2026/11/13/good-hope-christmas-parade-ch
+ ristmas-in-the-park-set-for-dec-12/
+CATEGORIES:Community and Fun
+END:VEVENT
+END:VCALENDAR

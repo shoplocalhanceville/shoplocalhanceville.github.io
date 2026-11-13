@@ -25,7 +25,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:colony-christmas-tree-decorating-and-lighting-20261206@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261113T150202Z
+DTSTAMP:20261113T160335Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Colony Christmas Tree Decorating and Lighting
