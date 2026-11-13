@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:colony-christmas-tree-decorating-and-lighting-20261206@shoplocalhancevi
+ lle.github.io
+DTSTAMP:20261113T140906Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Colony Christmas Tree Decorating and Lighting
+LOCATION:Colony Town Hall\, 65 Byars Road\, Hanceville
+DESCRIPTION:The Town of Colony invites neighbors to help decorate the town 
+ Christmas tree and watch it light up for the season. The town has not post
+ ed the exact spot yet\, so call Colony Town Hall at (256) 287-1192 to conf
+ irm before you go. Time: 5:30 PM Host: Town of Colony
+URL:https://www.cullmantribune.com/2026/11/12/colony-council-approves-libra
+ ry-repairs-bank-resolution-announces-holiday-events/
+CATEGORIES:Community and Fun
+END:VEVENT
+END:VCALENDAR
