@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cocoa-cookies-and-claus-at-the-cullman-tribune-20261205@shoplocalhancev
+ ille.github.io
+DTSTAMP:20261113T170534Z
+DTSTART;TZID=America/Chicago:20261205T110000
+DTEND;TZID=America/Chicago:20261205T130000
+SUMMARY:Cocoa\, Cookies and Claus at The Cullman Tribune
+LOCATION:The Cullman Tribune\, 219 Second Ave. SE\, Cullman
+DESCRIPTION:The Cullman Tribune opens its downtown office for a free holida
+ y visit with hot chocolate\, cookies and Santa Claus. A Tribune photograph
+ er will snap a free photo of your family with Santa\, or you can take your
+  own. Time: 11:00 AM to 1:00 PM Host: The Cullman Tribune Cost: Free
+URL:https://www.cullmantribune.com/2026/11/09/the-cullman-tribune-invites-c
+ ommunity-to-cocoa-cookies-and-claus-dec-5/
+CATEGORIES:Community and Fun
+END:VEVENT
+END:VCALENDAR
