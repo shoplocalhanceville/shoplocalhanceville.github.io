@@ -25,7 +25,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:share-club-of-cullman-christmas-tour-of-homes-20261206@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261113T140906Z
+DTSTAMP:20261113T150202Z
 DTSTART;TZID=America/Chicago:20261206T130000
 DTEND;TZID=America/Chicago:20261206T170000
 SUMMARY:Share Club of Cullman Christmas Tour of Homes

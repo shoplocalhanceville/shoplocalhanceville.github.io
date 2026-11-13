@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:christmas-in-baileyton-tree-lighting-20261204@shoplocalhanceville.githu
+ b.io
+DTSTAMP:20261113T150202Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Christmas in Baileyton Tree Lighting
+LOCATION:Baileyton Town Park\, 390 Fire Station Road\, Baileyton
+DESCRIPTION:The Town of Baileyton lights its park Christmas tree\, and Sant
+ a stops by so kids can get their picture made with him. Gates open at 4:30
+  PM and the ceremony starts at 6. Questions go to Baileyton Town Hall at (
+ 256) 796-6447. Time: Gates open 4:30 PM\; ceremony 6:00 PM Host: Town of B
+ aileyton Cost: Free
+URL:https://www.cullmantribune.com/2026/11/13/christmas-in-baileyton-tree-l
+ ighting-visit-from-santa-dec-4/
+CATEGORIES:Community and Fun
+END:VEVENT
+END:VCALENDAR
