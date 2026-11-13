@@ -1,162 +1,5 @@
 [
  {
-  "name": "Salute to United States Veterans Concert",
-  "start": "2026-11-10",
-  "time": "7:00 PM",
-  "venue": "Betty Leeth Haynes Theatre, Wallace State, 801 Main Street NW",
-  "town": "Hanceville",
-  "host": "Wallace State Concert Band and Jazz Band",
-  "cost": "Free",
-  "summary": "Patriotic music from the Wallace State bands, the hymns of each branch of the Armed Forces and a moment to honor veterans in the audience.",
-  "url": "https://www.cullmantribune.com/2026/10/21/wallace-state-releases-performing-arts-schedule-for-2026-2027-season/",
-  "tags": [
-   "veterans",
-   "concert",
-   "band",
-   "wallace state",
-   "free"
-  ],
-  "group": "Community and Fun"
- },
- {
-  "name": "Hanceville Bulldogs Basketball at Danville",
-  "start": "2026-11-10",
-  "time": "7:30 PM (varsity boys tip off)",
-  "venue": "Danville High School",
-  "town": "Danville",
-  "host": "Hanceville High School Bulldogs",
-  "cost": "See school for admission",
-  "summary": "The Bulldogs play at Danville. Check MaxPreps or the school for any time changes before you go.",
-  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-  "group": "Sports",
-  "tags": [
-   "basketball",
-   "hanceville",
-   "bulldogs",
-   "high school"
-  ]
- },
- {
-  "name": "Hanceville Public Library Storytime",
-  "start": "2026-11-11",
-  "time": "10:00 AM to 10:30 AM",
-  "venue": "Shirley Burden Public Library, 201 Commercial St",
-  "town": "Hanceville",
-  "host": "Shirley Burden Public Library",
-  "cost": "Free",
-  "summary": "Weekly storytime for ages 0 through preschool at Shirley Burden Public Library, with guest readers and interactive activities. Open to kids of other ages who come along.",
-  "url": "https://pal.ua.edu/events/event/hanceville-pl-storytimes/",
-  "group": "Community and Fun",
-  "tags": [
-   "library",
-   "kids",
-   "storytime",
-   "hanceville",
-   "free"
-  ]
- },
- {
-  "name": "Veterans Day",
-  "start": "2026-11-11",
-  "time": "All day",
-  "venue": "Hanceville City Hall, 112 Main St SE",
-  "town": "Hanceville",
-  "host": "City of Hanceville",
-  "cost": "Free",
-  "summary": "Veterans Day is marked on the city calendar. If you need to visit City Hall that day, call ahead at (256) 352-9830 to check whether offices are open.",
-  "url": "https://www.cityofhanceville.net/events?id=52393701",
-  "tags": [
-   "veterans day",
-   "city calendar",
-   "holiday"
-  ],
-  "group": "Community and Fun"
- },
- {
-  "name": "Wallace State Men's Basketball at Bevill State",
-  "start": "2026-11-12",
-  "time": "6:00 PM",
-  "venue": "Bevill State Community College",
-  "town": "Sumiton",
-  "host": "Wallace State Athletics",
-  "cost": "See school for admission",
-  "summary": "The Lions hit the road at Bevill State. Check Wallace State Athletics for any time changes before you go.",
-  "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule",
-  "group": "Sports",
-  "tags": [
-   "basketball",
-   "wallace state",
-   "college"
-  ]
- },
- {
-  "name": "United Way Designer Bag Bingo",
-  "start": "2026-11-12",
-  "time": "6:00 PM to 10:00 PM",
-  "venue": "Cotton Creek, 417 Third Ave SW",
-  "town": "Cullman",
-  "host": "United Way of Cullman County",
-  "cost": "$50 per person or $500 per table",
-  "summary": "An evening of bingo with designer handbag prizes. Proceeds support local needs and programs through United Way of Cullman County.",
-  "url": "https://business.cullmanchamber.org/events/details/united-way-of-cullman-county-designer-bag-bingo-23309",
-  "group": "Community and Fun",
-  "tags": [
-   "bingo",
-   "fundraiser",
-   "united way",
-   "night out"
-  ]
- },
- {
-  "name": "Kitchen Series: Beyond Biscuits Class at the Agriplex",
-  "start": "2026-11-12",
-  "time": "6:00 PM to 8:00 PM",
-  "venue": "North Alabama Agriplex, 1714 Tally Ho St SW",
-  "town": "Cullman",
-  "host": "North Alabama Agriplex",
-  "cost": "$25 per person, registration required",
-  "summary": "A hands on Southern Pie Series class at the North Alabama Agriplex. Learn one from scratch dough and use it three ways: flaky drop biscuits, tender scones and a biscuit topped pot pie. Youth ages 12 to 15 must register and come with a paid registered adult.",
-  "url": "https://business.cullmanchamber.org/events/details/kitchen-series-southern-pie-series-beyond-biscuites-24049",
-  "group": "Community and Fun",
-  "tags": [
-   "cooking class",
-   "agriplex",
-   "biscuits",
-   "cullman",
-   "food"
-  ]
- },
- {
-  "name": "Hanceville City Council Meeting",
-  "start": "2026-11-12",
-  "time": "6:00 PM work session, regular meeting right after",
-  "venue": "Hanceville City Hall, 112 Main St SE",
-  "town": "Hanceville",
-  "host": "City of Hanceville",
-  "cost": "Free and open to the public",
-  "summary": "The City Council holds a work session at 6:00 PM, followed right away by its regular meeting. The city announced this date on its Oct. 8 agenda.",
-  "url": "https://www.cityofhanceville.net/o/coh/page/city-council",
-  "group": "Community and Fun"
- },
- {
-  "name": "Hanceville Bulldogs Basketball at Sumiton Christian",
-  "start": "2026-11-12",
-  "time": "7:00 PM (varsity boys tip off)",
-  "venue": "Sumiton Christian School",
-  "town": "Sumiton",
-  "host": "Hanceville High School Bulldogs",
-  "cost": "See school for admission",
-  "summary": "The Bulldogs play at Sumiton Christian. Check MaxPreps or the school for any time changes before you go.",
-  "url": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
-  "group": "Sports",
-  "tags": [
-   "basketball",
-   "hanceville",
-   "bulldogs",
-   "high school"
-  ]
- },
- {
   "name": "Cullman Christmas Open House",
   "start": "2026-11-13",
   "end": "2026-11-15",
@@ -815,6 +658,23 @@
    "holiday"
   ],
   "group": "Community and Fun"
+ },
+ {
+  "name": "Hanceville City Council Meeting",
+  "start": "2026-12-10",
+  "time": "6:00 PM to 7:00 PM",
+  "venue": "Hanceville City Hall, 112 Main St SE",
+  "town": "Hanceville",
+  "host": "City of Hanceville",
+  "cost": "Free",
+  "summary": "The city calendar lists the next regular City Council meeting for Thursday, Dec. 10, at City Hall. Meetings are open to the public.",
+  "url": "https://www.cityofhanceville.net/events",
+  "group": "Community and Fun",
+  "tags": [
+   "council",
+   "government",
+   "hanceville"
+  ]
  },
  {
   "name": "Jingle Bell Run and Holiday Stroll",

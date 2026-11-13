@@ -25,111 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:hanceville-public-library-storytime-20261111@shoplocalhanceville.github
- .io
-DTSTAMP:20261111T175546Z
-DTSTART;TZID=America/Chicago:20261111T100000
-DTEND;TZID=America/Chicago:20261111T103000
-SUMMARY:Hanceville Public Library Storytime
-LOCATION:Shirley Burden Public Library\, 201 Commercial St\, Hanceville
-DESCRIPTION:Weekly storytime for ages 0 through preschool at Shirley Burden
-  Public Library\, with guest readers and interactive activities. Open to k
- ids of other ages who come along. Time: 10:00 AM to 10:30 AM Host: Shirley
-  Burden Public Library Cost: Free
-URL:https://pal.ua.edu/events/event/hanceville-pl-storytimes/
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:veterans-day-20261111@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:Veterans Day
-LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
-DESCRIPTION:Veterans Day is marked on the city calendar. If you need to vis
- it City Hall that day\, call ahead at (256) 352-9830 to check whether offi
- ces are open. Time: All day Host: City of Hanceville Cost: Free
-URL:https://www.cityofhanceville.net/events?id=52393701
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:hanceville-bulldogs-basketball-at-sumiton-christian-20261112@shoplocalh
- anceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Hanceville Bulldogs Basketball at Sumiton Christian
-LOCATION:Sumiton Christian School\, Sumiton
-DESCRIPTION:The Bulldogs play at Sumiton Christian. Check MaxPreps or the s
- chool for any time changes before you go. Time: 7:00 PM (varsity boys tip 
- off) Host: Hanceville High School Bulldogs Cost: See school for admission
-URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
- chedule/
-CATEGORIES:Sports
-END:VEVENT
-BEGIN:VEVENT
-UID:hanceville-city-council-meeting-20261112@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Hanceville City Council Meeting
-LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
-DESCRIPTION:The City Council holds a work session at 6:00 PM\, followed rig
- ht away by its regular meeting. The city announced this date on its Oct. 8
-  agenda. Time: 6:00 PM work session\, regular meeting right after Host: Ci
- ty of Hanceville Cost: Free and open to the public
-URL:https://www.cityofhanceville.net/o/coh/page/city-council
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:kitchen-series-beyond-biscuits-class-at-the-agriplex-20261112@shoplocal
- hanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;TZID=America/Chicago:20261112T180000
-DTEND;TZID=America/Chicago:20261112T200000
-SUMMARY:Kitchen Series: Beyond Biscuits Class at the Agriplex
-LOCATION:North Alabama Agriplex\, 1714 Tally Ho St SW\, Cullman
-DESCRIPTION:A hands on Southern Pie Series class at the North Alabama Agrip
- lex. Learn one from scratch dough and use it three ways: flaky drop biscui
- ts\, tender scones and a biscuit topped pot pie. Youth ages 12 to 15 must 
- register and come with a paid registered adult. Time: 6:00 PM to 8:00 PM H
- ost: North Alabama Agriplex Cost: $25 per person\, registration required
-URL:https://business.cullmanchamber.org/events/details/kitchen-series-south
- ern-pie-series-beyond-biscuites-24049
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:united-way-designer-bag-bingo-20261112@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;TZID=America/Chicago:20261112T180000
-DTEND;TZID=America/Chicago:20261112T220000
-SUMMARY:United Way Designer Bag Bingo
-LOCATION:Cotton Creek\, 417 Third Ave SW\, Cullman
-DESCRIPTION:An evening of bingo with designer handbag prizes. Proceeds supp
- ort local needs and programs through United Way of Cullman County. Time: 6
- :00 PM to 10:00 PM Host: United Way of Cullman County Cost: $50 per person
-  or $500 per table
-URL:https://business.cullmanchamber.org/events/details/united-way-of-cullma
- n-county-designer-bag-bingo-23309
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:wallace-state-men-s-basketball-at-bevill-state-20261112@shoplocalhancev
- ille.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Wallace State Men's Basketball at Bevill State
-LOCATION:Bevill State Community College\, Sumiton
-DESCRIPTION:The Lions hit the road at Bevill State. Check Wallace State Ath
- letics for any time changes before you go. Time: 6:00 PM Host: Wallace Sta
- te Athletics Cost: See school for admission
-URL:https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule
-CATEGORIES:Sports
-END:VEVENT
-BEGIN:VEVENT
 UID:cullman-christmas-open-house-20261113@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Cullman Christmas Open House
@@ -146,7 +43,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:40th-annual-ho-ho-ho-20261114@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261114T090000
 DTEND;TZID=America/Chicago:20261114T140000
 SUMMARY:40th Annual Ho! Ho! Ho!
@@ -162,7 +59,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lion-s-pride-fall-vex-iq-robotics-tournament-20261114@shoplocalhancevil
  le.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261114T080000
 DTEND;TZID=America/Chicago:20261114T160000
 SUMMARY:Lion's Pride Fall VEX IQ Robotics Tournament
@@ -180,7 +77,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vintage-postcard-collection-talk-at-shirley-burden-public-library-20261
  114@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261114T100000
 DTEND;TZID=America/Chicago:20261114T110000
 SUMMARY:Vintage Postcard Collection Talk at Shirley Burden Public Library
@@ -195,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-men-s-basketball-vs-albany-tech-20261114@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Wallace State Men's Basketball vs. Albany Tech
@@ -209,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-men-s-basketball-vs-east-mississippi-20261116@shoplocalha
  nceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Wallace State Men's Basketball vs. East Mississippi
@@ -223,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-women-s-basketball-at-pellissippi-state-20261116@shoploca
  lhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Wallace State Women's Basketball at Pellissippi State
@@ -238,7 +135,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cullman-county-commission-work-session-and-meeting-20261117@shoplocalha
  nceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261117T160000
 DTEND;TZID=America/Chicago:20261117T190000
 SUMMARY:Cullman County Commission Work Session and Meeting
@@ -255,7 +152,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cullman-veterans-hall-of-fame-dinner-and-ceremony-20261117@shoplocalhan
  ceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Cullman Veterans Hall of Fame Dinner and Ceremony
@@ -275,7 +172,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-ardmore-20261117@shoplocalhanceville.
  github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Hanceville Bulldogs Basketball vs. Ardmore
@@ -290,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-public-library-storytime-20261118@shoplocalhanceville.github
  .io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261118T100000
 DTEND;TZID=America/Chicago:20261118T103000
 SUMMARY:Hanceville Public Library Storytime
@@ -304,7 +201,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-at-the-grotto-20261119@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261228
 SUMMARY:Christmas at the Grotto
@@ -321,7 +218,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:cullman-christkindlmarkt-20261119@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261224
 SUMMARY:Cullman Christkindlmarkt
@@ -338,7 +235,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-at-west-point-20261119@shoplocalhancevil
  le.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Hanceville Bulldogs Basketball at West Point
@@ -353,7 +250,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:run-run-rudolph-at-winter-wonderland-20261119@shoplocalhanceville.githu
  b.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261119T170000
 DTEND;TZID=America/Chicago:20261119T200000
 SUMMARY:Run Run Rudolph at Winter Wonderland
@@ -370,7 +267,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-men-s-basketball-at-east-central-20261119@shoplocalhancev
  ille.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Wallace State Men's Basketball at East Central
@@ -386,7 +283,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:christkindlmarkt-parade-and-tree-lighting-20261120@shoplocalhanceville.
  github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261120T183000
 DTEND;TZID=America/Chicago:20261120T210000
 SUMMARY:Christkindlmarkt Parade and Tree Lighting
@@ -402,7 +299,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-at-dora-20261120@shoplocalhanceville.git
  hub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Hanceville Bulldogs Basketball at Dora
@@ -417,7 +314,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vinemont-band-booster-winter-craft-show-20261120@shoplocalhanceville.gi
  thub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:Vinemont Band Booster Winter Craft Show
@@ -433,7 +330,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-women-s-basketball-wallace-state-classic-vs-vincennes-202
  61120@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Wallace State Women's Basketball: Wallace State Classic vs. Vincenn
@@ -448,7 +345,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:drive-through-food-bank-at-spirit-life-church-20261121@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261121T090000
 DTEND;TZID=America/Chicago:20261121T110000
 SUMMARY:Drive Through Food Bank at Spirit Life Church
@@ -465,7 +362,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-christmas-tree-lighting-and-tinsel-trail-20261121@shoplocalh
  anceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Hanceville Christmas Tree Lighting and Tinsel Trail
@@ -481,7 +378,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker-with-ballet-south-20261121@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:The Nutcracker with Ballet South
@@ -498,7 +395,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-women-s-basketball-wallace-state-classic-vs-chipola-20261
  121@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Wallace State Women's Basketball: Wallace State Classic vs. Chipola
@@ -512,7 +409,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-city-council-meeting-moved-from-nov-26-20261124@shoplocalhan
  ceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Hanceville City Council Meeting (moved from Nov. 26)
@@ -528,7 +425,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-public-library-storytime-20261125@shoplocalhanceville.github
  .io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261125T100000
 DTEND;TZID=America/Chicago:20261125T103000
 SUMMARY:Hanceville Public Library Storytime
@@ -543,7 +440,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-at-fairview-20261201@shoplocalhanceville
  .github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Hanceville Bulldogs Basketball at Fairview
@@ -558,7 +455,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:festival-of-trees-at-the-cullman-wellness-and-aquatic-center-20261203@s
  hoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261228
 SUMMARY:Festival of Trees at the Cullman Wellness and Aquatic Center
@@ -576,7 +473,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-good-hope-20261203@shoplocalhancevill
  e.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Hanceville Bulldogs Basketball vs. Good Hope
@@ -591,7 +488,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cullman-county-christmas-parade-in-hanceville-20261205@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Cullman County Christmas Parade in Hanceville
@@ -607,7 +504,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-holly-market-20261205@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261205T090000
 DTEND;TZID=America/Chicago:20261205T170000
 SUMMARY:Hanceville Holly Market
@@ -622,7 +519,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:share-club-of-cullman-christmas-tour-of-homes-20261206@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261206T130000
 DTEND;TZID=America/Chicago:20261206T170000
 SUMMARY:Share Club of Cullman Christmas Tour of Homes
@@ -640,7 +537,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-corner-20261207@shoplocalhanceville.g
  ithub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Hanceville Bulldogs Basketball vs. Corner
@@ -655,7 +552,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cullman-regional-lights-of-love-ceremony-20261208@shoplocalhanceville.g
  ithub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Cullman Regional Lights of Love Ceremony
@@ -676,7 +573,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:christmas-spectacular-at-wallace-state-20261210@shoplocalhanceville.git
  hub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Christmas Spectacular at Wallace State
@@ -690,8 +587,21 @@ URL:https://www.cullmantribune.com/2026/10/21/wallace-state-releases-perfor
 CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
+UID:hanceville-city-council-meeting-20261210@shoplocalhanceville.github.io
+DTSTAMP:20261113T114007Z
+DTSTART;TZID=America/Chicago:20261210T180000
+DTEND;TZID=America/Chicago:20261210T190000
+SUMMARY:Hanceville City Council Meeting
+LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
+DESCRIPTION:The city calendar lists the next regular City Council meeting f
+ or Thursday\, Dec. 10\, at City Hall. Meetings are open to the public. Tim
+ e: 6:00 PM to 7:00 PM Host: City of Hanceville Cost: Free
+URL:https://www.cityofhanceville.net/events
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
 UID:hanceville-holly-market-20261212@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261212T090000
 DTEND;TZID=America/Chicago:20261212T170000
 SUMMARY:Hanceville Holly Market
@@ -706,7 +616,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:jingle-bell-run-and-holiday-stroll-20261212@shoplocalhanceville.github.
  io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261212T080000
 DTEND;TZID=America/Chicago:20261212T103000
 SUMMARY:Jingle Bell Run and Holiday Stroll
@@ -721,7 +631,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-holly-market-20261219@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;TZID=America/Chicago:20261219T090000
 DTEND;TZID=America/Chicago:20261219T170000
 SUMMARY:Hanceville Holly Market
@@ -736,7 +646,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:let-it-shine-puppets-at-shirley-burden-public-library-20261219@shoploca
  lhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Let it Shine Puppets at Shirley Burden Public Library
@@ -750,7 +660,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-cleveland-20270104@shoplocalhancevill
  e.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Hanceville Bulldogs Basketball vs. Cleveland
@@ -765,7 +675,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-holly-pond-20270115@shoplocalhancevil
  le.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Hanceville Bulldogs Basketball vs. Holly Pond
@@ -780,7 +690,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-sumiton-christian-20270129@shoplocalh
  anceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Hanceville Bulldogs Basketball vs. Sumiton Christian
@@ -795,7 +705,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-danville-20270202@shoplocalhanceville
  .github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261113T114007Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Hanceville Bulldogs Basketball vs. Danville
