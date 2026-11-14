@@ -56,7 +56,7 @@ def street(a):
 tpl=open('shops.html').read()
 HEADER=tpl[tpl.find('<a class="skip"'):tpl.find('<main')].replace(' aria-current="page"','')
 FOOTER=tpl[tpl.find('</main>')+7:]
-CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; frame-src https://www.facebook.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI=' https://www.googletagmanager.com 'sha256-y6C4FcdXwYQ+d+O0RJRhx1G2QZGRZoQj26Zi7ZN8iEI='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; font-src 'self'; frame-src https://www.facebook.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
 THEME="<script>(function(){try{var t=localStorage.getItem('hes-theme');if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>"
 CSSV=re.search(r'style\.css\?v=(\d+)',tpl).group(1)
 SPCSS_TEXT="""/*
@@ -211,9 +211,33 @@ def spslot(slot,profile=None):
   return f'<div class="sp-slot sp-slot--rectangle" data-sp-slot="{slot}"{pa}>\n  <p class="sp-label" data-sp-label></p>\n  <div class="sp-box sp-box--300x250" data-sp-box></div>\n</div>'
 def head(title,desc,path,ld,ogtype='website',img=None):
   img=img or BASE+'og-image.jpg'
-  url=BASE+path
+  url=BASE+path;GA_TAG="""<!-- Google tag (gtag.js) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function(){dataLayer.push(arguments);};
+  gtag('js', new Date());
+
+  gtag('config', 'G-HKNXBTG68Q');
+  (function () {
+    var injected = false;
+    function inject() {
+      if (injected) return;
+      injected = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-HKNXBTG68Q';
+      document.head.appendChild(s);
+    }
+    window.addEventListener('load', function () {
+      setTimeout(inject, 4000);
+    });
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
+      window.addEventListener(ev, inject, { once: true });
+    });
+  })();
+</script>"""
   return f'''<!doctype html>
-<html lang="en"><head>
+<html lang="en"><head>{GA_TAG}
 <meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="{CSP}"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width, initial-scale=1">
 {THEME}
 <title>{E(title)}</title><meta name="description" content="{E(desc)}">
@@ -469,7 +493,7 @@ simple('contact.html','Contact Us | Hanceville Entertainment & Shopping','How to
  '<section class="pl-sec"><h2>What to send us</h2><ul class="pl-links"><li><strong>A new listing:</strong> the business name, address, phone and a link to its website or Facebook Page.</li><li><strong>A correction:</strong> the listing name, what is wrong, and a link where we can confirm the right detail.</li><li><strong>A removal:</strong> the listing name. Owners can have a listing removed at any time.</li><li><strong>Local news or an event:</strong> a link to the official post or announcement.</li></ul></section>'
  '<section class="pl-sec"><h2>Business owners</h2><p>Want your business featured? Read how on the <a href="businesses.html#get-featured">Get Featured</a> section of the Business Directory.</p></section>')
 simple('privacy.html','Privacy Policy | Hanceville Entertainment & Shopping','What this site stores, what it does not collect, and how Facebook content and map links work.','Privacy Policy',
- '<section class="pl-sec"><h2>The short version</h2><p>This site has no accounts, no sign up forms, no advertising and no analytics or tracking scripts. We do not collect your name, email or location.</p></section>'
+ '<section class="pl-sec"><h2>The short version</h2><p>This site has no accounts, no sign up forms, no advertising. We do not collect your name, email or location.</p><p>We use Google Analytics to count visits and see which pages people use, so we can improve this site. Google Analytics uses cookies and sends usage information to Google.</p></section>'
  '<section class="pl-sec"><h2>What stays on your own device</h2><p>Your browser keeps a few small settings so the site remembers your choices: your light or dark theme, and any listings you save as favorites. These live only in your browser\'s local storage. We never receive them, and you can clear them any time by clearing your browser\'s site data.</p><p>The site also uses a service worker that keeps copies of pages and images on your device so they load faster and still open with a weak signal.</p></section>'
  '<section class="pl-sec"><h2>Hosting</h2><p>The site is hosted on GitHub Pages. Like any web host, GitHub may log basic technical details such as your IP address to keep the service secure. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub General Privacy Statement</a>.</p></section>'
  '<section class="pl-sec"><h2>Facebook posts and maps</h2><p>Facebook posts never load on their own. They appear only after you press a button such as "Show latest Facebook posts." Once you do, Facebook\'s own <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">privacy policy</a> applies to that content.</p><p>Direction buttons open Google Maps in a new tab, where <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google\'s privacy policy</a> applies.</p></section>'

@@ -69,18 +69,42 @@ THEME_HASH="'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI='"
 GC_HOST=f"https://{GOATCOUNTER_CODE}.goatcounter.com" if GOATCOUNTER_CODE else ""
 def csp(img='',conn=''):
   g=(' '+GC_HOST) if GC_HOST else ''
-  return f"default-src 'self'; script-src 'self' {THEME_HASH}; style-src 'self' 'unsafe-inline'; img-src 'self' data:{img}{g}; connect-src 'self' https://api.weather.gov{conn}{g}; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests"
+  return f"default-src 'self'; script-src 'self' {THEME_HASH} https://www.googletagmanager.com 'sha256-y6C4FcdXwYQ+d+O0RJRhx1G2QZGRZoQj26Zi7ZN8iEI='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com{img}{g}; connect-src 'self' https://api.weather.gov https://www.google-analytics.com https://region1.google-analytics.com{conn}{g}; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests"
 ES_PAIRS={'index.html':'es.html','city.html':'es-servicios.html','departments.html':'es-departamentos.html','council.html':'es-concejo.html','report.html':'es-reportar.html'}
 EN_OF={v:k for k,v in ES_PAIRS.items()}
 def head(title,desc,f,extra='',lang='en',img='',noindex=False):
-  url=BASE+('' if f=='index.html' else f)
+  url=BASE+('' if f=='index.html' else f);GA_TAG="""<!-- Google tag (gtag.js) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function(){dataLayer.push(arguments);};
+  gtag('js', new Date());
+
+  gtag('config', 'G-HKNXBTG68Q');
+  (function () {
+    var injected = false;
+    function inject() {
+      if (injected) return;
+      injected = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-HKNXBTG68Q';
+      document.head.appendChild(s);
+    }
+    window.addEventListener('load', function () {
+      setTimeout(inject, 4000);
+    });
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
+      window.addEventListener(ev, inject, { once: true });
+    });
+  })();
+</script>"""
   alt=''
   en=EN_OF.get(f,f) if lang=='es' else f;es=ES_PAIRS.get(en)
   if es:alt=f'<link rel="alternate" hreflang="en" href="{BASE+("" if en=="index.html" else en)}"><link rel="alternate" hreflang="es" href="{BASE+es}"><link rel="alternate" hreflang="x-default" href="{BASE+("" if en=="index.html" else en)}">'
   gc=f'<script data-goatcounter="{GC_HOST}/count" async src="vendor/goatcounter/count.js"></script>' if GC_HOST and not noindex else ''
   loc='es_US' if lang=='es' else 'en_US'
   return f'''<!doctype html>
-<html lang="{lang}"><head>
+<html lang="{lang}"><head>{GA_TAG}
 <meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="{csp(img)}"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width, initial-scale=1">
 <script>(function(){{try{{var t=localStorage.getItem('hes-theme');if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}}catch(e){{}}}})();</script>
 <title>{title}</title><meta name="description" content="{desc}">
