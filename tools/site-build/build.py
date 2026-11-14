@@ -69,7 +69,7 @@ THEME_HASH="'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI='"
 GC_HOST=f"https://{GOATCOUNTER_CODE}.goatcounter.com" if GOATCOUNTER_CODE else ""
 def csp(img='',conn=''):
   g=(' '+GC_HOST) if GC_HOST else ''
-  return f"default-src 'self'; script-src 'self' {THEME_HASH}; style-src 'self' 'unsafe-inline'; img-src 'self' data:{img}{g}; connect-src 'self' https://api.weather.gov{conn}{g}; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests"
+  return f"default-src 'self'; script-src 'self' {THEME_HASH} https://www.googletagmanager.com 'sha256-901FKnOkjMAfxaxBn+gVSPXrk2KHiliF/GnEuu0NUGE='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://region1.google-analytics.com{img}{g}; connect-src 'self' https://api.weather.gov https://www.google-analytics.com https://region1.google-analytics.com{conn}{g}; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests"
 ES_PAIRS={'index.html':'es.html','city.html':'es-servicios.html','departments.html':'es-departamentos.html','council.html':'es-concejo.html','report.html':'es-reportar.html'}
 EN_OF={v:k for k,v in ES_PAIRS.items()}
 def head(title,desc,f,extra='',lang='en',img='',noindex=False):
