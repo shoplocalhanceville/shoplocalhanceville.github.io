@@ -392,7 +392,7 @@ try{var qv=new URLSearchParams(location.search).get("q");
 /* gentle reveal on scroll */
 try{
  var secs=document.querySelectorAll("main#results, section.wrap");
- secs.forEach(function(s){s.setAttribute("data-reveal","");});
+ secs.forEach(function(s){if(s.querySelector(".helpbar,.sp-row-cards"))return;s.setAttribute("data-reveal","");});
  var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add("in");io.unobserve(en.target);}});},{threshold:.06});
  secs.forEach(function(s){io.observe(s);});
 }catch(e){document.querySelectorAll("[data-reveal]").forEach(function(s){s.classList.add("in");});}
