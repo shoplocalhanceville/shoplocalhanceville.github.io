@@ -56,7 +56,7 @@ def street(a):
 tpl=open('shops.html').read()
 HEADER=tpl[tpl.find('<a class="skip"'):tpl.find('<main')].replace(' aria-current="page"','')
 FOOTER=tpl[tpl.find('</main>')+7:]
-CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; frame-src https://www.facebook.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI=' https://www.googletagmanager.com 'sha256-901FKnOkjMAfxaxBn+gVSPXrk2KHiliF/GnEuu0NUGE='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://region1.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; font-src 'self'; frame-src https://www.facebook.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
 THEME="<script>(function(){try{var t=localStorage.getItem('hes-theme');if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>"
 CSSV=re.search(r'style\.css\?v=(\d+)',tpl).group(1)
 SPCSS_TEXT="""/*
