@@ -25,7 +25,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:pancake-breakfast-with-santa-and-christmas-raffle-in-berlin-20261205@sh
  oplocalhanceville.github.io
-DTSTAMP:20261113T200817Z
+DTSTAMP:20261114T091033Z
 DTSTART;TZID=America/Chicago:20261205T070000
 DTEND;TZID=America/Chicago:20261205T100000
 SUMMARY:Pancake Breakfast with Santa and Christmas Raffle in Berlin
