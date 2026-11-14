@@ -25,7 +25,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:hanceville-christmas-tree-lighting-and-tinsel-trail-20261121@shoplocalh
  anceville.github.io
-DTSTAMP:20261113T200817Z
+DTSTAMP:20261114T091033Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Hanceville Christmas Tree Lighting and Tinsel Trail
