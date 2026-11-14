@@ -69,18 +69,23 @@ THEME_HASH="'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI='"
 GC_HOST=f"https://{GOATCOUNTER_CODE}.goatcounter.com" if GOATCOUNTER_CODE else ""
 def csp(img='',conn=''):
   g=(' '+GC_HOST) if GC_HOST else ''
-  return f"default-src 'self'; script-src 'self' {THEME_HASH} https://www.googletagmanager.com 'sha256-901FKnOkjMAfxaxBn+gVSPXrk2KHiliF/GnEuu0NUGE='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://region1.google-analytics.com{img}{g}; connect-src 'self' https://api.weather.gov https://www.google-analytics.com https://region1.google-analytics.com{conn}{g}; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests"
+  return f"default-src 'self'; script-src 'self' {THEME_HASH} https://www.googletagmanager.com 'sha256-d/Vp9+UaL6jAaGm2IMMIUqB0BAeKZ0G2Bt2Y1vOkrjM='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://region1.google-analytics.com{img}{g}; connect-src 'self' https://api.weather.gov https://www.google-analytics.com https://region1.google-analytics.com{conn}{g}; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests"
 ES_PAIRS={'index.html':'es.html','city.html':'es-servicios.html','departments.html':'es-departamentos.html','council.html':'es-concejo.html','report.html':'es-reportar.html'}
 EN_OF={v:k for k,v in ES_PAIRS.items()}
 def head(title,desc,f,extra='',lang='en',img='',noindex=False):
   url=BASE+('' if f=='index.html' else f);GA_TAG="""<!-- Google tag (gtag.js) -->
-<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-HKNXBTG68Q\"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-HKNXBTG68Q';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){dataLayer.push(arguments);};
+    gtag('js', new Date());
 
-  gtag('config', 'G-HKNXBTG68Q');
+    gtag('config', 'G-HKNXBTG68Q');
+  });
 </script>"""
   alt=''
   en=EN_OF.get(f,f) if lang=='es' else f;es=ES_PAIRS.get(en)
