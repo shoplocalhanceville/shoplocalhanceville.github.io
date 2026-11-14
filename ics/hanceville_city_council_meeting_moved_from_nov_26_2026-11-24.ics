@@ -25,7 +25,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:hanceville-city-council-meeting-moved-from-nov-26-20261124@shoplocalhan
  ceville.github.io
-DTSTAMP:20261114T091033Z
+DTSTAMP:20261114T111942Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Hanceville City Council Meeting (moved from Nov. 26)
