@@ -56,7 +56,7 @@ def street(a):
 tpl=open('shops.html').read()
 HEADER=tpl[tpl.find('<a class="skip"'):tpl.find('<main')].replace(' aria-current="page"','')
 FOOTER=tpl[tpl.find('</main>')+7:]
-CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI=' https://www.googletagmanager.com 'sha256-901FKnOkjMAfxaxBn+gVSPXrk2KHiliF/GnEuu0NUGE='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://region1.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; font-src 'self'; frame-src https://www.facebook.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI=' https://www.googletagmanager.com 'sha256-d/Vp9+UaL6jAaGm2IMMIUqB0BAeKZ0G2Bt2Y1vOkrjM='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://region1.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; font-src 'self'; frame-src https://www.facebook.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
 THEME="<script>(function(){try{var t=localStorage.getItem('hes-theme');if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>"
 CSSV=re.search(r'style\.css\?v=(\d+)',tpl).group(1)
 SPCSS_TEXT="""/*
@@ -212,13 +212,18 @@ def spslot(slot,profile=None):
 def head(title,desc,path,ld,ogtype='website',img=None):
   img=img or BASE+'og-image.jpg'
   url=BASE+path;GA_TAG="""<!-- Google tag (gtag.js) -->
-<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-HKNXBTG68Q\"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-HKNXBTG68Q';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){dataLayer.push(arguments);};
+    gtag('js', new Date());
 
-  gtag('config', 'G-HKNXBTG68Q');
+    gtag('config', 'G-HKNXBTG68Q');
+  });
 </script>"""
   return f'''<!doctype html>
 <html lang="en"><head>{GA_TAG}
