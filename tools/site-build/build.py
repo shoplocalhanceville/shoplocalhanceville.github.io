@@ -73,14 +73,22 @@ def csp(img='',conn=''):
 ES_PAIRS={'index.html':'es.html','city.html':'es-servicios.html','departments.html':'es-departamentos.html','council.html':'es-concejo.html','report.html':'es-reportar.html'}
 EN_OF={v:k for k,v in ES_PAIRS.items()}
 def head(title,desc,f,extra='',lang='en',img='',noindex=False):
-  url=BASE+('' if f=='index.html' else f)
+  url=BASE+('' if f=='index.html' else f);GA_TAG="""<!-- Google tag (gtag.js) -->
+<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-HKNXBTG68Q\"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HKNXBTG68Q');
+</script>"""
   alt=''
   en=EN_OF.get(f,f) if lang=='es' else f;es=ES_PAIRS.get(en)
   if es:alt=f'<link rel="alternate" hreflang="en" href="{BASE+("" if en=="index.html" else en)}"><link rel="alternate" hreflang="es" href="{BASE+es}"><link rel="alternate" hreflang="x-default" href="{BASE+("" if en=="index.html" else en)}">'
   gc=f'<script data-goatcounter="{GC_HOST}/count" async src="vendor/goatcounter/count.js"></script>' if GC_HOST and not noindex else ''
   loc='es_US' if lang=='es' else 'en_US'
   return f'''<!doctype html>
-<html lang="{lang}"><head>
+<html lang="{lang}"><head>{GA_TAG}
 <meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="{csp(img)}"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width, initial-scale=1">
 <script>(function(){{try{{var t=localStorage.getItem('hes-theme');if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}}catch(e){{}}}})();</script>
 <title>{title}</title><meta name="description" content="{desc}">
