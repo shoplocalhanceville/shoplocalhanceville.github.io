@@ -24,14 +24,15 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:hanceville-city-council-meeting-20261210@shoplocalhanceville.github.io
-DTSTAMP:20261114T111942Z
+DTSTAMP:20261116T230735Z
 DTSTART;TZID=America/Chicago:20261210T180000
 DTEND;TZID=America/Chicago:20261210T190000
 SUMMARY:Hanceville City Council Meeting
 LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
-DESCRIPTION:The city calendar lists the next regular City Council meeting f
- or Thursday\, Dec. 10\, at City Hall. Meetings are open to the public. Tim
- e: 6:00 PM to 7:00 PM Host: City of Hanceville Cost: Free
+DESCRIPTION:The regular City Council meeting is set for Thursday\, Dec. 10\
+ , at City Hall. The council scheduled a public hearing that night on a rez
+ oning request from Eight27 Holdings and Del Bales. Meetings are open to th
+ e public. Time: 6:00 PM to 7:00 PM Host: City of Hanceville Cost: Free
 URL:https://www.cityofhanceville.net/events
 CATEGORIES:Community and Fun
 END:VEVENT

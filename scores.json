@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T12:15:00-06:00",
+ "updated": "2026-11-16T17:25:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -729,8 +729,8 @@
    "venue": "Tom Drake Coliseum, Wallace State",
    "home": "wallace",
    "away": "albany-tech",
-   "status": "Upcoming",
-   "note": "Home game vs Albany Technical College.",
+   "status": "Final",
+   "note": "Home game vs Albany Technical College has been played; final score not confirmed in this refresh.",
    "source": {
     "name": "Wallace State Athletics schedule",
     "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
