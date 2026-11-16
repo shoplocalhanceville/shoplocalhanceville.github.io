@@ -4,8 +4,26 @@
   <id>https://shoplocalhanceville.github.io/atom.xml</id>
   <link rel="alternate" href="https://shoplocalhanceville.github.io/news.html" />
   <link rel="self" href="https://shoplocalhanceville.github.io/atom.xml" />
-  <updated>2026-11-13T00:00:00-06:00</updated>
+  <updated>2026-11-16T00:00:00-06:00</updated>
   <subtitle>Hanceville, AL news from city hall, local schools, sports, public safety and weather in Cullman County. Every story is dated and links to its sources.</subtitle>
+  <entry>
+    <title>Wallace State plans two new health careers: Nuclear Medicine Technology and Cancer Registry Management</title>
+    <id>https://shoplocalhanceville.github.io/story-wallace-state-nuclear-medicine-cancer-registry-programs-2027.html</id>
+    <link href="https://shoplocalhanceville.github.io/story-wallace-state-nuclear-medicine-cancer-registry-programs-2027.html" />
+    <published>2026-11-16T00:00:00-06:00</published>
+    <updated>2026-11-16T00:00:00-06:00</updated>
+    <summary>Wallace State in Hanceville plans to add a Nuclear Medicine Technology degree and a Cancer Registry Management option in fall 2027, pending state approval. Students can start prerequisites this spring, and applications open March 1.</summary>
+    <category term="Education" />
+  </entry>
+  <entry>
+    <title>Hanceville names an interim fire chief, orders purple and white E-911 road signs and moves its Christmas Eve meeting</title>
+    <id>https://shoplocalhanceville.github.io/story-hanceville-council-nov-12-interim-fire-chief-e911-signs.html</id>
+    <link href="https://shoplocalhanceville.github.io/story-hanceville-council-nov-12-interim-fire-chief-e911-signs.html" />
+    <published>2026-11-16T00:00:00-06:00</published>
+    <updated>2026-11-16T00:00:00-06:00</updated>
+    <summary>The Hanceville City Council on Nov. 12 named Bart Absher interim fire chief, set a Dec. 10 public hearing on a rezoning request and moved its Dec. 24 meeting to Dec. 29. The next work session and meeting is Tuesday, Nov. 24, at 6 PM.</summary>
+    <category term="City Hall" />
+  </entry>
   <entry>
     <title>Freeze warnings tonight and Saturday night: lows near 26 in Cullman County</title>
     <id>https://shoplocalhanceville.github.io/story-freeze-warnings-cullman-county-nov-14-15-2026.html</id>

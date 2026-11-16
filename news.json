@@ -1,5 +1,69 @@
 [
  {
+  "id": "hanceville-council-nov-12-interim-fire-chief-e911-signs",
+  "date": "2026-11-16",
+  "category": "City Hall",
+  "graphic": "🏛️",
+  "headline": "Hanceville names an interim fire chief, orders purple and white E-911 road signs and moves its Christmas Eve meeting",
+  "summary": "The Hanceville City Council on Nov. 12 named Bart Absher interim fire chief, set a Dec. 10 public hearing on a rezoning request and moved its Dec. 24 meeting to Dec. 29. The next work session and meeting is Tuesday, Nov. 24, at 6 PM.",
+  "body": [
+   "Hanceville has a new leader at the fire department, at least for now. At its Thursday, Nov. 12, meeting, the City Council named Bart Absher interim fire chief. The post had been open since the council upheld the removal of the previous chief on Oct. 8.",
+   "The council also appointed James Helms to the Hanceville Housing Authority board, replacing Edna Swann.",
+   "Drivers will soon notice new E-911 road signs. The signs have been ordered in a purple and white color scheme and will run along Perth Street to U.S. Highway 31.",
+   "A public hearing is set for Thursday, Dec. 10, on a rezoning request filed by Eight27 Holdings and Del Bales. Residents can speak on the proposed zoning change before the council takes any action.",
+   "On the money side, the council gave the Community Development Committee $1,000 through a budget amendment and approved the committee's Christmas tree entry in the Civitan Tinsel Trail, with the city paying the $25 registration fee. The city's donation to the Civitan club doubled from $500 to $1,000.",
+   "Members approved an agreement that lets the city's GIS mapping connect with its BS&A software, with a one time payment of $2,500 and $250 a month after that, about $5,500 in the first year. They also approved a $14,253 contract with AirMed.",
+   "Because Dec. 24 is Christmas Eve, the council moved that meeting to Tuesday, Dec. 29. The next regular work session and meeting is Tuesday, Nov. 24, at 6 PM at Hanceville City Hall, 112 Main St SE. Meetings are open to the public."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Hanceville City Council appoints Bart Absher interim fire chief, approves funding and contracts (Nov. 14, 2026)",
+    "url": "https://www.cullmantribune.com/2026/11/14/hanceville-city-council-appoints-bart-absher-interim-fire-chief-approves-funding-and-contracts/"
+   }
+  ],
+  "tags": [
+   "hanceville",
+   "city council",
+   "fire department",
+   "e911",
+   "rezoning",
+   "civitan"
+  ]
+ },
+ {
+  "id": "wallace-state-nuclear-medicine-cancer-registry-programs-2027",
+  "date": "2026-11-16",
+  "category": "Education",
+  "graphic": "🩺",
+  "headline": "Wallace State plans two new health careers: Nuclear Medicine Technology and Cancer Registry Management",
+  "summary": "Wallace State in Hanceville plans to add a Nuclear Medicine Technology degree and a Cancer Registry Management option in fall 2027, pending state approval. Students can start prerequisites this spring, and applications open March 1.",
+  "body": [
+   "Wallace State Community College wants to grow its Health Science division with two new programs, Nuclear Medicine Technology and Cancer Registry Management. Both are expected to start in fall 2027 if the Alabama Commission on Higher Education and the Alabama Community College System approve them.",
+   "Nuclear Medicine Technology would be a five semester Associate in Applied Science degree. The first two semesters are prerequisites such as anatomy and physiology, precalculus and chemistry, and the last three focus on the field itself, including clinical experience. Graduates use small amounts of radioactive material and imaging equipment to help diagnose and treat illness, mostly in hospitals and imaging centers. The college cites federal labor data putting the Alabama median salary at $73,210.",
+   "Cancer Registry Management would be offered through the Health Information Technology program, with a three semester certificate and a four semester associate degree. Every class can be taken online. Graduates who meet the requirements may sit for the Oncology Data Specialist exam and go on to keep the patient records used in cancer research and treatment planning.",
+   "Students interested in either program are encouraged to take prerequisite courses in the spring 2027 semester. Registration is open now and spring classes start Jan. 8. Applications for both programs will be taken March 1 to June 1, 2027.",
+   "For Nuclear Medicine Technology questions, the college lists program contact Mindie Sandlin at (256) 352-8334."
+  ],
+  "sources": [
+   {
+    "name": "The Cullman Tribune: Wallace State to add Nuclear Medicine Technology and Cancer Registry Management (Nov. 16, 2026)",
+    "url": "https://www.cullmantribune.com/2026/11/16/wallace-state-to-add-nuclear-medicine-technology-and-cancer-registry-management/"
+   },
+   {
+    "name": "The Cullman Times: Wallace State to add Nuclear Medicine Technology, Cancer Registry Management options (Nov. 16, 2026)",
+    "url": "https://cullmantimes.com/2026/11/16/wallace-state-to-add-nuclear-medicine-technology-cancer-registry-management-options/"
+   }
+  ],
+  "tags": [
+   "wallace state",
+   "health science",
+   "nuclear medicine",
+   "cancer registry",
+   "college",
+   "hanceville"
+  ]
+ },
+ {
   "id": "freeze-warnings-cullman-county-nov-14-15-2026",
   "date": "2026-11-13",
   "category": "Weather",
