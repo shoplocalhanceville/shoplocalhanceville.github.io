@@ -798,11 +798,15 @@
    "venue": "Tom Drake Coliseum, Wallace State",
    "home": "wallace",
    "away": "east-mississippi",
-   "status": "Upcoming",
-   "note": "Home game vs East Mississippi Community College.",
+   "status": "Final",
+   "note": "East Mississippi won 106 to 101 at Tom Drake Coliseum.",
    "source": {
-    "name": "Wallace State Athletics schedule",
+    "name": "Wallace State Athletics schedule and results",
     "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 101,
+    "away": 106
    }
   },
   {
