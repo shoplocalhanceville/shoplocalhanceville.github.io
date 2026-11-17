@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:20:00-06:00",
+ "updated": "2026-11-16T20:15:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -777,11 +777,15 @@
    "venue": "Pellissippi State, Knoxville, TN",
    "home": "pellissippi",
    "away": "wallace",
-   "status": "Upcoming",
-   "note": "Road game at Pellissippi State.",
+   "status": "Final",
+   "note": "Wallace State won 53 to 46 at Pellissippi State.",
    "source": {
-    "name": "Wallace State Athletics schedule",
+    "name": "Wallace State Athletics schedule and results",
     "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 46,
+    "away": 53
    }
   },
   {
@@ -794,11 +798,15 @@
    "venue": "Tom Drake Coliseum, Wallace State",
    "home": "wallace",
    "away": "east-mississippi",
-   "status": "Upcoming",
-   "note": "Home game vs East Mississippi Community College.",
+   "status": "Final",
+   "note": "East Mississippi won 106 to 101 at Tom Drake Coliseum.",
    "source": {
-    "name": "Wallace State Athletics schedule",
+    "name": "Wallace State Athletics schedule and results",
     "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 101,
+    "away": 106
    }
   },
   {
@@ -837,7 +845,7 @@
    "label": "Hanceville High Boys Basketball",
    "sport": "Basketball",
    "period": "Q",
-   "start": "2026-11-19T19:45:00-06:00",
+   "start": "2026-11-19T19:00:00-06:00",
    "venue": "West Point High School",
    "home": "west-point",
    "away": "hanceville",
