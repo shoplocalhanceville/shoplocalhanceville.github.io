@@ -19,6 +19,6 @@ body:
     id: acceptance
     attributes:
       label: Acceptance criteria
-      description: Include the Lighthouse gate: no feature ships if it drops a gate score.
+      description: "Include the Lighthouse gate: no feature ships if it drops a gate score."
     validations:
       required: true
