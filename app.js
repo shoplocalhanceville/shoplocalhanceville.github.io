@@ -2,7 +2,16 @@
 'use strict';
 var SLH_VMAN=null;
 function slhVariantize(im){if(!SLH_VMAN)return;var src=im.getAttribute('src');var e=SLH_VMAN[src];if(!e)return;if(im.parentNode&&im.parentNode.tagName==='PICTURE')return;var cands=(e.w||'').split(',').filter(function(s){return s.trim();});var hasA=!!e.a;if(!hasA&&cands.length<=1)return;if(cands.length>1){im.srcset=e.w;im.sizes='56px';}else if(hasA){im.sizes='56px';}if(hasA){var pic=document.createElement('picture');var so=document.createElement('source');so.type='image/avif';so.srcset=e.a;so.sizes='56px';im.parentNode.insertBefore(pic,im);pic.appendChild(so);pic.appendChild(im);}}
-(function(){var s=document.createElement('script');s.src='variants-manifest.js';s.async=true;s.onload=function(){SLH_VMAN=window.SLH_VARIANTS||null;if(SLH_VMAN)document.querySelectorAll('img.blogo').forEach(slhVariantize);};document.head.appendChild(s);})();
+function slhLoadVariants(cb){
+  var go=function(){
+    var s=document.createElement('script');s.src='variants-manifest.js';s.async=true;
+    s.onload=cb;s.onerror=cb;document.head.appendChild(s);
+  };
+  if('requestIdleCallback' in window){requestIdleCallback(go,{timeout:2500});}
+  else if(document.readyState==='complete'){go();}
+  else{window.addEventListener('load',go);}
+}
+slhLoadVariants(function(){SLH_VMAN=window.SLH_VARIANTS||null;if(SLH_VMAN)document.querySelectorAll('img.blogo').forEach(slhVariantize);});
 var FB='https://www.facebook.com/2333964643484816';
 var PAGES=[
  {k:'departments',f:'departments.html',t:'Departments & Contacts',ic:'\ud83d\udcde',j:'departments.json',g:'group',o:['City Hall Offices','Public Safety','Streets, Water and Utilities','Parks, Library and Recreation','Boards and Committees','County Office at City Hall'],info:1},
