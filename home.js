@@ -38,7 +38,7 @@ function ensureVariants(){
     document.head.appendChild(s);});}
   return variantsPromise;
 }
-ensureVariants();
+idle(function(){ensureVariants();});
 var L=window.SLH_LISTINGS||[];
 function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
 function favs(){try{return JSON.parse(localStorage.getItem("slh-favs")||"[]");}catch(e){return[];}}
@@ -160,7 +160,6 @@ function loadEmbed(art,r){
     b.textContent="Open on Facebook";box.appendChild(p);box.appendChild(b);},9000);
 }
 function apply(scroll){
-  if(!variantsSettled){ensureVariants().then(function(){apply(scroll);});return;}
   bootApplied=true;
   var term=norm(q.value||"").replace(/\bnear me\b/g," ").trim();
   if(SYN[term])term=SYN[term];
@@ -210,14 +209,15 @@ catSel.addEventListener("change",function(){apply(false);syncTiles();});
 sortSel.addEventListener("change",function(){apply(false);});
 openNow.addEventListener("change",function(){apply(false);});
 savedOnly.addEventListener("change",function(){apply(false);});
-/* categories into select */
-var cats={};L.forEach(function(r){if(r.category)cats[r.category]=(cats[r.category]||0)+1;});
-Object.keys(cats).sort().forEach(function(c){var o=document.createElement("option");
-  o.value=c;o.textContent=catName(c);catSel.appendChild(o);});
 /* ---------- kind rail ---------- */
 var krail=document.getElementById("krail");
 function syncTiles(){krail.querySelectorAll(".ktile").forEach(function(b){
   b.setAttribute("aria-pressed",b.getAttribute("data-cat")===catSel.value?"true":"false");});}
+/* categories into select + kind rail build: full-array pass, idle-chunked (Package 2 Step 1) */
+idle(function(){
+var cats={};L.forEach(function(r){if(r.category)cats[r.category]=(cats[r.category]||0)+1;});
+Object.keys(cats).sort().forEach(function(c){var o=document.createElement("option");
+  o.value=c;o.textContent=catName(c);catSel.appendChild(o);});
 Object.keys(cats).sort(function(a,b){return cats[b]-cats[a];}).forEach(function(c){
   var b=document.createElement("button");b.className="ktile";b.type="button";b.setAttribute("data-cat",c);
   b.setAttribute("aria-pressed","false");
@@ -231,10 +231,12 @@ Object.keys(cats).sort(function(a,b){return cats[b]-cats[a];}).forEach(function(
   b.addEventListener("click",function(){
     catSel.value=(catSel.value===c)?"":c;syncTiles();apply(true);});
   krail.appendChild(b);});
+});
 /* quick chips */
 document.querySelectorAll("[data-quick]").forEach(function(b){
   b.addEventListener("click",function(){q.value=b.getAttribute("data-quick");apply(true);});});
-/* ---------- featured rail + spotlight ---------- */
+/* ---------- featured rail + spotlight (pool scan idle-chunked, Package 2 Step 1) ---------- */
+idle(function(){
 var pool=L.filter(function(r){return r.logo;});
 var day=Math.floor(Date.now()/86400000);
 var feat=document.getElementById("frail");
@@ -260,7 +262,9 @@ picks.forEach(function(r){
 });
 var sp=document.getElementById("spotName");
 if(sp&&pool.length){sp.textContent=pool[day%pool.length].name;}
-/* ---------- towns rail ---------- */
+});
+/* ---------- towns rail (index idle-chunked, Package 2 Step 1) ---------- */
+idle(function(){
 var towns={};L.forEach(function(r){var m=(r.address||"").match(/,\s*([A-Za-z ]+),\s*AL/);
   if(m)towns[m[1].trim()]=(towns[m[1].trim()]||0)+1;});
 var trail=document.getElementById("trail");
@@ -275,6 +279,7 @@ Object.keys(towns).sort(function(a,b){return towns[b]-towns[a];}).forEach(functi
     if(townFilter)b.setAttribute("aria-pressed","true");
     apply(true);});
   trail.appendChild(b);});
+});
 /* rail arrows */
 document.querySelectorAll("[data-rail]").forEach(function(btn){
   btn.addEventListener("click",function(){
@@ -316,15 +321,29 @@ document.getElementById("zClose").addEventListener("click",function(){dlg.close(
 document.getElementById("toTop").addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
 var bootApplied=false;
 function bootApply(){if(bootApplied)return;bootApplied=true;apply(false);}
-idle(function(){ensureVariants().then(bootApply);});
+idle(bootApply);
 var h0=location.hash.slice(1);
 if(h0){var tgt=null;
   for(var hi=0;hi<L.length;hi++){if(slug(L[hi].name)===h0){tgt=L[hi];break;}}
   if(tgt){q.value="";catSel.value="";townFilter="";savedOnly.checked=false;
-    ensureVariants().then(function(){bootApply();
+    bootApply();
     var el=document.getElementById(h0);
     while(!el&&shown<filtered.length){renderMore();el=document.getElementById(h0);}
-    if(el)setTimeout(function(){el.scrollIntoView({block:"center"});el.style.outline="3px solid var(--purple)";},80);});}}
+    if(el)setTimeout(function(){el.scrollIntoView({block:"center"});el.style.outline="3px solid var(--purple)";},80);}}
+/* Package 2 Step 1: renders no longer wait for the variant manifest. When
+   the manifest settles, upgrade in place any images that rendered before
+   it arrived, with the same sizes variantize() would have given them. */
+function whenVariants(fn){if(variantsPromise){variantsPromise.then(fn);}else idle(function(){whenVariants(fn);});}
+whenVariants(function(){
+  function up(im,sizes){if(!im||im.getAttribute("srcset"))return;
+    var par=im.parentNode;if(!par||par.tagName==="PICTURE")return;
+    var nx=im.nextSibling;
+    var r=variantize(im,sizes);
+    if(r!==im)par.insertBefore(r,nx);}
+  grid.querySelectorAll("img.logo").forEach(function(im){up(im,"(max-width: 700px) 362px, 310px)");});
+  var fr=document.getElementById("frail");if(fr)fr.querySelectorAll("img").forEach(function(im){up(im,"224px");});
+  sug.querySelectorAll("img").forEach(function(im){up(im,"46px");});
+});
 })();
 }catch(e){if(window.console)console.error(e);}
 try{
@@ -421,7 +440,20 @@ function T(en){return en;}
 function slug(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
 function esc(s){var d=document.createElement("div");d.textContent=s||"";return d.innerHTML;}
 var L=window.SLH_LISTINGS||[];
-var bySlug={};L.forEach(function(r){bySlug[slug(r.name)]=r;});
+var bySlug={}, _slugQueue=[], slugIndexDone=false;
+function _slugIdle(fn){if(window.requestIdleCallback)requestIdleCallback(fn,{timeout:1200});else setTimeout(fn,0);}
+function buildSlugIndex(){
+  var i=0;
+  (function step(){
+    var end=Math.min(i+100,L.length);
+    for(;i<end;i++){bySlug[slug(L[i].name)]=L[i];}
+    if(i<L.length){_slugIdle(step);}
+    else{slugIndexDone=true;
+      document.querySelectorAll(".card").forEach(function(c){if(c.id&&bySlug[c.id])addProfileButton(c,bySlug[c.id]);});
+      _slugQueue.splice(0).forEach(function(f){f();});}
+  })();
+}
+buildSlugIndex();
 var OFF=window.SLH_OFFICIALS||[];
 function favs(){try{return JSON.parse(localStorage.getItem("slh-favs")||"[]");}catch(e){return[];}}
 function setFavs(f){try{localStorage.setItem("slh-favs",JSON.stringify(f));}catch(e){}}
@@ -531,7 +563,8 @@ if(orail){orail.querySelectorAll("figure").forEach(function(fig){
 /* ---- deep link: open the profile named in the hash ---- */
 function openFromHash(){
   var h=(location.hash||"").slice(1);if(!h)return;
-  var r=bySlug[h];if(r)openListing(r);
+  var r=bySlug[h];if(r){openListing(r);return;}
+  if(!slugIndexDone)_slugQueue.push(openFromHash);
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",openFromHash);else openFromHash();
 }

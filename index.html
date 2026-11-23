@@ -756,7 +756,7 @@ img{max-width:100%}
 </nav>
 
 <script src="data.js" defer></script>
-<script src="home.js?v=5" defer></script>
+<script src="home.js?v=6" defer></script>
 
 <div id="profileView" hidden role="dialog" aria-modal="true" aria-label="Profile">
   <div class="pf-bar"><button type="button" class="btn" id="pfBack">&#8592; <span id="pfBackLabel">Back to listings</span></button></div>
@@ -769,6 +769,8 @@ img{max-width:100%}
 var box=document.getElementById("newsLeadList");if(!box)return;
 var MON_EN=["January","February","March","April","May","June","July","August","September","October","November","December"];
 function fmt(d){var p=String(d||"").split("-");if(p.length!==3)return "";var y=+p[0],m=+p[1],day=+p[2];if(!y||m<1||m>12||!day)return "";return MON_EN[m-1]+" "+day+", "+y;}
+function idleGo(fn){if(window.requestIdleCallback)requestIdleCallback(fn,{timeout:1500});else if(document.readyState==="complete")fn();else window.addEventListener("load",fn);}
+idleGo(function(){
 fetch("news.json").then(function(r){return r.json();}).then(function(d){
  var rows=(d||[]).filter(function(e){return e&&e.date&&e.id&&e.headline;});
  rows.sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0;});
@@ -780,6 +782,7 @@ fetch("news.json").then(function(r){return r.json();}).then(function(d){
   art.appendChild(h);art.appendChild(when);box.appendChild(art);
  });
 }).catch(function(){});
+});
 })();
 </script>
 <script src="sponsors.js?v=1" defer></script>
