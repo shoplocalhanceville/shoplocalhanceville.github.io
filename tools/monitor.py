@@ -45,7 +45,7 @@ V14_CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk
 # Generated listing pages (tools/build_places.py, Oct 24 2026): v14 policy plus frame-src for the click-to-load Facebook Page Plugin.
 PLACE_CSP=V14_CSP.replace("font-src 'self'; ","font-src 'self'; frame-src https://www.facebook.com; ")
 INDEX_BASE_CSP="object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"  # homepage baseline meta CSP (inline data scripts)
-ALLOWED_SRC=r'^(app\.js|place\.js|map\.js|data\.js|data-es\.js|vendor/leaflet/leaflet\.js|vendor/goatcounter/count\.js)(\?v=[0-9.]+)?$'
+ALLOWED_SRC=r'^(app\.js|place\.js|map\.js|data\.js|data-es\.js|home\.js|places-az\.js|sponsors\.js|sponsor-slots\.js|vendor/leaflet/leaflet\.js|vendor/goatcounter/count\.js)(\?v=[0-9.]+)?$'
 
 UA='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36 HancevilleMonitor/1.0'
 args=sys.argv[1:];EXT='--no-external' not in args;QUIET='--quiet' in args
@@ -110,7 +110,7 @@ with cf.ThreadPoolExecutor(WORKERS) as ex:
     live[path]=body
 say(f'Checked {len(live)} live files against main')
 pages=[p for p in live if p.endswith('.html') and not re.fullmatch(r'google[0-9a-f]+\.html',p)
-         and not (b'http-equiv="refresh"' in live[p] and b'content="noindex"' in live[p])]  # removed stories kept as noindex redirect stubs have no CSP on purpose
+         and not b'http-equiv="refresh"' in live[p] and b'<html' in live[p].lower()]  # meta refresh redirect stubs (removed stories, renamed listings) and staging fragments without <html> have no CSP on purpose
 root_code,_,_,_e=curl(BASE)
 if root_code!=200:problems.append(f'HTTP {root_code} for site root')
 # ---- 3: CSP and scripts
@@ -136,7 +136,8 @@ def urls_in(v):
   return [u.rstrip('.:)]}') for u in URLRX.findall(_html.unescape(v))]
 malformed={}
 for p in pages:
-  for href in re.findall(r'href="([^"#][^"]*)"',live[p].decode('utf8','ignore')):
+  # inline JavaScript builds hrefs at run time (for example a.href="story-"+e.id+".html" on the homepage); only check real markup
+  for href in re.findall(r'href="([^"#][^"]*)"',re.sub(r'<script\b[^>]*>.*?</script>','',live[p].decode('utf8','ignore'),flags=re.S)):
     href=href.replace('&amp;','&')
     if re.search(r'\s',href) and re.match(r'https?://',href):
       # a note such as "(checked Nov. 9, 2026)" got glued into the link: a real bug on our own page, not an outside problem

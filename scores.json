@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:00:00-06:00",
+ "updated": "2026-11-16T20:15:00-06:00",
  "teams": {
   "hanceville": {
    "name": "Hanceville",
@@ -249,6 +249,69 @@
   "east-central": {
    "name": "East Central",
    "initials": "ECCC",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "cullman-christian": {
+   "name": "Cullman Christian",
+   "initials": "CC",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "vinemont": {
+   "name": "Vinemont",
+   "initials": "V",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "holly-pond": {
+   "name": "Holly Pond",
+   "initials": "HP",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "susan-moore": {
+   "name": "Susan Moore",
+   "initials": "SM",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "brewer": {
+   "name": "Brewer",
+   "initials": "B",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "cold-springs": {
+   "name": "Cold Springs",
+   "initials": "CS",
+   "colors": [
+    "#4a5160",
+    "#d5d9e0"
+   ],
+   "text": "#ffffff"
+  },
+  "cleveland": {
+   "name": "Cleveland",
+   "initials": "CL",
    "colors": [
     "#4a5160",
     "#d5d9e0"
@@ -575,10 +638,14 @@
    "home": "gulf-coast",
    "away": "wallace",
    "status": "Final",
-   "note": "Chipola Classic game has been played; final score not confirmed in this refresh.",
+   "note": "Gulf Coast State won 75 to 60 in the Chipola Classic.",
    "source": {
     "name": "Wallace State Athletics schedule",
     "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 75,
+    "away": 60
    }
   },
   {
@@ -633,8 +700,16 @@
    "venue": "Danville High School",
    "home": "danville",
    "away": "hanceville",
-   "status": "Upcoming",
-   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+   "status": "Final",
+   "source": {
+    "name": "The Decatur Daily: Wednesday's roundup",
+    "url": "https://www.decaturdaily.com/sports/wednesdays-roundup-bennich-hartselle-roll-in-season-opener/article_c821c9c7-cad1-4b4e-b38e-4edab94cc489.html"
+   },
+   "score": {
+    "home": 70,
+    "away": 50
+   },
+   "note": "Danville won 70 to 50 in the season opener. The Hanceville girls won their game that night 51 to 27."
   },
   {
    "id": "ws-mb-2026-11-12",
@@ -646,11 +721,16 @@
    "venue": "Bevill State Community College",
    "home": "bevill",
    "away": "wallace",
-   "status": "Upcoming",
+   "status": "Final",
    "source": {
-    "name": "Wallace State Athletics schedule",
+    "name": "Wallace State Athletics schedule and results",
     "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
-   }
+   },
+   "score": {
+    "home": 100,
+    "away": 90
+   },
+   "note": "Bevill State won 100 to 90."
   },
   {
    "id": "hhs-bb-2026-11-12",
@@ -663,7 +743,8 @@
    "home": "sumiton-christian",
    "away": "hanceville",
    "status": "Upcoming",
-   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/",
+   "note": "Boys final not reported yet. The Hanceville girls won their game that night 52 to 37 (AP Thursday scores)."
   },
   {
    "id": "ws-mb-2026-11-14",
@@ -675,11 +756,15 @@
    "venue": "Tom Drake Coliseum, Wallace State",
    "home": "wallace",
    "away": "albany-tech",
-   "status": "Upcoming",
-   "note": "Home game vs Albany Technical College.",
+   "status": "Final",
+   "note": "Albany Technical College won 98 to 84 at Tom Drake Coliseum.",
    "source": {
-    "name": "Wallace State Athletics schedule",
+    "name": "Wallace State Athletics schedule and results",
     "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 84,
+    "away": 98
    }
   },
   {
@@ -692,11 +777,15 @@
    "venue": "Pellissippi State, Knoxville, TN",
    "home": "pellissippi",
    "away": "wallace",
-   "status": "Upcoming",
-   "note": "Road game at Pellissippi State.",
+   "status": "Final",
+   "note": "Wallace State won 53 to 46 at Pellissippi State.",
    "source": {
-    "name": "Wallace State Athletics schedule",
+    "name": "Wallace State Athletics schedule and results",
     "url": "https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 46,
+    "away": 53
    }
   },
   {
@@ -709,11 +798,15 @@
    "venue": "Tom Drake Coliseum, Wallace State",
    "home": "wallace",
    "away": "east-mississippi",
-   "status": "Upcoming",
-   "note": "Home game vs East Mississippi Community College.",
+   "status": "Final",
+   "note": "East Mississippi won 106 to 101 at Tom Drake Coliseum.",
    "source": {
-    "name": "Wallace State Athletics schedule",
+    "name": "Wallace State Athletics schedule and results",
     "url": "https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule"
+   },
+   "score": {
+    "home": 101,
+    "away": 106
    }
   },
   {
@@ -752,7 +845,7 @@
    "label": "Hanceville High Boys Basketball",
    "sport": "Basketball",
    "period": "Q",
-   "start": "2026-11-19T19:45:00-06:00",
+   "start": "2026-11-19T19:00:00-06:00",
    "venue": "West Point High School",
    "home": "west-point",
    "away": "hanceville",
@@ -769,6 +862,19 @@
    "venue": "Dora High School",
    "home": "dora",
    "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-11-23",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-11-23T19:30:00-06:00",
+   "venue": "Hanceville High School",
+   "home": "hanceville",
+   "away": "brewer",
    "status": "Upcoming",
    "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
   },
@@ -808,6 +914,123 @@
    "venue": "Hanceville High School",
    "home": "hanceville",
    "away": "corner",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-12-10",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-12-10T19:30:00-06:00",
+   "venue": "Cullman Christian School",
+   "home": "cullman-christian",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-12-11",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-12-11T19:45:00-06:00",
+   "venue": "Hanceville High School",
+   "home": "hanceville",
+   "away": "vinemont",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-12-15",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-12-15T19:45:00-06:00",
+   "venue": "Holly Pond High School",
+   "home": "holly-pond",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-12-18",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-12-18T19:45:00-06:00",
+   "venue": "Hanceville High School",
+   "home": "hanceville",
+   "away": "susan-moore",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2026-12-22",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2026-12-22T19:00:00-06:00",
+   "venue": "Corner High School",
+   "home": "corner",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2027-01-05",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2027-01-05T19:45:00-06:00",
+   "venue": "Cold Springs High School",
+   "home": "cold-springs",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2027-01-08",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2027-01-08T19:30:00-06:00",
+   "venue": "Vinemont High School",
+   "home": "vinemont",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2027-01-12",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2027-01-12T19:00:00-06:00",
+   "venue": "Susan Moore High School",
+   "home": "susan-moore",
+   "away": "hanceville",
+   "status": "Upcoming",
+   "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
+  },
+  {
+   "id": "hhs-bb-2027-01-26",
+   "school": "hanceville",
+   "label": "Hanceville High Boys Basketball",
+   "sport": "Basketball",
+   "period": "Q",
+   "start": "2027-01-26T19:00:00-06:00",
+   "venue": "Cleveland High School",
+   "home": "cleveland",
+   "away": "hanceville",
    "status": "Upcoming",
    "source": "https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/schedule/"
   }

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hanceville-city-council-meeting-20261210@shoplocalhanceville.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;TZID=America/Chicago:20261210T180000
+DTEND;TZID=America/Chicago:20261210T190000
+SUMMARY:Hanceville City Council Meeting
+LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
+DESCRIPTION:The regular City Council meeting is set for Thursday\, Dec. 10\
+ , at City Hall. The council scheduled a public hearing that night on a rez
+ oning request from Eight27 Holdings and Del Bales. Meetings are open to th
+ e public. Time: 6:00 PM to 7:00 PM Host: City of Hanceville Cost: Free
+URL:https://www.cityofhanceville.net/events
+CATEGORIES:Community and Fun
+END:VEVENT
+END:VCALENDAR

@@ -25,191 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:hanceville-public-library-storytime-20261111@shoplocalhanceville.github
- .io
-DTSTAMP:20261111T175546Z
-DTSTART;TZID=America/Chicago:20261111T100000
-DTEND;TZID=America/Chicago:20261111T103000
-SUMMARY:Hanceville Public Library Storytime
-LOCATION:Shirley Burden Public Library\, 201 Commercial St\, Hanceville
-DESCRIPTION:Weekly storytime for ages 0 through preschool at Shirley Burden
-  Public Library\, with guest readers and interactive activities. Open to k
- ids of other ages who come along. Time: 10:00 AM to 10:30 AM Host: Shirley
-  Burden Public Library Cost: Free
-URL:https://pal.ua.edu/events/event/hanceville-pl-storytimes/
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:veterans-day-20261111@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:Veterans Day
-LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
-DESCRIPTION:Veterans Day is marked on the city calendar. If you need to vis
- it City Hall that day\, call ahead at (256) 352-9830 to check whether offi
- ces are open. Time: All day Host: City of Hanceville Cost: Free
-URL:https://www.cityofhanceville.net/events?id=52393701
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:hanceville-bulldogs-basketball-at-sumiton-christian-20261112@shoplocalh
- anceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Hanceville Bulldogs Basketball at Sumiton Christian
-LOCATION:Sumiton Christian School\, Sumiton
-DESCRIPTION:The Bulldogs play at Sumiton Christian. Check MaxPreps or the s
- chool for any time changes before you go. Time: 7:00 PM (varsity boys tip 
- off) Host: Hanceville High School Bulldogs Cost: See school for admission
-URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
- chedule/
-CATEGORIES:Sports
-END:VEVENT
-BEGIN:VEVENT
-UID:hanceville-city-council-meeting-20261112@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Hanceville City Council Meeting
-LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
-DESCRIPTION:The City Council holds a work session at 6:00 PM\, followed rig
- ht away by its regular meeting. The city announced this date on its Oct. 8
-  agenda. Time: 6:00 PM work session\, regular meeting right after Host: Ci
- ty of Hanceville Cost: Free and open to the public
-URL:https://www.cityofhanceville.net/o/coh/page/city-council
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:kitchen-series-beyond-biscuits-class-at-the-agriplex-20261112@shoplocal
- hanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;TZID=America/Chicago:20261112T180000
-DTEND;TZID=America/Chicago:20261112T200000
-SUMMARY:Kitchen Series: Beyond Biscuits Class at the Agriplex
-LOCATION:North Alabama Agriplex\, 1714 Tally Ho St SW\, Cullman
-DESCRIPTION:A hands on Southern Pie Series class at the North Alabama Agrip
- lex. Learn one from scratch dough and use it three ways: flaky drop biscui
- ts\, tender scones and a biscuit topped pot pie. Youth ages 12 to 15 must 
- register and come with a paid registered adult. Time: 6:00 PM to 8:00 PM H
- ost: North Alabama Agriplex Cost: $25 per person\, registration required
-URL:https://business.cullmanchamber.org/events/details/kitchen-series-south
- ern-pie-series-beyond-biscuites-24049
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:united-way-designer-bag-bingo-20261112@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;TZID=America/Chicago:20261112T180000
-DTEND;TZID=America/Chicago:20261112T220000
-SUMMARY:United Way Designer Bag Bingo
-LOCATION:Cotton Creek\, 417 Third Ave SW\, Cullman
-DESCRIPTION:An evening of bingo with designer handbag prizes. Proceeds supp
- ort local needs and programs through United Way of Cullman County. Time: 6
- :00 PM to 10:00 PM Host: United Way of Cullman County Cost: $50 per person
-  or $500 per table
-URL:https://business.cullmanchamber.org/events/details/united-way-of-cullma
- n-county-designer-bag-bingo-23309
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:wallace-state-men-s-basketball-at-bevill-state-20261112@shoplocalhancev
- ille.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Wallace State Men's Basketball at Bevill State
-LOCATION:Bevill State Community College\, Sumiton
-DESCRIPTION:The Lions hit the road at Bevill State. Check Wallace State Ath
- letics for any time changes before you go. Time: 6:00 PM Host: Wallace Sta
- te Athletics Cost: See school for admission
-URL:https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule
-CATEGORIES:Sports
-END:VEVENT
-BEGIN:VEVENT
-UID:cullman-christmas-open-house-20261113@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261116
-SUMMARY:Cullman Christmas Open House
-LOCATION:Cullman Area Chamber of Commerce\, 301 2nd Ave SW\, Cullman
-DESCRIPTION:Cullman's Christmas Open House weekend starts Friday with Santa
-  at the Chamber from 4 to 6 PM while families pick up free Cookie Crawl bo
- xes\, one per family. Saturday's Cookie Crawl runs 10 AM to 2 PM at partic
- ipating Chamber member shops\, and Sunday brings a Christmas Pickle Hunt w
- ith prizes. Time: Santa and Cookie Crawl box pickup 4:00 PM to 6:00 PM Nov
-  13\; Cookie Crawl 10:00 AM to 2:00 PM Nov 14\; Christmas Pickle Hunt Nov 
- 15 Host: Cullman Area Chamber of Commerce and Visitor Center Cost: Free
-URL:https://www.cullmanchamber.org/news-events/signature-events/
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:40th-annual-ho-ho-ho-20261114@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;TZID=America/Chicago:20261114T090000
-DTEND;TZID=America/Chicago:20261114T140000
-SUMMARY:40th Annual Ho! Ho! Ho!
-LOCATION:Cullman Caring for Kids\, 402 Arnold Street NE\, Cullman
-DESCRIPTION:Cullman Caring for Kids hosts its 40th annual Ho! Ho! Ho! Chris
- tmas car\, truck and motorcycle show. Entry is $20 or a toy worth $20 or m
- ore\, with awards and a silent auction benefiting local kids. Time: 9:00 A
- M to 2:00 PM Host: Cullman Caring for Kids Cost: $20 entry or a toy worth 
- $20 or more
-URL:https://greatsouthern.aaca.com/calendar/regional-events/
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:lion-s-pride-fall-vex-iq-robotics-tournament-20261114@shoplocalhancevil
- le.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;TZID=America/Chicago:20261114T080000
-DTEND;TZID=America/Chicago:20261114T160000
-SUMMARY:Lion's Pride Fall VEX IQ Robotics Tournament
-LOCATION:Wallace State Community College\, 801 Main St NW\, Hanceville
-DESCRIPTION:Elementary and middle school robotics teams from across Alabama
-  bring their VEX IQ robots to Wallace State for a full day of qualifying m
- atches\, skills runs\, finals and awards. Doors and pits open at 8:00 AM\,
-  matches start at 9:15 AM\, and finals begin around 3:00 PM. Time: 8:00 AM
-  to 4:00 PM Host: Wallace State Community College Cost: Free to watch\; te
- am registration through VEX
-URL:https://events.vex.com/robot-competitions/vex-iq-competition/VE-IQ-26-6
- 5828.html
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:vintage-postcard-collection-talk-at-shirley-burden-public-library-20261
- 114@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;TZID=America/Chicago:20261114T100000
-DTEND;TZID=America/Chicago:20261114T110000
-SUMMARY:Vintage Postcard Collection Talk at Shirley Burden Public Library
-LOCATION:Shirley Burden Public Library\, 201 Commercial St\, Hanceville
-DESCRIPTION:Longtime Hanceville resident Charles Wilson shares his vintage 
- postcard collection\, including local cards\, military cards\, old voter r
- eceipts and cards from around the world. Time: 10:00 AM to 11:00 AM Host: 
- Shirley Burden Public Library Cost: Free
-URL:https://cullmantimes.com/2026/11/03/calendar-of-events/
-CATEGORIES:Community and Fun
-END:VEVENT
-BEGIN:VEVENT
-UID:wallace-state-men-s-basketball-vs-albany-tech-20261114@shoplocalhancevi
- lle.github.io
-DTSTAMP:20261111T175546Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Wallace State Men's Basketball vs. Albany Tech
-LOCATION:Wallace State\, Hanceville
-DESCRIPTION:The Lions play Albany Tech. Check the official schedule for the
-  location and any time changes before you go. Time: 3:00 PM Host: Wallace 
- State Lions Athletics
-URL:https://athletics.wallacestate.edu/sports/mbkb/2026-27/schedule
-CATEGORIES:Sports
-END:VEVENT
-BEGIN:VEVENT
 UID:wallace-state-men-s-basketball-vs-east-mississippi-20261116@shoplocalha
  nceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Wallace State Men's Basketball vs. East Mississippi
@@ -223,7 +41,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-women-s-basketball-at-pellissippi-state-20261116@shoploca
  lhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Wallace State Women's Basketball at Pellissippi State
@@ -238,7 +56,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cullman-county-commission-work-session-and-meeting-20261117@shoplocalha
  nceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261117T160000
 DTEND;TZID=America/Chicago:20261117T190000
 SUMMARY:Cullman County Commission Work Session and Meeting
@@ -255,7 +73,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cullman-veterans-hall-of-fame-dinner-and-ceremony-20261117@shoplocalhan
  ceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Cullman Veterans Hall of Fame Dinner and Ceremony
@@ -273,9 +91,24 @@ URL:https://www.cullmantribune.com/2026/11/07/new-members-of-cullman-vetera
 CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
+UID:dinos-and-donuts-storytime-at-guy-hunt-library-20261117@shoplocalhancev
+ ille.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Dinos and Donuts Storytime at Guy Hunt Library
+LOCATION:Guy Hunt Library\, 60 Lions Park Rd\, Holly Pond
+DESCRIPTION:Kids can hear the picture book "Dinos Love Donuts" read aloud\,
+  then make a donut themed craft and share a snack at the Holly Pond librar
+ y. Time: 10:30 AM Host: Guy Hunt Library Cost: Free
+URL:https://www.cullmantribune.com/2026/11/15/whats-happening-in-holly-pond
+ /
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-ardmore-20261117@shoplocalhanceville.
  github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Hanceville Bulldogs Basketball vs. Ardmore
@@ -290,7 +123,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-public-library-storytime-20261118@shoplocalhanceville.github
  .io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261118T100000
 DTEND;TZID=America/Chicago:20261118T103000
 SUMMARY:Hanceville Public Library Storytime
@@ -304,7 +137,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-at-the-grotto-20261119@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261228
 SUMMARY:Christmas at the Grotto
@@ -321,7 +154,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:cullman-christkindlmarkt-20261119@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261224
 SUMMARY:Cullman Christkindlmarkt
@@ -338,13 +171,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-at-west-point-20261119@shoplocalhancevil
  le.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Hanceville Bulldogs Basketball at West Point
 LOCATION:West Point High School\, Cullman
 DESCRIPTION:The Bulldogs play at West Point. Check MaxPreps or the school f
- or any time changes before you go. Time: 7:45 PM (varsity boys tip off) Ho
+ or any time changes before you go. Time: 7:00 PM (varsity boys tip off) Ho
  st: Hanceville High School Bulldogs Cost: See school for admission
 URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
  chedule/
@@ -353,7 +186,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:run-run-rudolph-at-winter-wonderland-20261119@shoplocalhanceville.githu
  b.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261119T170000
 DTEND;TZID=America/Chicago:20261119T200000
 SUMMARY:Run Run Rudolph at Winter Wonderland
@@ -370,7 +203,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-men-s-basketball-at-east-central-20261119@shoplocalhancev
  ille.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Wallace State Men's Basketball at East Central
@@ -386,7 +219,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:christkindlmarkt-parade-and-tree-lighting-20261120@shoplocalhanceville.
  github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261120T183000
 DTEND;TZID=America/Chicago:20261120T210000
 SUMMARY:Christkindlmarkt Parade and Tree Lighting
@@ -402,7 +235,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-at-dora-20261120@shoplocalhanceville.git
  hub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Hanceville Bulldogs Basketball at Dora
@@ -417,7 +250,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vinemont-band-booster-winter-craft-show-20261120@shoplocalhanceville.gi
  thub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:Vinemont Band Booster Winter Craft Show
@@ -433,7 +266,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-women-s-basketball-wallace-state-classic-vs-vincennes-202
  61120@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Wallace State Women's Basketball: Wallace State Classic vs. Vincenn
@@ -446,9 +279,26 @@ URL:https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule
 CATEGORIES:Sports
 END:VEVENT
 BEGIN:VEVENT
+UID:winter-wonderland-christmas-light-display-opens-20261120@shoplocalhance
+ ville.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Winter Wonderland Christmas Light Display Opens
+LOCATION:Sportsman Lake Park\, 1544 Sportsman Lake Rd NW\, Cullman
+DESCRIPTION:The 24th annual Winter Wonderland drive through Christmas light
+  display opens for the season. Drive under arches and running lights\, the
+ n stop for Santa photos\, the snow machine\, the Christmas train and hot c
+ hocolate at the concession stand. Horse drawn carriage rides run on weeken
+ ds. Time: Opens at 5:00 PM Host: Cullman County Parks and Recreation
+URL:https://www.cullmantribune.com/2026/08/28/county-parks-and-rec-gearing-
+ up-for-seasonal-events/
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
 UID:drive-through-food-bank-at-spirit-life-church-20261121@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261121T090000
 DTEND;TZID=America/Chicago:20261121T110000
 SUMMARY:Drive Through Food Bank at Spirit Life Church
@@ -465,7 +315,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-christmas-tree-lighting-and-tinsel-trail-20261121@shoplocalh
  anceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Hanceville Christmas Tree Lighting and Tinsel Trail
@@ -481,7 +331,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker-with-ballet-south-20261121@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:The Nutcracker with Ballet South
@@ -498,7 +348,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wallace-state-women-s-basketball-wallace-state-classic-vs-chipola-20261
  121@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Wallace State Women's Basketball: Wallace State Classic vs. Chipola
@@ -510,25 +360,41 @@ URL:https://athletics.wallacestate.edu/sports/wbkb/2026-27/schedule
 CATEGORIES:Sports
 END:VEVENT
 BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-vs-brewer-20261123@shoplocalhanceville.g
+ ithub.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Hanceville Bulldogs Basketball vs. Brewer
+LOCATION:Hanceville High School\, Hanceville
+DESCRIPTION:The Bulldogs face Brewer in a tournament game that MaxPreps lis
+ ts as a Hanceville home game. Confirm the site and time with the school be
+ fore you go\, and wear your purple. Time: 7:30 PM (varsity boys tip off) H
+ ost: Hanceville High School Bulldogs
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
 UID:hanceville-city-council-meeting-moved-from-nov-26-20261124@shoplocalhan
  ceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Hanceville City Council Meeting (moved from Nov. 26)
 LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
-DESCRIPTION:The council voted Oct. 22 to move its Nov. 26 meeting\, which f
- alls on Thanksgiving Day\, to Tuesday\, Nov. 24. Confirm the start time on
-  the city calendar before you go. Time: Check the city calendar for the st
- art time Host: City of Hanceville Cost: Free
-URL:https://www.cullmantribune.com/2026/10/27/hanceville-city-council-addre
- sses-vehicle-policy-department-appointments-holiday-events/
+DESCRIPTION:The council moved its Nov. 26 meeting\, which falls on Thanksgi
+ ving Day\, to Tuesday\, Nov. 24. The work session and meeting start at 6 P
+ M at City Hall and are open to the public. Time: 6:00 PM Host: City of Han
+ ceville Cost: Free
+URL:https://www.cullmantribune.com/2026/11/14/hanceville-city-council-appoi
+ nts-bart-absher-interim-fire-chief-approves-funding-and-contracts/
 CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-public-library-storytime-20261125@shoplocalhanceville.github
  .io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261125T100000
 DTEND;TZID=America/Chicago:20261125T103000
 SUMMARY:Hanceville Public Library Storytime
@@ -543,7 +409,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-at-fairview-20261201@shoplocalhanceville
  .github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Hanceville Bulldogs Basketball at Fairview
@@ -558,7 +424,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:festival-of-trees-at-the-cullman-wellness-and-aquatic-center-20261203@s
  hoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261228
 SUMMARY:Festival of Trees at the Cullman Wellness and Aquatic Center
@@ -576,7 +442,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-good-hope-20261203@shoplocalhancevill
  e.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Hanceville Bulldogs Basketball vs. Good Hope
@@ -589,9 +455,42 @@ URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
 CATEGORIES:Sports
 END:VEVENT
 BEGIN:VEVENT
+UID:christmas-in-baileyton-tree-lighting-20261204@shoplocalhanceville.githu
+ b.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Christmas in Baileyton Tree Lighting
+LOCATION:Baileyton Town Park\, 390 Fire Station Road\, Baileyton
+DESCRIPTION:The Town of Baileyton lights its park Christmas tree\, and Sant
+ a stops by so kids can get their picture made with him. Gates open at 4:30
+  PM and the ceremony starts at 6. Questions go to Baileyton Town Hall at (
+ 256) 796-6447. Time: Gates open 4:30 PM\; ceremony 6:00 PM Host: Town of B
+ aileyton Cost: Free
+URL:https://www.cullmantribune.com/2026/11/13/christmas-in-baileyton-tree-l
+ ighting-visit-from-santa-dec-4/
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
+UID:cocoa-cookies-and-claus-at-the-cullman-tribune-20261205@shoplocalhancev
+ ille.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;TZID=America/Chicago:20261205T110000
+DTEND;TZID=America/Chicago:20261205T130000
+SUMMARY:Cocoa\, Cookies and Claus at The Cullman Tribune
+LOCATION:The Cullman Tribune\, 219 Second Ave. SE\, Cullman
+DESCRIPTION:The Cullman Tribune opens its downtown office for a free holida
+ y visit with hot chocolate\, cookies and Santa Claus. A Tribune photograph
+ er will snap a free photo of your family with Santa\, or you can take your
+  own. Time: 11:00 AM to 1:00 PM Host: The Cullman Tribune Cost: Free
+URL:https://www.cullmantribune.com/2026/11/09/the-cullman-tribune-invites-c
+ ommunity-to-cocoa-cookies-and-claus-dec-5/
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
 UID:cullman-county-christmas-parade-in-hanceville-20261205@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Cullman County Christmas Parade in Hanceville
@@ -607,7 +506,7 @@ CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-holly-market-20261205@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261205T090000
 DTEND;TZID=America/Chicago:20261205T170000
 SUMMARY:Hanceville Holly Market
@@ -620,9 +519,44 @@ URL:https://www.cullmantribune.com/2026/08/15/hanceville-holly-market-comin
 CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
+UID:pancake-breakfast-with-santa-and-christmas-raffle-in-berlin-20261205@sh
+ oplocalhanceville.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;TZID=America/Chicago:20261205T070000
+DTEND;TZID=America/Chicago:20261205T100000
+SUMMARY:Pancake Breakfast with Santa and Christmas Raffle in Berlin
+LOCATION:Berlin Community Center\, 3309 U.S. Highway 278\, Berlin
+DESCRIPTION:Grab a plate of pancakes with bacon or sausage and a drink\, vi
+ sit with Santa and try your luck in the Christmas raffle. Prizes include a
+  go kart\, a mini bike\, a kids ride on mower and a 36 inch Blackstone gri
+ ddle\, with the drawing right after breakfast. Every raffle dollar goes to
+  the fire department's Christmas for Kids program. Time: 7:00 AM to 10:00 
+ AM Host: Berlin Volunteer Fire Department and Town of Berlin Cost: Plates 
+ by donation\; raffle tickets $5 each or six for $20
+URL:https://www.cullmantribune.com/2026/11/13/berlin-vfd-hosting-breakfast-
+ with-santa-christmas-raffle-dec-5/
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
+UID:colony-christmas-tree-decorating-and-lighting-20261206@shoplocalhancevi
+ lle.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Colony Christmas Tree Decorating and Lighting
+LOCATION:Colony Town Hall\, 65 Byars Road\, Hanceville
+DESCRIPTION:The Town of Colony invites neighbors to help decorate the town 
+ Christmas tree and watch it light up for the season. The town has not post
+ ed the exact spot yet\, so call Colony Town Hall at (256) 287-1192 to conf
+ irm before you go. Time: 5:30 PM Host: Town of Colony
+URL:https://www.cullmantribune.com/2026/11/12/colony-council-approves-libra
+ ry-repairs-bank-resolution-announces-holiday-events/
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
 UID:share-club-of-cullman-christmas-tour-of-homes-20261206@shoplocalhancevi
  lle.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261206T130000
 DTEND;TZID=America/Chicago:20261206T170000
 SUMMARY:Share Club of Cullman Christmas Tour of Homes
@@ -640,7 +574,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-corner-20261207@shoplocalhanceville.g
  ithub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Hanceville Bulldogs Basketball vs. Corner
@@ -655,7 +589,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cullman-regional-lights-of-love-ceremony-20261208@shoplocalhanceville.g
  ithub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Cullman Regional Lights of Love Ceremony
@@ -676,7 +610,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:christmas-spectacular-at-wallace-state-20261210@shoplocalhanceville.git
  hub.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Christmas Spectacular at Wallace State
@@ -690,8 +624,91 @@ URL:https://www.cullmantribune.com/2026/10/21/wallace-state-releases-perfor
 CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-at-cullman-christian-20261210@shoplocalh
+ anceville.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Hanceville Bulldogs Basketball at Cullman Christian
+LOCATION:Cullman Christian School\, Cullman
+DESCRIPTION:The Bulldogs play at Cullman Christian. Check MaxPreps or the s
+ chool for any time changes before you go. Time: 7:30 PM (varsity boys tip 
+ off) Host: Hanceville High School Bulldogs Cost: See school for admission
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
+UID:hanceville-city-council-meeting-20261210@shoplocalhanceville.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;TZID=America/Chicago:20261210T180000
+DTEND;TZID=America/Chicago:20261210T190000
+SUMMARY:Hanceville City Council Meeting
+LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
+DESCRIPTION:The regular City Council meeting is set for Thursday\, Dec. 10\
+ , at City Hall. The council scheduled a public hearing that night on a rez
+ oning request from Eight27 Holdings and Del Bales. Meetings are open to th
+ e public. Time: 6:00 PM to 7:00 PM Host: City of Hanceville Cost: Free
+URL:https://www.cityofhanceville.net/events
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-vs-vinemont-20261211@shoplocalhanceville
+ .github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Hanceville Bulldogs Basketball vs. Vinemont
+LOCATION:Hanceville High School\, Hanceville
+DESCRIPTION:The Bulldogs host Vinemont in the Hanceville High gym in a Clas
+ s 3A Area 13 game. Bring the family and wear your purple. Time: 7:45 PM (v
+ arsity boys tip off) Host: Hanceville High School Bulldogs
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
+UID:fairview-christmas-festival-parade-and-tinsel-tree-trail-20261212@shopl
+ ocalhanceville.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Fairview Christmas Festival\, Parade and Tinsel Tree Trail
+LOCATION:Randall Shedd Community Park\, 649 Wesley Ave. N\, Fairview
+DESCRIPTION:Fairview celebrates Christmas at its town park with an evening 
+ festival and caroling starting at 5 PM\, followed by a parade with floats\
+ , the marching band and Santa Claus. Stroll the Tinsel Tree Trail of trees
+  decorated by local families and businesses\, with sponsorships helping th
+ e Fairview High robotics team\, Key Club and park upgrades. Time: 5:00 PM 
+ festival and caroling\, parade follows Host: Town of Fairview and Fairview
+  High School Cost: Free to attend
+URL:https://www.cullmantribune.com/2026/11/13/fairview-seeks-tree-sponsors-
+ for-tinsel-tree-trail-at-town-park/
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
+UID:good-hope-christmas-parade-and-christmas-in-the-park-20261212@shoplocal
+ hanceville.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Good Hope Christmas Parade and Christmas in the Park
+LOCATION:Good Hope High School football field\, 210 Good Hope School Road\,
+  Cullman
+DESCRIPTION:Good Hope's "Be the Light" Christmas Parade leaves the Good Hop
+ e High School football field at 11 AM and rolls down County Road 437 to Ci
+ ty Hall. Christmas in the Park follows at Municipal Park with free food an
+ d a visit from Santa. Groups that want to ride in the parade line up at 10
+  AM\; call Good Hope City Hall at (256) 739-3757 for entry details. Time: 
+ Parade steps off 11:00 AM\; Christmas in the Park follows Host: City of Go
+ od Hope Cost: Free
+URL:https://www.cullmantribune.com/2026/11/13/good-hope-christmas-parade-ch
+ ristmas-in-the-park-set-for-dec-12/
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
 UID:hanceville-holly-market-20261212@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261212T090000
 DTEND;TZID=America/Chicago:20261212T170000
 SUMMARY:Hanceville Holly Market
@@ -706,7 +723,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:jingle-bell-run-and-holiday-stroll-20261212@shoplocalhanceville.github.
  io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261212T080000
 DTEND;TZID=America/Chicago:20261212T103000
 SUMMARY:Jingle Bell Run and Holiday Stroll
@@ -720,8 +737,57 @@ URL:https://www.gracecullman.org/upcoming-events
 CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-at-holly-pond-20261215@shoplocalhancevil
+ le.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Hanceville Bulldogs Basketball at Holly Pond
+LOCATION:Holly Pond High School\, Holly Pond
+DESCRIPTION:The Bulldogs play at Holly Pond in a Class 3A Area 13 game. Che
+ ck MaxPreps or the school for any time changes before you go. Time: 7:45 P
+ M (varsity boys tip off) Host: Hanceville High School Bulldogs Cost: See s
+ chool for admission
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
+UID:cullman-county-senior-christmas-party-20261218@shoplocalhanceville.gith
+ ub.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Cullman County Senior Christmas Party
+LOCATION:Cullman OmniPlex\, 1634 Field of Miracles Dr SW\, Cullman
+DESCRIPTION:The annual Christmas party for Cullman County residents age 55 
+ and older. Reserve a spot by calling the Commission on Aging and speaking 
+ with a staff member\, since a voicemail does not hold a seat\, then pick u
+ p tickets at the Commission office on Dec. 10\, 14\, 15 or 16. Time: Doors
+  9:00 AM\, party 10:00 AM Host: Cullman County Commission on Aging Cost: R
+ eservation required by Dec. 4 at 3:30 PM\; call (256) 734-1241
+URL:https://www.cullmantribune.com/2026/11/14/cullman-county-seniors-can-re
+ serve-a-spot-for-christmas-party-through-dec-4/
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-vs-susan-moore-20261218@shoplocalhancevi
+ lle.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Hanceville Bulldogs Basketball vs. Susan Moore
+LOCATION:Hanceville High School\, Hanceville
+DESCRIPTION:The Bulldogs host Susan Moore in the Hanceville High gym in a C
+ lass 3A Area 13 game. Bring the family and wear your purple. Time: 7:45 PM
+  (varsity boys tip off) Host: Hanceville High School Bulldogs
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
 UID:hanceville-holly-market-20261219@shoplocalhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;TZID=America/Chicago:20261219T090000
 DTEND;TZID=America/Chicago:20261219T170000
 SUMMARY:Hanceville Holly Market
@@ -736,7 +802,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:let-it-shine-puppets-at-shirley-burden-public-library-20261219@shoploca
  lhanceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Let it Shine Puppets at Shirley Burden Public Library
@@ -748,9 +814,40 @@ URL:https://cullmantimes.com/2026/11/03/calendar-of-events/
 CATEGORIES:Community and Fun
 END:VEVENT
 BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-at-corner-20261222@shoplocalhanceville.g
+ ithub.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Hanceville Bulldogs Basketball at Corner
+LOCATION:Corner High School\, Dora
+DESCRIPTION:The Bulldogs play at Corner. Check MaxPreps or the school for a
+ ny time changes before you go. Time: 7:00 PM (varsity boys tip off) Host: 
+ Hanceville High School Bulldogs Cost: See school for admission
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
+UID:hanceville-city-council-meeting-moved-from-dec-24-20261229@shoplocalhan
+ ceville.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Hanceville City Council Meeting (moved from Dec. 24)
+LOCATION:Hanceville City Hall\, 112 Main St SE\, Hanceville
+DESCRIPTION:The council voted Nov. 12 to move its Dec. 24 meeting\, which f
+ alls on Christmas Eve\, to Tuesday\, Dec. 29. Confirm the start time on th
+ e city calendar before you go. Time: Check the city calendar for the start
+  time Host: City of Hanceville Cost: Free
+URL:https://www.cullmantribune.com/2026/11/14/hanceville-city-council-appoi
+ nts-bart-absher-interim-fire-chief-approves-funding-and-contracts/
+CATEGORIES:Community and Fun
+END:VEVENT
+BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-cleveland-20270104@shoplocalhancevill
  e.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Hanceville Bulldogs Basketball vs. Cleveland
@@ -763,9 +860,56 @@ URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
 CATEGORIES:Sports
 END:VEVENT
 BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-at-cold-springs-20270105@shoplocalhancev
+ ille.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Hanceville Bulldogs Basketball at Cold Springs
+LOCATION:Cold Springs High School\, Bremen
+DESCRIPTION:The Bulldogs play at Cold Springs. Check MaxPreps or the school
+  for any time changes before you go. Time: 7:45 PM (varsity boys tip off) 
+ Host: Hanceville High School Bulldogs Cost: See school for admission
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-at-vinemont-20270108@shoplocalhanceville
+ .github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Hanceville Bulldogs Basketball at Vinemont
+LOCATION:Vinemont High School\, Vinemont
+DESCRIPTION:The Bulldogs play at Vinemont in a Class 3A Area 13 game. Check
+  MaxPreps or the school for any time changes before you go. Time: 7:30 PM 
+ (varsity boys tip off) Host: Hanceville High School Bulldogs Cost: See sch
+ ool for admission
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-at-susan-moore-20270112@shoplocalhancevi
+ lle.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Hanceville Bulldogs Basketball at Susan Moore
+LOCATION:Susan Moore High School\, Blountsville
+DESCRIPTION:The Bulldogs play at Susan Moore in a Class 3A Area 13 game. Ch
+ eck MaxPreps or the school for any time changes before you go. Time: 7:00 
+ PM (varsity boys tip off) Host: Hanceville High School Bulldogs Cost: See 
+ school for admission
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-holly-pond-20270115@shoplocalhancevil
  le.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Hanceville Bulldogs Basketball vs. Holly Pond
@@ -778,9 +922,24 @@ URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
 CATEGORIES:Sports
 END:VEVENT
 BEGIN:VEVENT
+UID:hanceville-bulldogs-basketball-at-cleveland-20270126@shoplocalhancevill
+ e.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Hanceville Bulldogs Basketball at Cleveland
+LOCATION:Cleveland High School\, Cleveland
+DESCRIPTION:The Bulldogs play at Cleveland. Check MaxPreps or the school fo
+ r any time changes before you go. Time: 7:00 PM (varsity boys tip off) Hos
+ t: Hanceville High School Bulldogs Cost: See school for admission
+URL:https://www.maxpreps.com/al/hanceville/hanceville-bulldogs/basketball/s
+ chedule/
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-sumiton-christian-20270129@shoplocalh
  anceville.github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Hanceville Bulldogs Basketball vs. Sumiton Christian
@@ -795,7 +954,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hanceville-bulldogs-basketball-vs-danville-20270202@shoplocalhanceville
  .github.io
-DTSTAMP:20261111T175546Z
+DTSTAMP:20261117T020938Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Hanceville Bulldogs Basketball vs. Danville

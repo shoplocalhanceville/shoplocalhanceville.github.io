@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hanceville Entertainment and Shopping//Events Subscription//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hanceville Entertainment and Shopping - Community Events
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dinos-and-donuts-storytime-at-guy-hunt-library-20261117@shoplocalhancev
+ ille.github.io
+DTSTAMP:20261117T020938Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Dinos and Donuts Storytime at Guy Hunt Library
+LOCATION:Guy Hunt Library\, 60 Lions Park Rd\, Holly Pond
+DESCRIPTION:Kids can hear the picture book "Dinos Love Donuts" read aloud\,
+  then make a donut themed craft and share a snack at the Holly Pond librar
+ y. Time: 10:30 AM Host: Guy Hunt Library Cost: Free
+URL:https://www.cullmantribune.com/2026/11/15/whats-happening-in-holly-pond
+ /
+CATEGORIES:Community and Fun
+END:VEVENT
+END:VCALENDAR

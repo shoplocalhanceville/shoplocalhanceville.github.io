@@ -56,7 +56,7 @@ def street(a):
 tpl=open('shops.html').read()
 HEADER=tpl[tpl.find('<a class="skip"'):tpl.find('<main')].replace(' aria-current="page"','')
 FOOTER=tpl[tpl.find('</main>')+7:]
-CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; frame-src https://www.facebook.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+CSP="default-src 'self'; script-src 'self' 'sha256-/fikJO3y8/FfvJxadqacMFRHk8y+I5ng+WE0NyQXczI=' https://www.googletagmanager.com 'sha256-y6C4FcdXwYQ+d+O0RJRhx1G2QZGRZoQj26Zi7ZN8iEI='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; font-src 'self'; frame-src https://www.facebook.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
 THEME="<script>(function(){try{var t=localStorage.getItem('hes-theme');if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>"
 CSSV=re.search(r'style\.css\?v=(\d+)',tpl).group(1)
 SPCSS_TEXT="""/*
@@ -211,14 +211,38 @@ def spslot(slot,profile=None):
   return f'<div class="sp-slot sp-slot--rectangle" data-sp-slot="{slot}"{pa}>\n  <p class="sp-label" data-sp-label></p>\n  <div class="sp-box sp-box--300x250" data-sp-box></div>\n</div>'
 def head(title,desc,path,ld,ogtype='website',img=None):
   img=img or BASE+'og-image.jpg'
-  url=BASE+path
+  url=BASE+path;GA_TAG="""<!-- Google tag (gtag.js) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function(){dataLayer.push(arguments);};
+  gtag('js', new Date());
+
+  gtag('config', 'G-HKNXBTG68Q');
+  (function () {
+    var injected = false;
+    function inject() {
+      if (injected) return;
+      injected = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-HKNXBTG68Q';
+      document.head.appendChild(s);
+    }
+    window.addEventListener('load', function () {
+      setTimeout(inject, 4000);
+    });
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
+      window.addEventListener(ev, inject, { once: true });
+    });
+  })();
+</script>"""
   return f'''<!doctype html>
-<html lang="en"><head>
+<html lang="en"><head>{GA_TAG}
 <meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="{CSP}"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width, initial-scale=1">
 {THEME}
 <title>{E(title)}</title><meta name="description" content="{E(desc)}">
 <meta name="color-scheme" content="light dark"><link rel="canonical" href="{url}"><meta name="robots" content="index, follow, max-image-preview:large">
-<meta property="og:type" content="{ogtype}"><meta property="og:site_name" content="Hanceville Entertainment &amp; Shopping"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{img}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc)}"><meta name="twitter:image" content="{img}">
+<meta property="og:type" content="{ogtype}"><meta property="og:site_name" content="Hanceville Entertainment &amp; Shopping"><meta property="og:locale" content="en_US"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{img}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc)}"><meta name="twitter:image" content="{img}">
 <meta name="theme-color" content="#0b0710"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="style.css?v={CSSV}"><link rel="stylesheet" href="place.css?v=2">
 <script type="application/ld+json">{json.dumps(ld,ensure_ascii=False)}</script>
@@ -469,18 +493,23 @@ simple('contact.html','Contact Us | Hanceville Entertainment & Shopping','How to
  '<section class="pl-sec"><h2>What to send us</h2><ul class="pl-links"><li><strong>A new listing:</strong> the business name, address, phone and a link to its website or Facebook Page.</li><li><strong>A correction:</strong> the listing name, what is wrong, and a link where we can confirm the right detail.</li><li><strong>A removal:</strong> the listing name. Owners can have a listing removed at any time.</li><li><strong>Local news or an event:</strong> a link to the official post or announcement.</li></ul></section>'
  '<section class="pl-sec"><h2>Business owners</h2><p>Want your business featured? Read how on the <a href="businesses.html#get-featured">Get Featured</a> section of the Business Directory.</p></section>')
 simple('privacy.html','Privacy Policy | Hanceville Entertainment & Shopping','What this site stores, what it does not collect, and how Facebook content and map links work.','Privacy Policy',
- '<section class="pl-sec"><h2>The short version</h2><p>This site has no accounts, no sign up forms, no advertising and no analytics or tracking scripts. We do not collect your name, email or location.</p></section>'
+ '<section class="pl-sec"><h2>Effective date</h2><p>Effective date: November 11, 2026. This policy was previously updated October 24, 2026.</p></section>'
+ '<section class="pl-sec"><h2>The short version</h2><p>This site has no accounts, no sign up forms, no advertising. We do not collect your name, email or location.</p><p>We use Google Analytics to count visits and see which pages people use, so we can improve this site. Google Analytics uses cookies and sends usage information to Google.</p></section>'
  '<section class="pl-sec"><h2>What stays on your own device</h2><p>Your browser keeps a few small settings so the site remembers your choices: your light or dark theme, and any listings you save as favorites. These live only in your browser\'s local storage. We never receive them, and you can clear them any time by clearing your browser\'s site data.</p><p>The site also uses a service worker that keeps copies of pages and images on your device so they load faster and still open with a weak signal.</p></section>'
  '<section class="pl-sec"><h2>Hosting</h2><p>The site is hosted on GitHub Pages. Like any web host, GitHub may log basic technical details such as your IP address to keep the service secure. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub General Privacy Statement</a>.</p></section>'
+ '<section class="pl-sec"><h2>Facebook (Meta) embeds</h2><p>The embeds on this site are provided by Meta Platforms (Facebook). No Facebook (Meta) script or iframe loads on this site until you click to show a post (click-to-load). When you do click, your browser connects to Meta/Facebook, and Meta may receive technical information such as your IP address and browser details under Meta\'s own policy, linked below.</p></section>'
  '<section class="pl-sec"><h2>Facebook posts and maps</h2><p>Facebook posts never load on their own. They appear only after you press a button such as "Show latest Facebook posts." Once you do, Facebook\'s own <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">privacy policy</a> applies to that content.</p><p>Direction buttons open Google Maps in a new tab, where <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google\'s privacy policy</a> applies.</p></section>'
- '<section class="pl-sec"><h2>Questions</h2><p>Message us through the <a href="contact.html">Contact page</a>. This policy was last updated October 24, 2026.</p></section>')
+ '<section class="pl-sec"><h2>Questions</h2><p>Message us through the <a href="contact.html">Contact page</a>. This policy was last updated November 11, 2026.</p></section>')
 simple('terms.html','Terms of Use | Hanceville Entertainment & Shopping','The terms for using the Hanceville Entertainment & Shopping community directory.','Terms of Use',
+ '<section class="pl-sec"><h2>Effective date</h2><p>Effective date: November 11, 2026. These terms were previously updated October 24, 2026.</p></section>'
  '<section class="pl-sec"><h2>Information only</h2><p>Listings, hours and news on this site are shared for general information. We check details against official sources, but businesses and offices can change things without notice, so please confirm hours and details with them before you go.</p></section>'
  '<section class="pl-sec"><h2>Independent site</h2><p>This is an independent community page. It is not the official Chamber of Commerce and is not affiliated with the City of Hanceville or any business listed here. A listing is not an endorsement.</p></section>'
  '<section class="pl-sec"><h2>Names, logos and links</h2><p>Business names, logos and trademarks belong to their owners and are shown only to identify each listing. News stories are written in our own words with links to the original source. Links to other websites are for your convenience, and those sites have their own terms.</p></section>'
  '<section class="pl-sec"><h2>Copyright</h2><p>&copy; 2026 Charles Adams, doing business as Hanceville Entertainment and Shopping. All rights reserved.</p></section>'
  '<section class="pl-sec"><h2>Corrections and removal</h2><p>Owners can ask us to correct or remove a listing at any time through the <a href="contact.html">Contact page</a>.</p></section>'
- '<section class="pl-sec"><h2>Changes</h2><p>We may update these terms as the site grows. They were last updated October 24, 2026.</p></section>')
+ '<section class="pl-sec"><h2>What "verified" means: published definition</h2><p><strong>Verified</strong> on this site means only this: at the date recorded for the listing, the site checked the specific details shown (such as name, address, phone, hours, or links) against a source in this order of preference: (1) the business or organisation\'s own website or an official government page; (2) the organisation\'s official Facebook Page; (3) another reputable source recorded for that listing. The sources relied on for each listing are listed on the <a href="sources.html">Sources and References</a> page.</p><p>"Verified" does <strong>not</strong> guarantee that a business is licensed, insured, safe, good quality, still open, or unchanged since the check; it does not mean the business endorses this site or that this site endorses the business; and details can change without notice, so confirm important details directly with the business before you go. A listing with no recorded source is not described as verified for facts that have no source: under the site\'s verification standard, a fact with no source is researched or held rather than published.</p></section>'
+ '<section class="pl-sec"><h2>Your submissions: user content licence</h2><p>If you submit material to this site (for example a listing suggestion, a photo, a correction, or a post for a community board), you keep ownership of it. By submitting it, you give Charles Adams, doing business as Hanceville Entertainment and Shopping, a non-exclusive, royalty-free licence to use, copy, adapt for format and length, publish, and display that material on this site and its related Facebook Pages for the purpose for which you submitted it, until you ask for its removal through the <a href="contact.html">Contact page</a>, after which it will be removed subject to any legal duty to retain a record. You must only submit material you have the right to submit, that you know is accurate and lawful, and that does not belong to another person. Contributors remain responsible for material they submit (as the live terms already state). This licence does not transfer any business logo or trademark to this site: logos remain their owners\' property and are shown only to identify the listing (see the provenance/scope rule in the site\'s records).</p></section>'
+ '<section class="pl-sec"><h2>Changes</h2><p>We may update these terms as the site grows. They were last updated November 11, 2026.</p></section>')
 # Sources and References: every citation for every listing lives here
 sb='<section class="pl-sec"><h2>How we source information</h2><p>Every detail in the directory comes from an official source: the business or office\'s own website, its own Facebook Page, a listing its owner has claimed, or a public record. The sources for each listing are below, with the date we last checked when we have it. Listings without a source link here come from our original community directory and are queued for re-checking.</p></section>'
 byl={}
@@ -532,8 +561,31 @@ if lost:
   if '--strict' in sys.argv:
     print('--strict: stopping with exit code 2. Nothing was deleted and sitemap.xml, news-sitemap.xml and places.json were not updated (page files were already rebuilt in place, see git status).');sys.exit(2)
   if keep:pages.extend(lost)
+# Decided redirect stubs, kept by name across every run (generator-residue fix, 2026-11-14):
+# the four place-flip-out-hair-salon* stubs are the meta-refresh redirects left at the old URLs
+# when "Flip Out Hair Salon" was renamed to "Flipped Out Hair Salon" (Charles's 2026-11-11
+# decision sweep, item [49]; published as PR #177; registry decision [30]); the category stub
+# is the redirect left when Utilities & Public Works was consolidated onto one canonical
+# category page (PR #172). A pristine run deleted all five before commit a237523 taught the
+# sweep to sniff for meta refresh; they are now named outright so the decision, not the file
+# contents, is what protects them. The meta-refresh sniff below stays as a fallback for any
+# future hand-made stub that has not been added to this list yet.
+# Addendum (Step 2 composition, 2026-11-14): the four place-score-alabama-chapter*
+# stubs left by the SCORE rename (PR #186) and the two stale-slug stubs
+# (place-hospice-other-than-cullman-regional-hospice, place-plumbing; staged in
+# their own package, named here ahead of their publish) join the set.
+KEEP_STUBS={'place-flip-out-hair-salon.html','place-flip-out-hair-salon-contact.html',
+ 'place-flip-out-hair-salon-location.html','place-flip-out-hair-salon-related.html',
+ 'category-utilities-and-public-works.html',
+ 'place-score-alabama-chapter.html','place-score-alabama-chapter-contact.html',
+ 'place-score-alabama-chapter-related.html','place-score-alabama-chapter-social.html',
+ 'place-hospice-other-than-cullman-regional-hospice.html','place-plumbing.html'}
 for f in os.listdir('.'):
-  if re.match(r'^(place|category)-.*\.html$',f) and f not in pages:os.remove(f)
+  if re.match(r'^(place|category)-.*\.html$',f) and f not in pages:
+    if f in KEEP_STUBS:continue
+    # keep hand made redirect stubs for renamed listings and categories (meta refresh), never list them in the sitemap
+    if re.search(r'http-equiv="refresh"',open(f,encoding='utf-8').read(),re.I):continue
+    os.remove(f)
 # sitemap
 sm=open('sitemap.xml').read();sm=re.sub(r'\s*<url><loc>'+re.escape(BASE)+r'(place|category)-[^<]*</loc>.*?</url>','',sm,flags=re.S)
 sm=re.sub(r'\s*<url><loc>'+re.escape(BASE)+r'(places|about|contact|privacy|terms|sources|sitemap)\.html</loc>.*?</url>','',sm,flags=re.S)
