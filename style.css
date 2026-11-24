@@ -3,4 +3,4 @@
 @media (forced-colors:active){.tabs a[aria-current],.mainnav a[aria-current]{outline:2px solid ButtonText;outline-offset:-2px}a.btn{border:1px solid ButtonText}}
 /* Perf (Lighthouse fix pkg 3): skip layout/paint of off-screen rendered card lists.
    Content remains in the DOM, findable and readable by assistive tech. */
-.grid, .pl-sec { content-visibility: auto; contain-intrinsic-size: auto 480px; }
+.grid { content-visibility: auto; contain-intrinsic-size: auto 480px; }
