@@ -21,17 +21,30 @@ function tile(r){
 var pic=r[4]?'<img src="'+esc(r[3])+'" alt="" width="48" height="48" loading="lazy" decoding="async">':'<span class="pl-ini" aria-hidden="true">'+esc(r[3])+'</span>';
 return '<li><a class="pl-tile" href="place-'+esc(r[0])+'.html">'+pic+'<span><strong>'+esc(r[1])+'</strong><small>'+esc(r[2])+'</small></span></a></li>';
 }
+/* Perf (Lighthouse fix pkg 3): append the letter groups in <=40 ms frame slices
+   instead of one innerHTML build, so no single task blocks the main thread.
+   Same markup, same order; variantize and the hash scroll run at completion. */
 function draw(groups){
-var out="";
-groups.forEach(function(g){
-var id="l-"+(g[0]==="#"?"num":g[0]);
-out+='<section class="pl-sec" id="'+esc(id)+'"><h2>'+esc(g[0])+'</h2><ul class="pl-grid">'+g[1].map(tile).join("")+'</ul></section>';
-});
-box.innerHTML=out;
+box.innerHTML="";
+var i=0;
+(function step(){
+var t0=performance.now();
+while(i<groups.length){
+var g=groups[i++],id="l-"+(g[0]==="#"?"num":g[0]);
+var sec=document.createElement("section");
+sec.className="pl-sec";sec.id=id;
+sec.innerHTML='<h2>'+esc(g[0])+'</h2><ul class="pl-grid">'+g[1].map(tile).join("")+'</ul>';
+box.appendChild(sec);
+if(performance.now()-t0>40)break;
+}
+if(i<groups.length){requestAnimationFrame(step);}
+else{
 if(SLH_VMAN)box.querySelectorAll('.pl-tile img').forEach(slhVariantize);
 box.style.minHeight="";
 var h=location.hash;
 if(h.length>1){var t=document.getElementById(decodeURIComponent(h.slice(1)));if(t)t.scrollIntoView();}
+}
+})();
 }
 function fail(){box.innerHTML='<p>The full A to Z list could not load. Use the category links above to browse every listing.</p>';box.style.minHeight="";}
 fetch(box.getAttribute("data-src")).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();}).then(draw).catch(fail);

@@ -69,7 +69,16 @@ function card(e,kind){var sk=schoolOf(e.name,e.host);var c=el('article','card '+
  if(a.childNodes.length)c.appendChild(a);
  var src=safe(e.source);if(src&&src!==e.website&&src!==e.url){var sp=el('p','src');var sl=el('a',null,'Source');sl.href=src;sl.target='_blank';sl.rel='noopener noreferrer';sl.setAttribute('aria-label','Source for '+e.name);sp.appendChild(sl);c.appendChild(sp);}
  return c;}
-function groups(box,items,p){box.replaceChildren();p.o.forEach(function(g){var it=items.filter(function(e){return e[p.g]===g;});if(!it.length)return;var h=el('h2','group',g+' ('+it.length+')');h.id=slug(g);box.appendChild(h);var gr=el('div','grid');it.forEach(function(e){gr.appendChild(card(e,p.k));});box.appendChild(gr);});}
+/* Perf (Lighthouse fix pkg 3): groups() builds the full list into a DocumentFragment
+   (detached, so no layout while building) and appends it in <=40 ms frame slices, so
+   no single task blocks the main thread. Same markup, same order. A generation
+   counter makes a newer render supersede an in-flight one (the last filter/search
+   wins, exactly as with the old synchronous build), and afterRender() lets the
+   hash-scroll paths below run once the list is fully in the DOM, as they did when
+   the build was synchronous. */
+var groupsGen=0,renderBusy=false,renderWaiters=[];
+function afterRender(f){if(renderBusy)renderWaiters.push(f);else f();}
+function groups(box,items,p){var gen=++groupsGen;box.replaceChildren();var frag=document.createDocumentFragment();p.o.forEach(function(g){var it=items.filter(function(e){return e[p.g]===g;});if(!it.length)return;var h=el('h2','group',g+' ('+it.length+')');h.id=slug(g);frag.appendChild(h);var gr=el('div','grid');it.forEach(function(e){gr.appendChild(card(e,p.k));});frag.appendChild(gr);});renderBusy=true;(function step(){if(gen!==groupsGen)return;var t0=performance.now();while(frag.firstChild){box.appendChild(frag.firstChild);if(performance.now()-t0>40)break;}if(frag.firstChild){requestAnimationFrame(step);return;}renderBusy=false;var w=renderWaiters;renderWaiters=[];w.forEach(function(f){f();});})();}
 function jump(){if(location.hash){var t=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t){window.scrollTo(0,t.getBoundingClientRect().top+window.pageYOffset-((document.querySelector(".site-head")||{}).offsetHeight||0)-12);t.classList.add("hl");t.setAttribute("tabindex","-1");t.focus({preventScroll:true});}}}
 // tabs
 var P=PAGES.filter(function(p){return p.k===cur;})[0];
@@ -92,7 +101,7 @@ if(nav){var GR=[['City Services',['city','departments','council','directory']],[
  function scrollToId(id){var t=document.getElementById(id);if(!t)return false;var y=t.getBoundingClientRect().top+window.pageYOffset-headH();window.scrollTo({top:y,behavior:'smooth'});return true;}
  function mark(a){[].forEach.call(nav.querySelectorAll('.sub a'),function(x){x.removeAttribute('aria-current');x.classList.remove('active');});if(a){a.classList.add('active');a.setAttribute('aria-current','location');}}
  nav.addEventListener('click',function(e){var a=e.target.closest('a');if(!a)return;var h=a.getAttribute('href')||'';
-  if(h.charAt(0)==='#'){e.preventDefault();var id=h.slice(1);if(!document.getElementById(id)&&resetFilter)resetFilter();if(scrollToId(id)){history.replaceState(null,'','#'+id);mark(a);}setMenu(false,true);}
+  if(h.charAt(0)==='#'){e.preventDefault();var id=h.slice(1);if(!document.getElementById(id)&&resetFilter)resetFilter();afterRender(function(){if(scrollToId(id)){history.replaceState(null,'','#'+id);mark(a);}});setMenu(false,true);}
   else{setMenu(false,true);}});
  var subs=[].slice.call(nav.querySelectorAll('.sub a'));
  if(subs.length){var ticking=false;window.addEventListener('scroll',function(){if(ticking)return;ticking=true;requestAnimationFrame(function(){ticking=false;var cur=null,lim=headH()+30;subs.forEach(function(a){var t=document.getElementById(a.getAttribute('href').slice(1));if(t&&t.getBoundingClientRect().top<=lim)cur=a;});mark(cur);});},{passive:true});}
@@ -129,7 +138,7 @@ if(P&&box){get(P).then(function(d){
    st.textContent=(P.k==='events'&&!d.length)?'Nothing is on the calendar right now. Follow our Facebook Page and we\u2019ll post new events soon.':(cur==='All'&&!t)?'':(f.length?f.length+' shown. Tap Show all to see everything.':'We didn\u2019t find a match. Try a different word or tap Show all.');}
   resetFilter=function(){fq.value='';if(cur!=='All')fc.children[0].click();else go();};fq.addEventListener('input',go);go();}
  else{groups(box,d,P);st.textContent='';}
- jump();}).catch(function(){st.textContent='Sorry, this list didn\u2019t load. Please try again in a little while.';});}
+ afterRender(jump);}).catch(function(){st.textContent='Sorry, this list didn\u2019t load. Please try again in a little while.';});}
 
 // theme toggle
 var tday=document.getElementById('day-btn'),tnight=document.getElementById('night-btn');
